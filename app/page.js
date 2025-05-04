@@ -4,6 +4,7 @@ import TrustedBySection from "@/components/TrustedBySection"
 import ArticlesSection from "@/components/ArticlesSection"
 import FAQSection from "@/components/FAQ"
 import Testimonials from "@/components/Testimonials"
+import PartnersSection from "@/components/PartnersSection"
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
       <ArticlesSection />
       <Testimonials />
       <FAQSection />
+      <PartnersSection />
     </>
   )
 }

@@ -1,6 +1,9 @@
+"use client"
 import Image from "next/image"
+import { useRouter } from "next/navigation"
 
 export default function HeroSection() {
+  const router = useRouter()
   return (
     <section className="w-full bg-[#1e3a66] py-8 px-4 md:px-16 flex flex-col md:flex-row items-center justify-between">
       {/* Text Section */}
@@ -24,6 +27,7 @@ export default function HeroSection() {
           width={500}
           height={500}
           className="rounded-3xl shadow-2xl"
+          onClick={() => router.push("/")}
         />
       </div>
     </section>

@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react" // You can use any icon lib you like
+import { useRouter } from "next/navigation"
 
 const menuItems = [
   { label: "Familie og arveret", sub: ["Skilsmisse", "Testamente"] },
@@ -12,6 +13,7 @@ const menuItems = [
 ]
 
 export default function Header() {
+  const router = useRouter()
   const [openMenu, setOpenMenu] = useState(null)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileSubmenu, setMobileSubmenu] = useState(null)
@@ -19,7 +21,9 @@ export default function Header() {
   return (
     <header className="bg-[#002f5a] text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Christian Gefke</h1>
+        <h1 onClick={() => router.push("/")} className="text-2xl font-bold">
+          Christian Gefke
+        </h1>
 
         {/* Hamburger Button - only visible on mobile */}
         <button

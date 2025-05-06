@@ -42,11 +42,11 @@ export default function HeroSection() {
               alt="Christian Gefke"
               width={550}
               height={600}
-              className="w-full h-auto max-h-[420px] md:scale-140 pb-6 rounded-md shadow-2xl object-cover"
+              className="w-full h-auto max-h-[420px] scale-115 lg:scale-140 pb-6 rounded-md shadow-2xl object-cover"
             />
             <div
               className="bg-black/70 text-center px-4 py-3 text-xs md:text-sm 
-                         md:absolute md:top-93 inset-x-0"
+                         md:absolute  md:top-93 inset-x-0"
             >
               Vi varetager overgangen til et liv i Spanien for dig som dansker.
               <br />

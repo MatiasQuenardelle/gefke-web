@@ -4,7 +4,8 @@ import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { useRouter } from "next/navigation"
-
+import { Merriweather } from "next/font/google"
+const merri = Merriweather({ weight: "700", subsets: ["latin"] })
 /** Helper to create URL‑friendly slugs */
 function slugify(str) {
   return str
@@ -96,7 +97,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1
           onClick={() => router.push("/")}
-          className="text-4xl md:ml-10 font-bold cursor-pointer"
+          className="text-3xl {`${merri.className}`} md:ml-10 font-bold cursor-pointer"
         >
           Christian Gefke
         </h1>

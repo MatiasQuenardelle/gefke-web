@@ -42,7 +42,7 @@ export default function HeroSection() {
               alt="Christian Gefke"
               width={550}
               height={600}
-              className="w-full h-auto max-h-[420px] scale-115 lg:scale-140 pb-6 rounded-md shadow-2xl object-cover"
+              className="w-full h-auto max-h-[420px] scale-115 lg:scale-140 pb-6 rounded-md  object-cover"
             />
             <div
               className="bg-black/70 text-center px-4 py-3 text-xs md:text-sm 

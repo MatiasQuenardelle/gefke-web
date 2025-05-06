@@ -34,196 +34,165 @@ export default function RealEstateInvestmentSpain() {
         />
       </Head>
 
-      <main className="bg-white text-black px-4 md:px-12 lg:px-24 py-12">
-        <article className="prose prose-lg max-w-4xl mx-auto">
-          <h1>
-            Investering i fast ejendom i Spanien: Planlovgivning, byggeret og
-            juridiske undersøgelser
-          </h1>
-          <p>
-            Drømmer du om at investere i fast ejendom i Spanien – enten som
-            privatbolig, feriebolig eller erhvervsmæssig investering? Det
-            spanske ejendomsmarked kan være yderst attraktivt, men rummer også
-            betydelige juridiske og praktiske risici. I denne artikel gennemgår
-            vi de vigtigste aspekter, du skal være opmærksom på:{" "}
-            <strong>
-              planlovgivning (ordenación urbanística), byggeret (contrato de
-              obra)
-            </strong>{" "}
-            samt de{" "}
-            <strong>
-              nødvendige juridiske undersøgelser, før du køber eller bygger.
-            </strong>
-          </p>
+      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
+        <article className="max-w-4xl mx-auto space-y-10">
+          <header className="text-center">
+            <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
+              Investering i fast ejendom i Spanien
+            </h1>
+            <p className="mt-4 text-lg text-gray-700">
+              Planlovgivning, byggeret og juridiske undersøgelser – alt du skal
+              vide, før du køber.
+            </p>
+          </header>
 
-          <h2>
-            1. Byplanlægning og lokalplaner i Spanien (Plan General, ordenación
-            urbanística)
-          </h2>
-          <p>
-            Inden du foretager et køb eller planlægger nybyggeri, er det
-            afgørende at forstå den spanske{" "}
-            <strong>by- og planlovgivning</strong>, som varierer fra kommune til
-            kommune.
-          </p>
-          <ul>
-            <li>
-              Hver kommune har en{" "}
-              <strong>Plan General de Ordenación Urbana (PGOU)</strong>, der
+          <section className="space-y-6">
+            <p>
+              Overvejer du at investere i fast ejendom i Spanien – som bolig,
+              feriehus eller erhverv? Det spanske marked er attraktivt, men
+              rummer også juridiske risici.
+            </p>
+            <p>
+              Her får du et overblik over{" "}
+              <strong>byplanlovgivning (ordenación urbanística)</strong>,{" "}
+              <strong>byggeret (contrato de obra)</strong> og vigtige{" "}
+              <strong>juridiske undersøgelser</strong>.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              1. Byplanlægning og lokalplaner (PGOU)
+            </h2>
+            <p>
+              Hver spansk kommune har en{" "}
+              <strong>Plan General de Ordenación Urbana (PGOU)</strong>, som
               fastlægger:
-              <ul>
-                <li>
-                  Om et område er klassificeret som urbant (byggeklar), rustikt
-                  (landzone) eller urbaniserbart (udviklingsområde);
-                </li>
-                <li>
-                  Hvilken <strong>tilladt anvendelse</strong> der gælder (bolig,
-                  kommerciel, landbrug);
-                </li>
-                <li>Maksimal bebyggelsesprocent, højde, afstande, etc.</li>
-              </ul>
-            </li>
-          </ul>
-          <p>
-            <strong>Vigtigt:</strong> En ejendom, der ser færdig og beboelig ud,
-            kan stadig være i strid med lokalplanen, fx hvis den er opført uden
-            byggetilladelse eller ikke er legaliseret.
-          </p>
-          <p>
-            <strong>
-              Derfor er en planmæssig undersøgelse hos kommunen (Ayuntamiento)
-              altid påkrævet.
-            </strong>
-          </p>
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                Klassificering: urbant (byggegrunde), rustikt (landzone),
+                urbaniserbart (udviklingsområde)
+              </li>
+              <li>Tilladt anvendelse: bolig, erhverv, landbrug m.m.</li>
+              <li>Bebyggelsesprocent, byggehøjde og afstandskrav</li>
+            </ul>
+            <p>
+              En bolig kan se færdig ud – men stadig være ulovligt opført.
+              Derfor er en{" "}
+              <strong>
+                planmæssig undersøgelse hos kommunen (Ayuntamiento)
+              </strong>{" "}
+              altid nødvendig.
+            </p>
+          </section>
 
-          <h2>2. Byggeret og entreprisekontrakter (Contrato de obra)</h2>
-          <p>
-            Hvis du overvejer at bygge nyt eller renovere, skal du indgå en{" "}
-            <strong>entreprisekontrakt</strong> med en spansk entreprenør eller
-            arkitekt.
-          </p>
-          <p>
-            En korrekt udformet <strong>contrato de obra</strong> bør omfatte:
-          </p>
-          <ul>
-            <li>
-              Detaljeret beskrivelse af arbejdet og projektet (ofte vedlagt
-              teknisk projekt);
-            </li>
-            <li>Tidsplan og leveringsdato;</li>
-            <li>
-              Pris og betalingsbetingelser (fast pris, per fase eller efter
-              forbrug);
-            </li>
-            <li>
-              Garantier og forsikringer (fx decenal-forsikring ved nybyggeri);
-            </li>
-            <li>
-              Ansvarsområder og tilladelser (byggetilladelse, affaldshåndtering
-              m.m.);
-            </li>
-            <li>Klausuler for forsinkelse, afbrydelse eller mangler.</li>
-          </ul>
-          <p>
-            <strong>
-              Bemærk: Du bør aldrig underskrive en standardkontrakt uden
-              juridisk gennemgang.
-            </strong>{" "}
-            Det er dit eneste værn mod senere tvister.
-          </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              2. Entreprisekontrakter og byggeret
+            </h2>
+            <p>
+              Ved nybyggeri eller renovering skal du indgå en{" "}
+              <strong>entreprisekontrakt (contrato de obra)</strong> med en
+              lokal entreprenør.
+            </p>
+            <p>Kontrakten bør omfatte:</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Projektbeskrivelse og tekniske bilag</li>
+              <li>Tidsplan og deadline</li>
+              <li>Pris og betalingsplan</li>
+              <li>Garantier og ansvarsforsikringer (fx decenal)</li>
+              <li>Tilladelser og ansvar for byggeaffald m.m.</li>
+              <li>Klausuler ved forsinkelse eller fejl</li>
+            </ul>
+            <p className="font-semibold text-red-700">
+              Undgå at skrive under på en standardkontrakt uden juridisk
+              vurdering – det er dit bedste værn mod tvister.
+            </p>
+          </section>
 
-          <h2>3. Juridiske undersøgelser før køb (Due Diligence)</h2>
-          <p>
-            Forud for ethvert køb bør der gennemføres en{" "}
-            <strong>grundig juridisk due diligence</strong> af ejendommen.
-          </p>
-          <ul>
-            <li>
-              <strong>Ejendomsret og hæftelser:</strong> Verifikation i
-              Ejendomsregistret (Registro de la Propiedad), herunder
-              ejerforhold, servitutter, pantehæftelser og gæld.
-            </li>
-            <li>
-              <strong>Urbanistisk status:</strong> Er der udstedt
-              byggetilladelser? Er boligen legaliseret? Er der udestående krav
-              fra kommunen?
-            </li>
-            <li>
-              <strong>Beboelsescertifikat og energicertifikat:</strong>{" "}
-              Nødvendigt for at kunne bebo og videresælge ejendommen.
-            </li>
-            <li>
-              <strong>Skatteforpligtelser:</strong> Udarbejdelse af
-              skatteopgørelse, herunder ITP, Notarudgifter og
-              registreringsafgift.
-            </li>
-            <li>
-              <strong>Samtykke fra fællesskaber:</strong> Hvis ejendommen er en
-              del af et ejerfællesskab (comunidad), bør vedtægter og økonomi
-              undersøges.
-            </li>
-          </ul>
-          <p>
-            Dette giver dig klarhed over,{" "}
-            <strong>om der er skjulte juridiske eller økonomiske risici</strong>
-            , som kan forhindre eller fordyre dit køb.
-          </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              3. Juridisk due diligence før køb
+            </h2>
+            <p>
+              Før du køber, bør der udføres en{" "}
+              <strong>grundig juridisk due diligence</strong>:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                <strong>Ejendomsret og hæftelser:</strong> ejerforhold,
+                pantehæftelser og servitutter
+              </li>
+              <li>
+                <strong>Urbanistisk status:</strong> byggetilladelser,
+                legalisering, krav fra kommunen
+              </li>
+              <li>
+                <strong>Beboelsescertifikat og energimærkning</strong> – kræves
+                ved beboelse og videresalg
+              </li>
+              <li>
+                <strong>Skatteforhold:</strong> beregning af overdragelsesskat,
+                notargebyrer, tinglysning
+              </li>
+              <li>
+                <strong>Fællesskab:</strong> ved ejerlejlighed skal vedtægter og
+                økonomi undersøges
+              </li>
+            </ul>
+            <p>
+              Formålet er at afdække{" "}
+              <strong>skjulte juridiske og økonomiske risici</strong>, som
+              ellers kan blive dyre.
+            </p>
+          </section>
 
-          <h2>4. Tinglysning og overdragelse af ejendomsretten</h2>
-          <p>
-            Når købsaftalen er underskrevet, og købsprisen er betalt, skal din
-            ejendom{" "}
-            <strong>
-              notarielt overdrages og registreres i Ejendomsregistret
-            </strong>
-            . Dette indebærer:
-          </p>
-          <ul>
-            <li>
-              Underskrivelse af <strong>skødet (escritura pública)</strong>{" "}
-              foran en spansk notar;
-            </li>
-            <li>Betaling af skatter og gebyrer;</li>
-            <li>Officiel tinglysning af ejendommen i dit navn;</li>
-            <li>
-              Indhentning af NIE-nummer og åbning af bankkonto, hvis du er
-              udenlandsk køber.
-            </li>
-          </ul>
-          <p>
-            Alt dette bør koordineres af en erfaren advokat for at undgå fejl og
-            forsinkelser.
-          </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              4. Skøde og tinglysning
+            </h2>
+            <p>
+              Når aftalen er underskrevet og købsprisen betalt, skal ejendommen
+              overdrages via notar:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                Underskrivelse af <strong>escritura pública</strong> (skøde)
+              </li>
+              <li>Betaling af skatter og tinglysningsafgift</li>
+              <li>
+                Officiel registrering i <strong>Ejendomsregistret</strong>
+              </li>
+              <li>Ansøgning om NIE og oprettelse af bankkonto</li>
+            </ul>
+            <p>
+              Hele processen bør håndteres af en advokat – for at sikre korrekt
+              ejerskab uden forsinkelser.
+            </p>
+          </section>
 
-          <h2>5. Opsummering: Beskyt din investering med rådgivning</h2>
-          <p>
-            At købe eller bygge fast ejendom i Spanien er en vigtig investering
-            – og en potentiel faldgrube uden korrekt juridisk støtte. Ved at
-            sikre:
-          </p>
-          <ul>
-            <li>At ejendommen er lovligt opført og registreret;</li>
-            <li>
-              At der foreligger en korrekt entreprisekontrakt ved byggeri;
-            </li>
-            <li>
-              At alle planmæssige og juridiske forhold er afklaret på forhånd,
-            </li>
-          </ul>
-          <p>...undgår du juridiske tvister, bøder og økonomiske tab.</p>
-
-          <p>
-            <strong>
-              Har du planer om at investere i fast ejendom i Spanien?
-            </strong>{" "}
-            Jeg rådgiver dig hele vejen – fra juridisk due diligence og
-            købsaftale til byggeri og registrering. Med indgående kendskab til
-            både spansk og dansk ret sikrer jeg dine interesser og din
-            investering.
-          </p>
-          <p>
-            <strong>Kontakt mig i dag for en uforpligtende vurdering.</strong>
-          </p>
+          <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
+            <h2 className="text-2xl font-bold text-blue-900">
+              5. Konklusion: Få styr på juraen før du investerer
+            </h2>
+            <p>
+              Fast ejendom i Spanien kan være en solid investering – hvis den
+              håndteres korrekt. Derfor bør du altid:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Undersøge lokalplan og byggetilladelser</li>
+              <li>Have en skriftlig og gennemgået entreprisekontrakt</li>
+              <li>Få foretaget juridisk due diligence før køb</li>
+            </ul>
+            <p className="font-semibold text-lg">
+              Har du planer om at købe eller bygge bolig i Spanien? Jeg rådgiver
+              dig – fra due diligence og kontrakter til byggeri og tinglysning.
+            </p>
+            <p className="text-lg">
+              Kontakt mig for en uforpligtende vurdering og sikker investering.
+            </p>
+          </section>
         </article>
       </main>
     </>

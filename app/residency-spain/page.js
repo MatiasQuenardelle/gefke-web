@@ -34,208 +34,183 @@ export default function ResidencySpainArticle() {
         />
       </Head>
 
-      <main className="bg-white text-black px-4 md:px-12 lg:px-24 py-12">
-        <article className="prose prose-lg max-w-4xl mx-auto">
-          <h1>
-            Opholdstilladelse, familiesammenføring og statsborgerskab i Spanien
-            – Hvad skal du vide som dansker?
-          </h1>
+      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
+        <article className="max-w-4xl mx-auto space-y-10">
+          <header>
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight text-center text-blue-900">
+              Opholdstilladelse, familiesammenføring og statsborgerskab i
+              Spanien
+            </h1>
+            <p className="mt-4 text-lg text-center text-gray-700">
+              Hvad skal du vide som dansker? Få det juridiske overblik her.
+            </p>
+          </header>
 
-          <p>
-            Spanien er et populært land for både pensionister, familier og
-            professionelle udlændinge, der ønsker at bosætte sig permanent.
-            Mange vælger også Spanien som springbræt for ægtefællesammenføring,
-            især hvis man ønsker at bringe en partner fra et land uden for EU
-            til Europa.
-          </p>
+          <section className="space-y-6">
+            <p>
+              Spanien er et populært valg for både pensionister, familier og
+              professionelle udlændinge, der ønsker at bosætte sig permanent.
+              Mange vælger også Spanien som springbræt til ægtefællesammenføring
+              – særligt hvis partneren er fra et land uden for EU.
+            </p>
 
-          <p>
-            I denne artikel gennemgår vi de tre vigtigste aspekter for dig, der
-            ønsker at <strong>bosætte dig lovligt i Spanien</strong>:
-          </p>
+            <p className="font-medium">
+              Her gennemgår vi de tre vigtigste emner, hvis du ønsker at
+              <span className="text-blue-800 font-semibold">
+                {" "}
+                bosætte dig lovligt i Spanien:
+              </span>
+            </p>
 
-          <ol>
-            <li>Opholdstilladelse for EU-borgere og tredjelandsstatsborgere</li>
-            <li>Familiesammenføring gennem bopæl i Spanien</li>
-            <li>Naturalisation og spansk statsborgerskab</li>
-          </ol>
+            <ol className="list-decimal list-inside space-y-2 text-gray-800">
+              <li>Opholdstilladelse for EU- og ikke-EU-borgere</li>
+              <li>Familiesammenføring via bopæl i Spanien</li>
+              <li>Naturalisation og spansk statsborgerskab</li>
+            </ol>
+          </section>
 
-          <h2>
-            1. Opholdstilladelse i Spanien – regler for EU-borgere og øvrige
-            udlændinge
-          </h2>
+          {/* Section 1 */}
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              1. Opholdstilladelse i Spanien
+            </h2>
 
-          <h3>EU-borgere (herunder danskere)</h3>
-          <p>
-            Som dansk statsborger har du{" "}
-            <strong>ret til ophold i Spanien i op til 3 måneder</strong> uden
-            formaliteter. Hvis du ønsker at blive længere, skal du{" "}
-            <strong>registrere dig som resident</strong>.
-          </p>
+            <h3 className="text-xl font-semibold text-gray-800">
+              EU-borgere (fx danskere)
+            </h3>
+            <p>
+              Som dansk statsborger har du{" "}
+              <strong>ret til ophold i op til 3 måneder</strong> uden
+              registrering. Ved længere ophold skal du registrere dig som
+              resident.
+            </p>
+            <p className="font-medium">Krav for EU-registrering (EX-18):</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Bevis for økonomisk selvforsørgelse</li>
+              <li>Sygeforsikring med dækning i Spanien</li>
+              <li>Gyldigt pas</li>
+              <li>Fysisk fremmøde på extranjeríakontoret</li>
+            </ul>
+            <p>
+              Du modtager herefter et <strong>grønt NIE-kort</strong> som bevis
+              for residencia.
+            </p>
 
-          <p>
-            Kravene for{" "}
-            <strong>
-              EU-opholdsregistrering (residencia de ciudadano de la UE)
-            </strong>{" "}
-            er:
-          </p>
-          <ul>
-            <li>
-              Bevis for økonomisk selvforsørgelse (fx pensionsindtægter,
-              opsparing eller løn)
-            </li>
-            <li>Sygeforsikring med fuld dækning i Spanien</li>
-            <li>Gyldigt pas</li>
-            <li>Udfyldt model EX-18 og møde hos extranjeríakontoret</li>
-          </ul>
-          <p>
-            Du får herefter et <strong>grønt NIE-kort</strong>, som dokumenterer
-            din status som resident.
-          </p>
+            <h3 className="text-xl font-semibold text-gray-800">
+              Tredjelandsstatsborgere
+            </h3>
+            <p>
+              For statsborgere uden for EU kræves opholdstilladelse. Der findes
+              flere typer:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Med arbejdstilladelse (via arbejdsgiver)</li>
+              <li>Som selvstændig (autónomo)</li>
+              <li>Uden arbejde (non-lucrative visa)</li>
+            </ul>
+            <p>
+              Ansøgningen foregår typisk via det spanske konsulat i hjemlandet
+              eller lokalt i Spanien.
+            </p>
+          </section>
 
-          <h3>Tredjelandsstatsborgere</h3>
-          <p>
-            Hvis du ikke er EU-borger (eller ønsker at bringe en
-            ægtefælle/partner fra et land uden for EU), skal der ansøges om{" "}
-            <strong>opholdstilladelse (autorización de residencia)</strong>. Der
-            findes flere kategorier:
-          </p>
-          <ul>
-            <li>Ophold med arbejdstilladelse (arbejdsgiveransat)</li>
-            <li>Ophold som selvstændig (autónomo)</li>
-            <li>Ophold uden arbejde (non-lucrative visa)</li>
-          </ul>
-          <p>
-            Ansøgningen sker typisk via{" "}
-            <strong>spansk konsulat i oprindelseslandet</strong> eller lokalt i
-            Spanien, afhængigt af om personen allerede befinder sig i landet
-            lovligt.
-          </p>
+          {/* Section 2 */}
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              2. Familiesammenføring i Spanien
+            </h2>
 
-          <h2>2. Ægtefællesammenføring via Spanien (reagrupación familiar)</h2>
-          <p>
-            En stor fordel ved at bosætte sig i Spanien er, at du efter relativt
-            kort tid kan{" "}
-            <strong>samle din familie – også fra tredjelande</strong>.
-          </p>
+            <h3 className="text-xl font-semibold">
+              A. EU-borger med tredjelandsægtefælle
+            </h3>
+            <p>
+              Som EU-borger i Spanien kan du søge familiesammenføring efter
+              EU-direktivet. Fordelene inkluderer:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Hurtigere sagsbehandling</li>
+              <li>Lavere indkomstkrav</li>
+              <li>Arbejdstilladelse gives automatisk</li>
+            </ul>
+            <p>Krav:</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Gyldig residencia</li>
+              <li>Ægteskab eller registreret partnerskab</li>
+              <li>Bevis for bolig og økonomi</li>
+            </ul>
 
-          <h3>A. EU-borger med tredjelandsægtefælle (EU-direktiv)</h3>
-          <p>
-            Som dansk eller anden EU-borger bosat i Spanien, kan du søge{" "}
-            <strong>familiesammenføring under EU-reglerne</strong>, som er mere
-            lempelige end de nationale spanske regler. Kravene er:
-          </p>
-          <ul>
-            <li>Du skal være lovligt bosat i Spanien (med residencia)</li>
-            <li>
-              Ægteskab eller dokumenteret samlivsforhold (pareja de hecho)
-            </li>
-            <li>Bevis for økonomisk forsørgelse og bolig</li>
-          </ul>
-          <p>
-            <strong>Fordele ved EU-reglen:</strong>
-          </p>
-          <ul>
-            <li>Hurtigere behandlingstid</li>
-            <li>Lavere krav til indtægt</li>
-            <li>Automatisk ret til arbejdstilladelse for den sammenførte</li>
-          </ul>
+            <h3 className="text-xl font-semibold">
+              B. Tredjelandsborger, der søger familiesammenføring
+            </h3>
+            <p>
+              Som ikke-EU-borger i Spanien kræves ét års ophold, stabil økonomi
+              og familieforbindelse (ægtefælle, børn, forældre).
+            </p>
+            <p className="italic">
+              Vær opmærksom på skærpede krav og længere ventetid ved national
+              ordning.
+            </p>
+          </section>
 
-          <h3>
-            B. Tredjelandsborger bosat i Spanien, der søger familiesammenføring
-          </h3>
-          <p>
-            Hvis du selv er ikke-EU-borger med opholdstilladelse i Spanien, kan
-            du <strong>ansøge om national familiesammenføring</strong>{" "}
-            (reagrupación familiar). Dette kræver:
-          </p>
-          <ul>
-            <li>Minimum ét års ophold i Spanien</li>
-            <li>Bevis for stabil indkomst og bolig</li>
-            <li>
-              Tilknytningsforhold (ægtefælle, børn, forældre under visse
-              betingelser)
-            </li>
-          </ul>
-          <p>
-            Behandlingstiden kan være længere og kravene skærpede, især ved
-            ægtefæller fra risikolande.
-          </p>
+          {/* Section 3 */}
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              3. Spansk statsborgerskab og naturalisation
+            </h2>
 
-          <h2>3. Statsborgerskab og naturalisation i Spanien</h2>
-          <p>
-            Det er muligt at ansøge om{" "}
-            <strong>spansk statsborgerskab gennem naturalisation</strong>, hvis
-            du har opholdt dig i landet i tilstrækkelig tid og opfylder de
-            øvrige krav.
-          </p>
+            <p>
+              Du kan søge <strong>spansk statsborgerskab</strong> efter længere
+              tids ophold og integration i samfundet.
+            </p>
 
-          <h3>Normale betingelser:</h3>
-          <ul>
-            <li>10 års lovligt og ubrudt ophold i Spanien</li>
-            <li>
-              Ingen alvorlige straffeattester (i Spanien eller hjemlandet)
-            </li>
-            <li>
-              Bestået prøve i spansk sprog (DELE A2) og samfundsforståelse
-              (CCSE)
-            </li>
-            <li>Integration og bopæl bevise i kommunen</li>
-          </ul>
+            <h3 className="text-xl font-semibold">Normale krav:</h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>10 års lovligt ophold</li>
+              <li>Ingen alvorlige straffeattester</li>
+              <li>Bestået DELE A2 og CCSE prøver</li>
+              <li>Bevis for bopæl og integration</li>
+            </ul>
 
-          <h3>Forkortet opholdstid for visse grupper:</h3>
-          <ul>
-            <li>
-              Kun 2 år for statsborgere fra Latinamerika, Filippinerne, Andorra,
-              Guinea Ekvatorial og Portugal
-            </li>
-            <li>
-              Kun 1 år for:
-              <ul>
-                <li>
-                  Ægtefæller til spanske statsborgere (efter 1 års ægteskab og
-                  fælles bopæl)
-                </li>
-                <li>Børn og børnebørn af spanske statsborgere</li>
-                <li>Personer født i Spanien</li>
-              </ul>
-            </li>
-          </ul>
+            <h3 className="text-xl font-semibold">Forkortet opholdstid:</h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>2 år for visse latinamerikanske lande og Portugal</li>
+              <li>1 år for ægtefæller, børn eller barnebørn af spaniere</li>
+            </ul>
 
-          <p>
-            <strong>Bemærk:</strong> Spanien tillader i princippet ikke dobbelt
-            statsborgerskab med Danmark, men{" "}
-            <strong>
-              frasigelse af dansk statsborgerskab håndhæves sjældent i praksis
-            </strong>
-            , og danske myndigheder tillader nu dobbelt statsborgerskab efter
-            lovændringen i 2015.
-          </p>
+            <p>
+              <strong>Bemærk:</strong> Dobbelt statsborgerskab accepteres ikke
+              formelt med Danmark, men praksis er lempelig. Danmark har siden
+              2015 tilladt dobbelt statsborgerskab.
+            </p>
+          </section>
 
-          <h2>Hvordan kan jeg hjælpe dig?</h2>
-          <p>
-            Som advokat i Spanien med speciale i{" "}
-            <strong>udlændingeret og international privatret</strong>, hjælper
-            jeg dig med:
-          </p>
-          <ul>
-            <li>Opholdsansøgninger (EU og ikke-EU)</li>
-            <li>Fuldmagt og repræsentation over for udlændingemyndighederne</li>
-            <li>Sammenføring af ægtefælle eller partner</li>
-            <li>Udarbejdelse af bolig- og forsørgelsesdokumentation</li>
-            <li>
-              Rådgivning i sager om{" "}
-              <strong>statsborgerskab og nationalitet</strong>
-            </li>
-          </ul>
+          {/* Legal Help Section */}
+          <section className="space-y-4 bg-blue-50 p-6 rounded-lg border border-blue-100">
+            <h2 className="text-2xl font-bold text-blue-900">
+              Hvordan kan jeg hjælpe dig?
+            </h2>
+            <p>
+              Som specialiseret advokat i udlændingeret og international
+              privatret kan jeg bistå dig med:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>EU- og ikke-EU opholdsansøgninger</li>
+              <li>Repræsentation over for myndigheder</li>
+              <li>Familiesammenføring</li>
+              <li>Dokumentation for bolig og økonomi</li>
+              <li>Statsborgerskab og juridisk rådgivning</li>
+            </ul>
+          </section>
 
-          <h2>Ønsker du at bo i Spanien og tage din familie med?</h2>
-          <p>
-            Kontakt mig for en individuel vurdering og juridisk bistand – uanset
-            om du er dansk pensionist, EU-borger eller partner til en
-            tredjelandsstatsborger.
-          </p>
+          <section className="text-center mt-10">
+            <h2 className="text-2xl font-bold text-blue-800 mb-4">
+              Ønsker du at bo i Spanien og tage familien med?
+            </h2>
+            <p className="text-lg">
+              Kontakt mig for en individuel vurdering og juridisk rådgivning –
+              uanset din situation.
+            </p>
+          </section>
         </article>
       </main>
     </>

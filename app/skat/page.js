@@ -1,4 +1,5 @@
-// app/skat/page.js
+"use client"
+
 import Head from "next/head"
 
 export default function SkatPage() {
@@ -12,242 +13,234 @@ export default function SkatPage() {
         />
       </Head>
 
-      <main className="prose lg:prose-lg mx-auto px-4 py-10">
-        <h1>
-          Skat i Spanien: Hvad udlændinge skal vide om beskatning, bopæl og
-          skattepligt
-        </h1>
+      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
+        <article className="max-w-4xl mx-auto space-y-10">
+          <header className="text-center">
+            <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
+              Skat i Spanien: Hvad udlændinge skal vide om beskatning, bopæl og
+              skattepligt
+            </h1>
+            <p className="mt-4 text-lg text-gray-700">
+              Et overblik over spansk skat for danskere, uanset om du bor,
+              arbejder eller investerer i Spanien.
+            </p>
+          </header>
 
-        <p>
-          At bo, arbejde eller investere i Spanien medfører en række
-          skattemæssige forpligtelser, der afhænger af, om du betragtes som{" "}
-          <strong>skattemæssigt hjemmehørende (residente)</strong> eller{" "}
-          <strong>ikke-hjemmehørende (no residente)</strong>. Uanset om du
-          arbejder, ejer ejendom eller har indkomst i Spanien, er det afgørende
-          at forstå, hvordan det spanske skattesystem fungerer, for at undgå
-          problemer og optimere din situation.
-        </p>
+          <section className="space-y-6">
+            <p>
+              At bo, arbejde eller investere i Spanien medfører skattemæssige
+              forpligtelser. Det er afgørende at forstå, om du er{" "}
+              <strong>skattemæssigt hjemmehørende (residente)</strong> eller{" "}
+              <strong>ikke-hjemmehørende (no residente)</strong>.
+            </p>
 
-        <p>
-          I denne artikel gennemgår vi det <strong>spanske skattesystem</strong>
-          , de vigtigste <strong>direkte og indirekte skatter</strong>, samt
-          hvad det indebærer at være{" "}
-          <strong>residente eller no residente</strong>.
-        </p>
+            <p>
+              Denne artikel giver dig indsigt i{" "}
+              <strong>spansk skattesystem</strong>, forskellen på direkte og
+              indirekte skatter, samt hvad skattemæssig bopæl betyder.
+            </p>
+          </section>
 
-        <h2>1. Det spanske skattesystem: overblik</h2>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              1. Det spanske skattesystem – overblik
+            </h2>
+            <p>
+              Fastlagt i <strong>Ley General Tributaria (lov 58/2003)</strong>,
+              administreres skatter på nationalt, regionalt og lokalt niveau:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                <strong>Direkte skatter:</strong> indkomst, formue, arv/gaver.
+              </li>
+              <li>
+                <strong>Indirekte skatter:</strong> forbrug, fx moms og
+                afgifter.
+              </li>
+            </ul>
+          </section>
 
-        <p>
-          Det spanske skattesystem er fastlagt i{" "}
-          <strong>Ley General Tributaria (lov nr. 58/2003)</strong> og består af
-          både
-          <strong> direkte og indirekte skatter</strong>, der administreres på{" "}
-          <strong>nationalt, regionalt og lokalt niveau</strong>.
-        </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              2. Skattepligt – er du residente?
+            </h2>
+            <p>
+              Skattepligt i Spanien afhænger af, om du betragtes som{" "}
+              <strong>skattemæssigt hjemmehørende (residente)</strong>.
+            </p>
 
-        <ul>
-          <li>
-            <strong>Direkte skatter:</strong> pålægges indkomst, formue og
-            arv/gaver.
-          </li>
-          <li>
-            <strong>Indirekte skatter:</strong> pålægges forbrug (fx moms og
-            afgifter).
-          </li>
-        </ul>
+            <h3 className="text-xl font-semibold">
+              Hvornår er du residente? (jf. IRPF-lovens artikel 9)
+            </h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Ophold i Spanien i mere end 183 dage om året</li>
+              <li>Økonomisk og familiemæssigt centrum i Spanien</li>
+              <li>Ægtefælle og/eller børn bosat i Spanien</li>
+            </ul>
 
-        <h2>2. Er du skattemæssigt hjemmehørende i Spanien?</h2>
+            <h3 className="text-xl font-semibold">
+              Konsekvenser som residente:
+            </h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Skattepligt af global indkomst</li>
+              <li>Selvangivelse via IRPF</li>
+              <li>Fradragsmuligheder og sociale ydelser</li>
+              <li>Indsendelse af Modelo 720 ved udenlandske aktiver</li>
+            </ul>
 
-        <p>
-          Din skattepligt afhænger først og fremmest af, om du betragtes som{" "}
-          <strong>skattemæssigt hjemmehørende</strong> (residente) i Spanien.
-        </p>
+            <h3 className="text-xl font-semibold">
+              Konsekvenser som ikke-residente:
+            </h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Skat kun af spansk indkomst og aktiver</li>
+              <li>Beskatning via IRNR</li>
+              <li>Begrænsede fradrag og undtagelser</li>
+              <li>Krav om skatterepæsentant uden for EU/EØS</li>
+            </ul>
+          </section>
 
-        <h3>
-          Hvornår er du skattemæssigt residente? (jf. artikel 9 i IRPF-loven)
-        </h3>
-        <ul>
-          <li>
-            Du opholder dig mere end <strong>183 dage om året</strong> i
-            Spanien.
-          </li>
-          <li>Dit økonomiske og familiemæssige centrum er i Spanien.</li>
-          <li>Din ægtefælle og/eller børn bor i Spanien (formodning).</li>
-        </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              3. Direkte skatter i Spanien
+            </h2>
 
-        <h3>Konsekvenser af at være residente:</h3>
-        <ul>
-          <li>
-            Skattepligt af <strong>global indkomst</strong> (verden rundt).
-          </li>
-          <li>
-            Du betaler <strong>personskat (IRPF)</strong> og skal selvangive
-            årligt.
-          </li>
-          <li>
-            Adgang til <strong>fradrag</strong> og sociale ydelser.
-          </li>
-          <li>
-            Krav om indsendelse af <strong>Modelo 720</strong> ved udenlandske
-            aktiver.
-          </li>
-        </ul>
+            <h3 className="text-xl font-semibold">
+              a) IRPF – Indkomstskat for residente
+            </h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Gælder for alle residente</li>
+              <li>
+                Progressiv sats: <strong>19 % – 47 %+</strong>
+              </li>
+              <li>Omfatter løn, pension, udlejning, kapitalindkomst, m.m.</li>
+            </ul>
 
-        <h3>Konsekvenser af at være ikke-residente:</h3>
-        <ul>
-          <li>
-            Skat kun af <strong>indkomst og aktiver i Spanien</strong>.
-          </li>
-          <li>
-            Du er underlagt <strong>IRNR</strong> (skat for ikke-residente).
-          </li>
-          <li>Begrænsede fradrag og undtagelser.</li>
-          <li>
-            Krav om <strong>skatterepæsentant</strong> hvis du bor uden for
-            EU/EØS.
-          </li>
-        </ul>
+            <h3 className="text-xl font-semibold">
+              b) IRNR – Skat for ikke-residente
+            </h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                <strong>24 %</strong> for personer uden for EU/EØS
+              </li>
+              <li>
+                <strong>19 %</strong> for personer fra EU/EØS
+              </li>
+              <li>Gælder spansk indkomst: leje, pension, udbytte mv.</li>
+            </ul>
 
-        <h2>3. Direkte skatter i Spanien</h2>
+            <h3 className="text-xl font-semibold">c) Formueskat</h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                Residente: global formue. Ikke-residente: spanske aktiver.
+              </li>
+              <li>Fritagelse op til 700.000 € (regionalt varieret)</li>
+              <li>Madrid fritager helt – Katalonien opkræver</li>
+            </ul>
 
-        <h3>a) IRPF – Indkomstskat for residente</h3>
-        <ul>
-          <li>Gælder kun for personer med skattemæssig bopæl i Spanien.</li>
-          <li>
-            Progressiv sats fra <strong>19 % til over 47 %</strong>.
-          </li>
-          <li>
-            Gælder for løn, pension, udlejning, kapitalindkomst og fortjeneste.
-          </li>
-        </ul>
+            <h3 className="text-xl font-semibold">d) Arv og gaveafgift</h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Bopæl og aktivernes placering afgør skatten</li>
+              <li>Store regionale forskelle</li>
+            </ul>
+          </section>
 
-        <h3>b) IRNR – Skat for ikke-residente</h3>
-        <ul>
-          <li>
-            <strong>24 %</strong> for personer uden for EU/EØS.
-          </li>
-          <li>
-            <strong>19 %</strong> for borgere fra EU/EØS-lande.
-          </li>
-          <li>
-            Pålægges indkomst fra udlejning, renter, udbytte, pension m.m. med
-            spansk oprindelse.
-          </li>
-        </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              4. Indirekte skatter
+            </h2>
 
-        <h3>c) Formueskat (Impuesto sobre el Patrimonio)</h3>
-        <ul>
-          <li>
-            Gælder både for residente (global formue) og ikke-residente (kun
-            spanske aktiver).
-          </li>
-          <li>Generel fritagelse op til 700.000 € (kan variere regionalt).</li>
-          <li>
-            Madrid har fuld skattefritagelse, andre regioner som Katalonien
-            opkræver skatten.
-          </li>
-        </ul>
+            <h3 className="text-xl font-semibold">a) Moms (IVA)</h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                Almindelig sats: <strong>21 %</strong>
+              </li>
+              <li>
+                Reduceret sats: <strong>10 %</strong>
+              </li>
+              <li>
+                Superreduceret sats: <strong>4 %</strong>
+              </li>
+            </ul>
 
-        <h3>d) Arve- og gaveafgift (Impuesto sobre Sucesiones y Donaciones)</h3>
-        <ul>
-          <li>
-            Afhængig af bopæl for arvelader/modtager og aktivernes placering.
-          </li>
-          <li>Store regionale forskelle i satser og fritagelser.</li>
-        </ul>
+            <h3 className="text-xl font-semibold">
+              b) Afgift på ejendom og dokumenter
+            </h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Gælder brugte boliger og notartransaktioner</li>
+              <li>
+                Sats: <strong>6 % – 10 %</strong> afhængig af region
+              </li>
+            </ul>
 
-        <h2>4. Indirekte skatter</h2>
+            <h3 className="text-xl font-semibold">c) Punktafgifter</h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>På fx alkohol, tobak og brændstof</li>
+            </ul>
+          </section>
 
-        <h3>a) Moms (IVA)</h3>
-        <ul>
-          <li>
-            Almindelig sats: <strong>21 %</strong>.
-          </li>
-          <li>
-            Reduceret sats: <strong>10 %</strong> (fx mad, hoteller, transport).
-          </li>
-          <li>
-            Superreduceret sats: <strong>4 %</strong> (basale fødevarer, bøger).
-          </li>
-        </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              5. Ejendom i Spanien – Skatter og gebyrer
+            </h2>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Skat af lejeindtægter eller beregnet lejeværdi</li>
+              <li>
+                Lokal ejendomsskat (<strong>IBI</strong>)
+              </li>
+              <li>
+                Ved salg: gevinstskat + <strong>3 % tilbageholdelse</strong>
+              </li>
+            </ul>
+            <p>
+              Spanien og Danmark har en{" "}
+              <strong>dobbeltbeskatningsoverenskomst</strong>, som forhindrer
+              dobbeltskat.
+            </p>
+          </section>
 
-        <h3>b) Afgift på overdragelser (ITP og AJD)</h3>
-        <ul>
-          <li>
-            Gælder ved køb af brugte ejendomme og visse dokumenttransaktioner.
-          </li>
-          <li>
-            Sats: mellem <strong>6 % og 10 %</strong>, afhængig af region.
-          </li>
-        </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              6. Centrale skatteformularer
+            </h2>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                <strong>Modelo 030</strong> – registrering hos spansk SKAT
+              </li>
+              <li>
+                <strong>Modelo 210</strong> – for ikke-residente (fx udlejning)
+              </li>
+              <li>
+                <strong>Modelo 100</strong> – årlig selvangivelse (IRPF)
+              </li>
+              <li>
+                <strong>Modelo 720</strong> – oplysning om udenlandske aktiver
+              </li>
+              <li>
+                <strong>Certificado de residencia fiscal</strong> –
+                skattebopælsbevis
+              </li>
+            </ul>
+          </section>
 
-        <h3>c) Punktafgifter</h3>
-        <ul>
-          <li>På alkohol, tobak, brændstof mv.</li>
-        </ul>
-
-        <h2>5. Ejendom i Spanien – hvad skal du som udlænding betale?</h2>
-
-        <ul>
-          <li>
-            Skat af lejeindtægter eller beregnet lejeværdi (&quot;imputación de
-            renta&quot;) hvis ikke udlejet.
-          </li>
-          <li>
-            Lokal ejendomsskat (<strong>IBI</strong>).
-          </li>
-          <li>
-            Ved salg: <strong>gevinstsbeskatning + 3 % tilbageholdelse</strong>.
-          </li>
-        </ul>
-
-        <p>
-          Danmark og Spanien har en{" "}
-          <strong>dobbeltbeskatningsoverenskomst</strong>, så du undgår at
-          betale skat to gange af samme indkomst.
-        </p>
-
-        <h2>6. Vigtige formularer og forpligtelser</h2>
-        <ul>
-          <li>
-            <strong>Modelo 030</strong> – registrering hos spansk skat.
-          </li>
-          <li>
-            <strong>Modelo 210</strong> – for ikke-residentes (lejeindtægter,
-            m.m.).
-          </li>
-          <li>
-            <strong>Modelo 100</strong> – selvangivelse for residente.
-          </li>
-          <li>
-            <strong>Modelo 720</strong> – erklæring over udenlandske aktiver
-            (kun for residente).
-          </li>
-          <li>
-            <strong>Certificado de residencia fiscal</strong> – dokumentation
-            for skattebopæl.
-          </li>
-        </ul>
-
-        <h2>
-          Konklusion: Få styr på din skat i Spanien – og undgå overraskelser
-        </h2>
-        <p>
-          Det spanske skattesystem er omfattende og varieret – og adskiller sig
-          på flere punkter fra det danske. Derfor er det afgørende, at du som
-          udlænding i Spanien ved, om du er residente eller ej, og hvordan det
-          påvirker dine <strong>skattemæssige rettigheder og pligter</strong>.
-        </p>
-        <p>
-          Skatteplanlægning og juridisk rådgivning er nøglen til at undgå fejl,
-          overbeskatning eller bøder.
-        </p>
-
-        <p className="font-semibold">
-          Overvejer du at bosætte dig, investere eller arbejde i Spanien?
-          Kontakt os i dag for en personlig vurdering af din skattemæssige
-          situation og tryg rådgivning på dansk.
-        </p>
+          <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
+            <h2 className="text-2xl font-bold text-blue-900">
+              Konklusion: Få styr på din skat – og undgå dyre overraskelser
+            </h2>
+            <p>
+              Det spanske skattesystem er komplekst og adskiller sig væsentligt
+              fra det danske. At vide, om du er residente eller ej, er nøglen
+              til korrekt skatteplanlægning.
+            </p>
+            <p>
+              Juridisk skatterådgivning er afgørende for at undgå fejl, bøder og
+              overbeskatning.
+            </p>
+            <p className="font-semibold text-lg">
+              Overvejer du at flytte, investere eller arbejde i Spanien? Kontakt
+              os i dag for professionel skattegennemgang og rådgivning på dansk.
+            </p>
+          </section>
+        </article>
       </main>
     </>
   )

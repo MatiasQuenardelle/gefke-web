@@ -2,14 +2,79 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X } from "lucide-react" // You can use any icon lib you like
+import { Menu, X } from "lucide-react"
 import { useRouter } from "next/navigation"
 
+/** Helper to create URL‑friendly slugs */
+function slugify(str) {
+  return str
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // remove accents
+    .replace(/[^\w\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-")
+}
+
+/**
+ * Navigation structure – updated to reflect the current articles visible in the
+ * project (see screenshot).
+ * ‣ If a previous submenu had no article yet, it is kept.
+ * ‣ If a new article exists without a submenu, it has been added.
+ * ‣ Provide explicit `href` when the article lives at a top‑level route;
+ *   otherwise a conventional "/{kategori}/{artikel}" path is auto‑generated.
+ */
 const menuItems = [
-  { label: "Familie og arveret", sub: ["Skilsmisse", "Testamente"] },
-  { label: "Fast ejendom", sub: ["Køb og salg", "Lejeret"] },
-  { label: "Dansker i Spanien", sub: ["Boligkøb", "Skatteforhold"] },
-  { label: "Virksomhed", sub: ["Kontrakter", "Selskabsret"] },
+  {
+    label: "Familie og arveret",
+    sub: [
+      { label: "Skilsmisse" },
+      { label: "Testamente" },
+      { label: "Divorce in Spain", href: "/divorce-spain" },
+      { label: "Pension i Spanien", href: "/pension-spain" },
+    ],
+  },
+  {
+    label: "Fast ejendom",
+    sub: [
+      { label: "Køb og salg", href: "/real-estate-buy-sell-spain" },
+      { label: "Lejeret" },
+      { label: "Homeowner Associations", href: "/homeowner-associations" },
+      {
+        label: "Investering i fast ejendom",
+        href: "/real-estate-investment-spain",
+      },
+    ],
+  },
+  {
+    label: "Dansker i Spanien",
+    sub: [
+      { label: "Boligkøb" },
+      { label: "Skatteforhold", href: "/skat" },
+      { label: "Residency i Spanien", href: "/residency-spain" },
+    ],
+  },
+  {
+    label: "Virksomhed",
+    sub: [
+      { label: "Kontrakter" },
+      { label: "Selskabsret" },
+      { label: "Arbejdret i Spanien", href: "/arbejdsret-i-spanien" },
+      { label: "Work in Spain", href: "/work-in-spain" },
+      {
+        label: "Dansk holder spansk selskab",
+        href: "/dansk-holder-spansk-selskab",
+      },
+      {
+        label: "Starte virksomhed i Spanien",
+        href: "/starte-virksomhed-spanien",
+      },
+      {
+        label: "Selvstændig webshop Spanien",
+        href: "/selvstaendig-webshop-spanien",
+      },
+    ],
+  },
 ]
 
 export default function Header() {
@@ -18,17 +83,25 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileSubmenu, setMobileSubmenu] = useState(null)
 
+  /** Resolve a link for a submenu item */
+  const resolveHref = (categoryLabel, sub) => {
+    if (sub.href) return sub.href
+    const categorySlug = slugify(categoryLabel)
+    const subSlug = slugify(sub.label)
+    return `/${categorySlug}/${subSlug}`
+  }
+
   return (
     <header className="bg-[#002f5a] text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1
           onClick={() => router.push("/")}
-          className="text-4xl md:ml-10 font-bold"
+          className="text-4xl md:ml-10 font-bold cursor-pointer"
         >
           Christian Gefke
         </h1>
 
-        {/* Hamburger Button - only visible on mobile */}
+        {/* Hamburger Button – only visible on mobile */}
         <button
           className="md:hidden"
           onClick={() => setMobileMenuOpen((prev) => !prev)}
@@ -41,7 +114,7 @@ export default function Header() {
         <nav className="hidden md:flex gap-6 md:mr-10">
           {menuItems.map((item, index) => (
             <div
-              key={index}
+              key={item.label}
               className="relative"
               onMouseEnter={() => setOpenMenu(index)}
               onMouseLeave={() => setOpenMenu(null)}
@@ -51,25 +124,26 @@ export default function Header() {
                 <span>▾</span>
               </button>
               {openMenu === index && (
-                <div className="absolute top-full mt-2 bg-white text-black rounded shadow-md z-50 min-w-[180px]">
-                  {item.sub.map((subItem, subIndex) => (
+                <div
+                  /* keep it open while pointer is inside the dropdown */
+                  onMouseEnter={() => setOpenMenu(index)}
+                  onMouseLeave={() => setOpenMenu(null)}
+                  className="absolute top-full left-0 bg-white text-black rounded shadow-md z-50 min-w-[180px]"
+                >
+                  {item.sub.map((subItem) => (
                     <Link
-                      key={subIndex}
-                      href={`/${item.label
-                        .toLowerCase()
-                        .replace(/\s/g, "-")}/${subItem
-                        .toLowerCase()
-                        .replace(/\s/g, "-")}`}
+                      key={subItem.label}
+                      href={resolveHref(item.label, subItem)}
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
-                      {subItem}
+                      {subItem.label}
                     </Link>
                   ))}
                 </div>
               )}
             </div>
           ))}
-          <Link href="/om" className="hover:underline">
+          <Link href="/about" className="hover:underline">
             Om
           </Link>
         </nav>
@@ -79,7 +153,7 @@ export default function Header() {
       {mobileMenuOpen && (
         <nav className="md:hidden px-4 pb-4 space-y-4">
           {menuItems.map((item, index) => (
-            <div key={index} className="border-b border-white/20 pb-2">
+            <div key={item.label} className="border-b border-white/20 pb-2">
               <button
                 className="w-full text-left flex justify-between items-center font-medium"
                 onClick={() =>
@@ -91,18 +165,14 @@ export default function Header() {
               </button>
               {mobileSubmenu === index && (
                 <div className="mt-2 space-y-2 pl-4">
-                  {item.sub.map((subItem, subIndex) => (
+                  {item.sub.map((subItem) => (
                     <Link
-                      key={subIndex}
-                      href={`/${item.label
-                        .toLowerCase()
-                        .replace(/\s/g, "-")}/${subItem
-                        .toLowerCase()
-                        .replace(/\s/g, "-")}`}
+                      key={subItem.label}
+                      href={resolveHref(item.label, subItem)}
                       className="block text-sm hover:underline"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      {subItem}
+                      {subItem.label}
                     </Link>
                   ))}
                 </div>

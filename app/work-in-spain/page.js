@@ -34,128 +34,132 @@ export default function WorkInSpainArticle() {
         />
       </Head>
 
-      <main className="bg-white text-black px-4 md:px-12 lg:px-24 py-12">
-        <article className="prose prose-lg max-w-4xl mx-auto">
-          <h1>
-            Arbejde i Spanien: Hvad du skal vide som dansker om spansk
-            arbejdsret
-          </h1>
+      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
+        <article className="max-w-4xl mx-auto space-y-10">
+          <header className="text-center">
+            <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
+              Arbejde i Spanien: Hvad du skal vide som dansker
+            </h1>
+            <p className="mt-4 text-lg text-gray-700">
+              Få styr på registrering, rettigheder og social sikring som dansk
+              arbejdstager eller selvstændig i Spanien.
+            </p>
+          </header>
 
-          <p>
-            Spanien er et attraktivt land for mange EU-borgere, der søger
-            livskvalitet og nye karrieremuligheder. Hvis du er{" "}
-            <strong>dansk statsborger</strong> og ønsker at{" "}
-            <strong>arbejde lovligt i Spanien</strong>, er det vigtigt at kende
-            til <strong>spansk arbejdsret</strong>, nødvendige dokumenter og
-            dine rettigheder som arbejdstager.
-          </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              1. Dokumentation og registrering for danskere
+            </h2>
+            <p>
+              Som EU-borger kan du bo og arbejde i Spanien uden visum. Men ved
+              ophold over 90 dage skal du registreres:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                <strong>
+                  Certifikat for EU-registrering (grønt NIE-dokument):
+                </strong>{" "}
+                Dit NIE-nummer bruges i alle arbejds- og skatteforhold.
+              </li>
+            </ul>
+            <h3 className="font-semibold text-gray-800">
+              Fordele ved NIE-registrering:
+            </h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Lovligt arbejde som lønmodtager eller selvstændig</li>
+              <li>Adgang til offentlig sundhedspleje</li>
+              <li>Sociale ydelser som pension og dagpenge</li>
+              <li>Folkeregistertilmelding (empadronamiento)</li>
+            </ul>
+          </section>
 
-          <h2>1. Dansk statsborger i Spanien: dokumentation og registrering</h2>
-          <p>
-            Som EU-borger behøver du <strong>ikke visum</strong> for at bo og
-            arbejde i Spanien, men du skal gennemføre visse formelle
-            registreringer:
-          </p>
-          <ul>
-            <li>
-              <strong>
-                Certifikat for EU-registrering (grønt NIE-dokument):
-              </strong>{" "}
-              Obligatorisk, hvis du opholder dig i Spanien i mere end 90 dage.
-              Det indeholder dit{" "}
-              <strong>
-                NIE-nummer (Número de Identificación de Extranjero)
-              </strong>
-              , som anvendes til alle skatte- og arbejdsrelaterede forhold.
-            </li>
-          </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              2. Socialforsikring og bidrag
+            </h2>
+            <p>
+              Før du starter arbejde i Spanien, skal du tilmeldes{" "}
+              <strong>Tesorería General de la Seguridad Social (TGSS)</strong>.
+            </p>
+            <h3 className="font-semibold text-gray-800">
+              Hvad dækker sociale bidrag?
+            </h3>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Sygesikring og hospitalsbehandling</li>
+              <li>Arbejdsløshedsunderstøttelse</li>
+              <li>Barsels- og sygedagpenge</li>
+              <li>Pension og invalideydelser</li>
+              <li>Familieydelser</li>
+            </ul>
+            <p>
+              Du betaler ca. <strong>6,35 % af din løn</strong> – arbejdsgiveren
+              betaler op mod <strong>30 % ekstra</strong>.
+            </p>
+          </section>
 
-          <h3>Hvad giver det grønne NIE dig ret til?</h3>
-          <ul>
-            <li>Du må arbejde som lønmodtager eller selvstændig.</li>
-            <li>Adgang til det offentlige sundhedsvæsen.</li>
-            <li>
-              Mulighed for at optjene sociale ydelser som pension og
-              arbejdsløshedsdagpenge.
-            </li>
-            <li>Mulighed for folkeregistertilmelding (empadronamiento).</li>
-          </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              3. Arbejdsløshedsunderstøttelse (paro)
+            </h2>
+            <p>Du har ret til understøttelse fra SEPE, hvis du:</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Ikke selv har sagt op</li>
+              <li>Har arbejdet og bidraget i min. 360 dage de sidste 6 år</li>
+              <li>Er registreret som aktivt jobsøgende</li>
+              <li>Har lovligt ophold i Spanien</li>
+            </ul>
+          </section>
 
-          <h2>2. Tilmelding til Socialforsikringen og bidrag</h2>
-          <p>
-            Før du starter et job, skal du{" "}
-            <strong>være tilmeldt den spanske socialforsikring</strong>{" "}
-            (Tesorería General de la Seguridad Social – TGSS).
-          </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              4. Dine rettigheder som arbejdstager
+            </h2>
+            <p>
+              Som ansat i Spanien har du følgende grundlæggende rettigheder:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Skriftlig og lovlig ansættelseskontrakt</li>
+              <li>Betalt ferie og helligdage</li>
+              <li>Beskyttelse mod uberettiget fyring</li>
+              <li>Ret til faglig repræsentation og overenskomster</li>
+              <li>Gratis adgang til arbejdsretlige domstole</li>
+            </ul>
+          </section>
 
-          <h3>Hvad er sociale bidrag?</h3>
-          <p>
-            Sociale bidrag er obligatoriske betalinger fra både arbejdsgiver og
-            arbejdstager, som sikrer adgang til:
-          </p>
-          <ul>
-            <li>Offentlig sundhedspleje</li>
-            <li>Arbejdsløshedsunderstøttelse (paro)</li>
-            <li>Barsel og sygedagpenge</li>
-            <li>Pension og invalideydelser</li>
-            <li>Familieydelser og andre sociale støtteformer</li>
-          </ul>
-          <p>
-            Du betaler ca. <strong>6,35 % af din bruttoløn</strong>, og din
-            arbejdsgiver betaler omkring <strong>30 % ekstra</strong> i bidrag.
-          </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              5. Arbejde som selvstændig (autónomo)
+            </h2>
+            <p>
+              Ønsker du at være freelancer eller drive virksomhed, skal du
+              registreres som <strong>autónomo</strong>:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Registrering hos skat og socialforsikring</li>
+              <li>Månedligt bidrag (ca. 230 €/md. i 2025)</li>
+              <li>Kvartalsvis indberetning af indtægter og udgifter</li>
+              <li>Adgang til sundhed, pension og dagpenge</li>
+            </ul>
+          </section>
 
-          <h2>3. Adgang til arbejdsløshedsunderstøttelse (paro)</h2>
-          <p>
-            Du har ret til understøttelse, hvis du opfylder følgende
-            betingelser:
-          </p>
-          <ul>
-            <li>Du er lovligt arbejdsløs (ikke selvvalgt opsigelse)</li>
-            <li>Du har bidraget i mindst 360 dage de sidste 6 år</li>
-            <li>Du er registreret som aktivt jobsøgende hos SEPE</li>
-            <li>Du har lovligt ophold i Spanien</li>
-          </ul>
-
-          <h2>4. Grundlæggende arbejdstagerrettigheder i Spanien</h2>
-          <p>Som lønmodtager i Spanien har du ret til:</p>
-          <ul>
-            <li>Skriftlig og registreret ansættelseskontrakt</li>
-            <li>Ferie, fridage og orlov</li>
-            <li>Beskyttelse mod usaglig afskedigelse</li>
-            <li>Kollektive forhandlinger og faglig repræsentation</li>
-            <li>Gratis adgang til arbejdsretlige domstole</li>
-          </ul>
-
-          <h2>5. Arbejde som selvstændig (autónomo)</h2>
-          <p>
-            Hvis du ønsker at arbejde som freelancer eller selvstændig, skal du
-            registrere dig som <strong>autónomo</strong> og:
-          </p>
-          <ul>
-            <li>
-              Registrere dig hos skattemyndighederne og socialforsikringen
-            </li>
-            <li>
-              Betale et <strong>fast månedligt bidrag</strong> (fra ca. 230
-              €/md. i 2025)
-            </li>
-            <li>Indberette indtægter og udgifter kvartalsvis</li>
-            <li>Bidrage til pension, sygesikring og dagpenge</li>
-          </ul>
-
-          <h2>Konklusion: Retssikkerhed og muligheder i Spanien</h2>
-          <p>
-            Som dansk statsborger kan du lovligt og trygt arbejde i Spanien,
-            hvis du overholder de nødvendige krav:{" "}
-            <strong>NIE-registrering</strong>, <strong>socialforsikring</strong>{" "}
-            og <strong>kontraktansættelse</strong>.
-          </p>
-          <p>
-            Du bliver en del af et arbejdsmarked med adgang til sundhed, pension
-            og juridisk beskyttelse. Overvej at få rådgivning fra starten for at
-            undgå fejl og udnytte dine rettigheder fuldt ud.
-          </p>
+          <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
+            <h2 className="text-2xl font-bold text-blue-900">
+              Konklusion: Arbejd trygt i Spanien
+            </h2>
+            <p>
+              Som dansk statsborger kan du arbejde lovligt og med fulde
+              rettigheder i Spanien – både som lønmodtager og selvstændig.
+            </p>
+            <p>
+              Sørg for at få styr på <strong>NIE-registrering</strong>,{" "}
+              <strong>socialforsikring</strong> og korrekt ansættelse fra
+              starten.
+            </p>
+            <p className="text-lg font-semibold">
+              Har du spørgsmål eller brug for vejledning? Kontakt mig – jeg
+              rådgiver danske arbejdstagere og selvstændige i hele Spanien.
+            </p>
+          </section>
         </article>
       </main>
     </>

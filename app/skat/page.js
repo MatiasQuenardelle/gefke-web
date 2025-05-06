@@ -190,8 +190,8 @@ export default function SkatPage() {
 
         <ul>
           <li>
-            Skat af lejeindtægter eller beregnet lejeværdi ("imputación de
-            renta") hvis ikke udlejet.
+            Skat af lejeindtægter eller beregnet lejeværdi (&quot;imputación de
+            renta&quot;) hvis ikke udlejet.
           </li>
           <li>
             Lokal ejendomsskat (<strong>IBI</strong>).

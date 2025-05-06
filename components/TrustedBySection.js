@@ -1,15 +1,21 @@
 export default function TrustedBySection() {
-  const brands = ["SONY", "SONY", "SONY", "SONY"] // Replace with actual brand names or logos
+  const brands = ["SONY", "SONY", "SONY", "SONY"]
 
   return (
-    <section className="bg-[#1e1e1e] py-8 flex ">
-      <div className="max-w-7xl mx-auto px-6 text-white">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-          De stoler på mig
-        </h2>
-        <div className="flex flex-wrap justify-center md:justify-start gap-8">
-          {brands.map((brand, index) => (
-            <div key={index} className="text-2xl font-bold tracking-wide">
+    <section className="w-full bg-[#1e1e1e] py-6 border-t border-white/10">
+      <div className="mx-auto max-w-screen-xl px-6">
+        <div className="flex flex-wrap justify-center items-center gap-10 text-white">
+          {/* Heading */}
+          <h2 className="text-2xl md:text-5xl md:mr-60 font-extrabold whitespace-nowrap">
+            They trust me
+          </h2>
+
+          {/* Brand list */}
+          {brands.map((brand, i) => (
+            <div
+              key={i}
+              className="text-lg md:text-2xl font-semibold tracking-wide whitespace-nowrap"
+            >
               {brand}
             </div>
           ))}

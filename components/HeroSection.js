@@ -10,18 +10,18 @@ export default function HeroSection() {
 
   return (
     <section className="w-full bg-[#003366] text-white">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-16 px-6 md:px-20 py-24 lg:py-32">
-        {/* Text block */}
-        <div className="md:w-1/2 space-y-8">
+      <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-12 px-6 md:px-20 py-[5vh] md:py-[7vh]">
+        {/* Text */}
+        <div className="md:w-1/2 space-y-5">
           <h1
-            className={`${merri.className} text-6xl md:text-8xl leading-none`}
+            className={`${merri.className} text-4xl md:text-6xl leading-none`}
           >
             EUs
             <br />
             indflydelse
           </h1>
 
-          <p className="max-w-lg text-lg md:text-xl text-gray-200">
+          <p className="max-w-lg text-base md:text-lg text-gray-200">
             Grundet europæisk lovgivning, er det nemmere end nogensinde at
             flytte til Spanien og få opholdstilladelse.
           </p>
@@ -34,18 +34,18 @@ export default function HeroSection() {
           </button>
         </div>
 
-        {/* Image block */}
+        {/* Image */}
         <div className="md:w-1/2 flex justify-center">
-          <div className="relative w-full max-w-md">
+          <div className="relative w-full max-w-sm">
             <Image
               src="/images/CristianGefke.jpeg"
               alt="Christian Gefke"
-              width={550}
-              height={700}
-              className="w-full h-auto rounded-md shadow-2xl object-contain"
+              width={450}
+              height={600}
+              className="w-full h-auto max-h-[420px] rounded-md shadow-2xl object-cover"
               priority
             />
-            <div className="absolute bottom-0 inset-x-0 bg-black/70 text-center px-4 py-3 text-sm md:text-base">
+            <div className="absolute bottom-0 inset-x-0 bg-black/70 text-center px-4 py-3 text-xs md:text-sm">
               Vi varetager overgangen til et liv i Spanien for dig som dansker.
               <br />
               <span className="font-bold">

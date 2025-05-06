@@ -21,7 +21,10 @@ export default function Header() {
   return (
     <header className="bg-[#002f5a] text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 onClick={() => router.push("/")} className="text-2xl font-bold">
+        <h1
+          onClick={() => router.push("/")}
+          className="text-4xl md:ml-10 font-bold"
+        >
           Christian Gefke
         </h1>
 
@@ -35,7 +38,7 @@ export default function Header() {
         </button>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-6">
+        <nav className="hidden md:flex gap-6 md:mr-10">
           {menuItems.map((item, index) => (
             <div
               key={index}

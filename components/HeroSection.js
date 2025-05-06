@@ -36,16 +36,18 @@ export default function HeroSection() {
 
         {/* Image */}
         <div className="md:w-1/2 flex justify-center">
-          <div className="relative w-full max-w-sm">
+          <div className="relative w-full max-w-sm pb-20 md:pb-0">
             <Image
-              src="/images/CristianGefke.jpeg"
+              src="/images/CristianGefke.png"
               alt="Christian Gefke"
-              width={450}
+              width={550}
               height={600}
-              className="w-full h-auto max-h-[420px] rounded-md shadow-2xl object-cover"
-              priority
+              className="w-full h-auto max-h-[420px] md:scale-140 pb-6 rounded-md shadow-2xl object-cover"
             />
-            <div className="absolute bottom-0 inset-x-0 bg-black/70 text-center px-4 py-3 text-xs md:text-sm">
+            <div
+              className="bg-black/70 text-center px-4 py-3 text-xs md:text-sm 
+                         md:absolute md:top-93 inset-x-0"
+            >
               Vi varetager overgangen til et liv i Spanien for dig som dansker.
               <br />
               <span className="font-bold">

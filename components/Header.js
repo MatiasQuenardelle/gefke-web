@@ -92,7 +92,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-[#002f5a] text-white shadow-md">
+    <header className=" bg-[#003366] text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1
           onClick={() => router.push("/")}

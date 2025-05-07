@@ -118,9 +118,8 @@ export default function Header() {
               key={item.label}
               className="relative"
               onMouseEnter={() => setOpenMenu(index)}
-              onMouseLeave={() => setOpenMenu(null)}
             >
-              <button className="flex items-center gap-1 hover:underline">
+              <button className="flex items-center gap-1 hover:underline px-4 ">
                 {item.label}
                 <span>▾</span>
               </button>

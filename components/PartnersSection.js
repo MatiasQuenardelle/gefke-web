@@ -84,3 +84,5 @@ const PartnersSection = () => {
 }
 
 export default PartnersSection
+
+// just to commit

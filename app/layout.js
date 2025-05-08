@@ -3,6 +3,7 @@ import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import ClientLayout from "@/components/ClientLayout"
+import WhatsAppWidget from "@/components/WhatsAppWidget"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,11 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </ClientLayout>
+        {/* fixed bottom-right button */}
+        <WhatsAppWidget
+          size={72} // large on home
+          className="fixed md:bottom-14 bottom-8 right-8 md:right-18 z-50"
+        />
       </body>
     </html>
   )

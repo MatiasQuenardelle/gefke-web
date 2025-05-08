@@ -3,8 +3,12 @@ import { useState, useRef } from "react"
 import emailjs from "@emailjs/browser"
 import HCaptcha from "@hcaptcha/react-hcaptcha"
 import { useTranslation } from "react-i18next"
+import WhatsAppWidget from "@/components/WhatsAppWidget" // ⬅️ new
 
-export default function ContactForm() {
+export default function ContactForm({
+  showWhatsApp = false, // toggle the widget
+  phone = "15551234567", // override per-page if needed
+}) {
   const { t } = useTranslation()
   const [formData, setFormData] = useState({ name: "", email: "", message: "" })
   const [captchaToken, setCaptchaToken] = useState("")
@@ -12,9 +16,8 @@ export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const captchaRef = useRef(null)
 
-  const handleChange = (e) => {
+  const handleChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value })
-  }
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -22,7 +25,6 @@ export default function ContactForm() {
       setStatus(t("contactForm.captchaRequired"))
       return
     }
-
     setIsSubmitting(true)
 
     emailjs
@@ -40,12 +42,9 @@ export default function ContactForm() {
         setStatus(t("contactForm.success"))
         setFormData({ name: "", email: "", message: "" })
         setCaptchaToken("")
-        if (captchaRef.current) captchaRef.current.resetCaptcha()
+        captchaRef.current?.resetCaptcha()
       })
-      .catch((error) => {
-        console.error(error)
-        setStatus(t("contactForm.error"))
-      })
+      .catch(() => setStatus(t("contactForm.error")))
       .finally(() => setIsSubmitting(false))
   }
 
@@ -55,7 +54,10 @@ export default function ContactForm() {
         <h2 className="text-3xl font-semibold text-center text-gray-900 mb-8">
           {t("contactForm.title") || "Contact Our Law Firm"}
         </h2>
+
+        {/* form */}
         <form onSubmit={handleSubmit} className="space-y-5">
+          {/* inputs … */}
           <input
             type="text"
             name="name"
@@ -85,6 +87,8 @@ export default function ContactForm() {
             required
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
           />
+
+          {/* captcha */}
           <div className="pt-2">
             <HCaptcha
               sitekey="171c20da-537c-4c42-b2fa-1a563e6ee7a4"
@@ -92,6 +96,8 @@ export default function ContactForm() {
               ref={captchaRef}
             />
           </div>
+
+          {/* send button */}
           <button
             type="submit"
             disabled={isSubmitting}
@@ -102,8 +108,20 @@ export default function ContactForm() {
               : t("contactForm.sendButton") || "Send Message"}
           </button>
         </form>
+
+        {/* status message */}
         {status && (
           <p className="mt-6 text-center text-sm text-gray-700">{status}</p>
+        )}
+
+        {/* optional WhatsApp CTA */}
+        {showWhatsApp && (
+          <div className="mt-8 flex flex-col items-center gap-2">
+            <span className="text-sm text-gray-600">
+              {t("contactForm.orWhatsApp") || "…or chat with us on WhatsApp"}
+            </span>
+            <WhatsAppWidget size={40} phone={phone} />
+          </div>
         )}
       </div>
     </section>

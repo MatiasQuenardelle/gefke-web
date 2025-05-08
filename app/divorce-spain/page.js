@@ -1,6 +1,7 @@
 "use client"
 
 import Head from "next/head"
+import ContactForm from "@/components/ContactForm"
 
 export default function DivorceSpainArticle() {
   return (
@@ -225,6 +226,7 @@ export default function DivorceSpainArticle() {
             konsekvenser.
           </p>
         </article>
+        <ContactForm />
       </main>
     </>
   )

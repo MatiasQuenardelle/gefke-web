@@ -9,5 +9,15 @@
     "success": "Tak for din besked! Vi vender tilbage hurtigst muligt.",
     "error": "Noget gik galt. Prøv igen senere.",
     "captchaRequired": "Bekræft venligst, at du ikke er en robot."
+  },
+  "reviewFunnel": {
+    "thankYou": "Tak for din fantastiske anmeldelse!",
+    "askGMB": "Vil du dele den på Google og hjælpe andre med at finde os?",
+    "leaveOnGoogle": "Skriv en Google-anmeldelse",
+    "copyText": "Kopier din anmeldelse",
+    "copied": "Kopieret!",
+    "thankFeedback": "Tak for din feedback!",
+    "appreciate": "Vi sætter pris på, at du tog dig tid til at hjælpe os med at forbedre vores service.",
+    "ratingRequired": "Vælg venligst en vurdering."
   }
 }

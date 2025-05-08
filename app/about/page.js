@@ -1,5 +1,6 @@
 import Head from "next/head"
 import { Merriweather } from "next/font/google"
+import ContactCTAWrapper from "@/components/ContactCTAWrapper"
 
 const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
 

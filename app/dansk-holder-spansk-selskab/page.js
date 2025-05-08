@@ -1,5 +1,6 @@
 import React from "react"
 import Head from "next/head"
+import ContactCTAWrapper from "@/components/ContactCTAWrapper"
 
 export default function DanskHoldingSpanienPage() {
   return (
@@ -86,7 +87,6 @@ export default function DanskHoldingSpanienPage() {
           }}
         />
       </Head>
-
       <main className="max-w-3xl mx-auto px-4 py-10">
         <h1 className="text-3xl font-bold mb-4">
           Dansk ejer af spansk selskab: Skal jeg vælge et holdingselskab i
@@ -242,6 +242,7 @@ export default function DanskHoldingSpanienPage() {
           </a>
         </p>
       </main>
+      <ContactCTAWrapper />>
     </>
   )
 }

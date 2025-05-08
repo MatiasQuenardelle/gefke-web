@@ -19,5 +19,12 @@
     "thankFeedback": "Tak for din feedback!",
     "appreciate": "Vi sætter pris på, at du tog dig tid til at hjælpe os med at forbedre vores service.",
     "ratingRequired": "Vælg venligst en vurdering."
+  },
+
+  "contactCTA": {
+    "imageAlt": "Christian Gefke",
+    "heading": "Få den juridiske støtte du fortjener",
+    "description": "Uanset om du flytter, investerer eller har brug for pålidelig rådgivning, er jeg her for at guide dig hele vejen. Lad os tale om, hvordan jeg kan bruge min erfaring til at hjælpe dig.",
+    "button": "KONTAKT MIG"
   }
 }

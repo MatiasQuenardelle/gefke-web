@@ -2,6 +2,8 @@
 
 import Head from "next/head"
 import ContactForm from "@/components/ContactForm"
+import ContactCTA from "@/components/ContactCTA"
+import ContactCTAWrapper from "@/components/ContactCTAWrapper"
 
 export default function DivorceSpainArticle() {
   return (
@@ -226,7 +228,8 @@ export default function DivorceSpainArticle() {
             konsekvenser.
           </p>
         </article>
-        <ContactForm />
+
+        <ContactCTAWrapper />
       </main>
     </>
   )

@@ -1,7 +1,7 @@
 "use client"
 
 import Head from "next/head"
-
+import ContactCTAWrapper from "@/components/ContactCTAWrapper"
 export default function BuySellPropertySpain() {
   return (
     <>
@@ -205,6 +205,7 @@ export default function BuySellPropertySpain() {
             </p>
           </section>
         </article>
+        <ContactCTAWrapper />
       </main>
     </>
   )

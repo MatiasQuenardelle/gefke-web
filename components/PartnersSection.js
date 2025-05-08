@@ -1,3 +1,5 @@
+"use client"
+
 import {
   CurrencyDollarIcon,
   HomeIcon,
@@ -5,7 +7,10 @@ import {
   BriefcaseIcon,
 } from "@heroicons/react/24/outline"
 
+import { useRouter } from "next/navigation"
+
 const PartnersSection = () => {
+  const router = useRouter()
   return (
     <section className="bg-white py-16 px-4 sm:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto">
@@ -18,7 +23,10 @@ const PartnersSection = () => {
             Vi samarbejder med eksperter på tværs af juridiske og finansielle
             områder
           </p>
-          <button className="mt-6 px-6 py-3 border border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white transition rounded-md">
+          <button
+            onClick={() => router.push("/contact")}
+            className="mt-6 px-6 py-3 border border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white transition rounded-md"
+          >
             Contact Me
           </button>
         </div>

@@ -1,5 +1,6 @@
 import React from "react"
 import Head from "next/head"
+import ContactCTAWrapper from "@/components/ContactCTAWrapper"
 
 export default function StarteVirksomhedSpanienPage() {
   return (
@@ -263,6 +264,7 @@ export default function StarteVirksomhedSpanienPage() {
           .
         </p>
       </main>
+      <ContactCTAWrapper />
     </>
   )
 }

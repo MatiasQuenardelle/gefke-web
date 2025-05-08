@@ -1,0 +1,13 @@
+{
+  "contactForm": {
+    "title": "Kontakt os",
+    "namePlaceholder": "Dit fulde navn",
+    "emailPlaceholder": "Din e-mailadresse",
+    "messagePlaceholder": "Din besked",
+    "sendButton": "Send besked",
+    "sending": "Sender...",
+    "success": "Tak for din besked! Vi vender tilbage hurtigst muligt.",
+    "error": "Noget gik galt. Prøv igen senere.",
+    "captchaRequired": "Bekræft venligst, at du ikke er en robot."
+  }
+}

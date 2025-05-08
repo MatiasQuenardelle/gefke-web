@@ -29,51 +29,65 @@ const menuItems = [
   {
     label: "Familie og arveret",
     sub: [
-      { label: "Skilsmisse" },
-      { label: "Testamente" },
-      { label: "Divorce in Spain", href: "/divorce-spain" },
-      { label: "Pension i Spanien", href: "/pension-spain" },
+      { label: "Skilsmisse", href: "/divorce-spain" },
+      { label: "Lovvalg i arvesager:" },
+      { label: "Internationale skilsmisser:", href: "/" },
+      // { label: "Pension i Spanien", href: "/pension-spain" },
     ],
   },
   {
     label: "Fast ejendom",
     sub: [
-      { label: "Køb og salg", href: "/real-estate-buy-sell-spain" },
-      { label: "Lejeret" },
-      { label: "Homeowner Associations", href: "/homeowner-associations" },
+      { label: "Leje-aftaler i Spanien:", href: "/real-estate-buy-sell-spain" },
+      { label: "Pant i Fast ejendom:", href: "/" },
       {
-        label: "Investering i fast ejendom",
-        href: "/real-estate-investment-spain",
+        label: "Planlovgivning, urbanisme og byggejura:",
+        href: "/",
+      },
+      {
+        label: "Køb og salg af fast ejendom:",
+        href: "/real-estate-buy-sell-spain",
+      },
+      {
+        label: "Ejerforeninger:",
+        href: "/homeowner-associations",
       },
     ],
   },
   {
     label: "Dansker i Spanien",
     sub: [
-      { label: "Boligkøb" },
-      { label: "Skatteforhold", href: "/skat" },
-      { label: "Residency i Spanien", href: "/residency-spain" },
+      { label: "Opholdstilladelse:", href: "/residency-spain" },
+      { label: "Pensión og hjemmepleje i Spanien:", href: "/pension-spain" },
+      { label: "Arbejde i Spanien:", href: "/arbejdsret-i-spanien" },
+      { label: "Skatterådgivning i Spanien:", href: "/skat" },
     ],
   },
   {
     label: "Virksomhed",
     sub: [
-      { label: "Kontrakter" },
-      { label: "Selskabsret" },
-      { label: "Arbejdret i Spanien", href: "/arbejdsret-i-spanien" },
-      { label: "Work in Spain", href: "/work-in-spain" },
       {
-        label: "Dansk holder spansk selskab",
-        href: "/dansk-holder-spansk-selskab",
-      },
-      {
-        label: "Starte virksomhed i Spanien",
-        href: "/starte-virksomhed-spanien",
-      },
-      {
-        label: "Selvstændig webshop Spanien",
+        label: "Selvstændig i Spanien:",
         href: "/selvstaendig-webshop-spanien",
       },
+      { label: "Virksomhed i spanien", href: "/starte-virksomhed-spanien" },
+      {
+        label: "Holding Selskaber i Spanien eller Danmark?",
+        href: "/arbejdsret-i-spanien",
+      },
+      // { label: "Work in Spain", href: "/work-in-spain" },
+      // {
+      //   label: "Dansk holder spansk selskab",
+      //   href: "/dansk-holder-spansk-selskab",
+      // },
+      // {
+      //   label: "Starte virksomhed i Spanien",
+      //   href: "/starte-virksomhed-spanien",
+      // },
+      // {
+      //   label: "Selvstændig webshop Spanien",
+      //   href: "/selvstaendig-webshop-spanien",
+      // },
     ],
   },
 ]

@@ -1,6 +1,5 @@
 import React from "react"
 import Head from "next/head"
-import ContactCTAWrapper from "@/components/ContactCTAWrapper"
 
 export default function DanskHoldingSpanienPage() {
   return (
@@ -242,7 +241,6 @@ export default function DanskHoldingSpanienPage() {
           </a>
         </p>
       </main>
-      <ContactCTAWrapper />>
     </>
   )
 }

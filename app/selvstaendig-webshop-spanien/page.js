@@ -1,6 +1,5 @@
 import React from "react"
 import Head from "next/head"
-import ContactCTAWrapper from "@/components/ContactCTAWrapper"
 
 export default function SelvstaendigWebshopSpanienPage() {
   return (
@@ -219,7 +218,6 @@ export default function SelvstaendigWebshopSpanienPage() {
           </a>
         </p>
       </main>
-      <ContactCTAWrapper />
     </>
   )
 }

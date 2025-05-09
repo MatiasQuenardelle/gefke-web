@@ -35,126 +35,153 @@ export default function EjerforeningerSpainArticle() {
         />
       </Head>
 
-      <main className="bg-white text-black px-4 md:px-12 lg:px-24 py-12">
-        <article className="prose prose-lg max-w-4xl mx-auto">
-          <h1>Ejerforeninger i Spanien: Hvad du skal vide som boligejer</h1>
-          <p>
-            Når du køber en lejlighed, rækkehus eller villa i et boligkompleks i
-            Spanien, bliver du automatisk medlem af en{" "}
-            <strong>ejerforening (comunidad de propietarios)</strong>. Denne
-            form for fællesskab i Spanien er reguleret under begrebet{" "}
-            <strong>“propiedad horizontal”</strong> og indebærer både{" "}
-            <strong>rettigheder og forpligtelser</strong>.
-          </p>
-          <p>
-            I denne artikel forklarer vi, hvordan ejerforeninger fungerer i
-            Spanien, hvilke typiske udfordringer du bør være opmærksom på, og
-            hvordan du <strong>kan give fuldmagt til en lokal advokat</strong>,
-            hvis du ikke selv bor i Spanien.
-          </p>
+      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
+        <article className="max-w-3xl mx-auto space-y-10">
+          <header className="text-center">
+            <h1 className="text-3xl md:text-4xl font-bold text-blue-900 leading-tight">
+              Ejerforeninger i Spanien: Hvad du skal vide som boligejer
+            </h1>
+            <p className="mt-4 text-lg text-gray-700">
+              Få juridisk indsigt og tryghed som boligejer i en spansk
+              ejerforening.
+            </p>
+          </header>
 
-          <h2>Hvad er en comunidad de propietarios?</h2>
-          <p>
-            En <strong>comunidad de propietarios</strong> er en juridisk enhed
-            bestående af alle de ejere, der deler fælles installationer eller
-            faciliteter – typisk:
-          </p>
-          <ul>
-            <li>Trappeopgange, elevatorer, tage og facader</li>
-            <li>Fællesarealer, haver og pool</li>
-            <li>Parkeringsområder og adgangsveje</li>
-            <li>Teknik, el- og vandinstallationer</li>
-          </ul>
-          <p>
-            Reglerne for disse ejerfællesskaber findes i{" "}
-            <strong>
-              Lov om Ejerlejligheder (Ley de Propiedad Horizontal)
-            </strong>
-            , som fastlægger beslutningsrammer, vedtægter og bidragsfordeling.
-          </p>
-
-          <h2>Ejerforening vs. grundejerforening – findes begge i Spanien?</h2>
-          <ul>
-            <li>
-              <strong>Comunidad de propietarios (ejerforening):</strong>{" "}
-              Automatisk og lovpligtig ved fælles installationer.
-            </li>
-            <li>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              Hvad er en ejerforening i Spanien?
+            </h2>
+            <p>
+              Når du køber bolig i et spansk boligkompleks, bliver du automatisk
+              en del af en{" "}
+              <strong>ejerforening (comunidad de propietarios)</strong>. Denne
+              er reguleret af <strong>“propiedad horizontal”</strong>, og
+              medfører både <strong>rettigheder og forpligtelser</strong>.
+            </p>
+            <p>
+              Ejerforeningen dækker fællesinstallationer som trappeopgange,
+              tage, haver og tekniske anlæg. Reglerne er fastlagt i den spanske{" "}
               <strong>
-                Entidades urbanísticas colaboradoras eller asociaciones de
-                vecinos:
-              </strong>{" "}
-              Svarende til danske grundejerforeninger, frivillige og sjældnere.
-            </li>
-          </ul>
-          <p>
-            I praksis er ejerforeningen den form med{" "}
-            <strong>mest praktisk betydning</strong> for udenlandske købere.
-          </p>
+                Lov om Ejerlejligheder (Ley de Propiedad Horizontal)
+              </strong>
+              .
+            </p>
+          </section>
 
-          <h2>Typiske udfordringer i ejerforeninger</h2>
-          <ol>
-            <li>
-              <strong>Manglende betaling fra naboer</strong>: Økonomiske
-              problemer og utilstrækkelig vedligehold.
-            </li>
-            <li>
-              <strong>Uenighed om vedligehold eller forbedringer</strong>:
-              Flertalsbeslutninger kan pålægge dig udgifter.
-            </li>
-            <li>
-              <strong>Mangelfuld administration</strong>: Uprofessionel eller
-              manglende regnskabsføring.
-            </li>
-            <li>
-              <strong>Udlejning og vedtægter</strong>: Regler kan begrænse
-              korttidsudlejning.
-            </li>
-          </ol>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              Hvilke områder dækker en comunidad de propietarios?
+            </h2>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Fællesarealer, haver og pool</li>
+              <li>Trappeopgange, elevatorer og tage</li>
+              <li>Parkeringspladser og adgangsveje</li>
+              <li>El-, vand- og tekniske installationer</li>
+            </ul>
+            <p>
+              Som ejer er du med til at betale og beslutte over disse områder
+              gennem fællesmøder og vedtægter.
+            </p>
+          </section>
 
-          <h2>Hvordan kan man lade sig repræsentere uden at være i Spanien?</h2>
-          <p>
-            Som udenlandsk ejer er det praktisk at give{" "}
-            <strong>fuldmagt (poder notarial)</strong> til en lokal advokat:
-          </p>
-          <ol>
-            <li>Fuldmagten udarbejdes på spansk (evt. to-sproget)</li>
-            <li>Den notarielt bekræftes i Danmark</li>
-            <li>Forsynes med apostillestempel</li>
-            <li>Sendes til Spanien for brug</li>
-          </ol>
-          <p>En fuldmagt kan give ret til:</p>
-          <ul>
-            <li>Deltagelse i generalforsamlinger</li>
-            <li>Modtagelse af breve og beslutninger</li>
-            <li>Indbetaling af fællesudgifter</li>
-            <li>Beslutninger om udlejning og reparationer</li>
-          </ul>
-          <p>
-            <strong>
-              Alt dette kan håndteres uden fysisk tilstedeværelse i Spanien.
-            </strong>
-          </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              Findes der både ejerforening og grundejerforening?
+            </h2>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                <strong>Ejerforening:</strong> Automatisk og lovpligtig ved
+                fælles installationer.
+              </li>
+              <li>
+                <strong>Grundejerforening (asociaciones de vecinos):</strong>{" "}
+                Frivillig og mere sjælden, typisk i villaområder.
+              </li>
+            </ul>
+            <p>
+              For de fleste danske købere er det ejerforeningen, der har størst
+              praktisk betydning.
+            </p>
+          </section>
 
-          <h2>Hvad bør undersøges ved køb?</h2>
-          <ul>
-            <li>Registrering af foreningen</li>
-            <li>Seneste regnskaber og referater</li>
-            <li>Restancer og tvister</li>
-            <li>Regler for udlejning og renovering</li>
-          </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              Typiske udfordringer i ejerforeninger
+            </h2>
+            <ol className="list-decimal list-inside ml-4 space-y-1">
+              <li>
+                <strong>Manglende betaling:</strong> Kan føre til økonomiske
+                problemer og dårlig vedligehold.
+              </li>
+              <li>
+                <strong>Uenighed om forbedringer:</strong> Flertalsbeslutninger
+                kan pålægge dig udgifter.
+              </li>
+              <li>
+                <strong>Dårlig administration:</strong> Manglende
+                gennemsigtighed og regnskabsproblemer.
+              </li>
+              <li>
+                <strong>Begrænsninger for udlejning:</strong> Nogle foreninger
+                forbyder eller begrænser korttidsudlejning.
+              </li>
+            </ol>
+          </section>
 
-          <h2>Konklusion: Fuldmagter og indsigt giver kontrol</h2>
-          <p>
-            At eje bolig i en spansk ejerforening kræver indsigt i regler og
-            rettigheder – men også hvordan du lader andre handle på dine vegne.
-          </p>
-          <p>
-            <strong>
-              Med korrekt rådgivning og gyldig fuldmagt kan du trygt lade en
-              advokat varetage dine interesser i ejerforeningen.
-            </strong>
-          </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              Sådan lader du dig repræsentere fra Danmark
+            </h2>
+            <p>
+              Hvis du ikke bor fast i Spanien, kan du give en{" "}
+              <strong>fuldmagt (poder notarial)</strong> til en lokal advokat:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Udarbejdes på spansk (evt. to-sproget)</li>
+              <li>Notarielt bekræftet i Danmark</li>
+              <li>Forsynet med apostillestempel</li>
+              <li>Sendes fysisk til Spanien</li>
+            </ul>
+            <p>En fuldmagt giver mulighed for:</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Deltagelse i møder og generalforsamlinger</li>
+              <li>Indbetaling af udgifter og modtagelse af post</li>
+              <li>Beslutninger om reparationer eller udlejning</li>
+            </ul>
+            <p>
+              <strong>
+                Alt dette kan håndteres uden fysisk fremmøde i Spanien.
+              </strong>
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              Hvad bør du undersøge inden boligkøb?
+            </h2>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Om foreningen er registreret</li>
+              <li>Seneste regnskaber og mødereferater</li>
+              <li>Restancer eller verserende sager</li>
+              <li>Regler om renovering og udlejning</li>
+            </ul>
+          </section>
+
+          <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
+            <h2 className="text-2xl font-bold text-blue-900">
+              Konklusion: Fuldmagter og indsigt giver tryghed
+            </h2>
+            <p>
+              Som boligejer i Spanien er det vigtigt at forstå de juridiske
+              rammer for ejerforeninger og sikre, at dine interesser varetages –
+              også når du ikke selv er til stede.
+            </p>
+            <p className="text-lg font-semibold">
+              Kontakt mig, hvis du ønsker hjælp til at gennemgå vedtægter,
+              udarbejde fuldmagter eller få professionel rådgivning omkring din
+              bolig i Spanien.
+            </p>
+          </section>
         </article>
       </main>
     </>

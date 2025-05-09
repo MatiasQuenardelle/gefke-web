@@ -242,7 +242,6 @@ export default function ArbejdsretISpanienPage() {
           for juridisk rådgivning på dansk.
         </p>
       </main>
-      <ContactCTAWrapper />
     </>
   )
 }

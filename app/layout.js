@@ -4,9 +4,10 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import ClientLayout from "@/components/ClientLayout"
 import WhatsAppWidget from "@/components/WhatsAppWidget"
-import ContactCTAWrapper from "@/components/ContactCTAWrapper"
+
 import ContactForm from "@/components/ContactForm"
 import dynamic from "next/dynamic"
+import ContactCTA from "@/components/ContactCTA"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,9 +33,9 @@ export default function RootLayout({ children }) {
         <ClientLayout>
           <Header />
           {children}
-
+          <ContactCTA />
           <ContactForm />
-          <ContactCTAWrapper />
+
           <Footer />
         </ClientLayout>
         {/* fixed bottom-right button */}

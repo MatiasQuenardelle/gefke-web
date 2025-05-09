@@ -1,7 +1,6 @@
 "use client"
 
 import Head from "next/head"
-import ContactCTAWrapper from "@/components/ContactCTAWrapper"
 
 export default function SkatPage() {
   return (
@@ -243,7 +242,6 @@ export default function SkatPage() {
           </section>
         </article>
       </main>
-      <ContactCTAWrapper />
     </>
   )
 }

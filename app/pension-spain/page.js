@@ -1,7 +1,6 @@
 "use client"
 
 import Head from "next/head"
-import ContactCTAWrapper from "@/components/ContactCTAWrapper"
 
 export default function PensionSpanienPage() {
   return (
@@ -173,7 +172,6 @@ export default function PensionSpanienPage() {
           </section>
         </article>
       </main>
-      <ContactCTAWrapper />
     </>
   )
 }

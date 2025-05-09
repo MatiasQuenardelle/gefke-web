@@ -82,7 +82,7 @@ export default function ReviewFunnel() {
                   "Would you mind sharing it on Google to help others find us?"}
               </p>
               <a
-                href="https://g.page/your-business/review"
+                href="https://search.google.com/local/writereview?placeid=ChIJ_VlbQF1rTEYReQftdoanPnA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mb-4 bg-blue-700 hover:bg-blue-800 text-white font-medium py-3 px-6 rounded-md transition-colors"
@@ -126,7 +126,7 @@ export default function ReviewFunnel() {
     <section id="contact" className="bg-gray-100 py-20 px-6">
       <div className="max-w-2xl mx-auto bg-white p-10 rounded-md shadow-lg border border-gray-200">
         <h2 className="text-3xl font-semibold text-center text-gray-900 mb-8">
-          {t("contactForm.title") || "Share Your Experience"}
+          {t("reviewFunnel.title") || "Share Your Experience"}
         </h2>
 
         {/* Star selector */}

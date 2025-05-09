@@ -29,9 +29,10 @@ const menuItems = [
   {
     label: "Familie og arveret",
     sub: [
-      { label: "Skilsmisse", href: "/divorce-spain" },
-      { label: "Lovvalg i arvesager:" },
-      { label: "Internationale skilsmisser:", href: "/" },
+      { label: "Internationale skilsmisser", href: "/divorce-spain" },
+      { label: "Skilsmisse", href: "" },
+      { label: "Lovvalg i arvesager:", href: "/" },
+
       // { label: "Pension i Spanien", href: "/pension-spain" },
     ],
   },
@@ -42,7 +43,7 @@ const menuItems = [
       { label: "Pant i Fast ejendom:", href: "/" },
       {
         label: "Planlovgivning, urbanisme og byggejura:",
-        href: "/",
+        href: "real-estate-investment-spain",
       },
       {
         label: "Køb og salg af fast ejendom:",
@@ -73,21 +74,8 @@ const menuItems = [
       { label: "Virksomhed i spanien", href: "/starte-virksomhed-spanien" },
       {
         label: "Holding Selskaber i Spanien eller Danmark?",
-        href: "/arbejdsret-i-spanien",
+        href: "/dansk-holder-spansk-selskab",
       },
-      // { label: "Work in Spain", href: "/work-in-spain" },
-      // {
-      //   label: "Dansk holder spansk selskab",
-      //   href: "/dansk-holder-spansk-selskab",
-      // },
-      // {
-      //   label: "Starte virksomhed i Spanien",
-      //   href: "/starte-virksomhed-spanien",
-      // },
-      // {
-      //   label: "Selvstændig webshop Spanien",
-      //   href: "/selvstaendig-webshop-spanien",
-      // },
     ],
   },
 ]

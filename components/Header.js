@@ -115,36 +115,46 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-6 md:mr-10">
-          {menuItems.map((item, index) => (
-            <div
-              key={item.label}
-              className="relative"
-              onMouseEnter={() => setOpenMenu(index)}
-            >
-              <button className="flex items-center gap-1 hover:underline px-4 ">
-                {item.label}
-                <span>▾</span>
-              </button>
-              {openMenu === index && (
-                <div
-                  /* keep it open while pointer is inside the dropdown */
-                  onMouseEnter={() => setOpenMenu(index)}
-                  onMouseLeave={() => setOpenMenu(null)}
-                  className="absolute top-full left-0 bg-white text-black rounded shadow-md z-50 min-w-[180px]"
+          <nav className="hidden md:flex gap-6 md:mr-10">
+            {menuItems.map((item, index) => (
+              <div
+                key={item.label}
+                className="relative z-50"
+                onMouseEnter={() => setOpenMenu(index)}
+                onMouseLeave={() => setOpenMenu(null)}
+              >
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    setOpenMenu((prev) => (prev === index ? null : index))
+                  }}
+                  className="flex items-center gap-1 hover:underline px-4"
                 >
-                  {item.sub.map((subItem) => (
-                    <Link
-                      key={subItem.label}
-                      href={resolveHref(item.label, subItem)}
-                      className="block px-4 py-2 hover:bg-gray-100"
-                    >
-                      {subItem.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+                  {item.label}
+                  <span>{openMenu === index ? "▴" : "▾"}</span>
+                </button>
+
+                {openMenu === index && (
+                  <div className="absolute  top-full left-0 bg-white text-black rounded shadow-md z-50 min-w-[180px]">
+                    {item.sub.map((subItem) => (
+                      <Link
+                        key={subItem.label}
+                        href={resolveHref(item.label, subItem)}
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        {subItem.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+
+            <Link href="/about" className="hover:underline px-4">
+              Om
+            </Link>
+          </nav>
+
           <Link href="/about" className="hover:underline">
             Om
           </Link>

@@ -30,7 +30,7 @@ export default function HeroSection() {
             onClick={() => router.push("/contact")}
             className="px-8 py-3 border border-white rounded transition hover:bg-white hover:text-[#003366]"
           >
-            CONTACT ME
+            Kontakt Mig
           </button>
         </div>
 

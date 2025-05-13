@@ -41,7 +41,7 @@ export default function ContactCTA() {
             onClick={() => router.push("/contact")}
             className="inline-block px-9 py-3 border border-white rounded transition-all duration-200 hover:bg-white hover:text-[#003366]"
           >
-            CONTACT ME
+            Kontakt Mig
           </button>
         </div>
       </div>

@@ -30,8 +30,9 @@ const menuItems = [
     label: "Familie og arveret",
     sub: [
       { label: "Internationale skilsmisser", href: "/divorce-spain" },
-      { label: "Skilsmisse", href: "" },
-      { label: "Lovvalg i arvesager:", href: "/" },
+      { label: "Værneting i arvesager", href: "/divorce-spain" },
+      { label: "Lovvalg i arvesager", href: "/" },
+      { label: "Testamenter i Spanien", href: "" },
 
       // { label: "Pension i Spanien", href: "/pension-spain" },
     ],
@@ -39,18 +40,18 @@ const menuItems = [
   {
     label: "Fast ejendom",
     sub: [
-      { label: "Leje-aftaler i Spanien:", href: "/real-estate-buy-sell-spain" },
-      { label: "Pant i Fast ejendom:", href: "/" },
+      { label: "Leje-aftaler i Spanien", href: "/real-estate-buy-sell-spain" },
+      { label: "Pant i Fast ejendom", href: "/" },
       {
-        label: "Planlovgivning, urbanisme og byggejura:",
+        label: "Planlovgivning, urbanisme og byggejura",
         href: "real-estate-investment-spain",
       },
       {
-        label: "Køb og salg af fast ejendom:",
+        label: "Køb og salg af fast ejendom",
         href: "/real-estate-buy-sell-spain",
       },
       {
-        label: "Ejerforeninger:",
+        label: "Ejerforeninger",
         href: "/homeowner-associations",
       },
     ],
@@ -58,9 +59,9 @@ const menuItems = [
   {
     label: "Dansker i Spanien",
     sub: [
-      { label: "Opholdstilladelse:", href: "/residency-spain" },
+      { label: "Opholdstilladelse", href: "/residency-spain" },
       { label: "Pensión og hjemmepleje i Spanien:", href: "/pension-spain" },
-      { label: "Arbejde i Spanien:", href: "/arbejdsret-i-spanien" },
+      { label: "Arbejde i Spanien", href: "/arbejdsret-i-spanien" },
       { label: "Skatterådgivning i Spanien:", href: "/skat" },
     ],
   },
@@ -154,10 +155,6 @@ export default function Header() {
               Om
             </Link>
           </nav>
-
-          <Link href="/about" className="hover:underline">
-            Om
-          </Link>
         </nav>
       </div>
 

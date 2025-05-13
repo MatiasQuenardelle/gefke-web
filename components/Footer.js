@@ -15,6 +15,12 @@ const Footer = () => {
         >
           Privacy disclaimer
         </button>
+        <button
+          onClick={() => router.push("/legalterms")}
+          className="underline hover:text-gray-300 transition-colors"
+        >
+          Handelsbetingelser
+        </button>
       </div>
     </footer>
   )

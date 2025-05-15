@@ -24,7 +24,12 @@ const PartnersSection = () => {
             områder
           </p>
           <button
-            onClick={() => router.push("/contact")}
+            onClick={() => {
+              const contactSection = document.getElementById("contact")
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: "smooth" })
+              }
+            }}
             className="mt-6 px-6 py-3 border border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white transition rounded-md"
           >
             Kontakt Mig

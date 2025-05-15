@@ -27,7 +27,12 @@ export default function HeroSection() {
           </p>
 
           <button
-            onClick={() => router.push("/contact")}
+            onClick={() => {
+              const contactSection = document.getElementById("contact")
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: "smooth" })
+              }
+            }}
             className="px-8 py-3 border border-white rounded transition hover:bg-white hover:text-[#003366]"
           >
             Kontakt Mig

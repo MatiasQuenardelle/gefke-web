@@ -38,7 +38,12 @@ export default function ContactCTA() {
           </p>
 
           <button
-            onClick={() => router.push("/contact")}
+            onClick={() => {
+              const contactSection = document.getElementById("contact")
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: "smooth" })
+              }
+            }}
             className="inline-block px-9 py-3 border border-white rounded transition-all duration-200 hover:bg-white hover:text-[#003366]"
           >
             Kontakt Mig

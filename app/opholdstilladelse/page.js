@@ -55,8 +55,8 @@ export default function InternationalInheritanceJurisdiction() {
             <p>
               I denne artikel gennemgår vi reglerne i{" "}
               <strong>dødsboskifteloven</strong> og{" "}
-              <strong>EU's arveretsforordning</strong>, og hvordan testamenter
-              og lovvalg påvirker sagen.
+              <strong>EU&apos;s arveretsforordning</strong>, og hvordan
+              testamenter og lovvalg påvirker sagen.
             </p>
           </section>
 

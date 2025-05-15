@@ -32,7 +32,7 @@ const menuItems = [
       { label: "Internationale skilsmisser", href: "/divorce-spain" },
       { label: "Værneting i arvesager", href: "/opholdstilladelse" },
       { label: "Lovvalg i arvesager", href: "/lovvalg" },
-      { label: "Testamenter i Spanien", href: "" },
+      { label: "Testamenter i Spanien", href: "/" },
 
       // { label: "Pension i Spanien", href: "/pension-spain" },
     ],

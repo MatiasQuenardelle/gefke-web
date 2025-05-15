@@ -17,7 +17,7 @@ const Footer = () => {
         </button>
         <button
           onClick={() => router.push("/legalterms")}
-          className="underline hover:text-gray-300 transition-colors"
+          className="underline hover:text-gray-300 transition-colors ml-8"
         >
           Handelsbetingelser
         </button>

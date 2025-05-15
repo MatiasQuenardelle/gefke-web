@@ -30,8 +30,8 @@ const menuItems = [
     label: "Familie og arveret",
     sub: [
       { label: "Internationale skilsmisser", href: "/divorce-spain" },
-      { label: "Værneting i arvesager", href: "/divorce-spain" },
-      { label: "Lovvalg i arvesager", href: "/" },
+      { label: "Værneting i arvesager", href: "/opholdstilladelse" },
+      { label: "Lovvalg i arvesager", href: "/lovvalg" },
       { label: "Testamenter i Spanien", href: "" },
 
       // { label: "Pension i Spanien", href: "/pension-spain" },

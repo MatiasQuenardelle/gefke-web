@@ -38,7 +38,7 @@ export default function EjerforeningerSpainArticle() {
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-3xl mx-auto space-y-10">
           <header className="text-center">
-            <h1 className="text-3xl md:text-4xl font-bold text-blue-900 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
               Ejerforeninger i Spanien: Hvad du skal vide som boligejer
             </h1>
             <p className="mt-4 text-lg text-gray-700">

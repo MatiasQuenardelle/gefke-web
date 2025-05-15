@@ -9,7 +9,7 @@ export default function ContactCTA() {
   const router = useRouter()
 
   return (
-    <section className="w-full bg-[#003366] mt-20 mb-10 text-white ">
+    <section className="w-full bg-[#003366] mt-20  text-white ">
       <div className="mx-auto max-w-7xl flex flex-col overflow-hidden md:flex-row items-center justify-between gap-10 px-6 md:px-20 py-[6vh]">
         {/* Portrait */}
         <div className="md:w-1/2 md:scale-136 flex justify-center md:justify-start order-2 md:order-1">

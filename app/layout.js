@@ -51,8 +51,9 @@ export default function RootLayout({ children }) {
         <ClientLayout>
           <Header />
           {children}
-          <ContactCTA />
           <ContactForm />
+          <ContactCTA />
+
           <Footer />
         </ClientLayout>
 

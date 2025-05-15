@@ -61,7 +61,7 @@ export default function ArticlesSection() {
                 </h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <a
-                  href="/contact"
+                  href="#contact"
                   className="text-blue-700 font-medium hover:underline"
                 >
                   → Learn more

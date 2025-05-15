@@ -69,7 +69,7 @@ const menuItems = [
     label: "Virksomhed",
     sub: [
       {
-        label: "Selvstændig i Spanien:",
+        label: "Selvstændig i Spanien",
         href: "/selvstaendig-webshop-spanien",
       },
       { label: "Virksomhed i spanien", href: "/starte-virksomhed-spanien" },

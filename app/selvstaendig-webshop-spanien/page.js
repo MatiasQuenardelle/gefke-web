@@ -1,4 +1,5 @@
-import React from "react"
+"use client"
+
 import Head from "next/head"
 
 export default function SelvstaendigWebshopSpanienPage() {
@@ -16,12 +17,6 @@ export default function SelvstaendigWebshopSpanienPage() {
           name="keywords"
           content="webshop i Spanien, sælge online Spanien, spansk forbrugerret, moms i Spanien, autónomo, drive virksomhed i Spanien"
         />
-        <link
-          rel="canonical"
-          href="https://dinwebsite.dk/selvstaendig-webshop-spanien"
-        />
-
-        {/* Open Graph */}
         <meta
           property="og:title"
           content="Selvstændig i Spanien med webshop: Sådan sælger du lovligt online"
@@ -40,8 +35,6 @@ export default function SelvstaendigWebshopSpanienPage() {
           property="og:image"
           content="https://dinwebsite.dk/images/webshop-spanien.jpg"
         />
-
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -55,168 +48,147 @@ export default function SelvstaendigWebshopSpanienPage() {
           name="twitter:image"
           content="https://dinwebsite.dk/images/webshop-spanien.jpg"
         />
-
-        {/* Structured Data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              headline:
-                "Selvstændig i Spanien med webshop: Alt du skal vide om at sælge online",
-              description:
-                "Guide til at drive webshop i Spanien som selvstændig: fra registrering og skat til forbrugerrettigheder og betaling.",
-              author: { "@type": "Person", name: "Dit Navn" },
-              publisher: {
-                "@type": "Organization",
-                name: "Din Virksomhed",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://dinwebsite.dk/logo.png",
-                },
-              },
-              datePublished: "2025-05-05",
-              mainEntityOfPage: {
-                "@type": "WebPage",
-                "@id": "https://dinwebsite.dk/selvstaendig-webshop-spanien",
-              },
-            }),
-          }}
-        />
       </Head>
 
-      <main className="max-w-3xl mx-auto px-4 py-10">
-        <h1 className="text-3xl font-bold mb-2">
-          Selvstændig i Spanien med webshop: Alt du skal vide om at sælge online
-          til spanske forbrugere
-        </h1>
-        <p className="mb-6 text-gray-700">
-          Drømmer du om at leve af din egen webshop og sælge til spanske kunder?
-          Flere og flere selvstændige – både bosiddende i Spanien og i udlandet
-          – vælger at drive{" "}
-          <strong>onlinebutik målrettet det spanske marked</strong>. Men det
-          kræver både <strong>korrekt registrering</strong>, forståelse for{" "}
-          <strong>skattemæssige forhold</strong>, og ikke mindst kendskab til{" "}
-          <strong>forbrugerrettigheder i Spanien</strong>.
-        </p>
+      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
+        <article className="max-w-4xl mx-auto space-y-10">
+          <header className="text-center">
+            <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
+              Selvstændig i Spanien med webshop: Sådan sælger du lovligt online
+            </h1>
+            <p className="mt-4 text-lg text-gray-700">
+              En praktisk guide til at drive webshop i Spanien – med fokus på
+              registrering, moms, kundebeskyttelse og digitale
+              betalingsløsninger.
+            </p>
+          </header>
 
-        <h2 className="text-xl font-semibold mt-10 mb-2">
-          1. Registrering som selvstændig (autónomo) i Spanien
-        </h2>
-        <p className="mb-4">
-          Hvis du opholder dig i Spanien og ønsker at drive virksomhed, skal du
-          registrere dig som <strong>autónomo</strong>, svarende til
-          enkeltmandsvirksomhed i Danmark.
-        </p>
-        <p className="font-semibold mb-2">Trin for registrering:</p>
-        <ul className="list-decimal list-inside mb-6 space-y-1">
-          <li>
-            Få <strong>NIE</strong> – dit personlige ID-nummer i Spanien
-          </li>
-          <li>
-            Tilmeld dig hos <strong>Agencia Tributaria</strong> (spansk skat)
-          </li>
-          <li>
-            Tilmeld dig <strong>RETA</strong> (selvstændige) hos Seguridad
-            Social
-          </li>
-          <li>Registrér virksomheden under relevant branchekode (IAE)</li>
-        </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              1. Registrering som selvstændig (autónomo)
+            </h2>
+            <p>
+              Hvis du ønsker at drive webshop i Spanien og bor i landet, skal du
+              registreres som <strong>autónomo</strong> – en form for
+              enkeltmandsvirksomhed.
+            </p>
+            <p className="font-semibold">Trin-for-trin registrering:</p>
+            <ul className="list-decimal list-inside ml-4 space-y-1">
+              <li>Få NIE-nummer (identifikationsnummer for udlændinge)</li>
+              <li>Tilmeld dig hos Agencia Tributaria (skattemyndigheder)</li>
+              <li>Tilmeld dig RETA hos Seguridad Social</li>
+              <li>Registrér under korrekt branchekode (IAE)</li>
+            </ul>
+          </section>
 
-        <h2 className="text-xl font-semibold mt-10 mb-2">
-          2. Moms (IVA) og skat
-        </h2>
-        <p className="mb-4">
-          Du skal opkræve og afregne <strong>moms (IVA)</strong>, som er typisk:
-        </p>
-        <ul className="list-disc list-inside mb-4">
-          <li>21 % for de fleste varer og ydelser</li>
-          <li>10 % eller 4 % for visse fødevarer, bøger, medicin m.m.</li>
-        </ul>
-        <p className="font-semibold">Skatteforpligtelser:</p>
-        <ul className="list-disc list-inside mb-6">
-          <li>Kvartalsvis momsindberetning (Modelo 303)</li>
-          <li>Kvartalsvis forskudsskat (Modelo 130)</li>
-          <li>Årlig selvangivelse (Modelo 100)</li>
-        </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              2. Moms (IVA) og skatteforhold
+            </h2>
+            <p>
+              Du skal som hovedregel opkræve <strong>moms (IVA)</strong> og
+              betale skat kvartalsvist. Standard IVA er:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>21 % for de fleste produkter og ydelser</li>
+              <li>
+                10 % eller 4 % for særlige kategorier (mad, bøger, medicin)
+              </li>
+            </ul>
+            <p className="font-semibold">Skattepligter som autónomo:</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Kvartalsvis momsindberetning (Modelo 303)</li>
+              <li>Kvartalsvis forskudsskat (Modelo 130)</li>
+              <li>Årlig indkomstskat (Modelo 100)</li>
+            </ul>
+          </section>
 
-        <h2 className="text-xl font-semibold mt-10 mb-2">
-          3. Spanske forbrugerrettigheder
-        </h2>
-        <p className="mb-2">
-          Du skal overholde <strong>spansk forbrugerlovgivning</strong>,
-          herunder:
-        </p>
-        <ul className="list-disc list-inside mb-4">
-          <li>14 dages fortrydelsesret</li>
-          <li>Klar info om pris, moms og leveringsomkostninger</li>
-          <li>Ordrebekræftelse på skrift (mail)</li>
-          <li>Returnerings- og garantipolitik</li>
-        </ul>
-        <p className="mb-6">
-          Handelsbetingelser bør være <strong>tilgængelige på spansk</strong>,
-          og det anbefales at have spansk kundeservice.
-        </p>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              3. Spanske forbrugerrettigheder
+            </h2>
+            <p>
+              Du skal overholde den spanske <strong>forbrugerlovgivning</strong>
+              , herunder:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>14 dages fortrydelsesret</li>
+              <li>Klar prisinfo inkl. moms og leveringsomkostninger</li>
+              <li>Skriftlig ordrebekræftelse (typisk via e-mail)</li>
+              <li>Returpolitik og garantier beskrevet tydeligt</li>
+            </ul>
+            <p>
+              Handelsbetingelser og hjemmeside bør være tilgængelige på
+              <strong> spansk</strong>, og det er en fordel at kunne tilbyde
+              spansk kundeservice.
+            </p>
+          </section>
 
-        <h2 className="text-xl font-semibold mt-10 mb-2">
-          4. Domæne og betaling
-        </h2>
-        <p className="mb-2">
-          Du kan bruge et <strong>.es-domæne</strong>, men det kræver spansk NIE
-          og evt. spansk virksomhed.
-        </p>
-        <ul className="list-disc list-inside mb-4">
-          <li>
-            Webshoppen bør være oversat til <strong>spansk</strong>
-          </li>
-          <li>
-            Brug <strong>EU-godkendte betalingsløsninger</strong> (f.eks.
-            Stripe, Redsys, PayPal)
-          </li>
-          <li>Fakturaer skal indeholde: navn, NIE/CIF, kundedata, moms</li>
-        </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              4. Domæne og betaling
+            </h2>
+            <p>
+              Det er muligt at bruge et <strong>.es-domæne</strong>, men det
+              kræver typisk spansk NIE og virksomhed.
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>
+                Webshoppen bør være tilgængelig på <strong>spansk</strong>
+              </li>
+              <li>
+                Brug EU-godkendte betalingsløsninger som Stripe, Redsys eller
+                PayPal
+              </li>
+              <li>
+                Fakturaer skal indeholde NIE/CIF, kundedata og korrekt IVA
+              </li>
+            </ul>
+          </section>
 
-        <h2 className="text-xl font-semibold mt-10 mb-2">
-          5. Fordele ved det spanske marked
-        </h2>
-        <ul className="list-disc list-inside mb-4">
-          <li>
-            <strong>47+ millioner indbyggere</strong> med stigende e-handelsvane
-          </li>
-          <li>Lavere konkurrence i nicher vs. Nordeuropa</li>
-          <li>Mobil- og social media-vaner skaber gode markedsmuligheder</li>
-        </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              5. Fordele ved det spanske marked
+            </h2>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>47+ mio. indbyggere og stærk vækst i e-handel</li>
+              <li>Mindre konkurrence i mange nicher end i Nordeuropa</li>
+              <li>Høj mobilbrug og digital tilstedeværelse</li>
+            </ul>
+          </section>
 
-        <h2 className="text-xl font-semibold mt-10 mb-2">
-          6. Alternativ: Drive webshop fra Danmark
-        </h2>
-        <p className="mb-2">
-          Du kan drive webshop fra Danmark og sælge til Spanien, men:
-        </p>
-        <ul className="list-disc list-inside mb-6">
-          <li>
-            Du skal momsregistreres via <strong>OSS-ordningen</strong>
-          </li>
-          <li>
-            Du skal stadig{" "}
-            <strong>overholde spanske forbrugerrettigheder</strong>
-          </li>
-        </ul>
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              6. Alternativ: Webshop fra Danmark
+            </h2>
+            <p>
+              Det er også muligt at sælge til Spanien fra Danmark, men du skal:
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>Momsregistreres via OSS-ordningen i EU</li>
+              <li>Overholde spanske forbrugerregler og info-krav</li>
+            </ul>
+          </section>
 
-        <h2 className="text-xl font-bold mt-12 mb-4">Konklusion</h2>
-        <p className="mb-4">
-          En webshop i Spanien kræver <strong>korrekt opsætning</strong>:
-          registrering, moms, forbrugerlovgivning og struktur. Uanset om du bor
-          i Spanien eller Danmark, er det vigtigt at få professionel vejledning.
-        </p>
-
-        <p className="font-semibold mt-6">
-          Overvejer du at starte webshop i Spanien?{" "}
-          <a href="/kontakt" className="text-blue-600 underline">
-            Kontakt os og kom godt i gang!
-          </a>
-        </p>
+          <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
+            <h2 className="text-2xl font-bold text-blue-900">
+              Konklusion: Kom godt i gang med din webshop i Spanien
+            </h2>
+            <p>
+              En webshop i Spanien kræver juridisk struktur og kendskab til
+              lokale regler. Du skal sikre korrekt registrering, moms, og
+              forbrugerbeskyttelse.
+            </p>
+            <p className="font-semibold text-lg">
+              Overvejer du at starte webshop i Spanien?
+              <br />
+              <a href="/kontakt" className="text-blue-700 underline">
+                Kontakt os i dag
+              </a>{" "}
+              for professionel rådgivning på dansk.
+            </p>
+          </section>
+        </article>
       </main>
     </>
   )

@@ -16,14 +16,13 @@ export default function HeroSection() {
           <h1
             className={`${merri.className} text-4xl md:text-6xl leading-none`}
           >
-            EUs
+            Jurist i
             <br />
-            indflydelse
+            Spanien
           </h1>
 
           <p className="max-w-lg text-base md:text-lg text-gray-200">
-            Grundet europæisk lovgivning, er det nemmere end nogensinde at
-            flytte til Spanien og få opholdstilladelse.
+            Juridisk rådgivning til dig i Spanien.
           </p>
 
           <button

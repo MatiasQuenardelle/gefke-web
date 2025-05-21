@@ -132,7 +132,8 @@ export default function TestamenterISpanienPage() {
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>Undgå uønsket fordeling efter spansk lov</li>
-              <li>Udpeg dansk lov som gældende via EU's arveforordning</li>
+              <li>Udpeg dansk lov som gældende via EU&#39;s arveforordning</li>
+
               <li>Forebyg dobbeltbeskatning</li>
               <li>Sikr ægtefælle og familie juridisk og følelsesmæssigt</li>
             </ul>

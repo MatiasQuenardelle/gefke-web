@@ -32,7 +32,7 @@ const menuItems = [
       { label: "Internationale skilsmisser", href: "/divorce-spain" },
       { label: "Værneting i arvesager", href: "/opholdstilladelse" },
       { label: "Lovvalg i arvesager", href: "/lovvalg" },
-      { label: "Testamenter i Spanien", href: "/" },
+      { label: "Testamenter i Spanien", href: "/testamenter-i-spanien" },
 
       // { label: "Pension i Spanien", href: "/pension-spain" },
     ],
@@ -41,7 +41,7 @@ const menuItems = [
     label: "Fast ejendom",
     sub: [
       { label: "Leje-aftaler i Spanien", href: "/real-estate-buy-sell-spain" },
-      { label: "Pant i Fast ejendom", href: "/" },
+      { label: "Pant i Fast ejendom", href: "/realkredit" },
       {
         label: "Planlovgivning, urbanisme og byggejura",
         href: "real-estate-investment-spain",

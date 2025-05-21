@@ -147,10 +147,11 @@ export default function RealkreditSpanienPage() {
               Konklusion: Tryghed ved boligkøb i Spanien
             </h2>
             <p>
-              Som dansker bør du ikke navigere det spanske ejendomsmarked alene.
-              En lokal advokat med dansk forståelse sikrer korrekt rådgivning og
-              lovlige dokumenter.
+              Som dansker b&#39;r du ikke navigere det spanske ejendomsmarked
+              alene. En lokal advokat med dansk forståelse sikrer korrekt
+              rådgivning og lovlige dokumenter.
             </p>
+
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>Køb og salg af fast ejendom</li>
               <li>Hypotek og banklån</li>

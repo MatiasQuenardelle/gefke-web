@@ -140,7 +140,7 @@ export default function TestamenterISpanienPage() {
             <p className="font-semibold text-lg">
               Har du spørgsmål om testamente i Spanien?
               <br />
-              <a href="/kontakt" className="text-blue-700 underline">
+              <a href="/contact" className="text-blue-700 underline">
                 Kontakt os i dag
               </a>{" "}
               for dansk juridisk rådgivning.

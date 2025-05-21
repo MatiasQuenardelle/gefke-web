@@ -195,7 +195,7 @@ export default function LejekontrakterISpanienPage() {
             <p className="font-semibold text-lg">
               Brug for rådgivning om lejeaftaler i Spanien?
               <br />
-              <a href="/kontakt" className="text-blue-700 underline">
+              <a href="/contact" className="text-blue-700 underline">
                 Kontakt os i dag
               </a>{" "}
               for dansk juridisk bistand.

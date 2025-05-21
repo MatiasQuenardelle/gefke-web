@@ -196,7 +196,7 @@ export default function StarteVirksomhedSpanienPage() {
             </p>
             <p className="font-semibold text-lg">
               Har du spørgsmål om etablering i Spanien?{" "}
-              <a href="/kontakt" className="text-blue-700 underline">
+              <a href="/contact" className="text-blue-700 underline">
                 Kontakt os i dag
               </a>{" "}
               – vi hjælper dig sikkert i gang.

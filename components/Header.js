@@ -40,7 +40,7 @@ const menuItems = [
   {
     label: "Fast ejendom",
     sub: [
-      { label: "Leje-aftaler i Spanien", href: "/real-estate-buy-sell-spain" },
+      { label: "Leje-aftaler i Spanien", href: "/lejekontrakter-i-spanien" },
       { label: "Realkredit og pant i fast ejendom", href: "/realkredit" },
       {
         label: "Planlovgivning, urbanisme og byggejura",

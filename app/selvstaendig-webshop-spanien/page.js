@@ -182,7 +182,7 @@ export default function SelvstaendigWebshopSpanienPage() {
             <p className="font-semibold text-lg">
               Overvejer du at starte webshop i Spanien?
               <br />
-              <a href="/kontakt" className="text-blue-700 underline">
+              <a href="/contact" className="text-blue-700 underline">
                 Kontakt os i dag
               </a>{" "}
               for professionel rådgivning på dansk.

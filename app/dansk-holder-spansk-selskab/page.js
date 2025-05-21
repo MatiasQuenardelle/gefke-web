@@ -186,7 +186,7 @@ export default function DanskHoldingSpanienPage() {
               korrekt opsætning og rådgivning.
             </p>
             <p className="font-semibold text-lg">
-              <a href="/kontakt" className="text-blue-700 underline">
+              <a href="/contact" className="text-blue-700 underline">
                 Kontakt os i dag
               </a>{" "}
               – vi hjælper med struktur, skat og revision.

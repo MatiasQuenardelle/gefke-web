@@ -166,7 +166,7 @@ export default function ArbejdsretISpanienPage() {
             <p className="font-semibold text-lg">
               Har du brug for rådgivning om arbejdsret i Spanien?
               <br />
-              <a href="/kontakt" className="text-blue-700 underline">
+              <a href="/contact" className="text-blue-700 underline">
                 Kontakt os i dag
               </a>{" "}
               for juridisk vejledning på dansk.

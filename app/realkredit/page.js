@@ -160,7 +160,7 @@ export default function RealkreditSpanienPage() {
             <p className="font-semibold text-lg">
               Brug for bistand med boligkøb i Spanien?
               <br />
-              <a href="/kontakt" className="text-blue-700 underline">
+              <a href="/contact" className="text-blue-700 underline">
                 Kontakt os i dag
               </a>{" "}
               for juridisk hjælp på dansk.

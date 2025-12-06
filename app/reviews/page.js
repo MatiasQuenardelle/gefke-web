@@ -1,13 +1,15 @@
 "use client"
 
 import ReviewFunnel from "@/components/ReviewFunnel"
+import { useTranslation } from "react-i18next"
 
 export default function ReviewsPage() {
+  const { t } = useTranslation()
   return (
     <main className="min-h-screen mb-80 flex flex-col bg-gray-50">
       <header className="bg-white shadow">
         <div className="max-w-7xl flex justify-center mx-auto py-6 px-6">
-          <h1 className="text-3xl  font-bold text-gray-900">Leave a Review</h1>
+          <h1 className="text-3xl  font-bold text-gray-900">{t("reviews.title")}</h1>
         </div>
       </header>
 

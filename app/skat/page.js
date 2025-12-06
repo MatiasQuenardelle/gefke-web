@@ -1,15 +1,17 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function SkatPage() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
-        <title>Skatterådgivning i Spanien for danskere | Juridisk hjælp</title>
+        <title>{t("skat.metaTitle")}</title>
         <meta
           name="description"
-          content="Forstå forskellen på skattepligt som residente og ikke-residente i Spanien. Få styr på spansk skat, formularer og optimer din situation som dansker i Spanien."
+          content={t("skat.metaDescription")}
         />
       </Head>
 
@@ -17,227 +19,225 @@ export default function SkatPage() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Skat i Spanien: Hvad udlændinge skal vide om beskatning, bopæl og
-              skattepligt
+              {t("skat.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              Et overblik over spansk skat for danskere, uanset om du bor,
-              arbejder eller investerer i Spanien.
+              {t("skat.subtitle")}
             </p>
           </header>
 
           <section className="space-y-6">
             <p>
-              At bo, arbejde eller investere i Spanien medfører skattemæssige
-              forpligtelser. Det er afgørende at forstå, om du er{" "}
-              <strong>skattemæssigt hjemmehørende (residente)</strong> eller{" "}
-              <strong>ikke-hjemmehørende (no residente)</strong>.
+              {t("skat.intro1")}{" "}
+              <strong>{t("skat.intro1Strong1")}</strong>{" "}
+              {t("skat.intro1Text")}{" "}
+              <strong>{t("skat.intro1Strong2")}</strong>.
             </p>
 
             <p>
-              Denne artikel giver dig indsigt i{" "}
-              <strong>spansk skattesystem</strong>, forskellen på direkte og
-              indirekte skatter, samt hvad skattemæssig bopæl betyder.
+              {t("skat.intro2")}{" "}
+              <strong>{t("skat.intro2Strong")}</strong>
+              {t("skat.intro2Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              1. Det spanske skattesystem – overblik
+              {t("skat.section1Title")}
             </h2>
             <p>
-              Fastlagt i <strong>Ley General Tributaria (lov 58/2003)</strong>,
-              administreres skatter på nationalt, regionalt og lokalt niveau:
+              {t("skat.section1Text")}{" "}
+              <strong>{t("skat.section1Strong")}</strong>
+              {t("skat.section1Text2")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>Direkte skatter:</strong> indkomst, formue, arv/gaver.
+                <strong>{t("skat.section1Item1Label")}</strong> {t("skat.section1Item1Text")}
               </li>
               <li>
-                <strong>Indirekte skatter:</strong> forbrug, fx moms og
-                afgifter.
+                <strong>{t("skat.section1Item2Label")}</strong> {t("skat.section1Item2Text")}
               </li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              2. Skattepligt – er du residente?
+              {t("skat.section2Title")}
             </h2>
             <p>
-              Skattepligt i Spanien afhænger af, om du betragtes som{" "}
-              <strong>skattemæssigt hjemmehørende (residente)</strong>.
+              {t("skat.section2Text")}{" "}
+              <strong>{t("skat.section2Strong")}</strong>.
             </p>
 
             <h3 className="text-xl font-semibold">
-              Hvornår er du residente? (jf. IRPF-lovens artikel 9)
+              {t("skat.section2Subtitle")}
             </h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Ophold i Spanien i mere end 183 dage om året</li>
-              <li>Økonomisk og familiemæssigt centrum i Spanien</li>
-              <li>Ægtefælle og/eller børn bosat i Spanien</li>
+              <li>{t("skat.section2Item1")}</li>
+              <li>{t("skat.section2Item2")}</li>
+              <li>{t("skat.section2Item3")}</li>
             </ul>
 
             <h3 className="text-xl font-semibold">
-              Konsekvenser som residente:
+              {t("skat.section2Subtitle2")}
             </h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Skattepligt af global indkomst</li>
-              <li>Selvangivelse via IRPF</li>
-              <li>Fradragsmuligheder og sociale ydelser</li>
-              <li>Indsendelse af Modelo 720 ved udenlandske aktiver</li>
+              <li>{t("skat.section2Item4")}</li>
+              <li>{t("skat.section2Item5")}</li>
+              <li>{t("skat.section2Item6")}</li>
+              <li>{t("skat.section2Item7")}</li>
             </ul>
 
             <h3 className="text-xl font-semibold">
-              Konsekvenser som ikke-residente:
+              {t("skat.section2Subtitle3")}
             </h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Skat kun af spansk indkomst og aktiver</li>
-              <li>Beskatning via IRNR</li>
-              <li>Begrænsede fradrag og undtagelser</li>
-              <li>Krav om skatterepæsentant uden for EU/EØS</li>
+              <li>{t("skat.section2Item8")}</li>
+              <li>{t("skat.section2Item9")}</li>
+              <li>{t("skat.section2Item10")}</li>
+              <li>{t("skat.section2Item11")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              3. Direkte skatter i Spanien
+              {t("skat.section3Title")}
             </h2>
 
             <h3 className="text-xl font-semibold">
-              a) IRPF – Indkomstskat for residente
+              {t("skat.section3Subtitle1")}
             </h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Gælder for alle residente</li>
+              <li>{t("skat.section3Item1")}</li>
               <li>
-                Progressiv sats: <strong>19 % – 47 %+</strong>
+                {t("skat.section3Item2")}{" "}
+                <strong>{t("skat.section3Item2Strong")}</strong>
               </li>
-              <li>Omfatter løn, pension, udlejning, kapitalindkomst, m.m.</li>
+              <li>{t("skat.section3Item3")}</li>
             </ul>
 
             <h3 className="text-xl font-semibold">
-              b) IRNR – Skat for ikke-residente
+              {t("skat.section3Subtitle2")}
             </h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>24 %</strong> for personer uden for EU/EØS
+                <strong>{t("skat.section3Item4Strong")}</strong> {t("skat.section3Item4Text")}
               </li>
               <li>
-                <strong>19 %</strong> for personer fra EU/EØS
+                <strong>{t("skat.section3Item5Strong")}</strong> {t("skat.section3Item5Text")}
               </li>
-              <li>Gælder spansk indkomst: leje, pension, udbytte mv.</li>
+              <li>{t("skat.section3Item6")}</li>
             </ul>
 
-            <h3 className="text-xl font-semibold">c) Formueskat</h3>
+            <h3 className="text-xl font-semibold">{t("skat.section3Subtitle3")}</h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>
-                Residente: global formue. Ikke-residente: spanske aktiver.
-              </li>
-              <li>Fritagelse op til 700.000 € (regionalt varieret)</li>
-              <li>Madrid fritager helt – Katalonien opkræver</li>
+              <li>{t("skat.section3Item7")}</li>
+              <li>{t("skat.section3Item8")}</li>
+              <li>{t("skat.section3Item9")}</li>
             </ul>
 
-            <h3 className="text-xl font-semibold">d) Arv og gaveafgift</h3>
+            <h3 className="text-xl font-semibold">{t("skat.section3Subtitle4")}</h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Bopæl og aktivernes placering afgør skatten</li>
-              <li>Store regionale forskelle</li>
+              <li>{t("skat.section3Item10")}</li>
+              <li>{t("skat.section3Item11")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              4. Indirekte skatter
+              {t("skat.section4Title")}
             </h2>
 
-            <h3 className="text-xl font-semibold">a) Moms (IVA)</h3>
+            <h3 className="text-xl font-semibold">{t("skat.section4Subtitle1")}</h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                Almindelig sats: <strong>21 %</strong>
+                {t("skat.section4Item1")}{" "}
+                <strong>{t("skat.section4Item1Strong")}</strong>
               </li>
               <li>
-                Reduceret sats: <strong>10 %</strong>
+                {t("skat.section4Item2")}{" "}
+                <strong>{t("skat.section4Item2Strong")}</strong>
               </li>
               <li>
-                Superreduceret sats: <strong>4 %</strong>
+                {t("skat.section4Item3")}{" "}
+                <strong>{t("skat.section4Item3Strong")}</strong>
               </li>
             </ul>
 
             <h3 className="text-xl font-semibold">
-              b) Afgift på ejendom og dokumenter
+              {t("skat.section4Subtitle2")}
             </h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Gælder brugte boliger og notartransaktioner</li>
+              <li>{t("skat.section4Item4")}</li>
               <li>
-                Sats: <strong>6 % – 10 %</strong> afhængig af region
+                {t("skat.section4Item5")}{" "}
+                <strong>{t("skat.section4Item5Strong")}</strong> {t("skat.section4Item5Text")}
               </li>
             </ul>
 
-            <h3 className="text-xl font-semibold">c) Punktafgifter</h3>
+            <h3 className="text-xl font-semibold">{t("skat.section4Subtitle3")}</h3>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>På fx alkohol, tobak og brændstof</li>
+              <li>{t("skat.section4Item6")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              5. Ejendom i Spanien – Skatter og gebyrer
+              {t("skat.section5Title")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Skat af lejeindtægter eller beregnet lejeværdi</li>
+              <li>{t("skat.section5Item1")}</li>
               <li>
-                Lokal ejendomsskat (<strong>IBI</strong>)
+                {t("skat.section5Item2")}{" "}
+                (<strong>{t("skat.section5Item2Strong")}</strong>)
               </li>
               <li>
-                Ved salg: gevinstskat + <strong>3 % tilbageholdelse</strong>
+                {t("skat.section5Item3")}{" "}
+                <strong>{t("skat.section5Item3Strong")}</strong>
               </li>
             </ul>
             <p>
-              Spanien og Danmark har en{" "}
-              <strong>dobbeltbeskatningsoverenskomst</strong>, som forhindrer
-              dobbeltskat.
+              {t("skat.section5Text")}{" "}
+              <strong>{t("skat.section5Strong")}</strong>
+              {t("skat.section5Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              6. Centrale skatteformularer
+              {t("skat.section6Title")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>Modelo 030</strong> – registrering hos spansk SKAT
+                <strong>{t("skat.section6Item1Strong")}</strong> {t("skat.section6Item1Text")}
               </li>
               <li>
-                <strong>Modelo 210</strong> – for ikke-residente (fx udlejning)
+                <strong>{t("skat.section6Item2Strong")}</strong> {t("skat.section6Item2Text")}
               </li>
               <li>
-                <strong>Modelo 100</strong> – årlig selvangivelse (IRPF)
+                <strong>{t("skat.section6Item3Strong")}</strong> {t("skat.section6Item3Text")}
               </li>
               <li>
-                <strong>Modelo 720</strong> – oplysning om udenlandske aktiver
+                <strong>{t("skat.section6Item4Strong")}</strong> {t("skat.section6Item4Text")}
               </li>
               <li>
-                <strong>Certificado de residencia fiscal</strong> –
-                skattebopælsbevis
+                <strong>{t("skat.section6Item5Strong")}</strong> {t("skat.section6Item5Text")}
               </li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              Konklusion: Få styr på din skat – og undgå dyre overraskelser
+              {t("skat.conclusionTitle")}
             </h2>
             <p>
-              Det spanske skattesystem er komplekst og adskiller sig væsentligt
-              fra det danske. At vide, om du er residente eller ej, er nøglen
-              til korrekt skatteplanlægning.
+              {t("skat.conclusionText1")}
             </p>
             <p>
-              Juridisk skatterådgivning er afgørende for at undgå fejl, bøder og
-              overbeskatning.
+              {t("skat.conclusionText2")}
             </p>
             <p className="font-semibold text-lg">
-              Overvejer du at flytte, investere eller arbejde i Spanien? Kontakt
-              os i dag for professionel skattegennemgang og rådgivning på dansk.
+              {t("skat.conclusionText3")}
             </p>
           </section>
         </article>

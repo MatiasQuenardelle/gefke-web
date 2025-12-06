@@ -1,17 +1,19 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function StarteVirksomhedSpanienPage() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
         <title>
-          At starte virksomhed i Spanien: Filial, selskab eller selvstændig?
+          {t("startVirksomhed.metaTitle")}
         </title>
         <meta
           name="description"
-          content="Få overblik over de tre mest almindelige måder at starte virksomhed i Spanien: filial, spansk selskab (S.L./S.A.) eller som selvstændig (autónomo)."
+          content={t("startVirksomhed.metaDescription")}
         />
         <meta
           name="keywords"
@@ -19,11 +21,11 @@ export default function StarteVirksomhedSpanienPage() {
         />
         <meta
           property="og:title"
-          content="At starte virksomhed i Spanien: Filial, selskab eller selvstændig?"
+          content={t("startVirksomhed.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Guide til etablering af virksomhed i Spanien: vælg mellem filial, spansk selskab (S.L./S.A.) eller som selvstændig erhvervsdrivende."
+          content={t("startVirksomhed.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta
@@ -38,11 +40,11 @@ export default function StarteVirksomhedSpanienPage() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="At starte virksomhed i Spanien: Filial, selskab eller selvstændig?"
+          content={t("startVirksomhed.twitterTitle")}
         />
         <meta
           name="twitter:description"
-          content="Overvej filial, S.L. eller autónomo – vi guider dig gennem virksomhedsetablering i Spanien."
+          content={t("startVirksomhed.twitterDescription")}
         />
         <meta
           name="twitter:image"
@@ -54,132 +56,128 @@ export default function StarteVirksomhedSpanienPage() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              At starte virksomhed i Spanien: Filial, selskab eller selvstændig?
+              {t("startVirksomhed.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              En komplet guide til etablering af virksomhed i Spanien – vi
-              gennemgår fordele og krav ved filial, spansk selskab og
-              selvstændig virksomhed.
+              {t("startVirksomhed.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Tre typiske måder at starte virksomhed
+              {t("startVirksomhed.section0Title")}
             </h2>
             <ul className="list-decimal list-inside ml-4 space-y-1">
-              <li>Som filial af en udenlandsk virksomhed</li>
-              <li>Som spansk selskab (S.L. eller S.A.)</li>
-              <li>Som selvstændig (autónomo)</li>
+              <li>{t("startVirksomhed.section0Item1")}</li>
+              <li>{t("startVirksomhed.section0Item2")}</li>
+              <li>{t("startVirksomhed.section0Item3")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              1. Opret en filial af et udenlandsk selskab
+              {t("startVirksomhed.section1Title")}
             </h2>
             <p>
-              Har du allerede virksomhed i Danmark, kan du åbne en filial i
-              Spanien. Det er en forlængelse af moderselskabet og kræver:
+              {t("startVirksomhed.section1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Registrering i Registro Mercantil</li>
-              <li>Udnævnelse af juridisk repræsentant</li>
-              <li>Spansk skattenummer (NIF)</li>
-              <li>Officielle oversættelser af selskabsdokumenter</li>
-              <li>Tilmelding til Seguridad Social ved ansatte</li>
+              <li>{t("startVirksomhed.section1Item1")}</li>
+              <li>{t("startVirksomhed.section1Item2")}</li>
+              <li>{t("startVirksomhed.section1Item3")}</li>
+              <li>{t("startVirksomhed.section1Item4")}</li>
+              <li>{t("startVirksomhed.section1Item5")}</li>
             </ul>
-            <p className="font-semibold">Fordele ved filial:</p>
+            <p className="font-semibold">{t("startVirksomhed.section1Subtitle")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Let adgang til det spanske marked</li>
-              <li>Styrket tillid fra kunder og myndigheder</li>
-              <li>Mulighed for EU- og nationale tilskud</li>
+              <li>{t("startVirksomhed.section1Item6")}</li>
+              <li>{t("startVirksomhed.section1Item7")}</li>
+              <li>{t("startVirksomhed.section1Item8")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              2. Opret et spansk selskab (S.L. eller S.A.)
+              {t("startVirksomhed.section2Title")}
             </h2>
             <p>
-              Den mest almindelige selskabsform er <strong>S.L.</strong>,
-              svarende til et dansk ApS. S.A. bruges primært af større
-              virksomheder.
+              {t("startVirksomhed.section2Text")}{" "}
+              <strong>{t("startVirksomhed.section2Strong")}</strong>
+              {t("startVirksomhed.section2Text2")}
             </p>
-            <p className="font-semibold">Sådan opretter du et S.L.:</p>
+            <p className="font-semibold">{t("startVirksomhed.section2Subtitle")}</p>
             <ol className="list-decimal list-inside ml-4 space-y-1">
-              <li>Reserver virksomhedsnavn (Registro Mercantil Central)</li>
-              <li>Åbn spansk bankkonto og indskyd minimum 3.000 €</li>
-              <li>Udarbejd vedtægter og underskriv hos notar</li>
-              <li>Registrér selskabet i Registro Mercantil</li>
-              <li>Få NIF og tilmeld til Agencia Tributaria</li>
+              <li>{t("startVirksomhed.section2Item1")}</li>
+              <li>{t("startVirksomhed.section2Item2")}</li>
+              <li>{t("startVirksomhed.section2Item3")}</li>
+              <li>{t("startVirksomhed.section2Item4")}</li>
+              <li>{t("startVirksomhed.section2Item5")}</li>
             </ol>
-            <p className="font-semibold">Skat og forpligtelser:</p>
+            <p className="font-semibold">{t("startVirksomhed.section2Subtitle2")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Selskabsskat: 25 %</li>
-              <li>Moms (IVA): typisk 21 %</li>
-              <li>Årsregnskab og løbende indberetninger</li>
+              <li>{t("startVirksomhed.section2Item6")}</li>
+              <li>{t("startVirksomhed.section2Item7")}</li>
+              <li>{t("startVirksomhed.section2Item8")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              3. Arbejd som selvstændig (autónomo)
+              {t("startVirksomhed.section3Title")}
             </h2>
             <p>
-              Den hurtigste og mest fleksible løsning er at blive autónomo –
-              ideelt for freelancere, konsulenter og små selvstændige.
+              {t("startVirksomhed.section3Text")}
             </p>
-            <p className="font-semibold">Krav og trin:</p>
+            <p className="font-semibold">{t("startVirksomhed.section3Subtitle")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Få NIE og spansk adresse</li>
-              <li>Registrér dig hos Agencia Tributaria (036/037)</li>
-              <li>Tilmeld dig Seguridad Social (RETA-ordningen)</li>
-              <li>Indsend kvartalsvis moms og forskudsskat</li>
+              <li>{t("startVirksomhed.section3Item1")}</li>
+              <li>{t("startVirksomhed.section3Item2")}</li>
+              <li>{t("startVirksomhed.section3Item3")}</li>
+              <li>{t("startVirksomhed.section3Item4")}</li>
             </ul>
-            <p className="font-semibold">Omkostninger og skatter:</p>
+            <p className="font-semibold">{t("startVirksomhed.section3Subtitle2")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Månedligt bidrag: ca. 230 €</li>
-              <li>IRPF (personskat): ca. 20 % af overskud</li>
-              <li>Moms (21 %), hvis du leverer momspligtige ydelser</li>
+              <li>{t("startVirksomhed.section3Item5")}</li>
+              <li>{t("startVirksomhed.section3Item6")}</li>
+              <li>{t("startVirksomhed.section3Item7")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Sammenligning af modeller
+              {t("startVirksomhed.section4Title")}
             </h2>
             <table className="w-full text-sm border border-gray-300">
               <thead>
                 <tr className="bg-gray-100 text-left">
-                  <th className="p-2 border">Form</th>
-                  <th className="p-2 border">Kapitalkrav</th>
-                  <th className="p-2 border">Hæftelse</th>
-                  <th className="p-2 border">Skat</th>
-                  <th className="p-2 border">Formål</th>
+                  <th className="p-2 border">{t("startVirksomhed.tableHeader1")}</th>
+                  <th className="p-2 border">{t("startVirksomhed.tableHeader2")}</th>
+                  <th className="p-2 border">{t("startVirksomhed.tableHeader3")}</th>
+                  <th className="p-2 border">{t("startVirksomhed.tableHeader4")}</th>
+                  <th className="p-2 border">{t("startVirksomhed.tableHeader5")}</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="p-2 border">Filial</td>
-                  <td className="p-2 border">Ingen</td>
-                  <td className="p-2 border">Moderselskabet hæfter</td>
-                  <td className="p-2 border">IRNR / selskabsskat</td>
-                  <td className="p-2 border">Høj</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow1Col1")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow1Col2")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow1Col3")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow1Col4")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow1Col5")}</td>
                 </tr>
                 <tr>
-                  <td className="p-2 border">S.L.</td>
-                  <td className="p-2 border">3.000 €</td>
-                  <td className="p-2 border">Begrænset</td>
-                  <td className="p-2 border">Selskabsskat (25 %)</td>
-                  <td className="p-2 border">Mellem</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow2Col1")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow2Col2")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow2Col3")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow2Col4")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow2Col5")}</td>
                 </tr>
                 <tr>
-                  <td className="p-2 border">Autónomo</td>
-                  <td className="p-2 border">Ingen</td>
-                  <td className="p-2 border">Ubegrænset</td>
-                  <td className="p-2 border">IRPF (20 %)</td>
-                  <td className="p-2 border">Lav</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow3Col1")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow3Col2")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow3Col3")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow3Col4")}</td>
+                  <td className="p-2 border">{t("startVirksomhed.tableRow3Col5")}</td>
                 </tr>
               </tbody>
             </table>
@@ -187,19 +185,17 @@ export default function StarteVirksomhedSpanienPage() {
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              Konklusion: Find den rigtige model for dig
+              {t("startVirksomhed.conclusionTitle")}
             </h2>
             <p>
-              Uanset om du ønsker at udvide en dansk virksomhed, starte en ny i
-              Spanien eller arbejde som selvstændig, findes der en løsning. Med
-              den rette rådgivning undgår du fejl og sparer tid.
+              {t("startVirksomhed.conclusionText")}
             </p>
             <p className="font-semibold text-lg">
-              Har du spørgsmål om etablering i Spanien?{" "}
+              {t("startVirksomhed.conclusionText2")}{" "}
               <a href="/contact" className="text-blue-700 underline">
-                Kontakt os i dag
+                {t("startVirksomhed.conclusionLink")}
               </a>{" "}
-              – vi hjælper dig sikkert i gang.
+              {t("startVirksomhed.conclusionText3")}
             </p>
           </section>
         </article>

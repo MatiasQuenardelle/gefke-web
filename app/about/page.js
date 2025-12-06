@@ -1,17 +1,21 @@
+"use client"
+
 import Head from "next/head"
 import { Merriweather } from "next/font/google"
+import { useTranslation } from "react-i18next"
 
 const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
 
 function AboutHero() {
+  const { t } = useTranslation()
   return (
     <section className="w-full bg-[#003366] text-white">
       <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-12 px-6 md:px-20 py-[8vh]">
         <h1 className={`${merri.className} text-5xl md:text-7xl leading-none`}>
-          Om mig
+          {t("about.heroTitle")}
         </h1>
         <p className="text-lg md:text-2xl font-light">
-          Spansk advokat / abogado
+          {t("about.heroSubtitle")}
         </p>
       </div>
     </section>
@@ -19,13 +23,14 @@ function AboutHero() {
 }
 
 export default function AboutPage() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
-        <title>Om mig | Christian Gefke – Spansk Advokat</title>
+        <title>{t("about.metaTitle")}</title>
         <meta
           name="description"
-          content="Mød Christian Gefke, en autoriseret spansk advokat med juridisk ekspertise og international baggrund. Få professionel rådgivning om fast ejendom, erhverv og privatretten i Spanien."
+          content={t("about.metaDescription")}
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.yourdomain.com/about" />
@@ -36,81 +41,53 @@ export default function AboutPage() {
       <main className="mx-auto max-w-4xl px-6 md:px-8 py-16 space-y-10 leading-relaxed bg-gray-50 text-gray-900">
         <section className="space-y-6">
           <p className="text-xl font-semibold text-gray-900">
-            Mit navn er Christian Gefke, og jeg er en autoriseret advokat
-            (medlemsnummer 635 ved Advokatsammenslutningen på Lanzarote) med en
-            solid uddannelse og omfattende erfaring inden for jura. Jeg blev
-            født i Aarhus, Danmark, men voksede op på Lanzarote, de Kanariske
-            Øer.
+            {t("about.intro")}
           </p>
 
           <p className="text-gray-800 text-lg leading-relaxed">
-            Spanish lawyer in Aarhus – Christian Gefke is an officially registered abogado with the Colegio de Abogados de Lanzarote (No. 635). He provides expert legal assistance in Spanish property law, inheritance, family law, contracts, and cross-border matters for clients in Denmark and Spain. Fully verified in the CGAE national lawyer registry, he offers reliable guidance for anyone needing a Spanish lawyer in Aarhus or legal help related to Spain.
+            {t("about.introEnglish")}
           </p>
 
           <p className="text-gray-800">
-            Jeg har en jurauuddannelse fra Universitetet i Las Palmas de Gran
-            Canaria, hvorfra jeg besidder min viden inden for de juridiske
-            områder. Derefter afsluttede jeg en kandidatuddannelse på
-            Universidad Internacional de la Rioja (UNIR), hvor jeg
-            specialiserede mig i erhvervelse af fast ejendom. I 2022 bestod jeg
-            den nationale advokatprøve som afholdes årligt af det spanske
-            justitsministerium, hvilket gav mig ret til optagelse i en lokal
-            advokatforening – en nødvendig betingelse i Spanien for at føre
-            sager i retten.
+            {t("about.education")}
           </p>
 
           <p className="text-gray-800">
-            Gennem min karriere har jeg haft mulighed for at arbejde med flere
-            prominente virksomheder, såsom Grupo Stier, en af de førende aktører
-            i havnen i Las Palmas, samt Grupo Martinez inden for fast ejendom og
-            detailhandel i Spanien. Derudover har jeg samarbejdet med en bred
-            vifte af uafhængige konsulenter, revisorer, økonomer og advokater.
+            {t("about.career")}
           </p>
 
           <p className="text-gray-800">
-            Min passion for jura opstår primært i privatretten, hvor denne som
-            en udviklende realitet medbringer vigtige lektioner, når samfundet
-            præsenteres for nye udfordringer – hvad enten det drejer sig om nye
-            teknologier eller gamle institutioner med nye særpræg.
+            {t("about.passion")}
           </p>
 
           <p className="text-gray-800">
-            Jeg er her for at tilbyde dig juridisk rådgivning af høj kvalitet og
-            hjælpe dig med at navigere i den komplekse juridiske verden med
-            tillid og sikkerhed.
+            {t("about.closing")}
           </p>
         </section>
 
         <section>
           <h2 className={`${merri.className} text-3xl mb-6 text-gray-900`}>
-            Min juridiske baggrund
+            {t("about.backgroundTitle")}
           </h2>
 
           <ul className="space-y-4 text-gray-800">
             <li>
-              <span className="font-bold text-gray-900">2012 – 2017:</span> LLB/Bachelor i
-              jura ved ULPGC
+              <span className="font-bold text-gray-900">{t("about.background2012")}</span> {t("about.background2012Text")}
             </li>
             <li>
-              <span className="font-bold text-gray-900">2017 – 2018:</span> Stier Group og BG
-              Abogados jurist i praktik
+              <span className="font-bold text-gray-900">{t("about.background2017")}</span> {t("about.background2017Text")}
             </li>
             <li>
-              <span className="font-bold text-gray-900">2019 – idag:</span> Selvstændig
-              rådgiver – primært i Barcelona og de Kanariske Øer
+              <span className="font-bold text-gray-900">{t("about.background2019")}</span> {t("about.background2019Text")}
             </li>
             <li>
-              <span className="font-bold text-gray-900">2021 – 2023:</span> LLM/Kandidat i
-              jura ved UNIR
+              <span className="font-bold text-gray-900">{t("about.background2021")}</span> {t("about.background2021Text")}
             </li>
             <li>
-              <span className="font-bold text-gray-900">2022 – 2023:</span> Grupo Martinez i
-              advokatpraktik/fuldmægtig
+              <span className="font-bold text-gray-900">{t("about.background2022")}</span> {t("about.background2022Text")}
             </li>
             <li>
-              <span className="font-bold text-gray-900">2022 – 2023:</span> Titel Advokat –
-              bestået den nationale statseksamen for advokater afholdt af det
-              spanske justitsministerium
+              <span className="font-bold text-gray-900">{t("about.background2022b")}</span> {t("about.background2022bText")}
             </li>
           </ul>
         </section>

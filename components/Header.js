@@ -5,6 +5,8 @@ import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { useRouter } from "next/navigation"
 import { Merriweather } from "next/font/google"
+import LanguageSelector from "./LanguageSelector"
+
 const merri = Merriweather({ weight: "700", subsets: ["latin"] })
 /** Helper to create URL‑friendly slugs */
 function slugify(str) {
@@ -105,18 +107,19 @@ export default function Header() {
           Christian Gefke
         </h1>
 
-        {/* Hamburger Button – only visible on mobile */}
-        <button
-          className="md:hidden"
-          onClick={() => setMobileMenuOpen((prev) => !prev)}
-          aria-label="Toggle menu"
-        >
-          {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
+        {/* Hamburger Button and Language Selector – only visible on mobile */}
+        <div className="md:hidden flex items-center gap-3">
+          <LanguageSelector />
+          <button
+            onClick={() => setMobileMenuOpen((prev) => !prev)}
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
+        </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-6 md:mr-10">
-          <nav className="hidden md:flex gap-6 md:mr-10">
+        <nav className="hidden md:flex gap-6 md:mr-10 items-center">
             {menuItems.map((item, index) => (
               <div
                 key={item.label}
@@ -154,8 +157,8 @@ export default function Header() {
             <Link href="/about" className="hover:underline px-4 z-50">
               Om
             </Link>
+            <LanguageSelector />
           </nav>
-        </nav>
       </div>
 
       {/* Mobile Navigation */}

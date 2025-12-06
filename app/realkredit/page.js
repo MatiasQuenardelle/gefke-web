@@ -1,15 +1,17 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function RealkreditSpanienPage() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
-        <title>Realkredit og pant i Spanien: Hvad danskere bør vide</title>
+        <title>{t("realkredit.metaTitle")}</title>
         <meta
           name="description"
-          content="Få overblik over hypotek og realkredit i Spanien. Juridisk vejledning for danske boligkøbere – tinglysning, sikkerhed, tvangsauktion og banklån."
+          content={t("realkredit.metaDescription")}
         />
         <meta
           name="keywords"
@@ -17,11 +19,11 @@ export default function RealkreditSpanienPage() {
         />
         <meta
           property="og:title"
-          content="Realkredit og pant i Spanien: Hvad danskere bør vide før ejendomskøb"
+          content={t("realkredit.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Dansk guide til hypotek i Spanien: juridiske krav, banklån, tinglysning og hvordan du beskytter dine interesser ved boligkøb."
+          content={t("realkredit.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta
@@ -36,11 +38,11 @@ export default function RealkreditSpanienPage() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Realkredit og pant i Spanien: Hvad danskere bør vide"
+          content={t("realkredit.twitterTitle")}
         />
         <meta
           name="twitter:description"
-          content="Overvej bolig i Spanien? Læs om hypotek, banklån, tvangsauktion og juridisk tryghed ved ejendomskøb som dansker."
+          content={t("realkredit.twitterDescription")}
         />
         <meta
           name="twitter:image"
@@ -52,118 +54,104 @@ export default function RealkreditSpanienPage() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Realkredit og pant i fast ejendom i Spanien: Hvad danskere bør
-              vide
+              {t("realkredit.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              Juridisk overblik for danske boligkøbere – fra hypotek og banklån
-              til tinglysning og sikkerhedsstillelse.
+              {t("realkredit.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Hvad er et hypotek?
+              {t("realkredit.section1Title")}
             </h2>
             <p>
-              Et hypotek er en form for realkredit, hvor en bank får sikkerhed i
-              fast ejendom. Hvis afdrag udebliver, kan ejendommen sælges på
-              tvangsauktion. Hypotek registreres i Ejendomsregistret – og
-              adskiller sig fra løsøre-pant ved, at køber bevarer brugsret til
-              ejendommen.
+              {t("realkredit.section1Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Hvordan oprettes et hypotek?
+              {t("realkredit.section2Title")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                Det oprettes i en <strong>notarial skødeakt</strong> (escritura
-                pública)
+                {t("realkredit.section2Item1")}{" "}
+                <strong>{t("realkredit.section2Item1Strong")}</strong>{" "}
+                {t("realkredit.section2Item1Text")}
               </li>
               <li>
-                Det <strong>tinglyses</strong> i Ejendomsregistret (Registro de
-                la Propiedad)
+                {t("realkredit.section2Item2")}{" "}
+                <strong>{t("realkredit.section2Item2Strong")}</strong>{" "}
+                {t("realkredit.section2Item2Text")}
               </li>
             </ul>
             <p>
-              Uden tinglysning har hypoteket ingen retsvirkning overfor
-              tredjeparter. Juridisk gennemgang anbefales ved både lån og
-              registrering.
+              {t("realkredit.section2Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Typisk anvendelse
+              {t("realkredit.section3Title")}
             </h2>
             <p>
-              De fleste danske boligkøbere finansierer med banklån. Banken
-              kræver da hypotek som sikkerhed.
+              {t("realkredit.section3Text")}
             </p>
             <p>
-              <strong>Eksempel:</strong> Du køber bolig for 250.000 EUR i
-              Alicante og finansierer 70 %. Banken får hypotek. Hvis lånet
-              misligholdes, kan banken kræve tvangsauktion.
+              <strong>{t("realkredit.section3ExampleLabel")}</strong>{" "}
+              {t("realkredit.section3ExampleText")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Få juridisk bistand – derfor er det vigtigt
+              {t("realkredit.section4Title")}
             </h2>
             <p>
-              Spansk realkredit adskiller sig væsentligt fra den danske model.
-              Vi hjælper med:
+              {t("realkredit.section4Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Gennemgang af låneaftaler og hypotekvilkår</li>
-              <li>Notarial dokumentation</li>
-              <li>Tinglysning og kontrol</li>
-              <li>Rettigheder og forpligtelser som ejer</li>
-              <li>Koordinering med banken</li>
+              <li>{t("realkredit.section4Item1")}</li>
+              <li>{t("realkredit.section4Item2")}</li>
+              <li>{t("realkredit.section4Item3")}</li>
+              <li>{t("realkredit.section4Item4")}</li>
+              <li>{t("realkredit.section4Item5")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Tvangsauktion og misligholdelse
+              {t("realkredit.section5Title")}
             </h2>
             <p>
-              Ved misligholdelse kan banken indlede tvangsauktion uden retssag,
-              hvis hypotekket er korrekt tinglyst. Derfor er det afgørende at
-              forhandle vilkår som renter og frister grundigt.
+              {t("realkredit.section5Text")}
             </p>
             <p>
-              Vi bistår ved forhandling, gennemgang og sikring af dine
-              rettigheder som låntager.
+              {t("realkredit.section5Text2")}
             </p>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              Konklusion: Tryghed ved boligkøb i Spanien
+              {t("realkredit.conclusionTitle")}
             </h2>
             <p>
-              Som dansker b&#39;r du ikke navigere det spanske ejendomsmarked
-              alene. En lokal advokat med dansk forståelse sikrer korrekt
-              rådgivning og lovlige dokumenter.
+              {t("realkredit.conclusionText")}
             </p>
 
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Køb og salg af fast ejendom</li>
-              <li>Hypotek og banklån</li>
-              <li>Notar og tinglysning</li>
+              <li>{t("realkredit.conclusionItem1")}</li>
+              <li>{t("realkredit.conclusionItem2")}</li>
+              <li>{t("realkredit.conclusionItem3")}</li>
             </ul>
             <p className="font-semibold text-lg">
-              Brug for bistand med boligkøb i Spanien?
+              {t("realkredit.conclusionText2")}
               <br />
               <a href="/contact" className="text-blue-700 underline">
-                Kontakt os i dag
+                {t("realkredit.conclusionLink")}
               </a>{" "}
-              for juridisk hjælp på dansk.
+              {t("realkredit.conclusionText3")}
             </p>
           </section>
         </article>

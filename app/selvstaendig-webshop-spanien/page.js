@@ -1,17 +1,19 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function SelvstaendigWebshopSpanienPage() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
         <title>
-          Selvstændig i Spanien med webshop: Sådan sælger du lovligt online
+          {t("webshop.metaTitle")}
         </title>
         <meta
           name="description"
-          content="Få overblik over hvordan du som selvstændig kan drive en webshop målrettet det spanske marked – med korrekt registrering, skatteforhold og forbrugerrettigheder."
+          content={t("webshop.metaDescription")}
         />
         <meta
           name="keywords"
@@ -19,11 +21,11 @@ export default function SelvstaendigWebshopSpanienPage() {
         />
         <meta
           property="og:title"
-          content="Selvstændig i Spanien med webshop: Sådan sælger du lovligt online"
+          content={t("webshop.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Lær hvordan du starter webshop i Spanien som selvstændig: registrering, skat, moms, domæner og forbrugerbeskyttelse."
+          content={t("webshop.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta
@@ -38,11 +40,11 @@ export default function SelvstaendigWebshopSpanienPage() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Selvstændig i Spanien med webshop: Sådan sælger du lovligt online"
+          content={t("webshop.twitterTitle")}
         />
         <meta
           name="twitter:description"
-          content="Kom i gang med webshop i Spanien: krav til NIE, moms, domæne og forbrugerrettigheder. En guide til danske selvstændige."
+          content={t("webshop.twitterDescription")}
         />
         <meta
           name="twitter:image"
@@ -54,138 +56,131 @@ export default function SelvstaendigWebshopSpanienPage() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Selvstændig i Spanien med webshop: Sådan sælger du lovligt online
+              {t("webshop.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              En praktisk guide til at drive webshop i Spanien – med fokus på
-              registrering, moms, kundebeskyttelse og digitale
-              betalingsløsninger.
+              {t("webshop.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              1. Registrering som selvstændig (autónomo)
+              {t("webshop.section1Title")}
             </h2>
             <p>
-              Hvis du ønsker at drive webshop i Spanien og bor i landet, skal du
-              registreres som <strong>autónomo</strong> – en form for
-              enkeltmandsvirksomhed.
+              {t("webshop.section1Text1")}{" "}
+              <strong>{t("webshop.section1Text1Strong")}</strong>{" "}
+              {t("webshop.section1Text1Text")}
             </p>
-            <p className="font-semibold">Trin-for-trin registrering:</p>
+            <p className="font-semibold">{t("webshop.section1Subtitle")}</p>
             <ul className="list-decimal list-inside ml-4 space-y-1">
-              <li>Få NIE-nummer (identifikationsnummer for udlændinge)</li>
-              <li>Tilmeld dig hos Agencia Tributaria (skattemyndigheder)</li>
-              <li>Tilmeld dig RETA hos Seguridad Social</li>
-              <li>Registrér under korrekt branchekode (IAE)</li>
+              <li>{t("webshop.section1Item1")}</li>
+              <li>{t("webshop.section1Item2")}</li>
+              <li>{t("webshop.section1Item3")}</li>
+              <li>{t("webshop.section1Item4")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              2. Moms (IVA) og skatteforhold
+              {t("webshop.section2Title")}
             </h2>
             <p>
-              Du skal som hovedregel opkræve <strong>moms (IVA)</strong> og
-              betale skat kvartalsvist. Standard IVA er:
+              {t("webshop.section2Text1")}{" "}
+              <strong>{t("webshop.section2Text1Strong")}</strong>{" "}
+              {t("webshop.section2Text1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>21 % for de fleste produkter og ydelser</li>
+              <li>{t("webshop.section2Item1")}</li>
+              <li>{t("webshop.section2Item2")}</li>
+            </ul>
+            <p className="font-semibold">{t("webshop.section2Subtitle")}</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>{t("webshop.section2Item3")}</li>
+              <li>{t("webshop.section2Item4")}</li>
+              <li>{t("webshop.section2Item5")}</li>
+            </ul>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              {t("webshop.section3Title")}
+            </h2>
+            <p>
+              {t("webshop.section3Text1")}{" "}
+              <strong>{t("webshop.section3Text1Strong")}</strong>
+              {t("webshop.section3Text1Text")}
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>{t("webshop.section3Item1")}</li>
+              <li>{t("webshop.section3Item2")}</li>
+              <li>{t("webshop.section3Item3")}</li>
+              <li>{t("webshop.section3Item4")}</li>
+            </ul>
+            <p>
+              {t("webshop.section3Text2")}{" "}
+              <strong>{t("webshop.section3Text2Strong")}</strong>
+              {t("webshop.section3Text2Text")}
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              {t("webshop.section4Title")}
+            </h2>
+            <p>
+              {t("webshop.section4Text1")}{" "}
+              <strong>{t("webshop.section4Text1Strong")}</strong>
+              {t("webshop.section4Text1Text")}
+            </p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                10 % eller 4 % for særlige kategorier (mad, bøger, medicin)
+                {t("webshop.section4Item1")}{" "}
+                <strong>{t("webshop.section4Item1Strong")}</strong>
               </li>
-            </ul>
-            <p className="font-semibold">Skattepligter som autónomo:</p>
-            <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Kvartalsvis momsindberetning (Modelo 303)</li>
-              <li>Kvartalsvis forskudsskat (Modelo 130)</li>
-              <li>Årlig indkomstskat (Modelo 100)</li>
+              <li>{t("webshop.section4Item2")}</li>
+              <li>{t("webshop.section4Item3")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              3. Spanske forbrugerrettigheder
+              {t("webshop.section5Title")}
             </h2>
-            <p>
-              Du skal overholde den spanske <strong>forbrugerlovgivning</strong>
-              , herunder:
-            </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>14 dages fortrydelsesret</li>
-              <li>Klar prisinfo inkl. moms og leveringsomkostninger</li>
-              <li>Skriftlig ordrebekræftelse (typisk via e-mail)</li>
-              <li>Returpolitik og garantier beskrevet tydeligt</li>
-            </ul>
-            <p>
-              Handelsbetingelser og hjemmeside bør være tilgængelige på
-              <strong> spansk</strong>, og det er en fordel at kunne tilbyde
-              spansk kundeservice.
-            </p>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
-              4. Domæne og betaling
-            </h2>
-            <p>
-              Det er muligt at bruge et <strong>.es-domæne</strong>, men det
-              kræver typisk spansk NIE og virksomhed.
-            </p>
-            <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>
-                Webshoppen bør være tilgængelig på <strong>spansk</strong>
-              </li>
-              <li>
-                Brug EU-godkendte betalingsløsninger som Stripe, Redsys eller
-                PayPal
-              </li>
-              <li>
-                Fakturaer skal indeholde NIE/CIF, kundedata og korrekt IVA
-              </li>
+              <li>{t("webshop.section5Item1")}</li>
+              <li>{t("webshop.section5Item2")}</li>
+              <li>{t("webshop.section5Item3")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              5. Fordele ved det spanske marked
-            </h2>
-            <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>47+ mio. indbyggere og stærk vækst i e-handel</li>
-              <li>Mindre konkurrence i mange nicher end i Nordeuropa</li>
-              <li>Høj mobilbrug og digital tilstedeværelse</li>
-            </ul>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
-              6. Alternativ: Webshop fra Danmark
+              {t("webshop.section6Title")}
             </h2>
             <p>
-              Det er også muligt at sælge til Spanien fra Danmark, men du skal:
+              {t("webshop.section6Text1")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Momsregistreres via OSS-ordningen i EU</li>
-              <li>Overholde spanske forbrugerregler og info-krav</li>
+              <li>{t("webshop.section6Item1")}</li>
+              <li>{t("webshop.section6Item2")}</li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              Konklusion: Kom godt i gang med din webshop i Spanien
+              {t("webshop.conclusionTitle")}
             </h2>
             <p>
-              En webshop i Spanien kræver juridisk struktur og kendskab til
-              lokale regler. Du skal sikre korrekt registrering, moms, og
-              forbrugerbeskyttelse.
+              {t("webshop.conclusionText1")}
             </p>
             <p className="font-semibold text-lg">
-              Overvejer du at starte webshop i Spanien?
+              {t("webshop.conclusionText2")}
               <br />
               <a href="/contact" className="text-blue-700 underline">
-                Kontakt os i dag
+                {t("webshop.conclusionLink")}
               </a>{" "}
-              for professionel rådgivning på dansk.
+              {t("webshop.conclusionText3")}
             </p>
           </section>
         </article>

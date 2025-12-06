@@ -1,15 +1,17 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function LawChoiceInheritance() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
-        <title>Lovvalg i internationale arvesager | Christian Gefke</title>
+        <title>{t("lawChoice.metaTitle")}</title>
         <meta
           name="description"
-          content="Hvornår kan dansk arveret anvendes på et udenlandsk dødsbo? Få indsigt i lovvalgsregler og testamentevalg i internationale arvesager."
+          content={t("lawChoice.metaDescription")}
         />
         <meta
           name="keywords"
@@ -18,11 +20,11 @@ export default function LawChoiceInheritance() {
         <meta name="author" content="Christian Gefke" />
         <meta
           property="og:title"
-          content="Lovvalg i internationale arvesager – Hvornår kan dansk arveret anvendes?"
+          content={t("lawChoice.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Få klarhed om hvornår dansk arveret kan anvendes i internationale dødsboer. Læs om testamente, lovvalg og EU's regler."
+          content={t("lawChoice.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="da_DK" />
@@ -36,144 +38,131 @@ export default function LawChoiceInheritance() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Lovvalg i internationale arvesager – Hvornår kan dansk arveret
-              anvendes på et udenlandsk dødsbo?
+              {t("lawChoice.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              En juridisk gennemgang af mulighederne for at vælge dansk ret i
-              grænseoverskridende arvesager.
+              {t("lawChoice.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">1. Indledning</h2>
+            <h2 className="text-2xl font-bold text-blue-800">{t("lawChoice.section1Title")}</h2>
             <p>
-              Når en dansk statsborger dør i udlandet, rejser det spørgsmålet
-              om, hvilket lands arveret skal anvendes. Dette afhænger af
-              reglerne om <strong>lovvalg</strong>.
+              {t("lawChoice.section1Text1")}{" "}
+              <strong>{t("lawChoice.section1Text1Strong")}</strong>.
             </p>
             <p>
-              Vi gennemgår her de danske og europæiske regler, hvordan
-              testamenter påvirker valget af arveret, og hvad der sker ved
-              ugyldigt lovvalg.
+              {t("lawChoice.section1Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              2. Hvad er lovvalg i arveretten?
+              {t("lawChoice.section2Title")}
             </h2>
             <p>
-              Lovvalg bestemmer, hvilket lands arveregler der gælder – ikke
-              hvilken domstol der behandler sagen.
+              {t("lawChoice.section2Text1")}
             </p>
             <p>
-              <strong>Eksempel:</strong> En dansker dør i Spanien. Hvis intet
-              lovvalg er foretaget, anvendes spansk arveret. Hvis dansk arveret
-              er valgt i et testamente, bruges dansk arveret – men sagen
-              behandles stadig i Spanien.
+              <strong>{t("lawChoice.section2ExampleLabel")}</strong>{" "}
+              {t("lawChoice.section2ExampleText")}
             </p>
             <p>
-              Dansk ret tillader valg af dansk arveret, hvis testator var dansk
-              statsborger ved dødsfaldet.
+              {t("lawChoice.section2Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              3. EU’s Arveretsforordning og Lovvalg
+              {t("lawChoice.section3Title")}
             </h2>
             <p>
-              Som hovedregel anvendes arveretten i afdødes{" "}
-              <strong>sidste bopælsland</strong> (artikel 21).
+              {t("lawChoice.section3Text1")}{" "}
+              <strong>{t("lawChoice.section3Text1Strong")}</strong>{" "}
+              {t("lawChoice.section3Text1Text")}
             </p>
             <p>
-              Undtagelse: Testator kan vælge sit <strong>eget lands ret</strong>{" "}
-              (artikel 22) – fx dansk ret for en dansk statsborger.
+              {t("lawChoice.section3Text2")}{" "}
+              <strong>{t("lawChoice.section3Text2Strong")}</strong>{" "}
+              {t("lawChoice.section3Text2Text")}
             </p>
             <p>
-              Danmark har et retsforbehold, men anerkender typisk lovvalg
-              truffet efter forordningen.
+              {t("lawChoice.section3Text3")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              4. Kan man altid vælge dansk arveret?
+              {t("lawChoice.section4Title")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Valget skal fremgå klart i testamentet</li>
-              <li>Testator skal være dansk statsborger</li>
-              <li>Behandlingslandet skal acceptere EU-forordningen</li>
+              <li>{t("lawChoice.section4Item1")}</li>
+              <li>{t("lawChoice.section4Item2")}</li>
+              <li>{t("lawChoice.section4Item3")}</li>
             </ul>
             <p>
-              Arvingerne kan <strong>ikke vælge</strong> dansk ret efter
-              dødsfaldet, hvis det ikke er angivet i et testamente.
+              {t("lawChoice.section4Text")}{" "}
+              <strong>{t("lawChoice.section4TextStrong")}</strong>{" "}
+              {t("lawChoice.section4TextText")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              5. Hvis afdøde har valgt dansk ret i et testamente
+              {t("lawChoice.section5Title")}
             </h2>
             <p>
-              Arven fordeles efter danske regler – men sagen kan stadig
-              behandles i udlandet.
+              {t("lawChoice.section5Text1")}
             </p>
-            <p>Lovvalget kan blive tilsidesat, hvis:</p>
+            <p>{t("lawChoice.section5Text2")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Testamentet ikke er gyldigt i bopælslandet</li>
-              <li>Der er tvivl om statsborgerskab eller hensigt</li>
-              <li>Formuleringen i testamentet er uklar</li>
+              <li>{t("lawChoice.section5Item1")}</li>
+              <li>{t("lawChoice.section5Item2")}</li>
+              <li>{t("lawChoice.section5Item3")}</li>
             </ul>
             <p>
-              <strong>Eksempel:</strong> En dansker i Frankrig vælger dansk
-              arveret. Frankrig anerkender valget, men behandler sagen i fransk
-              skifteret.
+              <strong>{t("lawChoice.section5ExampleLabel")}</strong>{" "}
+              {t("lawChoice.section5ExampleText")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              6. Hvis der ikke er foretaget lovvalg
+              {t("lawChoice.section6Title")}
             </h2>
             <p>
-              Uden testamente gælder arvereglerne i bopælslandet (artikel 21).
+              {t("lawChoice.section6Text1")}
             </p>
             <p>
-              Dansk ret kan kun komme i spil, hvis der findes aktiver i Danmark
-              – og kun for disse.
+              {t("lawChoice.section6Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              7. Hvad hvis lovvalget viser sig ugyldigt?
+              {t("lawChoice.section7Title")}
             </h2>
-            <p>Et lovvalg kan være ugyldigt hvis:</p>
+            <p>{t("lawChoice.section7Text1")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Testator ikke var dansk statsborger</li>
-              <li>Testamentet er ugyldigt lokalt</li>
-              <li>Lovvalget er uklart eller testator var inkompetent</li>
+              <li>{t("lawChoice.section7Item1")}</li>
+              <li>{t("lawChoice.section7Item2")}</li>
+              <li>{t("lawChoice.section7Item3")}</li>
             </ul>
             <p>
-              I så fald anvendes bopælslandets arveret, og arvingerne har
-              begrænset mulighed for at ændre dette.
+              {t("lawChoice.section7Text2")}
             </p>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
-            <h2 className="text-2xl font-bold text-blue-900">8. Konklusion</h2>
+            <h2 className="text-2xl font-bold text-blue-900">{t("lawChoice.conclusionTitle")}</h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Lovvalg bestemmer arveret – ikke værneting</li>
-              <li>Dansk arveret kan vælges, men kun i et gyldigt testamente</li>
-              <li>Uden lovvalg gælder bopælslandets regler</li>
-              <li>Juridisk rådgivning er afgørende for at sikre gyldighed</li>
+              <li>{t("lawChoice.conclusionItem1")}</li>
+              <li>{t("lawChoice.conclusionItem2")}</li>
+              <li>{t("lawChoice.conclusionItem3")}</li>
+              <li>{t("lawChoice.conclusionItem4")}</li>
             </ul>
             <p className="font-semibold text-lg">
-              Ønsker du dansk arveret i en international arvesag? Kontakt os og
-              få hjælp til korrekt udformning af testamente og sikring af dine
-              arvingers rettigheder.
+              {t("lawChoice.conclusionText")}
             </p>
           </section>
         </article>

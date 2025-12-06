@@ -1,15 +1,17 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function DivorceSpainArticle() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
-        <title>Skilsmisse mellem udlændinge i Spanien | Christian Gefke</title>
+        <title>{t("divorce.metaTitle")}</title>
         <meta
           name="description"
-          content="Få juridisk overblik over skilsmisse mellem udlændinge i Spanien – herunder økonomiske aspekter, lovvalg og ægteskabsformue."
+          content={t("divorce.metaDescription")}
         />
         <meta
           name="keywords"
@@ -18,11 +20,11 @@ export default function DivorceSpainArticle() {
         <meta name="author" content="Christian Gefke" />
         <meta
           property="og:title"
-          content="Skilsmisse mellem udlændinge i Spanien"
+          content={t("divorce.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Juridisk gennemgang af skilsmisse og ægteskabsformue for udlændinge i Spanien. Kontakt advokat Christian Gefke for rådgivning."
+          content={t("divorce.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="da_DK" />
@@ -36,147 +38,139 @@ export default function DivorceSpainArticle() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Skilsmisse mellem udlændinge i Spanien: økonomiske aspekter og
-              ægteskabsformue
+              {t("divorce.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              En guide til juridiske og økonomiske spørgsmål ved skilsmisse i
-              Spanien – med fokus på formue, lovvalg og rettigheder.
+              {t("divorce.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Kan to udlændinge blive skilt i Spanien?
+              {t("divorce.section1Title")}
             </h2>
             <p>
-              Ja. Ifølge <strong>EU-forordning 2019/1111</strong> (Bruxelles
-              II-ter) kan spanske domstole behandle en skilsmissesag, hvis:
+              {t("divorce.section1Text1")}{" "}
+              <strong>{t("divorce.section1Text1Strong")}</strong>{" "}
+              {t("divorce.section1Text1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Begge ægtefæller har sædvanlig bopæl i Spanien</li>
-              <li>Den ene ægtefælle bor i Spanien og indgiver begæring</li>
-              <li>
-                Spanien var sidste fælles bopælsland, og én stadig bor der
-              </li>
+              <li>{t("divorce.section1Item1")}</li>
+              <li>{t("divorce.section1Item2")}</li>
+              <li>{t("divorce.section1Item3")}</li>
             </ul>
             <p>
-              To danske statsborgere kan derfor blive skilt i Spanien, selvom
-              ægteskabet er indgået i Danmark, så længe der er en reel
-              tilknytning.
+              {t("divorce.section1Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Hvilken lov gælder for selve skilsmissen?
+              {t("divorce.section2Title")}
             </h2>
             <p>
-              Ifølge <strong>EU-forordning 1259/2010</strong> (Rom III) kan
-              ægtefæller vælge, hvilken lov der gælder:
+              {t("divorce.section2Text1")}{" "}
+              <strong>{t("divorce.section2Text1Strong")}</strong>{" "}
+              {t("divorce.section2Text1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Land med fælles bopæl</li>
-              <li>Land med tidligere fælles bopæl</li>
-              <li>Land med fælles nationalitet</li>
-              <li>Land hvor sagen anlægges (Spanien)</li>
+              <li>{t("divorce.section2Item1")}</li>
+              <li>{t("divorce.section2Item2")}</li>
+              <li>{t("divorce.section2Item3")}</li>
+              <li>{t("divorce.section2Item4")}</li>
             </ul>
-            <p>Hvis ikke valgt, anvendes ovenstående rækkefølge automatisk.</p>
+            <p>{t("divorce.section2Text2")}</p>
             <p className="font-semibold text-rose-700">
-              Vigtigt: Denne lov gælder kun for opløsningen – ikke for det
-              økonomiske opgør.
+              {t("divorce.section2Text3")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Hvilken lov gælder for ægtefællernes formueforhold?
+              {t("divorce.section3Title")}
             </h2>
             <p>
-              Økonomien mellem ægtefæller reguleres af{" "}
-              <strong>EU-forordning 2016/1103</strong>. De kan vælge:
+              {t("divorce.section3Text1")}{" "}
+              <strong>{t("divorce.section3Text1Strong")}</strong>.
+              {t("divorce.section3Text1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Nationalstatens lov</li>
-              <li>Bopælslandets lov</li>
+              <li>{t("divorce.section3Item1")}</li>
+              <li>{t("divorce.section3Item2")}</li>
             </ul>
-            <p>Hvis ikke valgt, gælder:</p>
+            <p>{t("divorce.section3Text2")}</p>
             <ol className="list-decimal list-inside ml-4 space-y-1">
-              <li>Første fælles bopælslands lov</li>
-              <li>Fælles nationalitet</li>
-              <li>Tættest tilknyttede land</li>
+              <li>{t("divorce.section3Item3")}</li>
+              <li>{t("divorce.section3Item4")}</li>
+              <li>{t("divorce.section3Item5")}</li>
             </ol>
             <p>
-              <strong>Eksempel:</strong> Dansk par gifter sig i København og
-              flytter til Malaga. Uden ægtepagt gælder typisk dansk ret for
-              formuen.
+              <strong>{t("divorce.section3ExampleLabel")}</strong>{" "}
+              {t("divorce.section3ExampleText")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Hvordan deles aktiver og ejendom?
+              {t("divorce.section4Title")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>Spansk ret:</strong> fælleseje (gananciales)
+                <strong>{t("divorce.section4Item1Label")}</strong>{" "}
+                {t("divorce.section4Item1Text")}
               </li>
               <li>
-                <strong>Dansk ret:</strong> formuefællesskab med mulighed for
-                særeje
+                <strong>{t("divorce.section4Item2Label")}</strong>{" "}
+                {t("divorce.section4Item2Text")}
               </li>
               <li>
-                <strong>Andre systemer:</strong> udligningsbaseret deling
+                <strong>{t("divorce.section4Item3Label")}</strong>{" "}
+                {t("divorce.section4Item3Text")}
               </li>
             </ul>
             <p>
-              Ejendom i Spanien kræver dokumentation, vurdering og muligvis
-              professionel bistand ved deling.
+              {t("divorce.section4Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Ægtefællebidrag og børnebidrag
+              {t("divorce.section5Title")}
             </h2>
             <p>
-              <strong>Spansk civilret (art. 97)</strong> tillader bidrag ved
-              økonomisk ubalance efter skilsmisse. Retten vurderer:
+              <strong>{t("divorce.section5Text1Label")}</strong>{" "}
+              {t("divorce.section5Text1")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Ægteskabets længde</li>
-              <li>Alder og arbejdsudsigter</li>
-              <li>Bidrag til hjem og børn</li>
-              <li>Indtægtstab</li>
+              <li>{t("divorce.section5Item1")}</li>
+              <li>{t("divorce.section5Item2")}</li>
+              <li>{t("divorce.section5Item3")}</li>
+              <li>{t("divorce.section5Item4")}</li>
             </ul>
             <p>
-              <strong>Børnebidrag</strong> fastsættes efter spansk ret og
-              EU-forordning 4/2009.
+              <strong>{t("divorce.section5Text2Label")}</strong>{" "}
+              {t("divorce.section5Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Anerkendelse af skilsmisse i andre lande
+              {t("divorce.section6Title")}
             </h2>
             <p>
-              Spanske domme anerkendes automatisk i EU. For lande uden for EU
-              (f.eks. Norge, UK) kræves muligvis eksekvatur.
+              {t("divorce.section6Text")}
             </p>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              Konklusion: Juridisk rådgivning er afgørende
+              {t("divorce.conclusionTitle")}
             </h2>
             <p>
-              Ved skilsmisse i Spanien med internationalt element bør du få
-              rådgivning i international privatret og formueopgør – det kan
-              spare store beløb og sikre en retfærdig løsning.
+              {t("divorce.conclusionText")}
             </p>
             <p className="font-semibold text-lg">
-              Kontakt os for professionel rådgivning – på dansk – i din konkrete
-              sag.
+              {t("divorce.conclusionText2")}
             </p>
           </section>
         </article>

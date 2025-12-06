@@ -1,17 +1,19 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function RealEstateInvestmentSpain() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
         <title>
-          Investering i fast ejendom i Spanien | Christian Gefke, Advokat
+          {t("realEstateInvestment.metaTitle")}
         </title>
         <meta
           name="description"
-          content="Læs om planlovgivning, byggeret og juridiske undersøgelser ved investering i fast ejendom i Spanien. Få styr på kontrakter, tilladelser og skjulte risici."
+          content={t("realEstateInvestment.metaDescription")}
         />
         <meta
           name="keywords"
@@ -20,11 +22,11 @@ export default function RealEstateInvestmentSpain() {
         <meta name="author" content="Christian Gefke" />
         <meta
           property="og:title"
-          content="Investering i fast ejendom i Spanien | Christian Gefke"
+          content={t("realEstateInvestment.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Få juridisk overblik over ejendomsinvesteringer i Spanien, fra planlovgivning til due diligence og kontrakter."
+          content={t("realEstateInvestment.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="da_DK" />
@@ -38,159 +40,151 @@ export default function RealEstateInvestmentSpain() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Investering i fast ejendom i Spanien
+              {t("realEstateInvestment.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              Planlovgivning, byggeret og juridiske undersøgelser – alt du skal
-              vide, før du køber.
+              {t("realEstateInvestment.subtitle")}
             </p>
           </header>
 
           <section className="space-y-6">
             <p>
-              Overvejer du at investere i fast ejendom i Spanien – som bolig,
-              feriehus eller erhverv? Det spanske marked er attraktivt, men
-              rummer også juridiske risici.
+              {t("realEstateInvestment.intro1")}
             </p>
             <p>
-              Her får du et overblik over{" "}
-              <strong>byplanlovgivning (ordenación urbanística)</strong>,{" "}
-              <strong>byggeret (contrato de obra)</strong> og vigtige{" "}
-              <strong>juridiske undersøgelser</strong>.
+              {t("realEstateInvestment.intro2")}{" "}
+              <strong>{t("realEstateInvestment.intro2Strong1")}</strong>
+              {t("realEstateInvestment.intro2Text")}{" "}
+              <strong>{t("realEstateInvestment.intro2Strong2")}</strong>{" "}
+              {t("realEstateInvestment.intro2Text2")}{" "}
+              <strong>{t("realEstateInvestment.intro2Strong3")}</strong>.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              1. Byplanlægning og lokalplaner (PGOU)
+              {t("realEstateInvestment.section1Title")}
             </h2>
             <p>
-              Hver spansk kommune har en{" "}
-              <strong>Plan General de Ordenación Urbana (PGOU)</strong>, som
-              fastlægger:
+              {t("realEstateInvestment.section1Text")}{" "}
+              <strong>{t("realEstateInvestment.section1Strong")}</strong>
+              {t("realEstateInvestment.section1Text2")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>
-                Klassificering: urbant (byggegrunde), rustikt (landzone),
-                urbaniserbart (udviklingsområde)
-              </li>
-              <li>Tilladt anvendelse: bolig, erhverv, landbrug m.m.</li>
-              <li>Bebyggelsesprocent, byggehøjde og afstandskrav</li>
+              <li>{t("realEstateInvestment.section1Item1")}</li>
+              <li>{t("realEstateInvestment.section1Item2")}</li>
+              <li>{t("realEstateInvestment.section1Item3")}</li>
             </ul>
             <p>
-              En bolig kan se færdig ud – men stadig være ulovligt opført.
-              Derfor er en{" "}
-              <strong>
-                planmæssig undersøgelse hos kommunen (Ayuntamiento)
-              </strong>{" "}
-              altid nødvendig.
+              {t("realEstateInvestment.section1Text3")}{" "}
+              <strong>{t("realEstateInvestment.section1Strong2")}</strong>{" "}
+              {t("realEstateInvestment.section1Text4")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              2. Entreprisekontrakter og byggeret
+              {t("realEstateInvestment.section2Title")}
             </h2>
             <p>
-              Ved nybyggeri eller renovering skal du indgå en{" "}
-              <strong>entreprisekontrakt (contrato de obra)</strong> med en
-              lokal entreprenør.
+              {t("realEstateInvestment.section2Text")}{" "}
+              <strong>{t("realEstateInvestment.section2Strong")}</strong>{" "}
+              {t("realEstateInvestment.section2Text2")}
             </p>
-            <p>Kontrakten bør omfatte:</p>
+            <p>{t("realEstateInvestment.section2Subtitle")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Projektbeskrivelse og tekniske bilag</li>
-              <li>Tidsplan og deadline</li>
-              <li>Pris og betalingsplan</li>
-              <li>Garantier og ansvarsforsikringer (fx decenal)</li>
-              <li>Tilladelser og ansvar for byggeaffald m.m.</li>
-              <li>Klausuler ved forsinkelse eller fejl</li>
+              <li>{t("realEstateInvestment.section2Item1")}</li>
+              <li>{t("realEstateInvestment.section2Item2")}</li>
+              <li>{t("realEstateInvestment.section2Item3")}</li>
+              <li>{t("realEstateInvestment.section2Item4")}</li>
+              <li>{t("realEstateInvestment.section2Item5")}</li>
+              <li>{t("realEstateInvestment.section2Item6")}</li>
             </ul>
             <p className="font-semibold text-red-700">
-              Undgå at skrive under på en standardkontrakt uden juridisk
-              vurdering – det er dit bedste værn mod tvister.
+              {t("realEstateInvestment.section2Text3")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              3. Juridisk due diligence før køb
+              {t("realEstateInvestment.section3Title")}
             </h2>
             <p>
-              Før du køber, bør der udføres en{" "}
-              <strong>grundig juridisk due diligence</strong>:
+              {t("realEstateInvestment.section3Text")}{" "}
+              <strong>{t("realEstateInvestment.section3Strong")}</strong>
+              {t("realEstateInvestment.section3Text2")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>Ejendomsret og hæftelser:</strong> ejerforhold,
-                pantehæftelser og servitutter
+                <strong>{t("realEstateInvestment.section3Item1Label")}</strong>{" "}
+                {t("realEstateInvestment.section3Item1Text")}
               </li>
               <li>
-                <strong>Urbanistisk status:</strong> byggetilladelser,
-                legalisering, krav fra kommunen
+                <strong>{t("realEstateInvestment.section3Item2Label")}</strong>{" "}
+                {t("realEstateInvestment.section3Item2Text")}
               </li>
               <li>
-                <strong>Beboelsescertifikat og energimærkning</strong> – kræves
-                ved beboelse og videresalg
+                <strong>{t("realEstateInvestment.section3Item3Label")}</strong>{" "}
+                {t("realEstateInvestment.section3Item3Text")}
               </li>
               <li>
-                <strong>Skatteforhold:</strong> beregning af overdragelsesskat,
-                notargebyrer, tinglysning
+                <strong>{t("realEstateInvestment.section3Item4Label")}</strong>{" "}
+                {t("realEstateInvestment.section3Item4Text")}
               </li>
               <li>
-                <strong>Fællesskab:</strong> ved ejerlejlighed skal vedtægter og
-                økonomi undersøges
+                <strong>{t("realEstateInvestment.section3Item5Label")}</strong>{" "}
+                {t("realEstateInvestment.section3Item5Text")}
               </li>
             </ul>
             <p>
-              Formålet er at afdække{" "}
-              <strong>skjulte juridiske og økonomiske risici</strong>, som
-              ellers kan blive dyre.
+              {t("realEstateInvestment.section3Text3")}{" "}
+              <strong>{t("realEstateInvestment.section3Strong2")}</strong>
+              {t("realEstateInvestment.section3Text4")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              4. Skøde og tinglysning
+              {t("realEstateInvestment.section4Title")}
             </h2>
             <p>
-              Når aftalen er underskrevet og købsprisen betalt, skal ejendommen
-              overdrages via notar:
+              {t("realEstateInvestment.section4Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                Underskrivelse af <strong>escritura pública</strong> (skøde)
+                {t("realEstateInvestment.section4Item1")}{" "}
+                <strong>{t("realEstateInvestment.section4Item1Strong")}</strong>{" "}
+                {t("realEstateInvestment.section4Item1Text")}
               </li>
-              <li>Betaling af skatter og tinglysningsafgift</li>
+              <li>{t("realEstateInvestment.section4Item2")}</li>
               <li>
-                Officiel registrering i <strong>Ejendomsregistret</strong>
+                {t("realEstateInvestment.section4Item3")}{" "}
+                <strong>{t("realEstateInvestment.section4Item3Strong")}</strong>
               </li>
-              <li>Ansøgning om NIE og oprettelse af bankkonto</li>
+              <li>{t("realEstateInvestment.section4Item4")}</li>
             </ul>
             <p>
-              Hele processen bør håndteres af en advokat – for at sikre korrekt
-              ejerskab uden forsinkelser.
+              {t("realEstateInvestment.section4Text2")}
             </p>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              5. Konklusion: Få styr på juraen før du investerer
+              {t("realEstateInvestment.conclusionTitle")}
             </h2>
             <p>
-              Fast ejendom i Spanien kan være en solid investering – hvis den
-              håndteres korrekt. Derfor bør du altid:
+              {t("realEstateInvestment.conclusionText")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Undersøge lokalplan og byggetilladelser</li>
-              <li>Have en skriftlig og gennemgået entreprisekontrakt</li>
-              <li>Få foretaget juridisk due diligence før køb</li>
+              <li>{t("realEstateInvestment.conclusionItem1")}</li>
+              <li>{t("realEstateInvestment.conclusionItem2")}</li>
+              <li>{t("realEstateInvestment.conclusionItem3")}</li>
             </ul>
             <p className="font-semibold text-lg">
-              Har du planer om at købe eller bygge bolig i Spanien? Jeg rådgiver
-              dig – fra due diligence og kontrakter til byggeri og tinglysning.
+              {t("realEstateInvestment.conclusionText2")}
             </p>
             <p className="text-lg">
-              Kontakt mig for en uforpligtende vurdering og sikker investering.
+              {t("realEstateInvestment.conclusionText3")}
             </p>
           </section>
         </article>

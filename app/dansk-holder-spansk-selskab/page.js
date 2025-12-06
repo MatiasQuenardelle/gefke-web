@@ -1,18 +1,19 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function DanskHoldingSpanienPage() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
         <title>
-          Dansk ejer af spansk selskab: Skal jeg vælge et holdingselskab i
-          Danmark?
+          {t("danishHolding.metaTitle")}
         </title>
         <meta
           name="description"
-          content="Overvej dine muligheder for ejerskab i Spanien: direkte ejerskab eller via dansk holdingselskab? Fordele, skat, kapital og struktur forklaret."
+          content={t("danishHolding.metaDescription")}
         />
         <meta
           name="keywords"
@@ -20,11 +21,11 @@ export default function DanskHoldingSpanienPage() {
         />
         <meta
           property="og:title"
-          content="Dansk ejer af spansk selskab: Skal jeg vælge et holdingselskab i Danmark?"
+          content={t("danishHolding.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Læs om fordele og ulemper ved at eje spansk S.L. som privatperson eller via dansk ApS. Guide til holdingselskaber og skat."
+          content={t("danishHolding.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta
@@ -39,11 +40,11 @@ export default function DanskHoldingSpanienPage() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Dansk ejer af spansk selskab: Skal jeg vælge et holdingselskab i Danmark?"
+          content={t("danishHolding.twitterTitle")}
         />
         <meta
           name="twitter:description"
-          content="Fordele og ulemper ved at eje spansk selskab gennem dansk holdingselskab. Kapital, skat og strategi."
+          content={t("danishHolding.twitterDescription")}
         />
         <meta
           name="twitter:image"
@@ -55,141 +56,126 @@ export default function DanskHoldingSpanienPage() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Dansk ejer af spansk selskab: Skal jeg vælge et holdingselskab i
-              Danmark?
+              {t("danishHolding.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              Overvej dine muligheder for ejerskab af en spansk S.L.: direkte
-              som privatperson eller via et dansk holdingselskab. Vi gennemgår
-              fordele, skattemæssige konsekvenser og strategiske overvejelser.
+              {t("danishHolding.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              1. Direkte ejerskab eller holdingselskab?
+              {t("danishHolding.section1Title")}
             </h2>
             <p>
-              Som dansk medejer af en spansk virksomhed har du to typiske valg:
+              {t("danishHolding.section1Text1")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>Personligt ejerskab</strong> af anparterne i den spanske
-                S.L.
+                <strong>{t("danishHolding.section1Item1Label")}</strong>{" "}
+                {t("danishHolding.section1Item1Text")}
               </li>
               <li>
-                <strong>Ejerskab via et dansk holdingselskab (ApS)</strong>
+                <strong>{t("danishHolding.section1Item2Label")}</strong>
               </li>
             </ul>
-            <p className="font-semibold">Fordele ved holdingselskab:</p>
+            <p className="font-semibold">{t("danishHolding.section1Subtitle")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>
-                Skattefri aktieavance ved salg af datterselskab (efter 3 år)
-              </li>
-              <li>Opsparing og reinvestering i selskabet</li>
-              <li>
-                Beskyttelse af privatøkonomi og fleksibilitet ved ejerskifte
-              </li>
+              <li>{t("danishHolding.section1Item3")}</li>
+              <li>{t("danishHolding.section1Item4")}</li>
+              <li>{t("danishHolding.section1Item5")}</li>
             </ul>
             <p>
-              Hvis hele overskuddet alligevel skal udbetales som løn eller
-              udbytte, kan en holdingstruktur være mindre attraktiv pga. ekstra
-              administration.
+              {t("danishHolding.section1Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              2. Kapitalindskud og værdiansættelse
+              {t("danishHolding.section2Title")}
             </h2>
             <p>
-              Et dansk ApS kræver <strong>125.000 kr.</strong> i startkapital.
-              Denne kan bestå af:
+              {t("danishHolding.section2Text1")}{" "}
+              <strong>{t("danishHolding.section2Text1Strong")}</strong>{" "}
+              {t("danishHolding.section2Text1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Kontanter</li>
-              <li>Aktiver (udstyr, software) – kræver revisorvurdering</li>
+              <li>{t("danishHolding.section2Item1")}</li>
+              <li>{t("danishHolding.section2Item2")}</li>
             </ul>
             <p>
-              Der skal være reel værdi – bankgaranti accepteres ikke. Brug af
-              egne aktiver kan udløse skattemæssig avance.
+              {t("danishHolding.section2Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              3. Dansk holding, spansk drift
+              {t("danishHolding.section3Title")}
             </h2>
             <p>
-              En udbredt model er at lade det danske holdingselskab eje den
-              spanske S.L. Kapitalen fra holding bruges som indskud i Spanien.
+              {t("danishHolding.section3Text1")}
             </p>
-            <p className="font-semibold">Bemærk forskelle i regnskabsregler:</p>
+            <p className="font-semibold">{t("danishHolding.section3Subtitle")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Spansk S.L. kræver kun 3.000 € i kapital</li>
-              <li>Dansk holding kan være revisionspligtigt pga. ejerforhold</li>
-              <li>
-                Danske revisorer accepterer ofte engelske årsrapporter fra
-                Spanien
-              </li>
+              <li>{t("danishHolding.section3Item1")}</li>
+              <li>{t("danishHolding.section3Item2")}</li>
+              <li>{t("danishHolding.section3Item3")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              4. Løn og skat i Danmark
+              {t("danishHolding.section4Title")}
             </h2>
             <p>
-              Som dansk skatteborger beskattes du af løn eller udbytte fra dit
-              spanske selskab. Danmark og Spanien har en{" "}
-              <strong>dobbeltbeskatningsaftale</strong>, som:
+              {t("danishHolding.section4Text1")}{" "}
+              <strong>{t("danishHolding.section4Text1Strong")}</strong>
+              {t("danishHolding.section4Text1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Forhindrer dobbeltskatter</li>
-              <li>Muliggør lempelse i den danske skat</li>
+              <li>{t("danishHolding.section4Item1")}</li>
+              <li>{t("danishHolding.section4Item2")}</li>
             </ul>
             <p>
-              Planlæg udbetalinger i dialog med revisor eller skatterådgiver.
+              {t("danishHolding.section4Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              5. Alternativ: Holding i Spanien?
+              {t("danishHolding.section5Title")}
             </h2>
             <p>
-              Du kan alternativt etablere{" "}
-              <strong>et spansk holdingselskab</strong>. Det kan have lokale
-              skattemæssige fordele, men:
+              {t("danishHolding.section5Text1")}{" "}
+              <strong>{t("danishHolding.section5Text1Strong")}</strong>.
+              {t("danishHolding.section5Text1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Du vil stadig være fuldt skattepligtig i Danmark</li>
-              <li>Du skal håndtere international selvangivelse</li>
+              <li>{t("danishHolding.section5Item1")}</li>
+              <li>{t("danishHolding.section5Item2")}</li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              Konklusion: Vælg den rette selskabsstruktur
+              {t("danishHolding.conclusionTitle")}
             </h2>
             <p>
-              Om du bør vælge holdingselskab eller ej afhænger af dine mål og
-              behov:
+              {t("danishHolding.conclusionText1")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Langsigtede investerings- eller exitscenarier</li>
-              <li>Ønske om skatteoptimering og opsparing i selskabet</li>
-              <li>Behov for fleksibilitet og adskillelse af ejerskab</li>
+              <li>{t("danishHolding.conclusionItem1")}</li>
+              <li>{t("danishHolding.conclusionItem2")}</li>
+              <li>{t("danishHolding.conclusionItem3")}</li>
             </ul>
             <p className="font-semibold text-lg">
-              Et dansk holdingselskab er ofte en god løsning – men det kræver
-              korrekt opsætning og rådgivning.
+              {t("danishHolding.conclusionText2")}
             </p>
             <p className="font-semibold text-lg">
               <a href="/contact" className="text-blue-700 underline">
-                Kontakt os i dag
+                {t("danishHolding.conclusionLink")}
               </a>{" "}
-              – vi hjælper med struktur, skat og revision.
+              {t("danishHolding.conclusionText3")}
             </p>
           </section>
         </article>

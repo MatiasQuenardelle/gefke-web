@@ -1,18 +1,19 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function EjerforeningerSpainArticle() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
         <title>
-          Ejerforeninger i Spanien: Hvad du skal vide som boligejer | Christian
-          Gefke
+          {t("homeownerAssociations.metaTitle")}
         </title>
         <meta
           name="description"
-          content="Læs om ejerforeninger i Spanien, hvordan de fungerer, og hvad du som dansk boligejer skal være opmærksom på. Få juridisk indsigt og rådgivning ved køb af bolig."
+          content={t("homeownerAssociations.metaDescription")}
         />
         <meta
           name="keywords"
@@ -21,11 +22,11 @@ export default function EjerforeningerSpainArticle() {
         <meta name="author" content="Christian Gefke" />
         <meta
           property="og:title"
-          content="Ejerforeninger i Spanien: Vigtig viden for boligejere"
+          content={t("homeownerAssociations.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Få styr på dine rettigheder og pligter i en ejerforening i Spanien. Læs om fuldmagter, regler og typiske udfordringer."
+          content={t("homeownerAssociations.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="da_DK" />
@@ -39,147 +40,138 @@ export default function EjerforeningerSpainArticle() {
         <article className="max-w-3xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Ejerforeninger i Spanien: Hvad du skal vide som boligejer
+              {t("homeownerAssociations.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              Få juridisk indsigt og tryghed som boligejer i en spansk
-              ejerforening.
+              {t("homeownerAssociations.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Hvad er en ejerforening i Spanien?
+              {t("homeownerAssociations.section1Title")}
             </h2>
             <p>
-              Når du køber bolig i et spansk boligkompleks, bliver du automatisk
-              en del af en{" "}
-              <strong>ejerforening (comunidad de propietarios)</strong>. Denne
-              er reguleret af <strong>“propiedad horizontal”</strong>, og
-              medfører både <strong>rettigheder og forpligtelser</strong>.
+              {t("homeownerAssociations.section1Text1")}{" "}
+              <strong>{t("homeownerAssociations.section1Text1Strong")}</strong>.
+              {t("homeownerAssociations.section1Text1Text")}{" "}
+              <strong>{t("homeownerAssociations.section1Text1Strong2")}</strong>
+              {t("homeownerAssociations.section1Text1Text2")}{" "}
+              <strong>{t("homeownerAssociations.section1Text1Strong3")}</strong>.
             </p>
             <p>
-              Ejerforeningen dækker fællesinstallationer som trappeopgange,
-              tage, haver og tekniske anlæg. Reglerne er fastlagt i den spanske{" "}
-              <strong>
-                Lov om Ejerlejligheder (Ley de Propiedad Horizontal)
-              </strong>
-              .
+              {t("homeownerAssociations.section1Text2")}{" "}
+              <strong>{t("homeownerAssociations.section1Text2Strong")}</strong>.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Hvilke områder dækker en comunidad de propietarios?
+              {t("homeownerAssociations.section2Title")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Fællesarealer, haver og pool</li>
-              <li>Trappeopgange, elevatorer og tage</li>
-              <li>Parkeringspladser og adgangsveje</li>
-              <li>El-, vand- og tekniske installationer</li>
+              <li>{t("homeownerAssociations.section2Item1")}</li>
+              <li>{t("homeownerAssociations.section2Item2")}</li>
+              <li>{t("homeownerAssociations.section2Item3")}</li>
+              <li>{t("homeownerAssociations.section2Item4")}</li>
             </ul>
             <p>
-              Som ejer er du med til at betale og beslutte over disse områder
-              gennem fællesmøder og vedtægter.
+              {t("homeownerAssociations.section2Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Findes der både ejerforening og grundejerforening?
+              {t("homeownerAssociations.section3Title")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>Ejerforening:</strong> Automatisk og lovpligtig ved
-                fælles installationer.
+                <strong>{t("homeownerAssociations.section3Item1Label")}</strong>{" "}
+                {t("homeownerAssociations.section3Item1Text")}
               </li>
               <li>
-                <strong>Grundejerforening (asociaciones de vecinos):</strong>{" "}
-                Frivillig og mere sjælden, typisk i villaområder.
+                <strong>{t("homeownerAssociations.section3Item2Label")}</strong>{" "}
+                {t("homeownerAssociations.section3Item2Text")}
               </li>
             </ul>
             <p>
-              For de fleste danske købere er det ejerforeningen, der har størst
-              praktisk betydning.
+              {t("homeownerAssociations.section3Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Typiske udfordringer i ejerforeninger
+              {t("homeownerAssociations.section4Title")}
             </h2>
             <ol className="list-decimal list-inside ml-4 space-y-1">
               <li>
-                <strong>Manglende betaling:</strong> Kan føre til økonomiske
-                problemer og dårlig vedligehold.
+                <strong>{t("homeownerAssociations.section4Item1Label")}</strong>{" "}
+                {t("homeownerAssociations.section4Item1Text")}
               </li>
               <li>
-                <strong>Uenighed om forbedringer:</strong> Flertalsbeslutninger
-                kan pålægge dig udgifter.
+                <strong>{t("homeownerAssociations.section4Item2Label")}</strong>{" "}
+                {t("homeownerAssociations.section4Item2Text")}
               </li>
               <li>
-                <strong>Dårlig administration:</strong> Manglende
-                gennemsigtighed og regnskabsproblemer.
+                <strong>{t("homeownerAssociations.section4Item3Label")}</strong>{" "}
+                {t("homeownerAssociations.section4Item3Text")}
               </li>
               <li>
-                <strong>Begrænsninger for udlejning:</strong> Nogle foreninger
-                forbyder eller begrænser korttidsudlejning.
+                <strong>{t("homeownerAssociations.section4Item4Label")}</strong>{" "}
+                {t("homeownerAssociations.section4Item4Text")}
               </li>
             </ol>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Sådan lader du dig repræsentere fra Danmark
+              {t("homeownerAssociations.section5Title")}
             </h2>
             <p>
-              Hvis du ikke bor fast i Spanien, kan du give en{" "}
-              <strong>fuldmagt (poder notarial)</strong> til en lokal advokat:
+              {t("homeownerAssociations.section5Text1")}{" "}
+              <strong>{t("homeownerAssociations.section5Text1Strong")}</strong>{" "}
+              {t("homeownerAssociations.section5Text1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Udarbejdes på spansk (evt. to-sproget)</li>
-              <li>Notarielt bekræftet i Danmark</li>
-              <li>Forsynet med apostillestempel</li>
-              <li>Sendes fysisk til Spanien</li>
+              <li>{t("homeownerAssociations.section5Item1")}</li>
+              <li>{t("homeownerAssociations.section5Item2")}</li>
+              <li>{t("homeownerAssociations.section5Item3")}</li>
+              <li>{t("homeownerAssociations.section5Item4")}</li>
             </ul>
-            <p>En fuldmagt giver mulighed for:</p>
+            <p>{t("homeownerAssociations.section5Text2")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Deltagelse i møder og generalforsamlinger</li>
-              <li>Indbetaling af udgifter og modtagelse af post</li>
-              <li>Beslutninger om reparationer eller udlejning</li>
+              <li>{t("homeownerAssociations.section5Item5")}</li>
+              <li>{t("homeownerAssociations.section5Item6")}</li>
+              <li>{t("homeownerAssociations.section5Item7")}</li>
             </ul>
             <p>
               <strong>
-                Alt dette kan håndteres uden fysisk fremmøde i Spanien.
+                {t("homeownerAssociations.section5Text3")}
               </strong>
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Hvad bør du undersøge inden boligkøb?
+              {t("homeownerAssociations.section6Title")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Om foreningen er registreret</li>
-              <li>Seneste regnskaber og mødereferater</li>
-              <li>Restancer eller verserende sager</li>
-              <li>Regler om renovering og udlejning</li>
+              <li>{t("homeownerAssociations.section6Item1")}</li>
+              <li>{t("homeownerAssociations.section6Item2")}</li>
+              <li>{t("homeownerAssociations.section6Item3")}</li>
+              <li>{t("homeownerAssociations.section6Item4")}</li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              Konklusion: Fuldmagter og indsigt giver tryghed
+              {t("homeownerAssociations.conclusionTitle")}
             </h2>
             <p>
-              Som boligejer i Spanien er det vigtigt at forstå de juridiske
-              rammer for ejerforeninger og sikre, at dine interesser varetages –
-              også når du ikke selv er til stede.
+              {t("homeownerAssociations.conclusionText")}
             </p>
             <p className="text-lg font-semibold">
-              Kontakt mig, hvis du ønsker hjælp til at gennemgå vedtægter,
-              udarbejde fuldmagter eller få professionel rådgivning omkring din
-              bolig i Spanien.
+              {t("homeownerAssociations.conclusionText2")}
             </p>
           </section>
         </article>

@@ -1,17 +1,19 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function PensionSpanienPage() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
         <title>
-          Pension og hjemmepleje i Spanien | Juridisk rådgivning for danskere
+          {t("pension.metaTitle")}
         </title>
         <meta
           name="description"
-          content="Få overblik over pension og hjemmepleje i Spanien for danskere. Juridisk rådgivning, offentlige og private plejemuligheder, og gode råd til ældre danskere i udlandet."
+          content={t("pension.metaDescription")}
         />
       </Head>
 
@@ -19,155 +21,150 @@ export default function PensionSpanienPage() {
         <article className="max-w-3xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Pension og hjemmepleje i Spanien
+              {t("pension.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              Juridisk rådgivning og praktisk overblik til danske pensionister i
-              Spanien.
+              {t("pension.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              Tryg alderdom i Spanien: Hvad du bør vide
+              {t("pension.section1Title")}
             </h2>
             <p>
-              Drømmer du om at nyde dit otium under den spanske sol? Mange
-              danskere vælger Spanien som pensionistdestination – særligt i
-              regioner som <strong>Andalusien</strong> og{" "}
-              <strong>De Kanariske Øer</strong>.
+              {t("pension.section1Text1")}{" "}
+              <strong>{t("pension.section1Text1Strong1")}</strong>{" "}
+              {t("pension.section1Text1Text")}{" "}
+              <strong>{t("pension.section1Text1Strong2")}</strong>.
             </p>
-            <p>I denne artikel får du overblik over:</p>
+            <p>{t("pension.section1Text2")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Udbetaling af dansk pension i Spanien</li>
-              <li>Adgang til offentlig hjemmepleje</li>
-              <li>Muligheder for privat pleje og fleksibilitet</li>
-              <li>Regionale forskelle og praktiske råd</li>
+              <li>{t("pension.section1Item1")}</li>
+              <li>{t("pension.section1Item2")}</li>
+              <li>{t("pension.section1Item3")}</li>
+              <li>{t("pension.section1Item4")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h3 className="text-xl font-semibold text-blue-800">
-              Pension i Spanien – sådan gør du
+              {t("pension.section2Title")}
             </h3>
             <p>
-              Som dansk statsborger og EU-borger kan du få din{" "}
-              <strong>folkepension udbetalt i Spanien</strong>, hvis du:
+              {t("pension.section2Text1")}{" "}
+              <strong>{t("pension.section2Text1Strong")}</strong>
+              {t("pension.section2Text1Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Har fast bopæl i Spanien</li>
-              <li>Er frameldt det danske folkeregister</li>
-              <li>Har ansøgt via Udbetaling Danmark</li>
+              <li>{t("pension.section2Item1")}</li>
+              <li>{t("pension.section2Item2")}</li>
+              <li>{t("pension.section2Item3")}</li>
             </ul>
             <p>
-              Med et <strong>S1-dokument</strong> kan du også få adgang til det
-              offentlige spanske sundhedssystem – dine sundhedsudgifter betales
-              af Danmark, men du behandles som lokal borger.
+              {t("pension.section2Text2")}{" "}
+              <strong>{t("pension.section2Text2Strong")}</strong>{" "}
+              {t("pension.section2Text2Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h3 className="text-xl font-semibold text-blue-800">
-              Offentlig hjemmepleje – hvad kan du få?
+              {t("pension.section3Title")}
             </h3>
             <p>
-              Hjemmehjælp i Spanien administreres regionalt – og serviceniveauet
-              varierer. Her er overblik over to populære områder:
+              {t("pension.section3Text1")}
             </p>
 
             <div>
-              <h4 className="font-semibold text-gray-800">Andalusien</h4>
+              <h4 className="font-semibold text-gray-800">{t("pension.section3Subtitle1")}</h4>
               <p>
-                Her tilbydes hjælp via <em>Servicio de Ayuda a Domicilio</em>{" "}
-                under <strong>Ley de Dependencia</strong>. Du kan søge:
+                {t("pension.section3Text2")}{" "}
+                <em>{t("pension.section3Text2Em")}</em>{" "}
+                {t("pension.section3Text2Text")}{" "}
+                <strong>{t("pension.section3Text2Strong")}</strong>.
+                {t("pension.section3Text2Text2")}
               </p>
               <ul className="list-disc list-inside ml-4 space-y-1">
-                <li>Personlig pleje og rengøring</li>
-                <li>Tekniske hjælpemidler</li>
-                <li>Støtte til pårørende</li>
+                <li>{t("pension.section3Item1")}</li>
+                <li>{t("pension.section3Item2")}</li>
+                <li>{t("pension.section3Item3")}</li>
               </ul>
               <p>
-                Tildeling sker først efter en officiel vurdering af dit behov (
-                <em>grado de dependencia</em>).
+                {t("pension.section3Text3")}{" "}
+                (<em>{t("pension.section3Text3Em")}</em>).
               </p>
             </div>
 
             <div>
-              <h4 className="font-semibold text-gray-800">De Kanariske Øer</h4>
+              <h4 className="font-semibold text-gray-800">{t("pension.section3Subtitle2")}</h4>
               <p>
-                Regionen har sit eget system med individuel plejeplan. Du kan få
-                adgang til:
+                {t("pension.section3Text4")}
               </p>
               <ul className="list-disc list-inside ml-4 space-y-1">
-                <li>Hjemmehjælp</li>
-                <li>Dagscentre</li>
-                <li>Økonomisk støtte i særlige tilfælde</li>
+                <li>{t("pension.section3Item4")}</li>
+                <li>{t("pension.section3Item5")}</li>
+                <li>{t("pension.section3Item6")}</li>
               </ul>
               <p>
-                Det kræver, at du er{" "}
-                <strong>officielt tilmeldt kommunen</strong> og har residencia.
+                {t("pension.section3Text5")}{" "}
+                <strong>{t("pension.section3Text5Strong")}</strong>{" "}
+                {t("pension.section3Text5Text")}
               </p>
             </div>
           </section>
 
           <section className="space-y-4">
             <h3 className="text-xl font-semibold text-blue-800">
-              Privat hjemmepleje – når du ønsker mere fleksibilitet
+              {t("pension.section4Title")}
             </h3>
-            <p>Privat hjemmehjælp er oplagt, hvis du vil:</p>
+            <p>{t("pension.section4Text1")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Undgå lange ventetider</li>
-              <li>Modtage pleje på dansk eller engelsk</li>
-              <li>Få skræddersyet og personlig støtte</li>
+              <li>{t("pension.section4Item1")}</li>
+              <li>{t("pension.section4Item2")}</li>
+              <li>{t("pension.section4Item3")}</li>
             </ul>
             <p>
-              Du kan indgå aftale med et godkendt firma eller ansætte en privat
-              hjælper. Sørg for at alt sker lovligt – både for tryghedens skyld
-              og for eventuelle skattefradrag.
+              {t("pension.section4Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h3 className="text-xl font-semibold text-blue-800">
-              Gode råd til ældre danskere i Spanien
+              {t("pension.section5Title")}
             </h3>
             <ol className="list-decimal list-inside ml-4 space-y-1">
               <li>
-                <strong>Få juridisk rådgivning:</strong> En lokal{" "}
-                <em>gestor</em> eller advokat med erfaring i ældreydelser er
-                uvurderlig.
+                <strong>{t("pension.section5Item1Label")}</strong>{" "}
+                {t("pension.section5Item1Text")}{" "}
+                <em>{t("pension.section5Item1Em")}</em>{" "}
+                {t("pension.section5Item1Text2")}
               </li>
               <li>
-                <strong>Ansøg i god tid:</strong> Behandlingstiden kan være
-                lang.
+                <strong>{t("pension.section5Item2Label")}</strong>{" "}
+                {t("pension.section5Item2Text")}
               </li>
               <li>
-                <strong>Kend dine rettigheder:</strong> Som EU-borger har du
-                adgang til hjælp på lige fod med spaniere.
+                <strong>{t("pension.section5Item3Label")}</strong>{" "}
+                {t("pension.section5Item3Text")}
               </li>
               <li>
-                <strong>Vær proaktiv:</strong> Udforsk dine muligheder før
-                behovet opstår.
+                <strong>{t("pension.section5Item4Label")}</strong>{" "}
+                {t("pension.section5Item4Text")}
               </li>
             </ol>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h3 className="text-2xl font-bold text-blue-900">
-              Konklusion: En værdig alderdom kræver planlægning
+              {t("pension.conclusionTitle")}
             </h3>
             <p>
-              Spanien tilbyder gode muligheder for en tryg alderdom – men
-              systemet er anderledes end det danske. Derfor er{" "}
-              <strong>
-                tidlig planlægning og korrekt vejledning afgørende
-              </strong>
-              .
+              {t("pension.conclusionText1")}{" "}
+              <strong>{t("pension.conclusionText1Strong")}</strong>.
             </p>
             <p className="text-lg font-semibold">
-              Ønsker du at sikre dine rettigheder og muligheder i god tid?
-              Kontakt mig for personlig rådgivning om pension og ældrepleje i
-              Spanien.
+              {t("pension.conclusionText2")}
             </p>
           </section>
         </article>

@@ -1,15 +1,17 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function ArbejdsretISpanienPage() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
-        <title>Arbejdsret i Spanien: Hvad danske borgere skal vide</title>
+        <title>{t("laborLaw.metaTitle")}</title>
         <meta
           name="description"
-          content="Få overblik over spansk arbejdsret som dansk statsborger: krav til dokumentation, social sikring, rettigheder, selvstændig virksomhed og mere."
+          content={t("laborLaw.metaDescription")}
         />
         <meta
           name="keywords"
@@ -17,11 +19,11 @@ export default function ArbejdsretISpanienPage() {
         />
         <meta
           property="og:title"
-          content="Arbejdsret i Spanien: Hvad danske borgere skal vide om at arbejde lovligt"
+          content={t("laborLaw.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Juridisk gennemgang af arbejdsret, rettigheder og krav for danske statsborgere, der ønsker at arbejde i Spanien."
+          content={t("laborLaw.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta
@@ -36,11 +38,11 @@ export default function ArbejdsretISpanienPage() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Arbejdsret i Spanien: Hvad danske borgere skal vide"
+          content={t("laborLaw.twitterTitle")}
         />
         <meta
           name="twitter:description"
-          content="Alt hvad danske statsborgere skal vide for at arbejde lovligt i Spanien – NIE, Seguridad Social, rettigheder og selvstændighed."
+          content={t("laborLaw.twitterDescription")}
         />
         <meta
           name="twitter:image"
@@ -52,124 +54,121 @@ export default function ArbejdsretISpanienPage() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Arbejdsret i Spanien: Hvad danske borgere skal vide
+              {t("laborLaw.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              En praktisk guide til dokumentation, social sikring, rettigheder
-              og muligheder for danske statsborgere, der ønsker at arbejde i
-              Spanien.
+              {t("laborLaw.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              1. Dokumentation og registrering
+              {t("laborLaw.section1Title")}
             </h2>
             <p>
-              Som EU-borger har du ret til at arbejde i Spanien uden visum. Men
-              du skal registreres korrekt:
+              {t("laborLaw.section1Text1")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>Certificado de Registro de Ciudadano de la UE:</strong>
-                Kræves ved ophold over 90 dage.
+                <strong>{t("laborLaw.section1Item1Label")}</strong>{" "}
+                {t("laborLaw.section1Item1Text")}
               </li>
               <li>
-                <strong>NIE-nummer:</strong> Bruges i alle skattemæssige og
-                administrative forhold.
+                <strong>{t("laborLaw.section1Item2Label")}</strong>{" "}
+                {t("laborLaw.section1Item2Text")}
               </li>
             </ul>
             <p>
-              Det grønne NIE giver adgang til arbejde, sundhedssystemet og
-              sociale ydelser.
+              {t("laborLaw.section1Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              2. Social sikring og Seguridad Social
+              {t("laborLaw.section2Title")}
             </h2>
             <p>
-              Før du starter lønnet arbejde, skal du være registreret i det
-              spanske socialsikringssystem: <strong>Seguridad Social</strong>.
+              {t("laborLaw.section2Text1")}{" "}
+              <strong>{t("laborLaw.section2Text1Strong")}</strong>.
             </p>
             <p>
-              Du og din arbejdsgiver betaler <em>cotizaciones sociales</em>, som
-              dækker:
+              {t("laborLaw.section2Text2")}{" "}
+              <em>{t("laborLaw.section2Text2Em")}</em>
+              {t("laborLaw.section2Text2Text")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Offentlig sundhedspleje</li>
-              <li>Arbejdsløshed og barsel</li>
-              <li>Pension og invaliditet</li>
-              <li>Familieydelser</li>
+              <li>{t("laborLaw.section2Item1")}</li>
+              <li>{t("laborLaw.section2Item2")}</li>
+              <li>{t("laborLaw.section2Item3")}</li>
+              <li>{t("laborLaw.section2Item4")}</li>
             </ul>
             <p>
-              Din andel: ca. <strong>6,35%</strong> af bruttoløn. Arbejdsgiver:
-              ca. <strong>30%</strong>.
+              {t("laborLaw.section2Text3")}{" "}
+              <strong>{t("laborLaw.section2Text3Strong1")}</strong>{" "}
+              {t("laborLaw.section2Text3Text")}{" "}
+              <strong>{t("laborLaw.section2Text3Strong2")}</strong>.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              3. Ret til arbejdsløshedsunderstøttelse (paro)
+              {t("laborLaw.section3Title")}
             </h2>
-            <p>Du kan få paro, hvis:</p>
+            <p>{t("laborLaw.section3Text1")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Du er ufrivilligt arbejdsløs</li>
-              <li>Har betalt bidrag i min. 360 dage over 6 år</li>
-              <li>Er registreret hos SEPE som jobsøgende</li>
-              <li>Har lovligt ophold i Spanien</li>
-            </ul>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
-              4. Grundlæggende rettigheder som arbejdstager
-            </h2>
-            <p>Som arbejdstager har du ret til bl.a.:</p>
-            <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Registreret ansættelseskontrakt</li>
-              <li>Ferie, pauser og fridage</li>
-              <li>Faglig repræsentation</li>
-              <li>Beskyttelse mod uretmæssig opsigelse</li>
-              <li>Gratis adgang til arbejdsdomstole</li>
+              <li>{t("laborLaw.section3Item1")}</li>
+              <li>{t("laborLaw.section3Item2")}</li>
+              <li>{t("laborLaw.section3Item3")}</li>
+              <li>{t("laborLaw.section3Item4")}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              5. Arbejde som selvstændig (autónomo)
+              {t("laborLaw.section4Title")}
             </h2>
-            <p>For at arbejde som freelancer eller virksomhedsejer skal du:</p>
+            <p>{t("laborLaw.section4Text1")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Registreres hos Hacienda og Seguridad Social</li>
-              <li>Betale en fast månedlig afgift (ca. 230 € i 2025)</li>
-              <li>Indberette indtægter kvartalsvis</li>
-              <li>Bidrage til sociale ydelser som cese de actividad</li>
+              <li>{t("laborLaw.section4Item1")}</li>
+              <li>{t("laborLaw.section4Item2")}</li>
+              <li>{t("laborLaw.section4Item3")}</li>
+              <li>{t("laborLaw.section4Item4")}</li>
+              <li>{t("laborLaw.section4Item5")}</li>
+            </ul>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              {t("laborLaw.section5Title")}
+            </h2>
+            <p>{t("laborLaw.section5Text1")}</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>{t("laborLaw.section5Item1")}</li>
+              <li>{t("laborLaw.section5Item2")}</li>
+              <li>{t("laborLaw.section5Item3")}</li>
+              <li>{t("laborLaw.section5Item4")}</li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              Konklusion: Arbejd lovligt og trygt i Spanien
+              {t("laborLaw.conclusionTitle")}
             </h2>
             <p>
-              Som dansker har du gode muligheder for at arbejde i Spanien – med
-              adgang til sundhed, pension og ydelser. Overhold registreringskrav
-              og sørg for korrekt rådgivning.
+              {t("laborLaw.conclusionText1")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>NIE-registrering</li>
-              <li>Tilmelding til Seguridad Social</li>
-              <li>Gyldig ansættelseskontrakt eller autónomo-status</li>
+              <li>{t("laborLaw.conclusionItem1")}</li>
+              <li>{t("laborLaw.conclusionItem2")}</li>
+              <li>{t("laborLaw.conclusionItem3")}</li>
             </ul>
             <p className="font-semibold text-lg">
-              Har du brug for rådgivning om arbejdsret i Spanien?
+              {t("laborLaw.conclusionText2")}
               <br />
               <a href="/contact" className="text-blue-700 underline">
-                Kontakt os i dag
+                {t("laborLaw.conclusionLink")}
               </a>{" "}
-              for juridisk vejledning på dansk.
+              {t("laborLaw.conclusionText3")}
             </p>
           </section>
         </article>

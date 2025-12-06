@@ -1,172 +1,144 @@
+"use client"
+
 import React from "react"
+import { useTranslation } from "react-i18next"
 
 const PrivacyPolicy = () => {
+  const { t } = useTranslation()
   return (
     <div className="bg-[#003366] text-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold">
-          Terms of use and privacy policy
+          {t("privacy.title")}
         </h1>
       </div>
       <div className="bg-white text-black mt-12 px-4 py-8 rounded-md max-w-4xl mx-auto space-y-6 text-justify">
         <p>
-          In compliance with the duty of information contained in article 10 of
-          Law 34/2002, of 11 July, on Information Society Services and
-          Electronic Commerce, the following is hereby stated:
+          {t("privacy.intro")}
         </p>
 
-        <h2 className="text-xl font-bold">1. IDENTIFICATION DATA</h2>
+        <h2 className="text-xl font-bold">{t("privacy.section1Title")}</h2>
         <p>
-          The owner of the web domain/s is Christian Gefke (hereinafter
-          christiangefke.com), with address in Calle Luxemburgo 7, C3, 35510,
-          Tias, Spain, and Risdalsvej 39, Århus, 8260, Denmark: Contact e-mail:
-          cbgefke@gmail.com
+          {t("privacy.section1Text")}
         </p>
 
-        <h2 className="text-xl font-bold">2. USERS</h2>
+        <h2 className="text-xl font-bold">{t("privacy.section2Title")}</h2>
         <p>
-          The access and/or use of this website – www.christiangefke.com –
-          attributes the condition of USER, who accepts, from said access and/or
-          use, the present terms of use.
+          {t("privacy.section2Text")}
         </p>
 
-        <h2 className="text-xl font-bold">3. USE OF THE WEBSITE</h2>
+        <h2 className="text-xl font-bold">{t("privacy.section3Title")}</h2>
         <p>
-          www.christiangefke.com provides access to articles, information and
-          data (hereinafter ‘the contents’) owned by www.christiangefke.com. The
-          USER assumes responsibility for the use of the website.
+          {t("privacy.section3Text1")}
         </p>
-        <p>The USER undertakes not to:</p>
+        <p>{t("privacy.section3Text2")}</p>
         <ul className="list-disc pl-6">
           <li>
-            Engage in activities that are illicit, illegal or contrary to good
-            faith and public order
+            {t("privacy.section3Item1")}
           </li>
           <li>
-            Disseminate content or propaganda that is racist, xenophobic,
-            pornographic-illegal, or against human rights
+            {t("privacy.section3Item2")}
           </li>
           <li>
-            Cause damage to systems of christiangefke.com or third parties,
-            spread viruses or malicious software
+            {t("privacy.section3Item3")}
           </li>
-          <li>Access or manipulate email accounts of other users</li>
+          <li>{t("privacy.section3Item4")}</li>
         </ul>
         <p>
-          christiangefke.com reserves the right to remove comments violating
-          human dignity or public order. It is not responsible for user opinions
-          shared via blog or similar tools.
+          {t("privacy.section3Text3")}
         </p>
 
         <h2 className="text-xl font-bold">
-          4. PRIVACY POLICY. DATA PROTECTION
+          {t("privacy.section4Title")}
         </h2>
 
-        <h3 className="font-semibold">4.1. Purpose and Consent</h3>
+        <h3 className="font-semibold">{t("privacy.section4Subtitle1")}</h3>
         <p>
-          Data is collected solely for communication purposes like newsletters.
-          Data is never sold or shared. Double opt-in is used as consent for
-          processing.
+          {t("privacy.section4Text1")}
         </p>
 
-        <h3 className="font-semibold">4.2. Compliance with Law</h3>
+        <h3 className="font-semibold">{t("privacy.section4Subtitle2")}</h3>
         <p>
-          Compliance with GDPR and Spanish data protection law is ensured.
-          Consent will be obtained before any commercial use of data.
+          {t("privacy.section4Text2")}
         </p>
 
-        <h3 className="font-semibold">4.3. User Rights</h3>
+        <h3 className="font-semibold">{t("privacy.section4Subtitle3")}</h3>
         <ul className="list-disc pl-6">
-          <li>Access, rectify, delete, or limit your personal data</li>
-          <li>Oppose or request portability of your data</li>
+          <li>{t("privacy.section4Item1")}</li>
+          <li>{t("privacy.section4Item2")}</li>
         </ul>
         <p>
-          Requests should be made via email or postal address. You can also
-          contact the Spanish Data Protection Agency (AEPD).
+          {t("privacy.section4Text3")}
         </p>
 
-        <h3 className="font-semibold">4.4. Links</h3>
+        <h3 className="font-semibold">{t("privacy.section4Subtitle4")}</h3>
         <p>
-          This website may link to third-party sites with different privacy
-          policies. Please review them before sharing personal data.
+          {t("privacy.section4Text4")}
         </p>
 
-        <h3 className="font-semibold">4.5. Cookies</h3>
+        <h3 className="font-semibold">{t("privacy.section4Subtitle5")}</h3>
         <p>
-          Cookies are used for technical, analytical, and social purposes. No
-          advertising cookies are used. Google Analytics and social sharing
-          tools may place cookies.
+          {t("privacy.section4Text5")}
         </p>
         <p>
-          Users can control cookies via browser settings (Chrome, Safari,
-          Firefox, etc.). Detailed cookie management instructions are provided.
+          {t("privacy.section4Text6")}
         </p>
 
-        <h3 className="font-semibold">4.7. Minors</h3>
+        <h3 className="font-semibold">{t("privacy.section4Subtitle7")}</h3>
         <p>
-          This website is not aimed at minors. The owner disclaims
-          responsibility for underage use.
+          {t("privacy.section4Text7")}
         </p>
 
-        <h3 className="font-semibold">4.8. Policy Changes</h3>
+        <h3 className="font-semibold">{t("privacy.section4Subtitle8")}</h3>
         <p>
-          christiangefke.com reserves the right to change this policy. Changes
-          will be published 10 days before taking effect.
+          {t("privacy.section4Text8")}
         </p>
 
-        <h3 className="font-semibold">4.9. Data Controller</h3>
+        <h3 className="font-semibold">{t("privacy.section4Subtitle9")}</h3>
         <p>
-          Christian Gefke is the controller. Hosting is provided by SIMPLY.COM
-          A/S in Denmark. See their policy at www.simply.com.
+          {t("privacy.section4Text9")}
         </p>
 
         <h2 className="text-xl font-bold">
-          5. INTELLECTUAL AND INDUSTRIAL PROPERTY
+          {t("privacy.section5Title")}
         </h2>
         <p>
-          All content is owned by christiangefke.com or licensors. Any
-          commercial reproduction or distribution is prohibited without prior
-          authorization.
+          {t("privacy.section5Text")}
         </p>
 
         <h2 className="text-xl font-bold">
-          6. DISCLAIMER OF WARRANTIES AND LIABILITY
+          {t("privacy.section6Title")}
         </h2>
         <p>
-          The site is not liable for content errors, downtime, or potential
-          virus transmission, despite using preventive measures.
+          {t("privacy.section6Text")}
         </p>
 
-        <h2 className="text-xl font-bold">7. MODIFICATIONS</h2>
+        <h2 className="text-xl font-bold">{t("privacy.section7Title")}</h2>
         <p>
-          christiangefke.com may update or change content without prior notice.
+          {t("privacy.section7Text")}
         </p>
 
-        <h2 className="text-xl font-bold">8. LINKING POLICY</h2>
+        <h2 className="text-xl font-bold">{t("privacy.section8Title")}</h2>
         <p>
-          Links to this site require prior authorization. External links from
-          this site do not imply endorsement.
+          {t("privacy.section8Text")}
         </p>
 
-        <h2 className="text-xl font-bold">9. RIGHT OF EXCLUSION</h2>
+        <h2 className="text-xl font-bold">{t("privacy.section9Title")}</h2>
         <p>
-          christiangefke.com may deny site access to users violating these
-          terms.
+          {t("privacy.section9Text")}
         </p>
 
-        <h2 className="text-xl font-bold">10. GENERAL</h2>
-        <p>Violations of these terms may be prosecuted with all legal means.</p>
+        <h2 className="text-xl font-bold">{t("privacy.section10Title")}</h2>
+        <p>{t("privacy.section10Text")}</p>
 
-        <h2 className="text-xl font-bold">11. CHANGES AND DURATION</h2>
+        <h2 className="text-xl font-bold">{t("privacy.section11Title")}</h2>
         <p>
-          These terms may change over time and will remain in effect until
-          replaced.
+          {t("privacy.section11Text")}
         </p>
 
-        <h2 className="text-xl font-bold">12. APPLICABLE LAW</h2>
+        <h2 className="text-xl font-bold">{t("privacy.section12Title")}</h2>
         <p>
-          The relationship between christiangefke.com and users is governed by
-          Spanish law.
+          {t("privacy.section12Text")}
         </p>
       </div>
     </div>

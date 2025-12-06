@@ -1,15 +1,17 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function InternationalInheritanceJurisdiction() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
-        <title>Værneting i internationale arvesager | Christian Gefke</title>
+        <title>{t("internationalInheritance.metaTitle")}</title>
         <meta
           name="description"
-          content="Hvornår kan dansk skifteret behandle et udenlandsk dødsbo? Få klarhed om reglerne i dødsboskifteloven og EU's arveretsforordning."
+          content={t("internationalInheritance.metaDescription")}
         />
         <meta
           name="keywords"
@@ -18,11 +20,11 @@ export default function InternationalInheritanceJurisdiction() {
         <meta name="author" content="Christian Gefke" />
         <meta
           property="og:title"
-          content="Værneting i internationale arvesager – Hvornår kan Danmark behandle dødsboet?"
+          content={t("internationalInheritance.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Få styr på hvornår dansk skifteret har kompetence i arvesager med international tilknytning. Guide til arvinger og testamenter."
+          content={t("internationalInheritance.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="da_DK" />
@@ -36,136 +38,136 @@ export default function InternationalInheritanceJurisdiction() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Værneting i internationale arvesager – Hvornår kan dansk skifteret
-              behandle et udenlandsk dødsbo?
+              {t("internationalInheritance.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              En praktisk guide til arvinger med tilknytning til Danmark og
-              udlandet.
+              {t("internationalInheritance.subtitle")}
             </p>
           </header>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">1. Indledning</h2>
+            <h2 className="text-2xl font-bold text-blue-800">{t("internationalInheritance.section1Title")}</h2>
             <p>
-              Når en person med dansk statsborgerskab går bort i udlandet,
-              opstår spørgsmålet: Hvilket land har kompetence til at behandle
-              dødsboet? Dette afhænger af reglerne om værneting.
+              {t("internationalInheritance.section1Text1")}
             </p>
             <p>
-              I denne artikel gennemgår vi reglerne i{" "}
-              <strong>dødsboskifteloven</strong> og{" "}
-              <strong>EU&apos;s arveretsforordning</strong>, og hvordan
-              testamenter og lovvalg påvirker sagen.
+              {t("internationalInheritance.section1Text2")}{" "}
+              <strong>{t("internationalInheritance.section1Text2Strong1")}</strong>{" "}
+              {t("internationalInheritance.section1Text2Text")}{" "}
+              <strong>{t("internationalInheritance.section1Text2Strong2")}</strong>
+              {t("internationalInheritance.section1Text2Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              2. Dansk værneting i arvesager
+              {t("internationalInheritance.section2Title")}
             </h2>
             <p>
-              Ifølge dødsboskiftelovens § 2 kræver dansk værneting en
-              <strong> tilknytning til Danmark</strong>:
+              {t("internationalInheritance.section2Text1")}{" "}
+              <strong>{t("internationalInheritance.section2Text1Strong")}</strong>
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Aktiver i Danmark (fx ejendom, bankkonti)</li>
-              <li>Tidligere bopæl i Danmark</li>
-              <li>Andre stærke forbindelser til landet</li>
+              <li>{t("internationalInheritance.section2Item1")}</li>
+              <li>{t("internationalInheritance.section2Item2")}</li>
+              <li>{t("internationalInheritance.section2Item3")}</li>
             </ul>
             <p>
-              Arvingernes bopæl i Danmark er{" "}
-              <strong>ikke tilstrækkeligt</strong>
-              til at opnå dansk værneting.
+              {t("internationalInheritance.section2Text2")}{" "}
+              <strong>{t("internationalInheritance.section2Text2Strong")}</strong>{" "}
+              {t("internationalInheritance.section2Text2Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              3. EU’s arveretsforordning
+              {t("internationalInheritance.section3Title")}
             </h2>
             <p>
-              Ifølge <strong>EU-forordning 650/2012</strong> har det land, hvor
-              afdøde havde <strong>sædvanligt opholdssted</strong>, kompetence
-              (artikel 4).
+              {t("internationalInheritance.section3Text1")}{" "}
+              <strong>{t("internationalInheritance.section3Text1Strong1")}</strong>{" "}
+              {t("internationalInheritance.section3Text1Text")}{" "}
+              <strong>{t("internationalInheritance.section3Text1Strong2")}</strong>{" "}
+              {t("internationalInheritance.section3Text1Text2")}
             </p>
             <p>
-              Undtagelse: Hvis afdøde har valgt <strong>dansk arveret</strong> i
-              testamentet, kan arvingerne enstemmigt vælge dansk værneting
-              (artikel 5).
+              {t("internationalInheritance.section3Text2")}{" "}
+              <strong>{t("internationalInheritance.section3Text2Strong")}</strong>{" "}
+              {t("internationalInheritance.section3Text2Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              4. Mulighed for dansk værneting ved udlandsbopæl
+              {t("internationalInheritance.section4Title")}
             </h2>
-            <p>Dansk skifteret kan acceptere sagen hvis:</p>
+            <p>{t("internationalInheritance.section4Text1")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Afdøde har valgt dansk arveret</li>
-              <li>Alle arvinger er enige</li>
-              <li>Der findes tilstrækkelig tilknytning til Danmark</li>
+              <li>{t("internationalInheritance.section4Item1")}</li>
+              <li>{t("internationalInheritance.section4Item2")}</li>
+              <li>{t("internationalInheritance.section4Item3")}</li>
             </ul>
             <p>
-              Uden disse betingelser vil sagen blive behandlet i det land, hvor
-              afdøde boede.
+              {t("internationalInheritance.section4Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              5. Værneting og lovvalg
+              {t("internationalInheritance.section5Title")}
             </h2>
             <p>
-              Valg af dansk arveret i testamentet betyder <strong>ikke</strong>{" "}
-              at sagen automatisk behandles i Danmark – kun at{" "}
-              <strong>dansk ret</strong> anvendes.
+              {t("internationalInheritance.section5Text1")}{" "}
+              <strong>{t("internationalInheritance.section5Text1Strong")}</strong>{" "}
+              {t("internationalInheritance.section5Text1Text")}{" "}
+              <strong>{t("internationalInheritance.section5Text1Strong2")}</strong>{" "}
+              {t("internationalInheritance.section5Text1Text2")}
             </p>
             <p>
-              Den spanske domstol kan fx anvende dansk arveret, men behandle
-              dødsboet i Spanien.
+              {t("internationalInheritance.section5Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              6. Ugyldigt værnetingsvalg
+              {t("internationalInheritance.section6Title")}
             </h2>
             <p>
-              Et værnetingsvalg skal følge både{" "}
-              <strong>EU-forordningen (artikel 5)</strong> og{" "}
-              <strong>dødsboskifteloven</strong>.
+              {t("internationalInheritance.section6Text1")}{" "}
+              <strong>{t("internationalInheritance.section6Text1Strong1")}</strong>{" "}
+              {t("internationalInheritance.section6Text1Text")}{" "}
+              <strong>{t("internationalInheritance.section6Text1Strong2")}</strong>.
             </p>
             <p>
-              Hvis dansk værneting vælges uden tilknytning til Danmark, kan den
-              danske skifteret afvise sagen.
+              {t("internationalInheritance.section6Text2")}
             </p>
             <p>
-              I så fald behandles dødsboet i det relevante udland, men med det
-              valgte lovvalg (fx dansk ret) hvis gyldigt.
+              {t("internationalInheritance.section6Text3")}
             </p>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
-            <h2 className="text-2xl font-bold text-blue-900">7. Konklusion</h2>
+            <h2 className="text-2xl font-bold text-blue-900">{t("internationalInheritance.conclusionTitle")}</h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                Dansk skifteret kræver <strong>reel tilknytning</strong> til
-                Danmark.
+                {t("internationalInheritance.conclusionItem1")}{" "}
+                <strong>{t("internationalInheritance.conclusionItem1Strong")}</strong>{" "}
+                {t("internationalInheritance.conclusionItem1Text")}
               </li>
               <li>
-                <strong>Lovvalg</strong> og <strong>arvingernes enighed</strong>{" "}
-                kan give adgang til dansk værneting – men ikke alene.
+                <strong>{t("internationalInheritance.conclusionItem2Strong1")}</strong>{" "}
+                {t("internationalInheritance.conclusionItem2Text")}{" "}
+                <strong>{t("internationalInheritance.conclusionItem2Strong2")}</strong>{" "}
+                {t("internationalInheritance.conclusionItem2Text2")}
               </li>
               <li>
-                Testamente bør udarbejdes med{" "}
-                <strong>juridisk rådgivning</strong> for at sikre gyldighed.
+                {t("internationalInheritance.conclusionItem3")}{" "}
+                <strong>{t("internationalInheritance.conclusionItem3Strong")}</strong>{" "}
+                {t("internationalInheritance.conclusionItem3Text")}
               </li>
             </ul>
             <p className="font-semibold text-lg">
-              Har du brug for hjælp til en international arvesag? Kontakt os –
-              vi har årelang erfaring med grænseoverskridende arveret for både
-              danskere og udlændinge.
+              {t("internationalInheritance.conclusionText")}
             </p>
           </section>
         </article>

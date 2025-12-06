@@ -1,15 +1,17 @@
 "use client"
 
 import Head from "next/head"
+import { useTranslation } from "react-i18next"
 
 export default function BuySellPropertySpain() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
-        <title>Køb og salg af fast ejendom i Spanien | Christian Gefke</title>
+        <title>{t("realEstateBuySell.metaTitle")}</title>
         <meta
           name="description"
-          content="En juridisk guide til danskere om køb og salg af fast ejendom i Spanien. Læs om NIE-nummer, skatter, due diligence og sikker ejendomshandel."
+          content={t("realEstateBuySell.metaDescription")}
         />
         <meta
           name="keywords"
@@ -18,11 +20,11 @@ export default function BuySellPropertySpain() {
         <meta name="author" content="Christian Gefke" />
         <meta
           property="og:title"
-          content="Køb og salg af fast ejendom i Spanien – En juridisk guide"
+          content={t("realEstateBuySell.ogTitle")}
         />
         <meta
           property="og:description"
-          content="Få styr på alt juridisk ved køb og salg af fast ejendom i Spanien – NIE-nummer, skatter, skøde, ejendomsoverdragelse og mere."
+          content={t("realEstateBuySell.ogDescription")}
         />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="da_DK" />
@@ -36,172 +38,177 @@ export default function BuySellPropertySpain() {
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-              Køb og salg af fast ejendom i Spanien – En juridisk guide til
-              danskere
+              {t("realEstateBuySell.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              En sikker vejledning i NIE-nummer, skatter, kontrakter og due
-              diligence.
+              {t("realEstateBuySell.subtitle")}
             </p>
           </header>
 
           <section className="space-y-6">
             <p>
-              Spanien er blandt danskernes foretrukne lande – ikke kun til
-              ferie, men også til investering i bolig. Uanset om du køber til
-              dig selv eller som udlejning, kræver det{" "}
-              <strong>grundigt kendskab til lovgivningen</strong>.
+              {t("realEstateBuySell.intro1")}{" "}
+              <strong>{t("realEstateBuySell.intro1Strong")}</strong>.
             </p>
             <p>
-              Her får du en <strong>trinvis juridisk gennemgang</strong> af hele
-              processen for både købere og sælgere.
-            </p>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
-              Ekspertviden – din sikkerhed ved bolighandler
-            </h2>
-            <p>
-              Med en <strong>kandidat­afhandling i komparativ ret</strong> om
-              købskontrakter i Danmark og Spanien, og som medlem af{" "}
-              <strong>Lanzarotes Advokatsammenslutning</strong>, tilbyder jeg
-              unik rådgivning.
-            </p>
-            <p>
-              Jeg kombinerer <strong>dansk juridisk præcision</strong> med{" "}
-              <strong>spansk praksiserfaring</strong> og har hjulpet mange
-              danskere med ejendomshandler i Spanien.
+              {t("realEstateBuySell.intro2")}{" "}
+              <strong>{t("realEstateBuySell.intro2Strong")}</strong>
+              {t("realEstateBuySell.intro2Text")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              1. Første skridt: Få dit NIE-nummer
+              {t("realEstateBuySell.section0Title")}
             </h2>
             <p>
-              Det spanske{" "}
-              <strong>NIE-nummer (Número de Identidad de Extranjero)</strong> er
-              obligatorisk og kræves til:
+              {t("realEstateBuySell.section0Text")}{" "}
+              <strong>{t("realEstateBuySell.section0Strong1")}</strong>
+              {t("realEstateBuySell.section0Text2")}{" "}
+              <strong>{t("realEstateBuySell.section0Strong2")}</strong>
+              {t("realEstateBuySell.section0Text3")}
+            </p>
+            <p>
+              {t("realEstateBuySell.section0Text4")}{" "}
+              <strong>{t("realEstateBuySell.section0Strong3")}</strong>{" "}
+              {t("realEstateBuySell.section0Text5")}{" "}
+              <strong>{t("realEstateBuySell.section0Strong4")}</strong>
+              {t("realEstateBuySell.section0Text6")}
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-blue-800">
+              {t("realEstateBuySell.section1Title")}
+            </h2>
+            <p>
+              {t("realEstateBuySell.section1Text")}{" "}
+              <strong>{t("realEstateBuySell.section1Strong")}</strong>{" "}
+              {t("realEstateBuySell.section1Text2")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Underskrivelse af købsaftaler og skøde</li>
-              <li>Betaling af ejendomsskatter og afgifter</li>
-              <li>Oprettelse af bankkonto</li>
+              <li>{t("realEstateBuySell.section1Item1")}</li>
+              <li>{t("realEstateBuySell.section1Item2")}</li>
+              <li>{t("realEstateBuySell.section1Item3")}</li>
             </ul>
             <p>
-              Du kan få NIE via politistationen i Spanien eller konsulatet i
-              Danmark – jeg bistår gerne via fuldmagt.
+              {t("realEstateBuySell.section1Text3")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              2. Skatter og omkostninger ved boligkøb
+              {t("realEstateBuySell.section2Title")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-2">
               <li>
-                <strong>Ejendomsoverdragelsesskat (ITP):</strong> ca. 6,5 % på
-                brugte boliger. Ved nybyggeri betales{" "}
-                <strong>7 % moms (IVA)</strong> + stempelafgift (AJD).
+                <strong>{t("realEstateBuySell.section2Item1Label")}</strong>{" "}
+                {t("realEstateBuySell.section2Item1Text")}{" "}
+                <strong>{t("realEstateBuySell.section2Item1Strong")}</strong>{" "}
+                {t("realEstateBuySell.section2Item1Text2")}
               </li>
               <li>
-                <strong>Notar og tinglysning:</strong> 0,5–1 % af købsprisen.
+                <strong>{t("realEstateBuySell.section2Item2Label")}</strong>{" "}
+                {t("realEstateBuySell.section2Item2Text")}
               </li>
               <li>
-                <strong>Ejendomsskat (IBI):</strong> 0,4–1,1 % årligt af
-                ejendomsværdi.
+                <strong>{t("realEstateBuySell.section2Item3Label")}</strong>{" "}
+                {t("realEstateBuySell.section2Item3Text")}
               </li>
               <li>
-                <strong>Indkomstskat (non-residente):</strong> hvis boligen ikke
-                benyttes selv.
+                <strong>{t("realEstateBuySell.section2Item4Label")}</strong>{" "}
+                {t("realEstateBuySell.section2Item4Text")}
               </li>
               <li>
-                <strong>Formueskat:</strong> gælder for større formuer – på
-                f.eks. Kanariske Øer op til 99 % rabat.
+                <strong>{t("realEstateBuySell.section2Item5Label")}</strong>{" "}
+                {t("realEstateBuySell.section2Item5Text")}
               </li>
             </ul>
             <p>
-              Jeg laver altid en <strong>klar og fuldstændig beregning</strong>{" "}
-              før køb – så du ved, hvad du går ind til.
+              {t("realEstateBuySell.section2Text")}{" "}
+              <strong>{t("realEstateBuySell.section2Strong")}</strong>{" "}
+              {t("realEstateBuySell.section2Text2")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              3. Juridisk due diligence – inden du skriver under
+              {t("realEstateBuySell.section3Title")}
             </h2>
             <p>
-              Inden køb gennemfører jeg en{" "}
-              <strong>fuld juridisk due diligence</strong> for at sikre:
+              {t("realEstateBuySell.section3Text")}{" "}
+              <strong>{t("realEstateBuySell.section3Strong")}</strong>{" "}
+              {t("realEstateBuySell.section3Text2")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Ejerskab og hæftelser i Ejendomsregistret</li>
-              <li>Lovlig byggestatus og brugstilladelser</li>
-              <li>Ingen skjulte skatter eller gæld</li>
-              <li>Information om fællesudgifter og servitutter</li>
-              <li>Gennemgang af ejerforeningens regler</li>
+              <li>{t("realEstateBuySell.section3Item1")}</li>
+              <li>{t("realEstateBuySell.section3Item2")}</li>
+              <li>{t("realEstateBuySell.section3Item3")}</li>
+              <li>{t("realEstateBuySell.section3Item4")}</li>
+              <li>{t("realEstateBuySell.section3Item5")}</li>
             </ul>
             <p className="font-semibold text-red-700">
-              Ingen bør underskrive uden denne kontrol – det er din sikkerhed.
+              {t("realEstateBuySell.section3Text3")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              4. Køb af byggegrund og nybyggeri
+              {t("realEstateBuySell.section4Title")}
             </h2>
             <p>
-              Ønsker du at købe grund og bygge selv – fx på{" "}
-              <strong>Lanzarote</strong>? Så skal du sikre:
+              {t("realEstateBuySell.section4Text")}{" "}
+              <strong>{t("realEstateBuySell.section4Strong")}</strong>
+              {t("realEstateBuySell.section4Text2")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>At grunden er godkendt til boligformål i lokalplanen</li>
-              <li>At projektet overholder byggeregler og stilkrav</li>
-              <li>At nødvendige tilladelser er på plads</li>
+              <li>{t("realEstateBuySell.section4Item1")}</li>
+              <li>{t("realEstateBuySell.section4Item2")}</li>
+              <li>{t("realEstateBuySell.section4Item3")}</li>
             </ul>
             <p>
-              Jeg forhandler <strong>entreprisekontrakter</strong> og sikrer
-              dine rettigheder under hele byggeprocessen.
+              {t("realEstateBuySell.section4Text3")}{" "}
+              <strong>{t("realEstateBuySell.section4Strong2")}</strong>{" "}
+              {t("realEstateBuySell.section4Text4")}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
-              5. Salg af ejendom – vigtige forhold
+              {t("realEstateBuySell.section5Title")}
             </h2>
-            <p>Som sælger skal du bl.a.:</p>
+            <p>{t("realEstateBuySell.section5Text")}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Dokumentere ejerskab og skatteforhold</li>
-              <li>Udarbejde korrekt salgsaftale</li>
+              <li>{t("realEstateBuySell.section5Item1")}</li>
+              <li>{t("realEstateBuySell.section5Item2")}</li>
               <li>
-                Betale skat af avance (<strong>Plusvalía og IRNR</strong>)
+                {t("realEstateBuySell.section5Item3")}{" "}
+                (<strong>{t("realEstateBuySell.section5Item3Strong")}</strong>)
               </li>
-              <li>Afregne fællesudgifter, forsikring og forsyninger</li>
+              <li>{t("realEstateBuySell.section5Item4")}</li>
             </ul>
             <p>
-              Jeg rådgiver og repræsenterer både{" "}
-              <strong>købere og sælgere</strong> – trygt og professionelt.
+              {t("realEstateBuySell.section5Text2")}{" "}
+              <strong>{t("realEstateBuySell.section5Strong")}</strong>{" "}
+              {t("realEstateBuySell.section5Text3")}
             </p>
           </section>
 
           <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
             <h2 className="text-2xl font-bold text-blue-900">
-              Konklusion: Beskyt din investering
+              {t("realEstateBuySell.conclusionTitle")}
             </h2>
             <p>
-              Ejendomskøb i Spanien er en stor beslutning. Med mig som juridisk
-              rådgiver får du:
+              {t("realEstateBuySell.conclusionText")}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>Tryghed og overblik over alle juridiske forhold</li>
-              <li>Optimal skatteplanlægning</li>
-              <li>Korrekt håndtering af dokumenter og kontrakter</li>
-              <li>Personlig rådgivning – på dansk</li>
+              <li>{t("realEstateBuySell.conclusionItem1")}</li>
+              <li>{t("realEstateBuySell.conclusionItem2")}</li>
+              <li>{t("realEstateBuySell.conclusionItem3")}</li>
+              <li>{t("realEstateBuySell.conclusionItem4")}</li>
             </ul>
             <p className="font-semibold text-lg">
-              Overvejer du at købe eller sælge bolig i Spanien? Kontakt mig for
-              en gratis og uforpligtende vurdering.
+              {t("realEstateBuySell.conclusionText2")}
             </p>
           </section>
         </article>

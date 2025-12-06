@@ -33,9 +33,9 @@ export default function AboutPage() {
 
       <AboutHero />
 
-      <main className="mx-auto max-w-4xl px-6 md:px-8 py-16 space-y-10 leading-relaxed">
+      <main className="mx-auto max-w-4xl px-6 md:px-8 py-16 space-y-10 leading-relaxed bg-gray-50 text-gray-900">
         <section className="space-y-6">
-          <p className="text-xl font-semibold">
+          <p className="text-xl font-semibold text-gray-900">
             Mit navn er Christian Gefke, og jeg er en autoriseret advokat
             (medlemsnummer 635 ved Advokatsammenslutningen på Lanzarote) med en
             solid uddannelse og omfattende erfaring inden for jura. Jeg blev
@@ -43,19 +43,19 @@ export default function AboutPage() {
             Øer.
           </p>
 
-          <p>
+          <p className="text-gray-800">
             Jeg har en jurauuddannelse fra Universitetet i Las Palmas de Gran
             Canaria, hvorfra jeg besidder min viden inden for de juridiske
             områder. Derefter afsluttede jeg en kandidatuddannelse på
             Universidad Internacional de la Rioja (UNIR), hvor jeg
-            specialiserede mig i erhvervelse af fast ejendom. I 2022 bestod jeg
+            specialiserede mig i erhvervelse af fast ejendom. I 2022 bestod jeg
             den nationale advokatprøve som afholdes årligt af det spanske
             justitsministerium, hvilket gav mig ret til optagelse i en lokal
             advokatforening – en nødvendig betingelse i Spanien for at føre
             sager i retten.
           </p>
 
-          <p>
+          <p className="text-gray-800">
             Gennem min karriere har jeg haft mulighed for at arbejde med flere
             prominente virksomheder, såsom Grupo Stier, en af de førende aktører
             i havnen i Las Palmas, samt Grupo Martinez inden for fast ejendom og
@@ -63,14 +63,14 @@ export default function AboutPage() {
             vifte af uafhængige konsulenter, revisorer, økonomer og advokater.
           </p>
 
-          <p>
+          <p className="text-gray-800">
             Min passion for jura opstår primært i privatretten, hvor denne som
             en udviklende realitet medbringer vigtige lektioner, når samfundet
             præsenteres for nye udfordringer – hvad enten det drejer sig om nye
             teknologier eller gamle institutioner med nye særpræg.
           </p>
 
-          <p>
+          <p className="text-gray-800">
             Jeg er her for at tilbyde dig juridisk rådgivning af høj kvalitet og
             hjælpe dig med at navigere i den komplekse juridiske verden med
             tillid og sikkerhed.
@@ -78,33 +78,33 @@ export default function AboutPage() {
         </section>
 
         <section>
-          <h2 className={`${merri.className} text-3xl mb-6`}>
+          <h2 className={`${merri.className} text-3xl mb-6 text-gray-900`}>
             Min juridiske baggrund
           </h2>
 
-          <ul className="space-y-4">
+          <ul className="space-y-4 text-gray-800">
             <li>
-              <span className="font-bold">2012 – 2017:</span> LLB/Bachelor i
+              <span className="font-bold text-gray-900">2012 – 2017:</span> LLB/Bachelor i
               jura ved ULPGC
             </li>
             <li>
-              <span className="font-bold">2017 – 2018:</span> Stier Group og BG
+              <span className="font-bold text-gray-900">2017 – 2018:</span> Stier Group og BG
               Abogados jurist i praktik
             </li>
             <li>
-              <span className="font-bold">2019 – idag:</span> Selvstændig
+              <span className="font-bold text-gray-900">2019 – idag:</span> Selvstændig
               rådgiver – primært i Barcelona og de Kanariske Øer
             </li>
             <li>
-              <span className="font-bold">2021 – 2023:</span> LLM/Kandidat i
+              <span className="font-bold text-gray-900">2021 – 2023:</span> LLM/Kandidat i
               jura ved UNIR
             </li>
             <li>
-              <span className="font-bold">2022 – 2023:</span> Grupo Martinez i
+              <span className="font-bold text-gray-900">2022 – 2023:</span> Grupo Martinez i
               advokatpraktik/fuldmægtig
             </li>
             <li>
-              <span className="font-bold">2022 – 2023:</span> Titel Advokat –
+              <span className="font-bold text-gray-900">2022 – 2023:</span> Titel Advokat –
               bestået den nationale statseksamen for advokater afholdt af det
               spanske justitsministerium
             </li>

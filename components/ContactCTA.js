@@ -2,11 +2,13 @@
 import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { Merriweather } from "next/font/google"
+import { useTranslation } from "react-i18next"
 
 const merri = Merriweather({ weight: "700", subsets: ["latin"] })
 
 export default function ContactCTA() {
   const router = useRouter()
+  const { t } = useTranslation()
 
   return (
     <section className="w-full bg-gradient-to-br from-[#003366] via-[#004080] to-[#002244] text-white relative overflow-hidden">
@@ -57,8 +59,8 @@ export default function ContactCTA() {
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                 <div>
-                  <div className="text-xs text-gray-600">Medlem af</div>
-                  <div className="font-bold">Lanzarote Bar Association</div>
+                  <div className="text-xs text-gray-600">{t("contactCTA.badgeMember")}</div>
+                  <div className="font-bold">{t("contactCTA.badgeAssociation")}</div>
                 </div>
               </div>
             </div>
@@ -70,26 +72,24 @@ export default function ContactCTA() {
           <div className="animate-fade-in-up">
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium border border-white/20 mb-6 hover:bg-white/15 transition-all duration-300">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              Klar til at komme i gang?
+              {t("contactCTA.badge")}
             </div>
           </div>
 
           <h2
             className={`${merri.className} text-4xl md:text-6xl lg:text-7xl leading-tight animate-slide-in-right delay-300 text-shadow-lg`}
           >
-            Få den juridiske
+            {t("contactCTA.title1")}
             <br />
             <span className="bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent">
-              støtte du fortjener
+              {t("contactCTA.title2")}
             </span>
           </h2>
 
           <p className="text-xl md:text-2xl text-gray-200 max-w-md md:max-w-none mx-auto md:mx-0 leading-relaxed animate-fade-in-up delay-500 text-shadow">
-            Uanset om du flytter, investerer eller blot har brug for pålidelig
-            rådgivning, er jeg her for at guide dig gennem hver fase.
+            {t("contactCTA.description")}
             <span className="text-blue-200 font-semibold block mt-2">
-              Lad os tale om, hvordan jeg kan sætte min erfaring i arbejde for
-              dig.
+              {t("contactCTA.descriptionHighlight")}
             </span>
           </p>
 
@@ -107,7 +107,7 @@ export default function ContactCTA() {
                          shadow-luxury hover:shadow-luxury-hover relative overflow-hidden"
             >
               <span className="relative z-10 flex items-center gap-3">
-                Kontakt Mig Nu
+                {t("contactCTA.button1")}
                 <svg
                   className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
                   fill="none"
@@ -147,7 +147,7 @@ export default function ContactCTA() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                Ring Direkte
+                {t("contactCTA.button2")}
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </button>
@@ -172,8 +172,8 @@ export default function ContactCTA() {
                 </svg>
               </div>
               <div>
-                <div className="font-semibold text-white">7+ års erfaring</div>
-                <div className="text-xs">Erfaren jurist</div>
+                <div className="font-semibold text-white">{t("contactCTA.trust1.title")}</div>
+                <div className="text-xs">{t("contactCTA.trust1.subtitle")}</div>
               </div>
             </div>
 
@@ -195,9 +195,9 @@ export default function ContactCTA() {
               </div>
               <div>
                 <div className="font-semibold text-white">
-                  Dansk & Spansk ret
+                  {t("contactCTA.trust2.title")}
                 </div>
-                <div className="text-xs">Tosproglig ekspertise</div>
+                <div className="text-xs">{t("contactCTA.trust2.subtitle")}</div>
               </div>
             </div>
 
@@ -219,9 +219,9 @@ export default function ContactCTA() {
               </div>
               <div>
                 <div className="font-semibold text-white">
-                  Gratis konsultation
+                  {t("contactCTA.trust3.title")}
                 </div>
-                <div className="text-xs">Første møde uden omkostninger</div>
+                <div className="text-xs">{t("contactCTA.trust3.subtitle")}</div>
               </div>
             </div>
           </div>

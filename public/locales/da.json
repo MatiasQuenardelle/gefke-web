@@ -1296,5 +1296,28 @@
         "button": "Bliv partner"
       }
     }
+  },
+  "contactCTA": {
+    "badge": "Klar til at komme i gang?",
+    "title1": "Få den juridiske",
+    "title2": "støtte du fortjener",
+    "description": "Uanset om du flytter, investerer eller blot har brug for pålidelig rådgivning, er jeg her for at guide dig gennem hver fase.",
+    "descriptionHighlight": "Lad os tale om, hvordan jeg kan sætte min erfaring i arbejde for dig.",
+    "button1": "Kontakt Mig Nu",
+    "button2": "Ring Direkte",
+    "trust1": {
+      "title": "7+ års erfaring",
+      "subtitle": "Erfaren jurist"
+    },
+    "trust2": {
+      "title": "Dansk & Spansk ret",
+      "subtitle": "Tosproglig ekspertise"
+    },
+    "trust3": {
+      "title": "Gratis konsultation",
+      "subtitle": "Første møde uden omkostninger"
+    },
+    "badgeMember": "Medlem af",
+    "badgeAssociation": "Lanzarote Bar Association"
   }
 }

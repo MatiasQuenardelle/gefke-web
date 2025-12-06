@@ -1296,6 +1296,29 @@
         "button": "Convertirse en socio"
       }
     }
+  },
+  "contactCTA": {
+    "badge": "¿Listo para comenzar?",
+    "title1": "Obtén el apoyo",
+    "title2": "legal que mereces",
+    "description": "Ya sea que te estés mudando, invirtiendo o solo necesites asesoramiento confiable, estoy aquí para guiarte en cada fase.",
+    "descriptionHighlight": "Hablemos de cómo puedo poner mi experiencia a trabajar para ti.",
+    "button1": "Contáctame Ahora",
+    "button2": "Llamar Directamente",
+    "trust1": {
+      "title": "Más de 7 años de experiencia",
+      "subtitle": "Abogado experimentado"
+    },
+    "trust2": {
+      "title": "Derecho danés y español",
+      "subtitle": "Experiencia bilingüe"
+    },
+    "trust3": {
+      "title": "Consulta gratuita",
+      "subtitle": "Primera reunión sin costo"
+    },
+    "badgeMember": "Miembro de",
+    "badgeAssociation": "Colegio de Abogados de Lanzarote"
   }
 }
 

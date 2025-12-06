@@ -1296,6 +1296,29 @@
         "button": "Become partner"
       }
     }
+  },
+  "contactCTA": {
+    "badge": "Ready to get started?",
+    "title1": "Get the legal",
+    "title2": "support you deserve",
+    "description": "Whether you're moving, investing, or just need reliable advice, I'm here to guide you through every phase.",
+    "descriptionHighlight": "Let's talk about how I can put my experience to work for you.",
+    "button1": "Contact Me Now",
+    "button2": "Call Directly",
+    "trust1": {
+      "title": "7+ years experience",
+      "subtitle": "Experienced lawyer"
+    },
+    "trust2": {
+      "title": "Danish & Spanish law",
+      "subtitle": "Bilingual expertise"
+    },
+    "trust3": {
+      "title": "Free consultation",
+      "subtitle": "First meeting at no cost"
+    },
+    "badgeMember": "Member of",
+    "badgeAssociation": "Lanzarote Bar Association"
   }
 }
 

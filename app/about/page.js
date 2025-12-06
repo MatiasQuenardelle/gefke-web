@@ -37,10 +37,14 @@ export default function AboutPage() {
         <section className="space-y-6">
           <p className="text-xl font-semibold text-gray-900">
             Mit navn er Christian Gefke, og jeg er en autoriseret advokat
-            (medlemsnummer 635 ved Advokatsammenslutningen på Lanzarote) med en
+            (medlemsnummer 635 ved Advokatsammenslutningen på Lanzarote) med en
             solid uddannelse og omfattende erfaring inden for jura. Jeg blev
             født i Aarhus, Danmark, men voksede op på Lanzarote, de Kanariske
             Øer.
+          </p>
+
+          <p className="text-gray-800 text-lg leading-relaxed">
+            Spanish lawyer in Aarhus – Christian Gefke is an officially registered abogado with the Colegio de Abogados de Lanzarote (No. 635). He provides expert legal assistance in Spanish property law, inheritance, family law, contracts, and cross-border matters for clients in Denmark and Spain. Fully verified in the CGAE national lawyer registry, he offers reliable guidance for anyone needing a Spanish lawyer in Aarhus or legal help related to Spain.
           </p>
 
           <p className="text-gray-800">

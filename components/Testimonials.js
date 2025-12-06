@@ -1,33 +1,36 @@
 "use client"
+import { useTranslation } from "react-i18next"
 
 export default function Testimonials() {
+  const { t } = useTranslation()
+  
   const testimonials = [
     {
-      text: "Takket være hans dybdegående viden fik vi løst vores komplekse arvesag hurtigt og uden problemer",
-      author: "Mikkel S.",
-      location: "København → Málaga",
-      service: "Arveret",
+      text: t("homepage.testimonials.testimonial1.text"),
+      author: t("homepage.testimonials.testimonial1.author"),
+      location: t("homepage.testimonials.testimonial1.location"),
+      service: t("homepage.testimonials.testimonial1.service"),
       rating: 5,
     },
     {
-      text: "Hans ekspertise gjorde, at vi kunne købe vores drømmehjem i Spanien uden nogen juridiske bekymringer.",
-      author: "Anna L.",
-      location: "Aarhus → Valencia",
-      service: "Ejendomskøb",
+      text: t("homepage.testimonials.testimonial2.text"),
+      author: t("homepage.testimonials.testimonial2.author"),
+      location: t("homepage.testimonials.testimonial2.location"),
+      service: t("homepage.testimonials.testimonial2.service"),
       rating: 5,
     },
     {
-      text: "Med hans hjælp blev vores flytning til Spanien problemfri; alle nødvendige tilladelser og registreringer blev håndteret perfekt.",
-      author: "Jens K.",
-      location: "Odense → Barcelona",
-      service: "Immigration",
+      text: t("homepage.testimonials.testimonial3.text"),
+      author: t("homepage.testimonials.testimonial3.author"),
+      location: t("homepage.testimonials.testimonial3.location"),
+      service: t("homepage.testimonials.testimonial3.service"),
       rating: 5,
     },
     {
-      text: "Vi startede vores virksomhed i Spanien med fuld tillid, velvidende at alle juridiske aspekter var taget hånd om professionelt.",
-      author: "Maria J.",
-      location: "Aalborg → Madrid",
-      service: "Virksomhedsetablering",
+      text: t("homepage.testimonials.testimonial4.text"),
+      author: t("homepage.testimonials.testimonial4.author"),
+      location: t("homepage.testimonials.testimonial4.location"),
+      service: t("homepage.testimonials.testimonial4.service"),
       rating: 5,
     },
   ]
@@ -51,14 +54,13 @@ export default function Testimonials() {
         <div className="text-center mb-20 animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium border border-white/20 mb-6 hover:bg-white/15 transition-all duration-300">
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-            Kundeudtalelser
+            {t("homepage.testimonials.badge")}
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-shadow-lg">
-            Hvad mine klienter siger
+            {t("homepage.testimonials.title")}
           </h2>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed text-shadow">
-            Se hvordan jeg har hjulpet danske familier og virksomheder med at
-            navigere i det spanske retssystem
+            {t("homepage.testimonials.subtitle")}
           </p>
         </div>
 
@@ -164,7 +166,7 @@ export default function Testimonials() {
                       />
                     </svg>
                     <span className="text-green-300 text-xs font-medium">
-                      Verificeret
+                      {t("homepage.testimonials.verified")}
                     </span>
                   </div>
                 </div>
@@ -190,11 +192,10 @@ export default function Testimonials() {
 
             <div className="relative z-10">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 text-shadow">
-                Klar til at få samme service?
+                {t("homepage.testimonials.ctaTitle")}
               </h3>
               <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto text-shadow">
-                Bliv en del af de tilfredse klienter, der har fået professionel
-                juridisk hjælp til deres Spanien-projekt
+                {t("homepage.testimonials.ctaText")}
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -208,7 +209,7 @@ export default function Testimonials() {
                   className="inline-flex items-center gap-3 px-8 py-4 bg-white text-[#003366] rounded-xl font-bold 
                              transition-all duration-500 hover:bg-gray-100 hover:scale-105 shadow-luxury hover:shadow-luxury-hover"
                 >
-                  <span>Start dit projekt nu</span>
+                  <span>{t("homepage.testimonials.ctaButton1")}</span>
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -244,7 +245,7 @@ export default function Testimonials() {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  <span>Ring direkte</span>
+                  <span>{t("homepage.testimonials.ctaButton2")}</span>
                 </button>
               </div>
             </div>

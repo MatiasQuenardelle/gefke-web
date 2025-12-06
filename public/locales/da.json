@@ -1167,5 +1167,134 @@
     "conclusionText2": "Overvejer du at starte webshop i Spanien?",
     "conclusionLink": "Kontakt os i dag",
     "conclusionText3": "for professionel rådgivning på dansk."
+  },
+  "homepage": {
+    "hero": {
+      "badge": "Juridisk ekspert i Spanien",
+      "title1": "Jurist i",
+      "title2": "Spanien",
+      "description": "Juridisk rådgivning til dig i Spanien med ekspertise i både dansk og spansk ret.",
+      "descriptionHighlight": " Professionel service siden 2017.",
+      "trust1": "7+ års erfaring",
+      "trust2": "Dansk & Spansk ret",
+      "trust3": "Gratis konsultation",
+      "cta1": "Kontakt Mig",
+      "cta2": "Læs mere",
+      "imageText": "Vi varetager overgangen til et liv i Spanien for dig som dansker.",
+      "imageAuthor": "Christian Gefke, Lanzarote Bar Association",
+      "badgeText": "Certificeret Advokat"
+    },
+    "trusted": {
+      "title": "Trusted by these companies"
+    },
+    "services": {
+      "badge": "Specialområder",
+      "title": "Juridiske specialområder",
+      "subtitle": "Få professionel juridisk hjælp til alle aspekter af dit liv i Spanien med vores omfattende ekspertise",
+      "service1": {
+        "title": "Selvstændig i Spanien",
+        "description": "Vi kan hjælpe med alt fra virksomhedsetablering og skatteforhold til kontraktkoncipering og compliance med spansk lovgivning."
+      },
+      "service2": {
+        "title": "Bolig i Spanien",
+        "description": "Vi sikrer korrekt udfyldelse af juridiske dokumenter og udarbejdelse af kontrakter, rådgivning om ejendomsret og lokale lovkrav, samt bistå med udlejning og lejekontrakter."
+      },
+      "service3": {
+        "title": "Flytte til Spanien",
+        "description": "Vi sørger for at alt det administrative er på plads inden du overhovedet lander i den spanske lufthavn."
+      },
+      "service4": {
+        "title": "Familie og arveret",
+        "description": "Vi tilbyder juridiske tjenester med fokus på både dansk og spansk lovgivning, herunder testamenter, tvangsarv, forældremyndighed og bodeling."
+      },
+      "readMore": "Læs mere",
+      "ctaText": "Har du brug for hjælp til noget andet?",
+      "ctaButton": "Kontakt os for rådgivning"
+    },
+    "faq": {
+      "badge": "Ofte stillede spørgsmål",
+      "title": "Svar på dine spørgsmål",
+      "subtitle": "Find svar på de mest almindelige spørgsmål om juridisk bistand i Spanien",
+      "faq1": {
+        "question": "Hvorfor skal jeg vælge dig frem for andre jurister i Spanien?",
+        "answer": "Som ekspert i dansk og spansk retssystem tilbyder jeg skræddersyet juridisk rådgivning og bistand til danske klienter, der ønsker at navigere i Spaniens komplekse lovgivning. Med min omfattende viden og erfaring sikrer jeg, at dine juridiske anliggender bliver håndteret professionelt og effektivt. Jeg leverer også juridiske ydelser til spaniere i Spanien, såvel som danskere i Danmark, dvs. ikke kun til danskere i Spanien.\n\nJeg besidder både titlen som advokat og jurist, hvilket betyder, at jeg kan tilbyde en bred vifte af juridiske tjenester. Disse skal primært ses som supplementerende til hinanden, da advokatydelser typisk involverer repræsentation for retten, mens juristydelser omfatter rådgivning, dokumenthåndtering og andre juridiske opgaver uden for retssalen.\n\nMin tilgang er altid personlig og målrettet mod at forstå dine specifikke behov og omstændigheder. Uanset om du har brug for hjælp til ejendomshandler, familieretssager, virksomhedsdannelse eller skattemæssige spørgsmål, arbejder jeg tæt sammen med dig for at sikre, at du får den mest effektive løsning.\n\nDerudover har jeg opbygget et omfattende netværk af professionelle samarbejdspartnere, herunder ejendomsmæglere, revisorer og andre specialister. Dette betyder, at jeg kan tilbyde dig en helhedsorienteret service, der dækker alle aspekter af dit projekt i Spanien.\n\nMin flersprogethed og kulturelle forståelse af både Danmark og Spanien gør mig til den ideelle partner for danske klienter, der ønsker professionel juridisk bistand i Spanien.",
+        "category": "Generelt"
+      },
+      "faq2": {
+        "question": "Hvilke juridiske ydelser tilbyder du specifikt?",
+        "answer": "Jeg tilbyder en omfattende vifte af juridiske ydelser designet til at dække alle dine behov i Spanien:\n\n**Ejendomsret og boligforhold:**\n- Køb og salg af fast ejendom\n- Due diligence og ejendomsundersøgelser\n- Udarbejdelse og gennemgang af købskontrakter\n- Registrering af ejendomsrettigheder\n- Lejekontrakter og udlejningsforhold\n- Tvister vedrørende ejendom\n\n**Virksomhed og erhverv:**\n- Etablering af selskaber og virksomheder\n- Skattetilpasning og compliance\n- Kontraktudarbejdelse og forhandling\n- Arbejdsret og ansættelsesforhold\n- Fusioner og opkøb\n- Erhvervsjuridiske tvister\n\n**Familie- og arveret:**\n- Testamenter og arvebehandling\n- Familiesammenføring og visum\n- Ægteskabskontrakter\n- Skilsmisse og separation\n- Børns rettigheder og forældremyndighed\n\n**Immigration og ophold:**\n- Opholdstilladelser og arbejdstilladelser\n- Statsborgerskab og naturalisering\n- Familiesammenføring\n- Investorvisum (Golden Visa)\n\n**Skat og finans:**\n- Skattetilpasning for danske borgere\n- Årlige selvangivelser\n- International beskatning\n- Investeringsrådgivning\n- Bankforhold og finansiering\n\nAlle ydelser leveres med fokus på kvalitet, professionalisme og personlig service.",
+        "category": "Ydelser"
+      },
+      "faq3": {
+        "question": "Hvad koster det at få juridisk rådgivning?",
+        "answer": "Mine priser er transparente og konkurrencedygtige, tilpasset det specifikke arbejdes kompleksitet og omfang:\n\n**Konsultation og rådgivning:**\n- Første konsultation (30 min): Gratis\n- Løbende konsultation: €150-200 per time\n- Telefonisk/email rådgivning: €100 per time\n\n**Ejendomshandler:**\n- Standard ejendomskøb: 1-1.5% af ejendomsværdien\n- Komplekse transaktioner: Efter aftale\n- Due diligence rapport: €500-1.500\n\n**Virksomhedsetablering:**\n- Standard selskabsstiftelse: €800-1.500\n- Kompleks virksomhedsstruktur: €2.000-5.000\n- Løbende compliance: €200-500 per måned\n\n**Testamenter og arveret:**\n- Standard testamente: €400-800\n- Arvebehandling: 2-4% af boets værdi\n- Internationale arvesager: Efter aftale\n\n**Særlige forhold:**\n- Alle priser er ekskl. moms og offentlige gebyrer\n- Faste priser aftales altid på forhånd for større projekter\n- Betalingsplaner kan arrangeres efter behov\n- Ingen skjulte omkostninger\n\nJeg tilbyder altid et uforpligtende møde, hvor vi kan diskutere dit projekt og de forventede omkostninger i detaljer.",
+        "category": "Priser"
+      },
+      "faq4": {
+        "question": "Hvor lang tid tager typiske juridiske processer?",
+        "answer": "Tidsrammerne varierer betydeligt afhængigt af sagstypen og kompleksiteten:\n\n**Ejendomshandler:**\n- Standard ejendomskøb: 6-12 uger\n- Komplekse transaktioner: 3-6 måneder\n- Due diligence: 1-3 uger\n\n**Virksomhedsetablering:**\n- Standard selskabsstiftelse: 2-4 uger\n- Bankkonto åbning: 3-8 uger\n- Skatteregistrering: 1-2 uger\n\n**Immigration og ophold:**\n- Opholdstilladelse: 3-6 måneder\n- Golden Visa: 6-12 måneder\n- Statsborgerskab: 12-24 måneder\n\n**Familie- og arveret:**\n- Standard testamente: 1-2 uger\n- Arvebehandling: 6-18 måneder\n- Internationale arvesager: 12-36 måneder\n\n**Faktorer der påvirker tidsrammen:**\n- Dokumentationens fuldstændighed\n- Myndighedernes arbejdsbyrde\n- Kompleksiteten af sagen\n- Internationale elementer\n- Sprogbarrierer\n\nJeg holder dig altid informeret om fremskridt og eventuelle forsinkelser, og arbejder proaktivt for at minimere behandlingstiden hvor det er muligt.",
+        "category": "Timing"
+      },
+      "ctaTitle": "Har du andre spørgsmål?",
+      "ctaText": "Jeg er altid klar til at hjælpe med juridisk rådgivning og besvare dine spørgsmål om Spanien",
+      "ctaButton": "Kontakt mig direkte"
+    },
+    "testimonials": {
+      "badge": "Kundeudtalelser",
+      "title": "Hvad mine klienter siger",
+      "subtitle": "Se hvordan jeg har hjulpet danske familier og virksomheder med at navigere i det spanske retssystem",
+      "testimonial1": {
+        "text": "Takket være hans dybdegående viden fik vi løst vores komplekse arvesag hurtigt og uden problemer",
+        "author": "Mikkel S.",
+        "location": "København → Málaga",
+        "service": "Arveret"
+      },
+      "testimonial2": {
+        "text": "Hans ekspertise gjorde, at vi kunne købe vores drømmehjem i Spanien uden nogen juridiske bekymringer.",
+        "author": "Anna L.",
+        "location": "Aarhus → Valencia",
+        "service": "Ejendomskøb"
+      },
+      "testimonial3": {
+        "text": "Med hans hjælp blev vores flytning til Spanien problemfri; alle nødvendige tilladelser og registreringer blev håndteret perfekt.",
+        "author": "Jens K.",
+        "location": "Odense → Barcelona",
+        "service": "Immigration"
+      },
+      "testimonial4": {
+        "text": "Vi startede vores virksomhed i Spanien med fuld tillid, velvidende at alle juridiske aspekter var taget hånd om professionelt.",
+        "author": "Maria J.",
+        "location": "Aalborg → Madrid",
+        "service": "Virksomhedsetablering"
+      },
+      "verified": "Verificeret",
+      "ctaTitle": "Klar til at få samme service?",
+      "ctaText": "Bliv en del af de tilfredse klienter, der har fået professionel juridisk hjælp til deres Spanien-projekt",
+      "ctaButton1": "Start dit projekt nu",
+      "ctaButton2": "Ring direkte"
+    },
+    "partners": {
+      "badge": "Samarbejdspartnere",
+      "title": "Partnere i Danmark og Spanien",
+      "subtitle": "Vi samarbejder med eksperter på tværs af juridiske og finansielle områder for at give dig den bedste service",
+      "ctaButton": "Kontakt Mig",
+      "partner1": {
+        "title": "Økonomi, bogføring og revision",
+        "description": "Vi samarbejder med højt kvalificerede eksperter inden for økonomi, bogføring og revision for at sikre dine finansielle interesser."
+      },
+      "partner2": {
+        "title": "Byplanlægning og fast ejendom",
+        "description": "Vores partnere omfatter dygtige arkitekter og eksperter inden for byplanlægningslovgivning og ejendomsret i både Danmark og Spanien."
+      },
+      "partner3": {
+        "title": "Arveret og familieret",
+        "description": "Notarer, økonomer, psykologer, valuarer samt andre professionelle ifm. bosopgørelsen, dødsboet, skilsmissen eller andre familie- og arveretlige emner."
+      },
+      "partner4": {
+        "title": "Ønsker du at blive samarbejdspartner?",
+        "description": "Kontakt os for at diskutere samarbejdsmuligheder og hvordan vi sammen kan levere de bedste ydelser til vores klienter.",
+        "button": "Bliv partner"
+      }
+    }
   }
 }

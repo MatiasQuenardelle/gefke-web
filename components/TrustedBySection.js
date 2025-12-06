@@ -1,6 +1,9 @@
+"use client"
 import Image from "next/image"
+import { useTranslation } from "react-i18next"
 
 export default function TrustedBySection() {
+  const { t } = useTranslation()
   const logos = [
     { src: "/images/obsidian1.png", alt: "Obsidian Digital" },
     { src: "/images/premier.png", alt: "Premier Relocation Spain S.L." },
@@ -11,7 +14,7 @@ export default function TrustedBySection() {
     <section className="w-full bg-black py-12 border-t border-white/10">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-center text-white text-xl md:text-2xl font-semibold mb-8">
-          Trusted by these companies
+          {t("homepage.trusted.title")}
         </h2>
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
           {logos.map((logo, i) => (

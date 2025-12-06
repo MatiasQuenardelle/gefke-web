@@ -1,46 +1,44 @@
 "use client"
 import Image from "next/image"
-
-const services = [
-  {
-    title: "Selvstændig i Spanien",
-    description:
-      "Vi kan hjælpe med alt fra virksomhedsetablering og skatteforhold til kontraktkoncipering og compliance med spansk lovgivning.",
-    href: "/services/selvstaendig-i-spanien",
-    image: "/images/services/business.jpg",
-    icon: "🏢",
-    color: "from-blue-500 to-blue-600",
-  },
-  {
-    title: "Bolig i Spanien",
-    description:
-      "Vi sikrer korrekt udfyldelse af juridiske dokumenter og udarbejdelse af kontrakter, rådgivning om ejendomsret og lokale lovkrav, samt bistå med udlejning og lejekontrakter.",
-    href: "/services/bolig-i-spanien",
-    image: "/images/services/housing.jpg",
-    icon: "🏠",
-    color: "from-green-500 to-green-600",
-  },
-  {
-    title: "Flytte til Spanien",
-    description:
-      "Vi sørger for at alt det administrative er på plads inden du overhovedet lander i den spanske lufthavn.",
-    href: "/services/flytte-til-spanien",
-    image: "/images/services/move.jpg",
-    icon: "✈️",
-    color: "from-orange-500 to-orange-600",
-  },
-  {
-    title: "Familie og arveret",
-    description:
-      "Vi tilbyder juridiske tjenester med fokus på både dansk og spansk lovgivning, herunder testamenter, tvangsarv, forældremyndighed og bodeling.",
-    href: "/services/familie-og-arveret",
-    image: "/images/services/family.jpg",
-    icon: "👨‍👩‍👧‍👦",
-    color: "from-purple-500 to-purple-600",
-  },
-]
+import { useTranslation } from "react-i18next"
 
 export default function ArticlesSection() {
+  const { t } = useTranslation()
+  
+  const services = [
+    {
+      title: t("homepage.services.service1.title"),
+      description: t("homepage.services.service1.description"),
+      href: "/services/selvstaendig-i-spanien",
+      image: "/images/services/business.jpg",
+      icon: "🏢",
+      color: "from-blue-500 to-blue-600",
+    },
+    {
+      title: t("homepage.services.service2.title"),
+      description: t("homepage.services.service2.description"),
+      href: "/services/bolig-i-spanien",
+      image: "/images/services/housing.jpg",
+      icon: "🏠",
+      color: "from-green-500 to-green-600",
+    },
+    {
+      title: t("homepage.services.service3.title"),
+      description: t("homepage.services.service3.description"),
+      href: "/services/flytte-til-spanien",
+      image: "/images/services/move.jpg",
+      icon: "✈️",
+      color: "from-orange-500 to-orange-600",
+    },
+    {
+      title: t("homepage.services.service4.title"),
+      description: t("homepage.services.service4.description"),
+      href: "/services/familie-og-arveret",
+      image: "/images/services/family.jpg",
+      icon: "👨‍👩‍👧‍👦",
+      color: "from-purple-500 to-purple-600",
+    },
+  ]
   return (
     <section className="bg-gradient-to-b from-[#f9f9f9] via-white to-gray-50 py-24 px-6 md:px-12 relative overflow-hidden">
       {/* Background decorative elements */}
@@ -54,14 +52,13 @@ export default function ArticlesSection() {
         <div className="text-center mb-20 animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-[#003366]/10 rounded-full text-sm font-medium text-[#003366] mb-6 border border-[#003366]/20 hover:bg-[#003366]/15 transition-all duration-300">
             <div className="w-2 h-2 bg-[#003366] rounded-full animate-pulse"></div>
-            Specialområder
+            {t("homepage.services.badge")}
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 gradient-text">
-            Juridiske specialområder
+            {t("homepage.services.title")}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Få professionel juridisk hjælp til alle aspekter af dit liv i
-            Spanien med vores omfattende ekspertise
+            {t("homepage.services.subtitle")}
           </p>
         </div>
 
@@ -130,7 +127,7 @@ export default function ArticlesSection() {
                              hover:gap-6 transition-all duration-500 relative z-10
                              px-6 py-3 rounded-xl hover:bg-[#003366]/5 hover:shadow-lg"
                 >
-                  <span>Læs mere</span>
+                  <span>{t("homepage.services.readMore")}</span>
                   <div className="relative">
                     <svg
                       className="w-5 h-5 transform group-hover/btn:translate-x-1 transition-transform duration-500"
@@ -162,7 +159,7 @@ export default function ArticlesSection() {
         {/* Enhanced bottom CTA */}
         <div className="text-center mt-16 animate-fade-in-up delay-1000">
           <p className="text-gray-600 mb-6 text-lg">
-            Har du brug for hjælp til noget andet?
+            {t("homepage.services.ctaText")}
           </p>
           <button
             onClick={() => {
@@ -175,7 +172,7 @@ export default function ArticlesSection() {
                        transition-all duration-500 hover:from-[#004080] hover:to-[#003366] hover:scale-105 
                        shadow-luxury hover:shadow-luxury-hover border border-[#003366]/20"
           >
-            Kontakt os for rådgivning
+            {t("homepage.services.ctaButton")}
           </button>
         </div>
       </div>

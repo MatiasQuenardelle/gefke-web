@@ -1167,6 +1167,135 @@
     "conclusionText2": "Are you considering starting a webshop in Spain?",
     "conclusionLink": "Contact us today",
     "conclusionText3": "for professional advice in Danish."
+  },
+  "homepage": {
+    "hero": {
+      "badge": "Legal expert in Spain",
+      "title1": "Lawyer in",
+      "title2": "Spain",
+      "description": "Legal advice for you in Spain with expertise in both Danish and Spanish law.",
+      "descriptionHighlight": " Professional service since 2017.",
+      "trust1": "7+ years experience",
+      "trust2": "Danish & Spanish law",
+      "trust3": "Free consultation",
+      "cta1": "Contact Me",
+      "cta2": "Read more",
+      "imageText": "We handle the transition to a life in Spain for you as a Dane.",
+      "imageAuthor": "Christian Gefke, Lanzarote Bar Association",
+      "badgeText": "Certified Lawyer"
+    },
+    "trusted": {
+      "title": "Trusted by these companies"
+    },
+    "services": {
+      "badge": "Special areas",
+      "title": "Legal specializations",
+      "subtitle": "Get professional legal help for all aspects of your life in Spain with our comprehensive expertise",
+      "service1": {
+        "title": "Self-employed in Spain",
+        "description": "We can help with everything from business establishment and tax matters to contract drafting and compliance with Spanish legislation."
+      },
+      "service2": {
+        "title": "Housing in Spain",
+        "description": "We ensure correct completion of legal documents and drafting of contracts, advice on property rights and local legal requirements, as well as assistance with rental and lease agreements."
+      },
+      "service3": {
+        "title": "Moving to Spain",
+        "description": "We ensure that all administrative matters are in place before you even land at the Spanish airport."
+      },
+      "service4": {
+        "title": "Family and inheritance law",
+        "description": "We offer legal services with focus on both Danish and Spanish legislation, including wills, forced inheritance, custody and property division."
+      },
+      "readMore": "Read more",
+      "ctaText": "Do you need help with something else?",
+      "ctaButton": "Contact us for advice"
+    },
+    "faq": {
+      "badge": "Frequently asked questions",
+      "title": "Answers to your questions",
+      "subtitle": "Find answers to the most common questions about legal assistance in Spain",
+      "faq1": {
+        "question": "Why should I choose you over other lawyers in Spain?",
+        "answer": "As an expert in Danish and Spanish legal systems, I offer tailored legal advice and assistance to Danish clients who want to navigate Spain's complex legislation. With my extensive knowledge and experience, I ensure that your legal matters are handled professionally and efficiently. I also deliver legal services to Spaniards in Spain, as well as Danes in Denmark, i.e. not only to Danes in Spain.\n\nI hold both the title of lawyer and jurist, which means I can offer a wide range of legal services. These should primarily be seen as complementary to each other, as lawyer services typically involve representation in court, while jurist services include advice, document handling and other legal tasks outside the courtroom.\n\nMy approach is always personal and targeted at understanding your specific needs and circumstances. Whether you need help with property transactions, family law matters, business formation or tax questions, I work closely with you to ensure you get the most effective solution.\n\nIn addition, I have built an extensive network of professional partners, including real estate agents, auditors and other specialists. This means I can offer you a holistic service that covers all aspects of your project in Spain.\n\nMy multilingualism and cultural understanding of both Denmark and Spain make me the ideal partner for Danish clients who want professional legal assistance in Spain.",
+        "category": "General"
+      },
+      "faq2": {
+        "question": "What legal services do you offer specifically?",
+        "answer": "I offer a comprehensive range of legal services designed to cover all your needs in Spain:\n\n**Property law and housing:**\n- Purchase and sale of real estate\n- Due diligence and property investigations\n- Drafting and review of purchase contracts\n- Registration of property rights\n- Lease agreements and rental relations\n- Disputes regarding property\n\n**Business and commerce:**\n- Establishment of companies and businesses\n- Tax adaptation and compliance\n- Contract drafting and negotiation\n- Labor law and employment relations\n- Mergers and acquisitions\n- Commercial legal disputes\n\n**Family and inheritance law:**\n- Wills and estate handling\n- Family reunification and visa\n- Marriage contracts\n- Divorce and separation\n- Children's rights and custody\n\n**Immigration and residence:**\n- Residence permits and work permits\n- Citizenship and naturalization\n- Family reunification\n- Investor visa (Golden Visa)\n\n**Tax and finance:**\n- Tax adaptation for Danish citizens\n- Annual tax returns\n- International taxation\n- Investment advice\n- Banking and financing\n\nAll services are delivered with focus on quality, professionalism and personal service.",
+        "category": "Services"
+      },
+      "faq3": {
+        "question": "What does it cost to get legal advice?",
+        "answer": "My prices are transparent and competitive, adapted to the specific work's complexity and scope:\n\n**Consultation and advice:**\n- First consultation (30 min): Free\n- Ongoing consultation: €150-200 per hour\n- Telephone/email advice: €100 per hour\n\n**Property transactions:**\n- Standard property purchase: 1-1.5% of property value\n- Complex transactions: By agreement\n- Due diligence report: €500-1,500\n\n**Business establishment:**\n- Standard company formation: €800-1,500\n- Complex business structure: €2,000-5,000\n- Ongoing compliance: €200-500 per month\n\n**Wills and inheritance law:**\n- Standard will: €400-800\n- Estate handling: 2-4% of estate value\n- International inheritance cases: By agreement\n\n**Special conditions:**\n- All prices are excl. VAT and public fees\n- Fixed prices are always agreed in advance for larger projects\n- Payment plans can be arranged as needed\n- No hidden costs\n\nI always offer a non-binding meeting where we can discuss your project and the expected costs in detail.",
+        "category": "Prices"
+      },
+      "faq4": {
+        "question": "How long do typical legal processes take?",
+        "answer": "Timeframes vary significantly depending on the case type and complexity:\n\n**Property transactions:**\n- Standard property purchase: 6-12 weeks\n- Complex transactions: 3-6 months\n- Due diligence: 1-3 weeks\n\n**Business establishment:**\n- Standard company formation: 2-4 weeks\n- Bank account opening: 3-8 weeks\n- Tax registration: 1-2 weeks\n\n**Immigration and residence:**\n- Residence permit: 3-6 months\n- Golden Visa: 6-12 months\n- Citizenship: 12-24 months\n\n**Family and inheritance law:**\n- Standard will: 1-2 weeks\n- Estate handling: 6-18 months\n- International inheritance cases: 12-36 months\n\n**Factors affecting the timeframe:**\n- Completeness of documentation\n- Workload of authorities\n- Complexity of the case\n- International elements\n- Language barriers\n\nI always keep you informed about progress and any delays, and work proactively to minimize processing time where possible.",
+        "category": "Timing"
+      },
+      "ctaTitle": "Do you have other questions?",
+      "ctaText": "I am always ready to help with legal advice and answer your questions about Spain",
+      "ctaButton": "Contact me directly"
+    },
+    "testimonials": {
+      "badge": "Customer testimonials",
+      "title": "What my clients say",
+      "subtitle": "See how I have helped Danish families and businesses navigate the Spanish legal system",
+      "testimonial1": {
+        "text": "Thanks to his in-depth knowledge, we solved our complex inheritance case quickly and without problems",
+        "author": "Mikkel S.",
+        "location": "Copenhagen → Málaga",
+        "service": "Inheritance law"
+      },
+      "testimonial2": {
+        "text": "His expertise made it possible for us to buy our dream home in Spain without any legal concerns.",
+        "author": "Anna L.",
+        "location": "Aarhus → Valencia",
+        "service": "Property purchase"
+      },
+      "testimonial3": {
+        "text": "With his help, our move to Spain was trouble-free; all necessary permits and registrations were handled perfectly.",
+        "author": "Jens K.",
+        "location": "Odense → Barcelona",
+        "service": "Immigration"
+      },
+      "testimonial4": {
+        "text": "We started our business in Spain with full confidence, knowing that all legal aspects were handled professionally.",
+        "author": "Maria J.",
+        "location": "Aalborg → Madrid",
+        "service": "Business establishment"
+      },
+      "verified": "Verified",
+      "ctaTitle": "Ready to get the same service?",
+      "ctaText": "Become part of the satisfied clients who have received professional legal help for their Spain project",
+      "ctaButton1": "Start your project now",
+      "ctaButton2": "Call directly"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Partners in Denmark and Spain",
+      "subtitle": "We work with experts across legal and financial areas to give you the best service",
+      "ctaButton": "Contact Me",
+      "partner1": {
+        "title": "Finance, accounting and audit",
+        "description": "We work with highly qualified experts in finance, accounting and audit to secure your financial interests."
+      },
+      "partner2": {
+        "title": "Urban planning and real estate",
+        "description": "Our partners include skilled architects and experts in urban planning legislation and property law in both Denmark and Spain."
+      },
+      "partner3": {
+        "title": "Inheritance law and family law",
+        "description": "Notaries, economists, psychologists, valuers as well as other professionals in connection with property settlement, estate, divorce or other family and inheritance law matters."
+      },
+      "partner4": {
+        "title": "Do you want to become a partner?",
+        "description": "Contact us to discuss partnership opportunities and how we together can deliver the best services to our clients.",
+        "button": "Become partner"
+      }
+    }
   }
 }
 

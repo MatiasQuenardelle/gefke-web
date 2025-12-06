@@ -8,23 +8,24 @@ import {
 } from "@heroicons/react/24/outline"
 
 import { useRouter } from "next/navigation"
+import { useTranslation } from "react-i18next"
 
 const PartnersSection = () => {
   const router = useRouter()
+  const { t } = useTranslation()
   return (
     <section className="bg-gradient-to-b from-gray-50 to-white py-20 px-4 sm:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto">
         {/* Enhanced Header */}
         <div className="mb-16 text-center">
           <div className="inline-block px-4 py-2 bg-[#003366]/10 rounded-full text-sm font-medium text-[#003366] mb-4">
-            Samarbejdspartnere
+            {t("homepage.partners.badge")}
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Partnere i Danmark og Spanien
+            {t("homepage.partners.title")}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-            Vi samarbejder med eksperter på tværs af juridiske og finansielle
-            områder for at give dig den bedste service
+            {t("homepage.partners.subtitle")}
           </p>
           <button
             onClick={() => {
@@ -37,7 +38,7 @@ const PartnersSection = () => {
                        transition-all duration-300 hover:bg-[#004080] hover:scale-105 
                        shadow-lg hover:shadow-xl"
           >
-            Kontakt Mig
+            {t("homepage.partners.ctaButton")}
           </button>
         </div>
 
@@ -59,11 +60,10 @@ const PartnersSection = () => {
               className="text-xl md:text-2xl font-bold text-gray-800 mb-4 
                            group-hover:text-[#003366] transition-colors duration-300"
             >
-              Økonomi, bogføring og revision
+              {t("homepage.partners.partner1.title")}
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Vi samarbejder med højt kvalificerede eksperter inden for økonomi,
-              bogføring og revision for at sikre dine finansielle interesser.
+              {t("homepage.partners.partner1.description")}
             </p>
           </div>
 
@@ -83,11 +83,10 @@ const PartnersSection = () => {
               className="text-xl md:text-2xl font-bold text-gray-800 mb-4 
                            group-hover:text-[#003366] transition-colors duration-300"
             >
-              Byplanlægning og fast ejendom
+              {t("homepage.partners.partner2.title")}
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Vores partnere omfatter dygtige arkitekter og eksperter inden for
-              byplanlægningslovgivning og ejendomsret i både Danmark og Spanien.
+              {t("homepage.partners.partner2.description")}
             </p>
           </div>
 
@@ -107,12 +106,10 @@ const PartnersSection = () => {
               className="text-xl md:text-2xl font-bold text-gray-800 mb-4 
                            group-hover:text-[#003366] transition-colors duration-300"
             >
-              Arveret og familieret
+              {t("homepage.partners.partner3.title")}
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Notarer, økonomer, psykologer, valuarer samt andre professionelle
-              ifm. bosopgørelsen, dødsboet, skilsmissen eller andre familie- og
-              arveretlige emner.
+              {t("homepage.partners.partner3.description")}
             </p>
           </div>
 
@@ -132,11 +129,10 @@ const PartnersSection = () => {
               className="text-xl md:text-2xl font-bold mb-4 group-hover:text-blue-200 
                            transition-colors duration-300"
             >
-              Ønsker du at blive samarbejdspartner?
+              {t("homepage.partners.partner4.title")}
             </h3>
             <p className="text-gray-200 leading-relaxed mb-6">
-              Kontakt os for at diskutere samarbejdsmuligheder og hvordan vi
-              sammen kan levere de bedste ydelser til vores klienter.
+              {t("homepage.partners.partner4.description")}
             </p>
             <button
               onClick={() => {
@@ -149,7 +145,7 @@ const PartnersSection = () => {
                          rounded-lg font-semibold transition-all duration-300 
                          hover:bg-gray-100 hover:scale-105 shadow-lg"
             >
-              Bliv partner
+              {t("homepage.partners.partner4.button")}
               <svg
                 className="w-4 h-4"
                 fill="none"

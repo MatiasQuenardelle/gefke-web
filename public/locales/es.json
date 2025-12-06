@@ -1167,6 +1167,135 @@
     "conclusionText2": "¿Estás considerando iniciar una tienda online en España?",
     "conclusionLink": "Contáctanos hoy",
     "conclusionText3": "para asesoramiento profesional en danés."
+  },
+  "homepage": {
+    "hero": {
+      "badge": "Experto legal en España",
+      "title1": "Abogado en",
+      "title2": "España",
+      "description": "Asesoramiento legal para ti en España con experiencia en derecho danés y español.",
+      "descriptionHighlight": " Servicio profesional desde 2017.",
+      "trust1": "Más de 7 años de experiencia",
+      "trust2": "Derecho danés y español",
+      "trust3": "Consulta gratuita",
+      "cta1": "Contáctame",
+      "cta2": "Leer más",
+      "imageText": "Gestionamos la transición a una vida en España para ti como danés.",
+      "imageAuthor": "Christian Gefke, Colegio de Abogados de Lanzarote",
+      "badgeText": "Abogado Certificado"
+    },
+    "trusted": {
+      "title": "Confianza de estas empresas"
+    },
+    "services": {
+      "badge": "Áreas especiales",
+      "title": "Especializaciones legales",
+      "subtitle": "Obtén ayuda legal profesional para todos los aspectos de tu vida en España con nuestra experiencia integral",
+      "service1": {
+        "title": "Autónomo en España",
+        "description": "Podemos ayudar con todo desde el establecimiento de empresas y asuntos fiscales hasta la redacción de contratos y el cumplimiento de la legislación española."
+      },
+      "service2": {
+        "title": "Vivienda en España",
+        "description": "Aseguramos la correcta cumplimentación de documentos legales y la redacción de contratos, asesoramiento sobre derechos de propiedad y requisitos legales locales, así como asistencia con alquileres y contratos de arrendamiento."
+      },
+      "service3": {
+        "title": "Mudarse a España",
+        "description": "Nos aseguramos de que todos los asuntos administrativos estén en orden antes de que aterrices en el aeropuerto español."
+      },
+      "service4": {
+        "title": "Familia y derecho sucesorio",
+        "description": "Ofrecemos servicios legales con enfoque en la legislación danesa y española, incluyendo testamentos, herencia forzosa, custodia y división de bienes."
+      },
+      "readMore": "Leer más",
+      "ctaText": "¿Necesitas ayuda con algo más?",
+      "ctaButton": "Contáctanos para asesoramiento"
+    },
+    "faq": {
+      "badge": "Preguntas frecuentes",
+      "title": "Respuestas a tus preguntas",
+      "subtitle": "Encuentra respuestas a las preguntas más comunes sobre asistencia legal en España",
+      "faq1": {
+        "question": "¿Por qué debo elegirte sobre otros abogados en España?",
+        "answer": "Como experto en sistemas legales daneses y españoles, ofrezco asesoramiento legal personalizado y asistencia a clientes daneses que desean navegar por la compleja legislación de España. Con mi amplio conocimiento y experiencia, me aseguro de que tus asuntos legales sean manejados de manera profesional y eficiente. También presto servicios legales a españoles en España, así como a daneses en Dinamarca, es decir, no solo a daneses en España.\n\nPoseo tanto el título de abogado como de jurista, lo que significa que puedo ofrecer una amplia gama de servicios legales. Estos deben verse principalmente como complementarios entre sí, ya que los servicios de abogado típicamente involucran representación en el tribunal, mientras que los servicios de jurista incluyen asesoramiento, manejo de documentos y otras tareas legales fuera de la sala del tribunal.\n\nMi enfoque es siempre personal y dirigido a entender tus necesidades y circunstancias específicas. Ya sea que necesites ayuda con transacciones inmobiliarias, asuntos de derecho familiar, formación de empresas o preguntas fiscales, trabajo estrechamente contigo para asegurar que obtengas la solución más efectiva.\n\nAdemás, he construido una extensa red de socios profesionales, incluyendo agentes inmobiliarios, auditores y otros especialistas. Esto significa que puedo ofrecerte un servicio integral que cubre todos los aspectos de tu proyecto en España.\n\nMi multilingüismo y comprensión cultural tanto de Dinamarca como de España me convierten en el socio ideal para clientes daneses que desean asistencia legal profesional en España.",
+        "category": "General"
+      },
+      "faq2": {
+        "question": "¿Qué servicios legales ofreces específicamente?",
+        "answer": "Ofrezco una amplia gama de servicios legales diseñados para cubrir todas tus necesidades en España:\n\n**Derecho de propiedad y vivienda:**\n- Compra y venta de bienes inmuebles\n- Due diligence e investigaciones de propiedades\n- Redacción y revisión de contratos de compra\n- Registro de derechos de propiedad\n- Contratos de arrendamiento y relaciones de alquiler\n- Disputas sobre propiedad\n\n**Empresa y comercio:**\n- Establecimiento de empresas y negocios\n- Adaptación fiscal y cumplimiento\n- Redacción y negociación de contratos\n- Derecho laboral y relaciones de empleo\n- Fusiones y adquisiciones\n- Disputas legales comerciales\n\n**Derecho familiar y sucesorio:**\n- Testamentos y manejo de herencias\n- Reunificación familiar y visa\n- Contratos matrimoniales\n- Divorcio y separación\n- Derechos de los niños y custodia\n\n**Inmigración y residencia:**\n- Permisos de residencia y permisos de trabajo\n- Ciudadanía y naturalización\n- Reunificación familiar\n- Visa de inversor (Golden Visa)\n\n**Impuestos y finanzas:**\n- Adaptación fiscal para ciudadanos daneses\n- Declaraciones de impuestos anuales\n- Fiscalidad internacional\n- Asesoramiento de inversión\n- Banca y financiación\n\nTodos los servicios se entregan con enfoque en calidad, profesionalismo y servicio personal.",
+        "category": "Servicios"
+      },
+      "faq3": {
+        "question": "¿Cuánto cuesta obtener asesoramiento legal?",
+        "answer": "Mis precios son transparentes y competitivos, adaptados a la complejidad y alcance del trabajo específico:\n\n**Consulta y asesoramiento:**\n- Primera consulta (30 min): Gratis\n- Consulta continua: €150-200 por hora\n- Asesoramiento telefónico/por correo: €100 por hora\n\n**Transacciones inmobiliarias:**\n- Compra de propiedad estándar: 1-1.5% del valor de la propiedad\n- Transacciones complejas: Por acuerdo\n- Informe de due diligence: €500-1.500\n\n**Establecimiento de empresas:**\n- Formación de empresa estándar: €800-1.500\n- Estructura empresarial compleja: €2.000-5.000\n- Cumplimiento continuo: €200-500 por mes\n\n**Testamentos y derecho sucesorio:**\n- Testamento estándar: €400-800\n- Manejo de herencias: 2-4% del valor de la herencia\n- Casos de herencia internacional: Por acuerdo\n\n**Condiciones especiales:**\n- Todos los precios son excl. IVA y tasas públicas\n- Los precios fijos siempre se acuerdan de antemano para proyectos más grandes\n- Los planes de pago se pueden organizar según sea necesario\n- Sin costos ocultos\n\nSiempre ofrezco una reunión sin compromiso donde podemos discutir tu proyecto y los costos esperados en detalle.",
+        "category": "Precios"
+      },
+      "faq4": {
+        "question": "¿Cuánto tiempo tardan los procesos legales típicos?",
+        "answer": "Los plazos varían significativamente dependiendo del tipo de caso y la complejidad:\n\n**Transacciones inmobiliarias:**\n- Compra de propiedad estándar: 6-12 semanas\n- Transacciones complejas: 3-6 meses\n- Due diligence: 1-3 semanas\n\n**Establecimiento de empresas:**\n- Formación de empresa estándar: 2-4 semanas\n- Apertura de cuenta bancaria: 3-8 semanas\n- Registro fiscal: 1-2 semanas\n\n**Inmigración y residencia:**\n- Permiso de residencia: 3-6 meses\n- Golden Visa: 6-12 meses\n- Ciudadanía: 12-24 meses\n\n**Derecho familiar y sucesorio:**\n- Testamento estándar: 1-2 semanas\n- Manejo de herencias: 6-18 meses\n- Casos de herencia internacional: 12-36 meses\n\n**Factores que afectan el plazo:**\n- Completitud de la documentación\n- Carga de trabajo de las autoridades\n- Complejidad del caso\n- Elementos internacionales\n- Barreras de idioma\n\nSiempre te mantengo informado sobre el progreso y cualquier retraso, y trabajo proactivamente para minimizar el tiempo de procesamiento donde sea posible.",
+        "category": "Tiempo"
+      },
+      "ctaTitle": "¿Tienes otras preguntas?",
+      "ctaText": "Siempre estoy listo para ayudar con asesoramiento legal y responder tus preguntas sobre España",
+      "ctaButton": "Contáctame directamente"
+    },
+    "testimonials": {
+      "badge": "Testimonios de clientes",
+      "title": "Lo que dicen mis clientes",
+      "subtitle": "Ve cómo he ayudado a familias y empresas danesas a navegar por el sistema legal español",
+      "testimonial1": {
+        "text": "Gracias a su conocimiento profundo, resolvimos nuestro complejo caso de herencia rápidamente y sin problemas",
+        "author": "Mikkel S.",
+        "location": "Copenhague → Málaga",
+        "service": "Derecho sucesorio"
+      },
+      "testimonial2": {
+        "text": "Su experiencia hizo posible que compráramos nuestra casa soñada en España sin ninguna preocupación legal.",
+        "author": "Anna L.",
+        "location": "Aarhus → Valencia",
+        "service": "Compra de propiedad"
+      },
+      "testimonial3": {
+        "text": "Con su ayuda, nuestra mudanza a España fue sin problemas; todos los permisos y registros necesarios fueron manejados perfectamente.",
+        "author": "Jens K.",
+        "location": "Odense → Barcelona",
+        "service": "Inmigración"
+      },
+      "testimonial4": {
+        "text": "Comenzamos nuestro negocio en España con plena confianza, sabiendo que todos los aspectos legales fueron manejados profesionalmente.",
+        "author": "Maria J.",
+        "location": "Aalborg → Madrid",
+        "service": "Establecimiento de empresa"
+      },
+      "verified": "Verificado",
+      "ctaTitle": "¿Listo para obtener el mismo servicio?",
+      "ctaText": "Conviértete en parte de los clientes satisfechos que han recibido ayuda legal profesional para su proyecto en España",
+      "ctaButton1": "Comienza tu proyecto ahora",
+      "ctaButton2": "Llamar directamente"
+    },
+    "partners": {
+      "badge": "Socios",
+      "title": "Socios en Dinamarca y España",
+      "subtitle": "Trabajamos con expertos en áreas legales y financieras para darte el mejor servicio",
+      "ctaButton": "Contáctame",
+      "partner1": {
+        "title": "Finanzas, contabilidad y auditoría",
+        "description": "Trabajamos con expertos altamente cualificados en finanzas, contabilidad y auditoría para asegurar tus intereses financieros."
+      },
+      "partner2": {
+        "title": "Planificación urbana y bienes raíces",
+        "description": "Nuestros socios incluyen arquitectos hábiles y expertos en legislación de planificación urbana y derecho de propiedad tanto en Dinamarca como en España."
+      },
+      "partner3": {
+        "title": "Derecho sucesorio y derecho familiar",
+        "description": "Notarios, economistas, psicólogos, tasadores así como otros profesionales en relación con la liquidación de bienes, herencia, divorcio u otros asuntos de derecho familiar y sucesorio."
+      },
+      "partner4": {
+        "title": "¿Quieres convertirte en socio?",
+        "description": "Contáctanos para discutir oportunidades de asociación y cómo juntos podemos ofrecer los mejores servicios a nuestros clientes.",
+        "button": "Convertirse en socio"
+      }
+    }
   }
 }
 

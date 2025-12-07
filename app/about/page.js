@@ -44,10 +44,6 @@ export default function AboutPage() {
             {t("about.intro")}
           </p>
 
-          <p className="text-gray-800 text-lg leading-relaxed">
-            {t("about.introEnglish")}
-          </p>
-
           <p className="text-gray-800">
             {t("about.education")}
           </p>

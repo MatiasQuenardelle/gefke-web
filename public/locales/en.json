@@ -1319,6 +1319,45 @@
     },
     "badgeMember": "Member of",
     "badgeAssociation": "Lanzarote Bar Association"
+  },
+  "menu": {
+    "familyAndInheritance": {
+      "label": "Family and inheritance law",
+      "sub": {
+        "internationalDivorces": "International divorces",
+        "probateInInheritance": "Probate in inheritance cases",
+        "lawChoiceInInheritance": "Choice of law in inheritance cases",
+        "willsInSpain": "Wills in Spain"
+      }
+    },
+    "realEstate": {
+      "label": "Real estate",
+      "sub": {
+        "rentalContracts": "Rental contracts in Spain",
+        "mortgageAndLien": "Mortgage and lien in real estate",
+        "planningLaw": "Planning law, urbanism and construction law",
+        "buySellRealEstate": "Buy and sell real estate",
+        "homeownerAssociations": "Homeowner associations"
+      }
+    },
+    "daneInSpain": {
+      "label": "Dane in Spain",
+      "sub": {
+        "residency": "Residence permit",
+        "pensionAndHomeCare": "Pension and home care in Spain:",
+        "workInSpain": "Work in Spain",
+        "taxAdvice": "Tax advice in Spain:"
+      }
+    },
+    "business": {
+      "label": "Business",
+      "sub": {
+        "selfEmployed": "Self-employed in Spain",
+        "startBusiness": "Start business in Spain",
+        "holdingCompanies": "Holding companies in Spain or Denmark?"
+      }
+    },
+    "about": "About"
   }
 }
 

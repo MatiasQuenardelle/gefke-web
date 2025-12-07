@@ -1,10 +1,11 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useMemo } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { useRouter } from "next/navigation"
 import { Merriweather } from "next/font/google"
+import { useTranslation } from "react-i18next"
 import LanguageSelector from "./LanguageSelector"
 
 const merri = Merriweather({ weight: "700", subsets: ["latin"] })
@@ -19,75 +20,74 @@ function slugify(str) {
     .replace(/\s+/g, "-")
 }
 
-/**
- * Navigation structure – updated to reflect the current articles visible in the
- * project (see screenshot).
- * ‣ If a previous submenu had no article yet, it is kept.
- * ‣ If a new article exists without a submenu, it has been added.
- * ‣ Provide explicit `href` when the article lives at a top‑level route;
- *   otherwise a conventional "/{kategori}/{artikel}" path is auto‑generated.
- */
-const menuItems = [
-  {
-    label: "Familie og arveret",
-    sub: [
-      { label: "Internationale skilsmisser", href: "/divorce-spain" },
-      { label: "Værneting i arvesager", href: "/opholdstilladelse" },
-      { label: "Lovvalg i arvesager", href: "/lovvalg" },
-      { label: "Testamenter i Spanien", href: "/testamenter-i-spanien" },
-
-      // { label: "Pension i Spanien", href: "/pension-spain" },
-    ],
-  },
-  {
-    label: "Fast ejendom",
-    sub: [
-      { label: "Leje-aftaler i Spanien", href: "/lejekontrakter-i-spanien" },
-      { label: "Realkredit og pant i fast ejendom", href: "/realkredit" },
-      {
-        label: "Planlovgivning, urbanisme og byggejura",
-        href: "real-estate-investment-spain",
-      },
-      {
-        label: "Køb og salg af fast ejendom",
-        href: "/real-estate-buy-sell-spain",
-      },
-      {
-        label: "Ejerforeninger",
-        href: "/homeowner-associations",
-      },
-    ],
-  },
-  {
-    label: "Dansker i Spanien",
-    sub: [
-      { label: "Opholdstilladelse", href: "/residency-spain" },
-      { label: "Pensión og hjemmepleje i Spanien:", href: "/pension-spain" },
-      { label: "Arbejde i Spanien", href: "/arbejdsret-i-spanien" },
-      { label: "Skatterådgivning i Spanien:", href: "/skat" },
-    ],
-  },
-  {
-    label: "Virksomhed",
-    sub: [
-      {
-        label: "Selvstændig i Spanien",
-        href: "/selvstaendig-webshop-spanien",
-      },
-      { label: "Virksomhed i spanien", href: "/starte-virksomhed-spanien" },
-      {
-        label: "Holding Selskaber i Spanien eller Danmark?",
-        href: "/dansk-holder-spansk-selskab",
-      },
-    ],
-  },
-]
-
 export default function Header() {
   const router = useRouter()
+  const { t } = useTranslation()
   const [openMenu, setOpenMenu] = useState(null)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileSubmenu, setMobileSubmenu] = useState(null)
+
+  /**
+   * Navigation structure – updated to reflect the current articles visible in the
+   * project (see screenshot).
+   * ‣ If a previous submenu had no article yet, it is kept.
+   * ‣ If a new article exists without a submenu, it has been added.
+   * ‣ Provide explicit `href` when the article lives at a top‑level route;
+   *   otherwise a conventional "/{kategori}/{artikel}" path is auto‑generated.
+   */
+  const menuItems = useMemo(() => [
+    {
+      label: t("menu.familyAndInheritance.label"),
+      sub: [
+        { label: t("menu.familyAndInheritance.sub.internationalDivorces"), href: "/divorce-spain" },
+        { label: t("menu.familyAndInheritance.sub.probateInInheritance"), href: "/opholdstilladelse" },
+        { label: t("menu.familyAndInheritance.sub.lawChoiceInInheritance"), href: "/lovvalg" },
+        { label: t("menu.familyAndInheritance.sub.willsInSpain"), href: "/testamenter-i-spanien" },
+      ],
+    },
+    {
+      label: t("menu.realEstate.label"),
+      sub: [
+        { label: t("menu.realEstate.sub.rentalContracts"), href: "/lejekontrakter-i-spanien" },
+        { label: t("menu.realEstate.sub.mortgageAndLien"), href: "/realkredit" },
+        {
+          label: t("menu.realEstate.sub.planningLaw"),
+          href: "/real-estate-investment-spain",
+        },
+        {
+          label: t("menu.realEstate.sub.buySellRealEstate"),
+          href: "/real-estate-buy-sell-spain",
+        },
+        {
+          label: t("menu.realEstate.sub.homeownerAssociations"),
+          href: "/homeowner-associations",
+        },
+      ],
+    },
+    {
+      label: t("menu.daneInSpain.label"),
+      sub: [
+        { label: t("menu.daneInSpain.sub.residency"), href: "/residency-spain" },
+        { label: t("menu.daneInSpain.sub.pensionAndHomeCare"), href: "/pension-spain" },
+        { label: t("menu.daneInSpain.sub.workInSpain"), href: "/arbejdsret-i-spanien" },
+        { label: t("menu.daneInSpain.sub.taxAdvice"), href: "/skat" },
+      ],
+    },
+    {
+      label: t("menu.business.label"),
+      sub: [
+        {
+          label: t("menu.business.sub.selfEmployed"),
+          href: "/selvstaendig-webshop-spanien",
+        },
+        { label: t("menu.business.sub.startBusiness"), href: "/starte-virksomhed-spanien" },
+        {
+          label: t("menu.business.sub.holdingCompanies"),
+          href: "/dansk-holder-spansk-selskab",
+        },
+      ],
+    },
+  ], [t])
 
   /** Resolve a link for a submenu item */
   const resolveHref = (categoryLabel, sub) => {
@@ -155,7 +155,7 @@ export default function Header() {
             ))}
 
             <Link href="/about" className="hover:underline px-4 z-50">
-              Om
+              {t("menu.about")}
             </Link>
             <LanguageSelector />
           </nav>
@@ -196,7 +196,7 @@ export default function Header() {
             className="block font-medium hover:underline"
             onClick={() => setMobileMenuOpen(false)}
           >
-            Om
+            {t("menu.about")}
           </Link>
         </nav>
       )}

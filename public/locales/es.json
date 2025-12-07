@@ -1319,6 +1319,45 @@
     },
     "badgeMember": "Miembro de",
     "badgeAssociation": "Colegio de Abogados de Lanzarote"
+  },
+  "menu": {
+    "familyAndInheritance": {
+      "label": "Familia y derecho sucesorio",
+      "sub": {
+        "internationalDivorces": "Divorcios internacionales",
+        "probateInInheritance": "Tutela en casos de herencia",
+        "lawChoiceInInheritance": "Elección de ley en casos de herencia",
+        "willsInSpain": "Testamentos en España"
+      }
+    },
+    "realEstate": {
+      "label": "Bienes raíces",
+      "sub": {
+        "rentalContracts": "Contratos de alquiler en España",
+        "mortgageAndLien": "Hipoteca y gravamen en bienes raíces",
+        "planningLaw": "Derecho urbanístico, urbanismo y derecho de construcción",
+        "buySellRealEstate": "Compra y venta de bienes raíces",
+        "homeownerAssociations": "Comunidades de propietarios"
+      }
+    },
+    "daneInSpain": {
+      "label": "Danés en España",
+      "sub": {
+        "residency": "Permiso de residencia",
+        "pensionAndHomeCare": "Pensión y atención domiciliaria en España:",
+        "workInSpain": "Trabajar en España",
+        "taxAdvice": "Asesoramiento fiscal en España:"
+      }
+    },
+    "business": {
+      "label": "Empresa",
+      "sub": {
+        "selfEmployed": "Autónomo en España",
+        "startBusiness": "Iniciar empresa en España",
+        "holdingCompanies": "¿Sociedades holding en España o Dinamarca?"
+      }
+    },
+    "about": "Acerca de"
   }
 }
 

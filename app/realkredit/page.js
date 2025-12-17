@@ -1,54 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function RealkreditSpanienPage() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>{t("realkredit.metaTitle")}</title>
-        <meta
-          name="description"
-          content={t("realkredit.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="realkredit i Spanien, hypotek Spanien, boligkøb Spanien, danskere i Spanien, pant i ejendom, tinglysning Spanien, juridisk rådgivning Spanien"
-        />
-        <meta
-          property="og:title"
-          content={t("realkredit.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("realkredit.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:url"
-          content="https://dinwebsite.dk/realkredit-i-spanien"
-        />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:image"
-          content="https://dinwebsite.dk/images/realkredit-spanien.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={t("realkredit.twitterTitle")}
-        />
-        <meta
-          name="twitter:description"
-          content={t("realkredit.twitterDescription")}
-        />
-        <meta
-          name="twitter:image"
-          content="https://dinwebsite.dk/images/realkredit-spanien.jpg"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

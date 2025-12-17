@@ -1,56 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function SelvstaendigWebshopSpanienPage() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>
-          {t("webshop.metaTitle")}
-        </title>
-        <meta
-          name="description"
-          content={t("webshop.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="webshop i Spanien, sælge online Spanien, spansk forbrugerret, moms i Spanien, autónomo, drive virksomhed i Spanien"
-        />
-        <meta
-          property="og:title"
-          content={t("webshop.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("webshop.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:url"
-          content="https://dinwebsite.dk/selvstaendig-webshop-spanien"
-        />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:image"
-          content="https://dinwebsite.dk/images/webshop-spanien.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={t("webshop.twitterTitle")}
-        />
-        <meta
-          name="twitter:description"
-          content={t("webshop.twitterDescription")}
-        />
-        <meta
-          name="twitter:image"
-          content="https://dinwebsite.dk/images/webshop-spanien.jpg"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

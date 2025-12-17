@@ -1,19 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function SkatPage() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>{t("skat.metaTitle")}</title>
-        <meta
-          name="description"
-          content={t("skat.metaDescription")}
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

@@ -22,7 +22,7 @@
     "ratingRequired": "Por favor, selecciona una calificación."
   },
   "contactCTA": {
-    "imageAlt": "Christian Gefke",
+    "imageAlt": "Christian Gefke - Abogado español autorizado con experiencia en derecho danés y español",
     "heading": "Obtén el apoyo legal que mereces",
     "description": "Ya sea que te estés mudando, invirtiendo o necesites asesoramiento confiable, estoy aquí para guiarte en cada paso. Hablemos de cómo puedo usar mi experiencia para ayudarte.",
     "button": "CONTÁCTAME"
@@ -1182,10 +1182,16 @@
       "cta2": "Leer más",
       "imageText": "Gestionamos la transición a una vida en España para ti como danés.",
       "imageAuthor": "Christian Gefke, Colegio de Abogados de Lanzarote",
+      "imageAlt": "Christian Gefke - Abogado español autorizado número de miembro 635 en Colegio de Abogados de Lanzarote",
       "badgeText": "Abogado Certificado"
     },
     "trusted": {
-      "title": "Confianza de estas empresas"
+      "title": "Confianza de estas empresas",
+      "logoAlt": {
+        "obsidian": "Obsidian Digital - Empresa colaboradora",
+        "premier": "Premier Relocation Spain S.L. - Empresa colaboradora",
+        "lumipop": "Lumipop - Empresa colaboradora"
+      }
     },
     "services": {
       "badge": "Áreas especiales",
@@ -1193,19 +1199,23 @@
       "subtitle": "Obtén ayuda legal profesional para todos los aspectos de tu vida en España con nuestra experiencia integral",
       "service1": {
         "title": "Autónomo en España",
-        "description": "Podemos ayudar con todo desde el establecimiento de empresas y asuntos fiscales hasta la redacción de contratos y el cumplimiento de la legislación española."
+        "description": "Podemos ayudar con todo desde el establecimiento de empresas y asuntos fiscales hasta la redacción de contratos y el cumplimiento de la legislación española.",
+        "imageAlt": "Asesoramiento legal para autónomos y empresas en España - Establecimiento de empresas, impuestos y cumplimiento"
       },
       "service2": {
         "title": "Vivienda en España",
-        "description": "Aseguramos la correcta cumplimentación de documentos legales y la redacción de contratos, asesoramiento sobre derechos de propiedad y requisitos legales locales, así como asistencia con alquileres y contratos de arrendamiento."
+        "description": "Aseguramos la correcta cumplimentación de documentos legales y la redacción de contratos, asesoramiento sobre derechos de propiedad y requisitos legales locales, así como asistencia con alquileres y contratos de arrendamiento.",
+        "imageAlt": "Asesoramiento legal para compra y venta de vivienda en España - Derechos de propiedad, contratos y arrendamientos"
       },
       "service3": {
         "title": "Mudarse a España",
-        "description": "Nos aseguramos de que todos los asuntos administrativos estén en orden antes de que aterrices en el aeropuerto español."
+        "description": "Nos aseguramos de que todos los asuntos administrativos estén en orden antes de que aterrices en el aeropuerto español.",
+        "imageAlt": "Ayuda legal al mudarse a España - Permisos de residencia, número NIE y trámites administrativos"
       },
       "service4": {
         "title": "Familia y derecho sucesorio",
-        "description": "Ofrecemos servicios legales con enfoque en la legislación danesa y española, incluyendo testamentos, herencia forzosa, custodia y división de bienes."
+        "description": "Ofrecemos servicios legales con enfoque en la legislación danesa y española, incluyendo testamentos, herencia forzosa, custodia y división de bienes.",
+        "imageAlt": "Asesoramiento legal en derecho de familia y sucesiones en España - Testamentos, herencias y asuntos de derecho familiar"
       },
       "readMore": "Leer más",
       "ctaText": "¿Necesitas ayuda con algo más?",
@@ -1358,6 +1368,13 @@
       }
     },
     "about": "Acerca de"
+  },
+  "breadcrumb": {
+    "home": "Inicio"
+  },
+  "relatedServices": {
+    "title": "Servicios Relacionados",
+    "subtitle": "También puede interesarle"
   }
 }
 

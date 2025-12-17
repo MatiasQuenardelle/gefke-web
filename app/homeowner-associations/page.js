@@ -1,40 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function EjerforeningerSpainArticle() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>
-          {t("homeownerAssociations.metaTitle")}
-        </title>
-        <meta
-          name="description"
-          content={t("homeownerAssociations.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="ejerforening, comunidad de propietarios, Spanien, boligkøb, fuldmagt, vedtægter, ejendomsret, Christian Gefke"
-        />
-        <meta name="author" content="Christian Gefke" />
-        <meta
-          property="og:title"
-          content={t("homeownerAssociations.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("homeownerAssociations.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:url"
-          content="https://www.christiangefke.com/ejerforeninger-spanien"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-3xl mx-auto space-y-10">

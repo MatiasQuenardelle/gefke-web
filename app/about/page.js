@@ -1,6 +1,5 @@
 "use client"
 
-import Head from "next/head"
 import { Merriweather } from "next/font/google"
 import { useTranslation } from "react-i18next"
 
@@ -26,15 +25,6 @@ export default function AboutPage() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>{t("about.metaTitle")}</title>
-        <meta
-          name="description"
-          content={t("about.metaDescription")}
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.yourdomain.com/about" />
-      </Head>
 
       <AboutHero />
 

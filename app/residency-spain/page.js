@@ -1,41 +1,22 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
+import Breadcrumb from "@/components/Breadcrumb"
+import RelatedServices from "@/components/RelatedServices"
+import { getRelatedServices } from "@/lib/relatedServices"
+import Link from "next/link"
+import ArticleMeta from "@/components/ArticleMeta"
 
 export default function ResidencySpainArticle() {
   const { t } = useTranslation()
+  const relatedServices = getRelatedServices("/residency-spain", t)
+  
   return (
     <>
-      <Head>
-        <title>
-          {t("residency.metaTitle")}
-        </title>
-        <meta
-          name="description"
-          content={t("residency.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="opholdstilladelse Spanien, familiesammenføring Spanien, dansk statsborger Spanien, NIE, residencia, spansk statsborgerskab, Christian Gefke"
-        />
-        <meta name="author" content="Christian Gefke" />
-        <meta
-          property="og:title"
-          content={t("residency.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("residency.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:url"
-          content="https://www.christiangefke.com/residency-spain"
-        />
-      </Head>
-
+      <Breadcrumb 
+        items={[]}
+        currentPage={t("residency.title")}
+      />
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header>
@@ -46,6 +27,8 @@ export default function ResidencySpainArticle() {
               {t("residency.subtitle")}
             </p>
           </header>
+
+          <ArticleMeta translationKey="residency" />
 
           <section className="space-y-6">
             <p>
@@ -78,7 +61,11 @@ export default function ResidencySpainArticle() {
             </h3>
             <p>
               {t("residency.section1Text1")}{" "}
-              <strong>{t("residency.section1Text1Strong")}</strong>{" "}
+              <strong>
+                <Link href="/residency-spain" className="text-blue-600 hover:text-blue-800 underline">
+                  {t("residency.section1Text1Strong")}
+                </Link>
+              </strong>{" "}
               {t("residency.section1Text1Text")}
             </p>
             <p className="font-medium">{t("residency.section1Subtitle2")}</p>
@@ -204,6 +191,8 @@ export default function ResidencySpainArticle() {
           </section>
         </article>
       </main>
+      
+      <RelatedServices services={relatedServices} />
     </>
   )
 }

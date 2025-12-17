@@ -5,9 +5,9 @@ import { useTranslation } from "react-i18next"
 export default function TrustedBySection() {
   const { t } = useTranslation()
   const logos = [
-    { src: "/images/obsidian1.png", alt: "Obsidian Digital" },
-    { src: "/images/premier.png", alt: "Premier Relocation Spain S.L." },
-    { src: "/images/lumipop.png", alt: "Lumipop" },
+    { src: "/images/obsidian1.png", altKey: "obsidian" },
+    { src: "/images/premier.png", altKey: "premier" },
+    { src: "/images/lumipop.png", altKey: "lumipop" },
   ]
 
   return (
@@ -26,7 +26,7 @@ export default function TrustedBySection() {
             >
               <Image
                 src={logo.src}
-                alt={logo.alt}
+                alt={t(`homepage.trusted.logoAlt.${logo.altKey}`)}
                 fill
                 className="object-contain grayscale hover:grayscale-0 transition-all duration-300 p-2"
               />

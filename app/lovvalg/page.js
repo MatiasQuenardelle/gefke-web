@@ -1,38 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function LawChoiceInheritance() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>{t("lawChoice.metaTitle")}</title>
-        <meta
-          name="description"
-          content={t("lawChoice.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="lovvalg arveret, dansk arveret, international arvesag, testamente, arveretsforordning, arveregler"
-        />
-        <meta name="author" content="Christian Gefke" />
-        <meta
-          property="og:title"
-          content={t("lawChoice.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("lawChoice.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:url"
-          content="https://www.christiangefke.com/lovvalg-internationale-arvesager"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

@@ -1,56 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function LejekontrakterISpanienPage() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>
-          {t("rentalContracts.metaTitle")}
-        </title>
-        <meta
-          name="description"
-          content={t("rentalContracts.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="lejekontrakt Spanien, boligleje Spanien, danskere i Spanien, feriebolig udlejning, skat af lejeindtægter Spanien, juridiske krav Spanien"
-        />
-        <meta
-          property="og:title"
-          content={t("rentalContracts.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("rentalContracts.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:url"
-          content="https://dinwebsite.dk/lejekontrakter-i-spanien"
-        />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:image"
-          content="https://dinwebsite.dk/images/lejekontrakt-spanien.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={t("rentalContracts.twitterTitle")}
-        />
-        <meta
-          name="twitter:description"
-          content={t("rentalContracts.twitterDescription")}
-        />
-        <meta
-          name="twitter:image"
-          content="https://dinwebsite.dk/images/lejekontrakt-spanien.jpg"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

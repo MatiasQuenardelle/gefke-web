@@ -12,9 +12,19 @@ const languages = [
 export default function LanguageSelector() {
   const { i18n } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
+  const [mounted, setMounted] = useState(false)
+  
   // Get current language code (handle cases like "da-DK" -> "da")
-  const currentLangCode = i18n.language?.split("-")[0] || "da"
+  // Use "da" as default during SSR to match server render
+  const currentLangCode = mounted 
+    ? (i18n.language?.split("-")[0] || "da")
+    : "da"
   const currentLanguage = languages.find((lang) => lang.code === currentLangCode) || languages[0]
+  
+  // Track when component has mounted to avoid hydration mismatch
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   const changeLanguage = (langCode) => {
     i18n.changeLanguage(langCode)
@@ -26,11 +36,12 @@ export default function LanguageSelector() {
   }
 
   // Sync HTML lang attribute on mount and language change
+  // Only update after component has mounted to avoid hydration issues
   useEffect(() => {
-    if (typeof document !== "undefined") {
+    if (mounted && typeof document !== "undefined") {
       document.documentElement.lang = currentLangCode
     }
-  }, [currentLangCode])
+  }, [currentLangCode, mounted])
 
   return (
     <div className="relative">

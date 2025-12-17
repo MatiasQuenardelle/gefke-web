@@ -1,54 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function ArbejdsretISpanienPage() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>{t("laborLaw.metaTitle")}</title>
-        <meta
-          name="description"
-          content={t("laborLaw.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="arbejdsret i Spanien, arbejde i Spanien, dansker i Spanien, selvstændig Spanien, spansk arbejdsmarked, social sikring Spanien"
-        />
-        <meta
-          property="og:title"
-          content={t("laborLaw.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("laborLaw.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:url"
-          content="https://dinwebsite.dk/arbejdsret-i-spanien"
-        />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:image"
-          content="https://dinwebsite.dk/images/arbejdsret.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={t("laborLaw.twitterTitle")}
-        />
-        <meta
-          name="twitter:description"
-          content={t("laborLaw.twitterDescription")}
-        />
-        <meta
-          name="twitter:image"
-          content="https://dinwebsite.dk/images/arbejdsret.jpg"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

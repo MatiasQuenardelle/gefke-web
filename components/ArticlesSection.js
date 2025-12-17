@@ -85,7 +85,7 @@ export default function ArticlesSection() {
                 <div className="w-full h-64 relative overflow-hidden">
                   <Image
                     src={service.image}
-                    alt={service.title}
+                    alt={t(`homepage.services.service${index + 1}.imageAlt`)}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
                   />

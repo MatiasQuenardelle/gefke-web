@@ -149,7 +149,7 @@ export default function HeroSection() {
               <div className="relative overflow-hidden rounded-2xl border-2 border-white/20 bg-white/5 backdrop-blur-sm">
                 <Image
                   src="/images/CristianGefke.png"
-                  alt="Christian Gefke"
+                  alt={t("homepage.hero.imageAlt")}
                   width={500}
                   height={600}
                   className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"

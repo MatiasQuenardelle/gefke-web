@@ -1,13 +1,52 @@
 import HeroSection from "@/components/HeroSection"
 import TrustedBySection from "@/components/TrustedBySection"
-import ArticlesSection from "@/components/ArticlesSection"
-import FAQSection from "@/components/FAQ"
-import Testimonials from "@/components/Testimonials"
-import PartnersSection from "@/components/PartnersSection"
+import dynamic from "next/dynamic"
+import { getFAQPageSchema } from "@/lib/structuredData"
+import StructuredData from "@/components/StructuredData"
+import danish from "@/public/locales/da.json"
+
+// Lazy load below-the-fold components for better initial page load
+const ArticlesSection = dynamic(() => import("@/components/ArticlesSection"), {
+  loading: () => <div className="min-h-[600px]" />, // Placeholder to prevent layout shift
+})
+const FAQSection = dynamic(() => import("@/components/FAQ"), {
+  loading: () => <div className="min-h-[400px]" />, // Placeholder to prevent layout shift
+})
+const Testimonials = dynamic(() => import("@/components/Testimonials"), {
+  loading: () => <div className="min-h-[500px]" />, // Placeholder to prevent layout shift
+})
+const PartnersSection = dynamic(() => import("@/components/PartnersSection"), {
+  loading: () => <div className="min-h-[400px]" />, // Placeholder to prevent layout shift
+})
+
+// Generate FAQ schema for homepage
+const faqData = danish.homepage?.faq || {}
+const faqs = [
+  {
+    question: faqData.faq1?.question || "",
+    answer: faqData.faq1?.answer || ""
+  },
+  {
+    question: faqData.faq2?.question || "",
+    answer: faqData.faq2?.answer || ""
+  },
+  {
+    question: faqData.faq3?.question || "",
+    answer: faqData.faq3?.answer || ""
+  },
+  {
+    question: faqData.faq4?.question || "",
+    answer: faqData.faq4?.answer || ""
+  }
+].filter(faq => faq.question && faq.answer) // Only include FAQs with both question and answer
+
+const faqSchema = faqs.length > 0 ? getFAQPageSchema(faqs) : null
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden relative">
+    <>
+      {faqSchema && <StructuredData schema={faqSchema} id="faq-schema" />}
+      <main className="overflow-x-hidden relative">
       {/* Floating background elements for depth */}
       <div className="fixed inset-0 pointer-events-none z-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/5 rounded-full blur-3xl animate-pulse"></div>
@@ -58,5 +97,6 @@ export default function Home() {
         <PartnersSection />
       </div>
     </main>
+    </>
   )
 }

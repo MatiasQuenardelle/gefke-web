@@ -1,40 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function RealEstateInvestmentSpain() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>
-          {t("realEstateInvestment.metaTitle")}
-        </title>
-        <meta
-          name="description"
-          content={t("realEstateInvestment.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="fast ejendom i Spanien, byggeret, planlovgivning, due diligence, juridisk undersøgelse, køb af bolig i Spanien, Christian Gefke"
-        />
-        <meta name="author" content="Christian Gefke" />
-        <meta
-          property="og:title"
-          content={t("realEstateInvestment.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("realEstateInvestment.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:url"
-          content="https://www.christiangefke.com/real-estate-investment-spain"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

@@ -1,54 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function TestamenterISpanienPage() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>{t("testamenter.metaTitle")}</title>
-        <meta
-          name="description"
-          content={t("testamenter.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="testamente i Spanien, arveret Spanien, tvangsarv Spanien, dansk testamente i udlandet, arveafgift Spanien, arveplanlægning"
-        />
-        <meta
-          property="og:title"
-          content={t("testamenter.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("testamenter.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:url"
-          content="https://dinwebsite.dk/testamenter-i-spanien"
-        />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:image"
-          content="https://dinwebsite.dk/images/testamente-spanien.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={t("testamenter.twitterTitle")}
-        />
-        <meta
-          name="twitter:description"
-          content={t("testamenter.twitterDescription")}
-        />
-        <meta
-          name="twitter:image"
-          content="https://dinwebsite.dk/images/testamente-spanien.jpg"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

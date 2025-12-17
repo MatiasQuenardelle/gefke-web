@@ -22,7 +22,7 @@
     "ratingRequired": "Vælg venligst en vurdering."
   },
   "contactCTA": {
-    "imageAlt": "Christian Gefke",
+    "imageAlt": "Christian Gefke - Autoriseret spansk advokat (abogado) med ekspertise i dansk og spansk jura",
     "heading": "Få den juridiske støtte du fortjener",
     "description": "Uanset om du flytter, investerer eller har brug for pålidelig rådgivning, er jeg her for at guide dig hele vejen. Lad os tale om, hvordan jeg kan bruge min erfaring til at hjælpe dig.",
     "button": "KONTAKT MIG"
@@ -102,7 +102,9 @@
     "conclusionTitle": "Konklusion: Arbejd trygt i Spanien",
     "conclusionText1": "Som dansk statsborger kan du arbejde lovligt og med fulde rettigheder i Spanien – både som lønmodtager og selvstændig.",
     "conclusionText2": "Sørg for at få styr på NIE-registrering, socialforsikring og korrekt ansættelse fra starten.",
-    "conclusionText3": "Har du spørgsmål eller brug for vejledning? Kontakt mig – jeg rådgiver danske arbejdstagere og selvstændige i hele Spanien."
+    "conclusionText3": "Har du spørgsmål eller brug for vejledning? Kontakt mig – jeg rådgiver danske arbejdstagere og selvstændige i hele Spanien.",
+    "datePublished": "2024-02-01",
+    "dateModified": "2024-12-01"
   },
   "skat": {
     "metaTitle": "Skatterådgivning i Spanien for danskere | Juridisk hjælp",
@@ -274,7 +276,9 @@
     "conclusionText": "Uanset om du ønsker at udvide en dansk virksomhed, starte en ny i Spanien eller arbejde som selvstændig, findes der en løsning. Med den rette rådgivning undgår du fejl og sparer tid.",
     "conclusionText2": "Har du spørgsmål om etablering i Spanien?",
     "conclusionLink": "Kontakt os i dag",
-    "conclusionText3": "– vi hjælper dig sikkert i gang."
+    "conclusionText3": "– vi hjælper dig sikkert i gang.",
+    "datePublished": "2024-02-15",
+    "dateModified": "2024-12-01"
   },
   "testamenter": {
     "metaTitle": "Testamenter i Spanien: Hvorfor danskere bør tage stilling",
@@ -306,7 +310,9 @@
     "conclusionItem4": "Sikr ægtefælle og familie juridisk og følelsesmæssigt",
     "conclusionText2": "Har du spørgsmål om testamente i Spanien?",
     "conclusionLink": "Kontakt os i dag",
-    "conclusionText3": "for dansk juridisk rådgivning."
+    "conclusionText3": "for dansk juridisk rådgivning.",
+    "datePublished": "2024-03-01",
+    "dateModified": "2024-12-01"
   },
   "realEstateBuySell": {
     "metaTitle": "Køb og salg af fast ejendom i Spanien | Christian Gefke",
@@ -391,7 +397,9 @@
     "conclusionItem2": "Optimal skatteplanlægning",
     "conclusionItem3": "Korrekt håndtering af dokumenter og kontrakter",
     "conclusionItem4": "Personlig rådgivning – på dansk",
-    "conclusionText2": "Overvejer du at købe eller sælge bolig i Spanien? Kontakt mig for en gratis og uforpligtende vurdering."
+    "conclusionText2": "Overvejer du at købe eller sælge bolig i Spanien? Kontakt mig for en gratis og uforpligtende vurdering.",
+    "datePublished": "2024-01-15",
+    "dateModified": "2024-12-01"
   },
   "realEstateInvestment": {
     "metaTitle": "Investering i fast ejendom i Spanien | Christian Gefke, Advokat",
@@ -462,7 +470,9 @@
     "conclusionItem2": "Have en skriftlig og gennemgået entreprisekontrakt",
     "conclusionItem3": "Få foretaget juridisk due diligence før køb",
     "conclusionText2": "Har du planer om at købe eller bygge bolig i Spanien? Jeg rådgiver dig – fra due diligence og kontrakter til byggeri og tinglysning.",
-    "conclusionText3": "Kontakt mig for en uforpligtende vurdering og sikker investering."
+    "conclusionText3": "Kontakt mig for en uforpligtende vurdering og sikker investering.",
+    "datePublished": "2024-01-25",
+    "dateModified": "2024-12-01"
   },
   "realkredit": {
     "metaTitle": "Realkredit og pant i Spanien: Hvad danskere bør vide",
@@ -504,7 +514,9 @@
     "conclusionItem3": "Notar og tinglysning",
     "conclusionText2": "Brug for bistand med boligkøb i Spanien?",
     "conclusionLink": "Kontakt os i dag",
-    "conclusionText3": "for juridisk hjælp på dansk."
+    "conclusionText3": "for juridisk hjælp på dansk.",
+    "datePublished": "2024-02-10",
+    "dateModified": "2024-12-01"
   },
   "residency": {
     "metaTitle": "Opholdstilladelse og statsborgerskab i Spanien | Christian Gefke",
@@ -573,7 +585,9 @@
     "helpItem4": "Dokumentation for bolig og økonomi",
     "helpItem5": "Statsborgerskab og juridisk rådgivning",
     "ctaTitle": "Ønsker du at bo i Spanien og tage familien med?",
-    "ctaText": "Kontakt mig for en individuel vurdering og juridisk rådgivning – uanset din situation."
+    "ctaText": "Kontakt mig for en individuel vurdering og juridisk rådgivning – uanset din situation.",
+    "datePublished": "2024-02-20",
+    "dateModified": "2024-12-01"
   },
   "internationalInheritance": {
     "metaTitle": "Værneting i internationale arvesager | Christian Gefke",
@@ -639,7 +653,9 @@
     "conclusionItem3": "Testamente bør udarbejdes med",
     "conclusionItem3Strong": "juridisk rådgivning",
     "conclusionItem3Text": "for at sikre gyldighed.",
-    "conclusionText": "Har du brug for hjælp til en international arvesag? Kontakt os – vi har årelang erfaring med grænseoverskridende arveret for både danskere og udlændinge."
+    "conclusionText": "Har du brug for hjælp til en international arvesag? Kontakt os – vi har årelang erfaring med grænseoverskridende arveret for både danskere og udlændinge.",
+    "datePublished": "2024-03-15",
+    "dateModified": "2024-12-01"
   },
   "pension": {
     "metaTitle": "Pension og hjemmepleje i Spanien | Juridisk rådgivning for danskere",
@@ -707,7 +723,9 @@
     "conclusionTitle": "Konklusion: En værdig alderdom kræver planlægning",
     "conclusionText1": "Spanien tilbyder gode muligheder for en tryg alderdom – men systemet er anderledes end det danske. Derfor er",
     "conclusionText1Strong": "tidlig planlægning og korrekt vejledning afgørende",
-    "conclusionText2": "Ønsker du at sikre dine rettigheder og muligheder i god tid? Kontakt mig for personlig rådgivning om pension og ældrepleje i Spanien."
+    "conclusionText2": "Ønsker du at sikre dine rettigheder og muligheder i god tid? Kontakt mig for personlig rådgivning om pension og ældrepleje i Spanien.",
+    "datePublished": "2024-02-25",
+    "dateModified": "2024-12-01"
   },
   "privacy": {
     "title": "Brugsvilkår og privatlivspolitik",
@@ -818,7 +836,9 @@
     "section6Item4": "Regler om renovering og udlejning",
     "conclusionTitle": "Konklusion: Fuldmagter og indsigt giver tryghed",
     "conclusionText": "Som boligejer i Spanien er det vigtigt at forstå de juridiske rammer for ejerforeninger og sikre, at dine interesser varetages – også når du ikke selv er til stede.",
-    "conclusionText2": "Kontakt mig, hvis du ønsker hjælp til at gennemgå vedtægter, udarbejde fuldmagter eller få professionel rådgivning omkring din bolig i Spanien."
+    "conclusionText2": "Kontakt mig, hvis du ønsker hjælp til at gennemgå vedtægter, udarbejde fuldmagter eller få professionel rådgivning omkring din bolig i Spanien.",
+    "datePublished": "2024-03-10",
+    "dateModified": "2024-12-01"
   },
   "rentalContracts": {
     "metaTitle": "Lejekontrakter i Spanien: Juridiske og skattemæssige forhold",
@@ -878,7 +898,9 @@
     "conclusionItem4": "Vær opmærksom på ejerforeningers vedtægter",
     "conclusionText2": "Brug for rådgivning om lejeaftaler i Spanien?",
     "conclusionLink": "Kontakt os i dag",
-    "conclusionText3": "for dansk juridisk bistand."
+    "conclusionText3": "for dansk juridisk bistand.",
+    "datePublished": "2024-03-20",
+    "dateModified": "2024-12-01"
   },
   "lawChoice": {
     "metaTitle": "Lovvalg i internationale arvesager | Christian Gefke",
@@ -933,7 +955,9 @@
     "conclusionItem2": "Dansk arveret kan vælges, men kun i et gyldigt testamente",
     "conclusionItem3": "Uden lovvalg gælder bopælslandets regler",
     "conclusionItem4": "Juridisk rådgivning er afgørende for at sikre gyldighed",
-    "conclusionText": "Ønsker du dansk arveret i en international arvesag? Kontakt os og få hjælp til korrekt udformning af testamente og sikring af dine arvingers rettigheder."
+    "conclusionText": "Ønsker du dansk arveret i en international arvesag? Kontakt os og få hjælp til korrekt udformning af testamente og sikring af dine arvingers rettigheder.",
+    "datePublished": "2024-03-25",
+    "dateModified": "2024-12-01"
   },
   "danishHolding": {
     "metaTitle": "Dansk ejer af spansk selskab: Skal jeg vælge et holdingselskab i Danmark?",
@@ -987,7 +1011,9 @@
     "conclusionItem3": "Behov for fleksibilitet og adskillelse af ejerskab",
     "conclusionText2": "Et dansk holdingselskab er ofte en god løsning – men det kræver korrekt opsætning og rådgivning.",
     "conclusionLink": "Kontakt os i dag",
-    "conclusionText3": "– vi hjælper med struktur, skat og revision."
+    "conclusionText3": "– vi hjælper med struktur, skat og revision.",
+    "datePublished": "2024-04-01",
+    "dateModified": "2024-12-01"
   },
   "divorce": {
     "metaTitle": "Skilsmisse mellem udlændinge i Spanien | Christian Gefke",
@@ -1047,7 +1073,9 @@
     "section6Text": "Spanske domme anerkendes automatisk i EU. For lande uden for EU (f.eks. Norge, UK) kræves muligvis eksekvatur.",
     "conclusionTitle": "Konklusion: Juridisk rådgivning er afgørende",
     "conclusionText": "Ved skilsmisse i Spanien med internationalt element bør du få rådgivning i international privatret og formueopgør – det kan spare store beløb og sikre en retfærdig løsning.",
-    "conclusionText2": "Kontakt os for professionel rådgivning – på dansk – i din konkrete sag."
+    "conclusionText2": "Kontakt os for professionel rådgivning – på dansk – i din konkrete sag.",
+    "datePublished": "2024-01-10",
+    "dateModified": "2024-12-01"
   },
   "laborLaw": {
     "metaTitle": "Arbejdsret i Spanien: Hvad danske borgere skal vide",
@@ -1105,7 +1133,9 @@
     "conclusionItem3": "Gyldig ansættelseskontrakt eller autónomo-status",
     "conclusionText2": "Har du brug for rådgivning om arbejdsret i Spanien?",
     "conclusionLink": "Kontakt os i dag",
-    "conclusionText3": "for juridisk vejledning på dansk."
+    "conclusionText3": "for juridisk vejledning på dansk.",
+    "datePublished": "2024-02-05",
+    "dateModified": "2024-12-01"
   },
   "webshop": {
     "metaTitle": "Selvstændig i Spanien med webshop: Sådan sælger du lovligt online",
@@ -1166,9 +1196,15 @@
     "conclusionText1": "En webshop i Spanien kræver juridisk struktur og kendskab til lokale regler. Du skal sikre korrekt registrering, moms, og forbrugerbeskyttelse.",
     "conclusionText2": "Overvejer du at starte webshop i Spanien?",
     "conclusionLink": "Kontakt os i dag",
-    "conclusionText3": "for professionel rådgivning på dansk."
+    "conclusionText3": "for professionel rådgivning på dansk.",
+    "datePublished": "2024-04-10",
+    "dateModified": "2024-12-01"
   },
   "homepage": {
+    "metaTitle": "Christian Gefke - Dansk Advokat i Spanien | Juridisk Rådgivning",
+    "metaDescription": "Autoriseret spansk advokat (abogado) med speciale i dansk-spansk juridisk rådgivning. Ekspertise i ejendom, erhverv, familie- og arveret. Professionel service siden 2017.",
+    "ogTitle": "Christian Gefke - Dansk Advokat i Spanien",
+    "ogDescription": "Autoriseret spansk advokat med ekspertise i dansk og spansk ret. Professionel juridisk rådgivning siden 2017.",
     "hero": {
       "badge": "Juridisk ekspert i Spanien",
       "title1": "Jurist i",
@@ -1182,6 +1218,7 @@
       "cta2": "Læs mere",
       "imageText": "Vi varetager overgangen til et liv i Spanien for dig som dansker.",
       "imageAuthor": "Christian Gefke, Lanzarote Bar Association",
+      "imageAlt": "Christian Gefke - Autoriseret spansk advokat (abogado) medlemsnummer 635 ved Colegio de Abogados de Lanzarote",
       "badgeText": "Certificeret Advokat"
     },
     "trusted": {
@@ -1193,19 +1230,23 @@
       "subtitle": "Få professionel juridisk hjælp til alle aspekter af dit liv i Spanien med vores omfattende ekspertise",
       "service1": {
         "title": "Selvstændig i Spanien",
-        "description": "Vi kan hjælpe med alt fra virksomhedsetablering og skatteforhold til kontraktkoncipering og compliance med spansk lovgivning."
+        "description": "Vi kan hjælpe med alt fra virksomhedsetablering og skatteforhold til kontraktkoncipering og compliance med spansk lovgivning.",
+        "imageAlt": "Juridisk rådgivning til selvstændige og virksomheder i Spanien - Virksomhedsetablering, skatter og compliance"
       },
       "service2": {
         "title": "Bolig i Spanien",
-        "description": "Vi sikrer korrekt udfyldelse af juridiske dokumenter og udarbejdelse af kontrakter, rådgivning om ejendomsret og lokale lovkrav, samt bistå med udlejning og lejekontrakter."
+        "description": "Vi sikrer korrekt udfyldelse af juridiske dokumenter og udarbejdelse af kontrakter, rådgivning om ejendomsret og lokale lovkrav, samt bistå med udlejning og lejekontrakter.",
+        "imageAlt": "Juridisk rådgivning ved køb og salg af bolig i Spanien - Ejendomsret, kontrakter og lejekontrakter"
       },
       "service3": {
         "title": "Flytte til Spanien",
-        "description": "Vi sørger for at alt det administrative er på plads inden du overhovedet lander i den spanske lufthavn."
+        "description": "Vi sørger for at alt det administrative er på plads inden du overhovedet lander i den spanske lufthavn.",
+        "imageAlt": "Juridisk hjælp ved flytning til Spanien - Opholdstilladelse, NIE-nummer og administrativt arbejde"
       },
       "service4": {
         "title": "Familie og arveret",
-        "description": "Vi tilbyder juridiske tjenester med fokus på både dansk og spansk lovgivning, herunder testamenter, tvangsarv, forældremyndighed og bodeling."
+        "description": "Vi tilbyder juridiske tjenester med fokus på både dansk og spansk lovgivning, herunder testamenter, tvangsarv, forældremyndighed og bodeling.",
+        "imageAlt": "Juridisk rådgivning i familie- og arveret i Spanien - Testamenter, arv og familieretlige forhold"
       },
       "readMore": "Læs mere",
       "ctaText": "Har du brug for hjælp til noget andet?",
@@ -1358,5 +1399,28 @@
       }
     },
     "about": "Om"
+  },
+  "breadcrumb": {
+    "home": "Hjem"
+  },
+  "relatedServices": {
+    "title": "Relaterede tjenester",
+    "subtitle": "Du kan også være interesseret i"
+  },
+  "articleMeta": {
+    "by": "Af",
+    "authorTitle": "Spansk Advokat",
+    "published": "Publiceret",
+    "updated": "Opdateret"
+  },
+  "blog": {
+    "metaTitle": "Blog | Christian Gefke – Juridiske nyheder om spansk jura",
+    "metaDescription": "Læs juridiske nyheder, indsigt og opdateringer om spansk jura for danskere. Få de seneste informationer om skattereformer, lovændringer og praktiske råd.",
+    "ogTitle": "Blog – Juridiske nyheder om spansk jura",
+    "ogDescription": "Få de seneste juridiske nyheder og indsigt om spansk jura for danskere.",
+    "title": "Blog",
+    "subtitle": "Juridiske nyheder og indsigt om spansk jura for danskere",
+    "readMore": "Læs mere →",
+    "backToBlog": "Tilbage til blog"
   }
 }

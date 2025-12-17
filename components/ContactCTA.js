@@ -35,7 +35,7 @@ export default function ContactCTA() {
             <div className="relative overflow-hidden rounded-3xl shadow-luxury group-hover:shadow-luxury-hover transition-all duration-700">
               <Image
                 src="/images/CristianGefke.png"
-                alt="Christian Gefke"
+                alt={t("contactCTA.imageAlt")}
                 width={480}
                 height={560}
                 priority

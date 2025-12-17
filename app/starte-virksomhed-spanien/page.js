@@ -1,56 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function StarteVirksomhedSpanienPage() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>
-          {t("startVirksomhed.metaTitle")}
-        </title>
-        <meta
-          name="description"
-          content={t("startVirksomhed.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="starte virksomhed i Spanien, spansk selskab, filial i Spanien, autónomo, oprette virksomhed Spanien, S.L., S.A., NIF"
-        />
-        <meta
-          property="og:title"
-          content={t("startVirksomhed.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("startVirksomhed.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:url"
-          content="https://dinwebsite.dk/starte-virksomhed-spanien"
-        />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:image"
-          content="https://dinwebsite.dk/images/virksomhed-spanien.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={t("startVirksomhed.twitterTitle")}
-        />
-        <meta
-          name="twitter:description"
-          content={t("startVirksomhed.twitterDescription")}
-        />
-        <meta
-          name="twitter:image"
-          content="https://dinwebsite.dk/images/virksomhed-spanien.jpg"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

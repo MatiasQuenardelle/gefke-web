@@ -1,38 +1,11 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
 
 export default function InternationalInheritanceJurisdiction() {
   const { t } = useTranslation()
   return (
     <>
-      <Head>
-        <title>{t("internationalInheritance.metaTitle")}</title>
-        <meta
-          name="description"
-          content={t("internationalInheritance.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="international arvesag, dansk værneting, dødsboskiftelov, EU arveretsforordning, testamente, arveret, dansk skifteret"
-        />
-        <meta name="author" content="Christian Gefke" />
-        <meta
-          property="og:title"
-          content={t("internationalInheritance.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("internationalInheritance.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:url"
-          content="https://www.christiangefke.com/international-arvesager"
-        />
-      </Head>
 
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">

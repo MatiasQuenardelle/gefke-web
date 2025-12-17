@@ -1,39 +1,21 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
+import Breadcrumb from "@/components/Breadcrumb"
+import RelatedServices from "@/components/RelatedServices"
+import { getRelatedServices } from "@/lib/relatedServices"
+import ArticleMeta from "@/components/ArticleMeta"
 
 export default function BuySellPropertySpain() {
   const { t } = useTranslation()
+  const relatedServices = getRelatedServices("/real-estate-buy-sell-spain", t)
+  
   return (
     <>
-      <Head>
-        <title>{t("realEstateBuySell.metaTitle")}</title>
-        <meta
-          name="description"
-          content={t("realEstateBuySell.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="køb af bolig i Spanien, salg af ejendom, NIE-nummer, due diligence, ejendomsskatter, advokat Spanien, Christian Gefke"
-        />
-        <meta name="author" content="Christian Gefke" />
-        <meta
-          property="og:title"
-          content={t("realEstateBuySell.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("realEstateBuySell.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:url"
-          content="https://www.christiangefke.com/real-estate-buy-sell-spain"
-        />
-      </Head>
-
+      <Breadcrumb 
+        items={[]}
+        currentPage={t("realEstateBuySell.title")}
+      />
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
@@ -44,6 +26,8 @@ export default function BuySellPropertySpain() {
               {t("realEstateBuySell.subtitle")}
             </p>
           </header>
+
+          <ArticleMeta translationKey="realEstateBuySell" />
 
           <section className="space-y-6">
             <p>
@@ -213,6 +197,8 @@ export default function BuySellPropertySpain() {
           </section>
         </article>
       </main>
+      
+      <RelatedServices services={relatedServices} />
     </>
   )
 }

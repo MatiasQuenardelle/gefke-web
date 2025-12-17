@@ -22,7 +22,7 @@
     "ratingRequired": "Please select a rating."
   },
   "contactCTA": {
-    "imageAlt": "Christian Gefke",
+    "imageAlt": "Christian Gefke - Authorized Spanish lawyer (abogado) with expertise in Danish and Spanish law",
     "heading": "Get the legal support you deserve",
     "description": "Whether you're moving, investing, or need reliable advice, I'm here to guide you every step of the way. Let's talk about how I can use my experience to help you.",
     "button": "CONTACT ME"
@@ -1182,10 +1182,16 @@
       "cta2": "Read more",
       "imageText": "We handle the transition to a life in Spain for you as a Dane.",
       "imageAuthor": "Christian Gefke, Lanzarote Bar Association",
+      "imageAlt": "Christian Gefke - Authorized Spanish lawyer (abogado) member number 635 at Colegio de Abogados de Lanzarote",
       "badgeText": "Certified Lawyer"
     },
     "trusted": {
-      "title": "Trusted by these companies"
+      "title": "Trusted by these companies",
+      "logoAlt": {
+        "obsidian": "Obsidian Digital - Partner company",
+        "premier": "Premier Relocation Spain S.L. - Partner company",
+        "lumipop": "Lumipop - Partner company"
+      }
     },
     "services": {
       "badge": "Special areas",
@@ -1193,19 +1199,23 @@
       "subtitle": "Get professional legal help for all aspects of your life in Spain with our comprehensive expertise",
       "service1": {
         "title": "Self-employed in Spain",
-        "description": "We can help with everything from business establishment and tax matters to contract drafting and compliance with Spanish legislation."
+        "description": "We can help with everything from business establishment and tax matters to contract drafting and compliance with Spanish legislation.",
+        "imageAlt": "Legal advice for self-employed and businesses in Spain - Business establishment, taxes and compliance"
       },
       "service2": {
         "title": "Housing in Spain",
-        "description": "We ensure correct completion of legal documents and drafting of contracts, advice on property rights and local legal requirements, as well as assistance with rental and lease agreements."
+        "description": "We ensure correct completion of legal documents and drafting of contracts, advice on property rights and local legal requirements, as well as assistance with rental and lease agreements.",
+        "imageAlt": "Legal advice for buying and selling property in Spain - Property rights, contracts and rental agreements"
       },
       "service3": {
         "title": "Moving to Spain",
-        "description": "We ensure that all administrative matters are in place before you even land at the Spanish airport."
+        "description": "We ensure that all administrative matters are in place before you even land at the Spanish airport.",
+        "imageAlt": "Legal help when moving to Spain - Residency permits, NIE number and administrative work"
       },
       "service4": {
         "title": "Family and inheritance law",
-        "description": "We offer legal services with focus on both Danish and Spanish legislation, including wills, forced inheritance, custody and property division."
+        "description": "We offer legal services with focus on both Danish and Spanish legislation, including wills, forced inheritance, custody and property division.",
+        "imageAlt": "Legal advice in family and inheritance law in Spain - Wills, inheritance and family law matters"
       },
       "readMore": "Read more",
       "ctaText": "Do you need help with something else?",
@@ -1358,6 +1368,13 @@
       }
     },
     "about": "About"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "relatedServices": {
+    "title": "Related Services",
+    "subtitle": "You may also be interested in"
   }
 }
 

@@ -1,41 +1,21 @@
 "use client"
 
-import Head from "next/head"
 import { useTranslation } from "react-i18next"
+import Breadcrumb from "@/components/Breadcrumb"
+import RelatedServices from "@/components/RelatedServices"
+import { getRelatedServices } from "@/lib/relatedServices"
+import Link from "next/link"
 
 export default function WorkInSpainArticle() {
   const { t } = useTranslation()
+  const relatedServices = getRelatedServices("/work-in-spain", t)
+  
   return (
     <>
-      <Head>
-        <title>
-          {t("workInSpain.metaTitle")}
-        </title>
-        <meta
-          name="description"
-          content={t("workInSpain.metaDescription")}
-        />
-        <meta
-          name="keywords"
-          content="arbejde i Spanien, danske borgere, spansk arbejdsret, Christian Gefke"
-        />
-        <meta name="author" content="Christian Gefke" />
-        <meta
-          property="og:title"
-          content={t("workInSpain.ogTitle")}
-        />
-        <meta
-          property="og:description"
-          content={t("workInSpain.ogDescription")}
-        />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="da_DK" />
-        <meta
-          property="og:url"
-          content="https://www.christiangefke.com/work-in-spain"
-        />
-      </Head>
-
+      <Breadcrumb 
+        items={[]}
+        currentPage={t("workInSpain.title")}
+      />
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
@@ -57,7 +37,9 @@ export default function WorkInSpainArticle() {
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
                 <strong>
-                  {t("workInSpain.section1Item1Label")}
+                  <Link href="/residency-spain" className="text-blue-600 hover:text-blue-800 underline">
+                    {t("workInSpain.section1Item1Label")}
+                  </Link>
                 </strong>{" "}
                 {t("workInSpain.section1Item1Text")}
               </li>
@@ -155,6 +137,8 @@ export default function WorkInSpainArticle() {
           </section>
         </article>
       </main>
+      
+      <RelatedServices services={relatedServices} />
     </>
   )
 }

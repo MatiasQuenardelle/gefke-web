@@ -3,13 +3,11 @@ import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import ClientLayout from "@/components/ClientLayout"
+import WhatsAppWidgetWrapper from "@/components/WhatsAppWidgetWrapper"
 import dynamic from "next/dynamic"
 import Script from "next/script" // ✅ Import Script for Google Analytics
 
 // Lazy load non-critical components for better initial page load
-const WhatsAppWidget = dynamic(() => import("@/components/WhatsAppWidget"), {
-  ssr: false, // WhatsApp widget doesn't need SSR
-})
 const ContactForm = dynamic(() => import("@/components/ContactForm"), {
   loading: () => <div className="min-h-[400px]" />, // Placeholder to prevent layout shift
 })
@@ -88,7 +86,7 @@ export default function RootLayout({ children }) {
         </ClientLayout>
 
         {/* Fixed bottom-right WhatsApp button */}
-        <WhatsAppWidget
+        <WhatsAppWidgetWrapper
           size={72}
           className="fixed md:bottom-14 bottom-8 right-8 md:right-18 z-50"
         />

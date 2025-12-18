@@ -6,7 +6,7 @@
  */
 
 export default function sitemap() {
-  const baseUrl = 'https://www.christiangefke.com'
+  const baseUrl = 'https://www.buxtongefke.es'
   const currentDate = new Date()
 
   // Image definitions with alt text
@@ -84,6 +84,38 @@ export default function sitemap() {
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.8,
+    },
+  ]
+
+  // Hub pages - high priority for SEO
+  const hubPages = [
+    {
+      url: `${baseUrl}/services/real-estate`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      images: [images.services[1]], // housing.jpg
+    },
+    {
+      url: `${baseUrl}/services/family-law`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      images: [images.services[3]], // family.jpg
+    },
+    {
+      url: `${baseUrl}/services/immigration`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      images: [images.services[2]], // move.jpg
+    },
+    {
+      url: `${baseUrl}/services/business`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      images: [images.services[0]], // business.jpg
     },
   ]
 
@@ -225,6 +257,6 @@ export default function sitemap() {
   ]
 
   // Combine all pages
-  return [...mainPages, ...servicePages, ...legalPages]
+  return [...mainPages, ...hubPages, ...servicePages, ...legalPages]
 }
 

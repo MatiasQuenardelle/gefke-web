@@ -63,21 +63,27 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent animate-shimmer"></div>
         </div>
 
-        <ArticlesSection />
+        <div className="content-visibility-auto">
+          <ArticlesSection />
+        </div>
 
         {/* Sophisticated transition with parallax effect */}
         <div className="h-16 bg-gradient-to-b from-[#f9f9f9] via-gray-100 to-gray-50 relative">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-transparent to-purple-500/10"></div>
         </div>
 
-        <Testimonials />
+        <div className="content-visibility-auto">
+          <Testimonials />
+        </div>
 
         {/* Enhanced transition with depth */}
         <div className="h-16 bg-gradient-to-b from-[#0e3a5e] via-[#1a4b6b] to-gray-50 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform skew-y-1"></div>
         </div>
 
-        <FAQSection />
+        <div className="content-visibility-auto">
+          <FAQSection />
+        </div>
 
         {/* Sophisticated spacing with visual interest */}
         <div className="h-20 bg-gradient-to-b from-gray-50 via-gray-100 to-[#003366] relative">
@@ -94,7 +100,9 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-transparent to-indigo-600/20"></div>
         </div>
 
-        <PartnersSection />
+        <div className="content-visibility-auto">
+          <PartnersSection />
+        </div>
       </div>
     </main>
     </>

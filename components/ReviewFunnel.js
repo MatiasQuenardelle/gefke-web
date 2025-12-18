@@ -38,15 +38,15 @@ export default function ReviewFunnel() {
 
     emailjs
       .send(
-        "service_3d693zn",
-        "template_edqoiij",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         {
           from_name: formData.name,
           reply_to: formData.email,
           message: formData.message,
           rating,
         },
-        "VM0gePEBgxX098yry"
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         setFlow(rating === 5 ? "five" : "other")
@@ -182,7 +182,7 @@ export default function ReviewFunnel() {
           <div className="pt-2">
             <div className="max-w-full overflow-hidden">
               <HCaptcha
-                sitekey="171c20da-537c-4c42-b2fa-1a563e6ee7a4"
+                sitekey={process.env.NEXT_PUBLIC_HCAPTCHA_SITEKEY}
                 onVerify={(token) => setCaptchaToken(token)}
                 ref={captchaRef}
               />

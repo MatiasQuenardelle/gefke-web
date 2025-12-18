@@ -86,8 +86,10 @@ export default function ArticlesSection() {
                   <Image
                     src={service.image}
                     alt={t(`homepage.services.service${index + 1}.imageAlt`)}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700"
+                    width={800}
+                    height={600}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
+                    className="object-cover group-hover:scale-110 transition-transform duration-700 w-full h-64"
                   />
                   {/* Enhanced overlay with gradient */}
                   <div

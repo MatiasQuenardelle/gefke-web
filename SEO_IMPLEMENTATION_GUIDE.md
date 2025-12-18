@@ -709,6 +709,240 @@ Each page needs these keys in `public/locales/da.json`:
 
 ---
 
+## 🔥 Firecrawl Integration for SEO & AEO
+
+### Overview
+
+Firecrawl has been integrated into the project to provide automated SEO auditing, content analysis, and AI Engine Optimization (AEO) capabilities. This integration allows you to:
+
+- **Automated SEO Audits:** Crawl and analyze all pages for SEO issues
+- **AEO Optimization:** Optimize content for AI search engines (ChatGPT, Perplexity, etc.)
+- **Content Monitoring:** Track SEO health across the entire website
+- **Issue Detection:** Automatically identify missing metadata, thin content, and structural issues
+
+### Setup
+
+1. **Get Firecrawl API Key:**
+   - Sign up at https://www.firecrawl.dev/
+   - Get your API key from the dashboard
+
+2. **Configure Environment Variable:**
+   - Create a `.env.local` file in the project root
+   - Add: `FIRECRAWL_API_KEY=your_api_key_here`
+   - Add: `NEXT_PUBLIC_SITE_URL=https://www.christiangefke.com`
+
+3. **Installation:**
+   - ✅ Already installed: `@mendable/firecrawl-js`
+   - No additional setup required
+
+### Architecture
+
+**Core Library:** `lib/firecrawl.js`
+- Low-level Firecrawl API wrapper
+- Functions for scraping, crawling, and content extraction
+- SEO metadata extraction
+- AEO analysis functions
+
+**SEO Audit Service:** `lib/seoAuditService.js`
+- High-level SEO audit functions
+- Sitemap integration
+- Report generation
+- Issue aggregation
+
+**AEO Service:** `lib/aeoService.js`
+- AI Engine Optimization analysis
+- AEO scoring and recommendations
+- Optimization status checking
+- Comprehensive AEO reporting
+
+**API Routes:** `app/api/firecrawl/`
+- `/api/firecrawl/scrape` - Scrape single URL
+- `/api/firecrawl/crawl` - Crawl entire website
+- `/api/firecrawl/audit` - SEO audit single page
+- `/api/firecrawl/audit-all` - SEO audit all pages
+- `/api/firecrawl/monitor` - Monitor website for issues
+- `/api/firecrawl/aeo-optimize` - AEO optimization analysis
+
+### Usage Examples
+
+#### 1. Perform SEO Audit on Single Page
+
+**API Call:**
+```bash
+curl -X POST http://localhost:3000/api/firecrawl/audit \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://www.christiangefke.com/about"}'
+```
+
+**JavaScript:**
+```javascript
+import { performSEOAudit } from '@/lib/firecrawl';
+
+const result = await performSEOAudit('https://www.christiangefke.com/about');
+console.log(result);
+```
+
+#### 2. Audit All Pages
+
+**API Call:**
+```bash
+curl -X POST http://localhost:3000/api/firecrawl/audit-all
+```
+
+**JavaScript:**
+```javascript
+import { auditAllPages, generateAuditReport } from '@/lib/seoAuditService';
+
+const audit = await auditAllPages();
+const report = generateAuditReport(audit);
+console.log(report);
+```
+
+#### 3. AEO Optimization Analysis
+
+**API Call:**
+```bash
+curl -X POST http://localhost:3000/api/firecrawl/aeo-optimize \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://www.christiangefke.com/real-estate-buy-sell-spain"}'
+```
+
+**JavaScript:**
+```javascript
+import { optimizeForAEO } from '@/lib/aeoService';
+
+const result = await optimizeForAEO('https://www.christiangefke.com/real-estate-buy-sell-spain');
+console.log(result.score); // AEO score (0-100)
+console.log(result.recommendations); // Optimization recommendations
+```
+
+#### 4. Monitor Website for Issues
+
+**API Call:**
+```bash
+curl -X POST http://localhost:3000/api/firecrawl/monitor \
+  -H "Content-Type: application/json" \
+  -d '{
+    "baseUrl": "https://www.christiangefke.com",
+    "urls": ["/about", "/contact", "/real-estate-buy-sell-spain"]
+  }'
+```
+
+**JavaScript:**
+```javascript
+import { monitorWebsite } from '@/lib/firecrawl';
+
+const result = await monitorWebsite(
+  'https://www.christiangefke.com',
+  ['/about', '/contact']
+);
+console.log(result.issues); // Aggregated issues
+console.log(result.summary); // Summary statistics
+```
+
+### What Firecrawl Analyzes
+
+#### SEO Analysis
+- ✅ Meta titles and descriptions
+- ✅ Heading structure (H1, H2, H3)
+- ✅ Internal and external links
+- ✅ Image alt text
+- ✅ Word count
+- ✅ Canonical URLs
+- ✅ OpenGraph tags
+- ✅ Structured data (JSON-LD)
+
+#### AEO Analysis
+- ✅ Content readability
+- ✅ Heading hierarchy
+- ✅ Content depth (word count)
+- ✅ Structured data presence
+- ✅ Metadata completeness
+- ✅ Content structure for AI comprehension
+
+### Common Issues Detected
+
+1. **Missing Meta Descriptions**
+   - Impact: Poor search result snippets
+   - Recommendation: Add unique 150-160 character descriptions
+
+2. **Missing H1 Headings**
+   - Impact: Poor content structure, SEO ranking
+   - Recommendation: Add single descriptive H1 per page
+
+3. **Thin Content**
+   - Impact: Low search rankings, poor AI comprehension
+   - Recommendation: Expand to at least 300 words
+
+4. **Missing Structured Data**
+   - Impact: Reduced visibility in AI search results
+   - Recommendation: Add Schema.org JSON-LD
+
+5. **Duplicate Page Titles**
+   - Impact: SEO confusion, poor rankings
+   - Recommendation: Ensure unique titles per page
+
+### AEO Scoring
+
+AEO scores range from 0-100:
+- **90-100 (A):** Optimized for AI engines
+- **80-89 (B):** Good, minor improvements needed
+- **70-79 (C):** Fair, several improvements needed
+- **60-69 (D):** Poor, significant improvements needed
+- **0-59 (F):** Not optimized
+
+### Integration with Existing SEO
+
+Firecrawl works seamlessly with existing SEO infrastructure:
+- ✅ Uses existing sitemap (`/sitemap.xml`)
+- ✅ Analyzes existing structured data
+- ✅ Validates metadata from `lib/metadata.js`
+- ✅ Checks structured data from `lib/structuredData.js`
+- ✅ Monitors all pages defined in sitemap
+
+### Scheduled Monitoring
+
+You can set up scheduled monitoring using:
+- **Cron jobs** (server-side)
+- **GitHub Actions** (CI/CD)
+- **Vercel Cron** (if deployed on Vercel)
+- **External monitoring services**
+
+Example cron job (weekly audit):
+```bash
+0 0 * * 0 curl -X POST https://www.christiangefke.com/api/firecrawl/audit-all
+```
+
+### Best Practices
+
+1. **Run audits regularly:** Weekly or monthly
+2. **Fix critical issues first:** Missing H1, duplicate titles
+3. **Monitor AEO scores:** Aim for 80+ on all pages
+4. **Track improvements:** Compare scores over time
+5. **Use reports:** Generate reports to track progress
+
+### Troubleshooting
+
+**Error: "Firecrawl API key not configured"**
+- Solution: Add `FIRECRAWL_API_KEY` to `.env.local`
+
+**Error: "Invalid URL format"**
+- Solution: Ensure URLs include protocol (https://)
+
+**Slow response times:**
+- Solution: Firecrawl operations can take time. Use async processing for large crawls.
+
+**Rate limiting:**
+- Solution: Firecrawl has rate limits. Space out requests or upgrade plan.
+
+### Resources
+
+- [Firecrawl Documentation](https://docs.firecrawl.dev/)
+- [Firecrawl API Reference](https://docs.firecrawl.dev/api-reference)
+- [AEO Best Practices](https://www.firecrawl.dev/use-cases/seo-platforms)
+
+---
+
 ## 🎯 Quick Start for New AI Instance
 
 1. **Read this document** - Understand the project structure

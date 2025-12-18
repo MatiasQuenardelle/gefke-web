@@ -20,15 +20,17 @@ export default function TrustedBySection() {
           {logos.map((logo, i) => (
             <div
               key={i}
-              className="relative h-12 w-[140px] md:w-[200px] md:h-[70px] flex items-center justify-center 
-                         p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 
+              className="relative flex items-center justify-center
+                         p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300
                          border border-white/10 hover:border-white/20"
             >
               <Image
                 src={logo.src}
                 alt={t(`homepage.trusted.logoAlt.${logo.altKey}`)}
-                fill
-                className="object-contain grayscale hover:grayscale-0 transition-all duration-300 p-2"
+                width={200}
+                height={70}
+                sizes="(max-width: 768px) 140px, 200px"
+                className="object-contain grayscale hover:grayscale-0 transition-all duration-300 h-12 w-[140px] md:w-[200px] md:h-[70px]"
               />
             </div>
           ))}

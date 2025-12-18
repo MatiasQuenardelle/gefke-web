@@ -20,6 +20,37 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Testing
+
+This project includes comprehensive testing setup:
+
+### Unit Tests (Jest)
+Run unit tests:
+```bash
+npm test
+```
+
+Run tests with coverage:
+```bash
+npm run test:coverage
+```
+
+### E2E Tests (Playwright)
+Run end-to-end tests:
+```bash
+npm run test:e2e
+```
+
+Run E2E tests in UI mode:
+```bash
+npx playwright test --ui
+```
+
+View the last test report:
+```bash
+npx playwright show-report
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

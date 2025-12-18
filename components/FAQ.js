@@ -89,9 +89,11 @@ export default function FAQ() {
               <button
                 onClick={() => toggleItem(index)}
                 className="w-full text-left p-6 focus:outline-none group-hover:bg-gray-50/50 transition-colors duration-300"
+                aria-expanded={openItems.has(index)}
+                aria-controls={`faq-panel-${index}`}
               >
                 <div className="flex items-center justify-between gap-4">
-                  <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-[#003366] transition-colors duration-300 pr-4">
+                  <h3 id={`faq-question-${index}`} className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-[#003366] transition-colors duration-300 pr-4">
                     {faq.question}
                   </h3>
                   <div className="flex-shrink-0">
@@ -109,6 +111,9 @@ export default function FAQ() {
               </button>
 
               <div
+                id={`faq-panel-${index}`}
+                role="region"
+                aria-labelledby={`faq-question-${index}`}
                 className={`transition-all duration-500 ease-in-out ${
                   openItems.has(index)
                     ? "max-h-[2000px] opacity-100"

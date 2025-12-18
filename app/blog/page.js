@@ -2,30 +2,29 @@
 
 import { useTranslation } from "react-i18next"
 import Link from "next/link"
-import ArticleMeta from "@/components/ArticleMeta"
+import { useState, useEffect } from "react"
 
-// This is a placeholder for the blog listing page
-// In a real implementation, you would fetch blog posts from a CMS or markdown files
 export default function BlogPage() {
   const { t } = useTranslation()
-  
-  // Placeholder blog posts - in production, these would come from a data source
-  const blogPosts = [
-    {
-      slug: "nyheder-om-spansk-jura-2024",
-      title: "Nyheder om spansk jura 2024",
-      excerpt: "En oversigt over de vigtigste juridiske ændringer i Spanien i 2024, der påvirker danskere.",
-      datePublished: "2024-12-01",
-      dateModified: "2024-12-01"
-    },
-    {
-      slug: "skattereform-i-spanien",
-      title: "Skattereform i Spanien: Hvad betyder det for danskere?",
-      excerpt: "En gennemgang af de seneste skattereformer i Spanien og deres konsekvenser for danske statsborgere.",
-      datePublished: "2024-11-15",
-      dateModified: "2024-11-15"
+  const [blogPosts, setBlogPosts] = useState([])
+
+  useEffect(() => {
+    // Fetch blog posts on the client side
+    async function fetchPosts() {
+      try {
+        const response = await fetch('/api/blog')
+        if (response.ok) {
+          const posts = await response.json()
+          setBlogPosts(posts)
+        }
+      } catch (error) {
+        console.error('Failed to fetch blog posts:', error)
+        // Fallback to empty array
+        setBlogPosts([])
+      }
     }
-  ]
+    fetchPosts()
+  }, [])
   
   return (
     <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
@@ -40,31 +39,46 @@ export default function BlogPage() {
         </header>
 
         <div className="space-y-8">
-          {blogPosts.map((post) => (
-            <article key={post.slug} className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-              <h2 className="text-2xl font-bold text-blue-900 mb-2">
-                <Link href={`/blog/${post.slug}`} className="hover:text-blue-700">
-                  {post.title}
-                </Link>
-              </h2>
-              <p className="text-gray-700 mb-4">{post.excerpt}</p>
-              <div className="flex items-center gap-4 text-sm text-gray-600">
-                <time dateTime={post.datePublished}>
-                  {new Date(post.datePublished).toLocaleDateString('da-DK', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                  })}
-                </time>
-                <Link 
-                  href={`/blog/${post.slug}`}
-                  className="text-blue-600 hover:text-blue-800 font-medium"
-                >
-                  {t("blog.readMore") || "Læs mere →"}
-                </Link>
-              </div>
-            </article>
-          ))}
+          {blogPosts.length === 0 ? (
+            <div className="text-center text-gray-600 py-8">
+              {t("blog.loading") || "Indlæser blogindlæg..."}
+            </div>
+          ) : (
+            blogPosts.map((post) => (
+              <article key={post.slug} className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                <h2 className="text-2xl font-bold text-blue-900 mb-2">
+                  <Link href={`/blog/${post.slug}`} className="hover:text-blue-700">
+                    {post.title}
+                  </Link>
+                </h2>
+                <p className="text-gray-700 mb-4">{post.description}</p>
+                <div className="flex items-center gap-4 text-sm text-gray-600">
+                  <time dateTime={post.date}>
+                    {new Date(post.date).toLocaleDateString('da-DK', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric'
+                    })}
+                  </time>
+                  {post.tags && (
+                    <div className="flex gap-2">
+                      {post.tags.map((tag) => (
+                        <span key={tag} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="text-blue-600 hover:text-blue-800 font-medium ml-auto"
+                  >
+                    {t("blog.readMore") || "Læs mere →"}
+                  </Link>
+                </div>
+              </article>
+            ))
+          )}
         </div>
       </div>
     </main>

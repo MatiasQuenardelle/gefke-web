@@ -31,7 +31,7 @@ export default function Breadcrumb({ items = [], currentPage }) {
       "@type": "ListItem",
       "position": index + 1,
       "name": item.label,
-      ...(item.href ? { "item": `https://www.christiangefke.com${item.href}` } : {})
+      ...(item.href ? { "item": `https://www.buxtongefke.es${item.href}` } : {})
     }))
   }
 

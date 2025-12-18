@@ -31,14 +31,14 @@ export default function ContactForm({
 
     emailjs
       .send(
-        "service_3d693zn",
-        "template_edqoiij",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         {
           from_name: formData.name,
           reply_to: formData.email,
           message: formData.message,
         },
-        "VM0gePEBgxX098yry"
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         setStatus(t("contactForm.success"))
@@ -59,42 +59,64 @@ export default function ContactForm({
 
         {/* form */}
         <form onSubmit={handleSubmit} className="space-y-5">
-          {/* inputs … */}
-          <input
-            type="text"
-            name="name"
-            placeholder={t("contactForm.namePlaceholder") || "Your Full Name"}
-            value={formData.name}
-            onChange={handleChange}
-            required
-            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder={
-              t("contactForm.emailPlaceholder") || "Your Email Address"
-            }
-            value={formData.email}
-            onChange={handleChange}
-            required
-            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
-          />
-          <textarea
-            name="message"
-            placeholder={t("contactForm.messagePlaceholder") || "Your Message"}
-            rows={6}
-            value={formData.message}
-            onChange={handleChange}
-            required
-            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
-          />
+          {/* name input */}
+          <div>
+            <label htmlFor="name" className="sr-only">
+              {t("contactForm.nameLabel") || "Your Full Name"}
+            </label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder={t("contactForm.namePlaceholder") || "Your Full Name"}
+              value={formData.name}
+              onChange={handleChange}
+              required
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
+            />
+          </div>
+
+          {/* email input */}
+          <div>
+            <label htmlFor="email" className="sr-only">
+              {t("contactForm.emailLabel") || "Your Email Address"}
+            </label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder={
+                t("contactForm.emailPlaceholder") || "Your Email Address"
+              }
+              value={formData.email}
+              onChange={handleChange}
+              required
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
+            />
+          </div>
+
+          {/* message textarea */}
+          <div>
+            <label htmlFor="message" className="sr-only">
+              {t("contactForm.messageLabel") || "Your Message"}
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder={t("contactForm.messagePlaceholder") || "Your Message"}
+              rows={6}
+              value={formData.message}
+              onChange={handleChange}
+              required
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
+            />
+          </div>
 
           {/* captcha - lazy loaded */}
           <div className="pt-2">
             <Suspense fallback={<div className="h-[78px] bg-gray-100 rounded animate-pulse" />}>
               <HCaptcha
-                sitekey="171c20da-537c-4c42-b2fa-1a563e6ee7a4"
+                sitekey={process.env.NEXT_PUBLIC_HCAPTCHA_SITEKEY}
                 onVerify={(token) => setCaptchaToken(token)}
                 ref={captchaRef}
               />
@@ -115,7 +137,7 @@ export default function ContactForm({
 
         {/* status message */}
         {status && (
-          <p className="mt-6 text-center text-sm text-gray-700">{status}</p>
+          <p aria-live="polite" className="mt-6 text-center text-sm text-gray-700">{status}</p>
         )}
 
         {/* optional WhatsApp CTA */}

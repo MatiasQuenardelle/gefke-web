@@ -232,4 +232,56 @@ button:active {
     background: rgba(255, 255, 255, 0.95);
     border: 2px solid #000;
   }
+
+  /* Additional high contrast styles */
+  a {
+    text-decoration: underline !important;
+  }
+
+  button {
+    border: 2px solid currentColor !important;
+  }
+
+  input, textarea, select {
+    border: 2px solid #000 !important;
+  }
+
+  .text-shadow, .text-shadow-lg {
+    text-shadow: none !important;
+  }
+}
+
+/* Screen reader only utility class for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Skip-to-content link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #003366;
+  color: white;
+  padding: 8px 16px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Content visibility utility for below-fold optimization */
+.content-visibility-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
 }

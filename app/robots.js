@@ -10,7 +10,7 @@
  */
 
 export default function robots() {
-  const baseUrl = 'https://www.christiangefke.com'
+  const baseUrl = 'https://www.buxtongefke.es'
 
   return {
     rules: [

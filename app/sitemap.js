@@ -5,9 +5,19 @@
  * Includes images for better SEO
  */
 
+import { getAllPosts } from '@/lib/blog'
+
 export default function sitemap() {
   const baseUrl = 'https://www.buxtongefke.es'
   const currentDate = new Date()
+
+  // Get all blog posts for dynamic sitemap generation
+  const blogPosts = getAllPosts().map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: post.lastModified ? new Date(post.lastModified) : new Date(post.date),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
 
   // Image definitions with alt text
   const images = {
@@ -116,6 +126,34 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.9,
       images: [images.services[0]], // business.jpg
+    },
+    {
+      url: `${baseUrl}/tjenester/ejendom`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      images: [images.services[1]], // housing.jpg
+    },
+    {
+      url: `${baseUrl}/tjenester/arv-testamente`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      images: [images.services[3]], // family.jpg
+    },
+    {
+      url: `${baseUrl}/tjenester/skat-pension`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      images: [images.services[0]], // business.jpg
+    },
+    {
+      url: `${baseUrl}/tjenester/familie`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      images: [images.services[3]], // family.jpg
     },
   ]
 
@@ -256,7 +294,17 @@ export default function sitemap() {
     },
   ]
 
+  // Blog hub page
+  const blogHub = [
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+  ]
+
   // Combine all pages
-  return [...mainPages, ...hubPages, ...servicePages, ...legalPages]
+  return [...mainPages, ...hubPages, ...servicePages, ...blogHub, ...blogPosts, ...legalPages]
 }
 

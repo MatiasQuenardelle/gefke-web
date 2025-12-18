@@ -1,9 +1,4 @@
-import { getMetadata } from "@/lib/metadata"
-
-// This is a placeholder - in production, you would generate metadata based on the blog post
-export const metadata = getMetadata('blog', '/blog', 'da')
-
+// Dynamic metadata is generated in page.js via generateMetadata()
 export default function BlogPostLayout({ children }) {
   return children
 }
-

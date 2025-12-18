@@ -1,12 +1,20 @@
 "use client"
 
 import { useTranslation } from "react-i18next"
+import Breadcrumb from "@/components/Breadcrumb"
+import RelatedServices from "@/components/RelatedServices"
+import { getRelatedServices } from "@/lib/relatedServices"
 
 export default function StarteVirksomhedSpanienPage() {
   const { t } = useTranslation()
+  const relatedServices = getRelatedServices("/starte-virksomhed-spanien", t)
+
   return (
     <>
-
+      <Breadcrumb
+        items={[]}
+        currentPage={t("startVirksomhed.title")}
+      />
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
@@ -155,6 +163,8 @@ export default function StarteVirksomhedSpanienPage() {
           </section>
         </article>
       </main>
+
+      <RelatedServices services={relatedServices} />
     </>
   )
 }

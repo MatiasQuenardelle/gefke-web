@@ -1,12 +1,21 @@
 "use client"
 
 import { useTranslation } from "react-i18next"
+import Breadcrumb from "@/components/Breadcrumb"
+import RelatedServices from "@/components/RelatedServices"
+import { getRelatedServices } from "@/lib/relatedServices"
+import ArticleMeta from "@/components/ArticleMeta"
 
 export default function EjerforeningerSpainArticle() {
   const { t } = useTranslation()
+  const relatedServices = getRelatedServices("/homeowner-associations", t)
+
   return (
     <>
-
+      <Breadcrumb
+        items={[]}
+        currentPage={t("homeownerAssociations.title")}
+      />
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-3xl mx-auto space-y-10">
           <header className="text-center">
@@ -17,6 +26,8 @@ export default function EjerforeningerSpainArticle() {
               {t("homeownerAssociations.subtitle")}
             </p>
           </header>
+
+          <ArticleMeta translationKey="homeownerAssociations" />
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-blue-800">
@@ -147,6 +158,8 @@ export default function EjerforeningerSpainArticle() {
           </section>
         </article>
       </main>
+
+      <RelatedServices services={relatedServices} />
     </>
   )
 }

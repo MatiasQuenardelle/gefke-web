@@ -1398,7 +1398,8 @@
         "holdingCompanies": "Holding Selskaber i Spanien eller Danmark?"
       }
     },
-    "about": "Om"
+    "about": "Om",
+    "blog": "Blog"
   },
   "breadcrumb": {
     "home": "Hjem"
@@ -1423,8 +1424,21 @@
     "ogDescription": "Få de seneste juridiske nyheder og indsigt om spansk jura for danskere.",
     "title": "Blog",
     "subtitle": "Juridiske nyheder og indsigt om spansk jura for danskere",
-    "readMore": "Læs mere →",
-    "backToBlog": "Tilbage til blog"
+    "readMore": "Læs mere",
+    "backToBlog": "← Tilbage til blog",
+    "noPosts": "Ingen blogindlæg endnu.",
+    "author": "Forfatter",
+    "published": "Publiceret",
+    "updated": "Opdateret",
+    "minRead": "min. læsetid",
+    "tags": "Emner",
+    "relatedPosts": "Relaterede artikler",
+    "shareArticle": "Del denne artikel",
+    "notFound": "Blogindlæg ikke fundet",
+    "featuredArticle": "Fremhævet artikel",
+    "latestArticles": "Seneste artikler",
+    "allArticles": "Alle artikler",
+    "searchPlaceholder": "Søg i artikler..."
   },
   "realEstateHub": {
     "metaTitle": "Juridisk Rådgivning om Fast Ejendom i Spanien | Christian Gefke",

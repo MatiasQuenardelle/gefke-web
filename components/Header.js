@@ -249,6 +249,9 @@ export default function Header() {
               )
             })}
 
+            <Link href="/blog" className="hover:underline px-4 z-50">
+              {t("menu.blog")}
+            </Link>
             <Link href="/about" className="hover:underline px-4 z-50">
               {t("menu.about")}
             </Link>
@@ -286,6 +289,13 @@ export default function Header() {
               )}
             </div>
           ))}
+          <Link
+            href="/blog"
+            className="block font-medium hover:underline"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            {t("menu.blog")}
+          </Link>
           <Link
             href="/about"
             className="block font-medium hover:underline"

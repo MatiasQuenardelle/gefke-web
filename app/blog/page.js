@@ -1,64 +1,17 @@
-import Link from "next/link"
 import { getAllPosts } from "@/lib/blog"
+import BlogPageClient from "./BlogPageClient"
+
+export const metadata = {
+  title: 'Blog | Christian Gefke – Juridiske nyheder om spansk jura',
+  description: 'Læs juridiske nyheder, indsigt og opdateringer om spansk jura for danskere. Få de seneste informationer om skattereformer, lovændringer og praktiske råd.',
+  openGraph: {
+    title: 'Blog – Juridiske nyheder om spansk jura',
+    description: 'Få de seneste juridiske nyheder og indsigt om spansk jura for danskere.',
+  },
+}
 
 export default function BlogPage() {
   const blogPosts = getAllPosts()
 
-  return (
-    <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
-      <div className="max-w-4xl mx-auto space-y-10">
-        <header className="text-center">
-          <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-            Blog
-          </h1>
-          <p className="mt-4 text-lg text-gray-700">
-            Juridiske nyheder og indsigt om spansk jura for danskere
-          </p>
-        </header>
-
-        <div className="space-y-8">
-          {blogPosts.length === 0 ? (
-            <div className="text-center text-gray-600 py-8">
-              Ingen blogindlæg endnu.
-            </div>
-          ) : (
-            blogPosts.map((post) => (
-              <article key={post.slug} className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <h2 className="text-2xl font-bold text-blue-900 mb-2">
-                  <Link href={`/blog/${post.slug}`} className="hover:text-blue-700">
-                    {post.title}
-                  </Link>
-                </h2>
-                <p className="text-gray-700 mb-4">{post.description}</p>
-                <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-                  <time dateTime={post.date}>
-                    {new Date(post.date).toLocaleDateString('da-DK', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric'
-                    })}
-                  </time>
-                  {post.tags && post.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-2">
-                      {post.tags.slice(0, 3).map((tag) => (
-                        <span key={tag} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    className="text-blue-600 hover:text-blue-800 font-medium ml-auto"
-                  >
-                    Læs mere →
-                  </Link>
-                </div>
-              </article>
-            ))
-          )}
-        </div>
-      </div>
-    </main>
-  )
+  return <BlogPageClient blogPosts={blogPosts} />
 }

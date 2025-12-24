@@ -1371,7 +1371,31 @@
         "holdingCompanies": "Holding companies in Spain or Denmark?"
       }
     },
-    "about": "About"
+    "about": "About",
+    "blog": "Blog"
+  },
+  "blog": {
+    "metaTitle": "Blog | Christian Gefke – Legal News on Spanish Law",
+    "metaDescription": "Read legal news, insights and updates on Spanish law for Danes. Get the latest information on tax reforms, legal changes and practical advice.",
+    "ogTitle": "Blog – Legal News on Spanish Law",
+    "ogDescription": "Get the latest legal news and insights on Spanish law for Danes.",
+    "title": "Blog",
+    "subtitle": "Legal news and insights on Spanish law for Danes",
+    "readMore": "Read more",
+    "backToBlog": "← Back to blog",
+    "noPosts": "No blog posts yet.",
+    "author": "Author",
+    "published": "Published",
+    "updated": "Updated",
+    "minRead": "min read",
+    "tags": "Topics",
+    "relatedPosts": "Related articles",
+    "shareArticle": "Share this article",
+    "notFound": "Blog post not found",
+    "featuredArticle": "Featured article",
+    "latestArticles": "Latest articles",
+    "allArticles": "All articles",
+    "searchPlaceholder": "Search articles..."
   },
   "breadcrumb": {
     "home": "Home"

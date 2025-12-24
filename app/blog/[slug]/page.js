@@ -1,7 +1,9 @@
 import Link from "next/link"
+import Image from "next/image"
 import { notFound } from "next/navigation"
 import ReactMarkdown from 'react-markdown'
-import { getPostBySlug, getAllPostSlugs } from "@/lib/blog"
+import { getPostBySlug, getAllPostSlugs, getAllPosts } from "@/lib/blog"
+import BlogPostClient from "./BlogPostClient"
 
 // Generate static params for all blog posts at build time
 export async function generateStaticParams() {
@@ -49,6 +51,59 @@ export async function generateMetadata({ params }) {
   }
 }
 
+// Default placeholder images for blog posts based on tags/categories
+const categoryImages = {
+  skat: "/images/services/business.webp",
+  pension: "/images/services/business.webp",
+  dobbeltbeskatning: "/images/services/business.webp",
+  ejendom: "/images/services/housing.webp",
+  bolig: "/images/services/housing.webp",
+  arv: "/images/services/family.webp",
+  testamente: "/images/services/family.webp",
+  familie: "/images/services/family.webp",
+  udlejning: "/images/services/housing.webp",
+  default: "/images/handshake.webp"
+}
+
+function getPostImage(post) {
+  if (post.image) return post.image
+
+  // Find matching category image based on tags
+  if (post.tags && post.tags.length > 0) {
+    for (const tag of post.tags) {
+      const lowerTag = tag.toLowerCase()
+      for (const [key, image] of Object.entries(categoryImages)) {
+        if (lowerTag.includes(key)) {
+          return image
+        }
+      }
+    }
+  }
+
+  return categoryImages.default
+}
+
+// Get related posts based on matching tags
+function getRelatedPosts(currentPost, allPosts, limit = 3) {
+  if (!currentPost.tags || currentPost.tags.length === 0) {
+    return allPosts.filter(p => p.slug !== currentPost.slug).slice(0, limit)
+  }
+
+  const currentTags = new Set(currentPost.tags.map(t => t.toLowerCase()))
+
+  const postsWithScore = allPosts
+    .filter(p => p.slug !== currentPost.slug)
+    .map(post => {
+      const postTags = (post.tags || []).map(t => t.toLowerCase())
+      const matchingTags = postTags.filter(t => currentTags.has(t)).length
+      return { post, score: matchingTags }
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+
+  return postsWithScore.map(p => p.post)
+}
+
 export default async function BlogPostPage({ params }) {
   const { slug } = await params
   const post = getPostBySlug(slug)
@@ -57,72 +112,20 @@ export default async function BlogPostPage({ params }) {
     notFound()
   }
 
+  const allPosts = getAllPosts()
+  const relatedPosts = getRelatedPosts(post, allPosts)
+  const postImage = getPostImage(post)
+
+  // Calculate reading time (approx 200 words per minute)
+  const wordCount = post.content.split(/\s+/).length
+  const readingTime = Math.ceil(wordCount / 200)
+
   return (
-    <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
-      <article className="max-w-4xl mx-auto space-y-10">
-        <header className="space-y-4">
-          <Link
-            href="/blog"
-            className="text-blue-600 hover:text-blue-800 inline-block mb-4"
-          >
-            ← Tilbage til blog
-          </Link>
-          <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
-            {post.title}
-          </h1>
-          {post.description && (
-            <p className="text-xl text-gray-700">{post.description}</p>
-          )}
-          <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600 pt-4 border-t">
-            <span>Forfatter: {post.author || 'Christian Gefke'}</span>
-            <span>•</span>
-            <time dateTime={post.date}>
-              {new Date(post.date).toLocaleDateString('da-DK', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-              })}
-            </time>
-            {post.lastModified && post.lastModified !== post.date && (
-              <>
-                <span>•</span>
-                <span>
-                  Opdateret: {new Date(post.lastModified).toLocaleDateString('da-DK', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                  })}
-                </span>
-              </>
-            )}
-            {post.tags && post.tags.length > 0 && (
-              <>
-                <span>•</span>
-                <div className="flex flex-wrap gap-2">
-                  {post.tags.map((tag) => (
-                    <span key={tag} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              </>
-            )}
-          </div>
-        </header>
-
-        <div className="prose prose-lg max-w-none prose-headings:text-blue-900 prose-a:text-blue-600 hover:prose-a:text-blue-800">
-          <ReactMarkdown>{post.content}</ReactMarkdown>
-        </div>
-
-        <footer className="border-t pt-8">
-          <Link
-            href="/blog"
-            className="text-blue-600 hover:text-blue-800 font-medium"
-          >
-            ← Tilbage til blog
-          </Link>
-        </footer>
-      </article>
-    </main>
+    <BlogPostClient
+      post={post}
+      postImage={postImage}
+      readingTime={readingTime}
+      relatedPosts={relatedPosts}
+    />
   )
 }

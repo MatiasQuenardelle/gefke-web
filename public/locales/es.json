@@ -1371,7 +1371,31 @@
         "holdingCompanies": "¿Sociedades holding en España o Dinamarca?"
       }
     },
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "blog": "Blog"
+  },
+  "blog": {
+    "metaTitle": "Blog | Christian Gefke – Noticias Legales sobre Derecho Español",
+    "metaDescription": "Lea noticias legales, información y actualizaciones sobre derecho español para daneses. Obtenga la información más reciente sobre reformas fiscales, cambios legales y consejos prácticos.",
+    "ogTitle": "Blog – Noticias Legales sobre Derecho Español",
+    "ogDescription": "Obtenga las últimas noticias legales e información sobre derecho español para daneses.",
+    "title": "Blog",
+    "subtitle": "Noticias legales e información sobre derecho español para daneses",
+    "readMore": "Leer más",
+    "backToBlog": "← Volver al blog",
+    "noPosts": "No hay artículos de blog todavía.",
+    "author": "Autor",
+    "published": "Publicado",
+    "updated": "Actualizado",
+    "minRead": "min de lectura",
+    "tags": "Temas",
+    "relatedPosts": "Artículos relacionados",
+    "shareArticle": "Compartir este artículo",
+    "notFound": "Artículo de blog no encontrado",
+    "featuredArticle": "Artículo destacado",
+    "latestArticles": "Últimos artículos",
+    "allArticles": "Todos los artículos",
+    "searchPlaceholder": "Buscar artículos..."
   },
   "breadcrumb": {
     "home": "Inicio"

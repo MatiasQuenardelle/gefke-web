@@ -6,6 +6,7 @@ import Breadcrumb from "@/components/Breadcrumb"
 import RelatedServices from "@/components/RelatedServices"
 import { getRelatedServices } from "@/lib/relatedServices"
 import ArticleMeta from "@/components/ArticleMeta"
+import FAQSection from "@/components/FAQSection"
 
 export default function BuySellPropertySpain() {
   const { t } = useTranslation()
@@ -195,6 +196,8 @@ export default function BuySellPropertySpain() {
             </p>
           </section>
 
+          <FAQSection translationKey="realEstateBuySell" />
+
           <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
             <h2 className="text-2xl font-bold text-[#3A5A4E]">
               {t("realEstateBuySell.conclusionTitle")}
@@ -214,7 +217,7 @@ export default function BuySellPropertySpain() {
           </section>
         </article>
       </main>
-      
+
       <RelatedServices services={relatedServices} />
     </>
   )

@@ -462,8 +462,43 @@
     "conclusionItem3": "Korrekt håndtering af dokumenter og kontrakter",
     "conclusionItem4": "Personlig rådgivning – på dansk",
     "conclusionText2": "Overvejer du at købe eller sælge bolig i Spanien? Kontakt mig for en gratis og uforpligtende vurdering.",
+    "faqTitle": "Ofte Stillede Spørgsmål om Køb af Bolig i Spanien",
+    "faqs": [
+      {
+        "question": "Hvad koster det at købe bolig i Spanien - hvor meget skal jeg budgettere ekstra?",
+        "answer": "Ud over købesummen skal du budgettere 10-12% i ekstra omkostninger. Dette omfatter: ejendomsoverdragelsesskat (ITP) 6-7%, notar og tinglysning 0,5-1%, ejendomsmæglergebyr 3-5%, advokattakst 1,5-3%, og diverse smågebyrer. Samlet set kan en €250,000 køb ende på €275,000-282,500."
+      },
+      {
+        "question": "Har jeg brug for advokat når jeg køber bolig i Spanien?",
+        "answer": "Ja, det er afgørende at have en uafhængig advokat. Ejendomsmægleren arbejder for sælger, ikke for dig. En advokat sikrer at du får juridisk due diligence, at der ikke er skjulte gæld, og at alle dokumenter er i orden. Omkostningen (€1,500-3,000) er minimal sammenlignet med potentielle problemer."
+      },
+      {
+        "question": "Hvad er NIE-nummer og hvordan får jeg det?",
+        "answer": "NIE (Número de Identificación de Extranjero) er dit spanske skattenummer for udlændinge. Det er obligatorisk for at købe ejendom, åbne bankkonto, eller underskrive kontrakter. Du kan få det via spansk politistation, konsulat i Danmark, eller gennem juridisk repræsentant. Processen tager 1-3 uger."
+      },
+      {
+        "question": "Hvad er ejendomsregistrering og hvorfor er det vigtig?",
+        "answer": "Registrering i Registro de la Propiedad dokumenterer dit ejerskab af ejendommen. Det er afgørende at sikre at ejendommen bliver registreret på dit navn, og at der ikke er tidligere beslag eller gæld på ejendommen. Din advokat skal kontrollere registrene før køb og sikre korrekt registrering efter."
+      },
+      {
+        "question": "Kan jeg få lån til at købe bolig i Spanien som dansker?",
+        "answer": "Ja, mange danske banker yder lån til ejendomskøb i Spanien, typisk op til 60-70% af købesummen. Spanske banker kan også finansiere, men kræver normalt højere egenkapital (30-40%). Typisk rente ligger på 3-5%. Start finansieringssamtaler tidligt, da godkendelse kan tage 4-6 uger."
+      },
+      {
+        "question": "Hvad er 'plusvalía' (gevinstskat) når jeg sælger?",
+        "answer": "Plusvalía er gevinstskat på boligers værdistigning. Hvis du sælger en bolig for €50,000 mere end du gav for den, kan du blive beskattet af denne gevinst. Satsen varierer mellem 19-37% afhængig af hvor længe du har ejet boligen og hvor den ligger. Din advokat kan hjælpe med at minimere denne skat."
+      },
+      {
+        "question": "Hvad betyder 'ejerforeningen' (comunidad) og hvad skal jeg vide?",
+        "answer": "Ejerforeningen administrerer fællesudgifter (vedligeholdelse, forsikring, etc.). Som køber bliver du medlem og skal betale månedlige bidrag (typisk €100-300). Vigtige ting at checke: Er der baglandet gæld? Hvad er den årlige budget? Er der verserende retssager? Din advokat skal få officiel erklæring fra ejerforeningen før køb."
+      },
+      {
+        "question": "Skal jeg være nervøs for byggefejl eller ulovlig konstruktion?",
+        "answer": "Det er en berettiget bekymring. Mange spanske ejendomme har ulovlige udvidelser, manglende byggelicenser, eller kvalitetsproblemer. Før køb skal du få en uafhængig bygningsinspektør til at kontrollere ejendommen. Omkostning: €300-800, men kan spare dig for tusinder i reparationer senere."
+      }
+    ],
     "datePublished": "2024-01-15",
-    "dateModified": "2024-12-01"
+    "dateModified": "2025-12-24"
   },
   "realEstateInvestment": {
     "metaTitle": "Investering i fast ejendom i Spanien | Christian Gefke, Advokat",

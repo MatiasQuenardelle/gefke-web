@@ -200,7 +200,40 @@
     "conclusionTitle": "Konklusion: Få styr på din skat – og undgå dyre overraskelser",
     "conclusionText1": "Det spanske skattesystem er komplekst og adskiller sig væsentligt fra det danske. At vide, om du er residente eller ej, er nøglen til korrekt skatteplanlægning.",
     "conclusionText2": "Juridisk skatterådgivning er afgørende for at undgå fejl, bøder og overbeskatning.",
-    "conclusionText3": "Overvejer du at flytte, investere eller arbejde i Spanien? Kontakt os i dag for professionel skattegennemgang og rådgivning på dansk."
+    "conclusionText3": "Overvejer du at flytte, investere eller arbejde i Spanien? Kontakt os i dag for professionel skattegennemgang og rådgivning på dansk.",
+    "faqTitle": "Ofte Stillede Spørgsmål om Skat i Spanien",
+    "faqs": [
+      {
+        "question": "Hvornår er jeg skattemæssigt hjemmehørende i Spanien?",
+        "answer": "Du betragtes som skattemæssigt hjemmehørende (residente) i Spanien, hvis du opholder dig i landet i mere end 183 dage om året, har dit økonomiske og familiemæssige centrum i Spanien, eller hvis din ægtefælle og/eller børn er bosat i Spanien. Som residente skal du betale skat af din globale indkomst."
+      },
+      {
+        "question": "Hvad er forskellen mellem IRPF og IRNR?",
+        "answer": "IRPF (Impuesto sobre la Renta de las Personas Físicas) er indkomstskat for personer, der er skattemæssigt hjemmehørende i Spanien. IRNR (Impuesto sobre la Renta de No Residentes) gælder for ikke-residente, som kun beskattes af deres spanske indkomst. IRPF har progressiv beskatning (19-47%+), mens IRNR typisk er 19% for EU-borgere og 24% for ikke-EU-borgere."
+      },
+      {
+        "question": "Skal jeg indsende Modelo 720, og hvad sker der hvis jeg ikke gør?",
+        "answer": "Modelo 720 er en informativ selvangivelse, som alle skattemæssigt hjemmehørende i Spanien skal indsende, hvis de har udenlandske aktiver (bankkonti, værdipapirer eller fast ejendom) til en samlet værdi over 50.000 €. Manglende eller forsinket indsendelse kan medføre alvorlige bøder, så det er vigtigt at overholde fristerne."
+      },
+      {
+        "question": "Hvordan undgår jeg dobbeltbeskatning mellem Danmark og Spanien?",
+        "answer": "Danmark og Spanien har en dobbeltbeskatningsoverenskomst, som forhindrer, at du beskattes to gange af samme indkomst. Overenskomsten fastlægger, hvilket land der har beskatningsretten til forskellige indtægtstyper. Du skal typisk indsende et skattebopælsbevis (certificado de residencia fiscal) for at dokumentere din skattemæssige status."
+      },
+      {
+        "question": "Hvad koster det at eje en bolig i Spanien skattemæssigt?",
+        "answer": "Som boligejer i Spanien skal du betale IBI (lokal ejendomsskat) årligt, skat af lejeindtægter eller beregnet lejeværdi (hvis du ikke udlejer), og ved salg skal du betale gevinstskat samt acceptere 3% tilbageholdelse. Derudover kan der være formueskat, hvis din samlede formue overstiger fritagelsesgrænsen."
+      },
+      {
+        "question": "Hvad er Modelo 210, og hvem skal bruge den?",
+        "answer": "Modelo 210 er den skatteformular, som ikke-residente skal bruge til at angive indkomst fra Spanien, fx lejeindtægter fra en udlejningsejendom. Formularen skal indsendes kvartalsvis, og det er vigtigt at overholde fristerne for at undgå bøder."
+      },
+      {
+        "question": "Kan jeg få fradrag som skattemæssigt hjemmehørende i Spanien?",
+        "answer": "Ja, som residente har du adgang til en række fradragsmuligheder i din IRPF-selvangivelse, herunder fradrag for visse sociale bidrag, donationer, investering i energieffektivisering, og i nogle regioner for køb af primær bolig. Fradragene varierer mellem de spanske regioner."
+      }
+    ],
+    "datePublished": "2024-01-15",
+    "dateModified": "2025-12-24"
   },
   "startVirksomhed": {
     "metaTitle": "Starte Virksomhed Spanien | Autónomo Spanien - Juridisk Vejledning",
@@ -311,8 +344,39 @@
     "conclusionText2": "Har du spørgsmål om testamente i Spanien?",
     "conclusionLink": "Kontakt os i dag",
     "conclusionText3": "for dansk juridisk rådgivning.",
+    "faqTitle": "Ofte Stillede Spørgsmål om Testamente og Arv i Spanien",
+    "faqs": [
+      {
+        "question": "Hvad er tvangsarv (la legítima) i Spanien?",
+        "answer": "Tvangsarv (la legítima) er en spansk arveregel, der sikrer, at mindst 2/3 af arven automatisk går til de nærmeste arvinger, typisk børn eller forældre. Kun 1/3 af arven kan testator frit råde over. Dette adskiller sig markant fra dansk arveret, hvor der er større frihed til at fordele arven."
+      },
+      {
+        "question": "Kan jeg vælge dansk lovgivning for min arv i Spanien?",
+        "answer": "Ja, ifølge EU's arveforordning (Rom IV) kan du vælge lovgivningen i dit hjemland til at regulere din arv, selvom du ejer aktiver i Spanien. Ved at oprette et testamente med udtrykkeligt lovvalg til dansk ret, kan du undgå de restriktive spanske tvangsarveregler og opnå større frihed til at fordele din arv."
+      },
+      {
+        "question": "Skal jeg have et testamente i både Danmark og Spanien?",
+        "answer": "Det anbefales at have et spansk testamente for aktiver i Spanien, da det forenkler bobehandlingen betydeligt. Et spansk testamente kan udtrykkeligt henvise til dansk lovgivning som det gældende arveret, hvilket giver dig det bedste fra begge verdener: enkel administration og fleksible arveregler."
+      },
+      {
+        "question": "Hvad sker der, hvis jeg dør uden testamente i Spanien?",
+        "answer": "Uden testamente vil spansk arveret automatisk finde anvendelse, hvilket betyder at reglerne om tvangsarv gælder. Din arv fordeles efter spansk lov, hvilket kan resultere i en fordeling, du ikke havde ønsket, og din ægtefælle kan ende med kun at få en begrænset andel eller brugsret i stedet for ejerskab."
+      },
+      {
+        "question": "Hvordan undgår jeg dobbeltbeskatning af arv mellem Danmark og Spanien?",
+        "answer": "Danmark og Spanien har ikke en specifik dobbeltbeskatningsoverenskomst for arv, men ved korrekt planlægning og dokumentation kan du minimere risikoen for dobbeltbeskatning. Et professionelt udarbejdet testamente med tydelig hjemmel i dansk lovgivning hjælper med at sikre korrekt skattemæssig behandling i begge lande."
+      },
+      {
+        "question": "Hvor skal jeg oprette mit testamente for aktiver i Spanien?",
+        "answer": "Du bør oprette et spansk testamente hos en spansk notar for dine aktiver i Spanien. Dette sikrer, at testamentet er gyldigt efter spansk formalitetskrav og gør bobehandlingen hurtigere og nemmere. Testamentet kan stadig henvise til dansk lovgivning som det gældende arveret."
+      },
+      {
+        "question": "Hvad koster det at oprette et testamente i Spanien?",
+        "answer": "Omkostningerne ved at oprette et testamente hos en spansk notar er relativt beskedne, typisk mellem 50-150 euro afhængigt af kompleksiteten. Det er en lille investering sammenlignet med de potentielle juridiske problemer og omkostninger, som dine arvinger kan stå overfor uden et gyldigt testamente."
+      }
+    ],
     "datePublished": "2024-03-01",
-    "dateModified": "2024-12-01"
+    "dateModified": "2025-12-24"
   },
   "realEstateBuySell": {
     "metaTitle": "Købe Bolig Spanien Advokat | Juridisk Hjælp ved Ejendomskøb i Spanien",
@@ -586,8 +650,39 @@
     "helpItem5": "Statsborgerskab og juridisk rådgivning",
     "ctaTitle": "Ønsker du at bo i Spanien og tage familien med?",
     "ctaText": "Kontakt mig for en individuel vurdering og juridisk rådgivning – uanset din situation.",
+    "faqTitle": "Ofte Stillede Spørgsmål om Opholdstilladelse i Spanien",
+    "faqs": [
+      {
+        "question": "Hvad er forskellen mellem NIE-nummer og opholdstilladelse?",
+        "answer": "NIE-nummer (Número de Identificación de Extranjero) er dit identifikationsnummer i Spanien, som du skal bruge til alle administrative og juridiske forhold. En opholdstilladelse (residencia) giver dig ret til at bo lovligt i Spanien ud over 90 dage. Som EU-borger får du et grønt NIE-kort, når du registrerer din residencia, hvilket kombinerer begge dele."
+      },
+      {
+        "question": "Skal jeg som dansker have opholdstilladelse for at bo i Spanien?",
+        "answer": "Som EU-borger kan du bo i Spanien i op til 90 dage uden nogen form for registrering. Hvis du planlægger at blive længere, skal du registrere dig som resident og få et grønt NIE-registreringsbevis (certificado de registro). Dette er ikke en egentlig tilladelse, men en registrering af din EU-ret til fri bevægelighed."
+      },
+      {
+        "question": "Hvilke dokumenter skal jeg bruge for at få opholdstilladelse som EU-borger?",
+        "answer": "For at registrere din residencia som EU-borger skal du fremvise: gyldig pas eller nationalt ID-kort, bevis for økonomisk selvforsørgelse (arbejdskontrakt, pensionsbevis eller tilstrækkelige midler), sygeforsikring med dækning i Spanien, og udfyldt EX-18 formular. Du skal møde personligt op på det lokale udlændingekontor (Oficina de Extranjería)."
+      },
+      {
+        "question": "Kan min ikke-EU ægtefælle få opholdstilladelse gennem mig?",
+        "answer": "Ja, som EU-borger med residencia i Spanien kan du søge familiesammenføring for din ikke-EU ægtefælle efter EU-direktivet. Dette giver hurtigere sagsbehandling, lavere indkomstkrav og automatisk arbejdstilladelse til din ægtefælle sammenlignet med den nationale ordning. Du skal dokumentere ægteskab, din residencia, bolig og tilstrækkelig økonomi til at forsørge familien."
+      },
+      {
+        "question": "Hvor lang tid tager det at få opholdstilladelse i Spanien?",
+        "answer": "For EU-borgere er registreringen som resident normalt afgjort samme dag eller inden for få dage, hvis alle dokumenter er i orden. For ikke-EU borgere kan sagsbehandlingstiden for opholdstilladelse variere fra 3-6 måneder afhængigt af typen af ansøgning og den lokale myndigheds arbejdsbyrde. Familiesammenføring via EU-reglerne er typisk hurtigere end den nationale ordning."
+      },
+      {
+        "question": "Kan jeg arbejde i Spanien med min EU-opholdstilladelse?",
+        "answer": "Ja, som EU-borger har du automatisk ret til at arbejde i Spanien, når du er registreret som resident. Dit grønne NIE-registreringsbevis giver dig samme rettigheder som spanske statsborgere til at påtage dig arbejde, starte virksomhed eller arbejde som selvstændig (autónomo)."
+      },
+      {
+        "question": "Hvornår kan jeg søge om spansk statsborgerskab?",
+        "answer": "Som dansker skal du normalt have boet lovligt i Spanien i 10 år for at kunne søge om statsborgerskab. Ventetiden er kortere, hvis du er gift med en spanier (1 år), eller hvis du kommer fra visse latinamerikanske lande (2 år). Du skal også bestå DELE A2 sprogtest og CCSE kulturtest samt have en ren straffeattest. Danmark tillader dobbelt statsborgerskab siden 2015."
+      }
+    ],
     "datePublished": "2024-02-20",
-    "dateModified": "2024-12-01"
+    "dateModified": "2025-12-24"
   },
   "internationalInheritance": {
     "metaTitle": "Værneting i internationale arvesager | Christian Gefke",
@@ -1609,6 +1704,175 @@
     "ctaButton": "Kontakt mig",
     "datePublished": "2024-12-18",
     "dateModified": "2024-12-18"
+  },
+  "goldenVisa": {
+    "metaTitle": "Golden Visa Spanien 2025 | Investor Visum - Vejledning for Danskere",
+    "metaDescription": "Få adgang til Golden Visa Spanien. Investor visum for ejendom, virksomhed eller kapitalinvestering. Vejledning for danskere der ønsker permanent ophold.",
+    "ogTitle": "Golden Visa Spanien: Investor Visum 2025",
+    "ogDescription": "Luk til Golden Visa Spanien gennem ejendomsinvestering eller kapitalinvestering. Get permanent residency via investor visa.",
+    "title": "Golden Visa Spanien: Investor Visum til Permanent Ophold",
+    "subtitle": "Din vej til permanent ophold i Spanien gennem ejendom, virksomhed eller kapitalinvestering.",
+    "intro": "Golden Visa er en investorvisa, der giver ikke-EU borgere ret til permanent ophold i Spanien i bytte for betydelig økonomisk investering. Selv danske statsborgere kan få fordele af denne ordning, især hvis de har ikke-EU familiemedlemmer.",
+    "section1Title": "1. Hvad er Golden Visa Spanien?",
+    "section1Text": "Golden Visa er en spansk opholdstilladelse for investorer, der foretager betydelige investeringer i spansk økonomi. Det giver ikke bare ophold i Spanien, men også ret til fri bevægelighed i hele Schengen-området.",
+    "section2Title": "2. Investeringsmuligheder",
+    "section2Subtitle1": "Ejendomsinvestering",
+    "section2Item1": "Minimum investering: 500.000 EUR i spansk fast ejendom",
+    "section2Item2": "Kan være bolig, kommerciel ejendom eller jordejendomme",
+    "section2Item3": "Ejendommen kan være finansieret med lån",
+    "section2Subtitle2": "Virksomhedinvestering",
+    "section2Item4": "Minimum 1.000.000 EUR i en spansk virksomhed",
+    "section2Item5": "Skal skabe mindst 5 arbejdspladser",
+    "section2Item6": "Forudsætter aktivitet og økonomisk effekt",
+    "section2Subtitle3": "Kapitalinvestering",
+    "section2Item7": "Minimum 1.000.000 EUR i spanske statsobligationer",
+    "section2Item8": "Eller 2.000.000 EUR i investeringsfonde",
+    "section2Item9": "Eller 1.500.000 EUR i statspapirer eller banker",
+    "section3Title": "3. Fordele ved Golden Visa",
+    "section3Item1": "Permanent opholdstilladelse i Spanien",
+    "section3Item2": "Fri bevægelighed i hele Schengen-området",
+    "section3Item3": "Mulighed for at medbring ægtefælle og børn",
+    "section3Item4": "Arbejdsret i Spanien",
+    "section3Item5": "Mulighed for spansk statsborgerskab efter 5 år",
+    "section3Item6": "Ingen krav om fysisk ophold (minimum 180 dage årligt)",
+    "section4Title": "4. Ansøgning og proces",
+    "section4Subtitle": "Trin for trin:",
+    "section4Item1": "Identificer investeringsmulighed og dokumenter middler",
+    "section4Item2": "Indsend ansøgning til spansk ambassade/konsulat",
+    "section4Item3": "Få interview og baggrundstjek (3-6 måneder)",
+    "section4Item4": "Modtag visum (kort opholdstilladelse)",
+    "section4Item5": "Registrer dig lokalt i Spanien",
+    "section4Item6": "Få permanent residencia efter et år",
+    "section5Title": "5. Omkostninger og gebyrer",
+    "section5Text": "Golden Visa involverer både investeringsomkostninger og administrative gebyrer. Du skal budget for juridisk rådgivning, notartakster, registreringsgebyrer samt investeringen selv.",
+    "conclusionTitle": "Konklusion: Åbn døren til Spanien",
+    "conclusionText": "Golden Visa Spanien er en attraktiv ordning for investorer, der ønsker permanent ophold i Spanien og adgang til Schengen-området. Med rette planlægning kan du kombinere investering med familiesammenføring.",
+    "datePublished": "2024-10-01",
+    "dateModified": "2025-12-24"
+  },
+  "nieNummerGuide": {
+    "metaTitle": "NIE Nummer Spanien | Ansøgning & Guide - Juridisk Hjælp",
+    "metaDescription": "Komplet guide til NIE nummer spanien. Hvad det er, hvordan du ansøger, dokumenter du skal bruge, og tidsfrister. Juridisk vejledning for danskere.",
+    "ogTitle": "NIE Nummer Spanien: Komplet Ansøgningsguide",
+    "ogDescription": "Få dit NIE nummer i Spanien. Guide til ansøgning, dokumenter, tidsfrister og hvad du skal bruge det til.",
+    "title": "NIE Nummer Spanien: Din Identifikation i Spanien",
+    "subtitle": "Få styr på hvad NIE nummeret er, hvordan du ansøger, og hvad du skal bruge det til.",
+    "intro": "NIE-nummeret (Número de Identificación de Extranjero) er dit officielle identifikationsnummer i Spanien. Det er påkrævet for næsten alle juridiske og økonomiske transaktioner og er det første, du skal have som udenlandsk statsborger.",
+    "section1Title": "1. Hvad er NIE-nummeret?",
+    "section1Text": "NIE-nummeret er et 8-tegns identifikationsnummer, som alle udenlandske statsborgere skal have for at handle i Spanien. Det bruges til skatt, banktransaktioner, ejendomskøb, ansættelse og alle officielle forhold.",
+    "section2Title": "2. Typer af NIE",
+    "section2Subtitle1": "NIE til opholdstilladelse (EU-borgere)",
+    "section2Item1": "Grønt registreringsbevis (certificado de registro)",
+    "section2Item2": "Gives ved registrering som resident",
+    "section2Item3": "Kræver dokumentation af økonomisk selvforsørgelse",
+    "section2Subtitle2": "NIE til ikke-EU borgere",
+    "section2Item4": "Gives via ansøgning til opholdstilladelse",
+    "section2Item5": "Kræver konsulaire ansøgning",
+    "section2Item6": "Behandling kan tage længere tid",
+    "section3Title": "3. Hvordan ansøger du NIE-nummeret?",
+    "section3Item1": "Som EU-borger: Møde op på lokalt udlændingekontor (Oficina de Extranjería)",
+    "section3Item2": "Som ikke-EU borger: Ansøg via spansk ambassade/konsulat",
+    "section3Item3": "Udfyld formular EX-15 (EU-borgere) eller relevante formularer",
+    "section3Item4": "Bring gyldigt pas og dokumentation",
+    "section3Item5": "Modtag NIE samme dag (EU-borgere) eller inden få dage",
+    "section4Title": "4. Dokumenter du skal bruge",
+    "section4Item1": "Gyldigt pas eller nationalt ID-kort",
+    "section4Item2": "Ansøgningsformular (EX-15 for EU-borgere)",
+    "section4Item3": "Bevis for adresse i Spanien",
+    "section4Item4": "For arbejde: arbejdskontrakt eller jobanbud",
+    "section4Item5": "For opholdstilladelse: sygeforsikringsbevis og økonomibevis",
+    "section5Title": "5. Hvad skal du bruge NIE-nummeret til?",
+    "section5Item1": "Bank- og finanstransaktioner",
+    "section5Item2": "Skatteforhold og selvangivelse",
+    "section5Item3": "Ejendomskøb og salg",
+    "section5Item4": "Arbejdsansættelse",
+    "section5Item5": "Boligudlejning",
+    "section5Item6": "Virksomhedsetablering",
+    "conclusionTitle": "Konklusion: NIE-nummeret er uundværligt",
+    "conclusionText": "Som udenlandsk statsborger i Spanien er NIE-nummeret afgørende for at håndtere alle juridiske, skattemæssige og økonomiske forhold. Det er relativt nemt at få, og du bør ansøge det så tidligt som muligt.",
+    "datePublished": "2024-09-15",
+    "dateModified": "2025-12-24"
+  },
+  "modelo720Guide": {
+    "metaTitle": "Modelo 720 Guide | Udenlandske Aktiver Spanien - Vejledning",
+    "metaDescription": "Komplet guide til Modelo 720 formular - oplysning om udenlandske aktiver. Hvad skal du angive, tidsfrister, konsekvenser. Juridisk vejledning for danskere.",
+    "ogTitle": "Modelo 720: Guide til Angivelse af Udenlandske Aktiver",
+    "ogDescription": "Lær alt om Modelo 720 - hvad det er, hvad du skal angive, tidsfrister og bøder hvis du glemmer det.",
+    "title": "Modelo 720: Vejledning til Angivelse af Udenlandske Aktiver",
+    "subtitle": "Forståelse af Modelo 720 formular og hvordan du angiver dine udenlandske aktiver korrekt.",
+    "intro": "Modelo 720 er en informativ selvangivelse, som alle skattemæssigt hjemmehørende personer i Spanien skal indsende, hvis de ejer udenlandske aktiver til en samlet værdi over 50.000 EUR. Manglende eller forkert indsendelse kan medføre betydelige bøder.",
+    "section1Title": "1. Hvad er Modelo 720?",
+    "section1Text": "Modelo 720 er en obligatorisk selvangivelse for personer, der betaler skat i Spanien (residente) og ejer udenlandske aktiver. Det er ikke en skatteberegning, men en informativ erklæring om dine udenlandske ejendele.",
+    "section2Title": "2. Hvem skal indsende Modelo 720?",
+    "section2Item1": "Skattemæssigt hjemmehørende personer i Spanien",
+    "section2Item2": "Med udenlandske aktiver til værdi over 50.000 EUR",
+    "section2Item3": "Udenlandske bankkonti, værdipapirer, fast ejendom, virksomhedsandele mv.",
+    "section3Title": "3. Hvad skal du angive?",
+    "section3Subtitle": "Modellen skal indeholde:",
+    "section3Item1": "Bankkonti i udlandet",
+    "section3Item2": "Værdipapirer (aktier, obligationer, fonde)",
+    "section3Item3": "Fast ejendom uden for Spanien",
+    "section3Item4": "Andele i udenlandske virksomheder",
+    "section3Item5": "Andre finansielle aktiver",
+    "section4Title": "4. Hvornår skal Modelo 720 indsendes?",
+    "section4Item1": "Frist: 20. april hvert år",
+    "section4Item2": "For det foregående kalenderår",
+    "section4Item3": "Elektronisk via www.aeat.es",
+    "section4Item4": "Gælder for alle residente uanset nationalitet",
+    "section5Title": "5. Konsekvenser ved ikke-indsendelse",
+    "section5Item1": "Minimum bøde: 10.000 EUR (simple mandater)",
+    "section5Item2": "Mulighed for straffeudladelse ved frivillig angivelse",
+    "section5Item3": "Kriminelle sanktioner ved betydelig underslæb",
+    "section5Item4": "Interesse på baglandet",
+    "section6Title": "6. Tips til korrekt indsendelse",
+    "section6Item1": "Hold dokumentation for alle udenlandske aktiver",
+    "section6Item2": "Angiv værdier på ansøgningsdagen eller årsskiftet",
+    "section6Item3": "Være præcis med IBAN-numre og bankoplysninger",
+    "section6Item4": "Indsend i tide og bevar kvittering",
+    "conclusionTitle": "Konklusion: Modelo 720 er vigtig dokumentation",
+    "conclusionText": "Modelo 720 er en afgørende årlig selvangivelse for danskere og andre udenlandske statsborgere i Spanien, der ejer aktiver i deres hjemland eller andetsteds. At overholde denne forpligtelse beskytter dig mod betydelige bøder og juridiske konsekvenser.",
+    "datePublished": "2024-08-20",
+    "dateModified": "2025-12-24"
+  },
+  "beckhamLov": {
+    "metaTitle": "Beckham Lov Spanien 2025 | Særlig Skatteordning - Vejledning",
+    "metaDescription": "Vejledning til Beckham Loven i Spanien - særlig skatteordning. Hvem kan anvende det, besparelser, krav og betingelser for danskere.",
+    "ogTitle": "Beckham Lov Spanien: Særlig Skatteordning for Tilflyttere",
+    "ogDescription": "Lær om Beckham Loven i Spanien - opnå skattelettelser som nyligt flyttet til landet. Guide og forudsætninger.",
+    "title": "Beckham Loven Spanien: Særlig Skatteordning for Tilflyttere",
+    "subtitle": "Hvordan du kan få betydelige skattelettelser som nyligt flytter til Spanien.",
+    "intro": "Beckham Loven (Ley de Beckham) er en særlig spansk skatteordning, der giver personer, der flytter til Spanien, mulighed for at betale en forholdsvis lav skat på udenlandsk indkomst i 4 år. Ordningen kan spare dig for tusinder af EUR årligt.",
+    "section1Title": "1. Hvad er Beckham Loven?",
+    "section1Text": "Beckham Loven er en permanent skatteordning, der tillader nyligt ankomne personer i Spanien at betale en fast skat på udenlandsk indkomst (20%) i stedet for den normale progressive indkomstskat (19-47%). Det giver betydelige skattebesparelser, især for højtlønnede.",
+    "section2Title": "2. Hvem kan ansøge?",
+    "section2Item1": "Nye skattemæssige residenter i Spanien",
+    "section2Item2": "Der ikke var residenter i de seneste 10 år",
+    "section2Item3": "Har udenlandsk indkomst (løn, pension, udbytte mv.)",
+    "section2Item4": "Nystiftede vigtigheds- eller bestyrelsesfunktioner i spanske virksomheder",
+    "section3Title": "3. Fordele og skattebesparelser",
+    "section3Item1": "Flat skat på 20% for udenlandsk indkomst (mod 19-47%)",
+    "section3Item2": "4 år gyldig ordning",
+    "section3Item3": "Kan spares betydeligt årligt, især hvis høj indkomst",
+    "section3Item4": "Mulighed for forlængelse under visse betingelser",
+    "section4Title": "4. Krav og betingelser",
+    "section4Item1": "Skal være ny skattemæssig resident i Spanien",
+    "section4Item2": "Skal ansøge før eller ved skattetilmelding",
+    "section4Item3": "Gælder kun udenlandsk indkomst",
+    "section4Item4": "Spansk indkomst beskattes normalt",
+    "section5Title": "5. Ansøgningsproces",
+    "section5Item1": "Ansøg via skattestyrelsen (Agencia Tributaria) sammen med skattetilmeldingen",
+    "section5Item2": "Udfyld relevant formular og dokumenter indkomstkilder",
+    "section5Item3": "Ordningen aktiveres ved den første skatteselvangivelse",
+    "section5Item4": "Normalt automatisk godkendt for berettigede personer",
+    "section6Title": "6. Vigtige bemærkninger",
+    "section6Item1": "Ordningen gælder fra året for skatteboligfastsættelse",
+    "section6Item2": "Spansk indkomst er ikke omfattet",
+    "section6Item3": "Du skal stadig overholde alle andre skattemæssige forpligtelser",
+    "section6Item4": "Dokumenter alt omhyggeligt",
+    "conclusionTitle": "Konklusion: Beckham Loven kan spare dig betydeligt",
+    "conclusionText": "Hvis du er ved at flytte til Spanien med betydelig udenlandsk indkomst, kan Beckham Loven være en enorm fordel. Med korrekt planlægning og ansøgning kan du spare tusinder af EUR årligt i skat og få mere økonomisk frihed i dine første år som spansk resident.",
+    "datePublished": "2024-07-10",
+    "dateModified": "2025-12-24"
   },
   "publications": {
     "title": "Publikationer",

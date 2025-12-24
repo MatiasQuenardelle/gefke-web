@@ -7,6 +7,7 @@ import RelatedServices from "@/components/RelatedServices"
 import { getRelatedServices } from "@/lib/relatedServices"
 import Link from "next/link"
 import ArticleMeta from "@/components/ArticleMeta"
+import FAQSection from "@/components/FAQSection"
 
 export default function ResidencySpainArticle() {
   const { t } = useTranslation()
@@ -198,6 +199,8 @@ export default function ResidencySpainArticle() {
             </ul>
           </section>
 
+          <FAQSection translationKey="residency" />
+
           <section className="text-center mt-10">
             <h2 className="text-2xl font-bold text-[#4AA07D] mb-4">
               {t("residency.ctaTitle")}
@@ -208,7 +211,7 @@ export default function ResidencySpainArticle() {
           </section>
         </article>
       </main>
-      
+
       <RelatedServices services={relatedServices} />
     </>
   )

@@ -1,13 +1,17 @@
 ---
+lang: "da"
 title: "Arv i Spanien: Dansk eller spansk lov?"
 description: "Guide til arveret for danskere med ejendom i Spanien - hvad du skal vide om lovvalg og testamenter"
 date: "2024-03-20"
 author: "Christian Gefke"
 tags: ["arv", "testamente", "lovvalg", "spanien"]
-image: "/images/services/family.jpg"
+image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Juridiske dokumenter om arveret"
 ---
 
 # Arv i Spanien: Dansk eller spansk lov?
+
+![Juridisk rådgivning om arveret](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80)
 
 Hvis du som dansker ejer ejendom i Spanien, skal du forholde dig til komplekse spørgsmål om arv og testamenter. EU's arveforordning har ændret reglerne markant siden 2015.
 

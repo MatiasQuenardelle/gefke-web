@@ -1,13 +1,17 @@
 ---
+lang: "da"
 title: "Guide til køb af bolig i Spanien"
 description: "Alt du skal vide om at købe ejendom i Spanien som dansker"
 date: "2024-01-15"
 author: "Christian Gefke"
 tags: ["ejendom", "spanien", "køb"]
-image: "/images/services/housing.jpg"
+image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Spansk ejendom med hav i baggrunden"
 ---
 
 # Guide til køb af bolig i Spanien
+
+![Smuk spansk villa med havudsigt](https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80)
 
 Når du overvejer at købe bolig i Spanien, er der flere vigtige forhold at være opmærksom på. Som dansker skal du kende de juridiske krav og processer, der er forbundet med ejendomskøb i Spanien.
 

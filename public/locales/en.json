@@ -1395,7 +1395,9 @@
     "featuredArticle": "Featured article",
     "latestArticles": "Latest articles",
     "allArticles": "All articles",
-    "searchPlaceholder": "Search articles..."
+    "searchPlaceholder": "Search articles...",
+    "languageFallback": "This article is only available in Danish",
+    "availableIn": "Available in"
   },
   "breadcrumb": {
     "home": "Home"

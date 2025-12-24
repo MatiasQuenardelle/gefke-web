@@ -1395,7 +1395,9 @@
     "featuredArticle": "Artículo destacado",
     "latestArticles": "Últimos artículos",
     "allArticles": "Todos los artículos",
-    "searchPlaceholder": "Buscar artículos..."
+    "searchPlaceholder": "Buscar artículos...",
+    "languageFallback": "Este artículo solo está disponible en danés",
+    "availableIn": "Disponible en"
   },
   "breadcrumb": {
     "home": "Inicio"

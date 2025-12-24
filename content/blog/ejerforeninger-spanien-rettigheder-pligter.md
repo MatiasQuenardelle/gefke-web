@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Ejerforeninger i Spanien: Dine Rettigheder og Pligter som Dansk Ejer"
 description: "Alt om spanske ejerforeninger (Comunidad de Propietarios). Lær om fællesudgifter, generalforsamlinger, stemmeret og hvordan du beskytter dine interesser."
 date: "2024-12-18"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["ejerforening", "comunidad de propietarios", "fællesudgifter", "generalforsamling", "boligejerskab"]
 keywords: ["ejerforening spanien", "comunidad de propietarios", "fællesudgifter spanien", "generalforsamling spanien", "gastos de comunidad", "junta de propietarios", "administrator spanien"]
-image: "/images/blog/ejerforening-spanien.jpg"
+image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
 imageAlt: "Spansk boligkompleks med pool og fællesarealer"
 ---
 
 # Ejerforeninger i Spanien: Dine Rettigheder og Pligter som Dansk Ejer
+
+![Moderne lejlighedskompleks med fælles pool](https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80)
 
 Når du køber bolig i Spanien - hvad enten det er en lejlighed i et kompleks ved Costa del Sol eller en rækkehus-villa i en *urbanización* - bliver du automatisk medlem af en *Comunidad de Propietarios* (ejerforening). For mange danske boligkøbere er dette koncept velkendt fra Danmark, men de spanske regler har væsentlige forskelle, som kan overraske dig.
 

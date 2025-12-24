@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Ikke-Resident Skat i Spanien: IBI, IRNR og Plusværdiskat Forklaret"
 description: "Komplet guide til skatter for ikke-residenter med ejendom i Spanien. Lær om IBI, IRNR (Modelo 210), plusværdiskat ved salg og årlige forpligtelser."
 date: "2024-09-20"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["skat", "ikke-resident", "ejendomsskat", "modelo 210", "IBI", "plusværdiskat"]
 keywords: ["ikke-resident skat spanien", "IBI skat spanien", "plusværdiskat spanien", "ejendomsskat spanien dansker", "modelo 210", "IRNR", "kapitalgevinstskat spanien"]
-image: "/images/blog/ikke-resident-skat-spanien.jpg"
-imageAlt: "Dansk feriebolig i Spanien med skatteformularer"
+image: "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Skatteformularer og dokumenter for ejendomsskat"
 ---
 
 # Ikke-Resident Skat i Spanien: IBI, IRNR og Plusværdiskat Forklaret
+
+![Skatteberegning for ejendom i Spanien](https://images.unsplash.com/photo-1586348943529-beaae6c28db9?auto=format&fit=crop&w=800&q=80)
 
 Ejer du en feriebolig i Spanien uden at være bosiddende der? Så skal du være opmærksom på tre vigtige skattetyper, der gælder for ikke-residenter: IBI (kommunal ejendomsskat), IRNR (statslig ikke-resident indkomstskat via Modelo 210), og plusværdiskat ved salg af ejendommen. Mange danske boligejere overser disse forpligtelser, hvilket kan føre til bøder, renter og endda problemer ved salg af ejendommen.
 

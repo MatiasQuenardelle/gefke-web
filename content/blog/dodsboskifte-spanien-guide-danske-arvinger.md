@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Dødsboskifte i Spanien: Trin-for-Trin Guide for Danske Arvinger"
 description: "Komplet guide til dødsboskifte i Spanien for danskere. Lær om frister, dokumenter, arveafgift og forskellen mellem dansk og spansk arveret."
 date: "2024-09-05"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["arv", "dødsboskifte", "arveret", "arveafgift", "testamente"]
 keywords: ["dødsboskifte spanien", "arv spanien dansker", "skifte dødsbo spanien", "arveafgift spanien", "dansk arveret spanien", "spansk arveret"]
-image: "/images/blog/dodsboskifte-spanien-guide.jpg"
+image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80"
 imageAlt: "Juridiske dokumenter til dødsboskifte i Spanien"
 ---
 
 # Dødsboskifte i Spanien: Trin-for-Trin Guide for Danske Arvinger
+
+![Juridiske dokumenter og underskrift](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80)
 
 At miste en pårørende er en af livets sværeste prøvelser. Når den afdøde havde ejendom eller andre aktiver i Spanien, tilføjes yderligere juridiske og administrative udfordringer til sorgprocessen. For mange danske arvinger kan dødsboskifte i Spanien virke kompliceret og uoverskueligt, især når man samtidig skal forholde sig til danske regler.
 

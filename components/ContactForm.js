@@ -1,11 +1,9 @@
 "use client"
-import { useState, useRef, lazy, Suspense } from "react"
+import { useState, useRef } from "react"
 import emailjs from "@emailjs/browser"
 import { useTranslation } from "react-i18next"
-import WhatsAppWidget from "@/components/WhatsAppWidget" // ⬅️ new
-
-// Lazy load hCaptcha to reduce initial bundle size
-const HCaptcha = lazy(() => import("@hcaptcha/react-hcaptcha"))
+import WhatsAppWidget from "@/components/WhatsAppWidget"
+import HCaptcha from "@hcaptcha/react-hcaptcha"
 
 export default function ContactForm({
   showWhatsApp = false, // toggle the widget
@@ -112,15 +110,13 @@ export default function ContactForm({
             />
           </div>
 
-          {/* captcha - lazy loaded */}
+          {/* captcha */}
           <div className="pt-2">
-            <Suspense fallback={<div className="h-[78px] bg-gray-100 rounded animate-pulse" />}>
-              <HCaptcha
-                sitekey={process.env.NEXT_PUBLIC_HCAPTCHA_SITEKEY}
-                onVerify={(token) => setCaptchaToken(token)}
-                ref={captchaRef}
-              />
-            </Suspense>
+            <HCaptcha
+              sitekey={process.env.NEXT_PUBLIC_HCAPTCHA_SITEKEY}
+              onVerify={(token) => setCaptchaToken(token)}
+              ref={captchaRef}
+            />
           </div>
 
           {/* send button */}

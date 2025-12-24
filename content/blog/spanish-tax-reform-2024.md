@@ -1,13 +1,17 @@
 ---
+lang: "da"
 title: "Skattereform i Spanien: Hvad betyder det for danskere?"
 description: "En gennemgang af de seneste skattereformer i Spanien og deres konsekvenser for danske statsborgere"
 date: "2024-11-15"
 author: "Christian Gefke"
 tags: ["skat", "reform", "spanien", "2024"]
-image: "/images/services/business.jpg"
+image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Økonomiske grafer og skattereform"
 ---
 
 # Skattereform i Spanien: Hvad betyder det for danskere?
+
+![Finansielle data og økonomisk analyse](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80)
 
 De seneste år har Spanien gennemført flere skattereformer, der påvirker både residenter og ikke-residenter. Som dansker med interesser i Spanien er det vigtigt at holde sig opdateret om disse ændringer.
 

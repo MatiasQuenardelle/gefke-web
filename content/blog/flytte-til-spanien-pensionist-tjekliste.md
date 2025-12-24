@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Flytte til Spanien som Pensionist: Komplet Skattemæssig Tjekliste 2025"
 description: "Alt du skal vide om at flytte til Spanien som dansk pensionist. Skat, sundhedsforsikring, pension, registrering og de vigtigste frister."
 date: "2024-08-28"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["pensionister", "udflytning", "skat", "sundhed", "registrering"]
 keywords: ["flytte til spanien pensionist", "pensionist spanien skat", "dansk pensionist spanien", "udflytning spanien", "pension spanien beskatning"]
-image: "/images/blog/flytte-spanien-pensionist.jpg"
-imageAlt: "Ældre par nyder livet på spansk terrasse med havudsigt"
+image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Ældre par nyder livet under den spanske sol"
 ---
 
 # Flytte til Spanien som Pensionist: Komplet Skattemæssig Tjekliste 2025
+
+![Ældre par nyder udsigten ved Middelhavet](https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=800&q=80)
 
 Drømmen om et liv i solen driver hvert år hundredvis af danske pensionister til at flytte til Spanien. Og med god grund: Det milde klima, den afslappede livsstil, lavere leveomkostninger og ikke mindst det fantastiske vejr gør Spanien til en oplagt destination for den aktive pensionist.
 

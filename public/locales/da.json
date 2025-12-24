@@ -1438,7 +1438,9 @@
     "featuredArticle": "Fremhævet artikel",
     "latestArticles": "Seneste artikler",
     "allArticles": "Alle artikler",
-    "searchPlaceholder": "Søg i artikler..."
+    "searchPlaceholder": "Søg i artikler...",
+    "languageFallback": "Denne artikel er kun tilgængelig på dansk",
+    "availableIn": "Tilgængelig på"
   },
   "realEstateHub": {
     "metaTitle": "Juridisk Rådgivning om Fast Ejendom i Spanien | Christian Gefke",

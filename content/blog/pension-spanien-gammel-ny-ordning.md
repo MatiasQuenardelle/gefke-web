@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Pension i Spanien: Gammel vs. Ny Ordning Forklaret for Danske Pensionister"
 description: "Forstå forskellen mellem gammel og ny ordning for danske pensionister i Spanien. Lær hvordan din pension beskattes og hvad du skal indberette."
 date: "2024-11-05"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["pension", "skat", "dobbeltbeskatning", "pensionist", "gammel ordning", "ny ordning"]
 keywords: ["pension spanien beskatning", "dansk pension spanien", "gammel ordning ny ordning spanien", "pensionist spanien skat", "pensionsbeskatning spanien", "dobbeltbeskatning pension"]
-image: "/images/blog/pension-spanien-gammel-ny-ordning.jpg"
-imageAlt: "Danske pensionister nyder livet i Spanien"
+image: "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Pensionister nyder livet ved Middelhavet"
 ---
 
 # Pension i Spanien: Gammel vs. Ny Ordning Forklaret
+
+![Ældre par på terrasse med havudsigt i Spanien](https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=800&q=80)
 
 At nyde sin pension under den spanske sol er drømmen for tusindvis af danske pensionister. Men når drømmen skal realiseres, møder mange komplekse spørgsmål om skat og pension: Hvor skal jeg betale skat? Skal jeg indberette i begge lande? Hvad betyder "gammel ordning" og "ny ordning"?
 

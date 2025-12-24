@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Dobbeltbeskatning Danmark-Spanien: Komplet Guide 2025"
 description: "Alt om dobbeltbeskatning mellem Danmark og Spanien efter opsigelsen af overenskomsten. Lær om gammel/ny ordning, lempelsesregler og hvordan du undgår at betale skat to gange."
 date: "2024-08-15"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["skat", "dobbeltbeskatning", "pensionister", "udflytning"]
 keywords: ["dobbeltbeskatning danmark spanien", "skat spanien dansker", "opsigelse dobbeltbeskatningsoverenskomst", "gammel ordning ny ordning", "lempelse dobbeltbeskatning"]
-image: "/images/blog/dobbeltbeskatning-danmark-spanien.jpg"
-imageAlt: "Danske og spanske flag symboliserer dobbeltbeskatning mellem landene"
+image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Skatteberegning og dokumenter symboliserer dobbeltbeskatning"
 ---
 
 # Dobbeltbeskatning Danmark-Spanien: Komplet Guide 2025
+
+![Skatteberegning med lommeregner og dokumenter](https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80)
 
 Hvis du som dansker bor i Spanien eller overvejer at flytte dertil, er dobbeltbeskatning et emne, du simpelthen ikke kan komme udenom. Siden Danmark opsagde dobbeltbeskatningsoverenskomsten med Spanien i 2008 med virkning fra 2009, er skatteforholdene blevet væsentligt mere komplekse for danskere med tilknytning til begge lande.
 

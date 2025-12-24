@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Feriebolig Udlejning i Spanien: Licenser, Regler og Krav 2025"
 description: "Alt om lovlig udlejning af din feriebolig i Spanien. Lær om turistlicens, regionale krav, ejerforeningens godkendelse og skattemæssige forpligtelser."
 date: "2024-10-10"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["udlejning", "turistlicens", "feriebolig", "airbnb", "korttidsudlejning", "ejerforening"]
 keywords: ["feriebolig udlejning spanien regler", "turistlicens spanien", "udleje feriebolig spanien", "airbnb spanien regler", "VUT licens spanien", "korttidsudlejning spanien lovligt", "ejerforening godkendelse udlejning"]
-image: "/images/blog/feriebolig-udlejning-spanien.jpg"
-imageAlt: "Feriebolig i Spanien med pool og skilt om udlejning"
+image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Feriebolig i Spanien klar til udlejning"
 ---
 
 # Feriebolig Udlejning i Spanien: Licenser, Regler og Krav 2025
+
+![Moderne feriebolig med lyse farver og terrasse](https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80)
 
 Drømmer du om at finansiere din spanske feriebolig gennem udlejning på Airbnb eller Booking.com? Det er du ikke alene om. Tusindvis af danske boligejere supplerer deres økonomi ved at udleje deres spanske feriebolig, når de selv ikke bruger den.
 

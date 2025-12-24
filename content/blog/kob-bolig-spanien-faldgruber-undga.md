@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Køb af Bolig i Spanien: 10 Faldgruber Danske Købere Skal Undgå"
 description: "Undgå de mest almindelige fejl ved boligkøb i Spanien. Fra ulovlige tilbygninger til skjult gæld - her er 10 faldgruber og hvordan du beskytter dig."
 date: "2024-10-28"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["ejendom", "boligkøb", "rådgivning", "faldgruber"]
 keywords: ["købe bolig spanien", "faldgruber boligkøb spanien", "advokat boligkøb spanien", "problemer huskøb spanien", "købe hus spanien"]
-image: "/images/blog/kob-bolig-spanien-faldgruber.jpg"
+image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
 imageAlt: "Spansk villa med pool - symboliserer boligkøb i Spanien"
 ---
 
 # Køb af Bolig i Spanien: 10 Faldgruber Danske Købere Skal Undgå
+
+![Smuk spansk villa med pool under blå himmel](https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80)
 
 Drømmen om et liv i solen driver hvert år hundredvis af danskere til at købe bolig i Spanien. Men hvad der starter som en drøm, kan hurtigt blive til et mareridt, hvis du ikke er opmærksom på de mange faldgruber, der lurer ved et spansk boligkøb.
 

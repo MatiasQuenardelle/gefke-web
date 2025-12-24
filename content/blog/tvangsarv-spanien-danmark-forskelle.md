@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Tvangsarv i Spanien vs. Danmark: De Vigtige Forskelle Du Skal Kende"
 description: "Forstå de store forskelle mellem dansk og spansk arveret. Lær om tvangsarv, ægtefællens stilling og hvordan lovvalg kan beskytte dine ønsker."
 date: "2024-12-10"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["arveret", "tvangsarv", "testamente", "lovvalg", "EU arveretsforordning"]
 keywords: ["tvangsarv spanien", "spansk arveret", "arv spanien vs danmark", "ægtefælle arv spanien", "legitima spanien", "dansk lovvalg spanien", "EU arveretsforordning"]
-image: "/images/blog/tvangsarv-spanien-danmark.jpg"
-imageAlt: "Familie der diskuterer arv og testamente"
+image: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Familie diskuterer arv og testamente"
 ---
 
 # Tvangsarv i Spanien vs. Danmark: De Vigtige Forskelle Du Skal Kende
+
+![Familie samlet omkring vigtige dokumenter](https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=800&q=80)
 
 Forestil dig dette scenarie: Et dansk ægtepar køber en feriebolig i Spanien. De lever i den tro, at når den ene dør, arver den anden automatisk hele ejendommen - præcis som de ville forvente i Danmark. Men i Spanien er reglerne fundamentalt anderledes. Uden det rigtige testamente kan børnene pludselig eje 2/3 af ejendommen, mens den efterlevende ægtefælle kun har brugsret. Dette kan føre til enorme konflikter og økonomiske problemer.
 

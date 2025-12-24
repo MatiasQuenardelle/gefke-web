@@ -1,11 +1,14 @@
 "use client"
 
+import { useMemo } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { useTranslation } from "react-i18next"
 import { Merriweather } from "next/font/google"
 
 const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
+
+const DEFAULT_LANGUAGE = 'da'
 
 // Default placeholder images for blog posts based on tags/categories
 const categoryImages = {
@@ -58,6 +61,9 @@ function BlogHero() {
 function FeaturedPost({ post }) {
   const { t, i18n } = useTranslation()
   const postImage = getPostImage(post)
+  const currentLang = i18n.language || DEFAULT_LANGUAGE
+  const postLang = post.lang || DEFAULT_LANGUAGE
+  const showLangBadge = post.isFallback || (currentLang !== postLang && postLang !== currentLang)
 
   return (
     <article className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow duration-300">
@@ -71,10 +77,15 @@ function FeaturedPost({ post }) {
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
-            <div className="absolute top-4 left-4">
+            <div className="absolute top-4 left-4 flex gap-2">
               <span className="bg-blue-600 text-white text-xs font-semibold px-3 py-1.5 rounded-full">
                 {t("blog.featuredArticle")}
               </span>
+              {showLangBadge && (
+                <span className="bg-amber-100 text-amber-800 text-xs font-semibold px-3 py-1.5 rounded-full">
+                  Dansk
+                </span>
+              )}
             </div>
           </div>
           <div className="p-6 md:p-8 flex flex-col justify-center">
@@ -116,9 +127,25 @@ function FeaturedPost({ post }) {
   )
 }
 
+function LanguageBadge({ lang }) {
+  const langNames = {
+    da: 'Dansk',
+    en: 'English',
+    es: 'Español'
+  }
+  return (
+    <span className="bg-amber-100 text-amber-800 px-2 py-0.5 rounded text-xs font-medium">
+      {langNames[lang] || lang}
+    </span>
+  )
+}
+
 function BlogCard({ post }) {
   const { t, i18n } = useTranslation()
   const postImage = getPostImage(post)
+  const currentLang = i18n.language || DEFAULT_LANGUAGE
+  const postLang = post.lang || DEFAULT_LANGUAGE
+  const showLangBadge = post.isFallback || (currentLang !== postLang && postLang !== currentLang)
 
   return (
     <article className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md hover:border-gray-200 transition-all duration-300 flex flex-col h-full">
@@ -131,6 +158,11 @@ function BlogCard({ post }) {
             className="object-cover"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
+          {showLangBadge && (
+            <div className="absolute top-2 right-2">
+              <LanguageBadge lang={postLang} />
+            </div>
+          )}
         </div>
         <div className="p-5 flex flex-col flex-1">
           <div className="flex flex-wrap gap-1.5 mb-3">
@@ -168,10 +200,39 @@ function BlogCard({ post }) {
 }
 
 export default function BlogPageClient({ blogPosts }) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
-  const featuredPost = blogPosts[0]
-  const otherPosts = blogPosts.slice(1)
+  // Filter posts by current language with Danish fallback
+  const filteredPosts = useMemo(() => {
+    const currentLang = i18n.language || DEFAULT_LANGUAGE
+    const postsInLang = []
+    const slugsAdded = new Set()
+
+    // First, add posts in the current language
+    for (const post of blogPosts) {
+      const postLang = post.lang || DEFAULT_LANGUAGE
+      if (postLang === currentLang) {
+        postsInLang.push(post)
+        slugsAdded.add(post.slug)
+      }
+    }
+
+    // Then add Danish fallback posts for slugs we don't have yet
+    if (currentLang !== DEFAULT_LANGUAGE) {
+      for (const post of blogPosts) {
+        const postLang = post.lang || DEFAULT_LANGUAGE
+        if (postLang === DEFAULT_LANGUAGE && !slugsAdded.has(post.slug)) {
+          postsInLang.push({ ...post, isFallback: true })
+          slugsAdded.add(post.slug)
+        }
+      }
+    }
+
+    return postsInLang.sort((a, b) => (new Date(a.date) < new Date(b.date) ? 1 : -1))
+  }, [blogPosts, i18n.language])
+
+  const featuredPost = filteredPosts[0]
+  const otherPosts = filteredPosts.slice(1)
 
   return (
     <>

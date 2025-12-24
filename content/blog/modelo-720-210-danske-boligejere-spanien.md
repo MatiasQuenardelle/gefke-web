@@ -1,4 +1,5 @@
 ---
+lang: "da"
 title: "Modelo 720 og 210: Hvad Danske Boligejere i Spanien Skal Vide"
 description: "Komplet guide til Modelo 720 (udenlandsk formue) og Modelo 210 (ikke-resident skat) for danskere med ejendom i Spanien. Frister, krav og hvordan du undgår bøder."
 date: "2024-12-18"
@@ -7,11 +8,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["skat", "modelo 720", "modelo 210", "ikke-resident", "formue", "ejendomsskat"]
 keywords: ["modelo 720 dansker", "modelo 210 spanien", "ikke-resident skat spanien", "udenlandsk formue spanien", "spansk ejendomsskat", "modelo 720 deadline"]
-image: "/images/blog/modelo-720-210-guide.jpg"
-imageAlt: "Spanske skatteformularer modelo 720 og 210"
+image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Spanske skatteformularer og dokumentation"
 ---
 
 # Modelo 720 og 210: Hvad Danske Boligejere i Spanien Skal Vide
+
+![Skatteformularer og dokumenter](https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=800&q=80)
 
 Hvis du ejer ejendom i Spanien eller er resident med aktiver i Danmark, vil du før eller siden støde på to mystiske tal: 720 og 210. Disse "modelos" (skatteformularer) er afgørende for mange danskere i Spanien, men forveksles ofte eller misforstås.
 

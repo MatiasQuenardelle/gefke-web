@@ -1273,7 +1273,41 @@
     "conclusionText": "Ved skilsmisse i Spanien med internationalt element bør du få rådgivning i international privatret og formueopgør – det kan spare store beløb og sikre en retfærdig løsning.",
     "conclusionText2": "Kontakt os for professionel rådgivning – på dansk – i din konkrete sag.",
     "datePublished": "2024-01-10",
-    "dateModified": "2024-12-01"
+    "dateModified": "2025-01-02",
+    "faqs": [
+      {
+        "question": "Kan to danskere blive skilt i Spanien, selvom de er gift i Danmark?",
+        "answer": "Ja, ifølge EU-forordning 2019/1111 (Bruxelles II-ter) kan spanske domstole behandle skilsmissesagen, hvis mindst én af jer har sædvanlig bopæl i Spanien. Det er ligegyldigt, hvor ægteskabet blev indgået. Der skal bare være en reel tilknytning til Spanien."
+      },
+      {
+        "question": "Hvilken lov gælder for skilsmisse – dansk eller spansk?",
+        "answer": "Ifølge EU-forordning Rom III kan I vælge lovgivning. De seks muligheder er: land med fælles bopæl, tidligere fælles bopæl, fælles nationalitet, eller Spaniens lov. Hvis I ikke vælger, bruges en rangorden automatisk. Det anbefales at vælge dansk ret, da den giver større frihed i formuedelingen."
+      },
+      {
+        "question": "Hvad sker der med ejendom i Spanien ved skilsmisse?",
+        "answer": "Spansk ret har fælleseje-systemet (gananciales), mens dansk ret har formuefællesskab. Hvis dansk ret gælder, deles aktuelt erhvervet formue ligelig. Ejendom i Spanien skal vurderes af professionelle, og deling kan være kompleks. Du behøver juridisk bistand for at sikre retfærdig deling."
+      },
+      {
+        "question": "Skal jeg betale ægtefællebidrag efter skilsmisse i Spanien?",
+        "answer": "Spansk ret tillader ægtefællebidrag, hvis der er stor økonomisk ubalance efter skilsmisse. Retten vurderer ægteskabets længde, alder, arbejdsudsigter og bidrag til hjem/børn. Dansk ret har også mulighed for ægtefællebidrag, men vilkårene er anderledes. Det afhænger af, hvilken lov I vælger."
+      },
+      {
+        "question": "Hvordan fastsættes børnebidrag ved skilsmisse i Spanien?",
+        "answer": "Børnebidrag fastsættes efter spansk ret og EU-forordning 4/2009. Retten vurderer begge forældres indtægt, arbejdsudsigter, og børnenes behov. Det anbefales altid at få juridisk rådgivning for at sikre, at bidraget er rimelig og retfærdigt for begge parter."
+      },
+      {
+        "question": "Hvordan anerkendes en spansk skilsmisse i Danmark?",
+        "answer": "Spanske skilsmisser anerkendes automatisk i hele EU-området, herunder Danmark. Du skal bare være i besiddelse af den spanske skilsmissedokum entationer med legaliseringsattestering (apostil). Der er ingen behov for ekstra retsprocedure i Danmark – skilsmissen er gyldig som sådan."
+      },
+      {
+        "question": "Hvad hvis min tidligere ægtefælle ikke betaler børnebidraget?",
+        "answer": "Hvis den anden part ikke betaler børnebidrag, kan du anlægge sag ved spansk domstol for tvangsfuldbyrdelse. EU har procedurer for at håndhæve børnebidrag på tværs af grænserne. Du kan også kontakte SEPE (spansk socialsikring), som kan gøre forsøg på at inddrive bidraget."
+      },
+      {
+        "question": "Skal jeg have advokat ved skilsmisse i Spanien?",
+        "answer": "Ja, det anbefales stærkt, især hvis der er børn eller betydelig formue. Spansk familieretsprocedure kan være kompleks, og lovvalg skal håndteres rigtigt. En erfaren advokat kan spare dig store beløb og sikre, at dine rettigheder beskyttes fuldt ud. Mange sager løses uden retssag gennem forhandling."
+      }
+    ]
   },
   "laborLaw": {
     "metaTitle": "Arbejdsret i Spanien: Hvad danske borgere skal vide",

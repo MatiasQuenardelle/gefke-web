@@ -855,7 +855,41 @@
     "conclusionText1Strong": "tidlig planlægning og korrekt vejledning afgørende",
     "conclusionText2": "Ønsker du at sikre dine rettigheder og muligheder i god tid? Kontakt mig for personlig rådgivning om pension og ældrepleje i Spanien.",
     "datePublished": "2024-02-25",
-    "dateModified": "2024-12-01"
+    "dateModified": "2025-01-02",
+    "faqs": [
+      {
+        "question": "Kan jeg få dansk pension udbetalt mens jeg bor i Spanien?",
+        "answer": "Ja, du kan få dansk folkepension udbetalt i Spanien, hvis du har fast bopæl dér og ansøger via Udbetaling Danmark. Du skal være tilmeldt det spanske folkeregister (padrón) og have opgivet din spanske adresse til Udbetaling Danmark. Processen tager typisk 4-6 uger."
+      },
+      {
+        "question": "Hvordan får jeg min pension ind på en spansk bankkonto?",
+        "answer": "Du kan enten etablere en direkte overførsel til din spanske bankkonto, eller få pengene overført til din danske konto og derefter fremføre dem. De fleste pensionister vælger direkte overførsel til spansk konto for at undgå ekstra bank-gebyrer og valutakursudsving."
+      },
+      {
+        "question": "Skal jeg angive min danske pension til spanske skat?",
+        "answer": "Ja, du skal angive alle indkomsttyper, herunder dansk pension, i din spanske selvangivelse (Modelo 100). Dog er der en dobbeltbeskatningsoverenskomst mellem Danmark og Spanien, som betyder at du normalt kun betaler skat én gang – i Spanien som residenter. Kontakt en skatterådgiver for nøjagtig vejledning baseret på din situation."
+      },
+      {
+        "question": "Kan jeg få adgang til offentlig hjemmepleje i Spanien?",
+        "answer": "Ja, som EU-borger med ophold i Spanien har du ret til at søge offentlig hjemmepleje. Systemet administreres på regionalt niveau. Du skal være registreret i kommunen og have fået vurderet dit plejebehovsgrad (grado de dependencia). Ventetiden kan være 3-6 måneder afhængig af région."
+      },
+      {
+        "question": "Hvad koster privat hjemmepleje i Spanien?",
+        "answer": "Privat hjemmepleje koster typisk 12-20 € pr. time afhængig af omfang og region. En full-time hjælper (30-40 timer/uge) koster omkring 1.200-1.800 € pr. måned. Priserne er signifikant lavere end i Danmark, og du har større fleksibilitet i serviceniveauet."
+      },
+      {
+        "question": "Har jeg behov for juridisk hjælp ved pensionering til Spanien?",
+        "answer": "Ja, det anbefales stærkt. Du bør få hjælp med at dokumentere din residency korrekt for skattemyndighederne, og drøfte dine muligheder for offentlig hjemmepleje og testamenter. En lokal advokat kan spare dig for betydelige skattefejl senere."
+      },
+      {
+        "question": "Hvad er et S1-dokument og hvor får jeg det?",
+        "answer": "Et S1-dokument (Portable Document S1) bekræfter, at du har ret til offentlig sundhed i Spanien betalt af Danmark. Du får det fra Udbetaling Danmark, når du er registreret som pensionist i Spanien. Med S1-dokumentet får du samme rettigheder til sundhedspleje som spanske borgere – helt gratis."
+      },
+      {
+        "question": "Kan jeg modtage hjemmepleje på dansk eller engelsk i Spanien?",
+        "answer": "Private hjemmeplejefirmaer kan ofte tilbyde personale, der taler engelsk eller danske. Offentlig hjemmepleje er derimod på spansk, men lokale kommuner kan arrangere tolkehjælp i nogle tilfælde. Derfor foretrækker mange pensionister privat pleje for at få personalet på deres eget sprog."
+      }
+    ]
   },
   "privacy": {
     "title": "Brugsvilkår og privatlivspolitik",

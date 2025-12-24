@@ -19,7 +19,7 @@ export default function DanskHoldingSpanienPage() {
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
-            <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold text-[#5A7A6E] leading-tight">
               {t("danishHolding.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
@@ -30,7 +30,7 @@ export default function DanskHoldingSpanienPage() {
           <ArticleMeta translationKey="danishHolding" />
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("danishHolding.section1Title")}
             </h2>
             <p>
@@ -57,7 +57,7 @@ export default function DanskHoldingSpanienPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("danishHolding.section2Title")}
             </h2>
             <p>
@@ -75,7 +75,7 @@ export default function DanskHoldingSpanienPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("danishHolding.section3Title")}
             </h2>
             <p>
@@ -90,7 +90,7 @@ export default function DanskHoldingSpanienPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("danishHolding.section4Title")}
             </h2>
             <p>
@@ -108,7 +108,7 @@ export default function DanskHoldingSpanienPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("danishHolding.section5Title")}
             </h2>
             <p>
@@ -122,8 +122,8 @@ export default function DanskHoldingSpanienPage() {
             </ul>
           </section>
 
-          <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
-            <h2 className="text-2xl font-bold text-blue-900">
+          <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
+            <h2 className="text-2xl font-bold text-[#5A7A6E]">
               {t("danishHolding.conclusionTitle")}
             </h2>
             <p>
@@ -138,7 +138,7 @@ export default function DanskHoldingSpanienPage() {
               {t("danishHolding.conclusionText2")}
             </p>
             <p className="font-semibold text-lg">
-              <a href="/contact" className="text-blue-700 underline">
+              <a href="/contact" className="text-[#4AA07D] underline">
                 {t("danishHolding.conclusionLink")}
               </a>{" "}
               {t("danishHolding.conclusionText3")}

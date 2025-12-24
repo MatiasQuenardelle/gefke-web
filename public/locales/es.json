@@ -1493,6 +1493,22 @@
     "ctaTitle": "¿Necesita asesoramiento legal para su negocio?",
     "ctaText": "Contácteme hoy para una conversación sin compromiso sobre sus necesidades de derecho empresarial.",
     "ctaButton": "Contácteme"
+  },
+  "publications": {
+    "title": "Publicaciones",
+    "viewAll": "Ver todas las publicaciones",
+    "categories": {
+      "tax": "Impuestos",
+      "pension": "Pensión",
+      "property": "Propiedad",
+      "inheritance": "Herencia",
+      "will": "Testamento",
+      "family": "Familia",
+      "rental": "Alquiler",
+      "guide": "Guía",
+      "spain": "España",
+      "blog": "Blog"
+    }
   }
 }
 

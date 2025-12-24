@@ -12,7 +12,7 @@ export default function ArticlesSection() {
       href: "/services/selvstaendig-i-spanien",
       image: "/images/services/business.jpg",
       icon: "🏢",
-      color: "from-blue-500 to-blue-600",
+      color: "from-emerald-500 to-emerald-600",
     },
     {
       title: t("homepage.services.service2.title"),
@@ -36,22 +36,22 @@ export default function ArticlesSection() {
       href: "/services/familie-og-arveret",
       image: "/images/services/family.jpg",
       icon: "👨‍👩‍👧‍👦",
-      color: "from-purple-500 to-purple-600",
+      color: "from-teal-500 to-teal-600",
     },
   ]
   return (
     <section className="bg-gradient-to-b from-[#f9f9f9] via-white to-gray-50 py-24 px-6 md:px-12 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-20 left-10 w-32 h-32 bg-blue-500/5 rounded-full blur-2xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-10 w-40 h-40 bg-purple-500/5 rounded-full blur-2xl animate-pulse delay-1000"></div>
+        <div className="absolute top-20 left-10 w-32 h-32 bg-emerald-500/5 rounded-full blur-2xl animate-pulse"></div>
+        <div className="absolute bottom-20 right-10 w-40 h-40 bg-teal-500/5 rounded-full blur-2xl animate-pulse delay-1000"></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Enhanced header with animation */}
         <div className="text-center mb-20 animate-fade-in-up">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-[#003366]/10 rounded-full text-sm font-medium text-[#003366] mb-6 border border-[#003366]/20 hover:bg-[#003366]/15 transition-all duration-300">
-            <div className="w-2 h-2 bg-[#003366] rounded-full animate-pulse"></div>
+          <div className="inline-flex items-center gap-2 px-6 py-3 bg-[#5A7A6E]/10 rounded-full text-sm font-medium text-[#5A7A6E] mb-6 border border-[#5A7A6E]/20 hover:bg-[#5A7A6E]/15 transition-all duration-300">
+            <div className="w-2 h-2 bg-[#5A7A6E] rounded-full animate-pulse"></div>
             {t("homepage.services.badge")}
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 gradient-text">
@@ -109,7 +109,7 @@ export default function ArticlesSection() {
 
                 <h3
                   className="text-2xl md:text-3xl font-bold text-gray-800 mb-5 
-                               group-hover:text-[#003366] transition-colors duration-500 relative z-10"
+                               group-hover:text-[#4AA07D] transition-colors duration-500 relative z-10"
                 >
                   {service.title}
                 </h3>
@@ -125,9 +125,9 @@ export default function ArticlesSection() {
                       contactSection.scrollIntoView({ behavior: "smooth" })
                     }
                   }}
-                  className="group/btn inline-flex items-center gap-3 text-[#003366] font-semibold text-lg
+                  className="group/btn inline-flex items-center gap-3 text-[#5A7A6E] font-semibold text-lg
                              hover:gap-6 transition-all duration-500 relative z-10
-                             px-6 py-3 rounded-xl hover:bg-[#003366]/5 hover:shadow-lg"
+                             px-6 py-3 rounded-xl hover:bg-[#5A7A6E]/5 hover:shadow-lg"
                 >
                   <span>{t("homepage.services.readMore")}</span>
                   <div className="relative">
@@ -144,14 +144,14 @@ export default function ArticlesSection() {
                         d="M17 8l4 4m0 0l-4 4m4-4H3"
                       />
                     </svg>
-                    <div className="absolute inset-0 bg-[#003366]/20 rounded-full scale-0 group-hover/btn:scale-150 transition-transform duration-500"></div>
+                    <div className="absolute inset-0 bg-[#5A7A6E]/20 rounded-full scale-0 group-hover/btn:scale-150 transition-transform duration-500"></div>
                   </div>
                 </button>
               </div>
 
               {/* Hover effect overlay */}
               <div
-                className="absolute inset-0 bg-gradient-to-br from-[#003366]/5 via-transparent to-blue-500/5 
+                className="absolute inset-0 bg-gradient-to-br from-[#5A7A6E]/5 via-transparent to-emerald-500/5
                               opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
               ></div>
             </div>
@@ -170,9 +170,9 @@ export default function ArticlesSection() {
                 contactSection.scrollIntoView({ behavior: "smooth" })
               }
             }}
-            className="px-8 py-4 bg-gradient-to-r from-[#003366] to-[#004080] text-white rounded-xl font-semibold 
-                       transition-all duration-500 hover:from-[#004080] hover:to-[#003366] hover:scale-105 
-                       shadow-luxury hover:shadow-luxury-hover border border-[#003366]/20"
+            className="px-8 py-4 bg-gradient-to-r from-[#5A7A6E] to-[#4AA07D] text-white rounded-xl font-semibold
+                       transition-all duration-500 hover:from-[#4AA07D] hover:to-[#5A7A6E] hover:scale-105
+                       shadow-luxury hover:shadow-luxury-hover border border-[#5A7A6E]/20"
           >
             {t("homepage.services.ctaButton")}
           </button>

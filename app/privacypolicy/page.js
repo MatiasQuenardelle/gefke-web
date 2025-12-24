@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next"
 const PrivacyPolicy = () => {
   const { t } = useTranslation()
   return (
-    <div className="bg-[#003366] text-white py-16 px-4">
+    <div className="bg-[#5A7A6E] text-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold">
           {t("privacy.title")}

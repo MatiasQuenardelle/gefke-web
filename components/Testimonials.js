@@ -36,12 +36,12 @@ export default function Testimonials() {
   ]
 
   return (
-    <section className="relative bg-gradient-to-b from-[#0e3a5e] via-[#1a4b6b] to-[#0e3a5e] text-white py-24 px-6 md:px-12 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-[#5A7A6E] via-[#4AA07D] to-[#5A7A6E] text-white py-24 px-6 md:px-12 overflow-hidden">
       {/* Enhanced background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-float"></div>
-        <div className="absolute bottom-0 right-0 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl animate-float delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-purple-400/5 rounded-full blur-3xl animate-pulse delay-2000 -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-0 right-0 w-80 h-80 bg-emerald-400/10 rounded-full blur-3xl animate-float delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-teal-400/5 rounded-full blur-3xl animate-pulse delay-2000 -translate-x-1/2 -translate-y-1/2"></div>
       </div>
 
       {/* Animated overlay pattern */}
@@ -59,7 +59,7 @@ export default function Testimonials() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-shadow-lg">
             {t("homepage.testimonials.title")}
           </h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed text-shadow">
+          <p className="text-xl text-emerald-100 max-w-3xl mx-auto leading-relaxed text-shadow">
             {t("homepage.testimonials.subtitle")}
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function Testimonials() {
 
               {/* Service badge */}
               <div className="absolute top-6 right-6">
-                <span className="px-3 py-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full text-xs font-medium text-white shadow-lg">
+                <span className="px-3 py-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full text-xs font-medium text-white shadow-lg">
                   {item.service}
                 </span>
               </div>
@@ -123,10 +123,10 @@ export default function Testimonials() {
               <div className="relative z-10">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="font-bold text-lg text-white group-hover:text-blue-100 transition-colors duration-300">
+                    <p className="font-bold text-lg text-white group-hover:text-emerald-100 transition-colors duration-300">
                       {item.author}
                     </p>
-                    <p className="text-blue-200 text-sm flex items-center gap-2 mt-1">
+                    <p className="text-emerald-200 text-sm flex items-center gap-2 mt-1">
                       <svg
                         className="w-4 h-4"
                         fill="none"
@@ -174,7 +174,7 @@ export default function Testimonials() {
 
               {/* Hover effect overlay */}
               <div
-                className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-purple-500/5 
+                className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 via-transparent to-teal-500/5
                               opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none rounded-3xl"
               ></div>
             </div>
@@ -187,14 +187,14 @@ export default function Testimonials() {
             {/* Background decoration */}
             <div className="absolute inset-0">
               <div className="absolute top-0 left-0 w-40 h-40 bg-white/5 rounded-full blur-2xl"></div>
-              <div className="absolute bottom-0 right-0 w-32 h-32 bg-blue-400/10 rounded-full blur-2xl"></div>
+              <div className="absolute bottom-0 right-0 w-32 h-32 bg-emerald-400/10 rounded-full blur-2xl"></div>
             </div>
 
             <div className="relative z-10">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 text-shadow">
                 {t("homepage.testimonials.ctaTitle")}
               </h3>
-              <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto text-shadow">
+              <p className="text-lg text-emerald-100 mb-8 max-w-2xl mx-auto text-shadow">
                 {t("homepage.testimonials.ctaText")}
               </p>
 
@@ -206,7 +206,7 @@ export default function Testimonials() {
                       contactSection.scrollIntoView({ behavior: "smooth" })
                     }
                   }}
-                  className="inline-flex items-center gap-3 px-8 py-4 bg-white text-[#003366] rounded-xl font-bold 
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-white text-[#5A7A6E] rounded-xl font-bold
                              transition-all duration-500 hover:bg-gray-100 hover:scale-105 shadow-luxury hover:shadow-luxury-hover"
                 >
                   <span>{t("homepage.testimonials.ctaButton1")}</span>

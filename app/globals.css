@@ -21,7 +21,7 @@ html {
 
 /* Advanced focus styles with modern design */
 *:focus {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #4AA07D;
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -86,10 +86,10 @@ button:active {
 @keyframes glow {
   0%,
   100% {
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.1);
+    box-shadow: 0 0 20px rgba(74, 160, 125, 0.1);
   }
   50% {
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 0 40px rgba(74, 160, 125, 0.3);
   }
 }
 
@@ -163,7 +163,7 @@ button:active {
 
 /* Advanced gradient text effect */
 .gradient-text {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #4AA07D 0%, #5A7A6E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -184,7 +184,7 @@ button:active {
 .border-gradient {
   border: 2px solid transparent;
   background: linear-gradient(white, white) padding-box,
-    linear-gradient(135deg, #667eea, #764ba2) border-box;
+    linear-gradient(135deg, #4AA07D, #5A7A6E) border-box;
 }
 
 /* Modern backdrop blur utilities */
@@ -203,8 +203,8 @@ button:active {
 
 /* Enhanced selection styling */
 ::selection {
-  background: rgba(59, 130, 246, 0.3);
-  color: #1e40af;
+  background: rgba(74, 160, 125, 0.3);
+  color: #3A5A4E;
 }
 
 /* Reduce motion for accessibility */
@@ -269,7 +269,7 @@ button:active {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #003366;
+  background: #5A7A6E;
   color: white;
   padding: 8px 16px;
   z-index: 100;

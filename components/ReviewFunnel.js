@@ -85,7 +85,7 @@ export default function ReviewFunnel() {
                 href="https://search.google.com/local/writereview?placeid=ChIJ_VlbQF1rTEYReQftdoanPnA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mb-4 bg-blue-700 hover:bg-blue-800 text-white font-medium py-3 px-6 rounded-md transition-colors"
+                className="inline-block mb-4 bg-[#4AA07D] hover:bg-[#5A7A6E] text-white font-medium py-3 px-6 rounded-md transition-colors"
               >
                 {t("reviewFunnel.leaveOnGoogle") || "Leave a Google Review"}
               </a>
@@ -156,7 +156,7 @@ export default function ReviewFunnel() {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
+            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-600 text-gray-800"
           />
           <input
             type="email"
@@ -167,7 +167,7 @@ export default function ReviewFunnel() {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
+            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-600 text-gray-800"
           />
           <textarea
             name="message"
@@ -176,7 +176,7 @@ export default function ReviewFunnel() {
             value={formData.message}
             onChange={handleChange}
             required
-            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
+            className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-600 text-gray-800"
           />
 
           <div className="pt-2">
@@ -192,7 +192,7 @@ export default function ReviewFunnel() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-blue-700 text-white font-medium py-3 px-5 rounded-md hover:bg-blue-800 transition-colors"
+            className="w-full bg-[#4AA07D] text-white font-medium py-3 px-5 rounded-md hover:bg-[#5A7A6E] transition-colors"
           >
             {isSubmitting
               ? t("contactForm.sending") || "Sending..."

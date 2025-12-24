@@ -56,7 +56,7 @@ function RelatedPostCard({ post }) {
           />
         </div>
         <div className="p-4">
-          <h3 className="text-sm font-semibold text-blue-900 group-hover:text-blue-700 transition-colors line-clamp-2 mb-2">
+          <h3 className="text-sm font-semibold text-[#5A7A6E] group-hover:text-[#4AA07D] transition-colors line-clamp-2 mb-2">
             {post.title}
           </h3>
           <time className="text-xs text-gray-500" dateTime={post.date}>
@@ -80,7 +80,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
   return (
     <>
       {/* Hero with featured image */}
-      <section className="relative w-full h-[40vh] min-h-[300px] max-h-[450px] bg-[#003366]">
+      <section className="relative w-full h-[40vh] min-h-[300px] max-h-[450px] bg-[#5A7A6E]">
         <Image
           src={postImage}
           alt={post.imageAlt || post.title}
@@ -89,7 +89,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#003366] to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#5A7A6E] to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="mx-auto max-w-4xl">
             <Link
@@ -164,7 +164,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
             {post.tags && post.tags.length > 0 && (
               <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t">
                 {post.tags.map((tag) => (
-                  <span key={tag} className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-xs font-medium">
+                  <span key={tag} className="bg-emerald-50 text-[#4AA07D] px-3 py-1 rounded-full text-xs font-medium">
                     {tag}
                   </span>
                 ))}
@@ -175,15 +175,15 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           {/* Article content */}
           <article className="bg-white rounded-xl shadow-sm p-6 md:p-10 mb-8">
             <div className="prose prose-lg max-w-none
-              prose-headings:text-blue-900 prose-headings:font-bold
+              prose-headings:text-[#5A7A6E] prose-headings:font-bold
               prose-h1:text-3xl prose-h1:mt-8 prose-h1:mb-4
               prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h2:border-b prose-h2:pb-2 prose-h2:border-gray-100
               prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3
               prose-p:text-gray-700 prose-p:leading-relaxed
-              prose-a:text-blue-600 hover:prose-a:text-blue-800 prose-a:no-underline hover:prose-a:underline
+              prose-a:text-emerald-600 hover:prose-a:text-[#4AA07D] prose-a:no-underline hover:prose-a:underline
               prose-strong:text-gray-900
               prose-ul:my-4 prose-li:my-1
-              prose-blockquote:border-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:rounded-r-lg
+              prose-blockquote:border-emerald-500 prose-blockquote:bg-emerald-50 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:rounded-r-lg
             ">
               <ReactMarkdown>{post.content}</ReactMarkdown>
             </div>
@@ -192,7 +192,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           {/* Related posts */}
           {relatedPosts && relatedPosts.length > 0 && (
             <section className="mb-12">
-              <h2 className={`${merri.className} text-xl text-blue-900 mb-6`}>
+              <h2 className={`${merri.className} text-xl text-[#5A7A6E] mb-6`}>
                 {t("blog.relatedPosts")}
               </h2>
               <div className="grid md:grid-cols-3 gap-4">
@@ -207,7 +207,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           <div className="pb-12">
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium transition-colors"
+              className="inline-flex items-center gap-2 text-emerald-600 hover:text-[#4AA07D] font-medium transition-colors"
             >
               {t("blog.backToBlog")}
             </Link>

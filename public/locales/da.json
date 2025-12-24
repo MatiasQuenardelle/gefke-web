@@ -1609,5 +1609,21 @@
     "ctaButton": "Kontakt mig",
     "datePublished": "2024-12-18",
     "dateModified": "2024-12-18"
+  },
+  "publications": {
+    "title": "Publikationer",
+    "viewAll": "Se alle publikationer",
+    "categories": {
+      "tax": "Skat",
+      "pension": "Pension",
+      "property": "Ejendom",
+      "inheritance": "Arv",
+      "will": "Testamente",
+      "family": "Familie",
+      "rental": "Udlejning",
+      "guide": "Guide",
+      "spain": "Spanien",
+      "blog": "Blog"
+    }
   }
 }

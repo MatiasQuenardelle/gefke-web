@@ -8,7 +8,7 @@ const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
 function AboutHero() {
   const { t } = useTranslation()
   return (
-    <section className="w-full bg-[#003366] text-white">
+    <section className="w-full bg-[#5A7A6E] text-white">
       <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-12 px-6 md:px-20 py-[8vh]">
         <h1 className={`${merri.className} text-5xl md:text-7xl leading-none`}>
           {t("about.heroTitle")}

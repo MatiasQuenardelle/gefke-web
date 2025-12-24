@@ -11,12 +11,12 @@ export default function HeroSection() {
   const { t } = useTranslation()
 
   return (
-    <section className="w-full bg-gradient-to-br from-[#003366] via-[#004080] to-[#002244] text-white relative overflow-hidden min-h-[50vh] flex items-center">
+    <section className="w-full bg-gradient-to-br from-[#5A7A6E] via-[#4AA07D] to-[#4A6A5E] text-white relative overflow-hidden min-h-[50vh] flex items-center">
       {/* Enhanced background elements with animation */}
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-float -translate-y-48 translate-x-48"></div>
-        <div className="absolute bottom-0 left-0 w-72 h-72 bg-blue-400/10 rounded-full blur-3xl animate-float delay-1000 translate-y-36 -translate-x-36"></div>
-        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-purple-400/5 rounded-full blur-3xl animate-pulse delay-2000 -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-0 left-0 w-72 h-72 bg-emerald-400/10 rounded-full blur-3xl animate-float delay-1000 translate-y-36 -translate-x-36"></div>
+        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-teal-400/5 rounded-full blur-3xl animate-pulse delay-2000 -translate-x-1/2 -translate-y-1/2"></div>
       </div>
 
       {/* Animated grid pattern */}
@@ -37,7 +37,7 @@ export default function HeroSection() {
             >
               {t("homepage.hero.title1")}
               <br />
-              <span className="bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent animate-glow">
+              <span className="bg-gradient-to-r from-white via-emerald-200 to-teal-200 bg-clip-text text-transparent animate-glow">
                 {t("homepage.hero.title2")}
               </span>
             </h1>
@@ -45,7 +45,7 @@ export default function HeroSection() {
 
           <p className="max-w-lg text-sm md:text-base text-gray-200 leading-relaxed animate-fade-in-up delay-300 text-shadow">
             {t("homepage.hero.description")}
-            <span className="text-blue-200 font-medium">
+            <span className="text-emerald-200 font-medium">
               {t("homepage.hero.descriptionHighlight")}
             </span>
           </p>
@@ -111,12 +111,12 @@ export default function HeroSection() {
                   contactSection.scrollIntoView({ behavior: "smooth" })
                 }
               }}
-              className="group px-6 py-3 bg-white text-[#003366] rounded-lg font-semibold 
+              className="group px-6 py-3 bg-white text-[#5A7A6E] rounded-lg font-semibold 
                          transition-all duration-500 hover:bg-gray-100 hover:scale-105 
                          shadow-luxury hover:shadow-luxury-hover relative overflow-hidden text-sm"
             >
               <span className="relative z-10">{t("homepage.hero.cta1")}</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 to-teal-600 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
             </button>
             <button
               onClick={() => {
@@ -142,8 +142,8 @@ export default function HeroSection() {
           <div className="relative w-full max-w-md">
             <div className="relative group">
               {/* Floating elements around image */}
-              <div className="absolute -top-4 -left-4 w-8 h-8 bg-blue-400/20 rounded-lg blur-sm animate-float"></div>
-              <div className="absolute -bottom-4 -right-4 w-6 h-6 bg-purple-400/20 rounded-full blur-sm animate-float delay-1000"></div>
+              <div className="absolute -top-4 -left-4 w-8 h-8 bg-emerald-400/20 rounded-lg blur-sm animate-float"></div>
+              <div className="absolute -bottom-4 -right-4 w-6 h-6 bg-teal-400/20 rounded-full blur-sm animate-float delay-1000"></div>
 
               {/* Main image container - clear and visible */}
               <div className="relative overflow-hidden rounded-2xl border-2 border-white/20 bg-white/5 backdrop-blur-sm">
@@ -163,7 +163,7 @@ export default function HeroSection() {
                       <p className="mb-2 text-shadow">
                         {t("homepage.hero.imageText")}
                       </p>
-                      <p className="font-bold text-blue-200 text-shadow">
+                      <p className="font-bold text-emerald-200 text-shadow">
                         {t("homepage.hero.imageAuthor")}
                       </p>
                     </div>
@@ -173,7 +173,7 @@ export default function HeroSection() {
 
               {/* Professional badge with enhanced styling */}
               <div
-                className="absolute -top-3 -right-3 bg-gradient-to-br from-white to-gray-100 text-[#003366] 
+                className="absolute -top-3 -right-3 bg-gradient-to-br from-white to-gray-100 text-[#5A7A6E] 
                               px-3 py-1 rounded-full text-xs font-semibold shadow-lg 
                               border border-gray-200 animate-float delay-500"
               >

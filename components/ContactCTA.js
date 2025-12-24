@@ -11,12 +11,12 @@ export default function ContactCTA() {
   const { t } = useTranslation()
 
   return (
-    <section className="w-full bg-gradient-to-br from-[#003366] via-[#004080] to-[#002244] text-white relative overflow-hidden">
+    <section className="w-full bg-gradient-to-br from-[#5A7A6E] via-[#4AA07D] to-[#4A6A5E] text-white relative overflow-hidden">
       {/* Enhanced background decorative elements */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-float -translate-y-48 -translate-x-48"></div>
-        <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-400/10 rounded-full blur-3xl animate-float delay-1000 translate-y-36 translate-x-36"></div>
-        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-purple-400/5 rounded-full blur-3xl animate-pulse delay-2000 -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-0 right-0 w-72 h-72 bg-emerald-400/10 rounded-full blur-3xl animate-float delay-1000 translate-y-36 translate-x-36"></div>
+        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-teal-400/5 rounded-full blur-3xl animate-pulse delay-2000 -translate-x-1/2 -translate-y-1/2"></div>
       </div>
 
       {/* Animated grid overlay */}
@@ -29,8 +29,8 @@ export default function ContactCTA() {
         <div className="md:w-1/2 flex justify-center md:justify-start order-2 md:order-1 z-10">
           <div className="relative group animate-slide-in-right">
             {/* Floating decorative elements */}
-            <div className="absolute -top-6 -left-6 w-12 h-12 bg-blue-400/20 rounded-full blur-lg animate-float"></div>
-            <div className="absolute -bottom-6 -right-6 w-8 h-8 bg-purple-400/20 rounded-lg blur-lg animate-float delay-1000"></div>
+            <div className="absolute -top-6 -left-6 w-12 h-12 bg-emerald-400/20 rounded-full blur-lg animate-float"></div>
+            <div className="absolute -bottom-6 -right-6 w-8 h-8 bg-teal-400/20 rounded-lg blur-lg animate-float delay-1000"></div>
 
             <div className="relative overflow-hidden rounded-3xl shadow-luxury group-hover:shadow-luxury-hover transition-all duration-700">
               <Image
@@ -52,7 +52,7 @@ export default function ContactCTA() {
 
             {/* Enhanced floating badge */}
             <div
-              className="absolute -top-4 -right-4 bg-gradient-to-br from-white to-gray-100 text-[#003366] 
+              className="absolute -top-4 -right-4 bg-gradient-to-br from-white to-gray-100 text-[#5A7A6E] 
                             px-6 py-3 rounded-2xl text-sm font-bold shadow-luxury 
                             border border-gray-200 animate-float delay-500 group-hover:scale-105 transition-transform duration-500"
             >
@@ -81,14 +81,14 @@ export default function ContactCTA() {
           >
             {t("contactCTA.title1")}
             <br />
-            <span className="bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-white via-emerald-200 to-teal-200 bg-clip-text text-transparent">
               {t("contactCTA.title2")}
             </span>
           </h2>
 
           <p className="text-xl md:text-2xl text-gray-200 max-w-md md:max-w-none mx-auto md:mx-0 leading-relaxed animate-fade-in-up delay-500 text-shadow">
             {t("contactCTA.description")}
-            <span className="text-blue-200 font-semibold block mt-2">
+            <span className="text-emerald-200 font-semibold block mt-2">
               {t("contactCTA.descriptionHighlight")}
             </span>
           </p>
@@ -102,7 +102,7 @@ export default function ContactCTA() {
                   contactSection.scrollIntoView({ behavior: "smooth" })
                 }
               }}
-              className="group px-10 py-5 bg-white text-[#003366] rounded-xl font-bold text-lg
+              className="group px-10 py-5 bg-white text-[#5A7A6E] rounded-xl font-bold text-lg
                          transition-all duration-500 hover:bg-gray-100 hover:scale-105 
                          shadow-luxury hover:shadow-luxury-hover relative overflow-hidden"
             >
@@ -122,7 +122,7 @@ export default function ContactCTA() {
                   />
                 </svg>
               </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 to-teal-600 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
             </button>
 
             <button
@@ -178,7 +178,7 @@ export default function ContactCTA() {
             </div>
 
             <div className="flex items-center gap-3 px-4 py-2 bg-white/5 rounded-full border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-emerald-500 rounded-full flex items-center justify-center">
                 <svg
                   className="w-4 h-4 text-white"
                   fill="none"
@@ -202,7 +202,7 @@ export default function ContactCTA() {
             </div>
 
             <div className="flex items-center gap-3 px-4 py-2 bg-white/5 rounded-full border border-white/10 hover:bg-white/10 transition-all duration-300">
-              <div className="w-8 h-8 bg-gradient-to-br from-purple-400 to-purple-500 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-br from-teal-400 to-teal-500 rounded-full flex items-center justify-center">
                 <svg
                   className="w-4 h-4 text-white"
                   fill="none"

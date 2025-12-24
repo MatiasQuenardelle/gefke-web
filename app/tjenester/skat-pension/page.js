@@ -34,7 +34,7 @@ export default function SkatPensionHubPage() {
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
-            <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold text-[#5A7A6E] leading-tight">
               {t("hubSkatPension.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
@@ -49,7 +49,7 @@ export default function SkatPensionHubPage() {
           </section>
 
           <section className="space-y-6">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("hubSkatPension.servicesTitle")}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -59,18 +59,18 @@ export default function SkatPensionHubPage() {
                   <Link
                     key={index}
                     href={service.href}
-                    className="group bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-blue-500 transition-all duration-300 flex flex-col"
+                    className="group bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-emerald-500 transition-all duration-300 flex flex-col"
                   >
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex items-center gap-3">
-                        <div className="p-2 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors">
-                          <Icon className="w-6 h-6 text-blue-600" />
+                        <div className="p-2 bg-emerald-50 rounded-lg group-hover:bg-emerald-100 transition-colors">
+                          <Icon className="w-6 h-6 text-emerald-600" />
                         </div>
-                        <h3 className="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                        <h3 className="text-xl font-semibold text-gray-900 group-hover:text-emerald-600 transition-colors">
                           {service.title}
                         </h3>
                       </div>
-                      <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all flex-shrink-0" />
+                      <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-emerald-600 group-hover:translate-x-1 transition-all flex-shrink-0" />
                     </div>
                     <p className="text-gray-600 text-sm flex-grow">
                       {service.description}
@@ -82,7 +82,7 @@ export default function SkatPensionHubPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("hubSkatPension.whyImportantTitle")}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-2">
@@ -93,8 +93,8 @@ export default function SkatPensionHubPage() {
             </ul>
           </section>
 
-          <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
-            <h2 className="text-2xl font-bold text-blue-900">
+          <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
+            <h2 className="text-2xl font-bold text-[#5A7A6E]">
               {t("hubSkatPension.ctaTitle")}
             </h2>
             <p>
@@ -102,7 +102,7 @@ export default function SkatPensionHubPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors"
             >
               {t("hubSkatPension.ctaButton")}
             </Link>

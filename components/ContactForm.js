@@ -70,7 +70,7 @@ export default function ContactForm({
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-600 text-gray-800"
             />
           </div>
 
@@ -89,7 +89,7 @@ export default function ContactForm({
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-600 text-gray-800"
             />
           </div>
 
@@ -106,7 +106,7 @@ export default function ContactForm({
               value={formData.message}
               onChange={handleChange}
               required
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800"
+              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-600 text-gray-800"
             />
           </div>
 
@@ -123,7 +123,7 @@ export default function ContactForm({
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-blue-700 text-white font-medium py-3 px-5 rounded-md hover:bg-blue-800 transition-colors"
+            className="w-full bg-[#4AA07D] text-white font-medium py-3 px-5 rounded-md hover:bg-[#5A7A6E] transition-colors"
           >
             {isSubmitting
               ? t("contactForm.sending") || "Sending..."

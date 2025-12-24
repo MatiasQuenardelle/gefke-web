@@ -57,7 +57,7 @@ export default function Breadcrumb({ items = [], currentPage }) {
               {item.href ? (
                 <Link
                   href={item.href}
-                  className="hover:text-blue-600 transition-colors flex items-center gap-1"
+                  className="hover:text-emerald-600 transition-colors flex items-center gap-1"
                 >
                   {index === 0 && <Home className="w-4 h-4" />}
                   <span>{item.label}</span>

@@ -1493,6 +1493,22 @@
     "ctaTitle": "Do you need legal advice for your business?",
     "ctaText": "Contact me today for a non-binding conversation about your business law needs.",
     "ctaButton": "Contact me"
+  },
+  "publications": {
+    "title": "Publications",
+    "viewAll": "View all publications",
+    "categories": {
+      "tax": "Tax",
+      "pension": "Pension",
+      "property": "Property",
+      "inheritance": "Inheritance",
+      "will": "Will",
+      "family": "Family",
+      "rental": "Rental",
+      "guide": "Guide",
+      "spain": "Spain",
+      "blog": "Blog"
+    }
   }
 }
 

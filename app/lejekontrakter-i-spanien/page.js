@@ -19,7 +19,7 @@ export default function LejekontrakterISpanienPage() {
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
-            <h1 className="text-3xl md:text-5xl font-bold text-blue-900 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold text-[#5A7A6E] leading-tight">
               {t("rentalContracts.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
@@ -30,7 +30,7 @@ export default function LejekontrakterISpanienPage() {
           <ArticleMeta translationKey="rentalContracts" />
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("rentalContracts.section1Title")}
             </h2>
             <p>
@@ -49,7 +49,7 @@ export default function LejekontrakterISpanienPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("rentalContracts.section2Title")}
             </h2>
             <p>{t("rentalContracts.section2Text1")}</p>
@@ -70,7 +70,7 @@ export default function LejekontrakterISpanienPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("rentalContracts.section3Title")}
             </h2>
             <p>
@@ -87,7 +87,7 @@ export default function LejekontrakterISpanienPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("rentalContracts.section4Title")}
             </h2>
             <p>
@@ -112,7 +112,7 @@ export default function LejekontrakterISpanienPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
               {t("rentalContracts.section5Title")}
             </h2>
             <p>{t("rentalContracts.section5Text1")}</p>
@@ -127,7 +127,7 @@ export default function LejekontrakterISpanienPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">{t("rentalContracts.section6Title")}</h2>
+            <h2 className="text-2xl font-bold text-[#4AA07D]">{t("rentalContracts.section6Title")}</h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
                 <strong>{t("rentalContracts.section6Item1Label")}</strong>{" "}
@@ -140,8 +140,8 @@ export default function LejekontrakterISpanienPage() {
             </ul>
           </section>
 
-          <section className="space-y-6 bg-blue-50 p-6 rounded-lg border border-blue-100">
-            <h2 className="text-2xl font-bold text-blue-900">
+          <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
+            <h2 className="text-2xl font-bold text-[#5A7A6E]">
               {t("rentalContracts.conclusionTitle")}
             </h2>
             <p>
@@ -156,7 +156,7 @@ export default function LejekontrakterISpanienPage() {
             <p className="font-semibold text-lg">
               {t("rentalContracts.conclusionText2")}
               <br />
-              <a href="/contact" className="text-blue-700 underline">
+              <a href="/contact" className="text-[#4AA07D] underline">
                 {t("rentalContracts.conclusionLink")}
               </a>{" "}
               {t("rentalContracts.conclusionText3")}

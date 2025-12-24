@@ -18,7 +18,7 @@ const PartnersSection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Enhanced Header */}
         <div className="mb-16 text-center">
-          <div className="inline-block px-4 py-2 bg-[#003366]/10 rounded-full text-sm font-medium text-[#003366] mb-4">
+          <div className="inline-block px-4 py-2 bg-[#5A7A6E]/10 rounded-full text-sm font-medium text-[#5A7A6E] mb-4">
             {t("homepage.partners.badge")}
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -34,8 +34,8 @@ const PartnersSection = () => {
                 contactSection.scrollIntoView({ behavior: "smooth" })
               }
             }}
-            className="px-8 py-4 bg-[#003366] text-white rounded-lg font-semibold 
-                       transition-all duration-300 hover:bg-[#004080] hover:scale-105 
+            className="px-8 py-4 bg-[#5A7A6E] text-white rounded-lg font-semibold
+                       transition-all duration-300 hover:bg-[#4AA07D] hover:scale-105
                        shadow-lg hover:shadow-xl"
           >
             {t("homepage.partners.ctaButton")}
@@ -50,15 +50,15 @@ const PartnersSection = () => {
                           hover:scale-[1.02] hover:-translate-y-2"
           >
             <div
-              className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl 
-                            flex items-center justify-center mb-6 group-hover:scale-110 
+              className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl
+                            flex items-center justify-center mb-6 group-hover:scale-110
                             transition-transform duration-300"
             >
               <CurrencyDollarIcon className="h-8 w-8 text-white" />
             </div>
             <h3
               className="text-xl md:text-2xl font-bold text-gray-800 mb-4 
-                           group-hover:text-[#003366] transition-colors duration-300"
+                           group-hover:text-[#4AA07D] transition-colors duration-300"
             >
               {t("homepage.partners.partner1.title")}
             </h3>
@@ -81,7 +81,7 @@ const PartnersSection = () => {
             </div>
             <h3
               className="text-xl md:text-2xl font-bold text-gray-800 mb-4 
-                           group-hover:text-[#003366] transition-colors duration-300"
+                           group-hover:text-[#4AA07D] transition-colors duration-300"
             >
               {t("homepage.partners.partner2.title")}
             </h3>
@@ -96,15 +96,15 @@ const PartnersSection = () => {
                           hover:scale-[1.02] hover:-translate-y-2"
           >
             <div
-              className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl 
-                            flex items-center justify-center mb-6 group-hover:scale-110 
+              className="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-xl
+                            flex items-center justify-center mb-6 group-hover:scale-110
                             transition-transform duration-300"
             >
               <UsersIcon className="h-8 w-8 text-white" />
             </div>
             <h3
               className="text-xl md:text-2xl font-bold text-gray-800 mb-4 
-                           group-hover:text-[#003366] transition-colors duration-300"
+                           group-hover:text-[#4AA07D] transition-colors duration-300"
             >
               {t("homepage.partners.partner3.title")}
             </h3>
@@ -114,9 +114,9 @@ const PartnersSection = () => {
           </div>
 
           <div
-            className="group bg-gradient-to-br from-[#003366] to-[#004080] p-8 rounded-2xl 
-                          shadow-lg hover:shadow-2xl transition-all duration-500 
-                          border border-[#003366]/20 hover:scale-[1.02] hover:-translate-y-2 text-white"
+            className="group bg-gradient-to-br from-[#5A7A6E] to-[#4AA07D] p-8 rounded-2xl
+                          shadow-lg hover:shadow-2xl transition-all duration-500
+                          border border-[#5A7A6E]/20 hover:scale-[1.02] hover:-translate-y-2 text-white"
           >
             <div
               className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-xl 
@@ -126,7 +126,7 @@ const PartnersSection = () => {
               <BriefcaseIcon className="h-8 w-8 text-white" />
             </div>
             <h3
-              className="text-xl md:text-2xl font-bold mb-4 group-hover:text-blue-200 
+              className="text-xl md:text-2xl font-bold mb-4 group-hover:text-emerald-200
                            transition-colors duration-300"
             >
               {t("homepage.partners.partner4.title")}
@@ -141,8 +141,8 @@ const PartnersSection = () => {
                   contactSection.scrollIntoView({ behavior: "smooth" })
                 }
               }}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#003366] 
-                         rounded-lg font-semibold transition-all duration-300 
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#5A7A6E]
+                         rounded-lg font-semibold transition-all duration-300
                          hover:bg-gray-100 hover:scale-105 shadow-lg"
             >
               {t("homepage.partners.partner4.button")}

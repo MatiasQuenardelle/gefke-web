@@ -33,13 +33,13 @@ export default function RelatedServices({ services = [], title }) {
             <Link
               key={index}
               href={service.href}
-              className="group bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-blue-500 transition-all duration-300 flex flex-col"
+              className="group bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-emerald-500 transition-all duration-300 flex flex-col"
             >
               <div className="flex items-start justify-between mb-3">
-                <h3 className="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                <h3 className="text-xl font-semibold text-gray-900 group-hover:text-emerald-600 transition-colors">
                   {service.title}
                 </h3>
-                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all flex-shrink-0 ml-2" />
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-emerald-600 group-hover:translate-x-1 transition-all flex-shrink-0 ml-2" />
               </div>
               {service.description && (
                 <p className="text-gray-600 text-sm flex-grow">

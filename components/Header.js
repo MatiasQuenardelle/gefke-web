@@ -164,7 +164,7 @@ export default function Header() {
   }, [openMenu])
 
   return (
-    <header className=" bg-[#003366] text-white shadow-md">
+    <header className=" bg-[#5A7A6E] text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1
           onClick={() => router.push("/")}
@@ -238,7 +238,7 @@ export default function Header() {
                           href={resolveHref(item.label, subItem)}
                           role="menuitem"
                           tabIndex={focusedItemIndex === subIndex ? 0 : -1}
-                          className="block px-4 py-2 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="block px-4 py-2 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500"
                         >
                           {subItem.label}
                         </Link>

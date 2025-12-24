@@ -7,6 +7,11 @@ import { Merriweather } from "next/font/google"
 
 const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
 
+// Extract base slug by removing language suffixes (-en, -es)
+function getBaseSlug(slug) {
+  return slug.replace(/-(en|es)$/, '')
+}
+
 // Default placeholder images for blog posts based on tags/categories
 const categoryImages = {
   skat: "/images/services/business.webp",
@@ -111,10 +116,19 @@ function PublicationCard({ post }) {
 }
 
 export default function PublicationsSection({ posts }) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
-  // Show only 3 most recent posts
-  const displayPosts = posts.slice(0, 3)
+  // Filter posts by current language, deduplicate by base slug, then show only 3 most recent
+  const currentLang = i18n.language || "da"
+  const baseSlugsAdded = new Set()
+  const filteredPosts = posts.filter((post) => {
+    if (post.lang !== currentLang) return false
+    const baseSlug = getBaseSlug(post.slug)
+    if (baseSlugsAdded.has(baseSlug)) return false
+    baseSlugsAdded.add(baseSlug)
+    return true
+  })
+  const displayPosts = filteredPosts.slice(0, 3)
 
   if (!displayPosts || displayPosts.length === 0) {
     return null

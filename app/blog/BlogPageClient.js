@@ -10,6 +10,11 @@ const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
 
 const DEFAULT_LANGUAGE = 'da'
 
+// Extract base slug by removing language suffixes (-en, -es)
+function getBaseSlug(slug) {
+  return slug.replace(/-(en|es)$/, '')
+}
+
 // Default placeholder images for blog posts based on tags/categories
 const categoryImages = {
   skat: "/images/services/business.webp",
@@ -203,27 +208,30 @@ export default function BlogPageClient({ blogPosts }) {
   const { t, i18n } = useTranslation()
 
   // Filter posts by current language with Danish fallback
+  // Uses base slug (without -en/-es suffix) to group translations together
   const filteredPosts = useMemo(() => {
     const currentLang = i18n.language || DEFAULT_LANGUAGE
     const postsInLang = []
-    const slugsAdded = new Set()
+    const baseSlugsAdded = new Set()
 
     // First, add posts in the current language
     for (const post of blogPosts) {
       const postLang = post.lang || DEFAULT_LANGUAGE
-      if (postLang === currentLang) {
+      const baseSlug = getBaseSlug(post.slug)
+      if (postLang === currentLang && !baseSlugsAdded.has(baseSlug)) {
         postsInLang.push(post)
-        slugsAdded.add(post.slug)
+        baseSlugsAdded.add(baseSlug)
       }
     }
 
-    // Then add Danish fallback posts for slugs we don't have yet
+    // Then add Danish fallback posts for base slugs we don't have yet
     if (currentLang !== DEFAULT_LANGUAGE) {
       for (const post of blogPosts) {
         const postLang = post.lang || DEFAULT_LANGUAGE
-        if (postLang === DEFAULT_LANGUAGE && !slugsAdded.has(post.slug)) {
+        const baseSlug = getBaseSlug(post.slug)
+        if (postLang === DEFAULT_LANGUAGE && !baseSlugsAdded.has(baseSlug)) {
           postsInLang.push({ ...post, isFallback: true })
-          slugsAdded.add(post.slug)
+          baseSlugsAdded.add(baseSlug)
         }
       }
     }

@@ -311,7 +311,41 @@
     "conclusionLink": "Kontakt os i dag",
     "conclusionText3": "– vi hjælper dig sikkert i gang.",
     "datePublished": "2024-02-15",
-    "dateModified": "2024-12-01"
+    "dateModified": "2025-01-02",
+    "faqs": [
+      {
+        "question": "Hvad er den hurtigste måde at starte virksomhed i Spanien?",
+        "answer": "At blive registreret som autónomo (selvstændig) er det hurtigste – du kan være operativ inden for 1-2 uger. Det kræver NIE-nummer, registrering hos skattemyndighederne (Agencia Tributaria) og tilmelding til socialforsikring (RETA). Der er ingen kapitalkrav, og omkostningerne er minimale sammenlignet med at etablere et S.L.-selskab."
+      },
+      {
+        "question": "Hvor meget skal jeg have på bankkontoen for at starte et S.L.-selskab?",
+        "answer": "Du skal indskyde minimum 3.000 € på en spansk bankkonto for at etablere et S.L.-selskab (Sociedad Limitada). Disse penge skal forblive på kontoen, og de bruges typisk til virksomhedens drift efter registrering. Det er et lovkrav, men ikke en tab – pengene tilhører stadig din virksomhed."
+      },
+      {
+        "question": "Hvad er forskellen mellem autónomo og S.L.-selskab?",
+        "answer": "Autónomo betyder, at du personligt hæfter ubegrænset for gæld. S.L. er et selskab, hvor din hæftelse er begrænset til dit indskud (3.000 €). S.L. har højere skattetryk (25% selskabsskat), mens autónomo typisk er 20% personlig indkomstskat. For små virksomheder er autónomo ofte billigere og hurtigere at etablere."
+      },
+      {
+        "question": "Kan jeg åbne en filial af min danske virksomhed i Spanien?",
+        "answer": "Ja, du kan åbne en filial af din danske virksomhed uden at skulle indskyde kapital. Filialens gæld er imidlertid moderselskabets ansvar. Du skal have en juridisk repræsentant, registrering i Registro Mercantil, spansk skattenummer og oversættelser af selskabsdokumenter. En filial kan være smart, hvis du allerede har virksomhed i Danmark."
+      },
+      {
+        "question": "Hvad betyder moms (IVA) i Spanien?",
+        "answer": "IVA (moms) er typisk 21% i Spanien på de fleste varer og tjenester. Som virksomhedsejer skal du opkræve IVA fra kunderne og indberette det kvartalsvis til skattemyndighederne. Du kan trække IVA fra dine indkøb. For små virksomheder findes lettere regler og momsfritag."
+      },
+      {
+        "question": "Hvor meget skal jeg tjene årligt før jeg skal betale selskabsskat?",
+        "answer": "Som autónomo betaler du ikke selskabsskat, men personlig indkomstskat (IRPF) på dit overskud, typisk omkring 20%. Som S.L.-selskab betaler du 25% selskabsskat på hele overskuddet, uanset størrelse. For små virksomheder under 300.000 € årligt er autónomo ofte mere fordelagtigt."
+      },
+      {
+        "question": "Hvor lang tid tager det at registrere et S.L.-selskab?",
+        "answer": "Det tager typisk 2-4 uger fra du starter processen til registreringen er godkendt. Det omfatter navnereservation, notar-underskrifter, bankindskud og Registro Mercantil-registrering. Med en advokat, der kender processen, kan det ofte accelereres til omkring 10-15 arbejdsdage."
+      },
+      {
+        "question": "Skal jeg have økonomisk rådgivning når jeg starter virksomhed i Spanien?",
+        "answer": "Ja, det anbefales stærkt. Du bør have en spansk revisor eller gestor til at håndtere bogholderi, skatteindberetninger og lønudbetaling. Omkostningerne er typisk 50-150 € pr. måned, men de sparer dig tid og hjælper dig med at undgå dyre skatteproblem og bøder senere."
+      }
+    ]
   },
   "testamenter": {
     "metaTitle": "Testamente Spanien | Arv Spanien Dansker - Juridisk Rådgivning",

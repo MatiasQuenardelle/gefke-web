@@ -5,6 +5,7 @@ import Image from "next/image"
 import Breadcrumb from "@/components/Breadcrumb"
 import RelatedServices from "@/components/RelatedServices"
 import { getRelatedServices } from "@/lib/relatedServices"
+import FAQSection from "@/components/FAQSection"
 
 export default function StarteVirksomhedSpanienPage() {
   const { t } = useTranslation()
@@ -162,6 +163,8 @@ export default function StarteVirksomhedSpanienPage() {
               </tbody>
             </table>
           </section>
+
+          <FAQSection translationKey="startVirksomhed" />
 
           <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
             <h2 className="text-2xl font-bold text-[#3A5A4E]">

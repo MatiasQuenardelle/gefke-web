@@ -161,6 +161,7 @@ function BlogCard({ post }) {
             alt={post.imageAlt || post.title}
             fill
             className="object-cover"
+            style={post.imagePosition ? { objectPosition: `center ${post.imagePosition}` } : undefined}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
           {showLangBadge && (

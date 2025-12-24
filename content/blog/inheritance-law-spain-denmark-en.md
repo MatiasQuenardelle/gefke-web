@@ -8,13 +8,14 @@ author: "Christian Gefke"
 authorTitle: "Spanish Lawyer"
 tags: ["inheritance", "will", "succession law", "spain", "EU regulation"]
 keywords: ["inheritance spain", "spanish inheritance law", "EU succession regulation", "foreign inheritance spain", "will spain", "forced heirship spain"]
-image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80"
+image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=1200&q=80"
 imageAlt: "Legal documents about inheritance law"
+imagePosition: "15%"
 ---
 
 # Inheritance in Spain: Danish or Spanish Law? A Complete Guide
 
-![Legal consultation about inheritance](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80)
+![Legal consultation about inheritance](https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=800&q=80)
 
 If you own property in Spain as a foreigner, understanding inheritance law is crucial. The EU Succession Regulation has fundamentally changed the rules since 2015, giving you unprecedented control over what happens to your assets after death.
 

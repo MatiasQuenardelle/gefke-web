@@ -8,13 +8,14 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat"
 tags: ["arv", "testamente", "arveret", "spanien", "EU-forordning"]
 keywords: ["arv spanien", "spansk arveret", "EU arveforordning", "udenlandsk arv spanien", "testamente spanien", "tvangsarv spanien"]
-image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80"
+image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=1200&q=80"
 imageAlt: "Juridiske dokumenter om arveret"
+imagePosition: "15%"
 ---
 
 # Arv i Spanien: Dansk eller Spansk Lov? En Komplet Guide
 
-![Juridisk rådgivning om arveret](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80)
+![Juridisk rådgivning om arveret](https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=800&q=80)
 
 Hvis du som udlænding ejer ejendom i Spanien, er forståelse af arveret afgørende. EU's arveforordning har grundlæggende ændret reglerne siden 2015 og giver dig hidtil uset kontrol over, hvad der sker med dine aktiver efter døden.
 

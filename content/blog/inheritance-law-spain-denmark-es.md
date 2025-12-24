@@ -8,13 +8,14 @@ author: "Christian Gefke"
 authorTitle: "Abogado Español"
 tags: ["herencia", "testamento", "derecho sucesorio", "españa", "reglamento UE"]
 keywords: ["herencia españa", "derecho sucesorio español", "reglamento europeo sucesiones", "herencia extranjeros españa", "testamento españa", "legítima españa"]
-image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80"
+image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=1200&q=80"
 imageAlt: "Documentos legales sobre derecho sucesorio"
+imagePosition: "20%"
 ---
 
 # Herencia en España: ¿Ley Danesa o Española? Una Guía Completa
 
-![Consulta legal sobre herencias](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80)
+![Consulta legal sobre herencias](https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=800&q=80)
 
 Si posees propiedades en España como extranjero, comprender el derecho sucesorio es crucial. El Reglamento Europeo de Sucesiones ha cambiado fundamentalmente las reglas desde 2015, otorgándote un control sin precedentes sobre qué sucede con tus bienes tras tu fallecimiento.
 

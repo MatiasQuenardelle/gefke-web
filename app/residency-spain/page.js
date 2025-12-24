@@ -1,6 +1,7 @@
 "use client"
 
 import { useTranslation } from "react-i18next"
+import Image from "next/image"
 import Breadcrumb from "@/components/Breadcrumb"
 import RelatedServices from "@/components/RelatedServices"
 import { getRelatedServices } from "@/lib/relatedServices"
@@ -10,23 +11,39 @@ import ArticleMeta from "@/components/ArticleMeta"
 export default function ResidencySpainArticle() {
   const { t } = useTranslation()
   const relatedServices = getRelatedServices("/residency-spain", t)
-  
+
   return (
     <>
-      <Breadcrumb 
+      <Breadcrumb
         items={[]}
         currentPage={t("residency.title")}
       />
-      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
-        <article className="max-w-4xl mx-auto space-y-10">
-          <header>
-            <h1 className="text-3xl md:text-5xl font-bold leading-tight text-center text-[#3A5A4E]">
+
+      {/* Hero Image Section */}
+      <section className="relative w-full h-[40vh] min-h-[300px] max-h-[450px] bg-[#3A5A4E]">
+        <Image
+          src="/images/services/move.webp"
+          alt={t("residency.title")}
+          fill
+          className="object-cover opacity-30"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#3A5A4E] to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
+          <div className="mx-auto max-w-4xl">
+            <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
               {t("residency.title")}
             </h1>
-            <p className="mt-4 text-lg text-center text-gray-700">
+            <p className="mt-4 text-lg text-white/90">
               {t("residency.subtitle")}
             </p>
-          </header>
+          </div>
+        </div>
+      </section>
+
+      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
+        <article className="max-w-4xl mx-auto space-y-10">
 
           <ArticleMeta translationKey="residency" />
 

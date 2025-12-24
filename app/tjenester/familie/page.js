@@ -34,7 +34,7 @@ export default function FamilieHubPage() {
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
-            <h1 className="text-3xl md:text-5xl font-bold text-[#5A7A6E] leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold text-[#3A5A4E] leading-tight">
               {t("hubFamilie.title")}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
@@ -94,7 +94,7 @@ export default function FamilieHubPage() {
           </section>
 
           <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
-            <h2 className="text-2xl font-bold text-[#5A7A6E]">
+            <h2 className="text-2xl font-bold text-[#3A5A4E]">
               {t("hubFamilie.ctaTitle")}
             </h2>
             <p>

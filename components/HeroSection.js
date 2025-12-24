@@ -11,7 +11,7 @@ export default function HeroSection() {
   const { t } = useTranslation()
 
   return (
-    <section className="w-full bg-gradient-to-br from-[#5A7A6E] via-[#4AA07D] to-[#4A6A5E] text-white relative overflow-hidden min-h-[50vh] flex items-center">
+    <section className="w-full bg-gradient-to-br from-[#3A5A4E] via-[#4AA07D] to-[#4A6A5E] text-white relative overflow-hidden min-h-[50vh] flex items-center">
       {/* Enhanced background elements with animation */}
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-float -translate-y-48 translate-x-48"></div>
@@ -111,7 +111,7 @@ export default function HeroSection() {
                   contactSection.scrollIntoView({ behavior: "smooth" })
                 }
               }}
-              className="group px-6 py-3 bg-white text-[#5A7A6E] rounded-lg font-semibold 
+              className="group px-6 py-3 bg-white text-[#3A5A4E] rounded-lg font-semibold 
                          transition-all duration-500 hover:bg-gray-100 hover:scale-105 
                          shadow-luxury hover:shadow-luxury-hover relative overflow-hidden text-sm"
             >
@@ -173,7 +173,7 @@ export default function HeroSection() {
 
               {/* Professional badge with enhanced styling */}
               <div
-                className="absolute -top-3 -right-3 bg-gradient-to-br from-white to-gray-100 text-[#5A7A6E] 
+                className="absolute -top-3 -right-3 bg-gradient-to-br from-white to-gray-100 text-[#3A5A4E] 
                               px-3 py-1 rounded-full text-xs font-semibold shadow-lg 
                               border border-gray-200 animate-float delay-500"
               >

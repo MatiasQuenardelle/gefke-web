@@ -8,9 +8,6 @@ import { getAllPosts } from "@/lib/blog"
 import PublicationsSection from "@/components/PublicationsSection"
 
 // Lazy load below-the-fold components for better initial page load
-const ArticlesSection = dynamic(() => import("@/components/ArticlesSection"), {
-  loading: () => <div className="min-h-[600px]" />, // Placeholder to prevent layout shift
-})
 const FAQSection = dynamic(() => import("@/components/FAQ"), {
   loading: () => <div className="min-h-[400px]" />, // Placeholder to prevent layout shift
 })
@@ -63,16 +60,17 @@ export default function Home() {
         <TrustedBySection />
 
         {/* Enhanced visual separation with animated gradient */}
-        <div className="h-20 bg-gradient-to-b from-black via-gray-800 to-[#f9f9f9] relative overflow-hidden">
+        <div className="h-20 bg-gradient-to-b from-black via-gray-800 to-white relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent animate-shimmer"></div>
         </div>
 
+        {/* Publications Section */}
         <div className="content-visibility-auto">
-          <ArticlesSection />
+          <PublicationsSection posts={blogPosts} />
         </div>
 
         {/* Sophisticated transition with parallax effect */}
-        <div className="h-16 bg-gradient-to-b from-[#f9f9f9] via-gray-100 to-gray-50 relative">
+        <div className="h-16 bg-gradient-to-b from-white via-gray-100 to-gray-50 relative">
           <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 via-transparent to-teal-500/10"></div>
         </div>
 
@@ -81,7 +79,7 @@ export default function Home() {
         </div>
 
         {/* Enhanced transition with depth */}
-        <div className="h-16 bg-gradient-to-b from-[#5A7A6E] via-[#4AA07D] to-gray-50 relative overflow-hidden">
+        <div className="h-16 bg-gradient-to-b from-[#3A5A4E] via-[#4AA07D] to-gray-50 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform skew-y-1"></div>
         </div>
 
@@ -89,18 +87,8 @@ export default function Home() {
           <FAQSection />
         </div>
 
-        {/* Transition to publications section */}
-        <div className="h-16 bg-gradient-to-b from-gray-50 to-white relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 via-transparent to-teal-500/5"></div>
-        </div>
-
-        {/* Publications Section */}
-        <div className="content-visibility-auto">
-          <PublicationsSection posts={blogPosts} />
-        </div>
-
         {/* Sophisticated spacing with visual interest */}
-        <div className="h-20 bg-gradient-to-b from-white via-gray-100 to-[#5A7A6E] relative">
+        <div className="h-20 bg-gradient-to-b from-gray-50 via-gray-100 to-[#3A5A4E] relative">
           <div className="absolute inset-0">
             <div className="absolute top-0 left-1/4 w-1 h-full bg-gradient-to-b from-transparent via-emerald-300/20 to-transparent"></div>
             <div className="absolute top-0 right-1/3 w-1 h-full bg-gradient-to-b from-transparent via-teal-300/20 to-transparent"></div>
@@ -110,7 +98,7 @@ export default function Home() {
         {/* ContactCTA and ContactForm are already in layout.js, so removed from here */}
 
         {/* Transition to partners section */}
-        <div className="h-16 bg-gradient-to-b from-[#5A7A6E] to-gray-50 relative">
+        <div className="h-16 bg-gradient-to-b from-[#3A5A4E] to-gray-50 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/20 via-transparent to-teal-600/20"></div>
         </div>
 

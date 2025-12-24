@@ -163,7 +163,7 @@ button:active {
 
 /* Advanced gradient text effect */
 .gradient-text {
-  background: linear-gradient(135deg, #4AA07D 0%, #5A7A6E 100%);
+  background: linear-gradient(135deg, #4AA07D 0%, #3A5A4E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -184,7 +184,7 @@ button:active {
 .border-gradient {
   border: 2px solid transparent;
   background: linear-gradient(white, white) padding-box,
-    linear-gradient(135deg, #4AA07D, #5A7A6E) border-box;
+    linear-gradient(135deg, #4AA07D, #3A5A4E) border-box;
 }
 
 /* Modern backdrop blur utilities */
@@ -269,7 +269,7 @@ button:active {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #5A7A6E;
+  background: #3A5A4E;
   color: white;
   padding: 8px 16px;
   z-index: 100;

@@ -52,8 +52,8 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto relative z-10">
         {/* Enhanced Header */}
         <div className="text-center mb-20 animate-fade-in-up">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-[#5A7A6E]/10 rounded-full text-sm font-medium text-[#5A7A6E] mb-6 border border-[#5A7A6E]/20 hover:bg-[#5A7A6E]/15 transition-all duration-300">
-            <div className="w-2 h-2 bg-[#5A7A6E] rounded-full animate-pulse"></div>
+          <div className="inline-flex items-center gap-2 px-6 py-3 bg-[#3A5A4E]/10 rounded-full text-sm font-medium text-[#3A5A4E] mb-6 border border-[#3A5A4E]/20 hover:bg-[#3A5A4E]/15 transition-all duration-300">
+            <div className="w-2 h-2 bg-[#3A5A4E] rounded-full animate-pulse"></div>
             {t("homepage.faq.badge")}
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 gradient-text">
@@ -79,8 +79,8 @@ export default function FAQ() {
               {/* Category Badge */}
               <div className="px-6 pt-4">
                 <span
-                  className="inline-block px-3 py-1 bg-gradient-to-r from-[#5A7A6E]/10 to-emerald-500/10
-                                 text-[#5A7A6E] text-xs font-medium rounded-full border border-[#5A7A6E]/20"
+                  className="inline-block px-3 py-1 bg-gradient-to-r from-[#3A5A4E]/10 to-emerald-500/10
+                                 text-[#3A5A4E] text-xs font-medium rounded-full border border-[#3A5A4E]/20"
                 >
                   {faq.category}
                 </span>
@@ -98,7 +98,7 @@ export default function FAQ() {
                   </h3>
                   <div className="flex-shrink-0">
                     <div
-                      className={`w-10 h-10 bg-gradient-to-br from-[#5A7A6E] to-[#4AA07D] rounded-full flex items-center justify-center transform transition-all duration-500 ${
+                      className={`w-10 h-10 bg-gradient-to-br from-[#3A5A4E] to-[#4AA07D] rounded-full flex items-center justify-center transform transition-all duration-500 ${
                         openItems.has(index)
                           ? "rotate-180 scale-110"
                           : "group-hover:scale-110"
@@ -131,7 +131,7 @@ export default function FAQ() {
                           return (
                             <h4
                               key={pIndex}
-                              className="text-lg font-bold text-[#5A7A6E] mt-6 mb-3 first:mt-0"
+                              className="text-lg font-bold text-[#3A5A4E] mt-6 mb-3 first:mt-0"
                             >
                               {paragraph.replace(/\*\*/g, "")}
                             </h4>
@@ -145,7 +145,7 @@ export default function FAQ() {
                                   key={iIndex}
                                   className="flex items-start gap-3"
                                 >
-                                  <div className="w-2 h-2 bg-[#5A7A6E] rounded-full mt-2 flex-shrink-0"></div>
+                                  <div className="w-2 h-2 bg-[#3A5A4E] rounded-full mt-2 flex-shrink-0"></div>
                                   <span className="text-gray-700 leading-relaxed">
                                     {item.replace("- ", "")}
                                   </span>
@@ -173,7 +173,7 @@ export default function FAQ() {
 
         {/* Enhanced Bottom CTA */}
         <div className="text-center mt-16 animate-fade-in-up delay-1000">
-          <div className="bg-gradient-to-br from-[#5A7A6E] to-[#4AA07D] rounded-3xl p-8 md:p-12 text-white relative overflow-hidden shadow-luxury">
+          <div className="bg-gradient-to-br from-[#3A5A4E] to-[#4AA07D] rounded-3xl p-8 md:p-12 text-white relative overflow-hidden shadow-luxury">
             {/* Background decoration */}
             <div className="absolute inset-0">
               <div className="absolute top-0 right-0 w-40 h-40 bg-white/5 rounded-full blur-2xl"></div>
@@ -194,7 +194,7 @@ export default function FAQ() {
                     contactSection.scrollIntoView({ behavior: "smooth" })
                   }
                 }}
-                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-[#5A7A6E] rounded-xl font-bold
+                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-[#3A5A4E] rounded-xl font-bold
                            transition-all duration-500 hover:bg-gray-100 hover:scale-105 shadow-luxury hover:shadow-luxury-hover"
               >
                 <span>{t("homepage.faq.ctaButton")}</span>

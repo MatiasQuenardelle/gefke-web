@@ -36,7 +36,7 @@ export default function Testimonials() {
   ]
 
   return (
-    <section className="relative bg-gradient-to-b from-[#5A7A6E] via-[#4AA07D] to-[#5A7A6E] text-white py-24 px-6 md:px-12 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-[#3A5A4E] via-[#4AA07D] to-[#3A5A4E] text-white py-24 px-6 md:px-12 overflow-hidden">
       {/* Enhanced background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-float"></div>
@@ -206,7 +206,7 @@ export default function Testimonials() {
                       contactSection.scrollIntoView({ behavior: "smooth" })
                     }
                   }}
-                  className="inline-flex items-center gap-3 px-8 py-4 bg-white text-[#5A7A6E] rounded-xl font-bold
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-white text-[#3A5A4E] rounded-xl font-bold
                              transition-all duration-500 hover:bg-gray-100 hover:scale-105 shadow-luxury hover:shadow-luxury-hover"
                 >
                   <span>{t("homepage.testimonials.ctaButton1")}</span>

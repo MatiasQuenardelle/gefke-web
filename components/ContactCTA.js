@@ -11,7 +11,7 @@ export default function ContactCTA() {
   const { t } = useTranslation()
 
   return (
-    <section className="w-full bg-gradient-to-br from-[#5A7A6E] via-[#4AA07D] to-[#4A6A5E] text-white relative overflow-hidden">
+    <section className="w-full bg-gradient-to-br from-[#3A5A4E] via-[#4AA07D] to-[#4A6A5E] text-white relative overflow-hidden">
       {/* Enhanced background decorative elements */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-float -translate-y-48 -translate-x-48"></div>
@@ -52,7 +52,7 @@ export default function ContactCTA() {
 
             {/* Enhanced floating badge */}
             <div
-              className="absolute -top-4 -right-4 bg-gradient-to-br from-white to-gray-100 text-[#5A7A6E] 
+              className="absolute -top-4 -right-4 bg-gradient-to-br from-white to-gray-100 text-[#3A5A4E] 
                             px-6 py-3 rounded-2xl text-sm font-bold shadow-luxury 
                             border border-gray-200 animate-float delay-500 group-hover:scale-105 transition-transform duration-500"
             >
@@ -102,7 +102,7 @@ export default function ContactCTA() {
                   contactSection.scrollIntoView({ behavior: "smooth" })
                 }
               }}
-              className="group px-10 py-5 bg-white text-[#5A7A6E] rounded-xl font-bold text-lg
+              className="group px-10 py-5 bg-white text-[#3A5A4E] rounded-xl font-bold text-lg
                          transition-all duration-500 hover:bg-gray-100 hover:scale-105 
                          shadow-luxury hover:shadow-luxury-hover relative overflow-hidden"
             >

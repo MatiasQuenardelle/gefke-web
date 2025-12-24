@@ -142,7 +142,7 @@ export default function PublicationsSection({ posts }) {
         <div className="mt-10 text-center">
           <Link
             href="/blog"
-            className="inline-flex items-center text-[#4AA07D] font-medium hover:text-[#5A7A6E] transition-colors"
+            className="inline-flex items-center text-[#4AA07D] font-medium hover:text-[#3A5A4E] transition-colors"
           >
             {t("publications.viewAll")}
             <svg className="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -45,7 +45,7 @@ function getPostImage(post) {
 function BlogHero() {
   const { t } = useTranslation()
   return (
-    <section className="w-full bg-[#5A7A6E] text-white">
+    <section className="w-full bg-[#3A5A4E] text-white">
       <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-8 px-6 md:px-20 py-[6vh]">
         <h1 className={`${merri.className} text-4xl md:text-6xl leading-none`}>
           {t("blog.title")}
@@ -99,7 +99,7 @@ function FeaturedPost({ post }) {
                 </span>
               ))}
             </div>
-            <h2 className={`${merri.className} text-2xl md:text-3xl text-[#5A7A6E] mb-3 hover:text-[#4AA07D] transition-colors`}>
+            <h2 className={`${merri.className} text-2xl md:text-3xl text-[#3A5A4E] mb-3 hover:text-[#4AA07D] transition-colors`}>
               {post.title}
             </h2>
             <p className="text-gray-600 mb-4 line-clamp-3">
@@ -175,7 +175,7 @@ function BlogCard({ post }) {
               </span>
             ))}
           </div>
-          <h2 className={`${merri.className} text-lg text-[#5A7A6E] mb-2 hover:text-[#4AA07D] transition-colors line-clamp-2`}>
+          <h2 className={`${merri.className} text-lg text-[#3A5A4E] mb-2 hover:text-[#4AA07D] transition-colors line-clamp-2`}>
             {post.title}
           </h2>
           <p className="text-gray-600 text-sm mb-4 line-clamp-2 flex-1">
@@ -259,7 +259,7 @@ export default function BlogPageClient({ blogPosts }) {
               {/* Other Posts Grid */}
               {otherPosts.length > 0 && (
                 <section>
-                  <h2 className={`${merri.className} text-2xl text-[#5A7A6E] mb-6`}>
+                  <h2 className={`${merri.className} text-2xl text-[#3A5A4E] mb-6`}>
                     {t("blog.latestArticles")}
                   </h2>
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

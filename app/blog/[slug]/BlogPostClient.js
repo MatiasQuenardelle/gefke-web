@@ -56,7 +56,7 @@ function RelatedPostCard({ post }) {
           />
         </div>
         <div className="p-4">
-          <h3 className="text-sm font-semibold text-[#5A7A6E] group-hover:text-[#4AA07D] transition-colors line-clamp-2 mb-2">
+          <h3 className="text-sm font-semibold text-[#3A5A4E] group-hover:text-[#4AA07D] transition-colors line-clamp-2 mb-2">
             {post.title}
           </h3>
           <time className="text-xs text-gray-500" dateTime={post.date}>
@@ -80,7 +80,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
   return (
     <>
       {/* Hero with featured image */}
-      <section className="relative w-full h-[40vh] min-h-[300px] max-h-[450px] bg-[#5A7A6E]">
+      <section className="relative w-full h-[40vh] min-h-[300px] max-h-[450px] bg-[#3A5A4E]">
         <Image
           src={postImage}
           alt={post.imageAlt || post.title}
@@ -89,7 +89,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#5A7A6E] to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#3A5A4E] to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="mx-auto max-w-4xl">
             <Link
@@ -175,7 +175,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           {/* Article content */}
           <article className="bg-white rounded-xl shadow-sm p-6 md:p-10 mb-8">
             <div className="prose prose-lg max-w-none
-              prose-headings:text-[#5A7A6E] prose-headings:font-bold
+              prose-headings:text-[#3A5A4E] prose-headings:font-bold
               prose-h1:text-3xl prose-h1:mt-8 prose-h1:mb-4
               prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h2:border-b prose-h2:pb-2 prose-h2:border-gray-100
               prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3
@@ -192,7 +192,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           {/* Related posts */}
           {relatedPosts && relatedPosts.length > 0 && (
             <section className="mb-12">
-              <h2 className={`${merri.className} text-xl text-[#5A7A6E] mb-6`}>
+              <h2 className={`${merri.className} text-xl text-[#3A5A4E] mb-6`}>
                 {t("blog.relatedPosts")}
               </h2>
               <div className="grid md:grid-cols-3 gap-4">

@@ -59,7 +59,7 @@ export default function RealEstateHub() {
         <div className="max-w-7xl mx-auto">
           {/* Hero Section */}
           <header className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#5A7A6E] leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-[#3A5A4E] leading-tight mb-6">
               {t("realEstateHub.title")}
             </h1>
             <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
@@ -69,7 +69,7 @@ export default function RealEstateHub() {
 
           {/* Overview Section */}
           <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#5A7A6E] mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#3A5A4E] mb-4">
               {t("realEstateHub.overviewTitle")}
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
@@ -113,7 +113,7 @@ export default function RealEstateHub() {
 
           {/* Why Choose Section */}
           <section className="bg-gradient-to-br from-emerald-50 to-emerald-50 rounded-lg p-8 mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#5A7A6E] mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#3A5A4E] mb-6">
               {t("realEstateHub.whyChooseTitle")}
             </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -137,7 +137,7 @@ export default function RealEstateHub() {
           </section>
 
           {/* CTA Section */}
-          <section className="bg-[#5A7A6E] text-white rounded-lg p-8 text-center">
+          <section className="bg-[#3A5A4E] text-white rounded-lg p-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               {t("realEstateHub.ctaTitle")}
             </h2>
@@ -146,7 +146,7 @@ export default function RealEstateHub() {
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-white text-[#5A7A6E] px-8 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition-colors"
+              className="inline-block bg-white text-[#3A5A4E] px-8 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition-colors"
             >
               {t("realEstateHub.ctaButton")}
             </Link>

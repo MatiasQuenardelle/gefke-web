@@ -50,8 +50,8 @@ export default function ArticlesSection() {
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Enhanced header with animation */}
         <div className="text-center mb-20 animate-fade-in-up">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-[#5A7A6E]/10 rounded-full text-sm font-medium text-[#5A7A6E] mb-6 border border-[#5A7A6E]/20 hover:bg-[#5A7A6E]/15 transition-all duration-300">
-            <div className="w-2 h-2 bg-[#5A7A6E] rounded-full animate-pulse"></div>
+          <div className="inline-flex items-center gap-2 px-6 py-3 bg-[#3A5A4E]/10 rounded-full text-sm font-medium text-[#3A5A4E] mb-6 border border-[#3A5A4E]/20 hover:bg-[#3A5A4E]/15 transition-all duration-300">
+            <div className="w-2 h-2 bg-[#3A5A4E] rounded-full animate-pulse"></div>
             {t("homepage.services.badge")}
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 gradient-text">
@@ -125,9 +125,9 @@ export default function ArticlesSection() {
                       contactSection.scrollIntoView({ behavior: "smooth" })
                     }
                   }}
-                  className="group/btn inline-flex items-center gap-3 text-[#5A7A6E] font-semibold text-lg
+                  className="group/btn inline-flex items-center gap-3 text-[#3A5A4E] font-semibold text-lg
                              hover:gap-6 transition-all duration-500 relative z-10
-                             px-6 py-3 rounded-xl hover:bg-[#5A7A6E]/5 hover:shadow-lg"
+                             px-6 py-3 rounded-xl hover:bg-[#3A5A4E]/5 hover:shadow-lg"
                 >
                   <span>{t("homepage.services.readMore")}</span>
                   <div className="relative">
@@ -144,14 +144,14 @@ export default function ArticlesSection() {
                         d="M17 8l4 4m0 0l-4 4m4-4H3"
                       />
                     </svg>
-                    <div className="absolute inset-0 bg-[#5A7A6E]/20 rounded-full scale-0 group-hover/btn:scale-150 transition-transform duration-500"></div>
+                    <div className="absolute inset-0 bg-[#3A5A4E]/20 rounded-full scale-0 group-hover/btn:scale-150 transition-transform duration-500"></div>
                   </div>
                 </button>
               </div>
 
               {/* Hover effect overlay */}
               <div
-                className="absolute inset-0 bg-gradient-to-br from-[#5A7A6E]/5 via-transparent to-emerald-500/5
+                className="absolute inset-0 bg-gradient-to-br from-[#3A5A4E]/5 via-transparent to-emerald-500/5
                               opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
               ></div>
             </div>
@@ -170,9 +170,9 @@ export default function ArticlesSection() {
                 contactSection.scrollIntoView({ behavior: "smooth" })
               }
             }}
-            className="px-8 py-4 bg-gradient-to-r from-[#5A7A6E] to-[#4AA07D] text-white rounded-xl font-semibold
-                       transition-all duration-500 hover:from-[#4AA07D] hover:to-[#5A7A6E] hover:scale-105
-                       shadow-luxury hover:shadow-luxury-hover border border-[#5A7A6E]/20"
+            className="px-8 py-4 bg-gradient-to-r from-[#3A5A4E] to-[#4AA07D] text-white rounded-xl font-semibold
+                       transition-all duration-500 hover:from-[#4AA07D] hover:to-[#3A5A4E] hover:scale-105
+                       shadow-luxury hover:shadow-luxury-hover border border-[#3A5A4E]/20"
           >
             {t("homepage.services.ctaButton")}
           </button>

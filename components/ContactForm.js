@@ -123,7 +123,7 @@ export default function ContactForm({
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#4AA07D] text-white font-medium py-3 px-5 rounded-md hover:bg-[#5A7A6E] transition-colors"
+            className="w-full bg-[#4AA07D] text-white font-medium py-3 px-5 rounded-md hover:bg-[#3A5A4E] transition-colors"
           >
             {isSubmitting
               ? t("contactForm.sending") || "Sending..."

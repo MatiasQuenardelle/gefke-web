@@ -18,7 +18,7 @@ const PartnersSection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Enhanced Header */}
         <div className="mb-16 text-center">
-          <div className="inline-block px-4 py-2 bg-[#5A7A6E]/10 rounded-full text-sm font-medium text-[#5A7A6E] mb-4">
+          <div className="inline-block px-4 py-2 bg-[#3A5A4E]/10 rounded-full text-sm font-medium text-[#3A5A4E] mb-4">
             {t("homepage.partners.badge")}
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -34,7 +34,7 @@ const PartnersSection = () => {
                 contactSection.scrollIntoView({ behavior: "smooth" })
               }
             }}
-            className="px-8 py-4 bg-[#5A7A6E] text-white rounded-lg font-semibold
+            className="px-8 py-4 bg-[#3A5A4E] text-white rounded-lg font-semibold
                        transition-all duration-300 hover:bg-[#4AA07D] hover:scale-105
                        shadow-lg hover:shadow-xl"
           >
@@ -114,9 +114,9 @@ const PartnersSection = () => {
           </div>
 
           <div
-            className="group bg-gradient-to-br from-[#5A7A6E] to-[#4AA07D] p-8 rounded-2xl
+            className="group bg-gradient-to-br from-[#3A5A4E] to-[#4AA07D] p-8 rounded-2xl
                           shadow-lg hover:shadow-2xl transition-all duration-500
-                          border border-[#5A7A6E]/20 hover:scale-[1.02] hover:-translate-y-2 text-white"
+                          border border-[#3A5A4E]/20 hover:scale-[1.02] hover:-translate-y-2 text-white"
           >
             <div
               className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-xl 
@@ -141,7 +141,7 @@ const PartnersSection = () => {
                   contactSection.scrollIntoView({ behavior: "smooth" })
                 }
               }}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#5A7A6E]
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#3A5A4E]
                          rounded-lg font-semibold transition-all duration-300
                          hover:bg-gray-100 hover:scale-105 shadow-lg"
             >

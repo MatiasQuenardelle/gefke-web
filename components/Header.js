@@ -164,7 +164,7 @@ export default function Header() {
   }, [openMenu])
 
   return (
-    <header className=" bg-[#5A7A6E] text-white shadow-md">
+    <header className=" bg-[#3A5A4E] text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1
           onClick={() => router.push("/")}

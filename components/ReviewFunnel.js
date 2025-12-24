@@ -85,7 +85,7 @@ export default function ReviewFunnel() {
                 href="https://search.google.com/local/writereview?placeid=ChIJ_VlbQF1rTEYReQftdoanPnA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mb-4 bg-[#4AA07D] hover:bg-[#5A7A6E] text-white font-medium py-3 px-6 rounded-md transition-colors"
+                className="inline-block mb-4 bg-[#4AA07D] hover:bg-[#3A5A4E] text-white font-medium py-3 px-6 rounded-md transition-colors"
               >
                 {t("reviewFunnel.leaveOnGoogle") || "Leave a Google Review"}
               </a>
@@ -192,7 +192,7 @@ export default function ReviewFunnel() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#4AA07D] text-white font-medium py-3 px-5 rounded-md hover:bg-[#5A7A6E] transition-colors"
+            className="w-full bg-[#4AA07D] text-white font-medium py-3 px-5 rounded-md hover:bg-[#3A5A4E] transition-colors"
           >
             {isSubmitting
               ? t("contactForm.sending") || "Sending..."

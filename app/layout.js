@@ -28,6 +28,9 @@ const geistMono = Geist_Mono({
 import { getMetadata } from "@/lib/metadata"
 import { getLegalServiceSchema, getPersonSchema, getLocalBusinessSchema } from "@/lib/structuredData"
 
+// Set the base URL for all metadata - required for canonical URLs to work
+export const metadataBase = new URL('https://www.buxtongefke.es')
+
 // Default metadata for homepage - can be overridden by child layouts
 export const metadata = getMetadata('homepage', '/', 'da')
 

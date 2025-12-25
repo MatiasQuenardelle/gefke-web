@@ -46,7 +46,7 @@ export async function generateMetadata({ params }) {
       description: post.description,
     },
     alternates: {
-      canonical: `${baseUrl}/blog/${slug}`,
+      canonical: `/blog/${slug}`,
     },
   }
 }

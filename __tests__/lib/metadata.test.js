@@ -17,7 +17,8 @@ describe('getMetadata', () => {
   it('sets correct canonical URL based on path', () => {
     const metadata = getMetadata('about', '/about', 'da')
 
-    expect(metadata.alternates.canonical).toBe(`${baseUrl}/about`)
+    // canonical uses relative path (metadataBase in layout.js prepends the base URL)
+    expect(metadata.alternates.canonical).toBe('/about')
     expect(metadata.openGraph.url).toBe(`${baseUrl}/about`)
   })
 

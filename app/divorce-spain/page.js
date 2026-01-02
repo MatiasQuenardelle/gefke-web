@@ -8,6 +8,8 @@ import { getRelatedServices } from "@/lib/relatedServices"
 import ArticleMeta from "@/components/ArticleMeta"
 import FAQSection from "@/components/FAQSection"
 
+//update 
+
 export default function DivorceSpainArticle() {
   const { t } = useTranslation()
   const relatedServices = getRelatedServices("/divorce-spain", t)

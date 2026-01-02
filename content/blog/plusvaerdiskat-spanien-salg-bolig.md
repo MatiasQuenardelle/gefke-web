@@ -7,13 +7,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat & Skattespecialist"
 tags: ["skat", "ejendom", "salg", "spanien", "guide"]
 keywords: ["plusværdiskat spanien", "kapitalgevinst spanien", "skat ved boligsalg spanien", "plusværdi dansker spanien", "ejendomssalg skat"]
-image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80"
-imageAlt: "Huskøb og ejendomshandel - skat ved salg"
+image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Nøgler og hus - plusværdiskat ved salg af bolig i Spanien"
 ---
 
 # Plusværdiskat Spanien: Hvad Skal Du Betale Ved Salg af Bolig?
 
-![Bolighandel og skat](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80)
+![Nøgler og hus - plusværdiskat ved salg af bolig i Spanien](https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80)
 
 Du købte en lejlighed i Málaga for €200,000 for tre år siden. Nu kan du sælge den for €280,000 – en fin €80,000 gevinst. Men før du glæder dig, skal du vide om **plusværdiskatt** – en ofte gemt skat, som kan tage **20-50% af din fortjeneste**.
 

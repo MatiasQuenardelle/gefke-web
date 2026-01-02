@@ -7,13 +7,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat & Skattespecialist"
 tags: ["skat", "spanien", "ejendom", "guide", "boligkøb"]
 keywords: ["IBI skat spanien", "ejendomsskat spanien", "IBI beregning", "årlig boligskat spanien", "ejendomsskat dansker spanien"]
-image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80"
-imageAlt: "Ejendomsskat dokumenter og skatteberegning"
+image: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Spansk bolig og ejendom - IBI ejendomsskat forklaret"
 ---
 
 # IBI Skat Spanien: Ejendomsskat Forklaret for Danske Boligejere
 
-![Ejendomsskat og skatteformularer](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80)
+![Spansk bolig og ejendom - IBI ejendomsskat forklaret](https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=800&q=80)
 
 Du køber en drømmebolig i Spanien til €250,000. Men efter underskrivelsen af skødet modtager du pludseligt en opkrævning på €2,000-3,000 årligt. Denne regning er **IBI-skatten** – og hvis du ikke kender reglerne, kan det være en dyr overraskelse.
 

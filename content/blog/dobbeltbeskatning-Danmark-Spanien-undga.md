@@ -7,13 +7,13 @@ author: "Christian Gefke"
 authorTitle: "Spansk Advokat & Skattespecialist"
 tags: ["skat", "spanien", "danmark", "erhverv", "guide"]
 keywords: ["dobbeltbeskatning danmark spanien", "skat spanien dansker", "skattebetaling spanien danmark", "undgå dobbeltbeskatning"]
-image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80"
-imageAlt: "Skatteberegning og dokumenter - dobbeltbeskatning Danmark Spanien"
+image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+imageAlt: "Skatteanalyse og beregninger - undgå dobbeltbeskatning Danmark Spanien"
 ---
 
 # Dobbeltbeskatning Danmark-Spanien: Sådan Undgår Du at Betale Skat To Steder
 
-![Skatteberegning og indkomstoversigt](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80)
+![Skatteanalyse og beregninger - undgå dobbeltbeskatning Danmark Spanien](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80)
 
 En af de største frygter blandt danskere, der bor eller arbejder i Spanien, er: **"Skal jeg betale skat i både Danmark og Spanien?"**
 

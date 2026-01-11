@@ -1399,6 +1399,19 @@
     "languageFallback": "This article is only available in Danish",
     "availableIn": "Available in"
   },
+  "blogCTA": {
+    "inlineTitle": "Have questions about your situation?",
+    "inlineSubtitle": "Get a free, no-obligation assessment of your case.",
+    "bookConsultation": "Book consultation",
+    "whatsappMessage": "Hi Christian, I just read your article and have a question.",
+    "bottomTitle": "Get your tax situation sorted",
+    "bottomSubtitle": "I have helped hundreds of Danes with their tax affairs in Spain. Let me help you avoid costly mistakes.",
+    "trust1": "Response within 24 hours",
+    "trust2": "First consultation is free",
+    "trust3": "Fixed price on most cases",
+    "bookFreeConsultation": "Book free consultation",
+    "callNow": "Call now"
+  },
   "breadcrumb": {
     "home": "Home"
   },

@@ -1674,6 +1674,19 @@
     "languageFallback": "Denne artikel er kun tilgængelig på dansk",
     "availableIn": "Tilgængelig på"
   },
+  "blogCTA": {
+    "inlineTitle": "Har du spørgsmål til din situation?",
+    "inlineSubtitle": "Få en gratis og uforpligtende vurdering af din sag.",
+    "bookConsultation": "Book samtale",
+    "whatsappMessage": "Hej Christian, jeg har lige læst din artikel og har et spørgsmål.",
+    "bottomTitle": "Få styr på din skattesituation",
+    "bottomSubtitle": "Jeg har hjulpet hundredvis af danskere med deres skatteforhold i Spanien. Lad mig hjælpe dig med at undgå dyre fejl.",
+    "trust1": "Svar inden 24 timer",
+    "trust2": "Første samtale er gratis",
+    "trust3": "Fast pris på de fleste sager",
+    "bookFreeConsultation": "Book gratis samtale",
+    "callNow": "Ring nu"
+  },
   "realEstateHub": {
     "metaTitle": "Juridisk Rådgivning om Fast Ejendom i Spanien | Christian Gefke",
     "metaDescription": "Omfattende juridisk rådgivning til danskere om alle aspekter af fast ejendom i Spanien - køb, salg, leje, realkredit, ejerforeninger og investeringer.",

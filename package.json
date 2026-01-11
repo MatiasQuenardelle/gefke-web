@@ -20,6 +20,7 @@
     "@mdx-js/react": "^3.1.0",
     "@mendable/firecrawl-js": "^1.21.1",
     "@next/mdx": "^15.5.7",
+    "@tailwindcss/typography": "^0.5.19",
     "gray-matter": "^4.0.3",
     "i18next": "^25.1.2",
     "i18next-browser-languagedetector": "^8.1.0",

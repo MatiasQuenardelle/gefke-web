@@ -5,8 +5,27 @@ import Image from "next/image"
 import ReactMarkdown from 'react-markdown'
 import { useTranslation } from "react-i18next"
 import { Merriweather } from "next/font/google"
+import { BlogCTAInline, BlogCTABottom } from "@/components/BlogCTA"
 
 const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
+
+// Split content into sections for CTA injection
+function splitContentForCTAs(content) {
+  // Split by H2 headers (## in markdown)
+  const sections = content.split(/(?=^## )/m)
+
+  if (sections.length <= 2) {
+    // Short article - just return as is with no mid-article CTA
+    return { beforeCTA: content, afterCTA: null }
+  }
+
+  // For longer articles, insert CTA after first 2-3 sections (roughly 30-40% through)
+  const insertPoint = Math.min(3, Math.ceil(sections.length * 0.35))
+  const beforeCTA = sections.slice(0, insertPoint).join('')
+  const afterCTA = sections.slice(insertPoint).join('')
+
+  return { beforeCTA, afterCTA }
+}
 
 // Default placeholder images for blog posts based on tags/categories
 const categoryImages = {
@@ -172,27 +191,53 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
             )}
           </div>
 
-          {/* Article content */}
-          <article className="bg-white rounded-xl shadow-sm p-6 md:p-10 mb-8">
-            <div className="prose prose-lg max-w-none
-              prose-headings:text-[#3A5A4E] prose-headings:font-bold
-              prose-h1:text-3xl prose-h1:mt-10 prose-h1:mb-6
-              prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-5 prose-h2:border-b prose-h2:pb-3 prose-h2:border-gray-100
-              prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4
-              prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-3
-              prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6
-              prose-a:text-emerald-600 hover:prose-a:text-[#4AA07D] prose-a:no-underline hover:prose-a:underline
-              prose-strong:text-gray-900 prose-strong:font-semibold
-              prose-ul:my-6 prose-ul:space-y-2 prose-li:my-2 prose-li:leading-relaxed
-              prose-ol:my-6 prose-ol:space-y-2
-              prose-table:my-8
-              prose-blockquote:border-emerald-500 prose-blockquote:bg-emerald-50 prose-blockquote:py-3 prose-blockquote:px-5 prose-blockquote:rounded-r-lg prose-blockquote:my-6
-              prose-img:rounded-lg prose-img:shadow-md prose-img:my-8
-              prose-hr:my-10 prose-hr:border-gray-200
-            ">
-              <ReactMarkdown>{post.content}</ReactMarkdown>
-            </div>
+          {/* Article content with inline CTAs */}
+          <article className="bg-white rounded-xl shadow-sm p-6 md:p-12 lg:p-16 mb-8">
+            {(() => {
+              const { beforeCTA, afterCTA } = splitContentForCTAs(post.content)
+              const proseClasses = `prose prose-lg lg:prose-xl max-w-none
+                prose-headings:text-[#3A5A4E] prose-headings:font-bold prose-headings:tracking-tight
+                prose-h1:text-4xl prose-h1:md:text-5xl prose-h1:mt-12 prose-h1:mb-8
+                prose-h2:text-3xl prose-h2:md:text-4xl prose-h2:mt-16 prose-h2:mb-6 prose-h2:pb-4 prose-h2:border-b-2 prose-h2:border-[#3A5A4E]/10
+                prose-h3:text-2xl prose-h3:md:text-3xl prose-h3:mt-12 prose-h3:mb-5 prose-h3:text-[#4A6A5E]
+                prose-h4:text-xl prose-h4:md:text-2xl prose-h4:mt-10 prose-h4:mb-4 prose-h4:font-semibold
+                prose-p:text-gray-700 prose-p:text-lg prose-p:md:text-xl prose-p:leading-relaxed prose-p:md:leading-[1.8] prose-p:mb-8
+                prose-a:text-emerald-600 prose-a:font-medium hover:prose-a:text-[#3A5A4E] prose-a:underline prose-a:underline-offset-2 prose-a:decoration-emerald-300 hover:prose-a:decoration-emerald-500
+                prose-strong:text-gray-900 prose-strong:font-bold
+                prose-ul:my-8 prose-ul:space-y-3 prose-ul:pl-6
+                prose-ol:my-8 prose-ol:space-y-3 prose-ol:pl-6
+                prose-li:text-lg prose-li:md:text-xl prose-li:leading-relaxed prose-li:text-gray-700 prose-li:pl-2
+                prose-table:my-10 prose-table:text-base
+                prose-th:bg-[#3A5A4E]/5 prose-th:text-[#3A5A4E] prose-th:font-bold prose-th:p-4
+                prose-td:p-4 prose-td:border-gray-200
+                prose-blockquote:border-l-4 prose-blockquote:border-[#3A5A4E] prose-blockquote:bg-[#3A5A4E]/5 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:my-10 prose-blockquote:text-lg prose-blockquote:md:text-xl prose-blockquote:italic prose-blockquote:text-gray-700
+                prose-img:rounded-xl prose-img:shadow-lg prose-img:my-10
+                prose-hr:my-14 prose-hr:border-gray-200
+                prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-[#3A5A4E] prose-code:font-medium prose-code:text-base`
+
+              return (
+                <>
+                  <div className={proseClasses}>
+                    <ReactMarkdown>{beforeCTA}</ReactMarkdown>
+                  </div>
+
+                  {/* Inline CTA - appears mid-article for longer posts */}
+                  {afterCTA && (
+                    <BlogCTAInline tags={post.tags} position="mid" />
+                  )}
+
+                  {afterCTA && (
+                    <div className={proseClasses}>
+                      <ReactMarkdown>{afterCTA}</ReactMarkdown>
+                    </div>
+                  )}
+                </>
+              )
+            })()}
           </article>
+
+          {/* Bottom CTA - appears after article content */}
+          <BlogCTABottom tags={post.tags} />
 
           {/* Related posts */}
           {relatedPosts && relatedPosts.length > 0 && (

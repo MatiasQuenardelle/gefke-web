@@ -1399,6 +1399,19 @@
     "languageFallback": "Este artículo solo está disponible en danés",
     "availableIn": "Disponible en"
   },
+  "blogCTA": {
+    "inlineTitle": "¿Tienes preguntas sobre tu situación?",
+    "inlineSubtitle": "Obtén una evaluación gratuita y sin compromiso de tu caso.",
+    "bookConsultation": "Reservar consulta",
+    "whatsappMessage": "Hola Christian, acabo de leer tu artículo y tengo una pregunta.",
+    "bottomTitle": "Resuelve tu situación fiscal",
+    "bottomSubtitle": "He ayudado a cientos de daneses con sus asuntos fiscales en España. Déjame ayudarte a evitar errores costosos.",
+    "trust1": "Respuesta en 24 horas",
+    "trust2": "Primera consulta gratis",
+    "trust3": "Precio fijo en la mayoría de casos",
+    "bookFreeConsultation": "Reservar consulta gratis",
+    "callNow": "Llamar ahora"
+  },
   "breadcrumb": {
     "home": "Inicio"
   },

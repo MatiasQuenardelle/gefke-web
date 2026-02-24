@@ -1,6 +1,6 @@
 "use client"
 import { useState, useRef } from "react"
-import emailjs from "@emailjs/browser"
+
 import { useTranslation } from "react-i18next"
 import WhatsAppWidget from "@/components/WhatsAppWidget"
 import HCaptcha from "@hcaptcha/react-hcaptcha"
@@ -33,22 +33,24 @@ export default function ContactForm({
     setStatus("")
 
     try {
-      await emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: formData.name,
-          reply_to: formData.email,
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
+          name: formData.name,
+          email: formData.email,
           message: formData.message,
-        },
-        { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY }
-      )
+        }),
+      })
+      const data = await res.json()
+      if (!data.success) throw new Error(data.message)
       setStatus(t("contactForm.success"))
       setFormData({ name: "", email: "", message: "" })
       setCaptchaToken("")
       captchaRef.current?.resetCaptcha()
     } catch (err) {
-      console.error("ContactForm: EmailJS error", err)
+      console.error("ContactForm: Web3Forms error", err)
       setStatus(t("contactForm.error"))
     } finally {
       setIsSubmitting(false)

@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useRef } from "react"
-import emailjs from "@emailjs/browser"
+
 import HCaptcha from "@hcaptcha/react-hcaptcha"
 import { useTranslation } from "react-i18next"
 import {
@@ -36,19 +36,20 @@ export default function ReviewFunnel() {
 
     setIsSubmitting(true)
 
-    emailjs
-      .send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: formData.name,
-          reply_to: formData.email,
-          message: formData.message,
-          rating,
-        },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-      )
-      .then(() => {
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+        rating,
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (!data.success) throw new Error(data.message)
         setFlow(rating === 5 ? "five" : "other")
         setCaptchaToken("")
         if (captchaRef.current) captchaRef.current.resetCaptcha()

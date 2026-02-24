@@ -19,16 +19,21 @@ export default function ContactForm({
   const handleChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value })
 
-  const handleSubmit = (e) => {
+  const handleCaptchaExpire = () => {
+    setCaptchaToken("")
+  }
+
+  const handleSubmit = async (e) => {
     e.preventDefault()
     if (!captchaToken) {
       setStatus(t("contactForm.captchaRequired"))
       return
     }
     setIsSubmitting(true)
+    setStatus("")
 
-    emailjs
-      .send(
+    try {
+      await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         {
@@ -36,16 +41,18 @@ export default function ContactForm({
           reply_to: formData.email,
           message: formData.message,
         },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY }
       )
-      .then(() => {
-        setStatus(t("contactForm.success"))
-        setFormData({ name: "", email: "", message: "" })
-        setCaptchaToken("")
-        captchaRef.current?.resetCaptcha()
-      })
-      .catch(() => setStatus(t("contactForm.error")))
-      .finally(() => setIsSubmitting(false))
+      setStatus(t("contactForm.success"))
+      setFormData({ name: "", email: "", message: "" })
+      setCaptchaToken("")
+      captchaRef.current?.resetCaptcha()
+    } catch (err) {
+      console.error("ContactForm: EmailJS error", err)
+      setStatus(t("contactForm.error"))
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -115,6 +122,7 @@ export default function ContactForm({
             <HCaptcha
               sitekey={process.env.NEXT_PUBLIC_HCAPTCHA_SITEKEY}
               onVerify={(token) => setCaptchaToken(token)}
+              onExpire={handleCaptchaExpire}
               ref={captchaRef}
             />
           </div>

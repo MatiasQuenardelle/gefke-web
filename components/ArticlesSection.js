@@ -1,38 +1,38 @@
 "use client"
 import Image from "next/image"
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 
 export default function ArticlesSection() {
-  const { t } = useTranslation()
+  const t = danish
   
   const services = [
     {
-      title: t("homepage.services.service1.title"),
-      description: t("homepage.services.service1.description"),
+      title: t.homepage.services.service1.title,
+      description: t.homepage.services.service1.description,
       href: "/services/selvstaendig-i-spanien",
       image: "/images/services/business.jpg",
       icon: "🏢",
       color: "from-emerald-500 to-emerald-600",
     },
     {
-      title: t("homepage.services.service2.title"),
-      description: t("homepage.services.service2.description"),
+      title: t.homepage.services.service2.title,
+      description: t.homepage.services.service2.description,
       href: "/services/bolig-i-spanien",
       image: "/images/services/housing.jpg",
       icon: "🏠",
       color: "from-green-500 to-green-600",
     },
     {
-      title: t("homepage.services.service3.title"),
-      description: t("homepage.services.service3.description"),
+      title: t.homepage.services.service3.title,
+      description: t.homepage.services.service3.description,
       href: "/services/flytte-til-spanien",
       image: "/images/services/move.jpg",
       icon: "✈️",
       color: "from-orange-500 to-orange-600",
     },
     {
-      title: t("homepage.services.service4.title"),
-      description: t("homepage.services.service4.description"),
+      title: t.homepage.services.service4.title,
+      description: t.homepage.services.service4.description,
       href: "/services/familie-og-arveret",
       image: "/images/services/family.jpg",
       icon: "👨‍👩‍👧‍👦",
@@ -52,13 +52,13 @@ export default function ArticlesSection() {
         <div className="text-center mb-20 animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-[#3A5A4E]/10 rounded-full text-sm font-medium text-[#3A5A4E] mb-6 border border-[#3A5A4E]/20 hover:bg-[#3A5A4E]/15 transition-all duration-300">
             <div className="w-2 h-2 bg-[#3A5A4E] rounded-full animate-pulse"></div>
-            {t("homepage.services.badge")}
+            {t.homepage.services.badge}
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 gradient-text">
-            {t("homepage.services.title")}
+            {t.homepage.services.title}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            {t("homepage.services.subtitle")}
+            {t.homepage.services.subtitle}
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function ArticlesSection() {
                 <div className="w-full h-64 relative overflow-hidden">
                   <Image
                     src={service.image}
-                    alt={t(`homepage.services.service${index + 1}.imageAlt`)}
+                    alt={t.homepage.services[`service${index + 1}`]?.imageAlt}
                     width={800}
                     height={600}
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
@@ -129,7 +129,7 @@ export default function ArticlesSection() {
                              hover:gap-6 transition-all duration-500 relative z-10
                              px-6 py-3 rounded-xl hover:bg-[#3A5A4E]/5 hover:shadow-lg"
                 >
-                  <span>{t("homepage.services.readMore")}</span>
+                  <span>{t.homepage.services.readMore}</span>
                   <div className="relative">
                     <svg
                       className="w-5 h-5 transform group-hover/btn:translate-x-1 transition-transform duration-500"
@@ -161,7 +161,7 @@ export default function ArticlesSection() {
         {/* Enhanced bottom CTA */}
         <div className="text-center mt-16 animate-fade-in-up delay-1000">
           <p className="text-gray-600 mb-6 text-lg">
-            {t("homepage.services.ctaText")}
+            {t.homepage.services.ctaText}
           </p>
           <button
             onClick={() => {
@@ -174,7 +174,7 @@ export default function ArticlesSection() {
                        transition-all duration-500 hover:from-[#4AA07D] hover:to-[#3A5A4E] hover:scale-105
                        shadow-luxury hover:shadow-luxury-hover border border-[#3A5A4E]/20"
           >
-            {t("homepage.services.ctaButton")}
+            {t.homepage.services.ctaButton}
           </button>
         </div>
       </div>

@@ -11,13 +11,18 @@ export default function sitemap() {
   const baseUrl = 'https://www.buxtongefke.es'
   const currentDate = new Date()
 
-  // Get all blog posts for dynamic sitemap generation
-  const blogPosts = getAllPosts().map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: post.lastModified ? new Date(post.lastModified) : new Date(post.date),
-    changeFrequency: 'monthly',
-    priority: 0.7,
-  }))
+  // Get blog posts per language for dynamic sitemap generation
+  const allPosts = getAllPosts()
+  const blogPosts = allPosts.map((post) => {
+    const lang = post.lang || 'da'
+    const prefix = lang === 'da' ? '' : `/${lang}`
+    return {
+      url: `${baseUrl}${prefix}/blog/${post.slug}`,
+      lastModified: post.lastModified ? new Date(post.lastModified) : new Date(post.date),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    }
+  })
 
   // Image definitions with alt text
   const images = {
@@ -278,6 +283,61 @@ export default function sitemap() {
     },
   ]
 
+  // English pages
+  const englishPages = [
+    { url: `${baseUrl}/en`, priority: 0.9 },
+    { url: `${baseUrl}/en/about`, priority: 0.8 },
+    { url: `${baseUrl}/en/contact`, priority: 0.8 },
+    { url: `${baseUrl}/en/buy-property-spain`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/en/real-estate-investment`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/en/mortgages-spain`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/en/homeowner-associations`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/en/rental-contracts-spain`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/en/divorce-spain`, priority: 0.8, images: [images.services[3]] },
+    { url: `${baseUrl}/en/wills-spain`, priority: 0.8, images: [images.services[3]] },
+    { url: `${baseUrl}/en/choice-of-law`, priority: 0.8 },
+    { url: `${baseUrl}/en/inheritance-jurisdiction`, priority: 0.8, images: [images.services[2]] },
+    { url: `${baseUrl}/en/residency-spain`, priority: 0.8, images: [images.services[2]] },
+    { url: `${baseUrl}/en/pension-spain`, priority: 0.8 },
+    { url: `${baseUrl}/en/work-in-spain`, priority: 0.8, images: [images.services[0]] },
+    { url: `${baseUrl}/en/start-business-spain`, priority: 0.8, images: [images.services[0]] },
+    { url: `${baseUrl}/en/employment-law-spain`, priority: 0.8, images: [images.services[0]] },
+    { url: `${baseUrl}/en/tax-spain`, priority: 0.8, images: [images.services[0]] },
+  ].map(page => ({
+    ...page,
+    lastModified: currentDate,
+    changeFrequency: 'monthly',
+  }))
+
+  // Spanish pages
+  const spanishPages = [
+    { url: `${baseUrl}/es`, priority: 0.9 },
+    { url: `${baseUrl}/es/sobre-mi`, priority: 0.8 },
+    { url: `${baseUrl}/es/contacto`, priority: 0.8 },
+    { url: `${baseUrl}/es/comprar-propiedad-espana`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/es/inversion-inmobiliaria`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/es/hipotecas-espana`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/es/comunidades-propietarios`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/es/alquiler-espana`, priority: 0.8, images: [images.services[1]] },
+    { url: `${baseUrl}/es/divorcio-internacional`, priority: 0.8, images: [images.services[3]] },
+    { url: `${baseUrl}/es/testamentos-espana`, priority: 0.8, images: [images.services[3]] },
+    { url: `${baseUrl}/es/herencias-internacionales`, priority: 0.8, images: [images.services[3]] },
+    { url: `${baseUrl}/es/residencia-extranjeros`, priority: 0.8, images: [images.services[2]] },
+    { url: `${baseUrl}/es/pension-espana`, priority: 0.8 },
+    { url: `${baseUrl}/es/trabajar-espana`, priority: 0.8, images: [images.services[0]] },
+    { url: `${baseUrl}/es/crear-empresa-espana`, priority: 0.8, images: [images.services[0]] },
+    { url: `${baseUrl}/es/derecho-laboral`, priority: 0.8, images: [images.services[0]] },
+    { url: `${baseUrl}/es/impuestos-espana`, priority: 0.8, images: [images.services[0]] },
+    { url: `${baseUrl}/es/inmobiliaria`, priority: 0.9, images: [images.services[1]] },
+    { url: `${baseUrl}/es/empresa-espana`, priority: 0.9, images: [images.services[0]] },
+    { url: `${baseUrl}/es/derecho-familia`, priority: 0.9, images: [images.services[3]] },
+    { url: `${baseUrl}/es/inmigracion`, priority: 0.9, images: [images.services[2]] },
+  ].map(page => ({
+    ...page,
+    lastModified: currentDate,
+    changeFrequency: 'monthly',
+  }))
+
   // Legal/informational pages - lower priority
   const legalPages = [
     {
@@ -294,7 +354,7 @@ export default function sitemap() {
     },
   ]
 
-  // Blog hub page
+  // Blog hub pages
   const blogHub = [
     {
       url: `${baseUrl}/blog`,
@@ -302,9 +362,21 @@ export default function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/en/blog`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/es/blog`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
   ]
 
   // Combine all pages
-  return [...mainPages, ...hubPages, ...servicePages, ...blogHub, ...blogPosts, ...legalPages]
+  return [...mainPages, ...hubPages, ...servicePages, ...englishPages, ...spanishPages, ...blogHub, ...blogPosts, ...legalPages]
 }
 

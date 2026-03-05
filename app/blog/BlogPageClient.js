@@ -3,7 +3,12 @@
 import { useMemo } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
+import english from "@/public/locales/en.json"
+import spanish from "@/public/locales/es.json"
+
+const translations = { da: danish, en: english, es: spanish }
+const locales = { da: 'da-DK', en: 'en-US', es: 'es-ES' }
 import { Merriweather } from "next/font/google"
 
 const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
@@ -47,32 +52,29 @@ function getPostImage(post) {
   return categoryImages.default
 }
 
-function BlogHero() {
-  const { t } = useTranslation()
+function BlogHero({ t }) {
   return (
     <section className="w-full bg-[#3A5A4E] text-white">
       <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-8 px-6 md:px-20 py-[6vh]">
         <h1 className={`${merri.className} text-4xl md:text-6xl leading-none`}>
-          {t("blog.title")}
+          {t.blog.title}
         </h1>
         <p className="text-lg md:text-xl font-light max-w-xl">
-          {t("blog.subtitle")}
+          {t.blog.subtitle}
         </p>
       </div>
     </section>
   )
 }
 
-function FeaturedPost({ post }) {
-  const { t, i18n } = useTranslation()
+function FeaturedPost({ post, t, lang, blogPrefix }) {
   const postImage = getPostImage(post)
-  const currentLang = i18n.language || DEFAULT_LANGUAGE
   const postLang = post.lang || DEFAULT_LANGUAGE
-  const showLangBadge = post.isFallback || (currentLang !== postLang && postLang !== currentLang)
+  const showLangBadge = post.isFallback || (lang !== postLang && postLang !== lang)
 
   return (
     <article className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow duration-300">
-      <Link href={`/blog/${post.slug}`} className="block">
+      <Link href={`${blogPrefix}/${post.slug}`} className="block">
         <div className="grid md:grid-cols-2 gap-0">
           <div className="relative h-64 md:h-full min-h-[280px]">
             <Image
@@ -84,12 +86,10 @@ function FeaturedPost({ post }) {
             />
             <div className="absolute top-4 left-4 flex gap-2">
               <span className="bg-emerald-600 text-white text-xs font-semibold px-3 py-1.5 rounded-full">
-                {t("blog.featuredArticle")}
+                {t.blog.featuredArticle}
               </span>
               {showLangBadge && (
-                <span className="bg-amber-100 text-amber-800 text-xs font-semibold px-3 py-1.5 rounded-full">
-                  Dansk
-                </span>
+                <LanguageBadge lang={postLang} />
               )}
             </div>
           </div>
@@ -112,7 +112,7 @@ function FeaturedPost({ post }) {
             </p>
             <div className="flex items-center gap-4 text-sm text-gray-500 mt-auto">
               <time dateTime={post.date}>
-                {new Date(post.date).toLocaleDateString(i18n.language === 'da' ? 'da-DK' : i18n.language === 'es' ? 'es-ES' : 'en-US', {
+                {new Date(post.date).toLocaleDateString(locales[lang] || 'da-DK', {
                   year: 'numeric',
                   month: 'long',
                   day: 'numeric'
@@ -145,16 +145,14 @@ function LanguageBadge({ lang }) {
   )
 }
 
-function BlogCard({ post }) {
-  const { t, i18n } = useTranslation()
+function BlogCard({ post, t, lang, blogPrefix }) {
   const postImage = getPostImage(post)
-  const currentLang = i18n.language || DEFAULT_LANGUAGE
   const postLang = post.lang || DEFAULT_LANGUAGE
-  const showLangBadge = post.isFallback || (currentLang !== postLang && postLang !== currentLang)
+  const showLangBadge = post.isFallback || (lang !== postLang && postLang !== lang)
 
   return (
     <article className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md hover:border-gray-200 transition-all duration-300 flex flex-col h-full">
-      <Link href={`/blog/${post.slug}`} className="block flex-1 flex flex-col">
+      <Link href={`${blogPrefix}/${post.slug}`} className="block flex-1 flex flex-col">
         <div className="relative h-48">
           <Image
             src={postImage}
@@ -189,14 +187,14 @@ function BlogCard({ post }) {
           </p>
           <div className="flex items-center justify-between text-xs text-gray-500 mt-auto pt-3 border-t border-gray-100">
             <time dateTime={post.date}>
-              {new Date(post.date).toLocaleDateString(i18n.language === 'da' ? 'da-DK' : i18n.language === 'es' ? 'es-ES' : 'en-US', {
+              {new Date(post.date).toLocaleDateString(locales[lang] || 'da-DK', {
                 year: 'numeric',
                 month: 'short',
                 day: 'numeric'
               })}
             </time>
             <span className="text-emerald-600 font-medium hover:text-[#4AA07D]">
-              {t("blog.readMore")} →
+              {t.blog.readMore} →
             </span>
           </div>
         </div>
@@ -205,13 +203,13 @@ function BlogCard({ post }) {
   )
 }
 
-export default function BlogPageClient({ blogPosts }) {
-  const { t, i18n } = useTranslation()
+export default function BlogPageClient({ blogPosts, lang = 'da' }) {
+  const t = translations[lang] || danish
+  const blogPrefix = lang === 'da' ? '/blog' : `/${lang}/blog`
 
   // Filter posts by current language with Danish fallback
   // Uses base slug (without -en/-es suffix) to group translations together
   const filteredPosts = useMemo(() => {
-    const currentLang = i18n.language || DEFAULT_LANGUAGE
     const postsInLang = []
     const baseSlugsAdded = new Set()
 
@@ -219,14 +217,14 @@ export default function BlogPageClient({ blogPosts }) {
     for (const post of blogPosts) {
       const postLang = post.lang || DEFAULT_LANGUAGE
       const baseSlug = getBaseSlug(post.slug)
-      if (postLang === currentLang && !baseSlugsAdded.has(baseSlug)) {
+      if (postLang === lang && !baseSlugsAdded.has(baseSlug)) {
         postsInLang.push(post)
         baseSlugsAdded.add(baseSlug)
       }
     }
 
     // Then add Danish fallback posts for base slugs we don't have yet
-    if (currentLang !== DEFAULT_LANGUAGE) {
+    if (lang !== DEFAULT_LANGUAGE) {
       for (const post of blogPosts) {
         const postLang = post.lang || DEFAULT_LANGUAGE
         const baseSlug = getBaseSlug(post.slug)
@@ -238,14 +236,14 @@ export default function BlogPageClient({ blogPosts }) {
     }
 
     return postsInLang.sort((a, b) => (new Date(a.date) < new Date(b.date) ? 1 : -1))
-  }, [blogPosts, i18n.language])
+  }, [blogPosts, lang])
 
   const featuredPost = filteredPosts[0]
   const otherPosts = filteredPosts.slice(1)
 
   return (
     <>
-      <BlogHero />
+      <BlogHero t={t} />
 
       <main className="bg-gray-50 min-h-screen">
         <div className="mx-auto max-w-7xl px-6 md:px-8 py-12">
@@ -254,14 +252,14 @@ export default function BlogPageClient({ blogPosts }) {
               <svg className="mx-auto h-12 w-12 text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
               </svg>
-              <p className="text-lg">{t("blog.noPosts")}</p>
+              <p className="text-lg">{t.blog.noPosts}</p>
             </div>
           ) : (
             <div className="space-y-12">
               {/* Featured Post */}
               {featuredPost && (
                 <section>
-                  <FeaturedPost post={featuredPost} />
+                  <FeaturedPost post={featuredPost} t={t} lang={lang} blogPrefix={blogPrefix} />
                 </section>
               )}
 
@@ -269,11 +267,11 @@ export default function BlogPageClient({ blogPosts }) {
               {otherPosts.length > 0 && (
                 <section>
                   <h2 className={`${merri.className} text-2xl text-[#3A5A4E] mb-6`}>
-                    {t("blog.latestArticles")}
+                    {t.blog.latestArticles}
                   </h2>
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {otherPosts.map((post) => (
-                      <BlogCard key={post.slug} post={post} />
+                      <BlogCard key={post.slug} post={post} t={t} lang={lang} blogPrefix={blogPrefix} />
                     ))}
                   </div>
                 </section>

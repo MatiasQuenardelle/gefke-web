@@ -1,29 +1,20 @@
-"use client"
-
 import Link from "next/link"
-import { useTranslation } from "react-i18next"
 import { ChevronRight, Home } from "lucide-react"
 
 /**
  * Breadcrumb Navigation Component
- * 
- * Provides hierarchical navigation and improves SEO by showing page structure.
- * Uses structured data for better search engine understanding.
- * 
+ *
  * @param {Array} items - Array of {label: string, href: string} objects
  * @param {string} currentPage - Label for current page (no link)
+ * @param {string} homeLabel - Label for the home link (defaults to "Hjem")
  */
-export default function Breadcrumb({ items = [], currentPage }) {
-  const { t } = useTranslation()
-
-  // Build breadcrumb structure
+export default function Breadcrumb({ items = [], currentPage, homeLabel = "Hjem" }) {
   const breadcrumbItems = [
-    { label: t("breadcrumb.home") || "Hjem", href: "/" },
+    { label: homeLabel, href: "/" },
     ...items,
     ...(currentPage ? [{ label: currentPage, href: null }] : [])
   ]
 
-  // Generate structured data for SEO
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -37,14 +28,12 @@ export default function Breadcrumb({ items = [], currentPage }) {
 
   return (
     <>
-      {/* Structured Data for SEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      
-      {/* Visual Breadcrumb */}
-      <nav 
+
+      <nav
         className="bg-gray-50 border-b border-gray-200 py-3 px-6 md:px-16 lg:px-32"
         aria-label="Breadcrumb"
       >
@@ -74,4 +63,3 @@ export default function Breadcrumb({ items = [], currentPage }) {
     </>
   )
 }
-

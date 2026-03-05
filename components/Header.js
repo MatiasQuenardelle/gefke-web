@@ -1,12 +1,11 @@
 "use client"
 
-import { useState, useMemo, useRef, useEffect } from "react"
+import { useState, useRef, useEffect } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { useRouter } from "next/navigation"
 import { Merriweather } from "next/font/google"
-import { useTranslation } from "react-i18next"
-import LanguageSelector from "./LanguageSelector"
+import danish from "@/public/locales/da.json"
 
 const merri = Merriweather({ weight: "700", subsets: ["latin"] })
 /** Helper to create URL‑friendly slugs */
@@ -22,7 +21,7 @@ function slugify(str) {
 
 export default function Header() {
   const router = useRouter()
-  const { t } = useTranslation()
+  const t = danish
   const [openMenu, setOpenMenu] = useState(null)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileSubmenu, setMobileSubmenu] = useState(null)
@@ -38,59 +37,59 @@ export default function Header() {
    * ‣ Provide explicit `href` when the article lives at a top‑level route;
    *   otherwise a conventional "/{kategori}/{artikel}" path is auto‑generated.
    */
-  const menuItems = useMemo(() => [
+  const menuItems = [
     {
-      label: t("menu.familyAndInheritance.label"),
+      label: t.menu.familyAndInheritance.label,
       sub: [
-        { label: t("menu.familyAndInheritance.sub.internationalDivorces"), href: "/divorce-spain" },
-        { label: t("menu.familyAndInheritance.sub.probateInInheritance"), href: "/opholdstilladelse" },
-        { label: t("menu.familyAndInheritance.sub.lawChoiceInInheritance"), href: "/lovvalg" },
-        { label: t("menu.familyAndInheritance.sub.willsInSpain"), href: "/testamenter-i-spanien" },
+        { label: t.menu.familyAndInheritance.sub.internationalDivorces, href: "/divorce-spain" },
+        { label: t.menu.familyAndInheritance.sub.probateInInheritance, href: "/opholdstilladelse" },
+        { label: t.menu.familyAndInheritance.sub.lawChoiceInInheritance, href: "/lovvalg" },
+        { label: t.menu.familyAndInheritance.sub.willsInSpain, href: "/testamenter-i-spanien" },
       ],
     },
     {
-      label: t("menu.realEstate.label"),
+      label: t.menu.realEstate.label,
       sub: [
-        { label: t("menu.realEstate.sub.rentalContracts"), href: "/lejekontrakter-i-spanien" },
-        { label: t("menu.realEstate.sub.mortgageAndLien"), href: "/realkredit" },
+        { label: t.menu.realEstate.sub.rentalContracts, href: "/lejekontrakter-i-spanien" },
+        { label: t.menu.realEstate.sub.mortgageAndLien, href: "/realkredit" },
         {
-          label: t("menu.realEstate.sub.planningLaw"),
+          label: t.menu.realEstate.sub.planningLaw,
           href: "/real-estate-investment-spain",
         },
         {
-          label: t("menu.realEstate.sub.buySellRealEstate"),
+          label: t.menu.realEstate.sub.buySellRealEstate,
           href: "/real-estate-buy-sell-spain",
         },
         {
-          label: t("menu.realEstate.sub.homeownerAssociations"),
+          label: t.menu.realEstate.sub.homeownerAssociations,
           href: "/homeowner-associations",
         },
       ],
     },
     {
-      label: t("menu.daneInSpain.label"),
+      label: t.menu.daneInSpain.label,
       sub: [
-        { label: t("menu.daneInSpain.sub.residency"), href: "/residency-spain" },
-        { label: t("menu.daneInSpain.sub.pensionAndHomeCare"), href: "/pension-spain" },
-        { label: t("menu.daneInSpain.sub.workInSpain"), href: "/arbejdsret-i-spanien" },
-        { label: t("menu.daneInSpain.sub.taxAdvice"), href: "/skat" },
+        { label: t.menu.daneInSpain.sub.residency, href: "/residency-spain" },
+        { label: t.menu.daneInSpain.sub.pensionAndHomeCare, href: "/pension-spain" },
+        { label: t.menu.daneInSpain.sub.workInSpain, href: "/arbejdsret-i-spanien" },
+        { label: t.menu.daneInSpain.sub.taxAdvice, href: "/skat" },
       ],
     },
     {
-      label: t("menu.business.label"),
+      label: t.menu.business.label,
       sub: [
         {
-          label: t("menu.business.sub.selfEmployed"),
+          label: t.menu.business.sub.selfEmployed,
           href: "/selvstaendig-webshop-spanien",
         },
-        { label: t("menu.business.sub.startBusiness"), href: "/starte-virksomhed-spanien" },
+        { label: t.menu.business.sub.startBusiness, href: "/starte-virksomhed-spanien" },
         {
-          label: t("menu.business.sub.holdingCompanies"),
+          label: t.menu.business.sub.holdingCompanies,
           href: "/dansk-holder-spansk-selskab",
         },
       ],
     },
-  ], [t])
+  ]
 
   /** Resolve a link for a submenu item */
   const resolveHref = (categoryLabel, sub) => {
@@ -175,7 +174,6 @@ export default function Header() {
 
         {/* Hamburger Button and Language Selector – only visible on mobile */}
         <div className="md:hidden flex items-center gap-3">
-          <LanguageSelector />
           <button
             onClick={() => setMobileMenuOpen((prev) => !prev)}
             aria-label="Toggle menu"
@@ -250,12 +248,24 @@ export default function Header() {
             })}
 
             <Link href="/blog" className="hover:underline px-4 z-50">
-              {t("menu.blog")}
+              {t.menu.blog}
             </Link>
             <Link href="/about" className="hover:underline px-4 z-50">
-              {t("menu.about")}
+              {t.menu.about}
             </Link>
-            <LanguageSelector />
+
+            {/* Language links */}
+            <div className="flex items-center gap-1 pl-2 border-l border-white/30 ml-2">
+              <Link href="/" className="px-1.5 py-0.5 rounded text-sm hover:bg-white/10 transition-colors" title="Dansk">
+                DA
+              </Link>
+              <Link href="/en" className="px-1.5 py-0.5 rounded text-sm hover:bg-white/10 transition-colors" title="English">
+                EN
+              </Link>
+              <Link href="/es" className="px-1.5 py-0.5 rounded text-sm hover:bg-white/10 transition-colors" title="Español">
+                ES
+              </Link>
+            </div>
           </nav>
       </div>
 
@@ -294,15 +304,28 @@ export default function Header() {
             className="block font-medium hover:underline"
             onClick={() => setMobileMenuOpen(false)}
           >
-            {t("menu.blog")}
+            {t.menu.blog}
           </Link>
           <Link
             href="/about"
             className="block font-medium hover:underline"
             onClick={() => setMobileMenuOpen(false)}
           >
-            {t("menu.about")}
+            {t.menu.about}
           </Link>
+
+          {/* Language links */}
+          <div className="flex gap-4 pt-2 border-t border-white/20">
+            <Link href="/" className="text-sm hover:underline" onClick={() => setMobileMenuOpen(false)}>
+              Dansk
+            </Link>
+            <Link href="/en" className="text-sm hover:underline" onClick={() => setMobileMenuOpen(false)}>
+              English
+            </Link>
+            <Link href="/es" className="text-sm hover:underline" onClick={() => setMobileMenuOpen(false)}>
+              Español
+            </Link>
+          </div>
         </nav>
       )}
     </header>

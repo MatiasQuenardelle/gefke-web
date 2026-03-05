@@ -3,7 +3,12 @@
 import Link from "next/link"
 import Image from "next/image"
 import ReactMarkdown from 'react-markdown'
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
+import english from "@/public/locales/en.json"
+import spanish from "@/public/locales/es.json"
+
+const translations = { da: danish, en: english, es: spanish }
+const localeMap = { da: 'da-DK', en: 'en-US', es: 'es-ES' }
 import { Merriweather } from "next/font/google"
 import { BlogCTAInline, BlogCTABottom } from "@/components/BlogCTA"
 
@@ -58,12 +63,11 @@ function getPostImageLocal(post) {
   return categoryImages.default
 }
 
-function RelatedPostCard({ post }) {
-  const { t, i18n } = useTranslation()
+function RelatedPostCard({ post, blogPrefix, locale }) {
   const postImage = getPostImageLocal(post)
 
   return (
-    <Link href={`/blog/${post.slug}`} className="group block">
+    <Link href={`${blogPrefix}/${post.slug}`} className="group block">
       <article className="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100 hover:shadow-md hover:border-gray-200 transition-all duration-300">
         <div className="relative h-36">
           <Image
@@ -79,7 +83,7 @@ function RelatedPostCard({ post }) {
             {post.title}
           </h3>
           <time className="text-xs text-gray-500" dateTime={post.date}>
-            {new Date(post.date).toLocaleDateString(i18n.language === 'da' ? 'da-DK' : i18n.language === 'es' ? 'es-ES' : 'en-US', {
+            {new Date(post.date).toLocaleDateString(locale, {
               year: 'numeric',
               month: 'short',
               day: 'numeric'
@@ -91,10 +95,10 @@ function RelatedPostCard({ post }) {
   )
 }
 
-export default function BlogPostClient({ post, postImage, readingTime, relatedPosts }) {
-  const { t, i18n } = useTranslation()
-
-  const locale = i18n.language === 'da' ? 'da-DK' : i18n.language === 'es' ? 'es-ES' : 'en-US'
+export default function BlogPostClient({ post, postImage, readingTime, relatedPosts, lang = 'da' }) {
+  const t = translations[lang] || danish
+  const locale = localeMap[lang] || 'da-DK'
+  const blogPrefix = lang === 'da' ? '/blog' : `/${lang}/blog`
 
   return (
     <>
@@ -112,10 +116,10 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="mx-auto max-w-4xl">
             <Link
-              href="/blog"
+              href={blogPrefix}
               className="inline-flex items-center text-white/80 hover:text-white text-sm mb-4 transition-colors"
             >
-              {t("blog.backToBlog")}
+              {t.blog.backToBlog}
             </Link>
             <h1 className={`${merri.className} text-3xl md:text-5xl text-white leading-tight`}>
               {post.title}
@@ -156,7 +160,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                     </svg>
                     <span>
-                      {t("blog.updated")}: {new Date(post.lastModified).toLocaleDateString(locale, {
+                      {t.blog.updated}: {new Date(post.lastModified).toLocaleDateString(locale, {
                         year: 'numeric',
                         month: 'short',
                         day: 'numeric'
@@ -170,7 +174,7 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
                 <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>{readingTime} {t("blog.minRead")}</span>
+                <span>{readingTime} {t.blog.minRead}</span>
               </div>
             </div>
 
@@ -243,11 +247,11 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           {relatedPosts && relatedPosts.length > 0 && (
             <section className="mb-12">
               <h2 className={`${merri.className} text-xl text-[#3A5A4E] mb-6`}>
-                {t("blog.relatedPosts")}
+                {t.blog.relatedPosts}
               </h2>
               <div className="grid md:grid-cols-3 gap-4">
                 {relatedPosts.map((relatedPost) => (
-                  <RelatedPostCard key={relatedPost.slug} post={relatedPost} />
+                  <RelatedPostCard key={relatedPost.slug} post={relatedPost} blogPrefix={blogPrefix} locale={locale} />
                 ))}
               </div>
             </section>
@@ -256,10 +260,10 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           {/* Back to blog */}
           <div className="pb-12">
             <Link
-              href="/blog"
+              href={blogPrefix}
               className="inline-flex items-center gap-2 text-emerald-600 hover:text-[#4AA07D] font-medium transition-colors"
             >
-              {t("blog.backToBlog")}
+              {t.blog.backToBlog}
             </Link>
           </div>
         </div>

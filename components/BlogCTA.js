@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 
 // CTA variants for different article topics
 const ctaVariants = {
@@ -80,7 +80,7 @@ function getVariant(tags) {
 
 // Inline CTA - appears within article content
 export function BlogCTAInline({ tags, position = "mid" }) {
-  const { t } = useTranslation()
+  const t = danish
   const variant = getVariant(tags)
 
   const scrollToContact = () => {
@@ -91,7 +91,7 @@ export function BlogCTAInline({ tags, position = "mid" }) {
   }
 
   const openWhatsApp = () => {
-    window.open("https://wa.me/4593841822?text=" + encodeURIComponent(t("blogCTA.whatsappMessage")), "_blank")
+    window.open("https://wa.me/4593841822?text=" + encodeURIComponent(t.blogCTA.whatsappMessage), "_blank")
   }
 
   return (
@@ -102,10 +102,10 @@ export function BlogCTAInline({ tags, position = "mid" }) {
         </div>
         <div className="flex-grow">
           <p className="text-[#3A5A4E] font-semibold text-lg mb-1">
-            {t("blogCTA.inlineTitle")}
+            {t.blogCTA.inlineTitle}
           </p>
           <p className="text-gray-600 text-sm">
-            {t("blogCTA.inlineSubtitle")}
+            {t.blogCTA.inlineSubtitle}
           </p>
         </div>
         <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
@@ -114,7 +114,7 @@ export function BlogCTAInline({ tags, position = "mid" }) {
             className="px-5 py-2.5 bg-[#3A5A4E] text-white rounded-lg font-medium text-sm
                        hover:bg-[#2d4a3f] transition-colors duration-200 whitespace-nowrap"
           >
-            {t("blogCTA.bookConsultation")}
+            {t.blogCTA.bookConsultation}
           </button>
           <button
             onClick={openWhatsApp}
@@ -134,7 +134,7 @@ export function BlogCTAInline({ tags, position = "mid" }) {
 
 // Bottom CTA - appears at the end of article, before related posts
 export function BlogCTABottom({ tags }) {
-  const { t } = useTranslation()
+  const t = danish
   const variant = getVariant(tags)
 
   const scrollToContact = () => {
@@ -145,7 +145,7 @@ export function BlogCTABottom({ tags }) {
   }
 
   const openWhatsApp = () => {
-    window.open("https://wa.me/4593841822?text=" + encodeURIComponent(t("blogCTA.whatsappMessage")), "_blank")
+    window.open("https://wa.me/4593841822?text=" + encodeURIComponent(t.blogCTA.whatsappMessage), "_blank")
   }
 
   const callNow = () => {
@@ -172,10 +172,10 @@ export function BlogCTABottom({ tags }) {
           {/* Right side - Content */}
           <div className="flex-grow text-center md:text-left">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
-              {t("blogCTA.bottomTitle")}
+              {t.blogCTA.bottomTitle}
             </h3>
             <p className="text-white/80 text-lg mb-6 max-w-xl">
-              {t("blogCTA.bottomSubtitle")}
+              {t.blogCTA.bottomSubtitle}
             </p>
 
             {/* Trust indicators */}
@@ -184,19 +184,19 @@ export function BlogCTABottom({ tags }) {
                 <svg className="w-4 h-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>{t("blogCTA.trust1")}</span>
+                <span>{t.blogCTA.trust1}</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>{t("blogCTA.trust2")}</span>
+                <span>{t.blogCTA.trust2}</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>{t("blogCTA.trust3")}</span>
+                <span>{t.blogCTA.trust3}</span>
               </div>
             </div>
 
@@ -211,7 +211,7 @@ export function BlogCTABottom({ tags }) {
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                {t("blogCTA.bookFreeConsultation")}
+                {t.blogCTA.bookFreeConsultation}
               </button>
               <button
                 onClick={openWhatsApp}
@@ -233,7 +233,7 @@ export function BlogCTABottom({ tags }) {
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                {t("blogCTA.callNow")}
+                {t.blogCTA.callNow}
               </button>
             </div>
           </div>

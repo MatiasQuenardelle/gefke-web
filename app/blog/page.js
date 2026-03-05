@@ -11,7 +11,7 @@ export const metadata = {
 }
 
 export default function BlogPage() {
-  const blogPosts = getAllPosts()
+  const blogPosts = getAllPosts('da')
 
-  return <BlogPageClient blogPosts={blogPosts} />
+  return <BlogPageClient blogPosts={blogPosts} lang="da" />
 }

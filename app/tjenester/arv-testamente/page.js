@@ -1,23 +1,22 @@
-"use client"
-
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 import Link from "next/link"
 import Breadcrumb from "@/components/Breadcrumb"
 import { ArrowRight, FileText, Scale } from "lucide-react"
 
+const t = danish
+
 export default function ArvTestamenteHubPage() {
-  const { t } = useTranslation()
 
   const services = [
     {
-      title: t("testamenter.title"),
-      description: t("testamenter.subtitle"),
+      title: t.testamenter.title,
+      description: t.testamenter.subtitle,
       href: "/testamenter-i-spanien",
       icon: FileText
     },
     {
-      title: t("lawChoice.title"),
-      description: t("lawChoice.subtitle"),
+      title: t.lawChoice.title,
+      description: t.lawChoice.subtitle,
       href: "/lovvalg",
       icon: Scale
     }
@@ -27,30 +26,30 @@ export default function ArvTestamenteHubPage() {
     <>
       <Breadcrumb
         items={[
-          { label: t("nav.services") || "Tjenester", href: "/services" }
+          { label: t.nav.services || "Tjenester", href: "/services" }
         ]}
-        currentPage={t("hubArvTestamente.title")}
+        currentPage={t.hubArvTestamente.title}
       />
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-[#3A5A4E] leading-tight">
-              {t("hubArvTestamente.title")}
+              {t.hubArvTestamente.title}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              {t("hubArvTestamente.subtitle")}
+              {t.hubArvTestamente.subtitle}
             </p>
           </header>
 
           <section className="space-y-6">
             <p className="text-lg">
-              {t("hubArvTestamente.intro")}
+              {t.hubArvTestamente.intro}
             </p>
           </section>
 
           <section className="space-y-6">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("hubArvTestamente.servicesTitle")}
+              {t.hubArvTestamente.servicesTitle}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {services.map((service, index) => {
@@ -83,28 +82,28 @@ export default function ArvTestamenteHubPage() {
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("hubArvTestamente.whyImportantTitle")}
+              {t.hubArvTestamente.whyImportantTitle}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-2">
-              <li>{t("hubArvTestamente.reason1")}</li>
-              <li>{t("hubArvTestamente.reason2")}</li>
-              <li>{t("hubArvTestamente.reason3")}</li>
-              <li>{t("hubArvTestamente.reason4")}</li>
+              <li>{t.hubArvTestamente.reason1}</li>
+              <li>{t.hubArvTestamente.reason2}</li>
+              <li>{t.hubArvTestamente.reason3}</li>
+              <li>{t.hubArvTestamente.reason4}</li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
             <h2 className="text-2xl font-bold text-[#3A5A4E]">
-              {t("hubArvTestamente.ctaTitle")}
+              {t.hubArvTestamente.ctaTitle}
             </h2>
             <p>
-              {t("hubArvTestamente.ctaText")}
+              {t.hubArvTestamente.ctaText}
             </p>
             <Link
               href="/contact"
               className="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors"
             >
-              {t("hubArvTestamente.ctaButton")}
+              {t.hubArvTestamente.ctaButton}
             </Link>
           </section>
         </article>

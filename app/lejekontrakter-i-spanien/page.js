@@ -1,28 +1,27 @@
-"use client"
-
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 import Image from "next/image"
 import Breadcrumb from "@/components/Breadcrumb"
 import RelatedServices from "@/components/RelatedServices"
 import { getRelatedServices } from "@/lib/relatedServices"
 import ArticleMeta from "@/components/ArticleMeta"
 
+const t = danish
+
 export default function LejekontrakterISpanienPage() {
-  const { t } = useTranslation()
   const relatedServices = getRelatedServices("/lejekontrakter-i-spanien", t)
 
   return (
     <>
       <Breadcrumb
         items={[]}
-        currentPage={t("rentalContracts.title")}
+        currentPage={t.rentalContracts.title}
       />
 
       {/* Hero Image Section */}
       <section className="relative w-full h-[40vh] min-h-[300px] max-h-[450px] bg-[#3A5A4E]">
         <Image
           src="/images/services/housing.webp"
-          alt={t("rentalContracts.title")}
+          alt={t.rentalContracts.title}
           fill
           className="object-cover opacity-30"
           priority
@@ -32,10 +31,10 @@ export default function LejekontrakterISpanienPage() {
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="mx-auto max-w-4xl">
             <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-              {t("rentalContracts.title")}
+              {t.rentalContracts.title}
             </h1>
             <p className="mt-4 text-lg text-white/90">
-              {t("rentalContracts.subtitle")}
+              {t.rentalContracts.subtitle}
             </p>
           </div>
         </div>
@@ -48,135 +47,135 @@ export default function LejekontrakterISpanienPage() {
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("rentalContracts.section1Title")}
+              {t.rentalContracts.section1Title}
             </h2>
             <p>
-              {t("rentalContracts.section1Text")}
+              {t.rentalContracts.section1Text}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>{t("rentalContracts.section1Item1Label")}</strong>{" "}
-                {t("rentalContracts.section1Item1Text")}
+                <strong>{t.rentalContracts.section1Item1Label}</strong>{" "}
+                {t.rentalContracts.section1Item1Text}
               </li>
               <li>
-                <strong>{t("rentalContracts.section1Item2Label")}</strong>{" "}
-                {t("rentalContracts.section1Item2Text")}
+                <strong>{t.rentalContracts.section1Item2Label}</strong>{" "}
+                {t.rentalContracts.section1Item2Text}
               </li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("rentalContracts.section2Title")}
+              {t.rentalContracts.section2Title}
             </h2>
-            <p>{t("rentalContracts.section2Text1")}</p>
+            <p>{t.rentalContracts.section2Text1}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>{t("rentalContracts.section2Item1Label")}</strong>{" "}
-                {t("rentalContracts.section2Item1Text")}
+                <strong>{t.rentalContracts.section2Item1Label}</strong>{" "}
+                {t.rentalContracts.section2Item1Text}
               </li>
               <li>
-                <strong>{t("rentalContracts.section2Item2Label")}</strong>{" "}
-                {t("rentalContracts.section2Item2Text")}
+                <strong>{t.rentalContracts.section2Item2Label}</strong>{" "}
+                {t.rentalContracts.section2Item2Text}
               </li>
               <li>
-                <strong>{t("rentalContracts.section2Item3Label")}</strong>{" "}
-                {t("rentalContracts.section2Item3Text")}
+                <strong>{t.rentalContracts.section2Item3Label}</strong>{" "}
+                {t.rentalContracts.section2Item3Text}
               </li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("rentalContracts.section3Title")}
+              {t.rentalContracts.section3Title}
             </h2>
             <p>
-              {t("rentalContracts.section3Text1")}
+              {t.rentalContracts.section3Text1}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("rentalContracts.section3Item1")}</li>
-              <li>{t("rentalContracts.section3Item2")}</li>
-              <li>{t("rentalContracts.section3Item3")}</li>
+              <li>{t.rentalContracts.section3Item1}</li>
+              <li>{t.rentalContracts.section3Item2}</li>
+              <li>{t.rentalContracts.section3Item3}</li>
             </ul>
             <p className="italic">
-              {t("rentalContracts.section3Text2")}
+              {t.rentalContracts.section3Text2}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("rentalContracts.section4Title")}
+              {t.rentalContracts.section4Title}
             </h2>
             <p>
-              {t("rentalContracts.section4Text1")}
+              {t.rentalContracts.section4Text1}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("rentalContracts.section4Item1")}</li>
-              <li>{t("rentalContracts.section4Item2")}</li>
-              <li>{t("rentalContracts.section4Item3")}</li>
+              <li>{t.rentalContracts.section4Item1}</li>
+              <li>{t.rentalContracts.section4Item2}</li>
+              <li>{t.rentalContracts.section4Item3}</li>
             </ul>
             <p>
-              {t("rentalContracts.section4Text2")}
+              {t.rentalContracts.section4Text2}
               <ul className="list-disc list-inside ml-6 mt-2 space-y-1">
-                <li>{t("rentalContracts.section4Item4")}</li>
-                <li>{t("rentalContracts.section4Item5")}</li>
-                <li>{t("rentalContracts.section4Item6")}</li>
+                <li>{t.rentalContracts.section4Item4}</li>
+                <li>{t.rentalContracts.section4Item5}</li>
+                <li>{t.rentalContracts.section4Item6}</li>
               </ul>
             </p>
             <p>
-              {t("rentalContracts.section4Text3")}
+              {t.rentalContracts.section4Text3}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("rentalContracts.section5Title")}
+              {t.rentalContracts.section5Title}
             </h2>
-            <p>{t("rentalContracts.section5Text1")}</p>
+            <p>{t.rentalContracts.section5Text1}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("rentalContracts.section5Item1")}</li>
-              <li>{t("rentalContracts.section5Item2")}</li>
-              <li>{t("rentalContracts.section5Item3")}</li>
+              <li>{t.rentalContracts.section5Item1}</li>
+              <li>{t.rentalContracts.section5Item2}</li>
+              <li>{t.rentalContracts.section5Item3}</li>
             </ul>
             <p className="italic">
-              {t("rentalContracts.section5Text2")}
+              {t.rentalContracts.section5Text2}
             </p>
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-[#4AA07D]">{t("rentalContracts.section6Title")}</h2>
+            <h2 className="text-2xl font-bold text-[#4AA07D]">{t.rentalContracts.section6Title}</h2>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>{t("rentalContracts.section6Item1Label")}</strong>{" "}
-                {t("rentalContracts.section6Item1Text")}
+                <strong>{t.rentalContracts.section6Item1Label}</strong>{" "}
+                {t.rentalContracts.section6Item1Text}
               </li>
               <li>
-                <strong>{t("rentalContracts.section6Item2Label")}</strong>{" "}
-                {t("rentalContracts.section6Item2Text")}
+                <strong>{t.rentalContracts.section6Item2Label}</strong>{" "}
+                {t.rentalContracts.section6Item2Text}
               </li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
             <h2 className="text-2xl font-bold text-[#3A5A4E]">
-              {t("rentalContracts.conclusionTitle")}
+              {t.rentalContracts.conclusionTitle}
             </h2>
             <p>
-              {t("rentalContracts.conclusionText1")}
+              {t.rentalContracts.conclusionText1}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("rentalContracts.conclusionItem1")}</li>
-              <li>{t("rentalContracts.conclusionItem2")}</li>
-              <li>{t("rentalContracts.conclusionItem3")}</li>
-              <li>{t("rentalContracts.conclusionItem4")}</li>
+              <li>{t.rentalContracts.conclusionItem1}</li>
+              <li>{t.rentalContracts.conclusionItem2}</li>
+              <li>{t.rentalContracts.conclusionItem3}</li>
+              <li>{t.rentalContracts.conclusionItem4}</li>
             </ul>
             <p className="font-semibold text-lg">
-              {t("rentalContracts.conclusionText2")}
+              {t.rentalContracts.conclusionText2}
               <br />
               <a href="/contact" className="text-[#4AA07D] underline">
-                {t("rentalContracts.conclusionLink")}
+                {t.rentalContracts.conclusionLink}
               </a>{" "}
-              {t("rentalContracts.conclusionText3")}
+              {t.rentalContracts.conclusionText3}
             </p>
           </section>
         </article>

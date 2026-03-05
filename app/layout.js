@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import ClientLayout from "@/components/ClientLayout"
 import WhatsAppWidgetWrapper from "@/components/WhatsAppWidgetWrapper"
 import dynamic from "next/dynamic"
 import Script from "next/script" // ✅ Import Script for Google Analytics
@@ -98,7 +97,6 @@ export default function RootLayout({ children }) {
         <a href="#main-content" className="skip-link">
           Skip to main content
         </a>
-        <ClientLayout>
           <Header />
           <main id="main-content">
             {children}
@@ -107,7 +105,6 @@ export default function RootLayout({ children }) {
           <ContactCTA />
 
           <Footer />
-        </ClientLayout>
 
         {/* Fixed bottom-right WhatsApp button */}
         <WhatsAppWidgetWrapper

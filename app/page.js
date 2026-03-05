@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <>
       {faqSchema && <StructuredData schema={faqSchema} id="faq-schema" />}
-      <main className="overflow-x-hidden relative">
+      <div className="overflow-x-hidden relative">
       {/* Floating background elements for depth */}
       <div className="fixed inset-0 pointer-events-none z-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-emerald-500/5 rounded-full blur-3xl animate-pulse"></div>
@@ -106,7 +106,7 @@ export default function Home() {
           <PartnersSection />
         </div>
       </div>
-    </main>
+    </div>
     </>
   )
 }

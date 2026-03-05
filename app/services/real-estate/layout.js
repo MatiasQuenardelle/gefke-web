@@ -2,16 +2,16 @@ import { getMetadata } from "@/lib/metadata"
 import { schemaToScript } from "@/lib/structuredData"
 import StructuredData from "@/components/StructuredData"
 
-export const metadata = getMetadata('realEstateHub', '/services/real-estate', 'da')
+export const metadata = getMetadata('realEstateHub', '/services/real-estate', 'en')
 
 // CollectionPage schema for hub page
 const collectionSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Juridisk Rådgivning om Fast Ejendom i Spanien",
-  "description": "Omfattende juridisk rådgivning til danskere om alle aspekter af fast ejendom i Spanien - køb, salg, leje, realkredit, ejerforeninger og investeringer.",
+  "name": "Legal Advice on Real Estate in Spain",
+  "description": "Comprehensive legal advice on all aspects of real estate in Spain - buying, selling, renting, mortgages, homeowner associations and investments.",
   "url": "https://www.buxtongefke.es/services/real-estate",
-  "inLanguage": ["da", "en", "es"],
+  "inLanguage": "en",
   "about": {
     "@type": "Service",
     "serviceType": "Legal Services",

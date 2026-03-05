@@ -1,14 +1,12 @@
 "use client"
 import Image from "next/image"
-import { useRouter } from "next/navigation"
 import { Merriweather } from "next/font/google"
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 
 const merri = Merriweather({ weight: "700", subsets: ["latin"] })
 
 export default function HeroSection() {
-  const router = useRouter()
-  const { t } = useTranslation()
+  const t = danish
 
   return (
     <section className="w-full bg-gradient-to-br from-[#3A5A4E] via-[#4AA07D] to-[#4A6A5E] text-white relative overflow-hidden min-h-[50vh] flex items-center">
@@ -30,23 +28,23 @@ export default function HeroSection() {
           <div className="space-y-3 animate-fade-in-up">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              {t("homepage.hero.badge")}
+              {t.homepage.hero.badge}
             </div>
             <h1
               className={`${merri.className} text-3xl md:text-4xl xl:text-5xl leading-tight animate-slide-in-right text-shadow-lg`}
             >
-              {t("homepage.hero.title1")}
+              {t.homepage.hero.title1}
               <br />
               <span className="bg-gradient-to-r from-white via-emerald-200 to-teal-200 bg-clip-text text-transparent animate-glow">
-                {t("homepage.hero.title2")}
+                {t.homepage.hero.title2}
               </span>
             </h1>
           </div>
 
           <p className="max-w-lg text-sm md:text-base text-gray-200 leading-relaxed animate-fade-in-up delay-300 text-shadow">
-            {t("homepage.hero.description")}
+            {t.homepage.hero.description}
             <span className="text-emerald-200 font-medium">
-              {t("homepage.hero.descriptionHighlight")}
+              {t.homepage.hero.descriptionHighlight}
             </span>
           </p>
 
@@ -66,7 +64,7 @@ export default function HeroSection() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              {t("homepage.hero.trust1")}
+              {t.homepage.hero.trust1}
             </div>
             <div className="flex items-center gap-2 px-3 py-1 bg-white/5 rounded-full border border-white/10">
               <svg
@@ -82,7 +80,7 @@ export default function HeroSection() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              {t("homepage.hero.trust2")}
+              {t.homepage.hero.trust2}
             </div>
             <div className="flex items-center gap-2 px-3 py-1 bg-white/5 rounded-full border border-white/10">
               <svg
@@ -98,7 +96,7 @@ export default function HeroSection() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              {t("homepage.hero.trust3")}
+              {t.homepage.hero.trust3}
             </div>
           </div>
 
@@ -115,7 +113,7 @@ export default function HeroSection() {
                          transition-all duration-500 hover:bg-gray-100 hover:scale-105 
                          shadow-luxury hover:shadow-luxury-hover relative overflow-hidden text-sm"
             >
-              <span className="relative z-10">{t("homepage.hero.cta1")}</span>
+              <span className="relative z-10">{t.homepage.hero.cta1}</span>
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 to-teal-600 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
             </button>
             <button
@@ -131,7 +129,7 @@ export default function HeroSection() {
                          transition-all duration-500 hover:bg-white/10 hover:border-white/50 
                          backdrop-blur-sm hover:scale-105 relative overflow-hidden text-sm"
             >
-              <span className="relative z-10">{t("homepage.hero.cta2")}</span>
+              <span className="relative z-10">{t.homepage.hero.cta2}</span>
               <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </button>
           </div>
@@ -149,7 +147,7 @@ export default function HeroSection() {
               <div className="relative overflow-hidden rounded-2xl border-2 border-white/20 bg-white/5 backdrop-blur-sm">
                 <Image
                   src="/images/CristianGefke.png"
-                  alt={t("homepage.hero.imageAlt")}
+                  alt={t.homepage.hero.imageAlt}
                   width={500}
                   height={600}
                   className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
@@ -161,10 +159,10 @@ export default function HeroSection() {
                   <div className="text-center px-4 py-4 text-xs md:text-sm">
                     <div className="backdrop-blur-sm bg-black/20 rounded-lg p-3 border border-white/20">
                       <p className="mb-2 text-shadow">
-                        {t("homepage.hero.imageText")}
+                        {t.homepage.hero.imageText}
                       </p>
                       <p className="font-bold text-emerald-200 text-shadow">
-                        {t("homepage.hero.imageAuthor")}
+                        {t.homepage.hero.imageAuthor}
                       </p>
                     </div>
                   </div>
@@ -179,7 +177,7 @@ export default function HeroSection() {
               >
                 <div className="flex items-center gap-1">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                  {t("homepage.hero.badgeText")}
+                  {t.homepage.hero.badgeText}
                 </div>
               </div>
             </div>

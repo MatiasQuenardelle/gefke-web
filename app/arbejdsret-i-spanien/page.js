@@ -1,28 +1,27 @@
-"use client"
-
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 import Image from "next/image"
 import Breadcrumb from "@/components/Breadcrumb"
 import RelatedServices from "@/components/RelatedServices"
 import { getRelatedServices } from "@/lib/relatedServices"
 import ArticleMeta from "@/components/ArticleMeta"
 
+const t = danish
+
 export default function ArbejdsretISpanienPage() {
-  const { t } = useTranslation()
   const relatedServices = getRelatedServices("/arbejdsret-i-spanien", t)
 
   return (
     <>
       <Breadcrumb
         items={[]}
-        currentPage={t("laborLaw.title")}
+        currentPage={t.laborLaw.title}
       />
 
       {/* Hero Image Section */}
       <section className="relative w-full h-[40vh] min-h-[300px] max-h-[450px] bg-[#3A5A4E]">
         <Image
           src="/images/services/move.webp"
-          alt={t("laborLaw.title")}
+          alt={t.laborLaw.title}
           fill
           className="object-cover opacity-30"
           priority
@@ -32,10 +31,10 @@ export default function ArbejdsretISpanienPage() {
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="mx-auto max-w-4xl">
             <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-              {t("laborLaw.title")}
+              {t.laborLaw.title}
             </h1>
             <p className="mt-4 text-lg text-white/90">
-              {t("laborLaw.subtitle")}
+              {t.laborLaw.subtitle}
             </p>
           </div>
         </div>
@@ -48,112 +47,112 @@ export default function ArbejdsretISpanienPage() {
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("laborLaw.section1Title")}
+              {t.laborLaw.section1Title}
             </h2>
             <p>
-              {t("laborLaw.section1Text1")}
+              {t.laborLaw.section1Text1}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>{t("laborLaw.section1Item1Label")}</strong>{" "}
-                {t("laborLaw.section1Item1Text")}
+                <strong>{t.laborLaw.section1Item1Label}</strong>{" "}
+                {t.laborLaw.section1Item1Text}
               </li>
               <li>
-                <strong>{t("laborLaw.section1Item2Label")}</strong>{" "}
-                {t("laborLaw.section1Item2Text")}
+                <strong>{t.laborLaw.section1Item2Label}</strong>{" "}
+                {t.laborLaw.section1Item2Text}
               </li>
             </ul>
             <p>
-              {t("laborLaw.section1Text2")}
+              {t.laborLaw.section1Text2}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("laborLaw.section2Title")}
+              {t.laborLaw.section2Title}
             </h2>
             <p>
-              {t("laborLaw.section2Text1")}{" "}
-              <strong>{t("laborLaw.section2Text1Strong")}</strong>.
+              {t.laborLaw.section2Text1}{" "}
+              <strong>{t.laborLaw.section2Text1Strong}</strong>.
             </p>
             <p>
-              {t("laborLaw.section2Text2")}{" "}
-              <em>{t("laborLaw.section2Text2Em")}</em>
-              {t("laborLaw.section2Text2Text")}
+              {t.laborLaw.section2Text2}{" "}
+              <em>{t.laborLaw.section2Text2Em}</em>
+              {t.laborLaw.section2Text2Text}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("laborLaw.section2Item1")}</li>
-              <li>{t("laborLaw.section2Item2")}</li>
-              <li>{t("laborLaw.section2Item3")}</li>
-              <li>{t("laborLaw.section2Item4")}</li>
+              <li>{t.laborLaw.section2Item1}</li>
+              <li>{t.laborLaw.section2Item2}</li>
+              <li>{t.laborLaw.section2Item3}</li>
+              <li>{t.laborLaw.section2Item4}</li>
             </ul>
             <p>
-              {t("laborLaw.section2Text3")}{" "}
-              <strong>{t("laborLaw.section2Text3Strong1")}</strong>{" "}
-              {t("laborLaw.section2Text3Text")}{" "}
-              <strong>{t("laborLaw.section2Text3Strong2")}</strong>.
+              {t.laborLaw.section2Text3}{" "}
+              <strong>{t.laborLaw.section2Text3Strong1}</strong>{" "}
+              {t.laborLaw.section2Text3Text}{" "}
+              <strong>{t.laborLaw.section2Text3Strong2}</strong>.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("laborLaw.section3Title")}
+              {t.laborLaw.section3Title}
             </h2>
-            <p>{t("laborLaw.section3Text1")}</p>
+            <p>{t.laborLaw.section3Text1}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("laborLaw.section3Item1")}</li>
-              <li>{t("laborLaw.section3Item2")}</li>
-              <li>{t("laborLaw.section3Item3")}</li>
-              <li>{t("laborLaw.section3Item4")}</li>
-            </ul>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("laborLaw.section4Title")}
-            </h2>
-            <p>{t("laborLaw.section4Text1")}</p>
-            <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("laborLaw.section4Item1")}</li>
-              <li>{t("laborLaw.section4Item2")}</li>
-              <li>{t("laborLaw.section4Item3")}</li>
-              <li>{t("laborLaw.section4Item4")}</li>
-              <li>{t("laborLaw.section4Item5")}</li>
+              <li>{t.laborLaw.section3Item1}</li>
+              <li>{t.laborLaw.section3Item2}</li>
+              <li>{t.laborLaw.section3Item3}</li>
+              <li>{t.laborLaw.section3Item4}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("laborLaw.section5Title")}
+              {t.laborLaw.section4Title}
             </h2>
-            <p>{t("laborLaw.section5Text1")}</p>
+            <p>{t.laborLaw.section4Text1}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("laborLaw.section5Item1")}</li>
-              <li>{t("laborLaw.section5Item2")}</li>
-              <li>{t("laborLaw.section5Item3")}</li>
-              <li>{t("laborLaw.section5Item4")}</li>
+              <li>{t.laborLaw.section4Item1}</li>
+              <li>{t.laborLaw.section4Item2}</li>
+              <li>{t.laborLaw.section4Item3}</li>
+              <li>{t.laborLaw.section4Item4}</li>
+              <li>{t.laborLaw.section4Item5}</li>
+            </ul>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-[#4AA07D]">
+              {t.laborLaw.section5Title}
+            </h2>
+            <p>{t.laborLaw.section5Text1}</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li>{t.laborLaw.section5Item1}</li>
+              <li>{t.laborLaw.section5Item2}</li>
+              <li>{t.laborLaw.section5Item3}</li>
+              <li>{t.laborLaw.section5Item4}</li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
             <h2 className="text-2xl font-bold text-[#3A5A4E]">
-              {t("laborLaw.conclusionTitle")}
+              {t.laborLaw.conclusionTitle}
             </h2>
             <p>
-              {t("laborLaw.conclusionText1")}
+              {t.laborLaw.conclusionText1}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("laborLaw.conclusionItem1")}</li>
-              <li>{t("laborLaw.conclusionItem2")}</li>
-              <li>{t("laborLaw.conclusionItem3")}</li>
+              <li>{t.laborLaw.conclusionItem1}</li>
+              <li>{t.laborLaw.conclusionItem2}</li>
+              <li>{t.laborLaw.conclusionItem3}</li>
             </ul>
             <p className="font-semibold text-lg">
-              {t("laborLaw.conclusionText2")}
+              {t.laborLaw.conclusionText2}
               <br />
               <a href="/contact" className="text-[#4AA07D] underline">
-                {t("laborLaw.conclusionLink")}
+                {t.laborLaw.conclusionLink}
               </a>{" "}
-              {t("laborLaw.conclusionText3")}
+              {t.laborLaw.conclusionText3}
             </p>
           </section>
         </article>

@@ -1,23 +1,22 @@
-"use client"
-
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 import Link from "next/link"
 import Breadcrumb from "@/components/Breadcrumb"
 import { ArrowRight, Heart, FileText } from "lucide-react"
 
+const t = danish
+
 export default function FamilieHubPage() {
-  const { t } = useTranslation()
 
   const services = [
     {
-      title: t("divorce.title"),
-      description: t("divorce.subtitle"),
+      title: t.divorce.title,
+      description: t.divorce.subtitle,
       href: "/divorce-spain",
       icon: Heart
     },
     {
-      title: t("testamenter.title"),
-      description: t("testamenter.subtitle"),
+      title: t.testamenter.title,
+      description: t.testamenter.subtitle,
       href: "/testamenter-i-spanien",
       icon: FileText
     }
@@ -27,30 +26,30 @@ export default function FamilieHubPage() {
     <>
       <Breadcrumb
         items={[
-          { label: t("nav.services") || "Tjenester", href: "/services" }
+          { label: t.nav.services || "Tjenester", href: "/services" }
         ]}
-        currentPage={t("hubFamilie.title")}
+        currentPage={t.hubFamilie.title}
       />
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-[#3A5A4E] leading-tight">
-              {t("hubFamilie.title")}
+              {t.hubFamilie.title}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              {t("hubFamilie.subtitle")}
+              {t.hubFamilie.subtitle}
             </p>
           </header>
 
           <section className="space-y-6">
             <p className="text-lg">
-              {t("hubFamilie.intro")}
+              {t.hubFamilie.intro}
             </p>
           </section>
 
           <section className="space-y-6">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("hubFamilie.servicesTitle")}
+              {t.hubFamilie.servicesTitle}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {services.map((service, index) => {
@@ -83,28 +82,28 @@ export default function FamilieHubPage() {
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("hubFamilie.whyChooseTitle")}
+              {t.hubFamilie.whyChooseTitle}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-2">
-              <li>{t("hubFamilie.reason1")}</li>
-              <li>{t("hubFamilie.reason2")}</li>
-              <li>{t("hubFamilie.reason3")}</li>
-              <li>{t("hubFamilie.reason4")}</li>
+              <li>{t.hubFamilie.reason1}</li>
+              <li>{t.hubFamilie.reason2}</li>
+              <li>{t.hubFamilie.reason3}</li>
+              <li>{t.hubFamilie.reason4}</li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
             <h2 className="text-2xl font-bold text-[#3A5A4E]">
-              {t("hubFamilie.ctaTitle")}
+              {t.hubFamilie.ctaTitle}
             </h2>
             <p>
-              {t("hubFamilie.ctaText")}
+              {t.hubFamilie.ctaText}
             </p>
             <Link
               href="/contact"
               className="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors"
             >
-              {t("hubFamilie.ctaButton")}
+              {t.hubFamilie.ctaButton}
             </Link>
           </section>
         </article>

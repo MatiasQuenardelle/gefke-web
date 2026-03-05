@@ -1,9 +1,13 @@
-"use client"
-
 import Link from "next/link"
 import Image from "next/image"
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 import { Merriweather } from "next/font/google"
+
+const t = danish
+
+function resolve(obj, dotPath) {
+  return dotPath.split('.').reduce((acc, key) => acc?.[key], obj)
+}
 
 const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
 
@@ -81,10 +85,9 @@ function formatDate(dateString, locale) {
 }
 
 function PublicationCard({ post }) {
-  const { t, i18n } = useTranslation()
   const postImage = getPostImage(post)
   const categoryKey = getPostCategoryKey(post)
-  const category = t(categoryKey)
+  const category = resolve(t, categoryKey)
 
   return (
     <article className="group">
@@ -105,7 +108,7 @@ function PublicationCard({ post }) {
           </div>
         </div>
         <time className="text-gray-500 text-sm block mb-2">
-          {formatDate(post.date, i18n.language)}
+          {formatDate(post.date, "da")}
         </time>
         <h3 className={`${merri.className} text-lg text-gray-800 leading-snug group-hover:text-[#4AA07D] transition-colors`}>
           {post.title}
@@ -116,10 +119,8 @@ function PublicationCard({ post }) {
 }
 
 export default function PublicationsSection({ posts }) {
-  const { t, i18n } = useTranslation()
-
   // Filter posts by current language, deduplicate by base slug, then show only 3 most recent
-  const currentLang = i18n.language || "da"
+  const currentLang = "da"
   const baseSlugsAdded = new Set()
   const filteredPosts = posts.filter((post) => {
     if (post.lang !== currentLang) return false
@@ -140,7 +141,7 @@ export default function PublicationsSection({ posts }) {
         {/* Section header with green underline */}
         <div className="mb-10">
           <h2 className={`${merri.className} text-3xl md:text-4xl text-gray-800 inline-block`}>
-            {t("publications.title")}
+            {t.publications.title}
           </h2>
           <div className="h-1 w-24 bg-[#4AA07D] mt-2"></div>
         </div>
@@ -158,7 +159,7 @@ export default function PublicationsSection({ posts }) {
             href="/blog"
             className="inline-flex items-center text-[#4AA07D] font-medium hover:text-[#3A5A4E] transition-colors"
           >
-            {t("publications.viewAll")}
+            {t.publications.viewAll}
             <svg className="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

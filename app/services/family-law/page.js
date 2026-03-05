@@ -1,31 +1,29 @@
-"use client"
-
-import { useTranslation } from "react-i18next"
 import Link from "next/link"
 import Breadcrumb from "@/components/Breadcrumb"
 import { Heart, Scale, FileCheck, ArrowRight } from "lucide-react"
+import english from "@/public/locales/en.json"
+
+const t = english
 
 export default function FamilyLawHub() {
-  const { t } = useTranslation()
-
   const services = [
     {
-      title: t("divorce.title"),
-      description: t("divorce.subtitle"),
+      title: t.divorce.title,
+      description: t.divorce.subtitle,
       href: "/divorce-spain",
       icon: Heart,
       color: "bg-rose-50 text-rose-600"
     },
     {
-      title: t("testamenter.title"),
-      description: t("testamenter.subtitle"),
+      title: t.testamenter.title,
+      description: t.testamenter.subtitle,
       href: "/testamenter-i-spanien",
       icon: FileCheck,
       color: "bg-emerald-50 text-emerald-600"
     },
     {
-      title: t("lawChoice.title"),
-      description: t("lawChoice.subtitle"),
+      title: t.lawChoice.title,
+      description: t.lawChoice.subtitle,
       href: "/lovvalg",
       icon: Scale,
       color: "bg-teal-50 text-teal-600"
@@ -36,38 +34,38 @@ export default function FamilyLawHub() {
     <>
       <Breadcrumb
         items={[
-          { label: t("familyLawHub.breadcrumbServices") || "Tjenester", href: "/" }
+          { label: t.familyLawHub.breadcrumbServices || "Tjenester", href: "/" }
         ]}
-        currentPage={t("familyLawHub.title")}
+        currentPage={t.familyLawHub.title}
       />
 
-      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
+      <section className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <div className="max-w-7xl mx-auto">
           {/* Hero Section */}
           <header className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-[#3A5A4E] leading-tight mb-6">
-              {t("familyLawHub.title")}
+              {t.familyLawHub.title}
             </h1>
             <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
-              {t("familyLawHub.subtitle")}
+              {t.familyLawHub.subtitle}
             </p>
           </header>
 
           {/* Overview Section */}
-          <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-12">
+          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-[#3A5A4E] mb-4">
-              {t("familyLawHub.overviewTitle")}
+              {t.familyLawHub.overviewTitle}
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p>{t("familyLawHub.overviewText1")}</p>
-              <p>{t("familyLawHub.overviewText2")}</p>
+              <p>{t.familyLawHub.overviewText1}</p>
+              <p>{t.familyLawHub.overviewText2}</p>
             </div>
-          </section>
+          </div>
 
           {/* Services Grid */}
-          <section className="mb-12">
+          <div className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-              {t("familyLawHub.servicesTitle")}
+              {t.familyLawHub.servicesTitle}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {services.map((service, index) => {
@@ -88,57 +86,57 @@ export default function FamilyLawHub() {
                       {service.description}
                     </p>
                     <div className="flex items-center text-emerald-600 font-medium">
-                      <span>{t("familyLawHub.learnMore") || "Læs mere"}</span>
+                      <span>{t.familyLawHub.learnMore || "Læs mere"}</span>
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
                     </div>
                   </Link>
                 )
               })}
             </div>
-          </section>
+          </div>
 
           {/* Why Choose Section */}
-          <section className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-lg p-8 mb-12">
+          <div className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-lg p-8 mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-[#3A5A4E] mb-6">
-              {t("familyLawHub.whyChooseTitle")}
+              {t.familyLawHub.whyChooseTitle}
             </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <li className="flex items-start">
                 <span className="text-rose-600 mr-3 text-xl">✓</span>
-                <span className="text-gray-700">{t("familyLawHub.whyChoose1")}</span>
+                <span className="text-gray-700">{t.familyLawHub.whyChoose1}</span>
               </li>
               <li className="flex items-start">
                 <span className="text-rose-600 mr-3 text-xl">✓</span>
-                <span className="text-gray-700">{t("familyLawHub.whyChoose2")}</span>
+                <span className="text-gray-700">{t.familyLawHub.whyChoose2}</span>
               </li>
               <li className="flex items-start">
                 <span className="text-rose-600 mr-3 text-xl">✓</span>
-                <span className="text-gray-700">{t("familyLawHub.whyChoose3")}</span>
+                <span className="text-gray-700">{t.familyLawHub.whyChoose3}</span>
               </li>
               <li className="flex items-start">
                 <span className="text-rose-600 mr-3 text-xl">✓</span>
-                <span className="text-gray-700">{t("familyLawHub.whyChoose4")}</span>
+                <span className="text-gray-700">{t.familyLawHub.whyChoose4}</span>
               </li>
             </ul>
-          </section>
+          </div>
 
           {/* CTA Section */}
-          <section className="bg-[#3A5A4E] text-white rounded-lg p-8 text-center">
+          <div className="bg-[#3A5A4E] text-white rounded-lg p-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              {t("familyLawHub.ctaTitle")}
+              {t.familyLawHub.ctaTitle}
             </h2>
             <p className="text-lg mb-6 text-emerald-100">
-              {t("familyLawHub.ctaText")}
+              {t.familyLawHub.ctaText}
             </p>
             <Link
               href="/contact"
               className="inline-block bg-white text-[#3A5A4E] px-8 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition-colors"
             >
-              {t("familyLawHub.ctaButton")}
+              {t.familyLawHub.ctaButton}
             </Link>
-          </section>
+          </div>
         </div>
-      </main>
+      </section>
     </>
   )
 }

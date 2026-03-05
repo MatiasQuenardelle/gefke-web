@@ -3,7 +3,7 @@
 import { useState, useRef } from "react"
 
 import HCaptcha from "@hcaptcha/react-hcaptcha"
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 import {
   StarIcon as StarSolid,
   CheckCircleIcon,
@@ -12,7 +12,7 @@ import {
 import { StarIcon as StarOutline } from "@heroicons/react/24/outline"
 
 export default function ReviewFunnel() {
-  const { t } = useTranslation()
+  const t = danish
 
   const [formData, setFormData] = useState({ name: "", email: "", message: "" })
   const [rating, setRating] = useState(0)
@@ -30,9 +30,9 @@ export default function ReviewFunnel() {
     e.preventDefault()
 
     if (!rating)
-      return alert(t("contactForm.ratingRequired") || "Please select a rating.")
+      return alert(t.contactForm.ratingRequired || "Please select a rating.")
     if (!captchaToken)
-      return alert(t("contactForm.captchaRequired") || "Captcha is required.")
+      return alert(t.contactForm.captchaRequired || "Captcha is required.")
 
     setIsSubmitting(true)
 
@@ -75,11 +75,11 @@ export default function ReviewFunnel() {
             <>
               <CheckCircleIcon className="w-16 h-16 mx-auto text-green-600 mb-4" />
               <h2 className="text-3xl font-semibold text-gray-900 mb-4">
-                {t("reviewFunnel.thankYou") ||
+                {t.reviewFunnel.thankYou ||
                   "Thank you for the glowing review!"}
               </h2>
               <p className="text-gray-700 mb-6">
-                {t("reviewFunnel.askGMB") ||
+                {t.reviewFunnel.askGMB ||
                   "Would you mind sharing it on Google to help others find us?"}
               </p>
               <a
@@ -88,7 +88,7 @@ export default function ReviewFunnel() {
                 rel="noopener noreferrer"
                 className="inline-block mb-4 bg-[#4AA07D] hover:bg-[#3A5A4E] text-white font-medium py-3 px-6 rounded-md transition-colors"
               >
-                {t("reviewFunnel.leaveOnGoogle") || "Leave a Google Review"}
+                {t.reviewFunnel.leaveOnGoogle || "Leave a Google Review"}
               </a>
               <div>
                 <button
@@ -101,19 +101,19 @@ export default function ReviewFunnel() {
                 >
                   <ClipboardIcon className="w-5 h-5 mr-2" />
                   {copied
-                    ? t("reviewFunnel.copied") || "Copied!"
-                    : t("reviewFunnel.copyText") || "Copy Your Review"}
+                    ? t.reviewFunnel.copied || "Copied!"
+                    : t.reviewFunnel.copyText || "Copy Your Review"}
                 </button>
               </div>
             </>
           ) : (
             <>
               <h2 className="text-3xl font-semibold text-gray-900 mb-4">
-                {t("reviewFunnel.thankFeedback") ||
+                {t.reviewFunnel.thankFeedback ||
                   "Thank you for your feedback!"}
               </h2>
               <p className="text-gray-700">
-                {t("reviewFunnel.appreciate") ||
+                {t.reviewFunnel.appreciate ||
                   "We appreciate you taking the time to help us improve our services."}
               </p>
             </>
@@ -127,7 +127,7 @@ export default function ReviewFunnel() {
     <section id="contact" className="bg-gray-100 py-20 px-6">
       <div className="max-w-2xl mx-auto bg-white p-10 rounded-md shadow-lg border border-gray-200">
         <h2 className="text-3xl font-semibold text-center text-gray-900 mb-8">
-          {t("reviewFunnel.title") || "Share Your Experience"}
+          {t.reviewFunnel.title || "Share Your Experience"}
         </h2>
 
         {/* Star selector */}
@@ -153,7 +153,7 @@ export default function ReviewFunnel() {
           <input
             type="text"
             name="name"
-            placeholder={t("contactForm.namePlaceholder") || "Your Full Name"}
+            placeholder={t.contactForm.namePlaceholder || "Your Full Name"}
             value={formData.name}
             onChange={handleChange}
             required
@@ -162,9 +162,7 @@ export default function ReviewFunnel() {
           <input
             type="email"
             name="email"
-            placeholder={
-              t("contactForm.emailPlaceholder") || "Your Email Address"
-            }
+            placeholder={t.contactForm.emailPlaceholder || "Your Email Address"}
             value={formData.email}
             onChange={handleChange}
             required
@@ -172,7 +170,7 @@ export default function ReviewFunnel() {
           />
           <textarea
             name="message"
-            placeholder={t("contactForm.messagePlaceholder") || "Your Review"}
+            placeholder={t.contactForm.messagePlaceholder || "Your Review"}
             rows={6}
             value={formData.message}
             onChange={handleChange}
@@ -196,8 +194,8 @@ export default function ReviewFunnel() {
             className="w-full bg-[#4AA07D] text-white font-medium py-3 px-5 rounded-md hover:bg-[#3A5A4E] transition-colors"
           >
             {isSubmitting
-              ? t("contactForm.sending") || "Sending..."
-              : t("contactForm.sendButton") || "Submit Review"}
+              ? t.contactForm.sending || "Sending..."
+              : t.contactForm.sendButton || "Submit Review"}
           </button>
         </form>
       </div>

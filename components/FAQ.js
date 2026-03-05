@@ -1,32 +1,32 @@
 "use client"
 import { useState } from "react"
 import { ChevronDownIcon } from "@heroicons/react/24/outline"
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 
 export default function FAQ() {
-  const { t } = useTranslation()
+  const t = danish
   const [openItems, setOpenItems] = useState(new Set())
   
   const faqs = [
     {
-      question: t("homepage.faq.faq1.question"),
-      answer: t("homepage.faq.faq1.answer"),
-      category: t("homepage.faq.faq1.category"),
+      question: t.homepage.faq.faq1.question,
+      answer: t.homepage.faq.faq1.answer,
+      category: t.homepage.faq.faq1.category,
     },
     {
-      question: t("homepage.faq.faq2.question"),
-      answer: t("homepage.faq.faq2.answer"),
-      category: t("homepage.faq.faq2.category"),
+      question: t.homepage.faq.faq2.question,
+      answer: t.homepage.faq.faq2.answer,
+      category: t.homepage.faq.faq2.category,
     },
     {
-      question: t("homepage.faq.faq3.question"),
-      answer: t("homepage.faq.faq3.answer"),
-      category: t("homepage.faq.faq3.category"),
+      question: t.homepage.faq.faq3.question,
+      answer: t.homepage.faq.faq3.answer,
+      category: t.homepage.faq.faq3.category,
     },
     {
-      question: t("homepage.faq.faq4.question"),
-      answer: t("homepage.faq.faq4.answer"),
-      category: t("homepage.faq.faq4.category"),
+      question: t.homepage.faq.faq4.question,
+      answer: t.homepage.faq.faq4.answer,
+      category: t.homepage.faq.faq4.category,
     },
   ]
 
@@ -54,13 +54,13 @@ export default function FAQ() {
         <div className="text-center mb-20 animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-[#3A5A4E]/10 rounded-full text-sm font-medium text-[#3A5A4E] mb-6 border border-[#3A5A4E]/20 hover:bg-[#3A5A4E]/15 transition-all duration-300">
             <div className="w-2 h-2 bg-[#3A5A4E] rounded-full animate-pulse"></div>
-            {t("homepage.faq.badge")}
+            {t.homepage.faq.badge}
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 gradient-text">
-            {t("homepage.faq.title")}
+            {t.homepage.faq.title}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            {t("homepage.faq.subtitle")}
+            {t.homepage.faq.subtitle}
           </p>
         </div>
 
@@ -182,10 +182,10 @@ export default function FAQ() {
 
             <div className="relative z-10">
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                {t("homepage.faq.ctaTitle")}
+                {t.homepage.faq.ctaTitle}
               </h3>
               <p className="text-lg text-emerald-100 mb-8 max-w-2xl mx-auto">
-                {t("homepage.faq.ctaText")}
+                {t.homepage.faq.ctaText}
               </p>
               <button
                 onClick={() => {
@@ -197,7 +197,7 @@ export default function FAQ() {
                 className="inline-flex items-center gap-3 px-8 py-4 bg-white text-[#3A5A4E] rounded-xl font-bold
                            transition-all duration-500 hover:bg-gray-100 hover:scale-105 shadow-luxury hover:shadow-luxury-hover"
               >
-                <span>{t("homepage.faq.ctaButton")}</span>
+                <span>{t.homepage.faq.ctaButton}</span>
                 <svg
                   className="w-5 h-5"
                   fill="none"

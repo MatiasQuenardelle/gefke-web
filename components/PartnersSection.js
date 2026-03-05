@@ -7,25 +7,23 @@ import {
   BriefcaseIcon,
 } from "@heroicons/react/24/outline"
 
-import { useRouter } from "next/navigation"
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 
 const PartnersSection = () => {
-  const router = useRouter()
-  const { t } = useTranslation()
+  const t = danish
   return (
     <section className="bg-gradient-to-b from-gray-50 to-white py-20 px-4 sm:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto">
         {/* Enhanced Header */}
         <div className="mb-16 text-center">
           <div className="inline-block px-4 py-2 bg-[#3A5A4E]/10 rounded-full text-sm font-medium text-[#3A5A4E] mb-4">
-            {t("homepage.partners.badge")}
+            {t.homepage.partners.badge}
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            {t("homepage.partners.title")}
+            {t.homepage.partners.title}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-            {t("homepage.partners.subtitle")}
+            {t.homepage.partners.subtitle}
           </p>
           <button
             onClick={() => {
@@ -38,7 +36,7 @@ const PartnersSection = () => {
                        transition-all duration-300 hover:bg-[#4AA07D] hover:scale-105
                        shadow-lg hover:shadow-xl"
           >
-            {t("homepage.partners.ctaButton")}
+            {t.homepage.partners.ctaButton}
           </button>
         </div>
 
@@ -60,10 +58,10 @@ const PartnersSection = () => {
               className="text-xl md:text-2xl font-bold text-gray-800 mb-4 
                            group-hover:text-[#4AA07D] transition-colors duration-300"
             >
-              {t("homepage.partners.partner1.title")}
+              {t.homepage.partners.partner1.title}
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              {t("homepage.partners.partner1.description")}
+              {t.homepage.partners.partner1.description}
             </p>
           </div>
 
@@ -83,10 +81,10 @@ const PartnersSection = () => {
               className="text-xl md:text-2xl font-bold text-gray-800 mb-4 
                            group-hover:text-[#4AA07D] transition-colors duration-300"
             >
-              {t("homepage.partners.partner2.title")}
+              {t.homepage.partners.partner2.title}
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              {t("homepage.partners.partner2.description")}
+              {t.homepage.partners.partner2.description}
             </p>
           </div>
 
@@ -106,10 +104,10 @@ const PartnersSection = () => {
               className="text-xl md:text-2xl font-bold text-gray-800 mb-4 
                            group-hover:text-[#4AA07D] transition-colors duration-300"
             >
-              {t("homepage.partners.partner3.title")}
+              {t.homepage.partners.partner3.title}
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              {t("homepage.partners.partner3.description")}
+              {t.homepage.partners.partner3.description}
             </p>
           </div>
 
@@ -129,10 +127,10 @@ const PartnersSection = () => {
               className="text-xl md:text-2xl font-bold mb-4 group-hover:text-emerald-200
                            transition-colors duration-300"
             >
-              {t("homepage.partners.partner4.title")}
+              {t.homepage.partners.partner4.title}
             </h3>
             <p className="text-gray-200 leading-relaxed mb-6">
-              {t("homepage.partners.partner4.description")}
+              {t.homepage.partners.partner4.description}
             </p>
             <button
               onClick={() => {
@@ -145,7 +143,7 @@ const PartnersSection = () => {
                          rounded-lg font-semibold transition-all duration-300
                          hover:bg-gray-100 hover:scale-105 shadow-lg"
             >
-              {t("homepage.partners.partner4.button")}
+              {t.homepage.partners.partner4.button}
               <svg
                 className="w-4 h-4"
                 fill="none"

@@ -1,32 +1,22 @@
-"use client"
-
 import Link from "next/link"
-import { useTranslation } from "react-i18next"
 import { ArrowRight } from "lucide-react"
 
 /**
  * Related Services Component
- * 
- * Displays related service pages to improve internal linking and user navigation.
- * Helps users discover relevant content and improves SEO through contextual links.
- * 
+ *
  * @param {Array} services - Array of service objects with {title, href, description}
- * @param {string} title - Optional custom title (defaults to translation key)
+ * @param {string} title - Optional custom title (defaults to "Relaterede tjenester")
  */
-export default function RelatedServices({ services = [], title }) {
-  const { t } = useTranslation()
-
+export default function RelatedServices({ services = [], title = "Relaterede tjenester" }) {
   if (!services || services.length === 0) {
     return null
   }
-
-  const sectionTitle = title || t("relatedServices.title") || "Relaterede tjenester"
 
   return (
     <section className="bg-gradient-to-b from-gray-50 to-white py-12 px-6 md:px-16 lg:px-32">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-          {sectionTitle}
+          {title}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
@@ -53,4 +43,3 @@ export default function RelatedServices({ services = [], title }) {
     </section>
   )
 }
-

@@ -1,52 +1,50 @@
-"use client"
-
-import { useTranslation } from "react-i18next"
 import Link from "next/link"
 import Breadcrumb from "@/components/Breadcrumb"
 import { Building, Briefcase, ShoppingCart, Building2, DollarSign, Users, ArrowRight } from "lucide-react"
+import english from "@/public/locales/en.json"
+
+const t = english
 
 export default function BusinessHub() {
-  const { t } = useTranslation()
-
   const services = [
     {
-      title: t("startVirksomhed.title"),
-      description: t("startVirksomhed.subtitle"),
+      title: t.startVirksomhed.title,
+      description: t.startVirksomhed.subtitle,
       href: "/starte-virksomhed-spanien",
       icon: Building,
       color: "bg-emerald-50 text-emerald-600"
     },
     {
-      title: t("laborLaw.title"),
-      description: t("laborLaw.subtitle"),
+      title: t.laborLaw.title,
+      description: t.laborLaw.subtitle,
       href: "/arbejdsret-i-spanien",
       icon: Briefcase,
       color: "bg-green-50 text-green-600"
     },
     {
-      title: t("webshop.title"),
-      description: t("webshop.subtitle"),
+      title: t.webshop.title,
+      description: t.webshop.subtitle,
       href: "/selvstaendig-webshop-spanien",
       icon: ShoppingCart,
       color: "bg-teal-50 text-teal-600"
     },
     {
-      title: t("danishHolding.title"),
-      description: t("danishHolding.subtitle"),
+      title: t.danishHolding.title,
+      description: t.danishHolding.subtitle,
       href: "/dansk-holder-spansk-selskab",
       icon: Building2,
       color: "bg-orange-50 text-orange-600"
     },
     {
-      title: t("skat.title"),
-      description: t("skat.subtitle"),
+      title: t.skat.title,
+      description: t.skat.subtitle,
       href: "/skat",
       icon: DollarSign,
       color: "bg-emerald-50 text-emerald-600"
     },
     {
-      title: t("workInSpain.title"),
-      description: t("workInSpain.subtitle"),
+      title: t.workInSpain.title,
+      description: t.workInSpain.subtitle,
       href: "/work-in-spain",
       icon: Users,
       color: "bg-teal-50 text-teal-600"
@@ -57,38 +55,38 @@ export default function BusinessHub() {
     <>
       <Breadcrumb
         items={[
-          { label: t("businessHub.breadcrumbServices") || "Tjenester", href: "/" }
+          { label: t.businessHub.breadcrumbServices || "Tjenester", href: "/" }
         ]}
-        currentPage={t("businessHub.title")}
+        currentPage={t.businessHub.title}
       />
 
-      <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
+      <section className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <div className="max-w-7xl mx-auto">
           {/* Hero Section */}
           <header className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-[#3A5A4E] leading-tight mb-6">
-              {t("businessHub.title")}
+              {t.businessHub.title}
             </h1>
             <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
-              {t("businessHub.subtitle")}
+              {t.businessHub.subtitle}
             </p>
           </header>
 
           {/* Overview Section */}
-          <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-12">
+          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-[#3A5A4E] mb-4">
-              {t("businessHub.overviewTitle")}
+              {t.businessHub.overviewTitle}
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p>{t("businessHub.overviewText1")}</p>
-              <p>{t("businessHub.overviewText2")}</p>
+              <p>{t.businessHub.overviewText1}</p>
+              <p>{t.businessHub.overviewText2}</p>
             </div>
-          </section>
+          </div>
 
           {/* Services Grid */}
-          <section className="mb-12">
+          <div className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-              {t("businessHub.servicesTitle")}
+              {t.businessHub.servicesTitle}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {services.map((service, index) => {
@@ -109,57 +107,57 @@ export default function BusinessHub() {
                       {service.description}
                     </p>
                     <div className="flex items-center text-emerald-600 font-medium">
-                      <span>{t("businessHub.learnMore") || "Læs mere"}</span>
+                      <span>{t.businessHub.learnMore || "Læs mere"}</span>
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" />
                     </div>
                   </Link>
                 )
               })}
             </div>
-          </section>
+          </div>
 
           {/* Why Choose Section */}
-          <section className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-lg p-8 mb-12">
+          <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-lg p-8 mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-[#3A5A4E] mb-6">
-              {t("businessHub.whyChooseTitle")}
+              {t.businessHub.whyChooseTitle}
             </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <li className="flex items-start">
                 <span className="text-emerald-600 mr-3 text-xl">✓</span>
-                <span className="text-gray-700">{t("businessHub.whyChoose1")}</span>
+                <span className="text-gray-700">{t.businessHub.whyChoose1}</span>
               </li>
               <li className="flex items-start">
                 <span className="text-emerald-600 mr-3 text-xl">✓</span>
-                <span className="text-gray-700">{t("businessHub.whyChoose2")}</span>
+                <span className="text-gray-700">{t.businessHub.whyChoose2}</span>
               </li>
               <li className="flex items-start">
                 <span className="text-emerald-600 mr-3 text-xl">✓</span>
-                <span className="text-gray-700">{t("businessHub.whyChoose3")}</span>
+                <span className="text-gray-700">{t.businessHub.whyChoose3}</span>
               </li>
               <li className="flex items-start">
                 <span className="text-emerald-600 mr-3 text-xl">✓</span>
-                <span className="text-gray-700">{t("businessHub.whyChoose4")}</span>
+                <span className="text-gray-700">{t.businessHub.whyChoose4}</span>
               </li>
             </ul>
-          </section>
+          </div>
 
           {/* CTA Section */}
-          <section className="bg-[#3A5A4E] text-white rounded-lg p-8 text-center">
+          <div className="bg-[#3A5A4E] text-white rounded-lg p-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              {t("businessHub.ctaTitle")}
+              {t.businessHub.ctaTitle}
             </h2>
             <p className="text-lg mb-6 text-emerald-100">
-              {t("businessHub.ctaText")}
+              {t.businessHub.ctaText}
             </p>
             <Link
               href="/contact"
               className="inline-block bg-white text-[#3A5A4E] px-8 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition-colors"
             >
-              {t("businessHub.ctaButton")}
+              {t.businessHub.ctaButton}
             </Link>
-          </section>
+          </div>
         </div>
-      </main>
+      </section>
     </>
   )
 }

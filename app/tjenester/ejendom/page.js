@@ -1,41 +1,40 @@
-"use client"
-
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 import Link from "next/link"
 import Breadcrumb from "@/components/Breadcrumb"
 import { ArrowRight, Home, FileText, Building2, TrendingUp, Users } from "lucide-react"
 
+const t = danish
+
 export default function EjendomHubPage() {
-  const { t } = useTranslation()
 
   const services = [
     {
-      title: t("realEstateBuySell.title"),
-      description: t("realEstateBuySell.subtitle"),
+      title: t.realEstateBuySell.title,
+      description: t.realEstateBuySell.subtitle,
       href: "/real-estate-buy-sell-spain",
       icon: Home
     },
     {
-      title: t("realkredit.title"),
-      description: t("realkredit.subtitle"),
+      title: t.realkredit.title,
+      description: t.realkredit.subtitle,
       href: "/realkredit",
       icon: FileText
     },
     {
-      title: t("rentalContracts.title"),
-      description: t("rentalContracts.subtitle"),
+      title: t.rentalContracts.title,
+      description: t.rentalContracts.subtitle,
       href: "/lejekontrakter-i-spanien",
       icon: Building2
     },
     {
-      title: t("homeownerAssociations.title"),
-      description: t("homeownerAssociations.subtitle"),
+      title: t.homeownerAssociations.title,
+      description: t.homeownerAssociations.subtitle,
       href: "/homeowner-associations",
       icon: Users
     },
     {
-      title: t("realEstateInvestment.title"),
-      description: t("realEstateInvestment.subtitle"),
+      title: t.realEstateInvestment.title,
+      description: t.realEstateInvestment.subtitle,
       href: "/real-estate-investment-spain",
       icon: TrendingUp
     }
@@ -45,30 +44,30 @@ export default function EjendomHubPage() {
     <>
       <Breadcrumb
         items={[
-          { label: t("nav.services") || "Tjenester", href: "/services" }
+          { label: t.nav.services || "Tjenester", href: "/services" }
         ]}
-        currentPage={t("hubEjendom.title")}
+        currentPage={t.hubEjendom.title}
       />
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
           <header className="text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-[#3A5A4E] leading-tight">
-              {t("hubEjendom.title")}
+              {t.hubEjendom.title}
             </h1>
             <p className="mt-4 text-lg text-gray-700">
-              {t("hubEjendom.subtitle")}
+              {t.hubEjendom.subtitle}
             </p>
           </header>
 
           <section className="space-y-6">
             <p className="text-lg">
-              {t("hubEjendom.intro")}
+              {t.hubEjendom.intro}
             </p>
           </section>
 
           <section className="space-y-6">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("hubEjendom.servicesTitle")}
+              {t.hubEjendom.servicesTitle}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {services.map((service, index) => {
@@ -101,28 +100,28 @@ export default function EjendomHubPage() {
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("hubEjendom.whyChooseTitle")}
+              {t.hubEjendom.whyChooseTitle}
             </h2>
             <ul className="list-disc list-inside ml-4 space-y-2">
-              <li>{t("hubEjendom.reason1")}</li>
-              <li>{t("hubEjendom.reason2")}</li>
-              <li>{t("hubEjendom.reason3")}</li>
-              <li>{t("hubEjendom.reason4")}</li>
+              <li>{t.hubEjendom.reason1}</li>
+              <li>{t.hubEjendom.reason2}</li>
+              <li>{t.hubEjendom.reason3}</li>
+              <li>{t.hubEjendom.reason4}</li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
             <h2 className="text-2xl font-bold text-[#3A5A4E]">
-              {t("hubEjendom.ctaTitle")}
+              {t.hubEjendom.ctaTitle}
             </h2>
             <p>
-              {t("hubEjendom.ctaText")}
+              {t.hubEjendom.ctaText}
             </p>
             <Link
               href="/contact"
               className="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors"
             >
-              {t("hubEjendom.ctaButton")}
+              {t.hubEjendom.ctaButton}
             </Link>
           </section>
         </article>

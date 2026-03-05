@@ -1,28 +1,27 @@
-"use client"
-
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
 import Image from "next/image"
 import Breadcrumb from "@/components/Breadcrumb"
 import RelatedServices from "@/components/RelatedServices"
 import { getRelatedServices } from "@/lib/relatedServices"
 import ArticleMeta from "@/components/ArticleMeta"
 
+const t = danish
+
 export default function DanskHoldingSpanienPage() {
-  const { t } = useTranslation()
   const relatedServices = getRelatedServices("/dansk-holder-spansk-selskab", t)
 
   return (
     <>
       <Breadcrumb
         items={[]}
-        currentPage={t("danishHolding.title")}
+        currentPage={t.danishHolding.title}
       />
 
       {/* Hero Image Section */}
       <section className="relative w-full h-[40vh] min-h-[300px] max-h-[450px] bg-[#3A5A4E]">
         <Image
           src="/images/services/business.webp"
-          alt={t("danishHolding.title")}
+          alt={t.danishHolding.title}
           fill
           className="object-cover opacity-30"
           priority
@@ -32,10 +31,10 @@ export default function DanskHoldingSpanienPage() {
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
           <div className="mx-auto max-w-4xl">
             <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-              {t("danishHolding.title")}
+              {t.danishHolding.title}
             </h1>
             <p className="mt-4 text-lg text-white/90">
-              {t("danishHolding.subtitle")}
+              {t.danishHolding.subtitle}
             </p>
           </div>
         </div>
@@ -48,117 +47,117 @@ export default function DanskHoldingSpanienPage() {
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("danishHolding.section1Title")}
+              {t.danishHolding.section1Title}
             </h2>
             <p>
-              {t("danishHolding.section1Text1")}
+              {t.danishHolding.section1Text1}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
               <li>
-                <strong>{t("danishHolding.section1Item1Label")}</strong>{" "}
-                {t("danishHolding.section1Item1Text")}
+                <strong>{t.danishHolding.section1Item1Label}</strong>{" "}
+                {t.danishHolding.section1Item1Text}
               </li>
               <li>
-                <strong>{t("danishHolding.section1Item2Label")}</strong>
+                <strong>{t.danishHolding.section1Item2Label}</strong>
               </li>
             </ul>
-            <p className="font-semibold">{t("danishHolding.section1Subtitle")}</p>
+            <p className="font-semibold">{t.danishHolding.section1Subtitle}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("danishHolding.section1Item3")}</li>
-              <li>{t("danishHolding.section1Item4")}</li>
-              <li>{t("danishHolding.section1Item5")}</li>
+              <li>{t.danishHolding.section1Item3}</li>
+              <li>{t.danishHolding.section1Item4}</li>
+              <li>{t.danishHolding.section1Item5}</li>
             </ul>
             <p>
-              {t("danishHolding.section1Text2")}
+              {t.danishHolding.section1Text2}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("danishHolding.section2Title")}
+              {t.danishHolding.section2Title}
             </h2>
             <p>
-              {t("danishHolding.section2Text1")}{" "}
-              <strong>{t("danishHolding.section2Text1Strong")}</strong>{" "}
-              {t("danishHolding.section2Text1Text")}
+              {t.danishHolding.section2Text1}{" "}
+              <strong>{t.danishHolding.section2Text1Strong}</strong>{" "}
+              {t.danishHolding.section2Text1Text}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("danishHolding.section2Item1")}</li>
-              <li>{t("danishHolding.section2Item2")}</li>
+              <li>{t.danishHolding.section2Item1}</li>
+              <li>{t.danishHolding.section2Item2}</li>
             </ul>
             <p>
-              {t("danishHolding.section2Text2")}
+              {t.danishHolding.section2Text2}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("danishHolding.section3Title")}
+              {t.danishHolding.section3Title}
             </h2>
             <p>
-              {t("danishHolding.section3Text1")}
+              {t.danishHolding.section3Text1}
             </p>
-            <p className="font-semibold">{t("danishHolding.section3Subtitle")}</p>
+            <p className="font-semibold">{t.danishHolding.section3Subtitle}</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("danishHolding.section3Item1")}</li>
-              <li>{t("danishHolding.section3Item2")}</li>
-              <li>{t("danishHolding.section3Item3")}</li>
+              <li>{t.danishHolding.section3Item1}</li>
+              <li>{t.danishHolding.section3Item2}</li>
+              <li>{t.danishHolding.section3Item3}</li>
             </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("danishHolding.section4Title")}
+              {t.danishHolding.section4Title}
             </h2>
             <p>
-              {t("danishHolding.section4Text1")}{" "}
-              <strong>{t("danishHolding.section4Text1Strong")}</strong>
-              {t("danishHolding.section4Text1Text")}
+              {t.danishHolding.section4Text1}{" "}
+              <strong>{t.danishHolding.section4Text1Strong}</strong>
+              {t.danishHolding.section4Text1Text}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("danishHolding.section4Item1")}</li>
-              <li>{t("danishHolding.section4Item2")}</li>
+              <li>{t.danishHolding.section4Item1}</li>
+              <li>{t.danishHolding.section4Item2}</li>
             </ul>
             <p>
-              {t("danishHolding.section4Text2")}
+              {t.danishHolding.section4Text2}
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">
-              {t("danishHolding.section5Title")}
+              {t.danishHolding.section5Title}
             </h2>
             <p>
-              {t("danishHolding.section5Text1")}{" "}
-              <strong>{t("danishHolding.section5Text1Strong")}</strong>.
-              {t("danishHolding.section5Text1Text")}
+              {t.danishHolding.section5Text1}{" "}
+              <strong>{t.danishHolding.section5Text1Strong}</strong>.
+              {t.danishHolding.section5Text1Text}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("danishHolding.section5Item1")}</li>
-              <li>{t("danishHolding.section5Item2")}</li>
+              <li>{t.danishHolding.section5Item1}</li>
+              <li>{t.danishHolding.section5Item2}</li>
             </ul>
           </section>
 
           <section className="space-y-6 bg-emerald-50 p-6 rounded-lg border border-emerald-100">
             <h2 className="text-2xl font-bold text-[#3A5A4E]">
-              {t("danishHolding.conclusionTitle")}
+              {t.danishHolding.conclusionTitle}
             </h2>
             <p>
-              {t("danishHolding.conclusionText1")}
+              {t.danishHolding.conclusionText1}
             </p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>{t("danishHolding.conclusionItem1")}</li>
-              <li>{t("danishHolding.conclusionItem2")}</li>
-              <li>{t("danishHolding.conclusionItem3")}</li>
+              <li>{t.danishHolding.conclusionItem1}</li>
+              <li>{t.danishHolding.conclusionItem2}</li>
+              <li>{t.danishHolding.conclusionItem3}</li>
             </ul>
             <p className="font-semibold text-lg">
-              {t("danishHolding.conclusionText2")}
+              {t.danishHolding.conclusionText2}
             </p>
             <p className="font-semibold text-lg">
               <a href="/contact" className="text-[#4AA07D] underline">
-                {t("danishHolding.conclusionLink")}
+                {t.danishHolding.conclusionLink}
               </a>{" "}
-              {t("danishHolding.conclusionText3")}
+              {t.danishHolding.conclusionText3}
             </p>
           </section>
         </article>

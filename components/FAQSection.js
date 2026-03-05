@@ -1,20 +1,23 @@
-"use client"
-
-import { useTranslation } from "react-i18next"
+import danish from "@/public/locales/da.json"
+import english from "@/public/locales/en.json"
+import spanish from "@/public/locales/es.json"
 import StructuredData from "./StructuredData"
 import { getFAQPageSchema } from "@/lib/structuredData"
+
+const translations = { da: danish, en: english, es: spanish }
+const defaultFaqTitles = { da: "Ofte Stillede Spørgsmål", en: "Frequently Asked Questions", es: "Preguntas Frecuentes" }
 
 /**
  * FAQSection component
  * Displays an FAQ section with schema markup for SEO
  *
  * @param {string} translationKey - The translation key for FAQ data (e.g., "skat")
+ * @param {string} lang - Language code (default: "da")
  */
-export default function FAQSection({ translationKey }) {
-  const { t } = useTranslation()
-
+export default function FAQSection({ translationKey, lang = 'da' }) {
   // Get FAQ data from translations
-  const faqData = t(`${translationKey}.faqs`, { returnObjects: true })
+  const t = translations[lang] || danish
+  const faqData = t[translationKey]?.faqs
 
   // If no FAQ data exists, don't render anything
   if (!faqData || !Array.isArray(faqData) || faqData.length === 0) {
@@ -32,7 +35,7 @@ export default function FAQSection({ translationKey }) {
       {/* FAQ Section */}
       <section className="space-y-6">
         <h2 className="text-2xl font-bold text-[#4AA07D]">
-          {t(`${translationKey}.faqTitle`) || "Ofte Stillede Spørgsmål"}
+          {t[translationKey]?.faqTitle || defaultFaqTitles[lang] || "Ofte Stillede Spørgsmål"}
         </h2>
 
         <div className="space-y-4">

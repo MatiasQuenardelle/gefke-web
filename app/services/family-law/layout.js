@@ -1,16 +1,16 @@
 import { getMetadata } from "@/lib/metadata"
 import StructuredData from "@/components/StructuredData"
 
-export const metadata = getMetadata('familyLawHub', '/services/family-law', 'da')
+export const metadata = getMetadata('familyLawHub', '/services/family-law', 'en')
 
 // CollectionPage schema for hub page
 const collectionSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Juridisk Rådgivning om Familieret i Spanien",
-  "description": "Omfattende juridisk rådgivning til danskere om familieret i Spanien - skilsmisse, testamenter, arv og lovvalg.",
+  "name": "Legal Advice on Family Law in Spain",
+  "description": "Comprehensive legal advice on family law in Spain - divorce, wills, inheritance and choice of law in international relationships.",
   "url": "https://www.buxtongefke.es/services/family-law",
-  "inLanguage": ["da", "en", "es"],
+  "inLanguage": "en",
   "about": {
     "@type": "Service",
     "serviceType": "Legal Services",

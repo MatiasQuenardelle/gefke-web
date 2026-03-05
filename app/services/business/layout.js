@@ -1,16 +1,16 @@
 import { getMetadata } from "@/lib/metadata"
 import StructuredData from "@/components/StructuredData"
 
-export const metadata = getMetadata('businessHub', '/services/business', 'da')
+export const metadata = getMetadata('businessHub', '/services/business', 'en')
 
 // CollectionPage schema for hub page
 const collectionSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Juridisk Rådgivning om Erhverv i Spanien",
-  "description": "Omfattende juridisk rådgivning til danskere om erhverv i Spanien - virksomhedsetablering, arbejdsret, skatterådgivning og holding-strukturer.",
+  "name": "Legal Advice on Business in Spain",
+  "description": "Comprehensive legal advice on business in Spain - company formation, labor law, tax advice and holding structures.",
   "url": "https://www.buxtongefke.es/services/business",
-  "inLanguage": ["da", "en", "es"],
+  "inLanguage": "en",
   "about": {
     "@type": "Service",
     "serviceType": "Legal Services",

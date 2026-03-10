@@ -20,7 +20,7 @@ Forestil dig dette scenarie: Et dansk ægtepar køber en feriebolig i Spanien. D
 
 Forskellen mellem dansk og spansk arveret er markant, især når det kommer til tvangsarv og ægtefællens position. I denne guide gennemgår vi de vigtigste forskelle, giver konkrete eksempler og forklarer, hvordan du kan bruge lovvalg til at beskytte din families fremtid.
 
-## Hvorfor Arveretten Betyder Noget for Dig
+## Hvorfor arveretten betyder noget for dig
 
 Mange danskere med ejendom i Spanien tror fejlagtigt, at dansk arveret automatisk gælder, bare fordi de er danske statsborgere. Det er ikke tilfældet.
 
@@ -34,11 +34,11 @@ Som dansk statsborger kan du **vælge** dansk arveret, selv hvis du bor i Spanie
 
 Lad os først se på, hvordan de to systemer faktisk adskiller sig.
 
-## Tvangsarv i Danmark - Overblik
+## Tvangsarv i Danmark - overblik
 
 Det danske arveretssystem bygger på en balance mellem beskyttelse af nærmeste familie og testationsfrihed.
 
-### Hvem er Tvangsarvinger i Danmark?
+### Hvem er tvangsarvinger i Danmark?
 
 I Danmark er der to kategorier af tvangsarvinger:
 
@@ -52,7 +52,7 @@ I Danmark er der to kategorier af tvangsarvinger:
    - Ofte arver mere via testamente
    - Særlige regler om uskiftet bo
 
-### Fri Testationsret: 50%
+### Fri testationsret: 50%
 
 Det danske system giver dig **50% fri rådighed** over dit bo. Denne del kan du frit disponere over i dit testamente - til hvem som helst du ønsker.
 
@@ -65,7 +65,7 @@ Total bo: 100%
 └── Fri testationsret: 50% (typisk til ægtefælle)
 ```
 
-### Ægtefællens Stilling i Danmark
+### Ægtefællens stilling i Danmark
 
 Den danske arveret er meget generøs over for ægtefællen:
 
@@ -86,11 +86,11 @@ Den efterlevende ægtefælle kan i mange tilfælde sidde i uskiftet bo, hvilket 
 
 **Konklusion:** I Danmark er ægtefællen godt beskyttet, og det er relativt nemt at sikre, at ægtefællen får hovedparten af eller fuld rådighed over boet.
 
-## Tvangsarv i Spanien - Overblik
+## Tvangsarv i Spanien - overblik
 
 Det spanske arveretssystem er væsentligt mere restriktivt og favoriserer børnene frem for ægtefællen.
 
-### Legitima - Det Spanske Tvangsarvssystem
+### Legitima - det spanske tvangsarvssystem
 
 I Spanien hedder tvangsarv *legítima*, og systemet deler boet op i tre dele:
 
@@ -109,7 +109,7 @@ Total bo: 100%
 
 **Vigtigt:** Samlet set er **2/3 af boet bundet** til børnene. Kun 1/3 kan frit disponeres over.
 
-### Hvem er Tvangsarvinger i Spanien?
+### Hvem er tvangsarvinger i Spanien?
 
 Systemet fungerer hierarkisk:
 
@@ -125,7 +125,7 @@ Systemet fungerer hierarkisk:
 - Har IKKE tvangsarv i klassisk forstand
 - Har kun ret til **brugsret** (*usufructo*)
 
-### Ægtefællens Stilling i Spanien - Den Store Overraskelse
+### Ægtefællens stilling i Spanien - den store overraskelse
 
 Dette er hvor mange danskere får et chok: **Ægtefællen er IKKE tvangsarving i Spanien!**
 
@@ -156,7 +156,7 @@ Børnene har "nøgen ejendomsret" (*nuda propiedad*):
 **Problemet:**
 Ægtefællen kan ikke sælge huset uden børnenes samtykke. Hvis relationen til børnene er dårlig (særbørn, konflikt), kan ægtefællen sidde fast.
 
-### Regionale Forskelle i Spanien
+### Regionale forskelle i Spanien
 
 Spanien har forskellige arveretsystemer i forskellige regioner:
 
@@ -197,7 +197,7 @@ Lad os sammenligne de to systemer side om side:
 
 **Konklusion:** Det spanske system beskytter børnene langt mere, mens det danske system beskytter ægtefællen bedre og giver større frihed til at disponere over sin formue.
 
-## Eksempel: Hvad Betyder Det i Praksis?
+## Eksempel: hvad betyder det i praksis?
 
 Lad os se på et konkret eksempel, der viser forskellen:
 
@@ -215,7 +215,7 @@ Lad os se på et konkret eksempel, der viser forskellen:
 - Børnene bor i Danmark og har egne boliger
 - Ingen konflikt i familien
 
-### Scenario A: Dansk Arveret Gælder (uden testamente)
+### Scenario A: dansk arveret gælder (uden testamente)
 
 **Fordeling:**
 - Kirsten arver **hele ejendommen** (100%)
@@ -227,7 +227,7 @@ Lad os se på et konkret eksempel, der viser forskellen:
 - Kan bo der, udleje, sælge - fuldstændig frit
 - Økonomisk sikkerhed
 
-### Scenario B: Spansk Arveret Gælder (uden testamente eller lovvalg)
+### Scenario B: spansk arveret gælder (uden testamente eller lovvalg)
 
 **Fordeling:**
 - Børnene får **nøgen ejendomsret til 2/3** (1.333.000 DKK)
@@ -250,7 +250,7 @@ Lad os se på et konkret eksempel, der viser forskellen:
 - Hvis børnene kommer i økonomiske problemer, kan deres kreditorer gøre krav på deres andel
 - Hvis et barn dør, arver dennes børn/ægtefælle - pludselig har Kirsten flere "medejere"
 
-### Scenario C: Spansk Arveret, Men Med Dansk Lovvalg
+### Scenario C: spansk arveret, men med dansk lovvalg
 
 **Ved korrekt testamente med dansk lovvalg:**
 - Hans kan testamentere sin fri rådighed (50%) til Kirsten
@@ -262,11 +262,11 @@ Med en uskiftet bo-lignende konstruktion kan Kirsten få fuld rådighed over hel
 
 **Konklusion:** Dansk lovvalg giver langt bedre beskyttelse af ægtefællen.
 
-## Lovvalg - Din Mulighed for Kontrol
+## Lovvalg - din mulighed for kontrol
 
 Den vigtigste information i denne guide er måske dette: **Du kan vælge dansk arveret, selvom du ejer ejendom i Spanien eller bor der.**
 
-### EU's Arveretsforordning
+### EU's arveretsforordning
 
 Den 17. august 2015 trådte EU's arveretsforordning (forordning 650/2012) i kraft. Danmark står udenfor forordningen, men Spanien deltager.
 
@@ -280,7 +280,7 @@ Den 17. august 2015 trådte EU's arveretsforordning (forordning 650/2012) i kraf
 - MEN du kan vælge dansk arveret ved at anføre det i dit testamente
 - Dette valg gælder for **hele dit dødsbo** - både aktiver i Spanien og Danmark
 
-### Hvordan Vælger Man Dansk Lov?
+### Hvordan vælger man dansk lov?
 
 Lovvalget skal fremgå **tydeligt og utvetydigt** af dit testamente. Det er ikke nok at lave et dansk testamente - du skal eksplicit anføre lovvalget.
 
@@ -297,7 +297,7 @@ herunder fast ejendom beliggende i Spanien."
 
 **VIGTIGT:** Formuleringen skal være juridisk korrekt. Brug altid en advokat med kompetence i både dansk og spansk arveret.
 
-### Skal Du Lave Både Dansk og Spansk Testamente?
+### Skal du lave både dansk og spansk testamente?
 
 Ja, det anbefales stærkt at lave **begge dele**:
 
@@ -320,7 +320,7 @@ De to testamenter skal være koordinerede, så de ikke ophæver hinanden. Typisk
 og ophæver ikke andre testamenter vedrørende aktiver andre steder."
 ```
 
-### Virker Lovvalget Altid?
+### Virker lovvalget altid?
 
 Lovvalget til dansk ret har nogle begrænsninger:
 
@@ -337,11 +337,11 @@ Lovvalget til dansk ret har nogle begrænsninger:
 **Vigtigt om fast ejendom:**
 Selvom du vælger dansk arveret, skal arveskiftet stadig foregå gennem spanske myndigheder for spansk ejendom. Men reglerne for HVEM der arver følger dansk ret.
 
-## Vigtigheden af Spansk Testamente
+## Vigtigheden af spansk testamente
 
 Selvom du vælger dansk lovvalg, er et spansk testamente ikke bare nyttigt - det er nærmest essentielt.
 
-### Fordele ved Spansk Testamente:
+### Fordele ved spansk testamente:
 
 1. **Hurtigere skiftebehandling:**
    - Med spansk testamente: 3-6 måneder
@@ -360,7 +360,7 @@ Selvom du vælger dansk lovvalg, er et spansk testamente ikke bare nyttigt - det
    - Kan optimere arveafgift i Spanien
    - Kan tage højde for spanske skifteregler
 
-### Hvad Koster et Spansk Testamente?
+### Hvad koster et spansk testamente?
 
 **Omkostninger:**
 - Advokat honorar: 300-600 EUR
@@ -369,9 +369,9 @@ Selvom du vælger dansk lovvalg, er et spansk testamente ikke bare nyttigt - det
 
 **Dette er en engangsudgift** (medmindre du senere ændrer testamentet), og besparelsen ved arveskiftet vil langt overstige denne investering.
 
-## Særlige Overvejelser
+## Særlige overvejelser
 
-### Hvad Hvis Børnene Er Mindreårige?
+### Hvad hvis børnene er mindreårige?
 
 **I Danmark:**
 - Værge beskikkes til at varetage børnenes interesser
@@ -385,7 +385,7 @@ Selvom du vælger dansk lovvalg, er et spansk testamente ikke bare nyttigt - det
 **Løsning:**
 Med dansk lovvalg følger danske regler, hvilket giver større fleksibilitet.
 
-### Hvad Med Sammenbragte Familier?
+### Hvad med sammenbragte familier?
 
 Sammenbragte familier (særbørn fra tidligere forhold) kræver ekstra omhyggelig planlægning:
 
@@ -402,7 +402,7 @@ Sammenbragte familier (særbørn fra tidligere forhold) kræver ekstra omhyggeli
 - Koordinerede testamenter
 - Præcise angivelser af hvad der skal tilfalde hvem
 
-### Særeje og Formueordning
+### Særeje og formueordning
 
 Din ægtepagt og formueordning påvirker også arven:
 
@@ -421,7 +421,7 @@ Din ægtepagt og formueordning påvirker også arven:
 
 **Vigtigt:** Din formueordning påvirker HVAD der skal arves. Dit lovvalg påvirker HVORDAN det arves og HVEM der arver.
 
-## Hvornår Skal Du Handle?
+## Hvornår skal du handle?
 
 **Svar: Så snart som muligt!**
 
@@ -441,7 +441,7 @@ Du bør lave testamente med lovvalg:
 - FØR du bliver resident
 - Sikrer du har styr på situationen fra dag ét
 
-### 4. Mindst hvert 5. år: Gennemgang
+### 4. Mindst hvert 5. år: gennemgang
 - Love ændres
 - Din situation ændres
 - Sørg for dit testamente stadig passer
@@ -453,47 +453,47 @@ Hvis du dør uden testamente eller uden korrekt lovvalg, kan det koste dine arvi
 - Potentielt højere arveafgift
 - Familiekonflikter og usikkerhed
 
-## Praktisk Tjekliste
+## Praktisk tjekliste
 
 Her er din tjekliste for at sikre dine arveforhold ved spansk ejendom:
 
-### ☐ Lav Dansk Testamente
+### ☐ Lav dansk testamente
 - Inkluder lovvalg til dansk ret
 - Koordiner med ægtefællen
 - Specificer hvem der arver hvad
 - Underskrifter og vidner efter danske regler
 
-### ☐ Lav Spansk Testamente
+### ☐ Lav spansk testamente
 - Hos spansk notar
 - Inkluder samme lovvalg til dansk ret
 - Dækker specifikt den spanske ejendom
 - Sikr det ikke ophæver det danske testamente
 
-### ☐ Registrer Spansk Testamente
+### ☐ Registrer spansk testamente
 - Automatisk registreret når notaren opretter det
 - Gemt i *Registro General de Actos de Última Voluntad*
 
-### ☐ Informer Arvingerne
+### ☐ Informer arvingerne
 - Fortæl familien om testamentet
 - Giv information om hvor dokumenterne findes
 - Overvej at give kopi til børn/advokat
 
-### ☐ Gennemgå Formueordning
+### ☐ Gennemgå formueordning
 - Tjek din ægtepagt
 - Overvej om særeje giver mening
 - Koordiner med arveplan
 
-### ☐ Planlæg Arveafgift
+### ☐ Planlæg arveafgift
 - Undersøg arveafgift i din spanske region
 - Overvej optimeringsmuligheder
 - Sikr der er likviditet til at betale afgiften
 
-### ☐ Opdater Regelmæssigt
+### ☐ Opdater regelmæssigt
 - Gennemgå hvert 3-5 år
 - Ved større livsændringer
 - Når lovgivning ændres
 
-## Få Professionel Hjælp
+## Få professionel hjælp
 
 Arveretsplanlægning ved internationale forhold er komplekst. Selv små fejl kan få store konsekvenser for dine arvinger.
 
@@ -509,11 +509,11 @@ Arveretsplanlægning ved internationale forhold er komplekst. Selv små fejl kan
 - ✅ Inkludere korrekt lovvalg
 - ✅ Gennemgå planen regelmæssigt
 
-## Eksempel fra Praksis
+## Eksempel fra praksis
 
 Jeg hjalp for nylig en dansk enke, hvis mand var død i Spanien uden testamente. Parret havde boet i Marbella i 8 år og ejede en villa værd ca. 3 mio. kr. Fordi der ikke var testamente med dansk lovvalg, gjaldt spansk arveret. Resultatet var, at de to voksne børn fik nøgen ejendomsret til 2/3 af villaen, mens enken kun fik brugsret til 1/3. Hun kunne ikke sælge huset uden børnenes samtykke, selvom hun ønskede at flytte tilbage til Danmark. Heldigvis var familien enige, men det kostede ekstra i advokatomkostninger og tog 14 måneder at få skiftet på plads. Havde manden haft et testamente med dansk lovvalg, ville enken have arvet det meste og kunnet handle frit.
 
-## Eksterne Ressourcer
+## Eksterne ressourcer
 
 For officielle oplysninger om arveret, se:
 
@@ -553,7 +553,7 @@ Forskellene mellem dansk og spansk arveret er betydelige og kan have store konse
 **Vigtigst af alt:**
 Handle nu! Jo før du får styr på dine arveforhold, jo mere ro i sindet får både du og din familie.
 
-## Ofte Stillede Spørgsmål (FAQ)
+## Ofte stillede spørgsmål (FAQ)
 
 ### Gælder dansk eller spansk arveret for min spanske ejendom?
 Som udgangspunkt gælder arveretten i dit bopælsland. Bor du i Danmark, gælder dansk arveret. Bor du i Spanien, gælder spansk arveret. MEN du kan som dansk statsborger altid vælge dansk arveret ved at anføre dette i dit testamente.

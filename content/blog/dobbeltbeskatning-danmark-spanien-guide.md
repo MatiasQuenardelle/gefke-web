@@ -20,17 +20,17 @@ Hvis du som dansker bor i Spanien eller overvejer at flytte dertil, er dobbeltbe
 
 I denne omfattende guide får du styr på alle aspekter af dobbeltbeskatning mellem Danmark og Spanien. Du lærer forskellen mellem "gammel ordning" og "ny ordning", hvordan lempelsesreglerne fungerer i praksis, og ikke mindst hvordan du sikrer, at du ikke betaler mere i skat end nødvendigt.
 
-## Hvad Skete Der med Dobbeltbeskatningsoverenskomsten?
+## Hvad skete der med dobbeltbeskatningsoverenskomsten?
 
 For at forstå den nuværende situation skal vi kort tilbage til historien. Danmark og Spanien havde indtil 2009 en dobbeltbeskatningsoverenskomst, der regulerede, hvilket land der havde beskatningsretten til forskellige indtægtstyper for personer med tilknytning til begge lande.
 
-### Hvorfor Danmark Opsagde Aftalen
+### Hvorfor Danmark opsagde aftalen
 
 I 2008 besluttede Danmark at opsige overenskomsten. Hovedårsagen var, at mange danske pensionister flyttede til Spanien, hvor de kunne nyde en lavere beskatning af deres danske pensioner. De spanske skattesatser var dengang væsentligt lavere end de danske, og pensionister kunne opleve en betydelig skattelettelse ved at etablere sig som skattemæssigt hjemmehørende i Spanien.
 
 Den danske stat mistede dermed skatteindtægter fra pensioner, som danskerne havde optjent gennem et langt arbejdsliv i Danmark. Dette var uacceptabelt for de danske myndigheder, og opsigelsen blev en realitet.
 
-### Konsekvenser for Danskere i Spanien
+### Konsekvenser for danskere i Spanien
 
 Opsigelsen fik og har stadig vidtrækkende konsekvenser:
 
@@ -40,11 +40,11 @@ Opsigelsen fik og har stadig vidtrækkende konsekvenser:
 
 **For alle** betyder fraværet af en dobbeltbeskatningsoverenskomst, at man skal forholde sig til begge landes nationale skattelovgivning og EU's regler om lempelse af dobbeltbeskatning.
 
-## "Gammel Ordning" vs. "Ny Ordning" - Hvad Gælder for Dig?
+## "Gammel ordning" vs. "Ny ordning" - Hvad gælder for dig?
 
 Den afgørende skillelinje for danske pensionister i Spanien går ved november 2007. Afhængigt af hvornår du etablerede dig i Spanien, er du omfattet af enten gammel eller ny ordning, og det har stor betydning for din skattemæssige situation.
 
-### Hvem er Omfattet af Gammel Ordning?
+### Hvem er omfattet af gammel ordning?
 
 Du er omfattet af gammel ordning, hvis alle følgende betingelser er opfyldt:
 
@@ -54,7 +54,7 @@ Du er omfattet af gammel ordning, hvis alle følgende betingelser er opfyldt:
 
 Disse kriterier er kumulative, hvilket betyder, at alle tre skal være opfyldt. Det er ikke nok, at du eksempelvis boede i Spanien i 2007, hvis du først begyndte at modtage pension efter januar 2008.
 
-#### Dokumentation Du Skal Kunne Fremvise
+#### Dokumentation du skal kunne fremvise
 
 Hvis du hævder at være omfattet af gammel ordning, skal du kunne dokumentere dette over for både danske og spanske myndigheder:
 
@@ -65,7 +65,7 @@ Hvis du hævder at være omfattet af gammel ordning, skal du kunne dokumentere d
 
 Gem disse dokumenter omhyggeligt, da du kan blive bedt om at fremlægge dem år efter år.
 
-#### Skattemæssige Fordele ved Gammel Ordning
+#### Skattemæssige fordele ved gammel ordning
 
 Under gammel ordning beskattes din danske pension udelukkende i Spanien. Danmark har ikke beskatningsret, og der indeholdes derfor ikke kildeskat.
 
@@ -77,7 +77,7 @@ Under gammel ordning beskattes din danske pension udelukkende i Spanien. Danmark
 
 **Særligt for mindre pensioner:** Hvis din årlige pension er under cirka 22.000 EUR, vil du i mange tilfælde opleve en lavere beskatning i Spanien end i Danmark. Det spanske skattesystem har relativt høje personfradrag og bundgrænser.
 
-### Hvem er Omfattet af Ny Ordning?
+### Hvem er omfattet af ny ordning?
 
 Du er omfattet af ny ordning, hvis:
 
@@ -86,7 +86,7 @@ Du er omfattet af ny ordning, hvis:
 
 Under ny ordning gælder dansk lovgivning for beskatningen af din danske pension, selv om du er skattemæssigt hjemmehørende i Spanien.
 
-#### Sådan Beskattes Du Under Ny Ordning
+#### Sådan beskattes du under ny ordning
 
 **I Danmark:**
 - Dansk pension beskattes efter danske regler
@@ -98,7 +98,7 @@ Under ny ordning gælder dansk lovgivning for beskatningen af din danske pension
 - Den danske pension indgår i beregningen af din spanske skat
 - Du har krav på lempelse (credit) for den danske skat, du har betalt
 
-#### Den Dobbelte Indberetningspligt
+#### Den dobbelte indberetningspligt
 
 Her bliver det komplekst. Under ny ordning skal du:
 
@@ -115,11 +115,11 @@ Her bliver det komplekst. Under ny ordning skal du:
 
 Det er afgørende at forstå, at selv om du betaler skat i Danmark, fritager det dig ikke for at indberette indtægterne i Spanien. Mange danskere begår fejlen at tro, at de kun skal forholde sig til ét land.
 
-## Hvordan Undgår Du Dobbeltbeskatning i Praksis?
+## Hvordan undgår du dobbeltbeskatning i praksis?
 
 Når der ikke længere findes en bilateral dobbeltbeskatningsoverenskomst mellem Danmark og Spanien, skal man anvende de nationale lempelsesregler og EU-retten til at undgå dobbeltbeskatning.
 
-### Lempelse i Spanien (Credit-Metoden)
+### Lempelse i Spanien (credit-metoden)
 
 Spanien anvender credit-metoden, når du som skatteborger i Spanien har betalt skat i udlandet. Dette fungerer således:
 
@@ -127,7 +127,7 @@ Spanien anvender credit-metoden, når du som skatteborger i Spanien har betalt s
 2. **Du dokumenterer den betalte danske skat** med årsopgørelse fra SKAT
 3. **Du får fradrag** i din spanske skat svarende til den danske skat, dog maksimalt den spanske skat på samme indkomst
 
-#### Et Konkret Eksempel på Credit-Metoden
+#### Et konkret eksempel på credit-metoden
 
 Lad os sige, at:
 - Din danske pension er 250.000 DKK (cirka 33.500 EUR)
@@ -139,7 +139,7 @@ I dette tilfælde får du credit for 8.000 EUR i Spanien (ikke de fulde 10.050 E
 - Spansk skat: 0 EUR (da credit dækker hele den spanske skat)
 - **Total skat: 10.050 EUR**
 
-#### Dokumentation Du Skal Have
+#### Dokumentation du skal have
 
 For at få lempelse i Spanien skal du kunne dokumentere:
 
@@ -164,11 +164,11 @@ I visse situationer kan du også søge om lempelse i Danmark, hvis du har betalt
 - SKAT foretager en konkret vurdering
 - Lempelsen gives ved genoptagelse af skatteansættelsen
 
-## Hvilke Indtægter Beskattes Hvor?
+## Hvilke indtægter beskattes hvor?
 
 For at navigere i junglen af dobbeltbeskatning er det essentielt at forstå hovedprincipperne for, hvor forskellige indtægtstyper beskattes.
 
-### Hovedregler ved Manglende Dobbeltbeskatningsaftale
+### Hovedregler ved manglende dobbeltbeskatningsaftale
 
 Når der ikke er en dobbeltbeskatningsoverenskomst, gælder som udgangspunkt:
 
@@ -183,7 +183,7 @@ Når der ikke er en dobbeltbeskatningsoverenskomst, gælder som udgangspunkt:
 | **Udlejning af dansk ejendom** | Danmark | Spanien (med lempelse) |
 | **Kapitalgevinst ved salg af spansk ejendom** | Spanien | Danmark (hvis relevant) |
 
-### Særregler for Tjenestemandspension
+### Særregler for tjenestemandspension
 
 Tjenestemandspensioner udgør en særlig kategori, da de anses for vederlag for tidligere offentlig tjeneste. Her gælder:
 
@@ -194,7 +194,7 @@ Tjenestemandspensioner udgør en særlig kategori, da de anses for vederlag for 
 
 Hvis du modtager både tjenestemandspension og anden pension, skal du altså være opmærksom på, at reglerne kan være forskellige for de to pensionstyper.
 
-## Selvangivelsespligt i Begge Lande
+## Selvangivelsespligt i begge lande
 
 En af de største overraskelser for mange danskere i Spanien er opdagelsen af, at de skal selvangive i begge lande. Lad os se på, hvad dette indebærer.
 
@@ -238,7 +238,7 @@ En af de største overraskelser for mange danskere i Spanien er opdagelsen af, a
 - Kapitalindkomst fra hele verden
 - Formue i udlandet (hvis over 50.000 EUR)
 
-### Konsekvenser ved Manglende Indberetning
+### Konsekvenser ved manglende indberetning
 
 **I Danmark:**
 - Bøder på 1.000-5.000 kr. for forsinket/manglende indberetning
@@ -252,11 +252,11 @@ En af de største overraskelser for mange danskere i Spanien er opdagelsen af, a
 
 Det kan simpelthen ikke betale sig at lade være med at selvangive korrekt i begge lande.
 
-## Praktiske Eksempler
+## Praktiske eksempler
 
 Lad os se på tre konkrete eksempler, der illustrerer, hvordan systemet fungerer i praksis.
 
-### Eksempel 1: Pensionist under Gammel Ordning
+### Eksempel 1: Pensionist under gammel ordning
 
 **Person:** Jens, 72 år, bosat i Marbella siden 2005
 
@@ -277,7 +277,7 @@ Lad os se på tre konkrete eksempler, der illustrerer, hvordan systemet fungerer
 
 **Jens' fordel:** Havde han boet i Danmark, ville hans skatteprocent have været omkring 30-35%, så han sparer betydeligt under gammel ordning.
 
-### Eksempel 2: Tilflytter under Ny Ordning
+### Eksempel 2: Tilflytter under ny ordning
 
 **Person:** Anne, 68 år, flyttede til Spanien i 2015
 
@@ -303,7 +303,7 @@ Lad os se på tre konkrete eksempler, der illustrerer, hvordan systemet fungerer
 
 **Anne betaler i alt:** 16.700 EUR i skat, hvilket svarer til cirka 36% af hendes samlede indkomst. Hun betaler ikke dobbelt, men hun har væsentligt mere administration med selvangivelser i to lande.
 
-### Eksempel 3: Fjernarbejder med Dansk Arbejdsgiver
+### Eksempel 3: Fjernarbejder med dansk arbejdsgiver
 
 **Person:** Peter, 45 år, flyttede til Valencia i 2022
 
@@ -334,11 +334,11 @@ Lad os se på tre konkrete eksempler, der illustrerer, hvordan systemet fungerer
 
 Peter skal selvangive i både Danmark (pga. udbyttet) og Spanien (pga. skattepligt der).
 
-## Hvornår Skal Du Søge Professionel Hjælp?
+## Hvornår skal du søge professionel hjælp?
 
 Dobbeltbeskatning mellem Danmark og Spanien er komplekst, og selv med denne guide kan der være situationer, hvor professionel rådgivning er uundgærlig.
 
-### Komplekse Situationer der Kræver Ekspertise
+### Komplekse situationer der kræver ekspertise
 
 **Du bør søge hjælp, hvis:**
 
@@ -367,7 +367,7 @@ Dobbeltbeskatning mellem Danmark og Spanien er komplekst, og selv med denne guid
    - Uenighed mellem danske og spanske myndigheder
    - Manglende accept af dokumentation
 
-### Fordele ved Skatteekspert
+### Fordele ved skatteekspert
 
 En kvalificeret skatterådgiver med ekspertise i dansk-spanske forhold kan:
 
@@ -384,7 +384,7 @@ En kvalificeret skatterådgiver med ekspertise i dansk-spanske forhold kan:
 
 Selvom det kan virke dyrt, kan en god rådgiver ofte spare dig for langt mere i undgået dobbeltbeskatning, bøder og stress.
 
-## Ofte Stillede Spørgsmål (FAQ)
+## Ofte stillede spørgsmål (FAQ)
 
 ### Kan jeg nogensinde skifte fra ny til gammel ordning?
 

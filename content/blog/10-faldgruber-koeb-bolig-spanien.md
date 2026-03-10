@@ -19,7 +19,7 @@ At købe ejendom i Spanien kan være en fantastisk investering – men det kan o
 
 ---
 
-## 1. At Købe uden Uafhængig Juridisk Rådgivning
+## 1. At købe uden uafhængig juridisk rådgivning
 
 ### Faldgruben
 Mange danskere stoler på ejendomsmæglerens juridiske rådgivning eller prøver at spare penge ved at undgå advokat helt. **Dette er en dødelig fejl.** Ejendomsmægleren arbejder for sælger og har økonomiske incitamenter – ikke nødvendigvis dine interesser.
@@ -34,7 +34,7 @@ Mange danskere stoler på ejendomsmæglerens juridiske rådgivning eller prøver
 
 ---
 
-## 2. Ikke at Udføre Due Diligence på Ejendommen
+## 2. Ikke at udføre due diligence på ejendommen
 
 ### Faldgruben
 Du får en smuk ejendom at se, alt ser glimrende ud, og du underskriver uden at:
@@ -53,7 +53,7 @@ Du får en smuk ejendom at se, alt ser glimrende ud, og du underskriver uden at:
 
 ---
 
-## 3. At Acceptere Nedsat Købesum "Sort"
+## 3. At acceptere nedsat købesum "sort"
 
 ### Faldgruben
 Sælger tilbyder: "Lad os indberette €200,000 til skattevæsenet, men du betaler €250,000 - det resterende bliver sort penge."
@@ -70,7 +70,7 @@ Dette er ulovligt og sætter DIG i risiko for straffeansvar, ikke sælger.
 
 ---
 
-## 4. Glemme Notartakster og Registreringsgebyrer
+## 4. Glemme notartakster og registreringsgebyrer
 
 ### Faldgruben
 Du regner med €250,000 til køb og tror du har dækket alt. Dernæst kommer:
@@ -99,7 +99,7 @@ Pludselig mangler du €30,000-40,000!
 
 ---
 
-## 5. At Købe i Dårlig Tider uden Tingsbeslaglæggelse
+## 5. At købe i dårlig tider uden tingsbeslaglæggelse
 
 ### Faldgruben
 Du har tilbuddet accepteret, maar dokumenter ikke, at din tilbuddet vil være registreret på ejendommen. I mellemtiden kan sælger:
@@ -115,7 +115,7 @@ Du har tilbuddet accepteret, maar dokumenter ikke, at din tilbuddet vil være re
 
 ---
 
-## 6. At Købe Ejendom med Ulovlig Konstruktion
+## 6. At købe ejendom med ulovlig konstruktion
 
 ### Faldgruben
 Ejendomsmægleren siger "Det er helt normalt her" når han viser dig en ulovligt udvidet terrasse, ekstra etage eller ulovligPoolHouse. I Spanien kan ulovlig konstruktion betyde:
@@ -134,7 +134,7 @@ Ejendomsmægleren siger "Det er helt normalt her" når han viser dig en ulovligt
 
 ---
 
-## 7. At Ignorere Ejerforeninger (Comunidad) Gæld
+## 7. At ignorere ejerforeninger (Comunidad) gæld
 
 ### Faldgruben
 Ejendommen er i ejerforening. Ejerforeningen har €50,000 gæld (tidligere bestyrelsesmedlem stjal penge). Efter køb BLIVER DENNE GÆLD DIN.
@@ -153,7 +153,7 @@ Ejendommen er i ejerforening. Ejerforeningen har €50,000 gæld (tidligere best
 
 ---
 
-## 8. At Købe uden Energibevis (Certificado de Eficiencia Energética)
+## 8. At købe uden energibevis (Certificado de Eficiencia Energética)
 
 ### Faldgruben
 Fra 2013 skal alle ejenddomme have energibevis. Uden det kan du:
@@ -169,7 +169,7 @@ Fra 2013 skal alle ejenddomme have energibevis. Uden det kan du:
 
 ---
 
-## 9. At Ignorere Potentielle Vandskader og Bygningsfejl
+## 9. At ignorere potentielle vandskader og bygningsfejl
 
 ### Faldgruben
 Spanien har ekstreme sommerheder og svære regnstorme. Gamle huse kan have:
@@ -188,7 +188,7 @@ Du udfører ikke inspektal, og later efter 6 måneder skal du bruge €30,000 p�
 
 ---
 
-## 10. At Skrive Under på Dokumenter Du Ikke Forstår
+## 10. At skrive under på dokumenter du ikke forstår
 
 ### Faldgruben
 Notaren taler hurtigt på spansk, ingen oversætter, og du underskriver. Derefter opdager du:
@@ -207,20 +207,20 @@ Notaren taler hurtigt på spansk, ingen oversætter, og du underskriver. Derefte
 
 ---
 
-## Bonus: 3 Pro Tips fra Erfaring
+## Bonus: 3 pro tips fra erfaring
 
-### Tip 1: Forhandle Aggressivt på Pris
+### Tip 1: forhandle aggressivt på pris
 Dansk ejendomskultur handler om list-pris. Spansk marked forventer forhandling. Gør dit bedste tilbud 10-15% under spørge-pris. Værste der kan ske: sælger siger nej.
 
-### Tip 2: Lav en Inspektion Rapport Del af Tilbuddet
+### Tip 2: lav en inspektion rapport del af tilbuddet
 "Mit tilbud på €250,000 er betinget af positiv bygningsinspeksjon. Hvis større reparationer nødvendigt, kan jeg reforhandle prisen."
 
-### Tip 3: Få Finansiering **Før** du laver binding tilbud
+### Tip 3: få finansiering **før** du laver binding tilbud
 Mange køber siger "Ja jeg køber" uden at vide om de kan få penge. I Spanien kan finansiering tage 4-6 uger. Få pre-kvalificering fra bank først.
 
 ---
 
-## Konklusion: En Advokat Koster Mindre End En Fejl
+## Konklusion: en advokat koster mindre end en fejl
 
 At købe ejendom i Spanien uden juridisk hjælp er som at flyve et fly uden instruktør. Du *kunne* lande det – men risikoen er enorm.
 

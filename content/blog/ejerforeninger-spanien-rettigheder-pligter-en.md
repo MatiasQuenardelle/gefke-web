@@ -32,7 +32,7 @@ This guide gives you a complete overview of:
 
 ## What is a Comunidad de Propietarios?
 
-### Definition and Legal Framework
+### Definition and legal framework
 
 A *Comunidad de Propietarios* (abbreviation: CP) is a legal association of all owners in a building or residential complex with shared facilities.
 
@@ -45,7 +45,7 @@ A *Comunidad de Propietarios* (abbreviation: CP) is a legal association of all o
 
 > **Important:** If you purchase a property in a building or complex with common areas, you automatically and obligatorily become a member of the CP. You cannot opt out of membership.
 
-### What Constitutes a Comunidad?
+### What constitutes a Comunidad?
 
 A CP exists when there are:
 - **Multiple independent properties** (apartments, townhouses, etc.)
@@ -60,7 +60,7 @@ A CP exists when there are:
 - ✅ High-rise with 100 apartments
 - ❌ Detached villa without shared facilities (no CP)
 
-### Cuota de Participación - Your Share
+### Cuota de Participación - your share
 
 When you buy the property, you are assigned a *cuota de participación*—your share of the community.
 
@@ -88,9 +88,9 @@ Your share: €100,000 × 2.5% = €2,500/year
 
 ---
 
-## Community Fees (Gastos de Comunidad)
+## Community fees (Gastos de Comunidad)
 
-### What Do Community Fees Cover?
+### What do community fees cover?
 
 Community fees are the ongoing costs for operating and maintaining common areas.
 
@@ -104,7 +104,7 @@ Community fees are the ongoing costs for operating and maintaining common areas.
 | **Administration** | Administrator fee, accountant/lawyer as needed |
 | **Reserve Fund** | Savings for future expenses (new roof, facade painting) |
 
-### Typical Amounts
+### Typical amounts
 
 Community fees vary enormously depending on:
 - Complex size
@@ -122,7 +122,7 @@ Community fees vary enormously depending on:
 | Luxury complex with multiple pools, fitness, concierge | €300-600+ |
 | Townhouse areas | €50-120 (often lower as common areas are smaller) |
 
-### How Are Community Fees Paid?
+### How are community fees paid?
 
 **Payment Frequency:**
 - **Monthly:** Most common
@@ -144,7 +144,7 @@ Community fees vary enormously depending on:
 > - Set up direct debit
 > - Check that the first payment goes through
 
-### What If You Don't Pay?
+### What if you don't pay?
 
 Failure to pay community fees has serious consequences:
 
@@ -171,11 +171,11 @@ Failure to pay community fees has serious consequences:
 
 ---
 
-## General Meeting (Junta de Propietarios)
+## General meeting (Junta de Propietarios)
 
 The general meeting is the supreme decision-making body in the CP. All important decisions about operations, budget, maintenance, and rules are made here.
 
-### Ordinary General Meeting
+### Ordinary general meeting
 
 | Aspect | Details |
 |--------|---------|
@@ -196,7 +196,7 @@ The general meeting is the supreme decision-making body in the CP. All important
 - Accounts and budget (as attachments)
 - Any other relevant documents
 
-### Extraordinary General Meeting
+### Extraordinary general meeting
 
 **When Held:**
 When special issues arise between ordinary meetings.
@@ -212,7 +212,7 @@ When special issues arise between ordinary meetings.
 - The administrator
 - At least 25% of owners (measured by cuotas)
 
-### Your Voting Rights
+### Your voting rights
 
 **Basic Rule:** 1 property = 1 vote
 
@@ -232,7 +232,7 @@ If you cannot attend, you can:
 **Loss of Voting Rights:**
 If you are more than **3 months behind** with community fees, you lose voting rights (but still have the right to attend).
 
-### Meeting Procedure
+### Meeting procedure
 
 **1. Establishing Quorum**
 There must be sufficient attendance (quorum):
@@ -261,7 +261,7 @@ Each item is discussed and voted on.
 **5. Documentation**
 Everything must be recorded in minutes (*acta*).
 
-### Decisions and Majorities
+### Decisions and majorities
 
 Different decisions require different majorities:
 
@@ -286,11 +286,11 @@ The minutes are legally binding. If you were not at the meeting and disagree, yo
 
 ---
 
-## New Rules on Holiday Rentals (2023)
+## New rules on holiday rentals (2023)
 
 In June 2023, a new housing law (*Ley de Vivienda*) was passed that gave homeowner associations significant power to regulate holiday rentals.
 
-### What Has Changed?
+### What has changed?
 
 | Before 2023 | After 2023 |
 |-------------|------------|
@@ -298,7 +298,7 @@ In June 2023, a new housing law (*Ley de Vivienda*) was passed that gave homeown
 | Individual bylaws attempted bans, but it was legally uncertain | Requires 3/5 majority at general meeting |
 | Many CPs were frustrated by "hotelization" | Changes must be incorporated into bylaws |
 
-### What Can the CP Decide?
+### What can the CP decide?
 
 **1. Total Ban:**
 "In this homeowner association, short-term/holiday rental is prohibited."
@@ -312,7 +312,7 @@ In June 2023, a new housing law (*Ley de Vivienda*) was passed that gave homeown
 - Special deposit of €5,000
 - Local contact person available 24/7 to handle problems"
 
-### How Is It Decided?
+### How is it decided?
 
 **Process:**
 
@@ -334,7 +334,7 @@ Votes for ban: 32 units (64% of cuotas)
 Result: ADOPTED (64% > 60%)
 ```
 
-### What About Existing Rentals?
+### What about existing rentals?
 
 **Transitional Rule:**
 If you already had legal holiday rentals (with tourist license) BEFORE the CP's ban, you can normally continue.
@@ -347,7 +347,7 @@ If you already had legal holiday rentals (with tourist license) BEFORE the CP's 
 **Illegal Rental:**
 If you rented illegally (without license), you get no protection. The CP can stop you immediately.
 
-### Consequences of Violation
+### Consequences of violation
 
 If the CP has banned holiday rentals and you do it anyway:
 
@@ -369,7 +369,7 @@ If the CP has banned holiday rentals and you do it anyway:
 
 Most CPs have a professional administrator to handle daily operations.
 
-### What Does the Administrator Do?
+### What does the administrator do?
 
 | Category | Tasks |
 |----------|-------|
@@ -378,7 +378,7 @@ Most CPs have a professional administrator to handle daily operations.
 | **Practical** | Coordinate repairs and maintenance, contract with suppliers (pool, garden, cleaning), monitor that work is done correctly, handle emergencies |
 | **Legal** | Enforce bylaws, pursue debtors, represent CP externally (with authorization from general meeting) |
 
-### Professional vs. Resident Administrator
+### Professional vs. resident administrator
 
 | Type | Pros | Cons |
 |------|------|------|
@@ -388,7 +388,7 @@ Most CPs have a professional administrator to handle daily operations.
 **Small complexes** (10-20 units): Often resident administrator
 **Medium and large complexes:** Typically professional
 
-### How Is the Administrator Selected/Dismissed?
+### How is the administrator selected/dismissed?
 
 | Action | Requirement |
 |--------|-------------|
@@ -420,9 +420,9 @@ Typically paid according to two models:
 
 ---
 
-## Problems and Conflicts
+## Problems and conflicts
 
-### Neighbor Noise and Nuisances
+### Neighbor noise and nuisances
 
 **Most Common Complaints:**
 - 🔊 Noise from neighbors (parties, music, children)
@@ -446,7 +446,7 @@ Most CPs have house rules in the bylaws:
 
 Violations can result in fines (set in bylaws).
 
-### Disagreement About Expenses
+### Disagreement about expenses
 
 **Scenario:**
 CP decides on major renovation (e.g., new roof for €80,000). You think it's too expensive or unnecessary.
@@ -464,7 +464,7 @@ No! If the general meeting with correct majority decides on an expense, you are 
 **Exception:**
 If the decision was illegal (e.g., wrong majority, missing notice), you can sue to have it annulled.
 
-### How Are Conflicts Resolved?
+### How are conflicts resolved?
 
 | Step | Description |
 |------|-------------|
@@ -476,9 +476,9 @@ If the decision was illegal (e.g., wrong majority, missing notice), you can sue 
 
 ---
 
-## Your Rights as a Foreign Owner
+## Your rights as a foreign owner
 
-### Do You Have the Same Rights as Spaniards?
+### Do you have the same rights as Spaniards?
 
 **Yes, completely!** As an EU citizen, you have:
 - ✅ Same property rights
@@ -488,7 +488,7 @@ If the decision was illegal (e.g., wrong majority, missing notice), you can sue 
 
 There **must not** be discrimination based on nationality.
 
-### Information in Your Language?
+### Information in your language?
 
 **No, there is no right to this.**
 
@@ -503,7 +503,7 @@ The CP communicates in Spanish:
 - Ask to receive documents well in advance
 - Bring an interpreter to general meetings
 
-### How Do You Stay Informed?
+### How do you stay informed?
 
 1. **Update your contact info:** Ensure administrator has your postal address, email, and phone number
 2. **Read notices carefully:** Even if in Spanish, get important ones translated
@@ -513,11 +513,11 @@ The CP communicates in Spanish:
 
 ---
 
-## Checklist: Before Buying in a Homeowner Association
+## Checklist: before buying in a homeowner association
 
 Use this checklist to avoid unpleasant surprises:
 
-### ☐ Obtain and Review Documents
+### ☐ Obtain and review documents
 
 **Via seller or your lawyer:**
 - [ ] **Bylaws** (*estatutos*)—get the most important parts translated
@@ -527,7 +527,7 @@ Use this checklist to avoid unpleasant surprises:
 - [ ] **Budget** for current year
 - [ ] **Proof seller is current** (*certificado de estar al corriente de pago*)
 
-### ☐ Check Financial Matters
+### ☐ Check financial matters
 
 - [ ] What are the **monthly community fees**? Can you live with that?
 - [ ] Are there **unpaid bills** on the property?
@@ -535,7 +535,7 @@ Use this checklist to avoid unpleasant surprises:
 - [ ] Is there a built-up **reserve fund**? (good sign!)
 - [ ] Are there **pending lawsuits** against or by the CP?
 
-### ☐ Investigate Rules and Restrictions
+### ☐ Investigate rules and restrictions
 
 - [ ] May the property be **rented**? (Long-term? Short-term?)
 - [ ] Is there a **ban on holiday rentals**?
@@ -544,7 +544,7 @@ Use this checklist to avoid unpleasant surprises:
 - [ ] Are there restrictions on **modifications** in the apartment?
 - [ ] **Parking** rules?
 
-### ☐ Assess Facilities and Maintenance
+### ☐ Assess facilities and maintenance
 
 - [ ] Visit the complex and see the **common areas**
 - [ ] Are pool, garden, and buildings in **good condition**?
@@ -552,7 +552,7 @@ Use this checklist to avoid unpleasant surprises:
 - [ ] Is there **visible damage** (cracks, moisture, etc.)?
 - [ ] Talk to **other owners** about their experience
 
-### ☐ Understand Governance
+### ☐ Understand governance
 
 - [ ] Who is the **administrator**? Professional or resident?
 - [ ] How many **units** in the complex?
@@ -560,7 +560,7 @@ Use this checklist to avoid unpleasant surprises:
 - [ ] When was the **last general meeting**?
 - [ ] Are there **conflicts** in the complex? (ask neighbors discreetly)
 
-### ☐ Legal Review
+### ☐ Legal review
 
 - [ ] Have your **lawyer** review all documents
 - [ ] Check that there is **no lien** on the property (Nota Simple)
@@ -597,7 +597,7 @@ A well-functioning homeowner association can make your property experience fanta
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Can I avoid being a member of the homeowner association?
 No, membership is automatic and mandatory when buying property in a complex with shared facilities. You cannot opt out, and you cannot sell your share separately.

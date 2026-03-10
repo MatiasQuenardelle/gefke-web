@@ -26,7 +26,7 @@ Esta guía le proporciona la lista de verificación completa de TODO lo que nece
 
 ---
 
-## Las 3 Fases de la Mudanza
+## Las 3 fases de la mudanza
 
 Para hacer el proceso manejable, podemos dividir su mudanza en tres fases claras:
 
@@ -40,11 +40,11 @@ Vamos a repasar cada fase sistemáticamente.
 
 ---
 
-## FASE 1: Antes de Partir (3-6 Meses Antes)
+## FASE 1: Antes de partir (3-6 meses antes)
 
 Esta fase es crucial. Lo que haga ahora puede ahorrarle enormes problemas después.
 
-### Salida Fiscal de Dinamarca
+### Salida fiscal de Dinamarca
 
 **Baja del Registro Nacional:**
 
@@ -80,7 +80,7 @@ Llame o escriba a SKAT e infórmeles de su mudanza:
 
 ---
 
-### Tributación de Salida - ¡Cuidado!
+### Tributación de salida - ¡cuidado!
 
 Este es uno de los aspectos más importantes, y más pasados por alto, al mudarse como jubilado.
 
@@ -143,7 +143,7 @@ También contacte a sus compañías de pensiones privadas:
 
 ---
 
-### Seguro Médico - Absolutamente Crucial
+### Seguro médico - absolutamente crucial
 
 Esto es CRÍTICO, y muchos lo hacen mal.
 
@@ -206,7 +206,7 @@ Incluso con S1, muchos jubilados optan por contratar seguro privado complementar
 
 ---
 
-### Banco y Finanzas
+### Banco y finanzas
 
 **¿Puede Mantener Su Banco Danés?**
 
@@ -258,7 +258,7 @@ DEBE tener cuenta bancaria española para:
 
 ---
 
-### ¿Qué Pasa con Su Vivienda Danesa?
+### ¿Qué pasa con su vivienda danesa?
 
 | Si Usted... | Implicaciones Fiscales | Consideraciones |
 |-------------|------------------------|-----------------|
@@ -268,11 +268,11 @@ DEBE tener cuenta bancaria española para:
 
 ---
 
-## FASE 2: Llegada y Registro (0-3 Meses)
+## FASE 2: Llegada y registro (0-3 meses)
 
 Ya ha llegado a España. Los próximos meses tratan de hacerse "legal" y poner todos los asuntos prácticos en orden.
 
-### Padrón - Registro Municipal (HAGA ESTO PRIMERO)
+### Padrón - registro municipal (HAGA ESTO PRIMERO)
 
 **¿Qué es el Padrón?**
 - Registro de residencia municipal
@@ -309,7 +309,7 @@ Requerido para casi todo lo demás:
 
 ---
 
-### Número NIE - Su Número de Identificación Español
+### Número NIE - su número de identificación español
 
 **¿Qué es el NIE?**
 - Número de Identificación de Extranjero
@@ -348,7 +348,7 @@ Requerido para casi todo lo demás:
 
 ---
 
-### Residencia - Registro de Ciudadano UE
+### Residencia - registro de ciudadano UE
 
 **¿Qué es la Residencia?**
 
@@ -397,7 +397,7 @@ Debe documentar:
 
 ---
 
-### Registro en el Sistema Sanitario
+### Registro en el sistema sanitario
 
 Ya tiene S1, Residencia y NIE - hora de obtener su tarjeta sanitaria.
 
@@ -441,11 +441,11 @@ Ya tiene S1, Residencia y NIE - hora de obtener su tarjeta sanitaria.
 
 ---
 
-## FASE 3: Primer Año como Residente
+## FASE 3: Primer año como residente
 
 Felicidades - ¡ya está completamente registrado en España! Pero el trabajo no ha terminado. Ahora vienen las obligaciones fiscales.
 
-### Declaración de la Renta Española - Sí, DEBE Hacerla
+### Declaración de la renta española - sí, DEBE hacerla
 
 El mayor malentendido entre los jubilados daneses en España es que creen que pueden saltarse la declaración española porque pagan impuestos en Dinamarca. **Esto es incorrecto.**
 
@@ -489,7 +489,7 @@ La mayoría de jubilados daneses deben, por tanto, declarar.
 
 ---
 
-### Modelo 720 - Activos en el Extranjero
+### Modelo 720 - activos en el extranjero
 
 Esta es una de las obligaciones más importantes, y más ignoradas.
 
@@ -544,7 +544,7 @@ Declaración anual de activos fuera de España, si superan 50.000 € en cualqui
 
 ---
 
-### Impuesto sobre el Patrimonio en España
+### Impuesto sobre el patrimonio en España
 
 España tiene impuesto sobre el patrimonio (Impuesto sobre el Patrimonio), que afecta a las fortunas mayores.
 
@@ -586,11 +586,11 @@ España tiene impuesto sobre el patrimonio (Impuesto sobre el Patrimonio), que a
 
 ---
 
-## Tributación de Pensiones en la Práctica
+## Tributación de pensiones en la práctica
 
 Veamos específicamente cómo tributa su pensión cuando vive en España.
 
-### Nuevo Régimen - ¿Qué Significa Para Usted?
+### Nuevo régimen - ¿qué significa para usted?
 
 Si se mudó a España después de noviembre de 2007 (que será la mayoría), está bajo el "nuevo régimen". Esto significa:
 
@@ -608,7 +608,7 @@ Si se mudó a España después de noviembre de 2007 (que será la mayoría), est
 **En la Práctica:**
 Normalmente paga la mayor parte del impuesto a Dinamarca, mientras España recibe una porción menor (o nada, si el impuesto danés es mayor que el español).
 
-### ¿Qué Pensiones Tributan Dónde?
+### ¿Qué pensiones tributan dónde?
 
 | Tipo de Pensión | Tributación (Nuevo Régimen) | Notas |
 |-----------------|---------------------------|-------|
@@ -624,11 +624,11 @@ Normalmente paga la mayor parte del impuesto a Dinamarca, mientras España recib
 
 ---
 
-## Comparación Financiera: Dinamarca vs. España
+## Comparación financiera: Dinamarca vs. España
 
 ¿Es más barato ser jubilado en España? Veamos los números.
 
-### Impuestos (Normalmente Más Bajos en España)
+### Impuestos (normalmente más bajos en España)
 
 **Ejemplo: Jubilado con 25.000 €/año:**
 
@@ -639,7 +639,7 @@ Normalmente paga la mayor parte del impuesto a Dinamarca, mientras España recib
 
 **PERO:** ¡Bajo el nuevo régimen, sigue pagando principalmente impuesto danés!
 
-### Coste de Vida
+### Coste de vida
 
 **Generalmente 20-40% Más Barato en España:**
 
@@ -654,7 +654,7 @@ Normalmente paga la mayor parte del impuesto a Dinamarca, mientras España recib
 
 **Total:** Muchos jubilados ahorran 30.000-50.000 DKK/año en coste de vida.
 
-### Panorama General
+### Panorama general
 
 Para la mayoría de jubilados daneses:
 - **Impuestos:** No mucho ahorro bajo nuevo régimen
@@ -664,11 +664,11 @@ Para la mayoría de jubilados daneses:
 
 ---
 
-## Errores Comunes al Mudarse
+## Errores comunes al mudarse
 
 Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses:
 
-### 1. Olvidar Darse de Baja en Dinamarca
+### 1. Olvidar darse de baja en Dinamarca
 
 ❌ **El Error:** Se muda a España pero permanece registrado en el CPR de Dinamarca.
 
@@ -682,7 +682,7 @@ Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses
 
 ---
 
-### 2. No Solicitar el S1 a Tiempo
+### 2. No solicitar el S1 a tiempo
 
 ❌ **El Error:** Se muda sin tener el formulario S1.
 
@@ -695,7 +695,7 @@ Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses
 
 ---
 
-### 3. Creer Que Puede Saltarse la Declaración Española
+### 3. Creer que puede saltarse la declaración española
 
 ❌ **El Error:** "Pago impuestos en Dinamarca, así que no necesito declarar en España."
 
@@ -708,7 +708,7 @@ Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses
 
 ---
 
-### 4. Subestimar el Impuesto sobre el Patrimonio
+### 4. Subestimar el impuesto sobre el patrimonio
 
 ❌ **El Error:** Cree que no hay impuesto sobre el patrimonio u olvida tenerlo en cuenta.
 
@@ -720,7 +720,7 @@ Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses
 
 ---
 
-### 5. No Hacer Testamento Español
+### 5. No hacer testamento español
 
 ❌ **El Error:** "Mi testamento danés debe ser suficiente."
 
@@ -745,7 +745,7 @@ Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses
 
 ---
 
-### 7. Mantener Solo Banco Danés
+### 7. Mantener solo banco danés
 
 ❌ **El Error:** No obtiene cuenta bancaria española.
 
@@ -758,7 +758,7 @@ Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses
 
 ---
 
-### 8. No Entender la Tributación de Salida
+### 8. No entender la tributación de salida
 
 ❌ **El Error:** Se muda dentro de 5 años desde la última aportación a pensión.
 
@@ -770,7 +770,7 @@ Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses
 
 ---
 
-### 9. Subestimar la Barrera del Idioma
+### 9. Subestimar la barrera del idioma
 
 ❌ **El Error:** Cree que todos hablan inglés en España.
 
@@ -783,7 +783,7 @@ Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses
 
 ---
 
-### 10. No Buscar Asesoramiento Profesional
+### 10. No buscar asesoramiento profesional
 
 ❌ **El Error:** Intenta manejar todo solo sin ayuda.
 
@@ -795,11 +795,11 @@ Aquí están los 10 errores más comunes que veo cometer a los jubilados daneses
 
 ---
 
-## Lista de Verificación Completa
+## Lista de verificación completa
 
 Aquí tiene su lista de verificación completa para mudarse a España como jubilado:
 
-### 3-6 Meses Antes de Mudarse
+### 3-6 meses antes de mudarse
 
 **Fiscal:**
 - [ ] Compruebe si corre riesgo de tributación de salida (regla de 5 años)
@@ -825,7 +825,7 @@ Aquí tiene su lista de verificación completa para mudarse a España como jubil
 
 ---
 
-### 0-3 Meses Antes de Partir
+### 0-3 meses antes de partir
 
 **En Dinamarca:**
 - [ ] Pida cita en Servicio de Ciudadanos para baja del CPR
@@ -847,7 +847,7 @@ Aquí tiene su lista de verificación completa para mudarse a España como jubil
 
 ---
 
-### Al Llegar a España (Primera Semana)
+### Al llegar a España (primera semana)
 
 - [ ] Regístrese en el municipio (Padrón)
   - [ ] Pida cita en el Ayuntamiento
@@ -861,7 +861,7 @@ Aquí tiene su lista de verificación completa para mudarse a España como jubil
 
 ---
 
-### Dentro de 3 Meses Tras Llegar
+### Dentro de 3 meses tras llegar
 
 - [ ] Solicite Residencia (certificado UE)
   - [ ] Pida cita (citaprevia.es)
@@ -884,7 +884,7 @@ Aquí tiene su lista de verificación completa para mudarse a España como jubil
 
 ---
 
-### Primer Año Fiscal (Antes de los Plazos)
+### Primer año fiscal (antes de los plazos)
 
 - [ ] **Antes del 31 de marzo:** Modelo 720 (activos en extranjero)
   - [ ] Reúna documentación de activos a 31 de dic
@@ -908,7 +908,7 @@ Aquí tiene su lista de verificación completa para mudarse a España como jubil
 
 ---
 
-### Obligaciones Anuales (En Adelante)
+### Obligaciones anuales (en adelante)
 
 | Cuándo | Qué |
 |--------|-----|
@@ -920,9 +920,9 @@ Aquí tiene su lista de verificación completa para mudarse a España como jubil
 
 ---
 
-## Contactos y Enlaces Importantes
+## Contactos y enlaces importantes
 
-### Autoridades Danesas
+### Autoridades danesas
 
 **SKAT:**
 - Teléfono: +45 72 22 18 18
@@ -939,7 +939,7 @@ Aquí tiene su lista de verificación completa para mudarse a España como jubil
 - Email: madamb@um.dk
 - Web: spanien.um.dk
 
-### Autoridades Españolas
+### Autoridades españolas
 
 **Agencia Tributaria:**
 - Teléfono: 901 33 55 33
@@ -956,7 +956,7 @@ Aquí tiene su lista de verificación completa para mudarse a España como jubil
 
 ---
 
-## Preguntas Frecuentes (FAQ)
+## Preguntas frecuentes (FAQ)
 
 ### ¿Puedo recibir mi pensión danesa en España?
 
@@ -1040,7 +1040,7 @@ Muchos optan por canjear su carné danés por uno español después de algunos a
 
 Mudarse a España como jubilado es una oportunidad fantástica para disfrutar de sus años bien merecidos bajo el sol, con menor coste de vida y un estilo de vida relajado. Pero como ha mostrado esta guía, requiere planificación exhaustiva y comprensión de las normas tanto danesas como españolas.
 
-### Puntos Clave
+### Puntos clave
 
 **Antes de Mudarse:**
 - ✅ Dese de baja del CPR en Dinamarca en el momento correcto
@@ -1067,7 +1067,7 @@ Mudarse a España como jubilado es una oportunidad fantástica para disfrutar de
 - ❌ Subestimar el impuesto sobre patrimonio
 - ❌ Intentar manejarlo todo solo
 
-### Consejo Más Importante
+### Consejo más importante
 
 **Busque ayuda profesional el primer año.** Un abogado o asesor fiscal que hable danés en España puede:
 - Guiarle a través de todo el proceso

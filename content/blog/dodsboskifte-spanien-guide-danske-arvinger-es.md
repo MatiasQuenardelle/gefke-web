@@ -24,7 +24,7 @@ Ya sea heredero de un pensionista que vivía en España, o el fallecido solo pos
 
 ---
 
-## Resumen Rápido: España vs. Dinamarca
+## Resumen rápido: España vs. Dinamarca
 
 | Aspecto | España | Dinamarca |
 |---------|--------|-----------|
@@ -36,7 +36,7 @@ Ya sea heredero de un pensionista que vivía en España, o el fallecido solo pos
 
 ---
 
-## Diferencia Clave: España vs. Dinamarca
+## Diferencia clave: España vs. Dinamarca
 
 La mayor sorpresa para la mayoría de los herederos daneses es que la tramitación de herencias en España **NO se inicia automáticamente**. En Dinamarca, estamos acostumbrados a que el municipio o el juzgado inicie automáticamente el proceso tras un fallecimiento. En España, la responsabilidad recae enteramente en los herederos.
 
@@ -48,11 +48,11 @@ Finalmente, hay una diferencia en el propio derecho sucesorio. Mientras que el d
 
 ---
 
-## El Plazo Crítico de 6 Meses
+## El plazo crítico de 6 meses
 
 El plazo absolutamente más importante en todo el proceso sucesorio son los **6 meses desde la fecha del fallecimiento** para pagar el impuesto de sucesiones (Impuesto de Sucesiones y Donaciones). Este plazo no es orientativo - es absoluto, y excederlo resulta en sanciones económicas automáticas.
 
-### Por Qué el Plazo es Importante
+### Por qué el plazo es importante
 
 Si el impuesto de sucesiones no se paga dentro de los 6 meses, ocurren tres cosas:
 
@@ -64,7 +64,7 @@ Si el impuesto de sucesiones no se paga dentro de los 6 meses, ocurren tres cosa
 
 > **💡 Ejemplo:** Para una herencia de 300.000€ con un impuesto de sucesiones de 30.000€, un retraso de solo 3 meses puede resultar en costes adicionales de 2.000-5.000€.
 
-### ¿Cuándo Comienza el Plazo?
+### ¿Cuándo comienza el plazo?
 
 El plazo corre desde la **fecha exacta del fallecimiento**, no desde cuando los herederos tienen conocimiento del fallecimiento. Esto puede ser problemático si los herederos están en Dinamarca y no reciben notificación inmediata.
 
@@ -72,7 +72,7 @@ La documentación de la fecha de fallecimiento se realiza mediante:
 - Certificado de defunción español si el fallecimiento ocurrió en España
 - Certificado de defunción danés reconocido internacionalmente con apostilla si el fallecimiento ocurrió en Dinamarca
 
-### Posibilidad de Prórroga
+### Posibilidad de prórroga
 
 Es posible solicitar una prórroga del plazo de 6 meses con otros 6 meses adicionales. Esta solicitud debe presentarse **ANTES** de que expiren los primeros 6 meses, y debe haber razones legítimas para la prórroga:
 
@@ -85,11 +85,11 @@ Es posible solicitar una prórroga del plazo de 6 meses con otros 6 meses adicio
 
 ---
 
-## Paso a Paso: Herencias en España
+## Paso a paso: Herencias en España
 
 El proceso sucesorio en España puede parecer abrumador, pero siguiendo estos siete pasos sistemáticamente, asegurará una tramitación fluida.
 
-### Paso 1: Obtener Documentos Necesarios de Dinamarca
+### Paso 1: Obtener documentos necesarios de Dinamarca
 
 Si el fallecido era ciudadano danés o vivía en Dinamarca, necesitará varios documentos de Dinamarca para usar en España.
 
@@ -122,7 +122,7 @@ Si el fallecido era ciudadano danés o vivía en Dinamarca, necesitará varios d
 
 ---
 
-### Paso 2: Investigar Si Existe Testamento Español
+### Paso 2: Investigar si existe testamento español
 
 Antes de poder determinar la distribución de la herencia, debe aclararse si el fallecido tenía testamento español. Esto se investiga obteniendo un certificado del:
 
@@ -152,7 +152,7 @@ Si no existe testamento español, debe usarse el testamento danés. Esto requier
 
 ---
 
-### Paso 3: Obtener NIE para los Herederos
+### Paso 3: Obtener NIE para los herederos
 
 Todos los herederos deben tener un número de identificación fiscal español (NIE - Número de Identificación de Extranjero), independientemente de si residen en España o no. Sin NIE, los herederos no pueden:
 - ❌ Firmar ante el notario
@@ -180,7 +180,7 @@ El NIE puede solicitarse de tres maneras:
 
 ---
 
-### Paso 4: Valoración de Activos
+### Paso 4: Valoración de activos
 
 Para calcular el impuesto de sucesiones, todos los activos deben valorarse. Este es un paso crítico, ya que las autoridades fiscales pueden impugnar una valoración demasiado baja.
 
@@ -213,7 +213,7 @@ Todas las cuentas bancarias se bloquean tras el fallecimiento. El banco emitirá
 
 ---
 
-### Paso 5: Cálculo y Pago del Impuesto de Sucesiones
+### Paso 5: Cálculo y pago del impuesto de sucesiones
 
 El impuesto de sucesiones en España (Impuesto de Sucesiones y Donaciones) varía dramáticamente dependiendo de en qué región se encuentra la propiedad y la relación del heredero con el fallecido.
 
@@ -277,7 +277,7 @@ Cuando se completa el pago, se emite un justificante (modelo 650 justificante de
 
 ---
 
-### Paso 6: Firma ante Notario
+### Paso 6: Firma ante notario
 
 Una vez pagado el impuesto de sucesiones, el siguiente paso es formalizar la distribución de la herencia ante notario. En España, los notarios tienen un papel mucho más central que en Dinamarca - son funcionarios públicos que garantizan la legalidad de las transacciones.
 
@@ -326,7 +326,7 @@ La mayoría de los notarios en zonas costeras tienen experiencia con clientes ex
 
 ---
 
-### Paso 7: Inscripción y Registro
+### Paso 7: Inscripción y registro
 
 El paso final es inscribir la escritura de herencia en el Registro de la Propiedad, para que la propiedad pase oficialmente a los herederos.
 
@@ -368,7 +368,7 @@ Muchos de estos cambios requieren una copia de la escritura de herencia inscrita
 
 ---
 
-## ¿Qué Ley Sucesoria se Aplica?
+## ¿Qué ley sucesoria se aplica?
 
 Una de las preguntas más confusas para los herederos daneses es: ¿Qué normas sucesorias se aplican realmente? ¿Las danesas, las españolas, o ambas?
 
@@ -398,7 +398,7 @@ Para pensionistas que pasaban 6-8 meses anuales en España, la determinación pu
 - Estado fiscal
 - Cuánto tiempo había vivido la persona en España
 
-### Elección de Ley en el Testamento
+### Elección de ley en el testamento
 
 La herramienta decisiva para crear claridad es la **elección de ley en el testamento**.
 
@@ -425,7 +425,7 @@ Para que la elección de ley sea válida, debe:
 
 ---
 
-### Ley Sucesoria Danesa vs. Española - Las Grandes Diferencias
+### Ley sucesoria danesa vs. española - Las grandes diferencias
 
 Hay diferencias significativas entre la ley sucesoria danesa y española que pueden tener importantes implicaciones económicas para los herederos.
 
@@ -464,11 +464,11 @@ Esto puede crear situaciones problemáticas donde el cónyuge sobreviviente no p
 
 ---
 
-## Impuesto de Sucesiones en España
+## Impuesto de sucesiones en España
 
 El impuesto de sucesiones es para muchos herederos la mayor carga económica al heredar en España. El sistema es complejo porque el impuesto se administra regionalmente con grandes diferencias entre las 17 comunidades autónomas.
 
-### Normas Nacionales vs. Regionales
+### Normas nacionales vs. regionales
 
 **Normas Básicas Nacionales**
 
@@ -487,7 +487,7 @@ Cada una de las 17 comunidades autónomas ha adoptado sus propias normas que pue
 - Introducir sus propios umbrales
 - Diferenciar entre residentes y no residentes (esto estaba permitido hasta 2014, ahora limitado)
 
-### Ejemplo de Cálculo Detallado
+### Ejemplo de cálculo detallado
 
 Repasemos un cálculo detallado para entender la complejidad del sistema:
 
@@ -531,11 +531,11 @@ Esto significa que los no residentes que poseen viviendas vacacionales en Españ
 
 ---
 
-## Situaciones Especiales
+## Situaciones especiales
 
 No todos los procesos sucesorios en España siguen el proceso estándar. Aquí hay tres situaciones especiales que requieren atención extra:
 
-### El Fallecido Era No Residente
+### El fallecido era no residente
 
 Si el fallecido vivía en Dinamarca pero poseía una vivienda vacacional en España, surgen desafíos especiales:
 
@@ -561,7 +561,7 @@ Esto naturalmente requiere una evaluación integral de las consecuencias fiscale
 
 ---
 
-### Múltiples Herederos con Desacuerdo
+### Múltiples herederos con desacuerdo
 
 Cuando los herederos no están de acuerdo sobre la distribución o gestión del patrimonio, el proceso se complica significativamente.
 
@@ -584,7 +584,7 @@ Cuando los herederos no están de acuerdo sobre la distribución o gestión del 
 
 ---
 
-### Propiedad con Deuda
+### Propiedad con deuda
 
 Si el fallecido tenía deuda sobre la propiedad (hipoteca) u otras obligaciones, los herederos deben decidir si aceptan la herencia:
 
@@ -621,7 +621,7 @@ El impuesto de sucesiones se calcula sobre la **herencia neta** (activos menos p
 
 ---
 
-## Lista de Verificación de Documentos
+## Lista de verificación de documentos
 
 Para asegurar un proceso fluido, es esencial tener todos los documentos necesarios listos. Aquí hay una lista de verificación completa:
 
@@ -646,14 +646,14 @@ Para asegurar un proceso fluido, es esencial tener todos los documentos necesari
 - [ ] **Valor catastral** - Gratis online
 - [ ] **Tasación de la propiedad** - 300-600€, recomendado
 
-### Documentos Durante el Proceso
+### Documentos durante el proceso
 
 - [ ] **Modelo 650** (Declaración del impuesto de sucesiones)
 - [ ] **Justificante de pago del impuesto de sucesiones** - ABSOLUTAMENTE NECESARIO para el notario
 - [ ] **Escritura de Aceptación de Herencia** - 600-1.200€
 - [ ] **Modelo 600** (AJD) - 0,5-1,5% del valor de la propiedad
 
-### Consejos Prácticos para la Recopilación de Documentos
+### Consejos prácticos para la recopilación de documentos
 
 | Consejo | Por Qué Importa |
 |---------|-----------------|
@@ -665,11 +665,11 @@ Para asegurar un proceso fluido, es esencial tener todos los documentos necesari
 
 ---
 
-## Errores Comunes a Evitar
+## Errores comunes a evitar
 
 A lo largo de los años, hemos visto a muchos herederos daneses cometer los mismos errores. Aquí están los más críticos a evitar:
 
-### 1. Esperar Demasiado (Plazo de 6 Meses)
+### 1. Esperar demasiado (plazo de 6 meses)
 
 ❌ **El Error:** Muchos herederos subestiman la seriedad del plazo de 6 meses o creen que puede prorrogarse sin más.
 
@@ -681,7 +681,7 @@ A lo largo de los años, hemos visto a muchos herederos daneses cometer los mism
 - Solicite prórroga con tiempo si es necesario
 - Considere los 6 meses como un plazo absoluto
 
-### 2. Falta de Testamento Español
+### 2. Falta de testamento español
 
 ❌ **El Error:** El fallecido solo tenía testamento danés o ningún testamento.
 
@@ -697,7 +697,7 @@ A lo largo de los años, hemos visto a muchos herederos daneses cometer los mism
 - Incluya cláusula de elección de ley en ambos testamentos
 - Coste: 150-300€ en notario español - una inversión mínima
 
-### 3. Testamentos No Coordinados
+### 3. Testamentos no coordinados
 
 ❌ **El Error:** El fallecido tiene testamentos danés y español, pero se contradicen o tienen disposiciones diferentes.
 
@@ -721,7 +721,7 @@ A lo largo de los años, hemos visto a muchos herederos daneses cometer los mism
 - Si los herederos viven en Dinamarca: Solicite vía Embajada de España en Copenhague
 - Alternativamente: Otorgue poder a un representante en España para solicitar
 
-### 5. Infravalorar la Propiedad
+### 5. Infravalorar la propiedad
 
 ❌ **El Error:** Para ahorrar impuesto de sucesiones, los herederos declaran un valor artificialmente bajo de la propiedad.
 
@@ -736,7 +736,7 @@ A lo largo de los años, hemos visto a muchos herederos daneses cometer los mism
 - Obtenga tasación profesional si tiene dudas
 - Recuerde que las autoridades fiscales modernas tienen acceso a datos de ventas y pueden comparar
 
-### 6. Asumir que se Aplican las Normas Danesas
+### 6. Asumir que se aplican las normas danesas
 
 ❌ **El Error:** Los herederos asumen que el proceso funciona como en Dinamarca y que pueden "gestionarlo ellos mismos."
 
@@ -745,7 +745,7 @@ A lo largo de los años, hemos visto a muchos herederos daneses cometer los mism
 - No use un abogado danés que no conozca el derecho español
 - El coste (típicamente 1.500-3.000€) es una inversión que previene pérdidas mucho mayores
 
-### 7. Ignorar la Deuda de la Propiedad
+### 7. Ignorar la deuda de la propiedad
 
 ❌ **El Error:** Los herederos aceptan la herencia pura y simplemente sin investigar si hay deuda.
 
@@ -762,7 +762,7 @@ A lo largo de los años, hemos visto a muchos herederos daneses cometer los mism
 
 ---
 
-## Preguntas Frecuentes (FAQ)
+## Preguntas frecuentes (FAQ)
 
 ### ¿Puedo vender la propiedad inmediatamente como heredero danés?
 
@@ -881,7 +881,7 @@ Esto es muy común para pensionistas daneses en España. La solución:
 
 La tramitación de herencias en España es un proceso complejo que requiere planificación cuidadosa, acción oportuna y comprensión de los sistemas legales español y danés. Los puntos clave de esta guía son:
 
-### Los 5 Puntos Críticos
+### Los 5 puntos críticos
 
 | Punto | Por Qué Importa |
 |-------|-----------------|
@@ -891,7 +891,7 @@ La tramitación de herencias en España es un proceso complejo que requiere plan
 | ✅ **La valoración debe ser realista** | Evite valoraciones artificialmente bajas |
 | ✅ **Use ayuda profesional** | Un abogado español es una inversión necesaria |
 
-### Costes Esperados
+### Costes esperados
 
 Para una herencia típica con una propiedad de 300.000€:
 
@@ -911,7 +911,7 @@ Con buena planificación y ayuda profesional:
 - Proceso típico: 4-6 meses
 - Con complicaciones: 6-12 meses
 
-### Actúe Ahora
+### Actúe ahora
 
 **Si está en una situación de herencia:**
 1. Contacte con un abogado español con experiencia en herencias en las primeras semanas

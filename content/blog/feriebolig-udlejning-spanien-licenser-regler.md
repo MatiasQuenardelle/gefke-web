@@ -28,9 +28,9 @@ I denne omfattende guide får du det komplette overblik over:
 - Konsekvenser ved ulovlig udlejning
 - Alternativer til korttidsudlejning
 
-## Den Nye Virkelighed: Stramme Regler fra 2023-2025
+## Den nye virkelighed: stramme regler fra 2023-2025
 
-### Hvorfor er Reglerne Blevet Strengere?
+### Hvorfor er reglerne blevet strengere?
 
 Spanien har oplevet en eksplosion i turisme og korttidsudlejning gennem platforme som Airbnb. I populære destinationer som Barcelona, Malaga, Valencia og Balearerne har dette ført til:
 
@@ -47,7 +47,7 @@ Spanien har oplevet en eksplosion i turisme og korttidsudlejning gennem platform
 
 **Resultatet:** Det er blevet betydeligt sværere (men ikke umuligt) at udleje lovligt. Samtidig er risikoen ved ulovlig udlejning steget markant.
 
-### Hvad Tæller Som "Turistudlejning"?
+### Hvad tæller som "turistudlejning"?
 
 Turistudlejning (*vivienda turística* eller *vivienda de uso turístico*) defineres generelt som:
 
@@ -62,11 +62,11 @@ Turistudlejning (*vivienda turística* eller *vivienda de uso turístico*) defin
 - Udlejning uden vederlag (til familie/venner) er normalt OK
 - En enkelt udlejning kan være lovligt, men gentagen udlejning kræver licens
 
-## Trin 1: Tjek Om Din Bolig Kan Udlejes
+## Trin 1: Tjek om din bolig kan udlejes
 
 Før du overhovedet begynder processen med at søge licenser, skal du sikre dig, at din bolig faktisk MÅ udlejes.
 
-### Ejerforeningens Godkendelse - NYT KRITISK KRAV
+### Ejerforeningens godkendelse - NYT KRITISK KRAV
 
 **Lovændring 2023:** En ny lov (*Ley de Vivienda*) gav ejerforeninger ret til at forbyde eller begrænse turistudlejning.
 
@@ -98,7 +98,7 @@ Du skal stadig ofte:
 - **Overholde** husordenens regler
 - **Betale evt. ekstra depositum** eller gebyr
 
-### Zonerestriktioner og Lokalplaner
+### Zonerestriktioner og lokalplaner
 
 Ud over ejerforeningens regler kan der være **kommunale eller regionale zonebestemmelser** der begrænser eller forbyder turistudlejning.
 
@@ -128,11 +128,11 @@ Ud over ejerforeningens regler kan der være **kommunale eller regionale zonebes
 3. Nogle kommuner har online kort med tilladte/ikke-tilladte zoner
 4. Spørg en lokal *gestor* eller advokat
 
-## Trin 2: Ansøg om Turistlicens
+## Trin 2: Ansøg om turistlicens
 
 Hvis din bolig MAG udlejes (godkendt af ejerforening og ikke i forbudt zone), er næste skridt at ansøge om den krævede turistlicens.
 
-### Hvad er Turistlicensen?
+### Hvad er turistlicensen?
 
 Turistlicensen er en **officiel tilladelse** fra din regionale regering til at drive turistudlejning.
 
@@ -150,7 +150,7 @@ Turistlicensen er en **officiel tilladelse** fra din regionale regering til at d
 - Vises ved indgangen til boligen
 - Angives på lejekontrakter
 
-### Krav til Boligen
+### Krav til boligen
 
 For at få turistlicens skal din bolig opfylde en række **minimumskrav**. Disse varierer lidt mellem regioner, men generelle krav inkluderer:
 
@@ -183,7 +183,7 @@ For at få turistlicens skal din bolig opfylde en række **minimumskrav**. Disse
 - ✅ **Professionel rengøring** mellem gæster
 - ✅ **Rent linnede** til hver gæst
 
-### Ansøgningsprocessen - Generelt
+### Ansøgningsprocessen - generelt
 
 Selvom processen varierer mellem regioner, følger de fleste dette mønster:
 

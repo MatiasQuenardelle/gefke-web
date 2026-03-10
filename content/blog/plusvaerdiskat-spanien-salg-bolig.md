@@ -21,20 +21,20 @@ Som dansker, der sælger ejendom i Spanien, kan plusværdiskatt være en stor ov
 
 ---
 
-## Hvad Er Plusværdiskat Egentlig?
+## Hvad er plusværdiskat egentlig?
 
 ### Definitionen
 **Plusværdiskat** (spansk: **"Impuesto sobre el Incremento del Valor de los Terrenos"** - bogstavelig: "Skat på Værdistigning af Jord") er en **lokal kommune-skat** på kapitalgevinster ved salg af fast ejendom.
 
 **Vigtig:** Det er forskellig fra den nationale indkomstskat på kapitalgevinster. Du betaler potentielt **begge** skatter.
 
-### Hvem Betaler Plusværdiskat?
+### Hvem betaler plusværdiskat?
 - **Sælgeren** (ikke køberen) betaler
 - **Alle ejendomstyper:** Huse, lejligheder, grunde, erhvervsejendomme
 - **Alle nationaliteter:** Danskere betaler lige som spaniere
 - **Uanset bopæl:** Du betaler selv hvis du bor i Danmark
 
-### Vigtig Regel
+### Vigtig regel
 Plusværdiskat beregnes **uafhængigt** af om du gjorde gevinst eller tab. Skattevæsenet ser kun på:
 - **Officiel værdi ved køb** (Catastro-værdi eller købesats)
 - **Købesum**
@@ -44,9 +44,9 @@ Og ud fra disse faktorer fastsættes skatten – nogenlunde automatisk.
 
 ---
 
-## Hvordan Beregnes Plusværdiskat?
+## Hvordan beregnes plusværdiskat?
 
-### Den Komplicerede Formel
+### Den komplicerede formel
 Plusværdiskat beregnes af **kommunen** baseret på:
 
 ```
@@ -54,7 +54,7 @@ Værdiforøgelse = (Aktuel værdi - Oprindelig værdi) / År siden køb
 Plusværdiskat = Værdiforøgelse × Kommune-sats (normalt 3-10% årligt)
 ```
 
-### Eksempel: Tom Køber og Sælger Hus i Barcelona
+### Eksempel: Tom køber og sælger hus i Barcelona
 
 **Scenario:**
 - Køb i 2020: €250,000
@@ -69,7 +69,7 @@ Plusværdiskat = Værdiforøgelse × Kommune-sats (normalt 3-10% årligt)
 
 **Vigtig:** Det er ikke 5% af hele gevinsten – det er 5% årligt af den årlige stigning.
 
-### Variationer Efter Kommune
+### Variationer efter kommune
 
 Plusværdiskat-satsen fastlægges af **hver enkelt kommune**. Gennemsnittet er:
 
@@ -84,9 +84,9 @@ Plusværdiskat-satsen fastlægges af **hver enkelt kommune**. Gennemsnittet er:
 
 ---
 
-## National Kapitalgevinst-Skat (Los Ganancia)
+## National kapitalgevinst-skat (Los Ganancia)
 
-### Vigtig: Du Betaler Muligvis Både Plusværdiskat OG National Skat
+### Vigtig: du betaler muligvis både plusværdiskat OG national skat
 
 Ud over plusværdiskat kan du også betale **national indkomstskat** på kapitalgevinsten:
 
@@ -101,9 +101,9 @@ Ud over plusværdiskat kan du også betale **national indkomstskat** på kapital
 
 ---
 
-## Afgørende Forskel: Resident vs Non-Resident
+## Afgørende forskel: resident vs non-resident
 
-### Hvis Du Er Spansk Resident (Bor i Spanien)
+### Hvis du er spansk resident (bor i Spanien)
 
 **Godt nyhed:**
 - Du får **fritagelse** for national kapitalgevinst-skat på **primærboli** (principales)
@@ -116,7 +116,7 @@ Ud over plusværdiskat kan du også betale **national indkomstskat** på kapital
 - National kapitalgevinst-skat: **€0** (fritagelse)
 - **Total skat: €5,000**
 
-### Hvis Du Er Non-Resident (Bor i Danmark)
+### Hvis du er non-resident (bor i Danmark)
 
 **Dårligt nyhed:**
 - Ingen fritagelse – selv for primærboli
@@ -133,9 +133,9 @@ Ud over plusværdiskat kan du også betale **national indkomstskat** på kapital
 
 ---
 
-## Hvordan Minimeres Plusværdiskat?
+## Hvordan minimeres plusværdiskat?
 
-### 1. Bliv Spansk Resident Før Salg
+### 1. Bliv spansk resident før salg
 
 Hvis du bliver **spansk resident** mindst **183 dage før salg**, får du:
 - Fritagelse for national kapitalgevinst-skat på primærboli
@@ -149,7 +149,7 @@ Hvis du bliver **spansk resident** mindst **183 dage før salg**, får du:
 - National skat: €0 (fritaget)
 - **Total: €5,000 (5% i stedet for 24%)**
 
-### 2. Hold Ejendommen Længere
+### 2. Hold ejendommen længere
 
 Plusværdiskat beregnes pr. år. Jo længere du holder ejendommen, desto lavere årlig stigning:
 
@@ -164,7 +164,7 @@ Plusværdiskat beregnes pr. år. Jo længere du holder ejendommen, desto lavere 
 
 *Matematisk bliver skatten lavere, hvis du fordeler over flere år.*
 
-### 3. Dokumenter Alle Forbedringer
+### 3. Dokumenter alle forbedringer
 
 Hvis du har investeret i **større forbedringer** (nyt tag, renovering, tilbygning), kan disse **reducere den beregnede værdiforøgelse**:
 
@@ -174,13 +174,13 @@ Hvis du har investeret i **større forbedringer** (nyt tag, renovering, tilbygni
 
 **Spørg advokaten** hvordan du dokumenterer disse.
 
-### 4. Valg af Ejendomstype
+### 4. Valg af ejendomstype
 
 - **Primærboli:** Fritagelse ved resident (store besparelser)
 - **Investeringsejendom:** Fuldt beskattet (ingen fritagelse)
 - **Andel i ejerforening:** Samme regler som hus
 
-### 5. Planering af Salgstiming
+### 5. Planering af salgstiming
 
 - **Undgå** at sælge kort efter køb (høj årlig stigning)
 - **Planering:** Hvis du ved at sælge inden for 3-5 år, køb i mindre dyr kommune
@@ -188,9 +188,9 @@ Hvis du har investeret i **større forbedringer** (nyt tag, renovering, tilbygni
 
 ---
 
-## Praktisk Guide: Sådan Betales Plusværdiskat
+## Praktisk guide: sådan betales plusværdiskat
 
-### Trin-for-Trin Proces
+### Trin-for-trin proces
 
 **1. Notaren Anmelder Salget (0-3 måneder)**
 - Når skødet underskrives, anmelder notaren salget til kommunen
@@ -210,7 +210,7 @@ Hvis du har investeret i **større forbedringer** (nyt tag, renovering, tilbygni
 **5. Kvittering for Betaling**
 - Gem kvitteringen til dokumentation
 
-### Hvad Hvis Du Ikke Betaler?
+### Hvad hvis du ikke betaler?
 
 - Bøde: 10-20% af beløb
 - Renter: På tilbage skyldige beløb
@@ -221,7 +221,7 @@ Hvis du har investeret i **større forbedringer** (nyt tag, renovering, tilbygni
 
 ## Dobbeltbeskatning: Danmark-Spanien
 
-### Vigtig Advarsel
+### Vigtig advarsel
 
 Danmark og Spanien har **ikke** en dobbeltbeskatningsoverenskomst specifikt for plusværdiskat. Du risikerer:
 
@@ -240,37 +240,37 @@ Danmark og Spanien har **ikke** en dobbeltbeskatningsoverenskomst specifikt for 
 
 ---
 
-## 5 Vigtige Tips
+## 5 vigtige tips
 
-### 1. Sorg For Dokumentation
+### 1. Sorg for dokumentation
 ✅ Gem købekontrakt (kontrato de compraventa)
 ✅ Gem alle fakturaer for forbedringer
 ✅ Gem IBI-fakturaer (viser værdi gennem årene)
 ✅ Dokumenter alt i **minimum 5 år** efter salg
 
-### 2. Tjek Kommune-Satsen
+### 2. Tjek kommune-satsen
 ✅ Spørg din advokat eller kommune om den specifikke sats
 ✅ En 5% sats resulterer i helt anden skat end 10%
 ✅ Alle kommuner har forskellige satser
 
-### 3. Planlæg Residency Strategisk
+### 3. Planlæg residency strategisk
 ✅ Hvis du planlægger at sælge, overvej at blive resident først
 ✅ 183 dage = residency status
 ✅ Dette kan spare **€10,000-50,000+** på større salg
 
-### 4. Brug en Advokat
+### 4. Brug en advokat
 ✅ En erfaren advokat kan identificere skattefritagelser
 ✅ Kan hjælpe med at dokumentere forbedringer
 ✅ Kan protestere på uretmæssige opkrævninger
 
-### 5. Overvej Dit Solgtidspunkt
+### 5. Overvej dit solgtidspunkt
 ✅ Sælg i det år, hvor du bliver resident (hvis muligt)
 ✅ Hold ejendommen længere for at reducere årlig stigning
 ✅ Sælg når markedet er godt (mindre risiko for tab = mindre skat stadig)
 
 ---
 
-## Konklusion: Plusværdiskat Er Uundgåelig (Men Minimérbar)
+## Konklusion: plusværdiskat er uundgåelig (men minimérbar)
 
 Plusværdiskat når du sælger ejendom i Spanien er **ikke til at undgå helt**. Men med strategisk planlægning kan du:
 

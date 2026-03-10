@@ -21,11 +21,11 @@ Denne omfattende guide fører dig gennem hvert trin i processen, fra at få dit 
 
 ---
 
-## Trin 1: At Få Dit NIE-Nummer
+## Trin 1: At få dit NIE-nummer
 
 **NIE (Número de Identificación de Extranjero)** er dit spanske skattenummer for udlændinge. Det er absolut nødvendigt – du kan ikke købe ejendom, åbne bankkonto eller underskrive kontrakter i Spanien uden det.
 
-### Sådan Får Du Dit NIE:
+### Sådan får du dit NIE:
 
 | Metode | Tidsramme | Krav |
 |--------|-----------|------|
@@ -37,9 +37,9 @@ Denne omfattende guide fører dig gennem hvert trin i processen, fra at få dit 
 
 ---
 
-## Trin 2: Sammensæt Dit Team
+## Trin 2: Sammensæt dit team
 
-### Hvorfor Du Har Brug for en Uafhængig Advokat
+### Hvorfor du har brug for en uafhængig advokat
 
 **Køb aldrig ejendom i Spanien uden uafhængig juridisk rådgivning.** Dette kan ikke understreges nok. Din advokat bør være:
 
@@ -48,7 +48,7 @@ Denne omfattende guide fører dig gennem hvert trin i processen, fra at få dit 
 - Specialiseret i spansk ejendomsret
 - Registreret hos det lokale advokatsamfund (*Colegio de Abogados*)
 
-### Hvad Din Advokat Gør:
+### Hvad din advokat gør:
 
 ✅ Gennemgår al ejendomsdokumentation
 ✅ Kontrollerer for gæld, hæftelser og byrder
@@ -57,7 +57,7 @@ Denne omfattende guide fører dig gennem hvert trin i processen, fra at få dit 
 ✅ Repræsenterer dig ved notarunderskrivelse
 ✅ Håndterer skatteregistreringer og overdragelse af forsyninger
 
-### Typiske Advokathonorarer
+### Typiske advokathonorarer
 
 Forvent at betale cirka **1% af købesummen** for juridiske tjenester, med et minimumhonorar på omkring €1.500-2.000 for mindre handler.
 
@@ -67,7 +67,7 @@ Forvent at betale cirka **1% af købesummen** for juridiske tjenester, med et mi
 
 Den spanske ejendomskøbsproces følger en klar rækkefølge:
 
-### 1. Ejendomssøgning og Udvælgelse
+### 1. Ejendomssøgning og udvælgelse
 - Arbejd med anerkendte ejendomsmæglere
 - Besøg ejendommene personligt når muligt
 - Undersøg området, herunder fremtidige udviklingsplaner
@@ -78,7 +78,7 @@ Den spanske ejendomskøbsproces følger en klar rækkefølge:
 - Fratrækkes normalt den endelige købspris
 - **Vigtigt:** Sørg for, at dette er refunderbart, hvis due diligence afslører problemer
 
-### 3. Due Diligence Periode
+### 3. Due diligence periode
 Din advokat vil verificere:
 - **Nota Simple**: Officiel tinglysningsattest
 - **Matrikelreference**: Ejendomsgrænser og skatteværdi
@@ -86,7 +86,7 @@ Din advokat vil verificere:
 - **Byggetilladelser**: Juridisk byggelegitimitet
 - **Beboelsescertifikat** (*Cédula de Habitabilidad*)
 
-### 4. Privat Købskontrakt (*Contrato de Arras*)
+### 4. Privat købskontrakt (*Contrato de Arras*)
 - Typisk betales 10% af købesummen
 - Juridisk bindende aftale
 - Fastlægger overtagelsesdato (normalt 4-8 uger)
@@ -102,11 +102,11 @@ Din advokat vil verificere:
 
 ---
 
-## Trin 4: Forstå Omkostningerne
+## Trin 4: Forstå omkostningerne
 
 Ud over købesummen skal du budgettere med disse ekstraomkostninger:
 
-### Oversigt over Skatter og Gebyrer
+### Oversigt over skatter og gebyrer
 
 | Omkostningstype | Procent | Noter |
 |-----------------|---------|-------|
@@ -117,7 +117,7 @@ Ud over købesummen skal du budgettere med disse ekstraomkostninger:
 | **Advokatsalær** | 1% | Din advokats honorar |
 | **Låneomkostninger** | 2-3% | Ved finansiering (vurdering, etableringsgebyr) |
 
-### Samlede Ekstraomkostninger
+### Samlede ekstraomkostninger
 
 **For brugt ejendom:** Forvent **10-13%** oven i købesummen
 **For nybyggeri:** Forvent **12-14%** oven i købesummen
@@ -126,7 +126,7 @@ Ud over købesummen skal du budgettere med disse ekstraomkostninger:
 
 ---
 
-## Trin 5: Tjekliste over Vigtige Dokumenter
+## Trin 5: Tjekliste over vigtige dokumenter
 
 Før du gennemfører dit køb, skal du sikre, at du har verificeret:
 
@@ -141,9 +141,9 @@ Før du gennemfører dit køb, skal du sikre, at du har verificeret:
 
 ---
 
-## Trin 6: Finansiering af Dit Køb
+## Trin 6: Finansiering af dit køb
 
-### Realkreditlån til Udenlandske Købere
+### Realkreditlån til udenlandske købere
 
 Spanske banker tilbyder realkreditlån til ikke-residenter, men med strengere betingelser:
 
@@ -154,7 +154,7 @@ Spanske banker tilbyder realkreditlån til ikke-residenter, men med strengere be
 - **NIE-nummer:** Kræves før ansøgning
 - **Spansk bankkonto:** Til lånbetalinger
 
-### Anbefalede Banker for Udenlandske Købere
+### Anbefalede banker for udenlandske købere
 - Santander
 - BBVA
 - CaixaBank
@@ -164,7 +164,7 @@ Spanske banker tilbyder realkreditlån til ikke-residenter, men med strengere be
 
 ---
 
-## Trin 7: Åbning af Spansk Bankkonto
+## Trin 7: Åbning af spansk bankkonto
 
 En spansk bankkonto er nødvendig til:
 
@@ -174,7 +174,7 @@ En spansk bankkonto er nødvendig til:
 - Fællesudgifter (*gastos de comunidad*)
 - Forsikringspræmier
 
-### Nødvendige Dokumenter:
+### Nødvendige dokumenter:
 - Gyldigt pas
 - NIE-nummer
 - Adressebevis (hjemland)
@@ -182,11 +182,11 @@ En spansk bankkonto er nødvendig til:
 
 ---
 
-## Løbende Udgifter som Ejendomsejer
+## Løbende udgifter som ejendomsejer
 
 Når du ejer ejendom i Spanien, skal du budgettere med disse årlige udgifter:
 
-### Årlige Skatter og Gebyrer
+### Årlige skatter og gebyrer
 
 | Udgift | Typisk Omkostning | Frekvens |
 |--------|-------------------|----------|
@@ -196,7 +196,7 @@ Når du ejer ejendom i Spanien, skal du budgettere med disse årlige udgifter:
 | **Ikke-resident Skat (IRNR)** | 19-24% af beregnet lejeværdi | Årlig |
 | **Husforsikring** | €200-500 | Årlig |
 
-### Hvis Du Udlejer Din Ejendom
+### Hvis du udlejer din ejendom
 
 - **Skat af lejeindtægt:** 19% for EU-borgere, 24% for ikke-EU
 - **Kvartalsvise selvangivelser** påkrævet
@@ -204,9 +204,9 @@ Når du ejer ejendom i Spanien, skal du budgettere med disse årlige udgifter:
 
 ---
 
-## Almindelige Faldgruber at Undgå
+## Almindelige faldgruber at undgå
 
-### ❌ Gør Ikke:
+### ❌ Gør ikke:
 
 1. **Køb uden uafhængig juridisk rådgivning** - Ejendomsmæglere arbejder for sælgere
 2. **Spring due diligence over** - Skjult gæld kan overføres til dig
@@ -225,7 +225,7 @@ Når du ejer ejendom i Spanien, skal du budgettere med disse årlige udgifter:
 
 ---
 
-## Ofte Stillede Spørgsmål
+## Ofte stillede spørgsmål
 
 ### Kan udlændinge købe ejendom i Spanien?
 

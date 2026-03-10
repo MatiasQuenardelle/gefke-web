@@ -20,7 +20,7 @@ Ejer du en feriebolig i Spanien uden at være bosiddende der? Så skal du være 
 
 I denne guide får du et komplet overblik over de tre skattetyper, hvordan de beregnes, hvornår du skal betale, og hvad konsekvenserne er ved manglende betaling. Vi inkluderer også en praktisk skattekalender, så du aldrig går glip af en vigtig frist.
 
-## Overblik: De Tre Skatter Du Skal Betale som Ikke-Resident
+## Overblik: de tre skatter du skal betale som ikke-resident
 
 Som ikke-resident boligejer i Spanien har du tre primære skatteforpligtelser:
 
@@ -32,7 +32,7 @@ Som ikke-resident boligejer i Spanien har du tre primære skatteforpligtelser:
 
 Lad os dykke ned i hver enkelt skattype og se, hvad de betyder for dig som dansk boligejer.
 
-## IBI - Den Kommunale Ejendomsskat
+## IBI - den kommunale ejendomsskat
 
 ### Hvad er IBI?
 
@@ -56,7 +56,7 @@ IBI = Katastralværdi × Kommunal sats (0,4% - 1,1%)
 
 De fleste ferieboligejere betaler mellem 300 og 800 EUR årligt i IBI, afhængigt af ejendommens størrelse og beliggenhed. Større byer som Barcelona og Madrid har generelt højere satser end mindre landsbyer.
 
-### Betaling og Frister for IBI
+### Betaling og frister for IBI
 
 IBI opkræves én gang årligt af din kommune. Fristen varierer mellem kommuner, men ligger typisk mellem september og november.
 
@@ -87,7 +87,7 @@ Hvis du ikke betaler IBI til tiden:
 - **Pant i ejendommen:** Kommunen kan få tinglyst et pant
 - **Problemer ved salg:** IBI-gæld skal betales før skødet kan underskrives
 
-## IRNR - Ikke-Resident Indkomstskat (Modelo 210)
+## IRNR - ikke-resident indkomstskat (Modelo 210)
 
 ### Hvad er IRNR?
 
@@ -107,7 +107,7 @@ Dette svarer lidt til det danske ejendomsværdiskatsprincip, hvor du beskattes a
 - Du er registreret som skattemæssig resident i Spanien (mere end 183 dage om året)
 - Du betaler almindelig spansk indkomstskat (*IRPF*)
 
-### Beregning af IRNR - Trin for Trin
+### Beregning af IRNR - trin for trin
 
 IRNR beregnes i to trin:
 
@@ -131,7 +131,7 @@ IRNR = Skattegrundlag × 19% (for EU-borgere)
 
 Ikke-EU-borgere betaler 24%, men som dansker betaler du altså 19%.
 
-### Praktisk Eksempel: Beregning af IRNR
+### Praktisk eksempel: beregning af IRNR
 
 Lad os tage et konkret eksempel:
 
@@ -184,11 +184,11 @@ Hvis du udlejer din feriebolig, ændrer beskatningen sig markant:
 
 **VIGTIGT:** Hvis du udlejer, skal du også have turistlicens i de fleste regioner. Læs mere i vores guide om [feriebolig udlejning i Spanien](/blog/feriebolig-udlejning-spanien-licenser-regler).
 
-## Plusværdiskat Ved Salg af Ejendom
+## Plusværdiskat ved salg af ejendom
 
 Når du sælger din spanske ejendom som ikke-resident, kommer der to typer af plusværdiskat i spil:
 
-### 1. Statslig Kapitalgevinstskat
+### 1. Statslig kapitalgevinstskat
 
 Den statslige kapitalgevinstskat (*impuesto sobre plusvalía*) beregnes af den gevinst, du har gjort ved salget.
 
@@ -222,7 +222,7 @@ Gevinst = Salgspris - Købspris - Dokumenterede omkostninger
 - Sidste 5.000 EUR × 23% = 1.150 EUR
 - **Total: 11.530 EUR**
 
-### 2. Kommunal Plusvalía (Værdistigningsskat på Jorden)
+### 2. Kommunal Plusvalía (værdistigningsskat på jorden)
 
 Den kommunale plusvalía beskattes af den antagne værdistigning på **grunden** (ikke bygningen) over din ejertid.
 
@@ -235,7 +235,7 @@ Beregningen er kompleks og baseret på:
 
 **Vigtig nyhed:** Efter en højesteretsdom i 2021 kan du undgå at betale kommunal plusvalía, hvis du faktisk ikke har haft en værdistigning på grunden. Dette skal dog dokumenteres via en vurdering.
 
-### 3%-Tilbageholdelse for Ikke-Residenter
+### 3%-tilbageholdelse for ikke-residenter
 
 Her kommer en vigtig detalje, som mange ikke-residenter overses:
 
@@ -254,7 +254,7 @@ I eksemplet ovenfor, hvor den faktiske skat var 11.530 EUR, skal du altså efter
 
 **VIGTIGT:** Denne refusionsproces kan tage 6-12 måneder. Planlæg din økonomi derefter.
 
-## Årlig Skattekalender for Ikke-Residenter
+## Årlig skattekalender for ikke-residenter
 
 Her er en praktisk oversigt over alle de vigtige skattefrister som ikke-resident:
 
@@ -277,7 +277,7 @@ Ingen store skattefrister for ikke-residenter.
 - **1.-20. juli:** Modelo 210 for 2. kvartal
 - **1.-20. oktober:** Modelo 210 for 3. kvartal
 
-## Hvad Sker Der Hvis Du Ikke Betaler?
+## Hvad sker der hvis du ikke betaler?
 
 Mange danskere tænker: "Hvordan kan de spanske myndigheder opdage, at jeg ikke har betalt?" Sandheden er, at de har effektive systemer til at spore manglende betalinger.
 
@@ -300,7 +300,7 @@ Den gode nyhed er, at der er forældelsesfrister:
 
 Men stol ikke på forældelse! Skattevæsenet kan afbryde forældelsen ved at sende påkrav.
 
-## Skal Du Bruge en Fiscal Representative?
+## Skal du bruge en fiscal representative?
 
 En *fiscal representative* eller *representante fiscal* er en person eller virksomhed, der håndterer dine skatteforpligtelser i Spanien på dine vegne.
 
@@ -327,7 +327,7 @@ En fiscal representative koster typisk:
 
 For mange danske boligejere er disse 200-300 EUR årligt en fornuftig investering i ro i sindet.
 
-## Praktiske Tips til Danske Boligejere
+## Praktiske tips til danske boligejere
 
 ### 1. Opret en spansk bankkonto
 Selvom det ikke er lovpligtigt, gør det livet meget nemmere:
@@ -359,13 +359,13 @@ Hvis du overvejer at sælge:
 - Overvej timing (skatteår kan have betydning)
 - Husk: Du får ikke alle penge ved underskrivelsen (3% tilbageholdes)
 
-## Dansk Skat af Spansk Ejendom?
+## Dansk skat af spansk ejendom?
 
 Et vigtigt spørgsmål mange danske boligejere stiller: Skal jeg også betale skat i Danmark af min spanske ejendom?
 
 **Svaret er:** Det kommer an på situationen.
 
-### Hvis du er fuldt skattepligtig til Danmark:
+### Hvis du er fuldt skattepligtig til Danmark
 - **Ja**, du skal indberette ejendommen i din danske selvangivelse
 - Danmark beskatter imputeret lejeværdi (ligesom for dansk ejendom)
 - Du kan få **lempelse** for den spanske skat du har betalt (credit-metoden)

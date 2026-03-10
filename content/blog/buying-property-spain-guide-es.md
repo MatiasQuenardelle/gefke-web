@@ -21,11 +21,11 @@ Esta guía completa te acompaña en cada paso del proceso, desde la obtención d
 
 ---
 
-## Paso 1: Obtener tu Número NIE
+## Paso 1: Obtener tu número NIE
 
 El **NIE (Número de Identificación de Extranjero)** es tu número de identificación fiscal español para extranjeros. Es absolutamente esencial—no puedes comprar una propiedad, abrir una cuenta bancaria ni firmar contratos en España sin él.
 
-### Cómo Obtener tu NIE:
+### Cómo obtener tu NIE:
 
 | Método | Plazo | Requisitos |
 |--------|-------|------------|
@@ -37,9 +37,9 @@ El **NIE (Número de Identificación de Extranjero)** es tu número de identific
 
 ---
 
-## Paso 2: Formar tu Equipo
+## Paso 2: Formar tu equipo
 
-### Por Qué Necesitas un Abogado Independiente
+### Por qué necesitas un abogado independiente
 
 **Nunca compres una propiedad en España sin representación legal independiente.** Esto no puede enfatizarse lo suficiente. Tu abogado debe ser:
 
@@ -48,7 +48,7 @@ El **NIE (Número de Identificación de Extranjero)** es tu número de identific
 - Especializado en derecho inmobiliario español
 - Registrado en el Colegio de Abogados local
 
-### Lo Que Hará tu Abogado:
+### Lo que hará tu abogado:
 
 ✅ Revisar toda la documentación de la propiedad
 ✅ Comprobar deudas, cargas y gravámenes
@@ -57,17 +57,17 @@ El **NIE (Número de Identificación de Extranjero)** es tu número de identific
 ✅ Representarte en la firma ante notario
 ✅ Gestionar registros fiscales y transferencias de suministros
 
-### Honorarios Legales Típicos
+### Honorarios legales típicos
 
 Espera pagar aproximadamente **1% del precio de compra** por servicios legales, con un mínimo de unos €1.500-2.000 para transacciones más pequeñas.
 
 ---
 
-## Paso 3: El Proceso de Compra
+## Paso 3: El proceso de compra
 
 El proceso de compra de propiedades en España sigue una secuencia clara:
 
-### 1. Búsqueda y Selección de la Propiedad
+### 1. Búsqueda y selección de la propiedad
 - Trabaja con agentes inmobiliarios de confianza
 - Visita las propiedades en persona cuando sea posible
 - Investiga la zona, incluyendo planes de desarrollo futuros
@@ -78,7 +78,7 @@ El proceso de compra de propiedades en España sigue una secuencia clara:
 - Normalmente se deduce del precio final
 - **Importante:** Asegúrate de que sea reembolsable si la due diligence revela problemas
 
-### 3. Período de Due Diligence
+### 3. Período de due diligence
 Tu abogado verificará:
 - **Nota Simple**: Extracto oficial del Registro de la Propiedad
 - **Referencia catastral**: Límites de la propiedad y valor fiscal
@@ -86,7 +86,7 @@ Tu abogado verificará:
 - **Licencias de construcción**: Estado legal de la construcción
 - **Cédula de Habitabilidad**
 
-### 4. Contrato de Arras
+### 4. Contrato de arras
 - Típicamente se paga el 10% del precio de compra
 - Acuerdo legalmente vinculante
 - Establece fecha de finalización (normalmente 4-8 semanas)
@@ -94,7 +94,7 @@ Tu abogado verificará:
   - El comprador desiste: Pierde el depósito
   - El vendedor desiste: Debe devolver el doble del depósito
 
-### 5. Firma ante Notario (Escritura Pública)
+### 5. Firma ante notario (Escritura Pública)
 - Firma de la escritura definitiva ante notario
 - Pago del saldo restante (normalmente mediante cheque bancario)
 - Entrega de llaves
@@ -102,11 +102,11 @@ Tu abogado verificará:
 
 ---
 
-## Paso 4: Comprender los Costes
+## Paso 4: Comprender los costes
 
 Además del precio de compra, presupuesta estos costes adicionales:
 
-### Desglose de Impuestos y Tasas
+### Desglose de impuestos y tasas
 
 | Tipo de Coste | Porcentaje | Notas |
 |---------------|------------|-------|
@@ -117,7 +117,7 @@ Además del precio de compra, presupuesta estos costes adicionales:
 | **Honorarios Legales** | 1% | Honorarios de tu abogado |
 | **Costes de Hipoteca** | 2-3% | Si financias (tasación, gastos de formalización) |
 
-### Costes Adicionales Totales
+### Costes adicionales totales
 
 **Para propiedad de segunda mano:** Espera **10-13%** sobre el precio de compra
 **Para obra nueva:** Espera **12-14%** sobre el precio de compra
@@ -126,7 +126,7 @@ Además del precio de compra, presupuesta estos costes adicionales:
 
 ---
 
-## Paso 5: Lista de Documentos Esenciales
+## Paso 5: Lista de documentos esenciales
 
 Antes de completar tu compra, asegúrate de haber verificado:
 
@@ -141,9 +141,9 @@ Antes de completar tu compra, asegúrate de haber verificado:
 
 ---
 
-## Paso 6: Financiar tu Compra
+## Paso 6: Financiar tu compra
 
-### Hipotecas para Compradores Extranjeros
+### Hipotecas para compradores extranjeros
 
 Los bancos españoles sí ofrecen hipotecas a no residentes, pero con condiciones más estrictas:
 
@@ -154,7 +154,7 @@ Los bancos españoles sí ofrecen hipotecas a no residentes, pero con condicione
 - **NIE:** Requerido antes de la solicitud
 - **Cuenta bancaria española:** Para pagos de hipoteca
 
-### Bancos Recomendados para Compradores Extranjeros
+### Bancos recomendados para compradores extranjeros
 - Santander
 - BBVA
 - CaixaBank
@@ -164,7 +164,7 @@ Los bancos españoles sí ofrecen hipotecas a no residentes, pero con condicione
 
 ---
 
-## Paso 7: Abrir una Cuenta Bancaria Española
+## Paso 7: Abrir una cuenta bancaria española
 
 Una cuenta bancaria española es esencial para:
 
@@ -174,7 +174,7 @@ Una cuenta bancaria española es esencial para:
 - Cuotas de comunidad
 - Primas de seguros
 
-### Documentos Necesarios:
+### Documentos necesarios:
 - Pasaporte válido
 - NIE
 - Justificante de domicilio (país de origen)
@@ -182,11 +182,11 @@ Una cuenta bancaria española es esencial para:
 
 ---
 
-## Gastos Continuos como Propietario
+## Gastos continuos como propietario
 
 Una vez que poseas una propiedad en España, presupuesta estos gastos anuales:
 
-### Impuestos y Tasas Anuales
+### Impuestos y tasas anuales
 
 | Gasto | Coste Típico | Frecuencia |
 |-------|--------------|------------|
@@ -196,7 +196,7 @@ Una vez que poseas una propiedad en España, presupuesta estos gastos anuales:
 | **IRNR (Impuesto No Residentes)** | 19-24% del valor de alquiler imputado | Anual |
 | **Seguro del Hogar** | €200-500 | Anual |
 
-### Si Alquilas tu Propiedad
+### Si alquilas tu propiedad
 
 - **Impuesto sobre ingresos por alquiler:** 19% para residentes UE, 24% para no UE
 - **Declaraciones trimestrales** requeridas
@@ -204,9 +204,9 @@ Una vez que poseas una propiedad en España, presupuesta estos gastos anuales:
 
 ---
 
-## Errores Comunes a Evitar
+## Errores comunes a evitar
 
-### ❌ No Hagas:
+### ❌ No hagas:
 
 1. **Comprar sin asesoramiento legal independiente** - Los agentes inmobiliarios trabajan para los vendedores
 2. **Saltarte la due diligence** - Las deudas ocultas pueden transferirse a ti
@@ -215,7 +215,7 @@ Una vez que poseas una propiedad en España, presupuesta estos gastos anuales:
 5. **Asumir que los suministros se transfieren automáticamente** - No lo hacen
 6. **Olvidar las implicaciones sucesorias** - El derecho sucesorio español difiere significativamente
 
-### ✅ Sí Haz:
+### ✅ Sí haz:
 
 1. **Visitar la propiedad múltiples veces** - En diferentes momentos del día
 2. **Investigar la comunidad** - Habla con los vecinos si es posible
@@ -225,7 +225,7 @@ Una vez que poseas una propiedad en España, presupuesta estos gastos anuales:
 
 ---
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ### ¿Pueden los extranjeros comprar propiedades en España?
 

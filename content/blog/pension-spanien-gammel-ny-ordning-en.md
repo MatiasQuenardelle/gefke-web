@@ -24,11 +24,11 @@ Let's start with the crucial dividing line: Were you residing in Spain and recei
 
 ---
 
-## Background: The Termination of the Double Taxation Treaty
+## Background: the termination of the double taxation treaty
 
 To understand "old regime" and "new regime," we need to briefly go back in history.
 
-### What Happened in 2008-2009?
+### What happened in 2008-2009?
 
 Until 2008, Denmark and Spain had a double taxation agreement that regulated which country could tax different types of income. For pensions, the agreement meant that **Danish pensions should be taxed in Spain** if the pensioner lived there.
 
@@ -41,7 +41,7 @@ The official reason was that Spain used the agreement to give Danish pensioners 
 - Denmark lost tax revenue without pensioners necessarily paying in Spain
 - The system was perceived as "double non-taxation" instead of "avoidance of double taxation"
 
-### The Transitional Arrangement - "Old Regime"
+### The transitional arrangement - "old regime"
 
 To protect pensioners who had already organized their lives according to the old rules, a **transitional arrangement** (old regime) was introduced:
 
@@ -51,11 +51,11 @@ This division today creates two parallel systems with fundamentally different ta
 
 ---
 
-## Old Regime - Who Is Covered?
+## Old regime - who is covered?
 
 "Old regime" is the most advantageous arrangement for most pensioners. But the criteria are very specific, and you must be able to document that you meet them all.
 
-### Criteria for Old Regime
+### Criteria for old regime
 
 To be covered by old regime, ALL of the following conditions must be met:
 
@@ -96,7 +96,7 @@ If you moved back to Denmark for a period and later returned to Spain, you have 
 
 ---
 
-### How You're Taxed Under Old Regime
+### How you're taxed under old regime
 
 Under old regime, the original rules from the double taxation agreement apply:
 
@@ -141,7 +141,7 @@ This is a big practical advantage: You receive the full amount and only pay tax 
 
 ---
 
-### Advantages of Old Regime
+### Advantages of old regime
 
 For most pensioners, old regime is clearly advantageous:
 
@@ -173,11 +173,11 @@ For most pensioners, old regime is clearly advantageous:
 
 ---
 
-## New Regime - Who Is Covered?
+## New regime - who is covered?
 
 If you don't meet the criteria for old regime, you're automatically covered by "new regime."
 
-### Criteria for New Regime
+### Criteria for new regime
 
 New regime covers all pensioners who:
 
@@ -191,7 +191,7 @@ New regime covers all pensioners who:
 
 ---
 
-### How You're Taxed Under New Regime
+### How you're taxed under new regime
 
 Under new regime, the ordinary Danish tax rules apply, as there is no longer a valid double taxation agreement.
 
@@ -226,7 +226,7 @@ This creates **double taxation**.
 
 ---
 
-### The Dual Reporting Obligation
+### The dual reporting obligation
 
 Under new regime, you must report your pension in **BOTH** countries. This is one of the regime's biggest burdens.
 
@@ -257,7 +257,7 @@ Many gestores and Spanish tax authorities don't know the Danish system, so you m
 
 ---
 
-### Example of Double Taxation and Relief
+### Example of double taxation and relief
 
 **Situation:**
 - Danish pensioner under new regime, living in Andalusia
@@ -296,11 +296,11 @@ Many gestores and Spanish tax authorities don't know the Danish system, so you m
 
 ---
 
-## Comparison: Old vs. New Regime
+## Comparison: old vs. new regime
 
 Let's compare the two regimes directly with a detailed table and concrete examples.
 
-### Major Comparison Table
+### Major comparison table
 
 | Aspect | Old Regime | New Regime |
 |--------|------------|------------|
@@ -319,7 +319,7 @@ Let's compare the two regimes directly with a detailed table and concrete exampl
 
 ---
 
-### Example: Pension of 300,000 kr/year
+### Example: pension of 300,000 kr/year
 
 Let's compare concretely for a pensioner with a medium-sized pension.
 
@@ -366,11 +366,11 @@ Over 10 years, the difference is €42,000 - a fortune for most pensioners.
 
 ---
 
-## Which Pension Types Are Taxed Where?
+## Which pension types are taxed where?
 
 Not all pension types are treated equally. Let's go through the different types.
 
-### State Pension and ATP
+### State pension and ATP
 
 | Pension Type | Old Regime | New Regime |
 |--------------|------------|------------|
@@ -381,7 +381,7 @@ Not all pension types are treated equally. Let's go through the different types.
 
 ---
 
-### Annuity Pension and Life Annuity
+### Annuity pension and life annuity
 
 | Pension Type | Old Regime | New Regime |
 |--------------|------------|------------|
@@ -390,7 +390,7 @@ Not all pension types are treated equally. Let's go through the different types.
 
 ---
 
-### Capital Pension
+### Capital pension
 
 **Capital Pension** (lump sum payment) is a special category because it's paid as a single lump sum.
 
@@ -408,7 +408,7 @@ If you're considering moving to Spain and have a capital pension:
 
 ---
 
-### Civil Servant Pension (Special Rule)
+### Civil servant pension (special rule)
 
 **Civil Servant Pension** is treated differently than other pensions:
 
@@ -434,7 +434,7 @@ If you have both civil servant pension and state pension under old regime:
 
 ---
 
-### Retirement Savings (Aldersopsparing)
+### Retirement savings (Aldersopsparing)
 
 **Retirement Savings** (introduced 2013):
 - Taxation occurs continuously (PAL tax) during the savings period
@@ -446,11 +446,11 @@ This is one of the few pension types where there's no difference between the reg
 
 ---
 
-## Wealth Tax in Spain - Remember This!
+## Wealth tax in Spain - remember this!
 
 In addition to income tax, as a resident in Spain you must also be aware of **wealth tax** (Impuesto sobre el Patrimonio).
 
-### What Is Wealth Tax?
+### What is wealth tax?
 
 Wealth tax is an annual tax on your net assets (assets minus liabilities). Not all countries have wealth tax - Denmark doesn't - but Spain does.
 
@@ -494,11 +494,11 @@ When paid out and deposited in bank account: Counts.
 
 ---
 
-## Practical Checklist: Before You Move
+## Practical checklist: before you move
 
 If you're considering moving to Spain as a pensioner, here's a comprehensive checklist of things you should consider and act on.
 
-### 10-Point Checklist
+### 10-point checklist
 
 **1. Clarify Your Tax Status**
 - [ ] Determine if you can be under old regime (probably no, if moving now)
@@ -560,7 +560,7 @@ If you're considering moving to Spain as a pensioner, here's a comprehensive che
 
 ---
 
-### Timing of Move
+### Timing of move
 
 The timing of your emigration can have significant tax implications:
 
@@ -583,9 +583,9 @@ The timing of your emigration can have significant tax implications:
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
-### Can I Switch from New to Old Regime?
+### Can I switch from new to old regime?
 
 No, unfortunately not. Old regime is based on your situation in 2007/2008. If you didn't meet the criteria then, you can never come under old regime - regardless of how long you live in Spain going forward.
 
@@ -593,7 +593,7 @@ Conversely, you can lose old regime by moving back to Denmark and later returnin
 
 ---
 
-### What If I Move Back to Denmark?
+### What if I move back to Denmark?
 
 If you move back to Denmark, your tax status changes:
 
@@ -607,7 +607,7 @@ If you move back to Denmark, your tax status changes:
 
 ---
 
-### How Do I Document Old Regime?
+### How do I document old regime?
 
 If you're under old regime, tax authorities (both Danish and Spanish) can require documentation that you meet the criteria:
 
@@ -626,7 +626,7 @@ If you're under old regime, tax authorities (both Danish and Spanish) can requir
 
 ---
 
-### What About Swedish or Norwegian Pension?
+### What about Swedish or Norwegian pension?
 
 If you receive pension from Sweden or Norway in addition to your Danish pension, special rules apply:
 
@@ -646,7 +646,7 @@ This can get complex. Seek advice from an advisor with experience in multiple co
 
 ---
 
-### Should I Have Private Health Insurance?
+### Should I have private health insurance?
 
 As a pensioner in Spain, you have several options for health coverage:
 
@@ -688,7 +688,7 @@ Many pensioners choose private insurance as supplement:
 
 ---
 
-### What Happens to My Danish Pension If I Die in Spain?
+### What happens to my Danish pension if I die in Spain?
 
 Your Danish pension is treated differently depending on type:
 
@@ -713,7 +713,7 @@ Pension assets that are inherited must be handled in both Denmark and Spain:
 
 Taxation of Danish pensions in Spain is complex, but with the right knowledge you can navigate the system and optimize your tax situation.
 
-### Key Takeaways
+### Key takeaways
 
 **1. Understand Your Regime**
 - Old regime: Only if residing before Nov 28, 2007 + received pension Jan 2008
@@ -743,7 +743,7 @@ Taxation of Danish pensions in Spain is complex, but with the right knowledge yo
 
 ---
 
-### Is It Worth Moving to Spain Tax-Wise?
+### Is it worth moving to Spain tax-wise?
 
 **Under Old Regime:** Clear yes for most. Significant tax savings combined with lower cost of living.
 
@@ -769,7 +769,7 @@ Taxation of Danish pensions in Spain is complex, but with the right knowledge yo
 
 ---
 
-### Next Steps
+### Next steps
 
 If you're considering moving to Spain:
 1. Calculate your expected tax under new regime

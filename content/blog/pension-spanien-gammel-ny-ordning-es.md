@@ -24,11 +24,11 @@ Empecemos por la línea divisoria crucial: ¿Residía en España y recibía pens
 
 ---
 
-## Antecedentes: La Rescisión del Convenio de Doble Imposición
+## Antecedentes: la rescisión del convenio de doble imposición
 
 Para entender "régimen antiguo" y "régimen nuevo", necesitamos retroceder brevemente en la historia.
 
-### ¿Qué Ocurrió en 2008-2009?
+### ¿Qué ocurrió en 2008-2009?
 
 Hasta 2008, Dinamarca y España tenían un convenio de doble imposición que regulaba qué país podía gravar diferentes tipos de ingresos. Para las pensiones, el convenio significaba que **las pensiones danesas debían tributar en España** si el pensionista vivía allí.
 
@@ -41,7 +41,7 @@ La razón oficial fue que España usaba el convenio para dar a los jubilados dan
 - Dinamarca perdía ingresos fiscales sin que los pensionistas necesariamente pagaran en España
 - El sistema se percibía como "doble no imposición" en lugar de "evitación de doble imposición"
 
-### El Régimen Transitorio - "Régimen Antiguo"
+### El régimen transitorio - "régimen antiguo"
 
 Para proteger a los pensionistas que ya habían organizado su vida según las normas antiguas, se introdujo un **régimen transitorio** (régimen antiguo):
 
@@ -51,11 +51,11 @@ Esta división crea hoy dos sistemas paralelos con consecuencias fiscales fundam
 
 ---
 
-## Régimen Antiguo - ¿Quién Está Incluido?
+## Régimen antiguo - ¿quién está incluido?
 
 El "régimen antiguo" es el más ventajoso para la mayoría de pensionistas. Pero los criterios son muy específicos, y debe poder documentar que los cumple todos.
 
-### Criterios para el Régimen Antiguo
+### Criterios para el régimen antiguo
 
 Para estar cubierto por el régimen antiguo, TODAS las siguientes condiciones deben cumplirse:
 
@@ -96,7 +96,7 @@ Si volvió a Dinamarca durante un período y más tarde regresó a España, ha *
 
 ---
 
-### Cómo Tributa Bajo el Régimen Antiguo
+### Cómo tributa bajo el régimen antiguo
 
 Bajo el régimen antiguo, aplican las normas originales del convenio de doble imposición:
 
@@ -141,7 +141,7 @@ Esta es una gran ventaja práctica: Recibe el importe íntegro y solo paga impue
 
 ---
 
-### Ventajas del Régimen Antiguo
+### Ventajas del régimen antiguo
 
 Para la mayoría de pensionistas, el régimen antiguo es claramente ventajoso:
 
@@ -173,11 +173,11 @@ Para la mayoría de pensionistas, el régimen antiguo es claramente ventajoso:
 
 ---
 
-## Régimen Nuevo - ¿Quién Está Incluido?
+## Régimen nuevo - ¿quién está incluido?
 
 Si no cumple los criterios del régimen antiguo, está automáticamente bajo el "régimen nuevo".
 
-### Criterios para el Régimen Nuevo
+### Criterios para el régimen nuevo
 
 El régimen nuevo incluye a todos los pensionistas que:
 
@@ -191,7 +191,7 @@ El régimen nuevo incluye a todos los pensionistas que:
 
 ---
 
-### Cómo Tributa Bajo el Régimen Nuevo
+### Cómo tributa bajo el régimen nuevo
 
 Bajo el régimen nuevo, aplican las normas fiscales danesas ordinarias, ya que no hay convenio de doble imposición vigente.
 
@@ -226,7 +226,7 @@ Esto crea **doble imposición**.
 
 ---
 
-### La Obligación de Declaración Dual
+### La obligación de declaración dual
 
 Bajo el régimen nuevo, debe declarar su pensión en **AMBOS** países. Esta es una de las mayores cargas del régimen.
 
@@ -257,7 +257,7 @@ Muchos gestores y autoridades fiscales españolas no conocen el sistema danés, 
 
 ---
 
-### Ejemplo de Doble Imposición y Deducción
+### Ejemplo de doble imposición y deducción
 
 **Situación:**
 - Pensionista danés bajo régimen nuevo, viviendo en Andalucía
@@ -296,11 +296,11 @@ Muchos gestores y autoridades fiscales españolas no conocen el sistema danés, 
 
 ---
 
-## Comparación: Régimen Antiguo vs. Nuevo
+## Comparación: régimen antiguo vs. nuevo
 
 Comparemos los dos regímenes directamente con una tabla detallada y ejemplos concretos.
 
-### Tabla de Comparación Principal
+### Tabla de comparación principal
 
 | Aspecto | Régimen Antiguo | Régimen Nuevo |
 |---------|----------------|---------------|
@@ -319,7 +319,7 @@ Comparemos los dos regímenes directamente con una tabla detallada y ejemplos co
 
 ---
 
-### Ejemplo: Pensión de 300.000 kr/año
+### Ejemplo: pensión de 300.000 kr/año
 
 Comparemos concretamente para un pensionista con pensión de tamaño medio.
 
@@ -366,11 +366,11 @@ En 10 años, la diferencia es 42.000 € - una fortuna para la mayoría de pensi
 
 ---
 
-## ¿Qué Tipos de Pensión Tributan Dónde?
+## ¿Qué tipos de pensión tributan dónde?
 
 No todos los tipos de pensión se tratan igual. Repasemos los diferentes tipos.
 
-### Pensión Estatal y ATP
+### Pensión estatal y ATP
 
 | Tipo de Pensión | Régimen Antiguo | Régimen Nuevo |
 |-----------------|-----------------|---------------|
@@ -381,7 +381,7 @@ No todos los tipos de pensión se tratan igual. Repasemos los diferentes tipos.
 
 ---
 
-### Pensión de Anualidad y Renta Vitalicia
+### Pensión de anualidad y renta vitalicia
 
 | Tipo de Pensión | Régimen Antiguo | Régimen Nuevo |
 |-----------------|-----------------|---------------|
@@ -390,7 +390,7 @@ No todos los tipos de pensión se tratan igual. Repasemos los diferentes tipos.
 
 ---
 
-### Pensión de Capital
+### Pensión de capital
 
 **Pensión de Capital** (pago único) es una categoría especial porque se paga como suma única.
 
@@ -408,7 +408,7 @@ Si está considerando mudarse a España y tiene una pensión de capital:
 
 ---
 
-### Pensión de Funcionario (Regla Especial)
+### Pensión de funcionario (regla especial)
 
 **Pensión de Funcionario** se trata diferente que otras pensiones:
 
@@ -434,7 +434,7 @@ Si tiene tanto pensión de funcionario como pensión estatal bajo régimen antig
 
 ---
 
-### Ahorro para Jubilación (Aldersopsparing)
+### Ahorro para jubilación (Aldersopsparing)
 
 **Ahorro para Jubilación** (introducido 2013):
 - La tributación ocurre continuamente (impuesto PAL) durante el período de ahorro
@@ -446,11 +446,11 @@ Este es uno de los pocos tipos de pensión donde no hay diferencia entre los reg
 
 ---
 
-## Impuesto sobre el Patrimonio en España - ¡Recuerde Esto!
+## Impuesto sobre el patrimonio en España - ¡recuerde esto!
 
 Además del impuesto sobre la renta, como residente en España también debe tener en cuenta el **impuesto sobre el patrimonio** (Impuesto sobre el Patrimonio).
 
-### ¿Qué Es el Impuesto sobre el Patrimonio?
+### ¿Qué es el impuesto sobre el patrimonio?
 
 El impuesto sobre el patrimonio es un impuesto anual sobre su patrimonio neto (activos menos pasivos). No todos los países tienen impuesto sobre el patrimonio - Dinamarca no - pero España sí.
 
@@ -494,11 +494,11 @@ Cuando se cobra y deposita en cuenta bancaria: Cuenta.
 
 ---
 
-## Lista de Verificación Práctica: Antes de Mudarse
+## Lista de verificación práctica: antes de mudarse
 
 Si está considerando mudarse a España como jubilado, aquí tiene una lista de verificación completa de cosas que debe considerar y actuar.
 
-### Lista de 10 Puntos
+### Lista de 10 puntos
 
 **1. Aclare Su Situación Fiscal**
 - [ ] Determine si puede estar bajo régimen antiguo (probablemente no, si se muda ahora)
@@ -560,7 +560,7 @@ Si está considerando mudarse a España como jubilado, aquí tiene una lista de 
 
 ---
 
-### Momento de la Mudanza
+### Momento de la mudanza
 
 El momento de su emigración puede tener implicaciones fiscales significativas:
 
@@ -583,9 +583,9 @@ El momento de su emigración puede tener implicaciones fiscales significativas:
 
 ---
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
-### ¿Puedo Cambiar del Régimen Nuevo al Antiguo?
+### ¿Puedo cambiar del régimen nuevo al antiguo?
 
 No, desafortunadamente no. El régimen antiguo se basa en su situación en 2007/2008. Si no cumplía los criterios entonces, nunca podrá estar bajo régimen antiguo, independientemente de cuánto tiempo viva en España en adelante.
 
@@ -593,7 +593,7 @@ A la inversa, puede perder el régimen antiguo si vuelve a Dinamarca y más tard
 
 ---
 
-### ¿Qué Pasa Si Vuelvo a Dinamarca?
+### ¿Qué pasa si vuelvo a Dinamarca?
 
 Si vuelve a Dinamarca, su situación fiscal cambia:
 
@@ -607,7 +607,7 @@ Si vuelve a Dinamarca, su situación fiscal cambia:
 
 ---
 
-### ¿Cómo Documento el Régimen Antiguo?
+### ¿Cómo documento el régimen antiguo?
 
 Si está bajo régimen antiguo, las autoridades fiscales (tanto danesas como españolas) pueden requerir documentación de que cumple los criterios:
 
@@ -626,7 +626,7 @@ Si está bajo régimen antiguo, las autoridades fiscales (tanto danesas como esp
 
 ---
 
-### ¿Y la Pensión Sueca o Noruega?
+### ¿Y la pensión sueca o noruega?
 
 Si recibe pensión de Suecia o Noruega además de su pensión danesa, aplican reglas especiales:
 
@@ -646,7 +646,7 @@ Esto puede volverse complejo. Busque asesoramiento de un asesor con experiencia 
 
 ---
 
-### ¿Debo Tener Seguro Médico Privado?
+### ¿Debo tener seguro médico privado?
 
 Como pensionista en España, tiene varias opciones de cobertura sanitaria:
 
@@ -688,7 +688,7 @@ Muchos pensionistas eligen seguro privado como complemento:
 
 ---
 
-### ¿Qué Pasa con Mi Pensión Danesa Si Muero en España?
+### ¿Qué pasa con mi pensión danesa si muero en España?
 
 Su pensión danesa se trata diferente según el tipo:
 
@@ -713,7 +713,7 @@ Los activos de pensiones que se heredan deben tratarse en Dinamarca y España:
 
 La tributación de pensiones danesas en España es compleja, pero con el conocimiento adecuado puede navegar el sistema y optimizar su situación fiscal.
 
-### Puntos Clave
+### Puntos clave
 
 **1. Entienda Su Régimen**
 - Régimen antiguo: Solo si residía antes del 28 nov 2007 + recibió pensión ene 2008
@@ -743,7 +743,7 @@ La tributación de pensiones danesas en España es compleja, pero con el conocim
 
 ---
 
-### ¿Merece la Pena Mudarse a España Fiscalmente?
+### ¿Merece la pena mudarse a España fiscalmente?
 
 **Bajo Régimen Antiguo:** Claramente sí para la mayoría. Ahorro fiscal significativo combinado con menor coste de vida.
 
@@ -769,7 +769,7 @@ La tributación de pensiones danesas en España es compleja, pero con el conocim
 
 ---
 
-### Próximos Pasos
+### Próximos pasos
 
 Si está considerando mudarse a España:
 1. Calcule su impuesto esperado bajo régimen nuevo

@@ -23,11 +23,11 @@ This guide explains your options, the key differences between legal systems, and
 
 ---
 
-## The EU Succession Regulation: A Game-Changer
+## The EU Succession Regulation: a game-changer
 
 Since August 2015, the **EU Succession Regulation (No. 650/2012)** has unified inheritance rules across most EU member states. This regulation is especially important for anyone owning property in a country other than their home nation.
 
-### Key Principles:
+### Key principles:
 
 | Aspect | Rule |
 |--------|------|
@@ -40,9 +40,9 @@ Since August 2015, the **EU Succession Regulation (No. 650/2012)** has unified i
 
 ---
 
-## Why Law Choice Matters: Comparing Legal Systems
+## Why law choice matters: comparing legal systems
 
-### Spanish Inheritance Law
+### Spanish inheritance law
 
 Spanish succession law includes strict **forced heirship rules** (*legítima*) that limit your freedom to distribute assets:
 
@@ -59,14 +59,14 @@ Spanish succession law includes strict **forced heirship rules** (*legítima*) t
 - Cohabitating partners have no automatic inheritance rights
 - Regional variations exist (Catalonia, Basque Country, etc.)
 
-### Common Law Systems (UK, USA, etc.)
+### Common Law systems (UK, USA, etc.)
 
 Countries following common law tradition generally allow:
 - **Testamentary freedom**: You can leave assets to anyone
 - **Spouse protection**: Varies by jurisdiction
 - **No forced heirship**: Children have no automatic right to inherit
 
-### Danish/Nordic Inheritance Law
+### Danish/Nordic inheritance law
 
 Danish and Nordic inheritance law offers:
 - **Greater flexibility** than Spanish law
@@ -76,7 +76,7 @@ Danish and Nordic inheritance law offers:
 
 ---
 
-## Why Choose Your Home Country's Law?
+## Why choose your home country's law?
 
 For most foreigners with Spanish property, choosing their nationality's law offers significant advantages:
 
@@ -97,15 +97,15 @@ For most foreigners with Spanish property, choosing their nationality's law offe
 
 ---
 
-## How to Make a Law Choice
+## How to make a law choice
 
-### 1. Create a Valid Will
+### 1. Create a valid will
 
 Your will must contain a clear **choice of law clause**. Example wording:
 
 > *"I choose that the law of [your nationality] shall apply to my entire succession in accordance with EU Regulation No. 650/2012."*
 
-### 2. Consider Separate Wills
+### 2. Consider separate wills
 
 Many property owners opt for:
 - **Home country will** - For assets in your country of nationality
@@ -116,7 +116,7 @@ Many property owners opt for:
 - Contain the same law choice
 - Not revoke each other
 
-### 3. Register Your Spanish Will
+### 3. Register your Spanish will
 
 Spanish wills can be registered in the **Central Will Registry** (*Registro General de Actos de Última Voluntad*). Benefits:
 
@@ -126,11 +126,11 @@ Spanish wills can be registered in the **Central Will Registry** (*Registro Gene
 
 ---
 
-## Spanish Inheritance Tax: Still Applies
+## Spanish inheritance tax: still applies
 
 **Important:** Choosing foreign succession law does NOT exempt you from Spanish inheritance tax. Spanish property is always taxed in Spain.
 
-### Regional Tax Variations:
+### Regional tax variations:
 
 | Region | Reduction for Spouse/Children | Notes |
 |--------|-------------------------------|-------|
@@ -140,13 +140,13 @@ Spanish wills can be registered in the **Central Will Registry** (*Registro Gene
 | **Catalonia** | 20-50% | Less generous |
 | **Balearic Islands** | Variable | Currently being reformed |
 
-### Tax Calculation Factors:
+### Tax calculation factors:
 
 - **Property value** at time of death
 - **Relationship to deceased** (spouse, child, sibling, etc.)
 - **Regional rules** where property is located
 
-### Rate Examples (Without Regional Benefits):
+### Rate examples (without regional benefits):
 
 | Estate Value | Approximate Tax Rate |
 |--------------|---------------------|
@@ -160,23 +160,23 @@ Spanish wills can be registered in the **Central Will Registry** (*Registro Gene
 
 ---
 
-## Special Situations
+## Special situations
 
-### International Couples
+### International couples
 
 When spouses have different nationalities:
 - Each spouse can choose their own nationality's law
 - Consider joint wills with coordinated law choices
 - Be aware of matrimonial property regimes
 
-### Children from Previous Relationships
+### Children from previous relationships
 
 Foreign law choice can be beneficial when:
 - You want to prioritize your current spouse
 - Avoid Spanish forced heirship for children
 - Create more flexible distribution arrangements
 
-### Unmarried Partners
+### Unmarried partners
 
 Spanish law does **not** recognize unmarried partners as heirs. Under foreign law, you may be able to:
 - Leave property to your partner directly
@@ -185,7 +185,7 @@ Spanish law does **not** recognize unmarried partners as heirs. Under foreign la
 
 ---
 
-## Probate Timeline in Spain
+## Probate timeline in Spain
 
 When a death occurs affecting Spanish property:
 
@@ -201,7 +201,7 @@ When a death occurs affecting Spanish property:
 - Register new ownership at Land Registry
 - Avoid additional complications
 
-### Required Documents:
+### Required documents:
 
 | Document | Purpose | Where to Obtain |
 |----------|---------|-----------------|
@@ -213,27 +213,27 @@ When a death occurs affecting Spanish property:
 
 ---
 
-## Practical Recommendations
+## Practical recommendations
 
-### 1. Make a Will
+### 1. Make a will
 
 Even if your home country's intestacy rules are acceptable, a will:
 - Clarifies your law choice
 - Speeds up probate
 - Reduces disputes
 
-### 2. Inform Your Heirs
+### 2. Inform your heirs
 
 Ensure your heirs know:
 - Where your will is located
 - That you chose foreign law
 - Contact details for your Spanish lawyer
 
-### 3. Consider Regional Tax Implications
+### 3. Consider regional tax implications
 
 When purchasing property, the region's inheritance tax rules should factor into your decision.
 
-### 4. Get Professional Advice
+### 4. Get professional advice
 
 Inheritance law is complex. Consult:
 - A lawyer in your home country familiar with international succession
@@ -242,7 +242,7 @@ Inheritance law is complex. Consult:
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Do I need a Spanish will?
 

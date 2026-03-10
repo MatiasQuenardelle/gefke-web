@@ -23,7 +23,7 @@ Denne guide forklarer dine muligheder, de vigtigste forskelle mellem retssysteme
 
 ---
 
-## EU's Arveforordning: En Game-Changer
+## EU's arveforordning: en game-changer
 
 Siden august 2015 har **EU's Arveforordning (Nr. 650/2012)** samlet arvereglerne på tværs af de fleste EU-medlemsstater. Denne forordning er særligt vigtig for alle, der ejer ejendom i et andet land end deres hjemland.
 
@@ -40,9 +40,9 @@ Siden august 2015 har **EU's Arveforordning (Nr. 650/2012)** samlet arvereglerne
 
 ---
 
-## Hvorfor Lovvalg Betyder Noget: Sammenligning af Retssystemer
+## Hvorfor lovvalg betyder noget: sammenligning af retssystemer
 
-### Spansk Arveret
+### Spansk arveret
 
 Spansk arveret inkluderer strenge **tvangsarveregler** (*legítima*), der begrænser din frihed til at fordele aktiver:
 
@@ -59,14 +59,14 @@ Spansk arveret inkluderer strenge **tvangsarveregler** (*legítima*), der begræ
 - Samlevende partnere har ingen automatiske arverettigheder
 - Regionale variationer eksisterer (Catalonien, Baskerlandet osv.)
 
-### Common Law-Systemer (UK, USA osv.)
+### Common Law-systemer (UK, USA osv.)
 
 Lande med common law-tradition tillader generelt:
 - **Testationsfrihed**: Du kan efterlade aktiver til hvem som helst
 - **Ægtefællebeskyttelse**: Varierer efter jurisdiktion
 - **Ingen tvangsarv**: Børn har ingen automatisk ret til at arve
 
-### Dansk/Nordisk Arveret
+### Dansk/nordisk arveret
 
 Dansk og nordisk arveret tilbyder:
 - **Større fleksibilitet** end spansk lov
@@ -76,7 +76,7 @@ Dansk og nordisk arveret tilbyder:
 
 ---
 
-## Hvorfor Vælge Dit Hjemlands Lov?
+## Hvorfor vælge dit hjemlands lov?
 
 For de fleste udlændinge med spansk ejendom giver valg af deres nationalitets lov betydelige fordele:
 
@@ -97,15 +97,15 @@ For de fleste udlændinge med spansk ejendom giver valg af deres nationalitets l
 
 ---
 
-## Sådan Foretager Du Lovvalg
+## Sådan foretager du lovvalg
 
-### 1. Opret et Gyldigt Testamente
+### 1. Opret et gyldigt testamente
 
 Dit testamente skal indeholde en klar **lovvalgsklausul**. Eksempel på formulering:
 
 > *"Jeg vælger, at loven i [din nationalitet] skal gælde for hele min arv i henhold til EU-forordning nr. 650/2012."*
 
-### 2. Overvej Separate Testamenter
+### 2. Overvej separate testamenter
 
 Mange ejendomsejere vælger:
 - **Hjemlandstestamente** - For aktiver i dit statsborgerskabsland
@@ -116,7 +116,7 @@ Mange ejendomsejere vælger:
 - Indeholde samme lovvalg
 - Ikke ophæve hinanden
 
-### 3. Registrer Dit Spanske Testamente
+### 3. Registrer dit spanske testamente
 
 Spanske testamenter kan registreres i **Central Testamentsregistret** (*Registro General de Actos de Última Voluntad*). Fordele:
 
@@ -126,11 +126,11 @@ Spanske testamenter kan registreres i **Central Testamentsregistret** (*Registro
 
 ---
 
-## Spansk Arveafgift: Gælder Stadig
+## Spansk arveafgift: gælder stadig
 
 **Vigtigt:** Valg af udenlandsk arveret fritager dig IKKE for spansk arveafgift. Spansk ejendom beskattes altid i Spanien.
 
-### Regionale Skatteforskelle:
+### Regionale skatteforskelle:
 
 | Region | Reduktion for Ægtefælle/Børn | Noter |
 |--------|------------------------------|-------|
@@ -140,13 +140,13 @@ Spanske testamenter kan registreres i **Central Testamentsregistret** (*Registro
 | **Catalonien** | 20-50% | Mindre generøs |
 | **Balearerne** | Variabel | Under reform |
 
-### Faktorer for Skatteberegning:
+### Faktorer for skatteberegning:
 
 - **Ejendomsværdi** ved dødstidspunktet
 - **Forhold til afdøde** (ægtefælle, barn, søskende osv.)
 - **Regionale regler** hvor ejendommen er placeret
 
-### Satseksempler (Uden Regionale Fordele):
+### Satseksempler (uden regionale fordele):
 
 | Boværdi | Omtrentlig Skattesats |
 |---------|----------------------|
@@ -160,23 +160,23 @@ Spanske testamenter kan registreres i **Central Testamentsregistret** (*Registro
 
 ---
 
-## Særlige Situationer
+## Særlige situationer
 
-### Internationale Par
+### Internationale par
 
 Når ægtefæller har forskellige nationaliteter:
 - Hver ægtefælle kan vælge sin egen nationalitets lov
 - Overvej fælles testamenter med koordinerede lovvalg
 - Vær opmærksom på formueordninger
 
-### Børn fra Tidligere Forhold
+### Børn fra tidligere forhold
 
 Udenlandsk lovvalg kan være fordelagtigt, når:
 - Du vil prioritere din nuværende ægtefælle
 - Undgå spansk tvangsarv for børn
 - Skabe mere fleksible fordelingsordninger
 
-### Ugifte Partnere
+### Ugifte partnere
 
 Spansk lov anerkender **ikke** ugifte partnere som arvinger. Under udenlandsk lov kan du muligvis:
 - Efterlade ejendom direkte til din partner
@@ -185,7 +185,7 @@ Spansk lov anerkender **ikke** ugifte partnere som arvinger. Under udenlandsk lo
 
 ---
 
-## Tidsfrister ved Skifte i Spanien
+## Tidsfrister ved skifte i Spanien
 
 Når et dødsfald påvirker spansk ejendom:
 
@@ -201,7 +201,7 @@ Når et dødsfald påvirker spansk ejendom:
 - Registrere nyt ejerskab i tinglysningen
 - Undgå yderligere komplikationer
 
-### Nødvendige Dokumenter:
+### Nødvendige dokumenter:
 
 | Dokument | Formål | Hvor Fås Det |
 |----------|--------|--------------|
@@ -213,27 +213,27 @@ Når et dødsfald påvirker spansk ejendom:
 
 ---
 
-## Praktiske Anbefalinger
+## Praktiske anbefalinger
 
-### 1. Lav et Testamente
+### 1. Lav et testamente
 
 Selv om dit hjemlands regler for uskiftet bo er acceptable, vil et testamente:
 - Præcisere dit lovvalg
 - Fremskynde skiftet
 - Reducere tvister
 
-### 2. Informer Dine Arvinger
+### 2. Informer dine arvinger
 
 Sørg for, at dine arvinger ved:
 - Hvor dit testamente findes
 - At du har valgt udenlandsk lov
 - Kontaktoplysninger på din spanske advokat
 
-### 3. Overvej Regionale Skattekonsekvenser
+### 3. Overvej regionale skattekonsekvenser
 
 Ved køb af ejendom bør regionens arveafgiftsregler indgå i din beslutning.
 
-### 4. Få Professionel Rådgivning
+### 4. Få professionel rådgivning
 
 Arveret er komplekst. Konsulter:
 - En advokat i dit hjemland med kendskab til international arv
@@ -242,7 +242,7 @@ Arveret er komplekst. Konsulter:
 
 ---
 
-## Ofte Stillede Spørgsmål
+## Ofte stillede spørgsmål
 
 ### Har jeg brug for et spansk testamente?
 

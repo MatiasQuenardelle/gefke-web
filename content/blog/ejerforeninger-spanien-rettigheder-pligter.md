@@ -30,7 +30,7 @@ I denne guide får du det komplette overblik over:
 
 ## Hvad er en Comunidad de Propietarios?
 
-### Definition og Juridisk Grundlag
+### Definition og juridisk grundlag
 
 En *Comunidad de Propietarios* (forkortelse: CP) er en juridisk sammenslutning af alle ejere i en bygning eller et boligkompleks med fælles faciliteter.
 
@@ -44,7 +44,7 @@ En *Comunidad de Propietarios* (forkortelse: CP) er en juridisk sammenslutning a
 **Obligatorisk medlemskab:**
 Hvis du køber en ejendom i en bygning eller et kompleks med fællesarealer, bliver du automatisk og obligatorisk medlem af CP. Du kan ikke fravælge medlemskab.
 
-### Hvad Udgør en Comunidad?
+### Hvad udgør en Comunidad?
 
 En CP eksisterer når der er:
 - **Flere selvstændige ejendomme** (lejligheder, rækkehuse osv.)
@@ -59,7 +59,7 @@ En CP eksisterer når der er:
 - ✅ Højhus med 100 lejligheder
 - ❌ Fristående villa uden fælles faciliteter (ingen CP)
 
-### Cuota de Participación - Din Andel
+### Cuota de Participación - din andel
 
 Når du køber ejendommen, får du tildelt en *cuota de participación* - din andel af fællesskabet.
 
@@ -87,7 +87,7 @@ Din andel: 100.000 × 2,5% = 2.500 EUR/år
 
 ## Fællesudgifter (Gastos de Comunidad)
 
-### Hvad Dækker Fællesudgifterne?
+### Hvad dækker fællesudgifterne?
 
 Fællesudgifter er de løbende omkostninger til drift og vedligeholdelse af fællesområderne.
 
@@ -119,7 +119,7 @@ Fællesudgifter er de løbende omkostninger til drift og vedligeholdelse af fæl
 - 💰 Reserve-fond (*fondo de reserva*)
 - For større renoveringer (f.eks. nyt tag, facademalerering)
 
-### Typiske Beløb
+### Typiske beløb
 
 Fællesudgifterne varierer enormt afhængigt af:
 - Kompleksets størrelse
@@ -139,7 +139,7 @@ Fællesudgifterne varierer enormt afhængigt af:
 **Rækkehus-områder:**
 Ofte lavere (50-120 EUR/måned) da fællesarealer er mindre.
 
-### Hvordan Betales Fællesudgifter?
+### Hvordan betales fællesudgifter?
 
 **Betalingsfrekvens:**
 - **Månedligt:** Mest almindeligt
@@ -167,7 +167,7 @@ Når du køber ejendommen, skal du straks:
 - Sætte automatisk træk op
 - Tjekke at første betaling er gennemført
 
-### Hvad Hvis Du Ikke Betaler?
+### Hvad hvis du ikke betaler?
 
 At undlade at betale fællesudgifter får alvorlige konsekvenser:
 
@@ -205,7 +205,7 @@ Som køber skal du (via din advokat) altid indhente:
 
 Generalforsamlingen er det øverste besluttende organ i CP. Her træffes alle vigtige beslutninger om drift, budget, vedligeholdelse og regler.
 
-### Ordinær Generalforsamling
+### Ordinær generalforsamling
 
 **Hyppighed:** Mindst **én gang årligt**
 
@@ -234,7 +234,7 @@ Skal ske mindst **6 dage før** mødet (i nogle vedtægter 15 dage).
 - Email (hvis ejer har accepteret dette)
 - Opslag på opslagstavle i komplekset
 
-### Ekstraordinær Generalforsamling
+### Ekstraordinær generalforsamling
 
 **Hvornår:**
 Når der opstår særlige spørgsmål mellem de ordinære møder.
@@ -250,7 +250,7 @@ Når der opstår særlige spørgsmål mellem de ordinære møder.
 - Administratoren
 - Mindst 25% af ejerne (målt på cuotas)
 
-### Din Stemmeret
+### Din stemmeret
 
 **Grundregel:** 1 ejendom = 1 stemme
 
@@ -279,7 +279,7 @@ Hvis du ikke kan deltage, kan du:
 **Tab af stemmeret:**
 Hvis du er mere end **3 måneder bagud** med fællesudgifter, mister du stemmeret (men har stadig møderet).
 
-### Mødets Forløb
+### Mødets forløb
 
 **1. Konstatering af beslutningsdygtighed**
 Der skal være tilstrækkeligt fremmøde (quorum):
@@ -305,7 +305,7 @@ Hver sag diskuteres og stemmes om.
 **5. Protokollering**
 Alt skal skrives ned i referat (*acta*).
 
-### Beslutninger og Flertal
+### Beslutninger og flertal
 
 Forskellige beslutninger kræver forskellige flertal:
 
@@ -340,11 +340,11 @@ Efter mødet udarbejdes referat der:
 **Juridisk betydning:**
 Referatet er juridisk bindende. Hvis du ikke var til møde og er uenig, har du normalt **30 dage** til at påklage beslutningen ved domstol.
 
-## Nye Regler om Ferieudlejning (2023)
+## Nye regler om ferieudlejning (2023)
 
 I juni 2023 blev der vedtaget en ny boliglov (*Ley de Vivienda*) der gav ejerforeninger betydelig magt til at regulere ferieudlejning.
 
-### Hvad Er Ændret?
+### Hvad er ændret?
 
 **Før 2023:**
 - CP kunne ikke forbyde ferieudlejning
@@ -356,7 +356,7 @@ I juni 2023 blev der vedtaget en ny boliglov (*Ley de Vivienda*) der gav ejerfor
 - Kræver 3/5 flertal på generalforsamling
 - Ændringen skal indføres i vedtægterne
 
-### Hvad Kan CP Beslutte?
+### Hvad kan CP beslutte?
 
 **1. Totalt forbud:**
 "I denne ejerforening er korttidsudlejning/ferieudlejning forbudt."
@@ -370,7 +370,7 @@ I juni 2023 blev der vedtaget en ny boliglov (*Ley de Vivienda*) der gav ejerfor
 - Særligt depositum på 5.000 EUR
 - Ansvarlig lokalt til at håndtere problemer 24/7"
 
-### Hvordan Besluttes Det?
+### Hvordan besluttes det?
 
 **Proces:**
 
@@ -392,7 +392,7 @@ Stemmer for forbuddet: 32 enheder (64% af cuotas)
 Resultat: VEDTAGET (64% > 60%)
 ```
 
-### Hvad Med Eksisterende Udlejning?
+### Hvad med eksisterende udlejning?
 
 **Overgangsregel:**
 Hvis du allerede havde lovlig ferieudlejning (med turistlicens) FØR CP's forbud, kan du normalt fortsætte.
@@ -405,7 +405,7 @@ Hvis du allerede havde lovlig ferieudlejning (med turistlicens) FØR CP's forbud
 **Ulovlig udlejning:**
 Hvis du udlejede ulovligt (uden licens), får du ingen beskyttelse. CP kan stoppe dig straks.
 
-### Konsekvenser Ved Overtrædelse
+### Konsekvenser ved overtrædelse
 
 Hvis CP har forbudt ferieudlejning og du gør det alligevel:
 

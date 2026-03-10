@@ -22,7 +22,7 @@ Esta guía desglosa los cambios clave y lo que significan para ti.
 
 ---
 
-## Visado Nómada Digital: Un Cambio Revolucionario para Teletrabajadores
+## Visado Nómada Digital: un cambio revolucionario para teletrabajadores
 
 En 2023, España introdujo el **Visado para Teletrabajadores** (Visado Nómada Digital), ofreciendo a los trabajadores remotos una vía atractiva para vivir y trabajar en España con ventajas fiscales significativas.
 
@@ -35,7 +35,7 @@ En 2023, España introdujo el **Visado para Teletrabajadores** (Visado Nómada D
 | **Requisito de Ingresos** | Mínimo €2.000/mes |
 | **Flexibilidad Laboral** | Trabajo para empleadores extranjeros o autónomos |
 
-### ¿Quién Puede Solicitarlo?
+### ¿Quién puede solicitarlo?
 
 - Trabajadores remotos empleados por empresas no españolas
 - Autónomos con clientes predominantemente extranjeros
@@ -46,11 +46,11 @@ En 2023, España introdujo el **Visado para Teletrabajadores** (Visado Nómada D
 
 ---
 
-## Cambios en la Tributación de No Residentes para 2024
+## Cambios en la tributación de no residentes para 2024
 
 Si posees propiedades en España pero no eres residente fiscal, varios cambios importantes afectan a tus obligaciones:
 
-### Tributación de Ingresos por Alquiler
+### Tributación de ingresos por alquiler
 
 | Aspecto | Reglas Anteriores | Reglas 2024 |
 |---------|-------------------|-------------|
@@ -69,7 +69,7 @@ Si posees propiedades en España pero no eres residente fiscal, varios cambios i
 
 > **⚠️ Nota:** Los no residentes fuera de la UE todavía no pueden deducir gastos de los ingresos por alquiler—tributas sobre los ingresos brutos al 24%.
 
-### Impuesto sobre la Renta Imputada (IRNR)
+### Impuesto sobre la renta imputada (IRNR)
 
 Incluso si no alquilas tu propiedad española, debes pagar el impuesto anual sobre renta imputada:
 
@@ -79,11 +79,11 @@ Incluso si no alquilas tu propiedad española, debes pagar el impuesto anual sob
 
 ---
 
-## Actualizaciones del Impuesto sobre el Patrimonio por Región
+## Actualizaciones del impuesto sobre el patrimonio por región
 
 El impuesto sobre el patrimonio español varía significativamente por comunidad autónoma. Este es el panorama actual:
 
-### Comparativa Regional del Impuesto sobre Patrimonio
+### Comparativa regional del impuesto sobre patrimonio
 
 | Región | Mínimo Exento | Tipo Máximo | Notas |
 |--------|---------------|-------------|-------|
@@ -94,7 +94,7 @@ El impuesto sobre el patrimonio español varía significativamente por comunidad
 | **Islas Baleares** | €700.000 | 3,45% | Zonas turísticas |
 | **Islas Canarias** | €700.000 | 0,4-3,03% | Tipos moderados |
 
-### Consideraciones Importantes:
+### Consideraciones importantes:
 
 1. **Vivienda Habitual:** Exención adicional de €300.000 en la mayoría de regiones
 2. **Activos Totales:** Incluye activos mundiales para residentes, solo activos españoles para no residentes
@@ -102,11 +102,11 @@ El impuesto sobre el patrimonio español varía significativamente por comunidad
 
 ---
 
-## El Impuesto de Solidaridad: Un Nuevo Gravamen Nacional
+## El impuesto de solidaridad: un nuevo gravamen nacional
 
 Introducido en 2023, el **Impuesto Temporal de Solidaridad de las Grandes Fortunas** es un impuesto sobre el patrimonio a nivel nacional diseñado para garantizar una tributación mínima independientemente de las exenciones regionales.
 
-### ¿A Quién Afecta?
+### ¿A quién afecta?
 
 | Patrimonio Neto | Tipo Impositivo |
 |-----------------|-----------------|
@@ -124,11 +124,11 @@ Introducido en 2023, el **Impuesto Temporal de Solidaridad de las Grandes Fortun
 
 ---
 
-## Aumentos del IBI (Impuesto sobre Bienes Inmuebles)
+## Aumentos del IBI (impuesto sobre bienes inmuebles)
 
 Muchos municipios han aumentado significativamente los impuestos sobre bienes inmuebles:
 
-### Aumentos Promedio por Tipo de Zona
+### Aumentos promedio por tipo de zona
 
 | Zona | Aumento Promedio | Motivo |
 |------|------------------|--------|
@@ -136,7 +136,7 @@ Muchos municipios han aumentado significativamente los impuestos sobre bienes in
 | **Grandes Ciudades** | 3-6% | Costes de infraestructura |
 | **Zonas Rurales** | 1-3% | Cambios mínimos |
 
-### Factores que Afectan tu IBI:
+### Factores que afectan tu IBI:
 
 - **Revisiones del Valor Catastral:** Muchas zonas reevaluadas en 2023-2024
 - **Coeficientes Municipales:** Pueden variar del 0,4% al 1,3% del valor catastral
@@ -146,11 +146,11 @@ Muchos municipios han aumentado significativamente los impuestos sobre bienes in
 
 ---
 
-## Impuesto de Sucesiones: Variaciones Regionales
+## Impuesto de sucesiones: variaciones regionales
 
 El impuesto de sucesiones y donaciones español se gestiona regionalmente, generando diferencias dramáticas:
 
-### Beneficios Regionales Actuales (Familia Directa)
+### Beneficios regionales actuales (familia directa)
 
 | Región | Reducción para Cónyuge/Hijos | Notas |
 |--------|------------------------------|-------|
@@ -160,7 +160,7 @@ El impuesto de sucesiones y donaciones español se gestiona regionalmente, gener
 | **Cataluña** | 20-50% | Menos generoso |
 | **Islas Baleares** | Variable | En proceso de reforma |
 
-### Puntos Importantes para Planificación Sucesoria:
+### Puntos importantes para planificación sucesoria:
 
 1. **Reglamento Europeo de Sucesiones:** Puedes elegir la ley sucesoria de tu país de origen
 2. **Región Aplicable:** Determinada por residencia del fallecido o ubicación del inmueble
@@ -169,7 +169,7 @@ El impuesto de sucesiones y donaciones español se gestiona regionalmente, gener
 
 ---
 
-## Tributación de Criptomonedas
+## Tributación de criptomonedas
 
 España ha endurecido significativamente la regulación de criptomonedas:
 

@@ -26,7 +26,7 @@ This guide gives you the complete checklist of EVERYTHING you need to think abou
 
 ---
 
-## The 3 Phases of Relocation
+## The 3 phases of relocation
 
 To make the process manageable, we can divide your relocation into three clear phases:
 
@@ -40,11 +40,11 @@ Let's go through each phase systematically.
 
 ---
 
-## PHASE 1: Before You Leave (3-6 Months Before)
+## PHASE 1: Before you leave (3-6 months before)
 
 This phase is crucial. What you do now can save you enormous trouble later.
 
-### Tax Departure from Denmark
+### Tax departure from Denmark
 
 **Deregistration from the National Registry:**
 
@@ -80,7 +80,7 @@ Call or write to SKAT and inform them about your move:
 
 ---
 
-### Exit Taxation - Watch Out!
+### Exit taxation - watch out!
 
 This is one of the most important - and most overlooked - pitfalls when relocating as a pensioner.
 
@@ -143,7 +143,7 @@ Also contact your private pension companies:
 
 ---
 
-### Health Insurance - Absolutely Crucial
+### Health insurance - absolutely crucial
 
 This is CRITICAL, and many get it wrong.
 
@@ -206,7 +206,7 @@ Even with S1, many pensioners choose to take out supplementary private insurance
 
 ---
 
-### Bank and Finances
+### Bank and finances
 
 **Can You Keep Your Danish Bank?**
 
@@ -258,7 +258,7 @@ You MUST have a Spanish bank account for:
 
 ---
 
-### What About Your Danish Home?
+### What about your Danish home?
 
 | If You... | Tax Implications | Considerations |
 |-----------|-----------------|----------------|
@@ -268,11 +268,11 @@ You MUST have a Spanish bank account for:
 
 ---
 
-## PHASE 2: Arrival and Registration (0-3 Months)
+## PHASE 2: Arrival and registration (0-3 months)
 
 Now you've arrived in Spain. The next months are about becoming "legal" and getting all practical matters in order.
 
-### Padrón - Municipal Registration (DO THIS FIRST)
+### Padrón - municipal registration (DO THIS FIRST)
 
 **What is Padrón?**
 - Municipal residence registration
@@ -309,7 +309,7 @@ Required for almost everything else:
 
 ---
 
-### NIE Number - Your Spanish Identification Number
+### NIE number - your Spanish identification number
 
 **What is NIE?**
 - Número de Identificación de Extranjero
@@ -348,7 +348,7 @@ Required for almost everything else:
 
 ---
 
-### Residencia - EU Citizen Registration
+### Residencia - EU citizen registration
 
 **What is Residencia?**
 
@@ -397,7 +397,7 @@ You must document:
 
 ---
 
-### Registration with Healthcare System
+### Registration with healthcare system
 
 Now you have S1, Residencia, and NIE - time to get your health card.
 
@@ -441,11 +441,11 @@ Now you have S1, Residencia, and NIE - time to get your health card.
 
 ---
 
-## PHASE 3: First Year as Resident
+## PHASE 3: First year as resident
 
 Congratulations - you are now fully registered in Spain! But the work isn't over. Now come the tax obligations.
 
-### Spanish Tax Return - Yes, You MUST
+### Spanish tax return - yes, you MUST
 
 The biggest misconception among Danish pensioners in Spain is that they think they can skip Spanish tax returns because they pay tax in Denmark. **This is wrong.**
 
@@ -489,7 +489,7 @@ Most Danish pensioners must therefore file.
 
 ---
 
-### Modelo 720 - Foreign Assets
+### Modelo 720 - foreign assets
 
 This is one of the most important - and most overlooked - obligations.
 
@@ -544,7 +544,7 @@ Annual declaration of assets outside Spain, if they exceed €50,000 in any of t
 
 ---
 
-### Wealth Tax in Spain
+### Wealth tax in Spain
 
 Spain has wealth tax (Impuesto sobre el Patrimonio), which affects larger fortunes.
 
@@ -586,11 +586,11 @@ Spain has wealth tax (Impuesto sobre el Patrimonio), which affects larger fortun
 
 ---
 
-## Pension Taxation in Practice
+## Pension taxation in practice
 
 Let's now look specifically at how your pension is taxed when you live in Spain.
 
-### New Regime - What Does It Mean for You?
+### New regime - what does it mean for you?
 
 If you moved to Spain after November 2007 (which most will have), you're under the "new regime". This means:
 
@@ -608,7 +608,7 @@ If you moved to Spain after November 2007 (which most will have), you're under t
 **In Practice:**
 You typically pay most of the tax to Denmark, while Spain gets a smaller portion (or nothing, if Danish tax is higher than Spanish).
 
-### Which Pensions Are Taxed Where?
+### Which pensions are taxed where?
 
 | Pension Type | Taxation (New Regime) | Notes |
 |--------------|----------------------|-------|
@@ -624,11 +624,11 @@ You typically pay most of the tax to Denmark, while Spain gets a smaller portion
 
 ---
 
-## Financial Comparison: Denmark vs. Spain
+## Financial comparison: Denmark vs. Spain
 
 Is it cheaper to be a pensioner in Spain? Let's look at the numbers.
 
-### Tax (Typically Lower in Spain)
+### Tax (typically lower in Spain)
 
 **Example: Pensioner with €25,000/year:**
 
@@ -639,7 +639,7 @@ Is it cheaper to be a pensioner in Spain? Let's look at the numbers.
 
 **BUT:** Under the new regime, you still pay primarily Danish tax!
 
-### Cost of Living
+### Cost of living
 
 **Generally 20-40% Cheaper in Spain:**
 
@@ -654,7 +654,7 @@ Is it cheaper to be a pensioner in Spain? Let's look at the numbers.
 
 **Total:** Many pensioners save 30,000-50,000 DKK/year on cost of living.
 
-### Overall Picture
+### Overall picture
 
 For most Danish pensioners:
 - **Tax:** Not much savings under new regime
@@ -664,11 +664,11 @@ For most Danish pensioners:
 
 ---
 
-## Common Mistakes When Relocating
+## Common mistakes when relocating
 
 Here are the 10 most common mistakes I see Danish pensioners make:
 
-### 1. Forgetting to Deregister in Denmark
+### 1. Forgetting to deregister in Denmark
 
 ❌ **The Mistake:** Moves to Spain but remains registered in CPR in Denmark.
 
@@ -682,7 +682,7 @@ Here are the 10 most common mistakes I see Danish pensioners make:
 
 ---
 
-### 2. Not Applying for S1 in Time
+### 2. Not applying for S1 in time
 
 ❌ **The Mistake:** Moves without having S1 form.
 
@@ -695,7 +695,7 @@ Here are the 10 most common mistakes I see Danish pensioners make:
 
 ---
 
-### 3. Thinking You Can Skip Spanish Tax Return
+### 3. Thinking you can skip Spanish tax return
 
 ❌ **The Mistake:** "I pay tax in Denmark, so I don't need to file taxes in Spain."
 
@@ -708,7 +708,7 @@ Here are the 10 most common mistakes I see Danish pensioners make:
 
 ---
 
-### 4. Underestimating Wealth Tax
+### 4. Underestimating wealth tax
 
 ❌ **The Mistake:** Thinks there's no wealth tax or forgets to factor it in.
 
@@ -720,7 +720,7 @@ Here are the 10 most common mistakes I see Danish pensioners make:
 
 ---
 
-### 5. Not Making a Spanish Will
+### 5. Not making a Spanish will
 
 ❌ **The Mistake:** "My Danish will must be enough."
 
@@ -745,7 +745,7 @@ Here are the 10 most common mistakes I see Danish pensioners make:
 
 ---
 
-### 7. Keeping Only Danish Bank
+### 7. Keeping only Danish bank
 
 ❌ **The Mistake:** Doesn't get a Spanish bank account.
 
@@ -758,7 +758,7 @@ Here are the 10 most common mistakes I see Danish pensioners make:
 
 ---
 
-### 8. Not Understanding Exit Taxation
+### 8. Not understanding exit taxation
 
 ❌ **The Mistake:** Moves within 5 years of last pension contribution.
 
@@ -770,7 +770,7 @@ Here are the 10 most common mistakes I see Danish pensioners make:
 
 ---
 
-### 9. Underestimating Language Barrier
+### 9. Underestimating language barrier
 
 ❌ **The Mistake:** Thinks everyone speaks English in Spain.
 
@@ -783,7 +783,7 @@ Here are the 10 most common mistakes I see Danish pensioners make:
 
 ---
 
-### 10. Not Seeking Professional Advice
+### 10. Not seeking professional advice
 
 ❌ **The Mistake:** Tries to handle everything alone without help.
 
@@ -795,11 +795,11 @@ Here are the 10 most common mistakes I see Danish pensioners make:
 
 ---
 
-## Complete Checklist
+## Complete checklist
 
 Here is your complete checklist for moving to Spain as a pensioner:
 
-### 3-6 Months Before Moving
+### 3-6 months before moving
 
 **Tax:**
 - [ ] Check if you risk exit taxation (5-year rule)
@@ -825,7 +825,7 @@ Here is your complete checklist for moving to Spain as a pensioner:
 
 ---
 
-### 0-3 Months Before Departure
+### 0-3 months before departure
 
 **In Denmark:**
 - [ ] Book appointment at Citizen Services for CPR deregistration
@@ -847,7 +847,7 @@ Here is your complete checklist for moving to Spain as a pensioner:
 
 ---
 
-### Upon Arrival in Spain (First Week)
+### Upon arrival in Spain (first week)
 
 - [ ] Register in municipality (Padrón)
   - [ ] Book appointment at Ayuntamiento
@@ -861,7 +861,7 @@ Here is your complete checklist for moving to Spain as a pensioner:
 
 ---
 
-### Within 3 Months After Arrival
+### Within 3 months after arrival
 
 - [ ] Apply for Residencia (EU certificate)
   - [ ] Book appointment (citaprevia.es)
@@ -884,7 +884,7 @@ Here is your complete checklist for moving to Spain as a pensioner:
 
 ---
 
-### First Tax Year (Before Deadlines)
+### First tax year (before deadlines)
 
 - [ ] **By March 31:** Modelo 720 (foreign assets)
   - [ ] Gather documentation for assets as of Dec 31
@@ -908,7 +908,7 @@ Here is your complete checklist for moving to Spain as a pensioner:
 
 ---
 
-### Annual Obligations (Going Forward)
+### Annual obligations (going forward)
 
 | When | What |
 |------|------|
@@ -920,9 +920,9 @@ Here is your complete checklist for moving to Spain as a pensioner:
 
 ---
 
-## Important Contacts and Links
+## Important contacts and links
 
-### Danish Authorities
+### Danish authorities
 
 **SKAT:**
 - Phone: +45 72 22 18 18
@@ -939,7 +939,7 @@ Here is your complete checklist for moving to Spain as a pensioner:
 - Email: madamb@um.dk
 - Website: spanien.um.dk
 
-### Spanish Authorities
+### Spanish authorities
 
 **Agencia Tributaria (Tax Authority):**
 - Phone: 901 33 55 33
@@ -956,7 +956,7 @@ Here is your complete checklist for moving to Spain as a pensioner:
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## Frequently asked questions (FAQ)
 
 ### Can I receive my Danish pension in Spain?
 
@@ -1040,7 +1040,7 @@ Many choose to exchange their Danish license for a Spanish one after some years.
 
 Moving to Spain as a pensioner is a fantastic opportunity to enjoy your well-earned years in sunshine, with lower cost of living and a relaxed lifestyle. But as this guide has shown, it requires thorough planning and understanding of both Danish and Spanish rules.
 
-### Key Takeaways
+### Key takeaways
 
 **Before Moving:**
 - ✅ Deregister from CPR in Denmark at the correct time
@@ -1067,7 +1067,7 @@ Moving to Spain as a pensioner is a fantastic opportunity to enjoy your well-ear
 - ❌ Underestimating wealth tax
 - ❌ Trying to handle everything yourself
 
-### Most Important Advice
+### Most important advice
 
 **Seek professional help the first year.** A Danish-speaking lawyer or tax advisor in Spain can:
 - Guide you through the entire process

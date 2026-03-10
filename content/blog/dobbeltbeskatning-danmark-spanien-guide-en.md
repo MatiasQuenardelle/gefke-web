@@ -22,11 +22,11 @@ This comprehensive guide covers all aspects of double taxation between Denmark a
 
 ---
 
-## What Happened to the Double Taxation Treaty?
+## What happened to the double taxation treaty?
 
 To understand the current situation, we need to look back briefly at history. Until 2009, Denmark and Spain had a double taxation agreement that regulated which country had the right to tax different types of income for people with connections to both countries.
 
-### Why Denmark Terminated the Agreement
+### Why Denmark terminated the agreement
 
 In 2008, Denmark decided to terminate the agreement. The main reason was that many Danish pensioners were moving to Spain, where they could enjoy lower taxation on their Danish pensions. Spanish tax rates were significantly lower than Danish rates at the time, and pensioners experienced considerable tax savings by establishing tax residency in Spain.
 
@@ -44,11 +44,11 @@ The termination had—and continues to have—far-reaching consequences:
 
 ---
 
-## "Old Regime" vs. "New Regime" - Which Applies to You?
+## "Old regime" vs. "New regime" - Which applies to you?
 
 The crucial dividing line for Danish pensioners in Spain is November 2007. Depending on when you established yourself in Spain, you're covered by either the old or new regime, with significant implications for your tax situation.
 
-### Who Is Covered by the Old Regime?
+### Who is covered by the old regime?
 
 You're covered by the old regime if **ALL** of the following conditions are met:
 
@@ -58,7 +58,7 @@ You're covered by the old regime if **ALL** of the following conditions are met:
 
 These criteria are cumulative—all three must be fulfilled. It's not enough to have lived in Spain in 2007 if you only started receiving pension after January 2008.
 
-#### Required Documentation
+#### Required documentation
 
 If you claim to be covered by the old regime, you must be able to document this to both Danish and Spanish authorities:
 
@@ -71,7 +71,7 @@ If you claim to be covered by the old regime, you must be able to document this 
 
 > **⚠️ Important:** Keep these documents safe—you may be asked to present them year after year.
 
-#### Tax Benefits Under Old Regime
+#### Tax benefits under old regime
 
 Under the old regime, your Danish pension is taxed **exclusively in Spain**. Denmark has no taxation right, and therefore no withholding tax is applied.
 
@@ -83,7 +83,7 @@ Under the old regime, your Danish pension is taxed **exclusively in Spain**. Den
 
 > **💡 For smaller pensions:** If your annual pension is under approximately €22,000, you'll often experience lower taxation in Spain than in Denmark. The Spanish tax system has relatively high personal allowances and thresholds.
 
-### Who Is Covered by the New Regime?
+### Who is covered by the new regime?
 
 You're covered by the new regime if:
 
@@ -92,7 +92,7 @@ You're covered by the new regime if:
 
 Under the new regime, Danish legislation applies to the taxation of your Danish pension, even though you're tax resident in Spain.
 
-#### How You're Taxed Under New Regime
+#### How you're taxed under new regime
 
 **In Denmark:**
 - Danish pension taxed according to Danish rules
@@ -104,7 +104,7 @@ Under the new regime, Danish legislation applies to the taxation of your Danish 
 - Danish pension included in calculation of your Spanish tax
 - You're entitled to relief (credit) for Danish tax paid
 
-#### The Double Filing Obligation
+#### The double filing obligation
 
 This is where it gets complex. Under the new regime, you must:
 
@@ -117,11 +117,11 @@ This is where it gets complex. Under the new regime, you must:
 
 ---
 
-## How to Avoid Double Taxation in Practice
+## How to avoid double taxation in practice
 
 Without a bilateral double taxation agreement between Denmark and Spain, you must use national relief rules and EU law to avoid double taxation.
 
-### Relief in Spain (Credit Method)
+### Relief in Spain (credit method)
 
 Spain uses the credit method when you, as a Spanish taxpayer, have paid tax abroad:
 
@@ -129,7 +129,7 @@ Spain uses the credit method when you, as a Spanish taxpayer, have paid tax abro
 2. **Document the Danish tax paid** with your Danish tax assessment
 3. **Receive a deduction** in your Spanish tax equal to the Danish tax, but maximum the Spanish tax on the same income
 
-#### Practical Example of Credit Method
+#### Practical example of credit method
 
 | Item | Amount |
 |------|--------|
@@ -142,7 +142,7 @@ Spain uses the credit method when you, as a Spanish taxpayer, have paid tax abro
 
 In this case, you get credit for €8,000 in Spain (not the full €10,050, since your Spanish tax was only €8,000).
 
-#### Documentation Required
+#### Documentation required
 
 To obtain relief in Spain, you must document:
 
@@ -153,11 +153,11 @@ To obtain relief in Spain, you must document:
 
 ---
 
-## Which Income Is Taxed Where?
+## Which income is taxed where?
 
 To navigate double taxation, it's essential to understand the main principles for where different types of income are taxed.
 
-### Main Rules Without Double Taxation Treaty
+### Main rules without double taxation treaty
 
 | Income Type | Primary Taxation Right | Secondary Right |
 |-------------|----------------------|-----------------|
@@ -170,7 +170,7 @@ To navigate double taxation, it's essential to understand the main principles fo
 | **Rental of Danish property** | Denmark | Spain (with relief) |
 | **Capital gains on Spanish property** | Spain | Denmark (if relevant) |
 
-### Special Rules for Civil Servant Pensions
+### Special rules for civil servant pensions
 
 Civil servant pensions constitute a special category as they're considered remuneration for previous public service:
 
@@ -181,11 +181,11 @@ Civil servant pensions constitute a special category as they're considered remun
 
 ---
 
-## Filing Obligations in Both Countries
+## Filing obligations in both countries
 
 One of the biggest surprises for many Danes in Spain is discovering they must file tax returns in both countries.
 
-### Tax Filing in Denmark
+### Tax filing in Denmark
 
 **Who must file:**
 - Everyone with Danish income (pension, rental, dividends, etc.)
@@ -199,7 +199,7 @@ One of the biggest surprises for many Danes in Spain is discovering they must fi
 - Pre-filled with known information
 - You must add/correct foreign matters
 
-### Tax Filing in Spain
+### Tax filing in Spain
 
 **Who must file:**
 - All tax residents in Spain
@@ -214,7 +214,7 @@ One of the biggest surprises for many Danes in Spain is discovering they must fi
 - Capital income from worldwide sources
 - Foreign assets (if over €50,000)
 
-### Consequences of Non-Filing
+### Consequences of non-filing
 
 | Country | Consequences |
 |---------|--------------|
@@ -223,9 +223,9 @@ One of the biggest surprises for many Danes in Spain is discovering they must fi
 
 ---
 
-## Practical Examples
+## Practical examples
 
-### Example 1: Pensioner Under Old Regime
+### Example 1: Pensioner under old regime
 
 **Person:** Jens, 72 years old, resident in Marbella since 2005
 
@@ -247,7 +247,7 @@ One of the biggest surprises for many Danes in Spain is discovering they must fi
 
 **Jens's benefit:** Had he lived in Denmark, his tax rate would have been around 30-35%, so he saves significantly under the old regime.
 
-### Example 2: Relocator Under New Regime
+### Example 2: Relocator under new regime
 
 **Person:** Anne, 68 years old, moved to Spain in 2015
 
@@ -270,7 +270,7 @@ One of the biggest surprises for many Danes in Spain is discovering they must fi
 
 **Anne pays total:** €16,700 in tax (~36% of total income). She doesn't pay double, but has significantly more administration with tax returns in two countries.
 
-### Example 3: Remote Worker with Danish Employer
+### Example 3: Remote worker with Danish employer
 
 **Person:** Peter, 45 years old, moved to Valencia in 2022
 
@@ -289,7 +289,7 @@ Peter must file in both Denmark (due to dividends) and Spain (due to tax residen
 
 ---
 
-## When Should You Seek Professional Help?
+## When should you seek professional help?
 
 Double taxation between Denmark and Spain is complex. You should seek help if:
 
@@ -319,7 +319,7 @@ Double taxation between Denmark and Spain is complex. You should seek help if:
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Can I ever switch from new to old regime?
 

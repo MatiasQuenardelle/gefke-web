@@ -26,13 +26,13 @@ Manglende eller forkert indberetning kan medføre betydelige bøder - vi taler o
 
 I denne guide gennemgår vi begge modelos i detaljer, forklarer hvem der skal indberette hvad, hvordan beregningerne fungerer, og giver dig praktiske guides til at udfylde formularerne korrekt.
 
-## Modelo 720 - Angivelse af Udenlandsk Formue
+## Modelo 720 - angivelse af udenlandsk formue
 
 Modelo 720 blev indført i 2013 som et værktøj for spanske skattemyndigheder til at bekæmpe skatteunddragelse. Formålet er at sikre, at residenter i Spanien indberetter alle deres verdensomspændende aktiver - ikke bare de spanske.
 
 For mange danske residenter i Spanien betyder dette, at de skal indberette deres formue i Danmark: bankkonti, værdipapirer, ejendomme og mere.
 
-### Hvem Skal Indberette Modelo 720?
+### Hvem skal indberette Modelo 720?
 
 Modelo 720 skal indberettes af:
 
@@ -53,7 +53,7 @@ Du skal IKKE indberette hvis:
 - Alle dine aktiver er i Spanien
 - Dine udenlandske aktiver er under 50.000 EUR i alle tre kategorier
 
-### Hvad Skal Deklareres?
+### Hvad skal deklareres?
 
 Modelo 720 opdeler udenlandske aktiver i tre kategorier:
 
@@ -128,7 +128,7 @@ Livsforsikringer tegnet hos udenlandske selskaber, hvis tilbagekøbsværdi overs
 **Værdiansættelse:**
 - Tilbagekøbsværdi pr. 31. december
 
-### Frister og Indberetning
+### Frister og indberetning
 
 **Deadline: 31. marts**
 
@@ -180,7 +180,7 @@ På grund af den tekniske kompleksitet vælger de fleste at bruge en gestor (bog
 
 Dette betyder at mange kun skal indberette hvert 2.-3. år, hvis deres aktiver er stabile.
 
-### EU-Dommen 2022 og Nye Regler
+### EU-dommen 2022 og nye regler
 
 Modelo 720 har været kontroversiel siden introduktionen og har været genstand for flere EU-sager.
 
@@ -221,11 +221,11 @@ Hvis du har undladt at indberette i tidligere år:
 - Frivillig efterindberetning reducerer bøder
 - Søg professionel rådgivning om din specifikke situation
 
-## Modelo 210 - Ikke-Resident Skat på Ejendom
+## Modelo 210 - ikke-resident skat på ejendom
 
 Mens Modelo 720 gælder residenter, er Modelo 210 relevant for **ikke-residenter** med spansk ejendom.
 
-### Hvem Skal Betale Modelo 210?
+### Hvem skal betale Modelo 210?
 
 **Ikke-residenter med spansk ejendom**
 
@@ -263,7 +263,7 @@ Mange forveksler Modelo 210 med IBI. De er IKKE det samme:
 - IBI til kommunen
 - Modelo 210 til staten
 
-### Beregning af Skatten
+### Beregning af skatten
 
 Modelo 210 beregnes baseret på en **imputeret indkomst** (fiktiv lejeindtægt), også selvom du ikke udlejer ejendommen.
 
@@ -324,7 +324,7 @@ Samme ejendom (katastral 120.000 EUR):
 - Modelo 210: 251 EUR/år
 - **Total årlige skatter: 851 EUR**
 
-### Frister og Betaling
+### Frister og betaling
 
 **Årlig indberetning**
 
@@ -359,7 +359,7 @@ Mere specifikt:
 
 **Anbefaling:** Hvis du ikke har spansk bankkonto eller certificado digital, er en gestor den nemmeste løsning.
 
-### Udlejer Du Din Bolig?
+### Udlejer du din bolig?
 
 Hvis du udlejer din spanske ejendom, ændrer beskatningen sig markant.
 
@@ -421,11 +421,11 @@ Hver kvartalsindberetning dækker indkomsten for det kvartal.
 
 **Vigtigt:** Hvis du udlejer via Airbnb eller Booking.com, er platformen forpligtet til at rapportere dine indtægter til myndighederne. Manglende indberetning opdages derfor næsten altid.
 
-## IBI vs. Modelo 210 - Hvad er Forskellen?
+## IBI vs. Modelo 210 - hvad er forskellen?
 
 Lad os tydeliggøre forskellen mellem disse to skatter:
 
-### Tabel: Sammenligning
+### Tabel: sammenligning
 
 | Aspekt | IBI | Modelo 210 |
 |--------|-----|------------|
@@ -440,7 +440,7 @@ Lad os tydeliggøre forskellen mellem disse to skatter:
 | **Frist** | Varierer (typisk sep-okt) | 31. december året efter |
 | **Konsekvens ved ikke-betaling** | Pant i ejendom, gebyrer | Bøder, renter, pant i ejendom |
 
-### IBI = Kommunal Ejendomsskat (Alle Betaler)
+### IBI = kommunal ejendomsskat (alle betaler)
 
 **Hvad er IBI?**
 
@@ -464,7 +464,7 @@ IBI er den spanske version af ejendomsskat. Alle ejendomsejere betaler den - bå
 
 **Vigtigt:** IBI er den skat der altid kommer, uanset din status. Den er nemt at betale fordi kommunen sender regningen.
 
-### Modelo 210 = Statslig Ikke-Resident Skat
+### Modelo 210 = statslig ikke-resident skat
 
 **Hvad er Modelo 210?**
 
@@ -489,7 +489,7 @@ Modelo 210 er en indkomstskat på den "imputerede indkomst" af at eje en ejendom
 - Intet kommer automatisk
 - Mange glemmer dette og får bøder
 
-### Begge Skal Betales
+### Begge skal betales
 
 Som ikke-resident ejer betaler du **BÅDE** IBI og Modelo 210:
 
@@ -505,11 +505,11 @@ Plus eventuelt:
 
 Dette er vigtigt at budgettere med ved køb af spansk feriebolig.
 
-## Hvad Sker Der Hvis Du Ikke Indberetter?
+## Hvad sker der hvis du ikke indberetter?
 
 Manglende eller forkert indberetning af Modelo 720 eller 210 kan få alvorlige konsekvenser.
 
-### Modelo 720 - Bøder og Konsekvenser
+### Modelo 720 - bøder og konsekvenser
 
 **Nye bøder (efter EU-dom 2022):**
 
@@ -546,7 +546,7 @@ Selvom bøderne er reduceret, er de stadig betydelige.
 
 Udover bøder kan der pålægges renter på den skat, myndighederne vurderer skulle være betalt af ikke-rapporterede indtægter fra aktiverne.
 
-### Modelo 210 - Bøder og Konsekvenser
+### Modelo 210 - bøder og konsekvenser
 
 **Manglende indberetning:**
 
@@ -590,7 +590,7 @@ Hvis du ikke betaler:
 
 **Vigtigt:** Selvom der er forældelse, anbefales det stærkt at rette frivilligt op på manglende indberetninger. Bøderne reduceres betydeligt ved frivillig selvrettelse.
 
-### Mulighed for Eftergivelse
+### Mulighed for eftergivelse
 
 I visse tilfælde kan bøder reduceres eller eftergives:
 
@@ -615,11 +615,11 @@ I visse tilfælde kan bøder reduceres eller eftergives:
 
 Jo før du retter op, des mindre bliver de samlede omkostninger.
 
-## Trin-for-Trin: Sådan Indberetter Du
+## Trin-for-trin: sådan indberetter du
 
 Lad os gennemgå den praktiske proces for at indberette begge modelos.
 
-### Modelo 720 - Praktisk Guide
+### Modelo 720 - praktisk guide
 
 **Trin 1: Indsaml dokumentation**
 
@@ -678,7 +678,7 @@ De fleste danskere finder det nemmest at bruge en gestor:
 - Du modtager bekræftelse
 - Omkostning: 150-400 EUR/år (afhænger af kompleksitet)
 
-### Modelo 210 - Praktisk Guide
+### Modelo 210 - praktisk guide
 
 **Trin 1: Find din katastralværdi**
 
@@ -724,11 +724,11 @@ For udlejning:
 - Gem betalt modelo 210 i 4 år minimum
 - Ved salg af ejendom skal du fremvise kvitteringer for betalte Modelo 210 for de seneste år
 
-## Hvornår Bør Du Bruge en Rådgiver?
+## Hvornår bør du bruge en rådgiver?
 
 Selvom formularerne i teorien kan udfyldes selv, er der mange situationer hvor professionel hjælp er en god investering.
 
-### Modelo 720 - Overvej Rådgiver Hvis:
+### Modelo 720 - overvej rådgiver hvis:
 
 **Komplekse formueforhold**
 - Flere bankkonti i forskellige lande
@@ -755,7 +755,7 @@ Selvom formularerne i teorien kan udfyldes selv, er der mange situationer hvor p
 - Efterfølgende: 150-300 EUR/år
 - Hvis ingen ændringer: Kan være gratis (kun betaler hvis ny indberetning)
 
-### Modelo 210 - Overvej Rådgiver Hvis:
+### Modelo 210 - overvej rådgiver hvis:
 
 **Udlejning af ejendom**
 - Beregning af fradrag
@@ -781,7 +781,7 @@ Selvom formularerne i teorien kan udfyldes selv, er der mange situationer hvor p
 - Udlejning, én ejendom: 200-400 EUR/år (inkl. kvartalsindberetninger)
 - Flere ejendomme: 100-150 EUR per ekstra ejendom
 
-### Find en God Rådgiver
+### Find en god rådgiver
 
 **Hvad skal du kigge efter:**
 
@@ -812,7 +812,7 @@ Selvom formularerne i teorien kan udfyldes selv, er der mange situationer hvor p
 - Bed din ejendomsmægler om anbefaling
 - Kontakt os hos Buxton Gefke Law - vi har et netværk af pålidelige gestorer
 
-## Ofte Stillede Spørgsmål
+## Ofte stillede spørgsmål
 
 ### Skal jeg indberette Modelo 720 hvis jeg har under 50.000 EUR?
 
@@ -1026,7 +1026,7 @@ Modelo 720 og 210 er to forskellige skatter med forskellige formål, men begge e
 - Typisk 200-500 EUR/år
 - **Anbefaling:** Overvej gestor (80-150 EUR) for sikkerhed
 
-### Vigtigste Råd
+### Vigtigste råd
 
 **1. Forstå din status:**
 - Er du resident eller ikke-resident?
@@ -1052,7 +1052,7 @@ Modelo 720 og 210 er to forskellige skatter med forskellige formål, men begge e
 - Gør det selv (reducerer bøder)
 - Vent ikke til myndighederne opdager det
 
-### Sluttelig Bemærkning
+### Sluttelig bemærkning
 
 Spansk skat kan virke kompleks og bureaukratisk sammenlignet med det danske system. Men med den rette viden og professionel hjælp er det overkommeligt.
 

@@ -31,29 +31,28 @@
     "title": "Skriv en anmeldelse"
   },
   "about": {
-    "heroTitle": "Om mig",
-    "heroSubtitle": "Spansk advokat / abogado",
-    "metaTitle": "Om mig | Christian Gefke – Spansk Advokat",
-    "metaDescription": "Mød Christian Gefke, en autoriseret spansk advokat med juridisk ekspertise og international baggrund. Få professionel rådgivning om fast ejendom, erhverv og privatretten i Spanien.",
-    "intro": "Mit navn er Christian Gefke, og jeg er en autoriseret advokat (medlemsnummer 635 ved Advokatsammenslutningen på Lanzarote) med en solid uddannelse og omfattende erfaring inden for jura. Jeg blev født i Aarhus, Danmark, men voksede op på Lanzarote, de Kanariske Øer.",
-    "introEnglish": "Spanish lawyer in Aarhus – Christian Gefke is an officially registered abogado with the Colegio de Abogados de Lanzarote (No. 635). He provides expert legal assistance in Spanish property law, inheritance, family law, contracts, and cross-border matters for clients in Denmark and Spain. Fully verified in the CGAE national lawyer registry, he offers reliable guidance for anyone needing a Spanish lawyer in Aarhus or legal help related to Spain.",
-    "education": "Jeg har en jurauuddannelse fra Universitetet i Las Palmas de Gran Canaria, hvorfra jeg besidder min viden inden for de juridiske områder. Derefter afsluttede jeg en kandidatuddannelse på Universidad Internacional de la Rioja (UNIR), hvor jeg specialiserede mig i erhvervelse af fast ejendom. I 2022 bestod jeg den nationale advokatprøve som afholdes årligt af det spanske justitsministerium, hvilket gav mig ret til optagelse i en lokal advokatforening – en nødvendig betingelse i Spanien for at føre sager i retten.",
-    "career": "Gennem min karriere har jeg haft mulighed for at arbejde med flere prominente virksomheder, såsom Grupo Stier, en af de førende aktører i havnen i Las Palmas, samt Grupo Martinez inden for fast ejendom og detailhandel i Spanien. Derudover har jeg samarbejdet med en bred vifte af uafhængige konsulenter, revisorer, økonomer og advokater.",
-    "passion": "Min passion for jura opstår primært i privatretten, hvor denne som en udviklende realitet medbringer vigtige lektioner, når samfundet præsenteres for nye udfordringer – hvad enten det drejer sig om nye teknologier eller gamle institutioner med nye særpræg.",
-    "closing": "Jeg er her for at tilbyde dig juridisk rådgivning af høj kvalitet og hjælpe dig med at navigere i den komplekse juridiske verden med tillid og sikkerhed.",
-    "backgroundTitle": "Min juridiske baggrund",
-    "background2012": "2012 – 2017:",
-    "background2012Text": "LLB/Bachelor i jura ved ULPGC",
-    "background2017": "2017 – 2018:",
-    "background2017Text": "Stier Group og BG Abogados jurist i praktik",
-    "background2019": "2019 – idag:",
-    "background2019Text": "Selvstændig rådgiver – primært i Barcelona og de Kanariske Øer",
-    "background2021": "2021 – 2023:",
-    "background2021Text": "LLM/Kandidat i jura ved UNIR",
-    "background2022": "2022 – 2023:",
-    "background2022Text": "Grupo Martinez i advokatpraktik/fuldmægtig",
-    "background2022b": "2022 – 2023:",
-    "background2022bText": "Titel Advokat – bestået den nationale statseksamen for advokater afholdt af det spanske justitsministerium"
+    "heroTitle": "Om Christian Gefke",
+    "heroSubtitle": "Spansk advokat med dansk baggrund",
+    "metaTitle": "Om Christian Gefke | Spansk advokat med dansk baggrund",
+    "metaDescription": "Christian Gefke er spansk advokat med dansk baggrund. Rådgivning om skattemæssig bopæl, ejendom, arv, virksomhedsetablering og internationale kontraktforhold.",
+    "intro": "Jeg er spansk advokat med dansk baggrund og arbejder med juridiske forhold mellem Danmark og spansktalende jurisdiktioner.",
+    "work": "Mit arbejde består i at skabe klarhed og struktur, når private eller virksomheder bevæger sig på tværs af grænser – hvad enten det handler om skattemæssig bopæl, ejendom, arv, virksomhedsetablering eller internationale kontraktforhold.",
+    "registration": "Jeg er registreret advokat med beskikkelse fra Lanzarotes advokatsamfund og autoriseret af det spanske justitsministerium.",
+    "education": "Min juridiske uddannelse er gennemført i Spanien, hvor jeg har opnået både juridisk embedseksamen og den officielle adgangsgivende master til advokatprofessionen.",
+    "bridge": "Gennem mit arbejde bevæger jeg mig dagligt mellem to retssystemer, to sprog og to juridiske kulturer. Det giver mine klienter en praktisk fordel – fordi juridiske problemstillinger sjældent stopper ved landegrænser.",
+    "clientsIntro": "Jeg rådgiver både:",
+    "client1": "Private, der flytter mellem Danmark og Spanien",
+    "client2": "Familier med aktiver i flere lande",
+    "client3": "Danske virksomheder med aktiviteter i Spanien",
+    "client4": "Virksomheder, der ønsker adgang til spansktalende markeder",
+    "focus": "Mit fokus er altid det samme: At sikre korrekt struktur fra begyndelsen – så risiko, skat og juridiske konsekvenser er gennemtænkt før beslutninger træffes.",
+    "backgroundTitle": "Professionel baggrund",
+    "bg1": "Registreret spansk advokat ved Lanzarotes Advokatsamfund",
+    "bg2": "Godkendelse af Spaniens Advokatråd",
+    "bg3": "Advokat bestalling af Spaniens Justitsministerie",
+    "bg4": "Cand.jur. fra Universidad Internacional de La Rioja",
+    "bg5": "Bachelor i jura fra Universidad de Las Palmas de Gran Canaria",
+    "bg6": "Praktisk erfaring med grænseoverskridende sager siden 2017"
   },
   "workInSpain": {
     "metaTitle": "Arbejde i Spanien – Hvad danskere skal vide | Christian Gefke",
@@ -1594,44 +1593,64 @@
     "badgeAssociation": "Lanzarote Bar Association"
   },
   "menu": {
-    "familyAndInheritance": {
-      "label": "Familie og arveret",
+    "crossBorder": {
+      "label": "Cross-border rådgivning",
       "sub": {
-        "internationalDivorces": "Internationale skilsmisser",
-        "probateInInheritance": "Værneting i arvesager",
-        "lawChoiceInInheritance": "Lovvalg i arvesager",
-        "willsInSpain": "Testamenter i Spanien"
-      }
-    },
-    "realEstate": {
-      "label": "Fast ejendom",
-      "sub": {
-        "rentalContracts": "Leje-aftaler i Spanien",
-        "mortgageAndLien": "Realkredit og pant i fast ejendom",
-        "planningLaw": "Planlovgivning, urbanisme og byggejura",
-        "buySellRealEstate": "Køb og salg af fast ejendom",
-        "homeownerAssociations": "Ejerforeninger"
-      }
-    },
-    "daneInSpain": {
-      "label": "Dansker i Spanien",
-      "sub": {
-        "residency": "Opholdstilladelse",
-        "pensionAndHomeCare": "Pensión og hjemmepleje i Spanien:",
-        "workInSpain": "Arbejde i Spanien",
-        "taxAdvice": "Skatterådgivning i Spanien:"
+        "taxResidency": "Skattemæssig bopæl DK ↔ ES",
+        "relocation": "Flytning mellem Danmark og Spanien",
+        "pensionDoubleTax": "Pension & dobbeltbeskatning",
+        "familySuccession": "International familie- og arveret",
+        "dualCountry": "Struktur ved aktiviteter i begge lande"
       }
     },
     "business": {
-      "label": "Virksomhed",
+      "label": "Virksomhed & international handel",
       "sub": {
-        "selfEmployed": "Selvstændig i Spanien",
-        "startBusiness": "Virksomhed i spanien",
-        "holdingCompanies": "Holding Selskaber i Spanien eller Danmark?"
+        "companyFormation": "Etablering af virksomhed i Spanien",
+        "danishCompany": "Dansk virksomhed med aktiviteter i Spanien",
+        "contracts": "Kontrakter mellem DK og spansktalende markeder",
+        "exportPayment": "Eksport & betalingsstruktur",
+        "riskFinancing": "Risikofordeling og finansieringsstruktur",
+        "spanishPartners": "Samarbejde med spanske partnere"
       }
     },
-    "about": "Om",
-    "blog": "Blog"
+    "taxPrivate": {
+      "label": "Skat & private forhold",
+      "sub": {
+        "taxRelocation": "Skat ved flytning",
+        "pensionSpain": "Pension i Spanien",
+        "inheritanceWills": "Arv & testamente i Spanien",
+        "choiceLaw": "Lovvalg og værneting",
+        "worldwideIncome": "Global indkomst & skattemæssig hjemsted"
+      }
+    },
+    "property": {
+      "label": "Ejendom i Spanien",
+      "sub": {
+        "buyProperty": "Køb af bolig i Spanien",
+        "sellProperty": "Salg af bolig",
+        "propertyTax": "Skat ved ejendom",
+        "dueDiligence": "Due diligence",
+        "registration": "Tinglysning & registrering"
+      }
+    },
+    "insights": {
+      "label": "Indsigter",
+      "sub": {
+        "articles": "Artikler",
+        "currentTopics": "Aktuelle emner",
+        "internationalAffairs": "Internationale forhold"
+      }
+    },
+    "about": {
+      "label": "Om Christian Gefke",
+      "sub": {
+        "profile": "Profil",
+        "barAdmission": "Advokatbeskikkelse",
+        "cooperation": "Samarbejde",
+        "contact": "Kontakt"
+      }
+    }
   },
   "breadcrumb": {
     "home": "Hjem"

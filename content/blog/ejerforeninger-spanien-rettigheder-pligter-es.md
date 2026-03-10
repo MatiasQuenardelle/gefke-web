@@ -32,7 +32,7 @@ Esta guía te da una visión completa de:
 
 ## ¿Qué es una Comunidad de Propietarios?
 
-### Definición y Marco Legal
+### Definición y marco legal
 
 Una *Comunidad de Propietarios* (abreviatura: CP) es una asociación legal de todos los propietarios en un edificio o complejo residencial con instalaciones compartidas.
 
@@ -45,7 +45,7 @@ Una *Comunidad de Propietarios* (abreviatura: CP) es una asociación legal de to
 
 > **Importante:** Si compras una propiedad en un edificio o complejo con zonas comunes, te conviertes automática y obligatoriamente en miembro de la CP. No puedes optar por no ser miembro.
 
-### ¿Qué Constituye una Comunidad?
+### ¿Qué constituye una Comunidad?
 
 Una CP existe cuando hay:
 - **Múltiples propiedades independientes** (apartamentos, adosados, etc.)
@@ -60,7 +60,7 @@ Una CP existe cuando hay:
 - ✅ Edificio alto con 100 apartamentos
 - ❌ Villa independiente sin instalaciones compartidas (no hay CP)
 
-### Cuota de Participación - Tu Parte
+### Cuota de Participación - tu parte
 
 Cuando compras la propiedad, se te asigna una *cuota de participación*—tu parte de la comunidad.
 
@@ -88,9 +88,9 @@ Tu parte: €100.000 × 2,5% = €2.500/año
 
 ---
 
-## Gastos de Comunidad
+## Gastos de comunidad
 
-### ¿Qué Cubren los Gastos de Comunidad?
+### ¿Qué cubren los gastos de comunidad?
 
 Los gastos de comunidad son los costes continuos para operar y mantener las zonas comunes.
 
@@ -104,7 +104,7 @@ Los gastos de comunidad son los costes continuos para operar y mantener las zona
 | **Administración** | Honorarios del administrador, contable/abogado cuando sea necesario |
 | **Fondo de Reserva** | Ahorro para gastos futuros (nuevo tejado, pintura de fachada) |
 
-### Cantidades Típicas
+### Cantidades típicas
 
 Los gastos de comunidad varían enormemente dependiendo de:
 - Tamaño del complejo
@@ -122,7 +122,7 @@ Los gastos de comunidad varían enormemente dependiendo de:
 | Complejo de lujo con múltiples piscinas, gimnasio, conserjería | €300-600+ |
 | Urbanizaciones de adosados | €50-120 (a menudo menor porque las zonas comunes son más pequeñas) |
 
-### ¿Cómo Se Pagan los Gastos de Comunidad?
+### ¿Cómo se pagan los gastos de comunidad?
 
 **Frecuencia de Pago:**
 - **Mensual:** Más común
@@ -144,7 +144,7 @@ Los gastos de comunidad varían enormemente dependiendo de:
 > - Configurar la domiciliación bancaria
 > - Comprobar que el primer pago se realiza
 
-### ¿Qué Pasa Si No Pagas?
+### ¿Qué pasa si no pagas?
 
 No pagar los gastos de comunidad tiene consecuencias serias:
 
@@ -171,11 +171,11 @@ No pagar los gastos de comunidad tiene consecuencias serias:
 
 ---
 
-## Junta de Propietarios
+## Junta de propietarios
 
 La junta de propietarios es el órgano supremo de toma de decisiones en la CP. Todas las decisiones importantes sobre operaciones, presupuesto, mantenimiento y normas se toman aquí.
 
-### Junta General Ordinaria
+### Junta general ordinaria
 
 | Aspecto | Detalles |
 |---------|----------|
@@ -196,7 +196,7 @@ La junta de propietarios es el órgano supremo de toma de decisiones en la CP. T
 - Cuentas y presupuesto (como anexos)
 - Cualquier otro documento relevante
 
-### Junta General Extraordinaria
+### Junta general extraordinaria
 
 **Cuándo Se Celebra:**
 Cuando surgen asuntos especiales entre las reuniones ordinarias.
@@ -212,7 +212,7 @@ Cuando surgen asuntos especiales entre las reuniones ordinarias.
 - El administrador
 - Al menos el 25% de los propietarios (medido por cuotas)
 
-### Tu Derecho a Voto
+### Tu derecho a voto
 
 **Regla Básica:** 1 propiedad = 1 voto
 
@@ -232,7 +232,7 @@ Si no puedes asistir, puedes:
 **Pérdida del Derecho a Voto:**
 Si tienes más de **3 meses de atraso** con los gastos de comunidad, pierdes el derecho a voto (pero sigues teniendo derecho a asistir).
 
-### Procedimiento de la Reunión
+### Procedimiento de la reunión
 
 **1. Establecimiento del Quórum**
 Debe haber asistencia suficiente (quórum):
@@ -261,7 +261,7 @@ Cada punto se discute y se vota.
 **5. Documentación**
 Todo debe registrarse en el acta.
 
-### Decisiones y Mayorías
+### Decisiones y mayorías
 
 Diferentes decisiones requieren diferentes mayorías:
 
@@ -286,11 +286,11 @@ El acta es legalmente vinculante. Si no estuviste en la reunión y no estás de 
 
 ---
 
-## Nuevas Normas sobre Alquiler Vacacional (2023)
+## Nuevas normas sobre alquiler vacacional (2023)
 
 En junio de 2023, se aprobó una nueva Ley de Vivienda que dio a las comunidades de propietarios un poder significativo para regular el alquiler vacacional.
 
-### ¿Qué Ha Cambiado?
+### ¿Qué ha cambiado?
 
 | Antes de 2023 | Después de 2023 |
 |---------------|-----------------|
@@ -298,7 +298,7 @@ En junio de 2023, se aprobó una nueva Ley de Vivienda que dio a las comunidades
 | Algunos estatutos intentaban prohibiciones, pero era legalmente incierto | Requiere mayoría de 3/5 en junta de propietarios |
 | Muchas CPs estaban frustradas por la "hotelización" | Los cambios deben incorporarse a los estatutos |
 
-### ¿Qué Puede Decidir la CP?
+### ¿Qué puede decidir la CP?
 
 **1. Prohibición Total:**
 "En esta comunidad de propietarios, el alquiler a corto plazo/vacacional está prohibido."
@@ -312,7 +312,7 @@ En junio de 2023, se aprobó una nueva Ley de Vivienda que dio a las comunidades
 - Depósito especial de €5.000
 - Persona de contacto local disponible 24/7 para gestionar problemas"
 
-### ¿Cómo Se Decide?
+### ¿Cómo se decide?
 
 **Proceso:**
 
@@ -334,7 +334,7 @@ Votos a favor de la prohibición: 32 unidades (64% de cuotas)
 Resultado: APROBADO (64% > 60%)
 ```
 
-### ¿Qué Pasa con los Alquileres Existentes?
+### ¿Qué pasa con los alquileres existentes?
 
 **Regla Transitoria:**
 Si ya tenías alquiler vacacional legal (con licencia turística) ANTES de la prohibición de la CP, normalmente puedes continuar.
@@ -347,7 +347,7 @@ Si ya tenías alquiler vacacional legal (con licencia turística) ANTES de la pr
 **Alquiler Ilegal:**
 Si alquilabas ilegalmente (sin licencia), no obtienes protección. La CP puede pararte inmediatamente.
 
-### Consecuencias de la Infracción
+### Consecuencias de la infracción
 
 Si la CP ha prohibido el alquiler vacacional y lo haces de todos modos:
 
@@ -365,11 +365,11 @@ Si la CP ha prohibido el alquiler vacacional y lo haces de todos modos:
 
 ---
 
-## Administrador de Fincas
+## Administrador de fincas
 
 La mayoría de las CPs tienen un administrador profesional para gestionar las operaciones diarias.
 
-### ¿Qué Hace el Administrador?
+### ¿Qué hace el administrador?
 
 | Categoría | Tareas |
 |-----------|--------|
@@ -378,7 +378,7 @@ La mayoría de las CPs tienen un administrador profesional para gestionar las op
 | **Prácticas** | Coordinar reparaciones y mantenimiento, contratar proveedores (piscina, jardín, limpieza), supervisar que el trabajo se realice correctamente, gestionar emergencias |
 | **Legales** | Hacer cumplir estatutos, perseguir a deudores, representar a la CP externamente (con autorización de la junta) |
 
-### Administrador Profesional vs. Residente
+### Administrador profesional vs. residente
 
 | Tipo | Pros | Contras |
 |------|------|---------|
@@ -388,7 +388,7 @@ La mayoría de las CPs tienen un administrador profesional para gestionar las op
 **Complejos pequeños** (10-20 unidades): A menudo administrador residente
 **Complejos medianos y grandes:** Típicamente profesional
 
-### ¿Cómo Se Selecciona/Destituye al Administrador?
+### ¿Cómo se selecciona/destituye al administrador?
 
 | Acción | Requisito |
 |--------|-----------|
@@ -420,9 +420,9 @@ Típicamente pagados según dos modelos:
 
 ---
 
-## Problemas y Conflictos
+## Problemas y conflictos
 
-### Ruido de Vecinos y Molestias
+### Ruido de vecinos y molestias
 
 **Quejas Más Comunes:**
 - 🔊 Ruido de vecinos (fiestas, música, niños)
@@ -446,7 +446,7 @@ La mayoría de las CPs tienen normas de convivencia en los estatutos:
 
 Las infracciones pueden resultar en multas (establecidas en estatutos).
 
-### Desacuerdo Sobre Gastos
+### Desacuerdo sobre gastos
 
 **Escenario:**
 La CP decide una renovación importante (ej., nuevo tejado por €80.000). Crees que es demasiado caro o innecesario.
@@ -464,7 +464,7 @@ La CP decide una renovación importante (ej., nuevo tejado por €80.000). Crees
 **Excepción:**
 Si la decisión fue ilegal (ej., mayoría incorrecta, falta de convocatoria), puedes demandar para que sea anulada.
 
-### ¿Cómo Se Resuelven los Conflictos?
+### ¿Cómo se resuelven los conflictos?
 
 | Paso | Descripción |
 |------|-------------|
@@ -476,9 +476,9 @@ Si la decisión fue ilegal (ej., mayoría incorrecta, falta de convocatoria), pu
 
 ---
 
-## Tus Derechos como Propietario Extranjero
+## Tus derechos como propietario extranjero
 
-### ¿Tienes los Mismos Derechos que los Españoles?
+### ¿Tienes los mismos derechos que los españoles?
 
 **¡Sí, completamente!** Como ciudadano de la UE, tienes:
 - ✅ Mismos derechos de propiedad
@@ -488,7 +488,7 @@ Si la decisión fue ilegal (ej., mayoría incorrecta, falta de convocatoria), pu
 
 **No debe** haber discriminación basada en nacionalidad.
 
-### ¿Información en Tu Idioma?
+### ¿Información en tu idioma?
 
 **No, no hay derecho a esto.**
 
@@ -503,7 +503,7 @@ La CP se comunica en español:
 - Pide recibir los documentos con suficiente antelación
 - Lleva un intérprete a las juntas de propietarios
 
-### ¿Cómo Te Mantienes Informado?
+### ¿Cómo te mantienes informado?
 
 1. **Actualiza tu información de contacto:** Asegúrate de que el administrador tiene tu dirección postal, email y número de teléfono
 2. **Lee las convocatorias cuidadosamente:** Aunque estén en español, haz traducir las importantes
@@ -513,11 +513,11 @@ La CP se comunica en español:
 
 ---
 
-## Lista de Control: Antes de Comprar en una Comunidad de Propietarios
+## Lista de control: antes de comprar en una Comunidad de Propietarios
 
 Usa esta lista de control para evitar sorpresas desagradables:
 
-### ☐ Obtener y Revisar Documentos
+### ☐ Obtener y revisar documentos
 
 **A través del vendedor o tu abogado:**
 - [ ] **Estatutos**—haz traducir las partes más importantes
@@ -527,7 +527,7 @@ Usa esta lista de control para evitar sorpresas desagradables:
 - [ ] **Presupuesto** del año actual
 - [ ] **Certificado de estar al corriente de pago**
 
-### ☐ Comprobar Asuntos Financieros
+### ☐ Comprobar asuntos financieros
 
 - [ ] ¿Cuáles son los **gastos mensuales de comunidad**? ¿Puedes vivir con eso?
 - [ ] ¿Hay **facturas impagadas** en la propiedad?
@@ -535,7 +535,7 @@ Usa esta lista de control para evitar sorpresas desagradables:
 - [ ] ¿Hay un **fondo de reserva** acumulado? (¡buena señal!)
 - [ ] ¿Hay **demandas pendientes** contra o por la CP?
 
-### ☐ Investigar Normas y Restricciones
+### ☐ Investigar normas y restricciones
 
 - [ ] ¿Se puede **alquilar** la propiedad? (¿A largo plazo? ¿A corto plazo?)
 - [ ] ¿Hay **prohibición de alquiler vacacional**?
@@ -544,7 +544,7 @@ Usa esta lista de control para evitar sorpresas desagradables:
 - [ ] ¿Hay restricciones sobre **modificaciones** en el apartamento?
 - [ ] ¿Normas de **aparcamiento**?
 
-### ☐ Evaluar Instalaciones y Mantenimiento
+### ☐ Evaluar instalaciones y mantenimiento
 
 - [ ] Visita el complejo y ve las **zonas comunes**
 - [ ] ¿Están la piscina, jardín y edificios en **buen estado**?
@@ -552,7 +552,7 @@ Usa esta lista de control para evitar sorpresas desagradables:
 - [ ] ¿Hay **daños visibles** (grietas, humedad, etc.)?
 - [ ] Habla con **otros propietarios** sobre su experiencia
 
-### ☐ Entender la Gobernanza
+### ☐ Entender la gobernanza
 
 - [ ] ¿Quién es el **administrador**? ¿Profesional o residente?
 - [ ] ¿Cuántas **unidades** hay en el complejo?
@@ -560,7 +560,7 @@ Usa esta lista de control para evitar sorpresas desagradables:
 - [ ] ¿Cuándo fue la **última junta de propietarios**?
 - [ ] ¿Hay **conflictos** en el complejo? (pregunta a vecinos discretamente)
 
-### ☐ Revisión Legal
+### ☐ Revisión legal
 
 - [ ] Haz que tu **abogado** revise todos los documentos
 - [ ] Comprueba que **no hay cargas** en la propiedad (Nota Simple)
@@ -597,7 +597,7 @@ Una comunidad de propietarios bien funcionando puede hacer tu experiencia de pro
 
 ---
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ### ¿Puedo evitar ser miembro de la comunidad de propietarios?
 No, la membresía es automática y obligatoria al comprar una propiedad en un complejo con instalaciones compartidas. No puedes optar por no participar, y no puedes vender tu parte por separado.

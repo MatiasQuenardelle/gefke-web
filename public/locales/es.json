@@ -31,29 +31,28 @@
     "title": "Escribe una reseña"
   },
   "about": {
-    "heroTitle": "Sobre mí",
-    "heroSubtitle": "Abogado español / abogado",
-    "metaTitle": "Sobre mí | Christian Gefke – Abogado Español",
-    "metaDescription": "Conoce a Christian Gefke, un abogado español autorizado con experiencia legal y antecedentes internacionales. Obtén asesoramiento profesional sobre bienes raíces, negocios y derecho privado en España.",
-    "intro": "Mi nombre es Christian Gefke, y soy un abogado autorizado (número de miembro 635 del Colegio de Abogados de Lanzarote) con una sólida educación y amplia experiencia en derecho. Nací en Aarhus, Dinamarca, pero crecí en Lanzarote, Islas Canarias.",
-    "introEnglish": "Abogado español en Aarhus – Christian Gefke es un abogado oficialmente registrado con el Colegio de Abogados de Lanzarote (Nº 635). Proporciona asistencia legal experta en derecho inmobiliario español, herencias, derecho familiar, contratos y asuntos transfronterizos para clientes en Dinamarca y España. Completamente verificado en el registro nacional de abogados CGAE, ofrece orientación confiable para cualquiera que necesite un abogado español en Aarhus o ayuda legal relacionada con España.",
-    "education": "Tengo un título en derecho de la Universidad de Las Palmas de Gran Canaria, del cual poseo mi conocimiento en áreas legales. Luego completé una maestría en la Universidad Internacional de la Rioja (UNIR), donde me especialicé en adquisición de bienes raíces. En 2022, aprobé el examen nacional de abogados que se realiza anualmente por el Ministerio de Justicia español, lo que me dio el derecho de unirme a un colegio de abogados local – una condición necesaria en España para ejercer la abogacía en los tribunales.",
-    "career": "A lo largo de mi carrera, he tenido la oportunidad de trabajar con varias empresas prominentes, como Grupo Stier, uno de los principales actores en el puerto de Las Palmas, así como Grupo Martinez en bienes raíces y retail en España. Además, he colaborado con una amplia gama de consultores independientes, contadores, economistas y abogados.",
-    "passion": "Mi pasión por el derecho surge principalmente en el derecho privado, donde esto como una realidad en evolución trae lecciones importantes cuando la sociedad se presenta con nuevos desafíos – ya sea que se trate de nuevas tecnologías o instituciones antiguas con nuevas características.",
-    "closing": "Estoy aquí para ofrecerte asesoramiento legal de alta calidad y ayudarte a navegar en el complejo mundo legal con confianza y seguridad.",
-    "backgroundTitle": "Mi formación legal",
-    "background2012": "2012 – 2017:",
-    "background2012Text": "LLB/Licenciatura en derecho en ULPGC",
-    "background2017": "2017 – 2018:",
-    "background2017Text": "Grupo Stier y BG Abogados abogado en práctica",
-    "background2019": "2019 – hoy:",
-    "background2019Text": "Consultor independiente – principalmente en Barcelona y las Islas Canarias",
-    "background2021": "2021 – 2023:",
-    "background2021Text": "LLM/Máster en derecho en UNIR",
-    "background2022": "2022 – 2023:",
-    "background2022Text": "Grupo Martinez en práctica legal/asociado",
-    "background2022b": "2022 – 2023:",
-    "background2022bText": "Título de Abogado – aprobado el examen estatal nacional para abogados realizado por el Ministerio de Justicia español"
+    "heroTitle": "Sobre Christian Gefke",
+    "heroSubtitle": "Abogado español con raíces danesas",
+    "metaTitle": "Sobre Christian Gefke | Abogado español con raíces danesas",
+    "metaDescription": "Christian Gefke es abogado español con raíces danesas. Asesoramiento sobre residencia fiscal, propiedad, herencia, constitución de empresas y relaciones contractuales internacionales.",
+    "intro": "Soy abogado español con raíces danesas y trabajo con asuntos jurídicos entre Dinamarca y jurisdicciones de habla hispana.",
+    "work": "Mi trabajo consiste en crear claridad y estructura cuando particulares o empresas se mueven a través de fronteras – ya se trate de residencia fiscal, propiedad, herencia, constitución de empresas o relaciones contractuales internacionales.",
+    "registration": "Soy abogado colegiado con habilitación del Ilustre Colegio de Abogados de Lanzarote y autorizado por el Ministerio de Justicia de España.",
+    "education": "Mi formación jurídica se completó en España, donde obtuve tanto la licenciatura en derecho como el máster oficial de acceso a la profesión de abogado.",
+    "bridge": "A través de mi trabajo, me muevo diariamente entre dos sistemas jurídicos, dos idiomas y dos culturas legales. Esto ofrece a mis clientes una ventaja práctica – porque los problemas jurídicos rara vez se detienen en las fronteras nacionales.",
+    "clientsIntro": "Asesoro tanto a:",
+    "client1": "Particulares que se trasladan entre Dinamarca y España",
+    "client2": "Familias con activos en varios países",
+    "client3": "Empresas danesas con actividades en España",
+    "client4": "Empresas que desean acceder a mercados de habla hispana",
+    "focus": "Mi enfoque es siempre el mismo: Asegurar la estructura correcta desde el inicio – para que el riesgo, los impuestos y las consecuencias legales estén bien planificados antes de tomar decisiones.",
+    "backgroundTitle": "Formación profesional",
+    "bg1": "Abogado colegiado en el Ilustre Colegio de Abogados de Lanzarote",
+    "bg2": "Aprobación del Consejo General de la Abogacía Española",
+    "bg3": "Habilitación de abogado por el Ministerio de Justicia de España",
+    "bg4": "Máster en Derecho de la Universidad Internacional de La Rioja",
+    "bg5": "Licenciatura en Derecho de la Universidad de Las Palmas de Gran Canaria",
+    "bg6": "Experiencia práctica en asuntos transfronterizos desde 2017"
   },
   "workInSpain": {
     "metaTitle": "Trabajar en España – Lo que los daneses deben saber | Christian Gefke",
@@ -1335,44 +1334,64 @@
     "badgeAssociation": "Colegio de Abogados de Lanzarote"
   },
   "menu": {
-    "familyAndInheritance": {
-      "label": "Familia y derecho sucesorio",
+    "crossBorder": {
+      "label": "Asesoramiento transfronterizo",
       "sub": {
-        "internationalDivorces": "Divorcios internacionales",
-        "probateInInheritance": "Tutela en casos de herencia",
-        "lawChoiceInInheritance": "Elección de ley en casos de herencia",
-        "willsInSpain": "Testamentos en España"
-      }
-    },
-    "realEstate": {
-      "label": "Bienes raíces",
-      "sub": {
-        "rentalContracts": "Contratos de alquiler en España",
-        "mortgageAndLien": "Hipoteca y gravamen en bienes raíces",
-        "planningLaw": "Derecho urbanístico, urbanismo y derecho de construcción",
-        "buySellRealEstate": "Compra y venta de bienes raíces",
-        "homeownerAssociations": "Comunidades de propietarios"
-      }
-    },
-    "daneInSpain": {
-      "label": "Danés en España",
-      "sub": {
-        "residency": "Permiso de residencia",
-        "pensionAndHomeCare": "Pensión y atención domiciliaria en España:",
-        "workInSpain": "Trabajar en España",
-        "taxAdvice": "Asesoramiento fiscal en España:"
+        "taxResidency": "Residencia fiscal DK ↔ ES",
+        "relocation": "Traslado entre Dinamarca y España",
+        "pensionDoubleTax": "Pensiones y doble imposición",
+        "familySuccession": "Sucesiones internacionales",
+        "dualCountry": "Estructuras entre dos jurisdicciones"
       }
     },
     "business": {
-      "label": "Empresa",
+      "label": "Empresa y comercio internacional",
       "sub": {
-        "selfEmployed": "Autónomo en España",
-        "startBusiness": "Iniciar empresa en España",
-        "holdingCompanies": "¿Sociedades holding en España o Dinamarca?"
+        "companyFormation": "Constitución de empresa en España",
+        "danishCompany": "Empresas danesas en España",
+        "contracts": "Contratos internacionales",
+        "exportPayment": "Exportación y estructura de pagos",
+        "riskFinancing": "Distribución de riesgos y financiación",
+        "spanishPartners": "Cooperación con socios españoles"
       }
     },
-    "about": "Acerca de",
-    "blog": "Blog"
+    "taxPrivate": {
+      "label": "Fiscalidad y asuntos privados",
+      "sub": {
+        "taxRelocation": "Fiscalidad por traslado",
+        "pensionSpain": "Pensiones en España",
+        "inheritanceWills": "Herencias y testamentos",
+        "choiceLaw": "Elección de ley y jurisdicción",
+        "worldwideIncome": "Renta mundial"
+      }
+    },
+    "property": {
+      "label": "Inmobiliario en España",
+      "sub": {
+        "buyProperty": "Compra de vivienda en España",
+        "sellProperty": "Venta de vivienda",
+        "propertyTax": "Fiscalidad inmobiliaria",
+        "dueDiligence": "Due diligence",
+        "registration": "Registro de la propiedad"
+      }
+    },
+    "insights": {
+      "label": "Artículos",
+      "sub": {
+        "articles": "Artículos",
+        "currentTopics": "Temas actuales",
+        "internationalAffairs": "Asuntos internacionales"
+      }
+    },
+    "about": {
+      "label": "Sobre",
+      "sub": {
+        "profile": "Perfil",
+        "barAdmission": "Colegiación",
+        "cooperation": "Colaboración",
+        "contact": "Contacto"
+      }
+    }
   },
   "blog": {
     "metaTitle": "Blog | Christian Gefke – Noticias Legales sobre Derecho Español",

@@ -1,27 +1,16 @@
-import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import WhatsAppWidgetWrapper from "@/components/WhatsAppWidgetWrapper"
 import dynamic from "next/dynamic"
-import Script from "next/script" // ✅ Import Script for Google Analytics
+import Script from "next/script"
 
 // Lazy load non-critical components for better initial page load
 const ContactForm = dynamic(() => import("@/components/ContactForm"), {
-  loading: () => <div className="min-h-[400px]" />, // Placeholder to prevent layout shift
+  loading: () => <div className="min-h-[400px]" />,
 })
 const ContactCTA = dynamic(() => import("@/components/ContactCTA"), {
-  loading: () => <div className="min-h-[300px]" />, // Placeholder to prevent layout shift
-})
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-})
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  loading: () => <div className="min-h-[300px]" />,
 })
 
 import { getMetadata } from "@/lib/metadata"
@@ -92,7 +81,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className="antialiased"
       >
         <a href="#main-content" className="skip-link">
           Skip to main content

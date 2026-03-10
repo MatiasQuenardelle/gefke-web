@@ -23,11 +23,11 @@ Esta guía explica tus opciones, las diferencias clave entre sistemas legales, y
 
 ---
 
-## El Reglamento Europeo de Sucesiones: Un Cambio Revolucionario
+## El Reglamento Europeo de Sucesiones: un cambio revolucionario
 
 Desde agosto de 2015, el **Reglamento Europeo de Sucesiones (Nº 650/2012)** ha unificado las normas sucesorias en la mayoría de los estados miembros de la UE. Este reglamento es especialmente importante para cualquier persona que posea propiedades en un país diferente al de su nacionalidad.
 
-### Principios Fundamentales:
+### Principios fundamentales:
 
 | Aspecto | Regla |
 |---------|-------|
@@ -40,9 +40,9 @@ Desde agosto de 2015, el **Reglamento Europeo de Sucesiones (Nº 650/2012)** ha 
 
 ---
 
-## Por Qué Importa la Elección de Ley: Comparando Sistemas Legales
+## Por qué importa la elección de ley: comparando sistemas legales
 
-### Derecho Sucesorio Español
+### Derecho sucesorio español
 
 El derecho sucesorio español incluye estrictas **normas de legítima** que limitan tu libertad para distribuir bienes:
 
@@ -66,7 +66,7 @@ Los países que siguen la tradición del common law generalmente permiten:
 - **Protección del cónyuge**: Varía según jurisdicción
 - **Sin legítima**: Los hijos no tienen derecho automático a heredar
 
-### Derecho Sucesorio Danés/Nórdico
+### Derecho sucesorio danés/nórdico
 
 El derecho sucesorio danés y nórdico ofrece:
 - **Mayor flexibilidad** que la ley española
@@ -76,7 +76,7 @@ El derecho sucesorio danés y nórdico ofrece:
 
 ---
 
-## ¿Por Qué Elegir la Ley de tu País de Origen?
+## ¿Por qué elegir la ley de tu país de origen?
 
 Para la mayoría de extranjeros con propiedades en España, elegir la ley de su nacionalidad ofrece ventajas significativas:
 
@@ -97,15 +97,15 @@ Para la mayoría de extranjeros con propiedades en España, elegir la ley de su 
 
 ---
 
-## Cómo Hacer una Elección de Ley
+## Cómo hacer una elección de ley
 
-### 1. Crear un Testamento Válido
+### 1. Crear un testamento válido
 
 Tu testamento debe contener una clara **cláusula de elección de ley**. Ejemplo de redacción:
 
 > *"Elijo que la ley de [tu nacionalidad] sea aplicable a toda mi sucesión de conformidad con el Reglamento UE Nº 650/2012."*
 
-### 2. Considerar Testamentos Separados
+### 2. Considerar testamentos separados
 
 Muchos propietarios optan por:
 - **Testamento en país de origen** - Para bienes en tu país de nacionalidad
@@ -116,7 +116,7 @@ Muchos propietarios optan por:
 - Contener la misma elección de ley
 - No revocarse entre sí
 
-### 3. Registrar tu Testamento Español
+### 3. Registrar tu testamento español
 
 Los testamentos españoles pueden registrarse en el **Registro General de Actos de Última Voluntad**. Beneficios:
 
@@ -126,11 +126,11 @@ Los testamentos españoles pueden registrarse en el **Registro General de Actos 
 
 ---
 
-## Impuesto de Sucesiones Español: Sigue Aplicando
+## Impuesto de sucesiones español: sigue aplicando
 
 **Importante:** Elegir derecho sucesorio extranjero NO te exime del impuesto de sucesiones español. Las propiedades españolas siempre tributan en España.
 
-### Variaciones Fiscales Regionales:
+### Variaciones fiscales regionales:
 
 | Región | Reducción para Cónyuge/Hijos | Notas |
 |--------|------------------------------|-------|
@@ -140,13 +140,13 @@ Los testamentos españoles pueden registrarse en el **Registro General de Actos 
 | **Cataluña** | 20-50% | Menos generoso |
 | **Islas Baleares** | Variable | En proceso de reforma |
 
-### Factores de Cálculo del Impuesto:
+### Factores de cálculo del impuesto:
 
 - **Valor de la propiedad** en el momento del fallecimiento
 - **Relación con el fallecido** (cónyuge, hijo, hermano, etc.)
 - **Normativa regional** donde está ubicada la propiedad
 
-### Ejemplos de Tipos (Sin Beneficios Regionales):
+### Ejemplos de tipos (sin beneficios regionales):
 
 | Valor de la Herencia | Tipo Aproximado |
 |----------------------|-----------------|
@@ -160,23 +160,23 @@ Los testamentos españoles pueden registrarse en el **Registro General de Actos 
 
 ---
 
-## Situaciones Especiales
+## Situaciones especiales
 
-### Parejas Internacionales
+### Parejas internacionales
 
 Cuando los cónyuges tienen diferentes nacionalidades:
 - Cada cónyuge puede elegir la ley de su propia nacionalidad
 - Considerar testamentos conjuntos con elecciones de ley coordinadas
 - Tener en cuenta los regímenes de bienes matrimoniales
 
-### Hijos de Relaciones Anteriores
+### Hijos de relaciones anteriores
 
 La elección de ley extranjera puede ser beneficiosa cuando:
 - Quieres priorizar a tu cónyuge actual
 - Evitar la legítima española para los hijos
 - Crear acuerdos de distribución más flexibles
 
-### Parejas No Casadas
+### Parejas no casadas
 
 La ley española **no** reconoce a las parejas no casadas como herederas. Bajo ley extranjera, podrías:
 - Dejar propiedades directamente a tu pareja
@@ -185,7 +185,7 @@ La ley española **no** reconoce a las parejas no casadas como herederas. Bajo l
 
 ---
 
-## Plazos de la Sucesión en España
+## Plazos de la sucesión en España
 
 Cuando ocurre un fallecimiento que afecta a propiedades españolas:
 
@@ -201,7 +201,7 @@ Cuando ocurre un fallecimiento que afecta a propiedades españolas:
 - Inscribir la nueva titularidad en el Registro de la Propiedad
 - Evitar complicaciones adicionales
 
-### Documentos Requeridos:
+### Documentos requeridos:
 
 | Documento | Propósito | Dónde Obtenerlo |
 |-----------|-----------|-----------------|
@@ -213,27 +213,27 @@ Cuando ocurre un fallecimiento que afecta a propiedades españolas:
 
 ---
 
-## Recomendaciones Prácticas
+## Recomendaciones prácticas
 
-### 1. Hacer un Testamento
+### 1. Hacer un testamento
 
 Incluso si las normas de sucesión intestada de tu país son aceptables, un testamento:
 - Clarifica tu elección de ley
 - Acelera la sucesión
 - Reduce disputas
 
-### 2. Informar a tus Herederos
+### 2. Informar a tus herederos
 
 Asegúrate de que tus herederos sepan:
 - Dónde está tu testamento
 - Que elegiste ley extranjera
 - Datos de contacto de tu abogado español
 
-### 3. Considerar las Implicaciones Fiscales Regionales
+### 3. Considerar las implicaciones fiscales regionales
 
 Al comprar propiedad, las normas del impuesto de sucesiones de la región deberían influir en tu decisión.
 
-### 4. Obtener Asesoramiento Profesional
+### 4. Obtener asesoramiento profesional
 
 El derecho sucesorio es complejo. Consulta:
 - Un abogado en tu país familiar con sucesiones internacionales
@@ -242,7 +242,7 @@ El derecho sucesorio es complejo. Consulta:
 
 ---
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ### ¿Necesito un testamento español?
 

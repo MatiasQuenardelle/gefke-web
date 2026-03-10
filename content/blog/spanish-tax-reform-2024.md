@@ -22,7 +22,7 @@ Denne guide gennemgår de vigtigste ændringer og hvad de betyder for dig.
 
 ---
 
-## Digital Nomad Visum: En Game-Changer for Fjernarbejdere
+## Digital Nomad Visum: en game-changer for fjernarbejdere
 
 I 2023 introducerede Spanien **Digital Nomad Visum** (*Visado para Teletrabajadores*), der tilbyder fjernarbejdere en attraktiv mulighed for at bo og arbejde i Spanien med betydelige skattefordele.
 
@@ -35,7 +35,7 @@ I 2023 introducerede Spanien **Digital Nomad Visum** (*Visado para Teletrabajado
 | **Indkomstkrav** | Minimum €2.000/måned |
 | **Arbejdsfleksibilitet** | Arbejd for udenlandske arbejdsgivere eller som selvstændig |
 
-### Hvem Kan Ansøge?
+### Hvem kan ansøge?
 
 - Fjernarbejdere ansat af ikke-spanske virksomheder
 - Selvstændige med overvejende udenlandske kunder
@@ -46,11 +46,11 @@ I 2023 introducerede Spanien **Digital Nomad Visum** (*Visado para Teletrabajado
 
 ---
 
-## Ændringer i Ikke-Resident Beskatning for 2024
+## Ændringer i ikke-resident beskatning for 2024
 
 Hvis du ejer ejendom i Spanien, men ikke er skatteresident, påvirker flere vigtige ændringer dine forpligtelser:
 
-### Beskatning af Lejeindtægter
+### Beskatning af lejeindtægter
 
 | Aspekt | Tidligere Regler | 2024 Regler |
 |--------|------------------|-------------|
@@ -69,7 +69,7 @@ Hvis du ejer ejendom i Spanien, men ikke er skatteresident, påvirker flere vigt
 
 > **⚠️ Bemærk:** Ikke-EU borgere kan stadig ikke fradrage udgifter fra lejeindtægter—du beskattes af bruttolejeindtægten med 24%.
 
-### Imputeret Indkomstskat (IRNR)
+### Imputeret indkomstskat (IRNR)
 
 Selv hvis du ikke udlejer din spanske ejendom, skal du betale årlig imputeret indkomstskat:
 
@@ -79,11 +79,11 @@ Selv hvis du ikke udlejer din spanske ejendom, skal du betale årlig imputeret i
 
 ---
 
-## Formueskat-Opdateringer efter Region
+## Formueskat-opdateringer efter region
 
 Spaniens formueskat (*Impuesto sobre el Patrimonio*) varierer betydeligt efter autonom region. Her er det aktuelle landskab:
 
-### Regional Formueskat-Sammenligning
+### Regional formueskat-sammenligning
 
 | Region | Bundgrænse | Topsats | Noter |
 |--------|------------|---------|-------|
@@ -94,7 +94,7 @@ Spaniens formueskat (*Impuesto sobre el Patrimonio*) varierer betydeligt efter a
 | **Balearerne** | €700.000 | 3,45% | Turistområder |
 | **Kanariske Øer** | €700.000 | 0,4-3,03% | Moderate satser |
 
-### Vigtige Overvejelser:
+### Vigtige overvejelser:
 
 1. **Primær Bolig:** Yderligere €300.000 fritagelse gælder i de fleste regioner
 2. **Samlede Aktiver:** Inkluderer verdensomspændende aktiver for residenter, kun spanske aktiver for ikke-residenter
@@ -102,11 +102,11 @@ Spaniens formueskat (*Impuesto sobre el Patrimonio*) varierer betydeligt efter a
 
 ---
 
-## Solidaritetsskatten: En Ny Landsdækkende Afgift
+## Solidaritetsskatten: en ny landsdækkende afgift
 
 Introduceret i 2023 er **Solidaritetsskatten** (*Impuesto Temporal de Solidaridad de las Grandes Fortunas*) en national formueskat designet til at sikre minimumsbeskatning uanset regionale fritagelser.
 
-### Hvem Er Berørt?
+### Hvem er berørt?
 
 | Nettoformue | Skattesats |
 |-------------|------------|
@@ -124,11 +124,11 @@ Introduceret i 2023 er **Solidaritetsskatten** (*Impuesto Temporal de Solidarida
 
 ---
 
-## Ejendomsskat (IBI) Stigninger
+## Ejendomsskat (IBI) stigninger
 
 Mange kommuner har betydeligt hævet ejendomsskatter (*Impuesto sobre Bienes Inmuebles*):
 
-### Gennemsnitlige Stigninger efter Områdetype
+### Gennemsnitlige stigninger efter områdetype
 
 | Område | Gennemsnitlig Stigning | Årsag |
 |--------|------------------------|-------|
@@ -136,7 +136,7 @@ Mange kommuner har betydeligt hævet ejendomsskatter (*Impuesto sobre Bienes Inm
 | **Storbyer** | 3-6% | Infrastrukturomkostninger |
 | **Landdistrikter** | 1-3% | Minimale ændringer |
 
-### Faktorer der Påvirker Din IBI:
+### Faktorer der påvirker din IBI:
 
 - **Matrikelværdi-Revisioner:** Mange områder revurderet i 2023-2024
 - **Kommunale Koefficienter:** Kan variere fra 0,4% til 1,3% af matrikelværdi
@@ -146,11 +146,11 @@ Mange kommuner har betydeligt hævet ejendomsskatter (*Impuesto sobre Bienes Inm
 
 ---
 
-## Arveskat: Regionale Variationer
+## Arveskat: regionale variationer
 
 Spansk arveskat (*Impuesto sobre Sucesiones y Donaciones*) administreres regionalt, hvilket fører til dramatiske forskelle:
 
-### Aktuelle Regionale Fordele (Nær Familie)
+### Aktuelle regionale fordele (nær familie)
 
 | Region | Reduktion for Ægtefælle/Børn | Noter |
 |--------|------------------------------|-------|
@@ -160,7 +160,7 @@ Spansk arveskat (*Impuesto sobre Sucesiones y Donaciones*) administreres regiona
 | **Catalonien** | 20-50% | Mindre generøs |
 | **Balearerne** | Variabel | Under reform |
 
-### Vigtige Arveplanlægningspunkter:
+### Vigtige arveplanlægningspunkter:
 
 1. **EU's Arveforordning:** Du kan vælge dit hjemlands arveret
 2. **Gældende Region:** Bestemt af afdødes bopæl eller ejendomsplacering
@@ -190,9 +190,9 @@ Spanien har strammet kryptovaluta-reguleringen betydeligt:
 
 ---
 
-## Praktiske Anbefalinger
+## Praktiske anbefalinger
 
-### 1. Gennemgå Din Skatteposition
+### 1. Gennemgå din skatteposition
 
 Med disse ændringer kan din skattesituation have ændret sig betydeligt:
 
@@ -200,7 +200,7 @@ Med disse ændringer kan din skattesituation have ændret sig betydeligt:
 ✅ Overvej om ændring af skatteresidenssted giver mening
 ✅ Udforsk optimeringsmuligheder inden for lovlige rammer
 
-### 2. Dokumentation Er Kritisk
+### 2. Dokumentation er kritisk
 
 Spanske skattemyndigheder er stadig strengere med dokumentation:
 
@@ -208,7 +208,7 @@ Spanske skattemyndigheder er stadig strengere med dokumentation:
 ✅ Vedligehold kontoudtog og regnskaber
 ✅ Bevar ejendomsrelateret dokumentation i mindst 4 år
 
-### 3. Forstå Dine Indberetningsforpligtelser
+### 3. Forstå dine indberetningsforpligtelser
 
 | Formular | Formål | Hvem Skal Indberette |
 |----------|--------|---------------------|
@@ -217,7 +217,7 @@ Spanske skattemyndigheder er stadig strengere med dokumentation:
 | **Modelo 720** | Udenlandske aktiver | Spanske residenter med €50K+ i udlandet |
 | **Modelo 721** | Krypto-aktiver | Spanske residenter med €50K+ i krypto i udlandet |
 
-### 4. Overvej Regionale Forskelle
+### 4. Overvej regionale forskelle
 
 Når du køber ejendom eller flytter, kan regionale skatteforskelle betyde besparelser på titusindvis af euro:
 
@@ -227,7 +227,7 @@ Når du køber ejendom eller flytter, kan regionale skatteforskelle betyde bespa
 
 ---
 
-## Kommende Ændringer at Holde Øje Med
+## Kommende ændringer at holde øje med
 
 Flere forslag er aktuelt under behandling:
 
@@ -238,7 +238,7 @@ Flere forslag er aktuelt under behandling:
 
 ---
 
-## Ofte Stillede Spørgsmål
+## Ofte stillede spørgsmål
 
 ### Skal jeg betale skat i både mit hjemland og Spanien?
 

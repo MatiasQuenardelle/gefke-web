@@ -24,7 +24,7 @@ Som advokat i Spanien har jeg gennem årene hjulpet hundredvis af danske pension
 
 Denne guide giver dig den komplette tjekliste over ALT, du skal tænke på før, under og efter din flytning til Spanien som pensionist. Jeg tager dig gennem processen fase for fase, så du undgår de klassiske fejl og får en gnidningsfri start på dit nye liv i solen.
 
-## De 3 Faser af Udflytning
+## De 3 faser af udflytning
 
 For at gøre processen overskuelig kan vi dele din udflytning op i tre klare faser:
 
@@ -48,11 +48,11 @@ For at gøre processen overskuelig kan vi dele din udflytning op i tre klare fas
 
 Lad os gennemgå hver fase systematisk.
 
-## FASE 1: Før Du Rejser (3-6 Måneder Før)
+## FASE 1: Før du rejser (3-6 måneder før)
 
 Denne fase er afgørende. Det du gør nu, kan spare dig for enorme besvær senere.
 
-### Skattemæssig Fraflytning fra Danmark
+### Skattemæssig fraflytning fra Danmark
 
 **Afmelding fra Folkeregisteret:**
 
@@ -89,7 +89,7 @@ Ring eller skriv til SKAT og informer om din flytning:
 **Vigtigt at vide:**
 Selv om du fraflytter Danmark, skal du stadig selvangive i Danmark, hvis du har dansk indkomst (hvilket de fleste pensionister har via deres pension under ny ordning).
 
-### Efterbeskatning - Pas På!
+### Efterbeskatning - pas på!
 
 Dette er en af de vigtigste - og mest oversete - faldgruber ved udflytning som pensionist.
 
@@ -157,7 +157,7 @@ Kontakt også dine private pensionsselskaber:
 - Spørg til udbetaling til udenlandsk konto
 - Afklar skattetræk
 
-### Sundhedsforsikring - Helt Afgørende
+### Sundhedsforsikring - helt afgørende
 
 Dette er KRITISK, og mange gør det forkert.
 
@@ -217,7 +217,7 @@ Selv med S1 vælger mange pensionister at tegne supplerende privat forsikring:
 - Adeslas
 - DKV
 
-### Bank og Økonomi
+### Bank og økonomi
 
 **Kan du beholde din danske bank?**
 
@@ -267,7 +267,7 @@ Du SKAL have spansk bankkonto til:
 - Hæveautomater: Gratis i eget netværk
 - Udenlandske overførsler: 0-30 EUR
 
-### Hvad Med Din Danske Bolig?
+### Hvad med din danske bolig?
 
 **Hvis du sælger:**
 - Kapitalgevinst beskattes i Danmark
@@ -284,11 +284,11 @@ Du SKAL have spansk bankkonto til:
 - Skal betale ejendomsværdiskat i Danmark
 - Overvej konsekvenser ved arv
 
-## FASE 2: Ankomst og Registrering (0-3 Måneder)
+## FASE 2: Ankomst og registrering (0-3 måneder)
 
 Nu er du ankommet til Spanien. De næste måneder handler om at blive "legal" og få styr på alle praktiske forhold.
 
-### Padrón - Kommunal Registrering (GØR DETTE FØRST)
+### Padrón - kommunal registrering (GØR DETTE FØRST)
 
 **Hvad er Padrón?**
 - Kommunal bopælsregistrering
@@ -324,7 +324,7 @@ Nu er du ankommet til Spanien. De næste måneder handler om at blive "legal" og
 - Nogle kommuner kræver at udlejer følger med og bekræfter
 - Tag en tolk med hvis du ikke taler spansk
 
-### NIE-Nummer - Dit Spanske Identifikationsnummer
+### NIE-nummer - dit spanske identifikationsnummer
 
 **Hvad er NIE?**
 - Número de Identificación de Extranjero
@@ -361,7 +361,7 @@ Nu er du ankommet til Spanien. De næste måneder handler om at blive "legal" og
 - Gyldigt hele livet
 - Skal bruges til alt fremover
 
-### Residencia - EU-Borger Registrering
+### Residencia - EU-borger registrering
 
 **Hvad er Residencia?**
 
@@ -413,7 +413,7 @@ Du skal dokumentere:
 - Politiet kan bede om at se det
 - Nødvendigt for mange administrative ting
 
-### Tilmelding til Sundhedsvæsenet
+### Tilmelding til sundhedsvæsenet
 
 Nu har du S1, Residencia og NIE - tid til at få dit sundhedskort.
 
@@ -455,11 +455,11 @@ Nu har du S1, Residencia og NIE - tid til at få dit sundhedskort.
 - Ikke briller/optiker
 - Ofte lange ventetider til specialister
 
-## FASE 3: Første År som Resident
+## FASE 3: Første år som resident
 
 Tillykke - du er nu fuldt registreret i Spanien! Men arbejdet er ikke slut. Nu kommer de skattemæssige forpligtelser.
 
-### Spansk Selvangivelse - Ja, Du SKAL
+### Spansk selvangivelse - ja, du SKAL
 
 Den største misforståelse blandt danske pensionister i Spanien er, at de tror de slipper for spansk selvangivelse, fordi de betaler skat i Danmark. **Det er forkert.**
 
@@ -502,7 +502,7 @@ De fleste danske pensionister skal altså selvangive.
 **Praktisk:**
 De fleste pensionister bruger en gestor eller advokat første gang, da systemet er komplekst. Omkostning: 150-300 EUR.
 
-### Modelo 720 - Udenlandsk Formue
+### Modelo 720 - udenlandsk formue
 
 Dette er en af de mest vigtige - og mest oversete - forpligtelser.
 
@@ -603,11 +603,11 @@ Spanien har formueskat (Impuesto sobre el Patrimonio), som rammer større formue
 - Skattepligtig formue: 1.200.000 EUR
 - Formueskat: ca. 3.000-4.000 EUR/år
 
-## Pensionsbeskatning i Praksis
+## Pensionsbeskatning i praksis
 
 Lad os nu se konkret på, hvordan din pension beskattes, når du bor i Spanien.
 
-### Ny Ordning - Hvad Betyder Det for Dig?
+### Ny ordning - hvad betyder det for dig?
 
 Hvis du flyttede til Spanien efter november 2007 (hvilket de fleste vil have), er du under "ny ordning". Det betyder:
 
@@ -625,7 +625,7 @@ Hvis du flyttede til Spanien efter november 2007 (hvilket de fleste vil have), e
 **I praksis:**
 Du betaler typisk størstedelen af skatten til Danmark, mens Spanien får en mindre del (eller intet, hvis dansk skat er højere end spansk).
 
-### Hvilke Pensioner Beskattes Hvor?
+### Hvilke pensioner beskattes hvor?
 
 Her er en oversigt:
 
@@ -642,7 +642,7 @@ Her er en oversigt:
 **Særligt om tjenestemandspension:**
 Hvis du har tjenestemandspension (fra stat, region eller kommune), beskattes den ALTID i Danmark - uanset om du er under gammel eller ny ordning.
 
-### Hvad Med Danske Aktieudbytter?
+### Hvad med danske aktieudbytter?
 
 Hvis du har danske aktier, beskattes udbytter sådan:
 
@@ -656,11 +656,11 @@ Hvis du har danske aktier, beskattes udbytter sådan:
 - Du får credit for de 27% betalt i Danmark
 - Typisk ingen restskat (da 27% > spansk sats)
 
-## Økonomisk Sammenligning: Danmark vs. Spanien
+## Økonomisk sammenligning: Danmark vs. Spanien
 
 Er det billigere at være pensionist i Spanien? Lad os se på tallene.
 
-### Skat (Typisk Lavere i Spanien)
+### Skat (typisk lavere i Spanien)
 
 **Eksempel: Pensionist med 25.000 EUR/år:**
 
@@ -702,7 +702,7 @@ Er det billigere at være pensionist i Spanien? Lad os se på tallene.
 - Omkostning: 1.500-4.000 EUR/år
 - Dyrere end Danmark
 
-### Samlet Billede
+### Samlet billede
 
 For de fleste danske pensionister:
 - **Skattemæssigt:** Ikke den store besparelse under ny ordning
@@ -710,11 +710,11 @@ For de fleste danske pensionister:
 - **Livskvalitet:** Meget bedre vejr og tempo
 - **Økonomi samlet:** 20-30% billigere at leve
 
-## Typiske Fejl ved Udflytning
+## Typiske fejl ved udflytning
 
 Her er de 10 mest almindelige fejl jeg ser danske pensionister begå:
 
-### 1. Glemme at Afmelde i Danmark
+### 1. Glemme at afmelde i Danmark
 
 **Fejlen:**
 Flytter til Spanien men forbliver tilmeldt CPR i Danmark.
@@ -728,7 +728,7 @@ Flytter til Spanien men forbliver tilmeldt CPR i Danmark.
 **Løsning:**
 Afmeld dig aktivt hos Borgerservice.
 
-### 2. Ikke Ansøge om S1 i Tide
+### 2. Ikke ansøge om S1 i tide
 
 **Fejlen:**
 Flytter uden at have S1-blanket.
@@ -741,7 +741,7 @@ Flytter uden at have S1-blanket.
 **Løsning:**
 Ansøg om S1 mindst 2 måneder før flytning.
 
-### 3. Tro Man Slipper for Spansk Selvangivelse
+### 3. Tro man slipper for spansk selvangivelse
 
 **Fejlen:**
 "Jeg betaler jo skat i Danmark, så jeg behøver ikke selvangive i Spanien."
@@ -754,7 +754,7 @@ Ansøg om S1 mindst 2 måneder før flytning.
 **Løsning:**
 Selvangiv i BEGGE lande hvert år.
 
-### 4. Undervurdere Formueskatten
+### 4. Undervurdere formueskatten
 
 **Fejlen:**
 Tror ikke der er formueskat eller glemmer at indregne den.
@@ -766,7 +766,7 @@ Tror ikke der er formueskat eller glemmer at indregne den.
 **Løsning:**
 Beregn din formue og eventuel formueskat INDEN flytning.
 
-### 5. Ikke Lave Spansk Testamente
+### 5. Ikke lave spansk testamente
 
 **Fejlen:**
 "Mit danske testamente må være nok."
@@ -791,7 +791,7 @@ Indberetter ikke sin danske formue via Modelo 720.
 **Løsning:**
 Husk Modelo 720 inden 31. marts første år.
 
-### 7. Beholde Kun Dansk Bank
+### 7. Beholde kun dansk bank
 
 **Fejlen:**
 Får ikke spansk bankkonto.
@@ -804,7 +804,7 @@ Får ikke spansk bankkonto.
 **Løsning:**
 Åbn spansk konto straks efter ankomst.
 
-### 8. Ikke Forstå Efterbeskatning
+### 8. Ikke forstå efterbeskatning
 
 **Fejlen:**
 Flytter inden 5 år efter sidste pensionsindbetaling.
@@ -816,7 +816,7 @@ Flytter inden 5 år efter sidste pensionsindbetaling.
 **Løsning:**
 Planlæg flytning mindst 5 år efter sidste indbetaling, eller brug aldersopsparing.
 
-### 9. Undervurdere Sprogbarrier
+### 9. Undervurdere sprogbarrier
 
 **Fejlen:**
 Tror alle taler engelsk i Spanien.
@@ -829,7 +829,7 @@ Tror alle taler engelsk i Spanien.
 **Løsning:**
 Lær basalt spansk, eller brug tolk ved vigtige møder.
 
-### 10. Ikke Søge Professionel Rådgivning
+### 10. Ikke søge professionel rådgivning
 
 **Fejlen:**
 Prøver at klare det hele selv uden hjælp.
@@ -841,11 +841,11 @@ Prøver at klare det hele selv uden hjælp.
 **Løsning:**
 Brug dansk-talende advokat/skatterådgiver første år.
 
-## Komplet Tjekliste
+## Komplet tjekliste
 
 Her er din samlede tjekliste for flytning til Spanien som pensionist:
 
-### 3-6 Måneder Før Flytning
+### 3-6 måneder før flytning
 
 **Skattemæssigt:**
 - [ ] Tjek om du risikerer efterbeskatning (5-års regel)
@@ -869,7 +869,7 @@ Her er din samlede tjekliste for flytning til Spanien som pensionist:
 - [ ] Forbered spansk testamente
 - [ ] Gennemgå dansk testamente (koordinering)
 
-### 0-3 Måneder Før Afrejse
+### 0-3 måneder før afrejse
 
 **I Danmark:**
 - [ ] Book tid hos Borgerservice til afmelding fra CPR
@@ -889,7 +889,7 @@ Her er din samlede tjekliste for flytning til Spanien som pensionist:
 - [ ] Få dokumenter oversat til spansk (hvis nødvendigt)
 - [ ] Download og print formularer (EX-15, EX-18)
 
-### Ved Ankomst i Spanien (Første Uge)
+### Ved ankomst i Spanien (første uge)
 
 - [ ] Registrer dig i kommunen (Padrón)
   - [ ] Book tid hos Ayuntamiento
@@ -901,7 +901,7 @@ Her er din samlede tjekliste for flytning til Spanien som pensionist:
   - [ ] Mød op med dokumenter
   - [ ] Modtag NIE-certifikat
 
-### Inden 3 Måneder Efter Ankomst
+### Inden 3 måneder efter ankomst
 
 - [ ] Ansøg om Residencia (EU-certifikat)
   - [ ] Book tid (citaprevia.es)
@@ -922,7 +922,7 @@ Her er din samlede tjekliste for flytning til Spanien som pensionist:
   - [ ] Få tildelt læge
   - [ ] Modtag sundhedskort (kan tage uger)
 
-### Første Skatteår (Inden Deadlines)
+### Første skatteår (inden deadlines)
 
 - [ ] **Inden 31. marts:** Modelo 720 (udenlandsk formue)
   - [ ] Saml dokumentation for formue pr. 31. dec
@@ -944,7 +944,7 @@ Her er din samlede tjekliste for flytning til Spanien som pensionist:
   - [ ] Betal evt. restskat
   - [ ] Brug gestor/advokat første gang anbefales
 
-### Årlige Forpligtelser (Fremadrettet)
+### Årlige forpligtelser (fremadrettet)
 
 **Marts:**
 - [ ] Modelo 720 (kun hvis formue steget >20.000 EUR)
@@ -963,9 +963,9 @@ Her er din samlede tjekliste for flytning til Spanien som pensionist:
 - [ ] Betaling af forsyninger (el, vand, gas)
 - [ ] Sundhedsforsikring (hvis privat)
 
-## Vigtige Kontakter og Links
+## Vigtige kontakter og links
 
-### Danske Myndigheder
+### Danske myndigheder
 
 **SKAT:**
 - Telefon: +45 72 22 18 18
@@ -989,7 +989,7 @@ Her er din samlede tjekliste for flytning til Spanien som pensionist:
 **Danske Konsulat (varierer efter region):**
 - Find nærmeste på: spanien.um.dk
 
-### Spanske Myndigheder
+### Spanske myndigheder
 
 **Agencia Tributaria (Skattevæsen):**
 - Telefon: 901 33 55 33
@@ -1008,7 +1008,7 @@ Her er din samlede tjekliste for flytning til Spanien som pensionist:
 - Telefon: 060 (officiel regeringsinfo)
 - Engelsk service tilgængelig
 
-### Nyttige Ressourcer
+### Nyttige ressourcer
 
 **Danske Foreninger i Spanien:**
 - Dansk Spansk Klub (varierer efter region)
@@ -1024,7 +1024,7 @@ Her er din samlede tjekliste for flytning til Spanien som pensionist:
 - www.expatica.com/es (Generel info)
 - www.thelocal.es (Nyheder på engelsk)
 
-## Ofte Stillede Spørgsmål (FAQ)
+## Ofte stillede spørgsmål (FAQ)
 
 ### Kan jeg modtage min danske pension i Spanien?
 
@@ -1119,7 +1119,7 @@ De vigtigste takeaways fra denne guide:
 - Undervurdere formueskatten
 - Forsøge at klare alt selv
 
-### Den Vigtigste Råd
+### Den vigtigste råd
 
 **Søg professionel hjælp første år.** En dansk-talende advokat eller skatterådgiver i Spanien kan:
 - Guide dig gennem hele processen
@@ -1130,7 +1130,7 @@ De vigtigste takeaways fra denne guide:
 
 Typiske omkostninger første år: 2.000-4.000 EUR for komplet assistance. Det kan lyde af meget, men sammenlignet med de fejl du kan undgå, og den stress du sparer, er det en god investering.
 
-### Sidste Ord
+### Sidste ord
 
 Tusindvis af danske pensionister lever lykkelige liv i Spanien. Med den rette forberedelse og viden kan du også blive en af dem. Tag dig tid til at forstå systemet, søg hjælp når du er i tvivl, og nyd så dit nye liv i solen.
 

@@ -24,7 +24,7 @@ Whether you're an heir of a pensioner who lived in Spain, or the deceased only o
 
 ---
 
-## Quick Overview: Spain vs. Denmark
+## Quick overview: Spain vs. Denmark
 
 | Aspect | Spain | Denmark |
 |--------|-------|---------|
@@ -36,7 +36,7 @@ Whether you're an heir of a pensioner who lived in Spain, or the deceased only o
 
 ---
 
-## Key Difference: Spain vs. Denmark
+## Key difference: Spain vs. Denmark
 
 The biggest surprise for most Danish heirs is that probate in Spain does **NOT start automatically**. In Denmark, we're used to the municipality or probate court automatically initiating the process after a death. In Spain, the responsibility lies entirely with the heirs themselves.
 
@@ -48,11 +48,11 @@ Finally, there's a difference in inheritance law itself. While Danish inheritanc
 
 ---
 
-## The Critical 6-Month Deadline
+## The critical 6-month deadline
 
 The absolutely most important deadline in the entire inheritance process is the **6 months from the date of death** to pay the inheritance tax (Impuesto de Sucesiones y Donaciones). This deadline is not advisory - it's absolute, and exceeding it results in automatic financial penalties.
 
-### Why the Deadline Matters
+### Why the deadline matters
 
 If inheritance tax is not paid within 6 months, three things happen:
 
@@ -64,7 +64,7 @@ If inheritance tax is not paid within 6 months, three things happen:
 
 > **💡 Example:** For an inheritance of €300,000 with an inheritance tax of €30,000, a delay of just 3 months can result in extra costs of €2,000-5,000.
 
-### When Does the Deadline Start?
+### When does the deadline start?
 
 The deadline runs from the **exact date of death**, not from when the heirs become aware of the death. This can be problematic if the heirs are in Denmark and don't receive immediate notification.
 
@@ -72,7 +72,7 @@ Documentation of the death date occurs via:
 - Spanish death certificate (certificado de defunción) if death occurred in Spain
 - Internationally recognized Danish death certificate with apostille if death occurred in Denmark
 
-### Extension Possibility
+### Extension possibility
 
 It's possible to apply for an extension of the 6-month deadline with an additional 6 months. This application must be submitted **BEFORE** the first 6 months have expired, and there must be legitimate reasons for the extension:
 
@@ -85,11 +85,11 @@ It's possible to apply for an extension of the 6-month deadline with an addition
 
 ---
 
-## Step-by-Step: Probate in Spain
+## Step-by-step: probate in Spain
 
 The probate process in Spain can seem overwhelming, but by following these seven steps systematically, you'll ensure a smooth settlement.
 
-### Step 1: Obtain Necessary Documents from Denmark
+### Step 1: obtain necessary documents from Denmark
 
 If the deceased was a Danish citizen or lived in Denmark, you'll need several documents from Denmark to use in Spain.
 
@@ -122,7 +122,7 @@ If the deceased was a Danish citizen or lived in Denmark, you'll need several do
 
 ---
 
-### Step 2: Investigate Whether a Spanish Will Exists
+### Step 2: investigate whether a Spanish will exists
 
 Before the inheritance distribution can be determined, it must be clarified whether the deceased had a Spanish will. This is investigated by obtaining a certificate from:
 
@@ -152,7 +152,7 @@ If no Spanish will exists, the Danish will must be used. This requires translati
 
 ---
 
-### Step 3: Obtain NIE Number for Heirs
+### Step 3: obtain NIE number for heirs
 
 All heirs must have a Spanish tax identification number (NIE - Número de Identificación de Extranjero), regardless of whether they reside in Spain or not. Without NIE, heirs cannot:
 - ❌ Sign at the notary
@@ -180,7 +180,7 @@ NIE can be applied for in three ways:
 
 ---
 
-### Step 4: Asset Valuation
+### Step 4: asset valuation
 
 To calculate the inheritance tax, all assets must be valued. This is a critical step, as tax authorities can challenge too low a valuation.
 
@@ -213,7 +213,7 @@ All bank accounts are frozen upon death. The bank will issue a certificate showi
 
 ---
 
-### Step 5: Calculation and Payment of Inheritance Tax
+### Step 5: calculation and payment of inheritance tax
 
 Inheritance tax in Spain (Impuesto de Sucesiones y Donaciones) varies dramatically depending on which region the property is located in and the heir's relationship to the deceased.
 
@@ -277,7 +277,7 @@ When payment is completed, a receipt (modelo 650 justificante de pago) is issued
 
 ---
 
-### Step 6: Signing at the Notary
+### Step 6: signing at the notary
 
 Once inheritance tax is paid, the next step is to formalize the inheritance distribution at a notary (notario). In Spain, notaries have a much more central role than in Denmark - they are public officials who ensure the legality of transactions.
 
@@ -326,7 +326,7 @@ Most notaries in coastal areas have experience with foreign clients and speak En
 
 ---
 
-### Step 7: Registration and Recording
+### Step 7: registration and recording
 
 The final step is to have the deed of inheritance registered in the property registry (Registro de la Propiedad), so the property officially transfers to the heirs.
 
@@ -368,11 +368,11 @@ Many of these changes require a copy of the registered deed of inheritance as do
 
 ---
 
-## Which Country's Inheritance Rules Apply?
+## Which country's inheritance rules apply?
 
 One of the most confusing questions for Danish heirs is: Which inheritance rules actually apply? Danish, Spanish, or both?
 
-### EU Succession Regulation
+### EU succession regulation
 
 Since August 17, 2015, the EU Succession Regulation (EU 650/2012) applies in all EU countries - except Denmark, Ireland, and the UK, which have opted out of the regulation.
 
@@ -398,7 +398,7 @@ For pensioners who spent 6-8 months annually in Spain, the determination can be 
 - Tax status
 - How long the person had lived in Spain
 
-### Choice of Law in Will
+### Choice of law in will
 
 The decisive tool for creating clarity is **choice of law in will**.
 
@@ -425,7 +425,7 @@ For the choice of law to be valid, it must:
 
 ---
 
-### Danish vs. Spanish Inheritance Law - The Major Differences
+### Danish vs. Spanish inheritance law - the major differences
 
 There are significant differences between Danish and Spanish inheritance law that can have major financial implications for heirs.
 
@@ -464,11 +464,11 @@ This can create problematic situations where the surviving spouse cannot decide 
 
 ---
 
-## Inheritance Tax in Spain
+## Inheritance tax in Spain
 
 Inheritance tax (Impuesto de Sucesiones y Donaciones) is for many heirs the largest financial burden when inheriting in Spain. The system is complex because the tax is administered regionally with major differences between the 17 autonomous regions.
 
-### National vs. Regional Rules
+### National vs. regional rules
 
 **National Basic Rules**
 
@@ -487,7 +487,7 @@ Each of the 17 autonomous regions has adopted their own rules that can:
 - Introduce their own thresholds
 - Differentiate between residents and non-residents (this was permitted until 2014, now limited)
 
-### Detailed Calculation Example
+### Detailed calculation example
 
 Let's go through a detailed calculation to understand the system's complexity:
 
@@ -531,11 +531,11 @@ This means non-residents who own holiday homes in Spain but don't live there per
 
 ---
 
-## Special Situations
+## Special situations
 
 Not all probate proceedings in Spain follow the standard process. Here are three special situations requiring extra attention:
 
-### Deceased Was Non-Resident
+### Deceased was non-resident
 
 If the deceased lived in Denmark but owned a holiday home in Spain, special challenges arise:
 
@@ -561,7 +561,7 @@ This naturally requires a holistic assessment of tax consequences in both Denmar
 
 ---
 
-### Multiple Heirs with Disagreement
+### Multiple heirs with disagreement
 
 When heirs don't agree on distribution or handling of the estate, the process becomes significantly more complicated.
 
@@ -584,7 +584,7 @@ When heirs don't agree on distribution or handling of the estate, the process be
 
 ---
 
-### Property with Debt
+### Property with debt
 
 If the deceased had debt on the property (mortgage) or other obligations, heirs must decide whether to accept the inheritance:
 
@@ -621,7 +621,7 @@ Inheritance tax is calculated on the **net inheritance** (assets minus liabiliti
 
 ---
 
-## Document Checklist
+## Document checklist
 
 To ensure a smooth process, it's essential to have all necessary documents ready. Here's a complete checklist:
 
@@ -646,14 +646,14 @@ To ensure a smooth process, it's essential to have all necessary documents ready
 - [ ] **Cadastral value** (valor catastral) - Free online
 - [ ] **Property appraisal** (tasación) - €300-600, recommended
 
-### Documents During the Process
+### Documents during the process
 
 - [ ] **Modelo 650** (Inheritance tax declaration)
 - [ ] **Receipt for paid inheritance tax** - ABSOLUTELY NECESSARY for notary
 - [ ] **Escritura de Aceptación de Herencia** (Deed of inheritance) - €600-1,200
 - [ ] **Modelo 600** (Stamp duty) - 0.5-1.5% of property value
 
-### Practical Tips for Document Collection
+### Practical tips for document collection
 
 | Tip | Why It Matters |
 |-----|----------------|
@@ -665,11 +665,11 @@ To ensure a smooth process, it's essential to have all necessary documents ready
 
 ---
 
-## Common Mistakes to Avoid
+## Common mistakes to avoid
 
 Over the years, we've seen many Danish heirs make the same mistakes. Here are the most critical ones to avoid:
 
-### 1. Waiting Too Long (6-Month Deadline)
+### 1. Waiting too long (6-month deadline)
 
 ❌ **The Mistake:** Many heirs underestimate the seriousness of the 6-month deadline or believe it can be extended without further ado.
 
@@ -681,7 +681,7 @@ Over the years, we've seen many Danish heirs make the same mistakes. Here are th
 - Apply for extension in good time if necessary
 - Consider 6 months as an absolute deadline
 
-### 2. Missing Spanish Will
+### 2. Missing Spanish will
 
 ❌ **The Mistake:** The deceased only had a Danish will or no will at all.
 
@@ -697,7 +697,7 @@ Over the years, we've seen many Danish heirs make the same mistakes. Here are th
 - Include choice of law clause in both wills
 - Cost: €150-300 at Spanish notary - a minimal investment
 
-### 3. Uncoordinated Wills
+### 3. Uncoordinated wills
 
 ❌ **The Mistake:** The deceased has both Danish and Spanish wills, but they contradict each other or have different provisions.
 
@@ -706,7 +706,7 @@ Over the years, we've seen many Danish heirs make the same mistakes. Here are th
 - Use the same choice of law in both wills
 - Consider a clause like: "This will does not revoke my will created in Denmark/Spain"
 
-### 4. Forgetting NIE Number
+### 4. Forgetting NIE number
 
 ❌ **The Mistake:** Heirs wait until the end of the process to apply for NIE number.
 
@@ -721,7 +721,7 @@ Over the years, we've seen many Danish heirs make the same mistakes. Here are th
 - If heirs live in Denmark: Apply via Spanish Embassy in Copenhagen
 - Alternatively: Give power of attorney to representative in Spain to apply
 
-### 5. Undervaluing the Property
+### 5. Undervaluing the property
 
 ❌ **The Mistake:** To save inheritance tax, heirs declare an artificially low property value.
 
@@ -736,7 +736,7 @@ Over the years, we've seen many Danish heirs make the same mistakes. Here are th
 - Get professional appraisal (tasación) if in doubt
 - Remember that modern tax authorities have access to sales data and can compare
 
-### 6. Assuming Danish Rules Apply
+### 6. Assuming Danish rules apply
 
 ❌ **The Mistake:** Heirs assume the process works as in Denmark and that they can "handle it themselves."
 
@@ -745,7 +745,7 @@ Over the years, we've seen many Danish heirs make the same mistakes. Here are th
 - Don't use a Danish lawyer who doesn't know Spanish law
 - The cost (typically €1,500-3,000) is an investment preventing much larger losses
 
-### 7. Ignoring Property Debt
+### 7. Ignoring property debt
 
 ❌ **The Mistake:** Heirs accept the inheritance in full without investigating whether there's debt.
 
@@ -762,7 +762,7 @@ Over the years, we've seen many Danish heirs make the same mistakes. Here are th
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## Frequently asked questions (FAQ)
 
 ### Can I sell the property immediately as a Danish heir?
 
@@ -881,7 +881,7 @@ This is very common for Danish pensioners in Spain. The solution:
 
 Probate in Spain is a complex process requiring careful planning, timely action, and understanding of both Spanish and Danish legal systems. The key takeaways from this guide are:
 
-### The 5 Critical Points
+### The 5 critical points
 
 | Point | Why It Matters |
 |-------|----------------|
@@ -891,7 +891,7 @@ Probate in Spain is a complex process requiring careful planning, timely action,
 | ✅ **Valuation must be realistic** | Avoid artificially low valuations |
 | ✅ **Use professional help** | A Spanish lawyer is a necessary investment |
 
-### Expected Costs
+### Expected costs
 
 For a typical inheritance with a €300,000 property:
 
@@ -911,7 +911,7 @@ With good planning and professional help:
 - Typical process: 4-6 months
 - With complications: 6-12 months
 
-### Take Action Now
+### Take action now
 
 **If you're in an inheritance situation:**
 1. Contact a Spanish lawyer with estate experience within the first weeks

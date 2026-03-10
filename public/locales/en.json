@@ -31,29 +31,28 @@
     "title": "Leave a Review"
   },
   "about": {
-    "heroTitle": "About me",
-    "heroSubtitle": "Spanish lawyer / abogado",
-    "metaTitle": "About me | Christian Gefke – Spanish Lawyer",
-    "metaDescription": "Meet Christian Gefke, an authorized Spanish lawyer with legal expertise and international background. Get professional advice on real estate, business and private law in Spain.",
-    "intro": "My name is Christian Gefke, and I am an authorized lawyer (member number 635 of the Lanzarote Bar Association) with a solid education and extensive experience in law. I was born in Aarhus, Denmark, but grew up in Lanzarote, the Canary Islands.",
-    "introEnglish": "Spanish lawyer in Aarhus – Christian Gefke is an officially registered abogado with the Colegio de Abogados de Lanzarote (No. 635). He provides expert legal assistance in Spanish property law, inheritance, family law, contracts, and cross-border matters for clients in Denmark and Spain. Fully verified in the CGAE national lawyer registry, he offers reliable guidance for anyone needing a Spanish lawyer in Aarhus or legal help related to Spain.",
-    "education": "I have a law degree from the University of Las Palmas de Gran Canaria, from which I possess my knowledge in legal areas. I then completed a master's degree at Universidad Internacional de la Rioja (UNIR), where I specialized in real estate acquisition. In 2022, I passed the national bar exam held annually by the Spanish Ministry of Justice, which gave me the right to join a local bar association – a necessary condition in Spain to practice law in court.",
-    "career": "Throughout my career, I have had the opportunity to work with several prominent companies, such as Grupo Stier, one of the leading players in the port of Las Palmas, as well as Grupo Martinez in real estate and retail in Spain. In addition, I have collaborated with a wide range of independent consultants, accountants, economists and lawyers.",
-    "passion": "My passion for law arises primarily in private law, where this as an evolving reality brings important lessons when society is presented with new challenges – whether it concerns new technologies or old institutions with new characteristics.",
-    "closing": "I am here to offer you high-quality legal advice and help you navigate the complex legal world with confidence and security.",
-    "backgroundTitle": "My legal background",
-    "background2012": "2012 – 2017:",
-    "background2012Text": "LLB/Bachelor in law at ULPGC",
-    "background2017": "2017 – 2018:",
-    "background2017Text": "Stier Group and BG Abogados lawyer in practice",
-    "background2019": "2019 – today:",
-    "background2019Text": "Independent consultant – primarily in Barcelona and the Canary Islands",
-    "background2021": "2021 – 2023:",
-    "background2021Text": "LLM/Master in law at UNIR",
-    "background2022": "2022 – 2023:",
-    "background2022Text": "Grupo Martinez in legal practice/associate",
-    "background2022b": "2022 – 2023:",
-    "background2022bText": "Lawyer title – passed the national state exam for lawyers held by the Spanish Ministry of Justice"
+    "heroTitle": "About Christian Gefke",
+    "heroSubtitle": "Spanish lawyer with Danish background",
+    "metaTitle": "About Christian Gefke | Spanish Lawyer with Danish Background",
+    "metaDescription": "Christian Gefke is a Spanish lawyer with a Danish background. Advisory on tax residency, property, inheritance, business establishment and international contract matters.",
+    "intro": "I am a Spanish lawyer with a Danish background, working with legal matters between Denmark and Spanish-speaking jurisdictions.",
+    "work": "My work consists of creating clarity and structure when individuals or businesses move across borders – whether it concerns tax residency, property, inheritance, business establishment or international contract matters.",
+    "registration": "I am a registered lawyer with admission from the Lanzarote Bar Association and authorized by the Spanish Ministry of Justice.",
+    "education": "My legal education was completed in Spain, where I obtained both a law degree and the official master's degree granting access to the legal profession.",
+    "bridge": "Through my work, I move daily between two legal systems, two languages and two legal cultures. This gives my clients a practical advantage – because legal issues rarely stop at national borders.",
+    "clientsIntro": "I advise both:",
+    "client1": "Individuals relocating between Denmark and Spain",
+    "client2": "Families with assets in multiple countries",
+    "client3": "Danish businesses with operations in Spain",
+    "client4": "Companies seeking access to Spanish-speaking markets",
+    "focus": "My focus is always the same: To ensure the correct structure from the beginning – so that risk, tax and legal consequences are thoroughly considered before decisions are made.",
+    "backgroundTitle": "Professional background",
+    "bg1": "Registered Spanish lawyer at the Lanzarote Bar Association",
+    "bg2": "Approval by the General Council of Spanish Lawyers",
+    "bg3": "Lawyer authorization by the Spanish Ministry of Justice",
+    "bg4": "Master of Laws from Universidad Internacional de La Rioja",
+    "bg5": "Bachelor of Laws from Universidad de Las Palmas de Gran Canaria",
+    "bg6": "Practical experience with cross-border matters since 2017"
   },
   "workInSpain": {
     "metaTitle": "Working in Spain – What Danes should know | Christian Gefke",
@@ -1335,44 +1334,64 @@
     "badgeAssociation": "Lanzarote Bar Association"
   },
   "menu": {
-    "familyAndInheritance": {
-      "label": "Family and inheritance law",
+    "crossBorder": {
+      "label": "Cross-border advisory",
       "sub": {
-        "internationalDivorces": "International divorces",
-        "probateInInheritance": "Probate in inheritance cases",
-        "lawChoiceInInheritance": "Choice of law in inheritance cases",
-        "willsInSpain": "Wills in Spain"
-      }
-    },
-    "realEstate": {
-      "label": "Real estate",
-      "sub": {
-        "rentalContracts": "Rental contracts in Spain",
-        "mortgageAndLien": "Mortgage and lien in real estate",
-        "planningLaw": "Planning law, urbanism and construction law",
-        "buySellRealEstate": "Buy and sell real estate",
-        "homeownerAssociations": "Homeowner associations"
-      }
-    },
-    "daneInSpain": {
-      "label": "Dane in Spain",
-      "sub": {
-        "residency": "Residence permit",
-        "pensionAndHomeCare": "Pension and home care in Spain:",
-        "workInSpain": "Work in Spain",
-        "taxAdvice": "Tax advice in Spain:"
+        "taxResidency": "Tax residency DK \u2194 ES",
+        "relocation": "Relocation between Denmark and Spain",
+        "pensionDoubleTax": "Pensions & double taxation",
+        "familySuccession": "International family & succession",
+        "dualCountry": "Dual-country structures"
       }
     },
     "business": {
-      "label": "Business",
+      "label": "Business & international trade",
       "sub": {
-        "selfEmployed": "Self-employed in Spain",
-        "startBusiness": "Start business in Spain",
-        "holdingCompanies": "Holding companies in Spain or Denmark?"
+        "companyFormation": "Company formation in Spain",
+        "danishCompany": "Danish companies operating in Spain",
+        "contracts": "Cross-border contracts",
+        "exportPayment": "Export & payment structures",
+        "riskFinancing": "Risk allocation & financing structures",
+        "spanishPartners": "Cooperation with Spanish partners"
       }
     },
-    "about": "About",
-    "blog": "Blog"
+    "taxPrivate": {
+      "label": "Tax & private matters",
+      "sub": {
+        "taxRelocation": "Tax on relocation",
+        "pensionSpain": "Pensions in Spain",
+        "inheritanceWills": "Inheritance & wills",
+        "choiceLaw": "Choice of law & jurisdiction",
+        "worldwideIncome": "Worldwide income"
+      }
+    },
+    "property": {
+      "label": "Property in Spain",
+      "sub": {
+        "buyProperty": "Buying property in Spain",
+        "sellProperty": "Selling property",
+        "propertyTax": "Property tax",
+        "dueDiligence": "Due diligence",
+        "registration": "Land registry & registration"
+      }
+    },
+    "insights": {
+      "label": "Insights",
+      "sub": {
+        "articles": "Articles",
+        "currentTopics": "Current topics",
+        "internationalAffairs": "International affairs"
+      }
+    },
+    "about": {
+      "label": "About",
+      "sub": {
+        "profile": "Profile",
+        "barAdmission": "Bar admission",
+        "cooperation": "Cooperation",
+        "contact": "Contact"
+      }
+    }
   },
   "blog": {
     "metaTitle": "Blog | Christian Gefke – Legal News on Spanish Law",

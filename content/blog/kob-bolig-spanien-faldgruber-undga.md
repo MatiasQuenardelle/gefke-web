@@ -24,11 +24,11 @@ Gennem årene har jeg som advokat i Spanien set utallige eksempler på danskere,
 
 I denne omfattende guide gennemgår jeg de 10 mest almindelige faldgruber ved boligkøb i Spanien - og vigtigst af alt: hvordan du undgår dem.
 
-## Faldgrube #1: Købe Uden Advokat
+## Faldgrube #1: købe uden advokat
 
 Dette er den største og mest kostbare fejl, danske boligkøbere begår i Spanien. Alt for mange stoler på, at mægleren "klarer det hele" og nøjes med at underskrive de papirer, de bliver præsenteret for.
 
-### "Mægleren Klarer Det Hele" - En Farlig Illusion
+### "Mægleren klarer det hele" - en farlig illusion
 
 I Danmark er vi vant til, at ejendomsmæglere er statsautoriserede og underlagt streng regulering. Vi stoler på mægleren. Men i Spanien er situationen en helt anden:
 
@@ -39,7 +39,7 @@ I Danmark er vi vant til, at ejendomsmæglere er statsautoriserede og underlagt 
 
 Jeg har set utallige eksempler på mæglere, der har undladt at informere købere om væsentlige problemer med ejendommen, fordi det ville true salget.
 
-### Hvorfor Uafhængig Advokat er Essentiel
+### Hvorfor uafhængig advokat er essentiel
 
 En uafhængig spansk advokat, der arbejder for DIG, vil:
 
@@ -67,7 +67,7 @@ En uafhængig spansk advokat, der arbejder for DIG, vil:
 - Hjælpe med skatteregistrering
 - Rådgive om testamente
 
-### Typisk Honorar og Hvad Det Dækker
+### Typisk honorar og hvad det dækker
 
 Et advokathonorarer for boligkøb i Spanien ligger typisk på:
 - **1-1,5% af købsprisen** (plus moms 21%)
@@ -78,7 +78,7 @@ Et advokathonorarer for boligkøb i Spanien ligger typisk på:
 
 Dette kan virke dyrt, men set i forhold til den tryghed og de potentielle besparelser det giver, er det en meget fornuftig investering.
 
-### Den Dyre Lærepengie
+### Den dyre lærepengie
 
 Lad mig dele et konkret eksempel: En dansk familie købte en villa til 400.000 EUR uden advokat. De stolede på mægleren. Efter købet opdagede de:
 - Poolen var ulovlig og skulle fjernes (omkostning: 15.000 EUR)
@@ -87,11 +87,11 @@ Lad mig dele et konkret eksempel: En dansk familie købte en villa til 400.000 E
 
 De brugte til sidst over 50.000 EUR på at rette op på disse problemer - langt mere end en advokat ville have kostet.
 
-## Faldgrube #2: Ulovlige Tilbygninger og Ændringer
+## Faldgrube #2: ulovlige tilbygninger og ændringer
 
 Dette er måske den mest udbredte problem ved spanske ejendomme - og den er desværre meget svær at opdage for en ukyndig køber.
 
-### Et Udbredt Fænomen
+### Et udbredt fænomen
 
 I Spanien er det ekstremt almindeligt, at ejendomme har ændringer eller tilbygninger, som ikke er lovlige:
 - Pool bygget uden byggetilladelse
@@ -102,7 +102,7 @@ I Spanien er det ekstremt almindeligt, at ejendomme har ændringer eller tilbygn
 
 Ofte er disse ændringer foretaget for mange år siden, og sælger vil berolige dig med, at "det har aldrig været et problem". Men det er en bombe med nedtælling.
 
-### Hvorfor Det er et Problem
+### Hvorfor det er et problem
 
 **Risici ved ulovlige tilbygninger:**
 
@@ -112,7 +112,7 @@ Ofte er disse ændringer foretaget for mange år siden, og sælger vil berolige 
 4. **Forsikring dækker ikke** - skader på ulovlige dele er ikke forsikret
 5. **Problemer med lån** - banker vil ikke belåne ulovlige kvadratmeter
 
-### Sådan Tjekker Du
+### Sådan tjekker du
 
 En erfaren advokat vil tjekke:
 
@@ -134,7 +134,7 @@ En erfaren advokat vil tjekke:
 - Erfaren arkitekt eller byggesagkyndig
 - Identificer ændringer i forhold til originale tegninger
 
-### Hvad Hvis Der er Ulovlige Dele?
+### Hvad hvis der er ulovlige dele?
 
 Du har flere muligheder:
 
@@ -155,11 +155,11 @@ Du har flere muligheder:
 
 **VIGTIGT:** Få eksplicit skriftligt i kontrakten, hvad sælger garanterer omkring lovligheden af alle bygninger og tilbygninger.
 
-## Faldgrube #3: Skjult Gæld på Ejendommen
+## Faldgrube #3: skjult gæld på ejendommen
 
 Her kommer et chok for mange danske købere: I Spanien følger visse typer gæld **ejendommen, ikke ejeren**. Det betyder, at du som ny ejer overtager gælden, selvom det var den tidligere ejer, der skabte den.
 
-### Hvilken Gæld Følger Ejendommen?
+### Hvilken gæld følger ejendommen?
 
 **1. Ubetalt IBI (kommunal ejendomsskat)**
 - De sidste 4 års ubetalte IBI hæfter på ejendommen
@@ -180,7 +180,7 @@ Her kommer et chok for mange danske købere: I Spanien følger visse typer gæld
 - Forsyningsselskaber kan afkræve ny ejer
 - Risiko for afbrydelse af forsyninger
 
-### Pantegæld og Hæftelser
+### Pantegæld og hæftelser
 
 Derudover kan der være registrerede hæftelser:
 - **Realkreditlån (Hipoteca)** - skal indfries ved salget
@@ -188,7 +188,7 @@ Derudover kan der være registrerede hæftelser:
 - **Brugsrettigheder** (usufructo) - andre har ret til at bruge ejendommen
 - **Forkøbsrettigheder** - andre har ret til at købe før dig
 
-### Sådan Beskytter Du Dig
+### Sådan beskytter du dig
 
 **Din advokat skal indhente:**
 
@@ -210,7 +210,7 @@ Derudover kan der være registrerede hæftelser:
 - Sælger erklærer skriftligt at der ingen gæld er
 - Gør sælger ansvarlig, hvis der dukker gæld op
 
-### Hvem Betaler Hvad ved Salget?
+### Hvem betaler hvad ved salget?
 
 Standard er typisk:
 - **Sælger betaler:** IBI for indeværende år frem til salgsdato
@@ -220,7 +220,7 @@ Standard er typisk:
 
 **VIGTIGT:** Få dette eksplicit beskrevet i købskontrakten, og behold en del af købesummen (typisk 3.000-5.000 EUR) indtil alle dokumenter for fuld betaling foreligger.
 
-## Faldgrube #4: Underskrive Arras-Kontrakt For Hurtigt
+## Faldgrube #4: underskrive Arras-kontrakt for hurtigt
 
 Den spanske købsproces er anderledes end den danske, og mange danskere undervurderer alvoren af Arras-kontrakten (depositum-aftalen).
 
@@ -245,7 +245,7 @@ Den spanske købsproces er anderledes end den danske, og mange danskere undervur
 - Fungerer som bod ved kontraktbrud
 - Meget sjældne i praksis
 
-### Ingen Fortrydelsesret som i Danmark
+### Ingen fortrydelsesret som i Danmark
 
 Her er den store forskel fra Danmark: **Der er INGEN fortrydelsesret** efter dansk mønster.
 
@@ -258,7 +258,7 @@ I Spanien:
 - Hvis du fortryder, mister du dit depositum (typisk 30.000-50.000 EUR)
 - Ingen lovbestemt fortrydelsesret
 
-### Hvad Du Mister Hvis Du Fortryder
+### Hvad du mister hvis du fortryder
 
 **Eksempel:**
 - Huspris: 350.000 EUR
@@ -272,7 +272,7 @@ Jeg har set danskere miste enorme beløb, fordi:
 - De fandt en bedre bolig
 - De fik kolde fødder
 
-### Hvornår Kan Du Fortryde Uden Tab?
+### Hvornår kan du fortryde uden tab?
 
 Du kan kun fortryde uden at miste depositumet, hvis:
 
@@ -286,7 +286,7 @@ Du kan kun fortryde uden at miste depositumet, hvis:
 - Sælger kan ikke levere fri og uhæftet skøde
 - Ejendommen ikke som beskrevet
 
-### Derfor: Underskrive Arras Først Når Alt er Tjekket
+### Derfor: underskriv Arras først når alt er tjekket
 
 **Min klare anbefaling:**
 
@@ -312,11 +312,11 @@ Du kan kun fortryde uden at miste depositumet, hvis:
 
 5. **Først derefter: Underskriv Arras**
 
-## Faldgrube #5: Stole På Mundtlige Aftaler
+## Faldgrube #5: stole på mundtlige aftaler
 
 "Det ordner vi bagefter", "Det er der ingen problemer med", "Vi kan lave det om efter notaren" - disse sætninger bør få alarmklokkerne til at ringe.
 
-### I Spanien Gælder Kun Skriftlighed
+### I Spanien gælder kun skriftlighed
 
 Den spanske retspraksis er krystalklar: **Hvad der ikke står skriftligt i kontrakten, eksisterer ikke.**
 
@@ -346,7 +346,7 @@ Den spanske retspraksis er krystalklar: **Hvad der ikke står skriftligt i kontr
    - Handlen går ikke igennem af anden årsag
    - Virkelighed: Du har forbedret sælgers ejendom uden kompensation
 
-### Den Spanske Kontrakt er Altafgørende
+### Den spanske kontrakt er altafgørende
 
 Når I står hos notaren, er det **Escritura de Compraventa** (det endelige skøde) der tæller. Dette dokument:
 
@@ -361,7 +361,7 @@ Når I står hos notaren, er det **Escritura de Compraventa** (det endelige skø
 - Alle aftaler skal eksplicit fremgå
 - Hvis noget mangler: Nægt at underskrive før det er rettet
 
-### Specifikke Punkter der SKAL Være Skriftlige
+### Specifikke punkter der SKAL være skriftlige
 
 **Inkluderet i Kontrakten:**
 
@@ -396,17 +396,17 @@ Når I står hos notaren, er det **Escritura de Compraventa** (det endelige skø
 - Ingen verserende retssager om ejendommen
 - Forsyninger er betalt og fungerer
 
-### Hvis Mægler eller Sælger Protesterer
+### Hvis mægler eller sælger protesterer
 
 Hvis nogen siger "Det er ikke normalt at have så detaljeret kontrakt" eller "Vi gør det ikke sådan her" - så er det et **rødt flag**.
 
 Professionelle og seriøse sælgere forstår, at en detaljeret kontrakt beskytter begge parter. Hvis der er modstand, spørg dig selv: Hvorfor vil de ikke have det skriftligt?
 
-## Faldgrube #6: Ikke Tjekke Ejerforeningen
+## Faldgrube #6: ikke tjekke ejerforeningen
 
 Hvis du køber en lejlighed, rækkehus eller villa i et ejerforeningskompleks, er det absolut afgørende at undersøge Comunidad de Propietarios (ejerforeningen) grundigt.
 
-### Hvad Mange Glemmer at Tjekke
+### Hvad mange glemmer at tjekke
 
 **1. Verserende Retssager**
 - Er ejerforeningen involveret i retssager?
@@ -433,7 +433,7 @@ Hvis du køber en lejlighed, rækkehus eller villa i et ejerforeningskompleks, e
 - Nye regler kræver nu 3/5 flertal for at tillade korttidsudlejning
 - Tjek INDEN du køber med udlejning for øje
 
-### Kræv Protokoller fra Generalforsamlinger
+### Kræv protokoller fra generalforsamlinger
 
 Din advokat skal indhente:
 
@@ -456,7 +456,7 @@ Din advokat skal indhente:
 - Hvor meget skyldes der?
 - Er der taget skridt?
 
-### Hvornår Skal Du Bekymre Dig?
+### Hvornår skal du bekymre dig?
 
 **Alvorlige advarselstegn:**
 
@@ -466,7 +466,7 @@ Din advokat skal indhente:
 - **Planlagte udgifter over 10.000 EUR per ejendom** - sikre dig om det er realistisk budgetteret
 - **Uenighed om store beslutninger** - tyder på konfliktniveau
 
-### Gode Spørgsmål til Administrator
+### Gode spørgsmål til administrator
 
 **Ring eller besøg administrator og spørg:**
 
@@ -478,11 +478,11 @@ Din advokat skal indhente:
 
 En god administrator vil være åben og hjælpsom. En dårlig administrator vil afvise dine spørgsmål eller være vag.
 
-## Faldgrube #7: Glemme NIE-Nummer i Tide
+## Faldgrube #7: glemme NIE-nummer i tide
 
 NIE-nummeret (Número de Identificación de Extranjero) er dit spanske identifikationsnummer som udlænding. Uden NIE kan du **ikke** købe ejendom i Spanien.
 
-### Hvorfor Det Er Et Problem
+### Hvorfor det er et problem
 
 Mange danskere opdager først behovet for NIE, når de står klar til at underskrive hos notaren. Men på det tidspunkt er det for sent:
 
@@ -500,7 +500,7 @@ Mange danskere opdager først behovet for NIE, når de står klar til at undersk
 - I værste fald: Sælger trækker sig, du mister depositum
 - Ekstra omkostninger til ny notar-tid
 
-### Proces og Tidsramme for NIE
+### Proces og tidsramme for NIE
 
 **To måder at få NIE:**
 
@@ -522,7 +522,7 @@ Mange danskere opdager først behovet for NIE, når de står klar til at undersk
 - Ansøgningsskema EX-15
 - Gebyr (ca. 10 EUR i Spanien)
 
-### Min Anbefaling
+### Min anbefaling
 
 **Ansøg om NIE SÅ SNART du begynder at kigge alvorligt på boliger.**
 
@@ -537,11 +537,11 @@ Mange danskere opdager først behovet for NIE, når de står klar til at undersk
 - Forhandler kontrakt: Kan underskrive med det samme
 - Ingen forsinkelser, ingen stress
 
-## Faldgrube #8: Undervurdere Omkostningerne
+## Faldgrube #8: undervurdere omkostningerne
 
 En af de største overraskelser for danske boligkøbere i Spanien er omfanget af de ekstra omkostninger ved siden af selve købesummen.
 
-### Hvad Koster Det Udover Prisen?
+### Hvad koster det udover prisen?
 
 I Danmark er vi vant til, at omkostningerne ved boligkøb er relativt begrænsede (tinglysning, skat på banklån osv.). I Spanien er billedet et helt andet.
 
@@ -564,7 +564,7 @@ I Danmark er vi vant til, at omkostningerne ved boligkøb er relativt begrænsed
 - Catalonien: 10%
 - Balearerne: 8-11%
 
-### Ved Nybyggeri
+### Ved nybyggeri
 
 Nybyggeri beskattes anderledes:
 

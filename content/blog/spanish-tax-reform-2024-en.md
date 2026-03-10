@@ -22,7 +22,7 @@ This guide breaks down the key changes and what they mean for you.
 
 ---
 
-## Digital Nomad Visa: A Game-Changer for Remote Workers
+## Digital Nomad Visa: a game-changer for remote workers
 
 In 2023, Spain introduced the **Digital Nomad Visa** (*Visado para Teletrabajadores*), offering remote workers an attractive pathway to live and work in Spain with significant tax advantages.
 
@@ -35,7 +35,7 @@ In 2023, Spain introduced the **Digital Nomad Visa** (*Visado para Teletrabajado
 | **Income Requirement** | Minimum €2,000/month |
 | **Work Flexibility** | Work for foreign employers or as self-employed |
 
-### Who Qualifies?
+### Who qualifies?
 
 - Remote workers employed by non-Spanish companies
 - Self-employed individuals with predominantly foreign clients
@@ -46,11 +46,11 @@ In 2023, Spain introduced the **Digital Nomad Visa** (*Visado para Teletrabajado
 
 ---
 
-## Non-Resident Tax Changes for 2024
+## Non-resident tax changes for 2024
 
 If you own property in Spain but are not a tax resident, several important changes affect your obligations:
 
-### Rental Income Taxation
+### Rental income taxation
 
 | Aspect | Previous Rules | 2024 Rules |
 |--------|---------------|------------|
@@ -69,7 +69,7 @@ If you own property in Spain but are not a tax resident, several important chang
 
 > **⚠️ Note:** Non-EU residents still cannot deduct expenses from rental income—you're taxed on gross rental income at 24%.
 
-### Imputed Income Tax (IRNR)
+### Imputed income tax (IRNR)
 
 Even if you don't rent out your Spanish property, you must pay annual imputed income tax:
 
@@ -79,11 +79,11 @@ Even if you don't rent out your Spanish property, you must pay annual imputed in
 
 ---
 
-## Wealth Tax Updates by Region
+## Wealth tax updates by region
 
 Spain's wealth tax (*Impuesto sobre el Patrimonio*) varies significantly by autonomous community. Here's the current landscape:
 
-### Regional Wealth Tax Comparison
+### Regional wealth tax comparison
 
 | Region | Allowance | Top Rate | Notes |
 |--------|-----------|----------|-------|
@@ -94,7 +94,7 @@ Spain's wealth tax (*Impuesto sobre el Patrimonio*) varies significantly by auto
 | **Balearic Islands** | €700,000 | 3.45% | Tourist areas |
 | **Canary Islands** | €700,000 | 0.4-3.03% | Moderate rates |
 
-### Important Considerations:
+### Important considerations:
 
 1. **Primary Residence:** Additional €300,000 exemption applies in most regions
 2. **Total Assets:** Includes worldwide assets for residents, Spanish assets only for non-residents
@@ -102,11 +102,11 @@ Spain's wealth tax (*Impuesto sobre el Patrimonio*) varies significantly by auto
 
 ---
 
-## The Solidarity Tax: A New Nationwide Levy
+## The solidarity tax: a new nationwide levy
 
 Introduced in 2023, the **Solidarity Tax** (*Impuesto Temporal de Solidaridad de las Grandes Fortunas*) is a national-level wealth tax designed to ensure minimum taxation regardless of regional exemptions.
 
-### Who Is Affected?
+### Who is affected?
 
 | Net Wealth | Tax Rate |
 |------------|----------|
@@ -124,11 +124,11 @@ Introduced in 2023, the **Solidarity Tax** (*Impuesto Temporal de Solidaridad de
 
 ---
 
-## Property Tax (IBI) Increases
+## Property tax (IBI) increases
 
 Many municipalities have significantly increased property taxes (*Impuesto sobre Bienes Inmuebles*):
 
-### Average Increases by Area Type
+### Average increases by area type
 
 | Area | Average Increase | Reason |
 |------|-----------------|--------|
@@ -136,7 +136,7 @@ Many municipalities have significantly increased property taxes (*Impuesto sobre
 | **Major Cities** | 3-6% | Infrastructure costs |
 | **Rural Areas** | 1-3% | Minimal changes |
 
-### Factors Affecting Your IBI:
+### Factors affecting your IBI:
 
 - **Cadastral Value Reviews:** Many areas reassessed in 2023-2024
 - **Municipal Coefficients:** Can range from 0.4% to 1.3% of cadastral value
@@ -146,11 +146,11 @@ Many municipalities have significantly increased property taxes (*Impuesto sobre
 
 ---
 
-## Inheritance Tax: Regional Variations
+## Inheritance tax: regional variations
 
 Spanish inheritance tax (*Impuesto sobre Sucesiones y Donaciones*) is managed regionally, leading to dramatic differences:
 
-### Current Regional Benefits (Direct Family)
+### Current regional benefits (direct family)
 
 | Region | Reduction for Spouse/Children | Notes |
 |--------|------------------------------|-------|
@@ -160,7 +160,7 @@ Spanish inheritance tax (*Impuesto sobre Sucesiones y Donaciones*) is managed re
 | **Catalonia** | 20-50% | Less generous |
 | **Balearic Islands** | Variable | Being reformed |
 
-### Important Inheritance Planning Points:
+### Important inheritance planning points:
 
 1. **EU Succession Regulation:** You can choose your home country's succession law
 2. **Applicable Region:** Determined by deceased's residence or property location
@@ -169,11 +169,11 @@ Spanish inheritance tax (*Impuesto sobre Sucesiones y Donaciones*) is managed re
 
 ---
 
-## Cryptocurrency Taxation
+## Cryptocurrency taxation
 
 Spain has tightened cryptocurrency regulations significantly:
 
-### Current Rules:
+### Current rules:
 
 | Aspect | Requirement |
 |--------|-------------|
@@ -182,7 +182,7 @@ Spain has tightened cryptocurrency regulations significantly:
 | **Trading Profits** | Treated as savings income |
 | **Mining Income** | Treated as economic activity |
 
-### Penalties for Non-Compliance:
+### Penalties for non-compliance:
 
 - **Late Filing:** €100 per item, minimum €1,500
 - **Inaccurate Information:** €5,000 per item
@@ -190,9 +190,9 @@ Spain has tightened cryptocurrency regulations significantly:
 
 ---
 
-## Practical Recommendations
+## Practical recommendations
 
-### 1. Review Your Tax Position
+### 1. Review your tax position
 
 With these changes, your tax situation may have shifted significantly:
 
@@ -200,7 +200,7 @@ With these changes, your tax situation may have shifted significantly:
 ✅ Consider whether changing tax residence makes sense
 ✅ Explore optimization opportunities within legal boundaries
 
-### 2. Documentation Is Critical
+### 2. Documentation is critical
 
 Spanish tax authorities are increasingly strict about documentation:
 
@@ -208,7 +208,7 @@ Spanish tax authorities are increasingly strict about documentation:
 ✅ Maintain bank statements and accounts
 ✅ Preserve property-related documentation for at least 4 years
 
-### 3. Understand Your Reporting Obligations
+### 3. Understand your reporting obligations
 
 | Form | Purpose | Who Must File |
 |------|---------|---------------|
@@ -217,7 +217,7 @@ Spanish tax authorities are increasingly strict about documentation:
 | **Modelo 720** | Foreign assets | Spanish residents with €50K+ abroad |
 | **Modelo 721** | Crypto assets | Spanish residents with €50K+ in crypto abroad |
 
-### 4. Consider Regional Differences
+### 4. Consider regional differences
 
 When buying property or relocating, regional tax differences can mean savings of tens of thousands of euros:
 
@@ -227,7 +227,7 @@ When buying property or relocating, regional tax differences can mean savings of
 
 ---
 
-## Upcoming Changes to Watch
+## Upcoming changes to watch
 
 Several proposals are currently under discussion:
 
@@ -238,7 +238,7 @@ Several proposals are currently under discussion:
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Do I have to pay tax in both my home country and Spain?
 

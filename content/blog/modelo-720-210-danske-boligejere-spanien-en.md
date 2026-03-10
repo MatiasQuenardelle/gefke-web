@@ -28,13 +28,13 @@ In this guide, we'll go through both modelos in detail, explain who needs to rep
 
 ---
 
-## Modelo 720 - Declaration of Foreign Assets
+## Modelo 720 - declaration of foreign assets
 
 Modelo 720 was introduced in 2013 as a tool for Spanish tax authorities to combat tax evasion. The purpose is to ensure that residents in Spain report all their worldwide assets - not just the Spanish ones.
 
 For many Danish residents in Spain, this means they must report their assets in Denmark: bank accounts, securities, properties, and more.
 
-### Who Must Report Modelo 720?
+### Who must report Modelo 720?
 
 Modelo 720 must be reported by:
 
@@ -55,7 +55,7 @@ You do NOT need to report if:
 - All your assets are in Spain
 - Your foreign assets are under €50,000 in all three categories
 
-### What Must Be Declared?
+### What must be declared?
 
 Modelo 720 divides foreign assets into three categories:
 
@@ -138,7 +138,7 @@ Life insurance taken out with foreign companies, if surrender value exceeds €5
 
 ---
 
-### Deadlines and Reporting
+### Deadlines and reporting
 
 **Deadline: March 31**
 
@@ -190,7 +190,7 @@ This means many only need to report every 2-3 years if their assets are stable.
 
 ---
 
-### EU Ruling 2022 and New Rules
+### EU ruling 2022 and new rules
 
 Modelo 720 has been controversial since its introduction and has been subject to several EU cases.
 
@@ -231,11 +231,11 @@ If you have failed to report in previous years:
 
 ---
 
-## Modelo 210 - Non-Resident Tax on Property
+## Modelo 210 - non-resident tax on property
 
 While Modelo 720 applies to residents, Modelo 210 is relevant for **non-residents** with Spanish property.
 
-### Who Must Pay Modelo 210?
+### Who must pay Modelo 210?
 
 **Non-Residents with Spanish Property**
 
@@ -254,7 +254,7 @@ Modelo 210 must be paid by:
 
 ---
 
-### The Difference from IBI
+### The difference from IBI
 
 Many confuse Modelo 210 with IBI. They are NOT the same:
 
@@ -276,7 +276,7 @@ Many confuse Modelo 210 with IBI. They are NOT the same:
 
 ---
 
-### Calculating the Tax
+### Calculating the tax
 
 Modelo 210 is calculated based on an **imputed income** (fictitious rental income), even if you don't rent out the property.
 
@@ -308,7 +308,7 @@ Modelo 210 is calculated based on an **imputed income** (fictitious rental incom
 
 ---
 
-### Example Calculation
+### Example calculation
 
 **Situation:**
 - Danish vacation home owner (non-resident)
@@ -343,7 +343,7 @@ Same property (cadastral €120,000):
 
 ---
 
-### Deadlines and Payment
+### Deadlines and payment
 
 **Annual Reporting**
 
@@ -370,7 +370,7 @@ Modelo 210 must be reported and paid **once annually** for the previous year.
 
 ---
 
-### Do You Rent Out Your Property?
+### Do you rent out your property?
 
 If you rent out your Spanish property, the taxation changes significantly.
 
@@ -429,11 +429,11 @@ If you rent out, you must report **quarterly**:
 
 ---
 
-## What Happens If You Don't Report?
+## What happens if you don't report?
 
 Missing or incorrect reporting of Modelo 720 or 210 can have serious consequences.
 
-### Modelo 720 - Fines and Consequences
+### Modelo 720 - fines and consequences
 
 **New Fines (after EU ruling 2022):**
 
@@ -460,7 +460,7 @@ Even though fines are reduced, they are still significant.
 
 ---
 
-### Modelo 210 - Fines and Consequences
+### Modelo 210 - fines and consequences
 
 **Missing Reporting:**
 
@@ -492,7 +492,7 @@ If you don't pay:
 
 ---
 
-### Statute of Limitations
+### Statute of limitations
 
 | Tax Form | Statute of Limitations |
 |----------|----------------------|
@@ -503,11 +503,11 @@ If you don't pay:
 
 ---
 
-## Step-by-Step: How to Report
+## Step-by-step: how to report
 
 Let's go through the practical process for reporting both modelos.
 
-### Modelo 720 - Practical Guide
+### Modelo 720 - practical guide
 
 **Step 1: Gather Documentation**
 
@@ -558,7 +558,7 @@ Log in to Agencia Tributaria:
 
 ---
 
-### Modelo 210 - Practical Guide
+### Modelo 210 - practical guide
 
 **Step 1: Find Your Cadastral Value**
 
@@ -603,11 +603,11 @@ Log in to Agencia Tributaria:
 
 ---
 
-## When Should You Use an Advisor?
+## When should you use an advisor?
 
 Even though the forms can theoretically be filled out yourself, there are many situations where professional help is a good investment.
 
-### Modelo 720 - Consider an Advisor If:
+### Modelo 720 - consider an advisor if:
 
 | Situation | Why Professional Help? |
 |-----------|----------------------|
@@ -623,7 +623,7 @@ Even though the forms can theoretically be filled out yourself, there are many s
 
 ---
 
-### Modelo 210 - Consider an Advisor If:
+### Modelo 210 - consider an advisor if:
 
 | Situation | Why Professional Help? |
 |-----------|----------------------|
@@ -639,7 +639,7 @@ Even though the forms can theoretically be filled out yourself, there are many s
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Do I need to report Modelo 720 if I have under €50,000?
 
@@ -722,7 +722,7 @@ Modelo 720 and 210 are two different taxes with different purposes, but both are
 | **Modelo 720** | Residents in Spain | Reports foreign assets over €50,000 | March 31 | Use professional (€150-400) |
 | **Modelo 210** | Non-residents with Spanish property | Annual tax on imputed income | December 31 (year after) | €200-500/year + consider gestor (€80-150) |
 
-### Most Important Advice
+### Most important advice
 
 1. **Understand your status:** Are you resident or non-resident? This determines which taxes apply.
 
@@ -746,7 +746,7 @@ Modelo 720 and 210 are two different taxes with different purposes, but both are
    - Do it yourself (reduces fines)
    - Don't wait for authorities to discover it
 
-### Final Note
+### Final note
 
 Spanish tax can seem complex and bureaucratic compared to the Danish system. But with the right knowledge and professional help, it's manageable.
 

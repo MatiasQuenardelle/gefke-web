@@ -22,7 +22,7 @@ I denne omfattende guide gennemgår vi hele processen trin-for-trin, så du ved 
 
 Uanset om du er arving efter en pensionist, der boede i Spanien, eller om den afdøde blot ejede en feriebolig på Costa del Sol, skal du igennem den spanske arveproces. Lad os guide dig gennem det hele.
 
-## Vigtigste Forskel: Spanien vs. Danmark
+## Vigtigste forskel: Spanien vs. Danmark
 
 Den største overraskelse for de fleste danske arvinger er, at dødsboskiftet i Spanien IKKE starter automatisk. I Danmark er vi vant til, at kommunen eller skifteretten automatisk igangsætter processen efter et dødsfald. I Spanien ligger ansvaret derimod fuldt ud hos arvingerne selv.
 
@@ -32,11 +32,11 @@ En anden væsentlig forskel er, at det spanske system ikke kender til offentligt
 
 Endelig er der forskel på selve arverettens indhold. Mens dansk arveret giver ægtefællen en stærk position, har børnene under spansk ret krav på to tredjedele af arven (legitima). Dette kan dog ændres ved at vælge dansk lov i et testamente - mere om dette senere.
 
-## Den Kritiske 6-Måneders Frist
+## Den kritiske 6-måneders frist
 
 Den absolut vigtigste frist i hele arveprocessen er de **6 måneder fra dødsdatoen** til at betale arveafgiften (Impuesto de Sucesiones y Donaciones). Denne frist er ikke vejledende - den er absolut, og overskridelse medfører automatiske økonomiske sanktioner.
 
-### Hvorfor Fristen er Vigtig
+### Hvorfor fristen er vigtig
 
 Hvis arveafgiften ikke betales inden 6 måneder, sker der tre ting:
 
@@ -46,7 +46,7 @@ Hvis arveafgiften ikke betales inden 6 måneder, sker der tre ting:
 
 For en arv på eksempelvis 300.000 euro med en arveafgift på 30.000 euro kan en forsinkelse på blot 3 måneder medføre ekstra omkostninger på 2.000-5.000 euro.
 
-### Hvornår Starter Fristen?
+### Hvornår starter fristen?
 
 Fristen løber fra den eksakte dødsdato, ikke fra det tidspunkt, hvor arvingerne får kendskab til dødsfaldet. Dette kan være problematisk, hvis arvingerne opholder sig i Danmark og ikke straks får besked.
 
@@ -54,7 +54,7 @@ Dokumentation af dødsfaldsdatoen sker ved:
 - Spansk dødsattest (certificado de defunción), hvis dødsfaldet skete i Spanien
 - Internationalt anerkendt dansk dødsattest med apostille, hvis dødsfaldet skete i Danmark
 
-### Mulighed for Forlængelse
+### Mulighed for forlængelse
 
 Der er mulighed for at søge om forlængelse af 6-måneders fristen med yderligere 6 måneder. Denne ansøgning skal indgives INDEN de første 6 måneder er udløbet, og der skal være saglige grunde til forlængelsen, såsom:
 
@@ -65,11 +65,11 @@ Der er mulighed for at søge om forlængelse af 6-måneders fristen med yderlige
 
 Ansøgningen indgives til den regionale skattemyndighed (Agencia Tributaria) og koster typisk et mindre gebyr. Selvom forlængelse gives, begynder rentetilskrivningen allerede efter de første 6 måneder - men bøden kan undgås.
 
-## Trin-for-Trin: Dødsboskifte i Spanien
+## Trin-for-trin: dødsboskifte i Spanien
 
 Processen for dødsboskifte i Spanien kan virke uoverskuelig, men ved at følge disse syv trin systematisk, sikrer du en problemfri afvikling.
 
-### Trin 1: Indhent Nødvendige Dokumenter fra Danmark
+### Trin 1: indhent nødvendige dokumenter fra Danmark
 
 Hvis den afdøde var dansk statsborger eller boede i Danmark, skal du have en række dokumenter fra Danmark, som skal bruges i Spanien.
 
@@ -100,7 +100,7 @@ Hvis den afdøde var dansk statsborger eller boede i Danmark, skal du have en r�
 
 **Vigtig note**: Start processen med at indhente disse dokumenter så hurtigt som muligt. Apostille og oversættelse kan tage 2-4 uger, og med den stramme 6-måneders frist er der ingen tid at spilde.
 
-### Trin 2: Undersøg Om Der Findes Spansk Testamente
+### Trin 2: undersøg om der findes spansk testamente
 
 Før arvefordelingen kan fastlægges, skal det afklares, om den afdøde havde et spansk testamente. Dette undersøges ved at indhente en attest fra:
 
@@ -128,7 +128,7 @@ Et spansk testamente forenkler processen markant, fordi:
 
 Hvis der ikke findes et spansk testamente, skal det danske testamente bruges. Dette kræver oversættelse og apostille og kan forlænge processen med flere uger.
 
-### Trin 3: Indhent NIE-Nummer til Arvinger
+### Trin 3: indhent NIE-nummer til arvinger
 
 Alle arvinger skal have et spansk skatteidentifikationsnummer (NIE - Número de Identificación de Extranjero), uanset om de er bosiddende i Spanien eller ej. Uden NIE kan arvingerne ikke:
 - Underskrive hos notaren
@@ -157,7 +157,7 @@ NIE kan ansøges på tre måder:
 
 **Vigtig anbefaling**: Ansøg om NIE så tidligt som muligt, helst inden for den første måned efter dødsfaldet. Hvis der er flere arvinger bosiddende i Danmark, kan NIE-ansøgning via konsulatet blive en flaskehals.
 
-### Trin 4: Værdifastsættelse af Aktiver
+### Trin 4: værdifastsættelse af aktiver
 
 For at kunne beregne arveafgiften skal alle aktiver værdiansættes. Dette er et kritisk trin, da skattemyndighederne kan anfægte en for lav værdiansættelse.
 
@@ -188,7 +188,7 @@ Alle bankkonti skal spærres ved dødsfaldet. Banken vil udstede en attest med:
 - Smykker og værdigenstande: Vurdering
 - Indbo: Typisk skønsværdi (ofte et standardbeløb på 3.000-5.000 euro)
 
-### Trin 5: Beregning og Betaling af Arveafgift
+### Trin 5: beregning og betaling af arveafgift
 
 Arveafgiften i Spanien (Impuesto de Sucesiones y Donaciones) varierer dramatisk afhængigt af, hvilken region ejendommen ligger i, og hvilken relation arvingen har til afdøde.
 
@@ -246,7 +246,7 @@ Arveafgiften betales til den regionale skattemyndighed ved:
 
 Når betalingen er gennemført, udstedes en kvittering (modelo 650 justificante de pago), som er afgørende for næste trin.
 
-### Trin 6: Underskrivelse hos Notar
+### Trin 6: underskrivelse hos notar
 
 Når arveafgiften er betalt, er næste skridt at formalisere arvefordelingen hos en notar (notario). I Spanien har notarer en langt mere central rolle end i Danmark - de er offentlige embedsmænd, der sikrer lovligheden af transaktioner.
 
@@ -293,7 +293,7 @@ Selvom dokumentet er på spansk, har notaren pligt til at sikre, at du forstår,
 
 De fleste notarer i kystområderne har erfaring med udenlandske klienter og taler engelsk. Alligevel anbefales det stærkt at have en juridisk rådgiver til stede.
 
-### Trin 7: Tinglysning og Registrering
+### Trin 7: tinglysning og registrering
 
 Det sidste trin er at få arveskødet tinglyst i ejendomsregistret (Registro de la Propiedad), så ejendommen officielt overgår til arvingerne.
 
@@ -333,11 +333,11 @@ Når ejerskiftet er tinglyst, skal følgende opdateres:
 
 Mange af disse ændringer kræver en kopi af det tinglyste arveskøde som dokumentation.
 
-## Hvilket Lands Arveregler Gælder?
+## Hvilket lands arveregler gælder?
 
 Et af de mest forvirrende spørgsmål for danske arvinger er: Hvilke arveregler gælder egentlig? Den danske, den spanske, eller begge?
 
-### EU's Arveretsforordning
+### EU's arveretsforordning
 
 Siden 17. august 2015 gælder EU's arveretsforordning (EU 650/2012) i alle EU-lande - med undtagelse af Danmark, Irland og Storbritannien, som har fravalgt forordningen.
 
@@ -361,7 +361,7 @@ For pensionister, der tilbragte 6-8 måneder årligt i Spanien, kan afgørelsen 
 - Skattemæssig status
 - Hvor længe personen havde boet i Spanien
 
-### Lovvalg i Testamente
+### Lovvalg i testamente
 
 Det afgørende værktøj til at skabe klarhed er **lovvalg i testamente**.
 
@@ -386,7 +386,7 @@ For at lovvalget skal være gyldigt, skal det:
 - Proceduren for skifte (den følger spanske regler)
 - Forpligtelsen til at anvende spansk notar
 
-### Dansk vs. Spansk Arveret - De Store Forskelle
+### Dansk vs. spansk arveret - de store forskelle
 
 Der er markante forskelle mellem dansk og spansk arveret, som kan have stor økonomisk betydning for arvingerne.
 
@@ -443,7 +443,7 @@ Forskellen i ægtefællens position er enorm og kan være afgørende for den øk
 
 Arveafgiften (Impuesto de Sucesiones y Donaciones) er for mange arvinger den største økonomiske byrde ved arv i Spanien. Systemet er komplekst, fordi afgiften administreres regionalt med store forskelle mellem de 17 autonome regioner.
 
-### Nationale Regler vs. Regionale
+### Nationale regler vs. regionale
 
 **Nationale grundregler**
 
@@ -462,7 +462,7 @@ Hver af de 17 autonome regioner har vedtaget egne regler, der kan:
 - Indføre egne bundgrænser
 - Forskelsbehandle residenter vs. ikke-residenter (dette var tilladt indtil 2014, nu er det begrænset)
 
-### Nedsættelser og Fradrag
+### Nedsættelser og fradrag
 
 De fleste regioner giver betydelige fradrag baseret på:
 
@@ -483,7 +483,7 @@ Mange regioner giver særlige fradrag for:
 - **Familievirksomhed**: Betydelige fradrag ved generationsskifte
 - **Landbrugsjord**: Fradrag i landbrugsdistrikter
 
-### Eksempelberegning - Detail
+### Eksempelberegning - detail
 
 Lad os gennemgå en detaljeret beregning for at forstå systemets kompleksitet:
 
@@ -542,11 +542,11 @@ Regionens regler afhænger af, hvor den **afdøde havde bopæl**, ikke hvor arvi
 
 Dette betyder, at ikke-residenter der ejer feriebolig i Spanien, men ikke bor der permanent, risikerer at betale væsentlig højere arveafgift, da de ikke får gavn af de regionale fradrag.
 
-## Særlige Situationer
+## Særlige situationer
 
 Ikke alle dødsboskifter i Spanien følger standardprocessen. Her er tre særlige situationer, der kræver ekstra opmærksomhed:
 
-### Afdøde Var Ikke-Resident
+### Afdøde var ikke-resident
 
 Hvis den afdøde boede i Danmark, men ejede en feriebolig i Spanien, opstår der særlige udfordringer:
 
@@ -575,7 +575,7 @@ For danskere der overvejer at købe feriebolig i Spanien, kan det være en overv
 
 Dette kræver naturligvis en helhedsvurdering af skattekonsekvenserne i både Danmark og Spanien.
 
-### Flere Arvinger med Uenighed
+### Flere arvinger med uenighed
 
 Når arvingerne ikke er enige om fordelingen eller håndteringen af boet, kompliceres processen betydeligt.
 
@@ -602,7 +602,7 @@ Selv ved uenighed løber 6-måneders fristen for arveafgift. Det er derfor afgø
 
 Hvis du som arving fornemmer potentiel uenighed, kontakt en spansk advokat så tidligt som muligt. Mange konflikter kan løses gennem mægling, før de eskalerer til retssager, der kan trække ud i årevis.
 
-### Ejendom med Gæld
+### Ejendom med gæld
 
 Hvis den afdøde havde gæld i ejendommen (realkreditlån) eller andre forpligtelser, skal arvingerne forholde sig til, om de vil acceptere arven:
 
@@ -646,7 +646,7 @@ Arveafgiften beregnes af **nettoarven** (aktiver minus passiver). Dokumenteret g
 - Udskrift fra tingbogen (nota simple)
 - Bankattest om restgæld pr. dødsfaldsdatoen
 
-## Dokumenter Tjekliste
+## Dokumenter tjekliste
 
 For at sikre en smidig proces er det essentielt at have alle nødvendige dokumenter klar. Her er en komplet tjekliste:
 
@@ -750,11 +750,11 @@ For at sikre en smidig proces er det essentielt at have alle nødvendige dokumen
 4. **Gem alt**: Behold kopier af alle dokumenter og kvitteringer
 5. **Digitalisér**: Scan alle dokumenter og gem dem sikkert i skyen
 
-## Typiske Fejl at Undgå
+## Typiske fejl at undgå
 
 Gennem årene har vi set mange danske arvinger begå de samme fejl. Her er de mest kritiske at undgå:
 
-### 1. Vente for Længe (6-Måneders Frist)
+### 1. Vente for længe (6-måneders frist)
 
 **Fejlen**: Mange arvinger undervurderer alvoren af 6-måneders fristen eller tror, den kan forlænges uden videre.
 
@@ -766,7 +766,7 @@ Gennem årene har vi set mange danske arvinger begå de samme fejl. Her er de me
 - Ansøg om forlængelse i god tid, hvis nødvendigt
 - Betragt 6 måneder som en absolut deadline
 
-### 2. Manglende Spansk Testamente
+### 2. Manglende spansk testamente
 
 **Fejlen**: Den afdøde havde kun et dansk testamente eller slet intet testamente.
 
@@ -782,7 +782,7 @@ Gennem årene har vi set mange danske arvinger begå de samme fejl. Her er de me
 - Inkludér lovvalgsklausul i begge testamenter
 - Omkostning: 150-300 euro hos spansk notar - en minimal investering
 
-### 3. Ikke-Koordinerede Testamenter
+### 3. Ikke-koordinerede testamenter
 
 **Fejlen**: Den afdøde har både dansk og spansk testamente, men de modsiger hinanden eller har forskellige bestemmelser.
 
@@ -796,7 +796,7 @@ Gennem årene har vi set mange danske arvinger begå de samme fejl. Her er de me
 - Brug samme lovvalg i begge testamenter
 - Overvej en klausul som: "Dette testamente ophæver ikke mit testamente oprettet i Danmark/Spanien"
 
-### 4. Glemme NIE-Nummer
+### 4. Glemme NIE-nummer
 
 **Fejlen**: Arvingerne venter med at ansøge om NIE-nummer til sidst i processen.
 
@@ -811,7 +811,7 @@ Gennem årene har vi set mange danske arvinger begå de samme fejl. Her er de me
 - Hvis arvinger bor i Danmark: Ansøg via spanske ambassade i København
 - Alternativt: Giv fuldmagt til repræsentant i Spanien til at ansøge
 
-### 5. Undervurdere Ejendommen
+### 5. Undervurdere ejendommen
 
 **Fejlen**: For at spare arveafgift angiver arvingerne en kunstigt lav værdi af ejendommen.
 
@@ -826,7 +826,7 @@ Gennem årene har vi set mange danske arvinger begå de samme fejl. Her er de me
 - Indhent professionel vurdering (tasación) hvis i tvivl
 - Husk at moderne skattemyndigheder har adgang til salgsdata og kan sammenligne
 
-### 6. Antage at Danske Regler Gælder
+### 6. Antage at danske regler gælder
 
 **Fejlen**: Arvingerne antager, at processen fungerer som i Danmark, og at de kan "klare det selv".
 
@@ -840,7 +840,7 @@ Gennem årene har vi set mange danske arvinger begå de samme fejl. Her er de me
 - Anvend ikke en dansk advokat, der ikke kender spansk ret
 - Omkostningen (typisk 1.500-3.000 euro) er en investering der forhindrer langt større tab
 
-### 7. Ignorere Gæld i Ejendommen
+### 7. Ignorere gæld i ejendommen
 
 **Fejlen**: Arvingerne accepterer arven fuldt ud uden at undersøge om der er gæld.
 
@@ -855,7 +855,7 @@ Gennem årene har vi set mange danske arvinger begå de samme fejl. Her er de me
 - Tjek ejerforeningen for restancer
 - Overvej accept med beneficium (beneficio de inventario)
 
-## Ofte Stillede Spørgsmål (FAQ)
+## Ofte stillede spørgsmål (FAQ)
 
 ### Kan jeg som dansk arving sælge ejendommen med det samme?
 

@@ -21,7 +21,7 @@ Som dansker, der køber ejendom i Spanien, er det **afgørende at forstå denne 
 
 ---
 
-## Hvad Er IBI-Skatten Egentlig?
+## Hvad er IBI-skatten egentlig?
 
 ### Definitionen
 **IBI** står for **"Impuesto sobre Bienes Inmuebles"** (bogstavelig oversat: "Skat på Fast Ejendom"). Det er en årlig ejendomsskat, som alle personer og virksomheder, der ejer ejendom i Spanien, skal betale til den lokale kommune.
@@ -39,9 +39,9 @@ I Danmark betaler du ikke årlig ejendomsskat på din egen hjem. I stedet har vi
 
 ---
 
-## Hvor Meget Betaler Du i IBI-Skat?
+## Hvor meget betaler du i IBI-skat?
 
-### Den Typiske Sats
+### Den typiske sats
 IBI varierer efter:
 
 1. **Region** (provinsen hvor ejendommen ligger)
@@ -54,7 +54,7 @@ IBI varierer efter:
 - **De Kanariske Øer:** Ofte lavere, ca. 0,4-0,5%
 - **Katalonien:** Nogle kommuner oppe på 1,0-1,1%
 
-### Eksempel: Sådan Beregnes Det
+### Eksempel: sådan beregnes det
 
 Forestil dig, at du køber et hus i Málaga til €200,000.
 
@@ -64,7 +64,7 @@ Forestil dig, at du køber et hus i Málaga til €200,000.
 
 Det svarer til omkring **97,50 € pr. måned**.
 
-### Yderligere Udgifter
+### Yderligere udgifter
 Ud over IBI skal du som boligejer også være forberedt på:
 
 - **Reparations- og vedligeholdelsesfonde** (hvis i ejerforening): €100-200/måned
@@ -76,7 +76,7 @@ Samlet set kan dine årlige udgifter til det spanske hus være **€3,000-5,000*
 
 ---
 
-## Hvordan Betales IBI?
+## Hvordan betales IBI?
 
 ### Betalingsproceduren
 1. **Du modtager en faktura** fra kommunen (normalt i december/januar)
@@ -86,7 +86,7 @@ Samlet set kan dine årlige udgifter til det spanske hus være **€3,000-5,000*
    - På kommunekontoret
    - Online gennem kommunens hjemmeside
 
-### Kan Du Forhandle IBI-Satsen?
+### Kan du forhandle IBI-satsen?
 **Nej, desværre.** IBI er en lovpligtig skat, der fastsættes af kommunen. Du kan ikke forhandle eller undgå den. Dog kan du:
 
 - **Appellere Catastro-værdi** hvis den synes urimelig høj (kræver dokumentation)
@@ -95,12 +95,12 @@ Samlet set kan dine årlige udgifter til det spanske hus være **€3,000-5,000*
 
 ---
 
-## Catastro-Værdien: Nøglen til IBI-Beregningen
+## Catastro-værdien: nøglen til IBI-beregningen
 
-### Hvad Er Catastro?
+### Hvad er Catastro?
 **Catastro** (Registro de la Propiedad) er det spanske ejendomsregister, hvor alle ejendomme er registrerede med officielle værdier.
 
-### Vigtig: Catastro-Værdi ≠ Markedspris
+### Vigtig: Catastro-værdi ≠ markedspris
 Dit hus kan være købt til €300,000, men Catastro-værdien kan være €250,000 eller endda lavere. Skatten beregnes på Catastro-værdien, **ikke** på det beløb, du rent faktisk betalte.
 
 **Eksempel:**
@@ -108,12 +108,12 @@ Dit hus kan være købt til €300,000, men Catastro-værdien kan være €250,0
 - Catastro-værdi: €200,000
 - Din IBI beregnes på €200,000
 
-### Hvor Finder Du Catastro-Værdien?
+### Hvor finder du Catastro-værdien?
 1. **Catastro.minhap.es** – spansk ejendomsregister (søg efter din ejendom via adresse)
 2. **Din advokat** kan søge det for dig
 3. **Kommunekontoret** (ayuntamiento) har også register
 
-### Kan Du Ændre Catastro-Værdien?
+### Kan du ændre Catastro-værdien?
 Ja, hvis du mener værdien er **uresonabelt høj** sammenlignet med lignende ejendomme, kan du anke til Catastro. Du skal dog fremvise:
 - Sammenlignelige ejendommers handler
 - Væsentlige fejl i registreringen
@@ -123,16 +123,16 @@ Denne proces kan tage 6-12 måneder.
 
 ---
 
-## IBI-Skat og Skattereaktioner
+## IBI-skat og skattereaktioner
 
-### Hvad Hvis Du Ikke Betaler IBI?
+### Hvad hvis du ikke betaler IBI?
 - **Første år:** Genkald + små gebyrer
 - **Andet år:** Bøder på ca. 10-20% af det skyldige beløb
 - **Tredje år+:** Højere bøder, potentielle retssager, og muligvis salg af ejendommen for at dække skylden
 
 **Vigtig:** Selv hvis du ikke bruger huset (f.eks. en udlandet lejlighed), skal du stadig betale IBI.
 
-### Kan Du Få Fradrag for IBI?
+### Kan du få fradrag for IBI?
 **Nej, normalt ikke.** IBI er en personallig skat, som du ikke kan fradrage i din indkomstskat (undtagen i særlige tilfælde for erhvervsejendomme eller lejeudlejning med særlige ordninger).
 
 Men hvis ejendommen er til udlejning:
@@ -141,9 +141,9 @@ Men hvis ejendommen er til udlejning:
 
 ---
 
-## Regionale Variationer: Hvor Betaler Du Mindre?
+## Regionale variationer: hvor betaler du mindre?
 
-### De Mest IBI-Venlige Områder
+### De mest IBI-venlige områder
 
 | Region | Gennemsnitlig Sats | Eksempel (€200,000 værdi) | Karakter |
 |--------|-------------------|--------------------------|----------|
@@ -158,9 +158,9 @@ Men hvis ejendommen er til udlejning:
 
 ---
 
-## IBI og Din Investeringsbeslutning
+## IBI og din investeringsbeslutning
 
-### Skal IBI Påvirke Dit Boligkøb?
+### Skal IBI påvirke dit boligkøb?
 
 **Ja – her er hvad du bør vurdere:**
 
@@ -178,7 +178,7 @@ Men hvis ejendommen er til udlejning:
    - Hvis du lejer huset ud, kan IBI trækkes fra
    - Dermed reduceres din skattepligtige indkomst
 
-### Hvad Er en "Fair" IBI-Pris?
+### Hvad er en "fair" IBI-pris?
 For at være sikker på at du ikke overbeskattes, tjek:
 - **Catastro.minhap.es** – sammenlign med lignende boliger i området
 - **Spørg naboer** hvad de betaler
@@ -186,9 +186,9 @@ For at være sikker på at du ikke overbeskattes, tjek:
 
 ---
 
-## 5 Vigtige Tips til IBI-Skatten
+## 5 vigtige tips til IBI-skatten
 
-### 1. Sørg For At Være Korrekt Registreret
+### 1. Sørg for at være korrekt registreret
 ✅ Få dit navn registreret som ejer hos **Catastro**
 ✅ Registrer din spanske adresse
 ✅ Notér dit **Catastro-referensenummer** (det kommer på IBI-fakturaen)
@@ -198,24 +198,24 @@ For at være sikker på at du ikke overbeskattes, tjek:
 ✅ Betalinger efter fristen kan give bøder
 ✅ Sæt betalingen på **banktransfer eller automatisk betaling**
 
-### 3. Gem Alt Dokumentation
+### 3. Gem alt dokumentation
 ✅ Bevar IBI-fakturaer i **mindst 5 år**
 ✅ Bevar købekontrakt og skøde
 ✅ Dokumenter alt driftsfaldede, hvis det er en investeringsejendom
 
-### 4. Kontakt Kommune Årligt
+### 4. Kontakt kommune årligt
 ✅ Tjek at **Catastro-værdi ikke er steget urimelig** (udløst af større renoveringer på naboejendommen?)
 ✅ Anke hvis værdi synes høj
 ✅ Notifikationsbrev kan komme med forsinkelse – så tjek aktivt
 
-### 5. Overvej Dit Boligkøb Langvarigt
+### 5. Overvej dit boligkøb langvarigt
 ✅ Køber du til at bo i? IBI er en fast årlig udgift
 ✅ Køber du til investering? IBI er en driftsomkostning
 ✅ Køber du til udlejning? Husk IBI kan fratrækkes skat
 
 ---
 
-## Konklusion: IBI Er Part of the Game
+## Konklusion: IBI er part of the game
 
 IBI-skatten er **ikke optional** i Spanien – den er en realitet for alle ejendomsejere. Men med vigtigt kendskab til hvordan den beregnes, kan du:
 

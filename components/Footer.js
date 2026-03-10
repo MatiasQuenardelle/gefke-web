@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 const Footer = () => {
   return (
@@ -7,9 +8,18 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Column 1: About */}
           <div>
-            <h3 className="font-semibold text-white mb-3 text-sm uppercase tracking-wider">
-              Christian Gefke
-            </h3>
+            <div className="flex items-center gap-2 mb-3">
+              <Image
+                src="/images/logo.png"
+                alt="Buxton-Gefke Law"
+                width={32}
+                height={32}
+                className="brightness-0 invert"
+              />
+              <h3 className="font-semibold text-white text-sm uppercase tracking-wider">
+                Buxton-Gefke Law
+              </h3>
+            </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Autoriseret spansk advokat (abogado) med speciale i juridisk rådgivning til danskere i Spanien.
             </p>
@@ -72,7 +82,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/blog" className="text-gray-400 hover:text-emerald-400 transition-colors">
-                  Blog
+                  Indsigter
                 </Link>
               </li>
             </ul>
@@ -116,7 +126,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="border-t border-zinc-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-500">
-          <span>&copy; {new Date().getFullYear()} Christian Gefke</span>
+          <span>&copy; {new Date().getFullYear()} Buxton-Gefke Law</span>
           <div className="flex gap-6">
             <Link href="/privacypolicy" className="hover:text-gray-300 transition-colors">
               Privacy disclaimer

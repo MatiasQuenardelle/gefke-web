@@ -21,11 +21,11 @@ This comprehensive guide walks you through every step of the process, from obtai
 
 ---
 
-## Step 1: Getting Your NIE Number
+## Step 1: Getting your NIE number
 
 The **NIE (Número de Identificación de Extranjero)** is your Spanish tax identification number for foreigners. It's absolutely essential—you cannot buy property, open a bank account, or sign contracts in Spain without one.
 
-### How to Obtain Your NIE:
+### How to obtain your NIE:
 
 | Method | Timeline | Requirements |
 |--------|----------|--------------|
@@ -37,9 +37,9 @@ The **NIE (Número de Identificación de Extranjero)** is your Spanish tax ident
 
 ---
 
-## Step 2: Assembling Your Team
+## Step 2: Assembling your team
 
-### Why You Need an Independent Lawyer
+### Why you need an independent lawyer
 
 **Never buy property in Spain without independent legal representation.** This cannot be stressed enough. Your lawyer should be:
 
@@ -48,7 +48,7 @@ The **NIE (Número de Identificación de Extranjero)** is your Spanish tax ident
 - Specialized in Spanish property law
 - Registered with the local Bar Association (*Colegio de Abogados*)
 
-### What Your Lawyer Will Do:
+### What your lawyer will do:
 
 ✅ Review all property documentation
 ✅ Check for debts, liens, and encumbrances
@@ -57,17 +57,17 @@ The **NIE (Número de Identificación de Extranjero)** is your Spanish tax ident
 ✅ Represent you at the notary signing
 ✅ Handle tax registrations and utility transfers
 
-### Typical Legal Fees
+### Typical legal fees
 
 Expect to pay approximately **1% of the purchase price** for legal services, with a minimum fee of around €1,500-2,000 for smaller transactions.
 
 ---
 
-## Step 3: The Purchase Process
+## Step 3: The purchase process
 
 The Spanish property buying process follows a clear sequence:
 
-### 1. Property Search & Selection
+### 1. Property search & selection
 - Work with reputable estate agents
 - Visit properties in person when possible
 - Research the area, including future development plans
@@ -78,7 +78,7 @@ The Spanish property buying process follows a clear sequence:
 - Usually deducted from final purchase price
 - **Important:** Ensure this is refundable if due diligence reveals problems
 
-### 3. Due Diligence Period
+### 3. Due diligence period
 Your lawyer will verify:
 - **Nota Simple**: Official property registry extract
 - **Cadastral reference**: Property boundaries and tax value
@@ -86,7 +86,7 @@ Your lawyer will verify:
 - **Building licenses**: Legal construction status
 - **Occupancy certificate** (*Cédula de Habitabilidad*)
 
-### 4. Private Purchase Contract (*Contrato de Arras*)
+### 4. Private purchase contract (*Contrato de Arras*)
 - Typically 10% of purchase price paid
 - Legally binding agreement
 - Sets completion date (usually 4-8 weeks)
@@ -94,7 +94,7 @@ Your lawyer will verify:
   - Buyer withdraws: Loses deposit
   - Seller withdraws: Must return double the deposit
 
-### 5. Notary Signing (*Escritura Pública*)
+### 5. Notary signing (*Escritura Pública*)
 - Final deed signed before a notary
 - Remaining balance paid (usually by banker's draft)
 - Keys handed over
@@ -102,11 +102,11 @@ Your lawyer will verify:
 
 ---
 
-## Step 4: Understanding the Costs
+## Step 4: Understanding the costs
 
 Beyond the purchase price, budget for these additional costs:
 
-### Taxes & Fees Breakdown
+### Taxes & fees breakdown
 
 | Cost Type | Percentage | Notes |
 |-----------|------------|-------|
@@ -117,7 +117,7 @@ Beyond the purchase price, budget for these additional costs:
 | **Legal Fees** | 1% | Your lawyer's fees |
 | **Mortgage Costs** | 2-3% | If financing (valuation, arrangement fees) |
 
-### Total Additional Costs
+### Total additional costs
 
 **For a resale property:** Expect **10-13%** on top of the purchase price
 **For a new build:** Expect **12-14%** on top of the purchase price
@@ -126,7 +126,7 @@ Beyond the purchase price, budget for these additional costs:
 
 ---
 
-## Step 5: Essential Documents Checklist
+## Step 5: Essential documents checklist
 
 Before completing your purchase, ensure you have verified:
 
@@ -141,9 +141,9 @@ Before completing your purchase, ensure you have verified:
 
 ---
 
-## Step 6: Financing Your Purchase
+## Step 6: Financing your purchase
 
-### Mortgages for Foreign Buyers
+### Mortgages for foreign buyers
 
 Spanish banks do offer mortgages to non-residents, but with stricter conditions:
 
@@ -154,7 +154,7 @@ Spanish banks do offer mortgages to non-residents, but with stricter conditions:
 - **NIE number:** Required before application
 - **Spanish bank account:** For mortgage payments
 
-### Recommended Banks for Foreign Buyers
+### Recommended banks for foreign buyers
 - Santander
 - BBVA
 - CaixaBank
@@ -164,7 +164,7 @@ Spanish banks do offer mortgages to non-residents, but with stricter conditions:
 
 ---
 
-## Step 7: Opening a Spanish Bank Account
+## Step 7: Opening a Spanish bank account
 
 A Spanish bank account is essential for:
 
@@ -174,7 +174,7 @@ A Spanish bank account is essential for:
 - Community fees (*gastos de comunidad*)
 - Insurance premiums
 
-### Documents Needed:
+### Documents needed:
 - Valid passport
 - NIE number
 - Proof of address (home country)
@@ -182,11 +182,11 @@ A Spanish bank account is essential for:
 
 ---
 
-## Ongoing Costs as a Property Owner
+## Ongoing costs as a property owner
 
 Once you own property in Spain, budget for these annual expenses:
 
-### Annual Taxes & Fees
+### Annual taxes & fees
 
 | Expense | Typical Cost | Frequency |
 |---------|--------------|-----------|
@@ -196,7 +196,7 @@ Once you own property in Spain, budget for these annual expenses:
 | **Non-Resident Tax (IRNR)** | 19-24% of deemed rental value | Annual |
 | **Home Insurance** | €200-500 | Annual |
 
-### If You Rent Out Your Property
+### If you rent out your property
 
 - **Rental income tax:** 19% for EU residents, 24% for non-EU
 - **Quarterly tax declarations** required
@@ -204,7 +204,7 @@ Once you own property in Spain, budget for these annual expenses:
 
 ---
 
-## Common Pitfalls to Avoid
+## Common pitfalls to avoid
 
 ### ❌ Don't:
 
@@ -225,7 +225,7 @@ Once you own property in Spain, budget for these annual expenses:
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Can foreigners buy property in Spain?
 

@@ -32,19 +32,35 @@ export default function AboutPage() {
           </p>
 
           <p className="text-gray-800">
+            {t.about.work}
+          </p>
+
+          <p className="text-gray-800">
+            {t.about.registration}
+          </p>
+
+          <p className="text-gray-800">
             {t.about.education}
           </p>
 
           <p className="text-gray-800">
-            {t.about.career}
+            {t.about.bridge}
           </p>
 
-          <p className="text-gray-800">
-            {t.about.passion}
-          </p>
+          <div>
+            <p className="text-gray-800 mb-3">
+              {t.about.clientsIntro}
+            </p>
+            <ul className="list-disc pl-6 space-y-2 text-gray-800">
+              <li>{t.about.client1}</li>
+              <li>{t.about.client2}</li>
+              <li>{t.about.client3}</li>
+              <li>{t.about.client4}</li>
+            </ul>
+          </div>
 
-          <p className="text-gray-800">
-            {t.about.closing}
+          <p className="text-gray-800 font-medium">
+            {t.about.focus}
           </p>
         </section>
 
@@ -53,25 +69,13 @@ export default function AboutPage() {
             {t.about.backgroundTitle}
           </h2>
 
-          <ul className="space-y-4 text-gray-800">
-            <li>
-              <span className="font-bold text-gray-900">{t.about.background2012}</span> {t.about.background2012Text}
-            </li>
-            <li>
-              <span className="font-bold text-gray-900">{t.about.background2017}</span> {t.about.background2017Text}
-            </li>
-            <li>
-              <span className="font-bold text-gray-900">{t.about.background2019}</span> {t.about.background2019Text}
-            </li>
-            <li>
-              <span className="font-bold text-gray-900">{t.about.background2021}</span> {t.about.background2021Text}
-            </li>
-            <li>
-              <span className="font-bold text-gray-900">{t.about.background2022}</span> {t.about.background2022Text}
-            </li>
-            <li>
-              <span className="font-bold text-gray-900">{t.about.background2022b}</span> {t.about.background2022bText}
-            </li>
+          <ul className="list-disc pl-6 space-y-3 text-gray-800">
+            <li>{t.about.bg1}</li>
+            <li>{t.about.bg2}</li>
+            <li>{t.about.bg3}</li>
+            <li>{t.about.bg4}</li>
+            <li>{t.about.bg5}</li>
+            <li>{t.about.bg6}</li>
           </ul>
         </section>
       </main>

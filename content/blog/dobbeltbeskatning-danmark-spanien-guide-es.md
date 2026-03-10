@@ -22,17 +22,17 @@ Esta guía completa cubre todos los aspectos de la doble imposición entre Dinam
 
 ---
 
-## ¿Qué Pasó con el Convenio de Doble Imposición?
+## ¿Qué pasó con el convenio de doble imposición?
 
 Para entender la situación actual, necesitamos mirar brevemente hacia atrás. Hasta 2009, Dinamarca y España tenían un convenio de doble imposición que regulaba qué país tenía derecho a gravar diferentes tipos de renta para personas con conexiones en ambos países.
 
-### Por Qué Dinamarca Terminó el Acuerdo
+### Por qué Dinamarca terminó el acuerdo
 
 En 2008, Dinamarca decidió terminar el acuerdo. La razón principal fue que muchos pensionistas daneses se mudaban a España, donde podían disfrutar de una menor tributación sobre sus pensiones danesas. Los tipos impositivos españoles eran significativamente más bajos que los daneses en ese momento, y los pensionistas experimentaban ahorros fiscales considerables al establecer su residencia fiscal en España.
 
 El estado danés estaba perdiendo ingresos fiscales de pensiones que los daneses habían ganado durante toda una vida de trabajo en Dinamarca. Esto era inaceptable para las autoridades danesas, y la terminación se convirtió en realidad.
 
-### Consecuencias para los Daneses en España
+### Consecuencias para los daneses en España
 
 La terminación tuvo—y sigue teniendo—consecuencias de gran alcance:
 
@@ -44,11 +44,11 @@ La terminación tuvo—y sigue teniendo—consecuencias de gran alcance:
 
 ---
 
-## "Régimen Antiguo" vs. "Régimen Nuevo" - ¿Cuál Te Aplica?
+## "Régimen Antiguo" vs. "Régimen Nuevo" - ¿Cuál te aplica?
 
 La línea divisoria crucial para los pensionistas daneses en España es noviembre de 2007. Dependiendo de cuándo te estableciste en España, estás cubierto por el régimen antiguo o nuevo, con implicaciones significativas para tu situación fiscal.
 
-### ¿Quién Está Cubierto por el Régimen Antiguo?
+### ¿Quién está cubierto por el Régimen Antiguo?
 
 Estás cubierto por el régimen antiguo si se cumplen **TODAS** las siguientes condiciones:
 
@@ -58,7 +58,7 @@ Estás cubierto por el régimen antiguo si se cumplen **TODAS** las siguientes c
 
 Estos criterios son acumulativos—los tres deben cumplirse. No es suficiente haber vivido en España en 2007 si solo empezaste a recibir pensión después de enero de 2008.
 
-#### Documentación Requerida
+#### Documentación requerida
 
 Si afirmas estar cubierto por el régimen antiguo, debes poder documentarlo ante las autoridades danesas y españolas:
 
@@ -71,7 +71,7 @@ Si afirmas estar cubierto por el régimen antiguo, debes poder documentarlo ante
 
 > **⚠️ Importante:** Guarda estos documentos de forma segura—puede que te pidan presentarlos año tras año.
 
-#### Beneficios Fiscales Bajo el Régimen Antiguo
+#### Beneficios fiscales bajo el Régimen Antiguo
 
 Bajo el régimen antiguo, tu pensión danesa tributa **exclusivamente en España**. Dinamarca no tiene derecho de imposición, y por tanto no se aplica retención.
 
@@ -83,7 +83,7 @@ Bajo el régimen antiguo, tu pensión danesa tributa **exclusivamente en España
 
 > **💡 Para pensiones menores:** Si tu pensión anual está por debajo de aproximadamente €22.000, a menudo experimentarás menor tributación en España que en Dinamarca. El sistema fiscal español tiene deducciones personales y umbrales relativamente altos.
 
-### ¿Quién Está Cubierto por el Régimen Nuevo?
+### ¿Quién está cubierto por el Régimen Nuevo?
 
 Estás cubierto por el régimen nuevo si:
 
@@ -92,7 +92,7 @@ Estás cubierto por el régimen nuevo si:
 
 Bajo el régimen nuevo, la legislación danesa se aplica a la tributación de tu pensión danesa, aunque seas residente fiscal en España.
 
-#### Cómo Tributas Bajo el Régimen Nuevo
+#### Cómo tributas bajo el Régimen Nuevo
 
 **En Dinamarca:**
 - Pensión danesa gravada según normas danesas
@@ -104,7 +104,7 @@ Bajo el régimen nuevo, la legislación danesa se aplica a la tributación de tu
 - La pensión danesa se incluye en el cálculo de tu impuesto español
 - Tienes derecho a deducción (crédito) por el impuesto danés pagado
 
-#### La Obligación de Doble Declaración
+#### La obligación de doble declaración
 
 Aquí es donde se complica. Bajo el régimen nuevo, debes:
 
@@ -117,11 +117,11 @@ Aquí es donde se complica. Bajo el régimen nuevo, debes:
 
 ---
 
-## Cómo Evitar la Doble Imposición en la Práctica
+## Cómo evitar la doble imposición en la práctica
 
 Sin un convenio bilateral de doble imposición entre Dinamarca y España, debes usar las normas nacionales de deducción y la legislación de la UE para evitar la doble imposición.
 
-### Deducción en España (Método de Crédito)
+### Deducción en España (método de crédito)
 
 España usa el método de crédito cuando tú, como contribuyente español, has pagado impuestos en el extranjero:
 
@@ -129,7 +129,7 @@ España usa el método de crédito cuando tú, como contribuyente español, has 
 2. **Documentas el impuesto danés pagado** con tu liquidación fiscal danesa
 3. **Recibes una deducción** en tu impuesto español igual al impuesto danés, pero máximo el impuesto español sobre la misma renta
 
-#### Ejemplo Práctico del Método de Crédito
+#### Ejemplo práctico del método de crédito
 
 | Concepto | Importe |
 |----------|---------|
@@ -142,7 +142,7 @@ España usa el método de crédito cuando tú, como contribuyente español, has 
 
 En este caso, obtienes crédito por €8.000 en España (no los €10.050 completos, ya que tu impuesto español era solo €8.000).
 
-#### Documentación Requerida
+#### Documentación requerida
 
 Para obtener deducción en España, debes documentar:
 
@@ -153,11 +153,11 @@ Para obtener deducción en España, debes documentar:
 
 ---
 
-## ¿Qué Renta Tributa Dónde?
+## ¿Qué renta tributa dónde?
 
 Para navegar la doble imposición, es esencial entender los principios principales sobre dónde tributan los diferentes tipos de renta.
 
-### Reglas Principales Sin Convenio de Doble Imposición
+### Reglas principales sin convenio de doble imposición
 
 | Tipo de Renta | Derecho Primario de Imposición | Derecho Secundario |
 |---------------|-------------------------------|-------------------|
@@ -170,7 +170,7 @@ Para navegar la doble imposición, es esencial entender los principios principal
 | **Alquiler de propiedad danesa** | Dinamarca | España (con deducción) |
 | **Ganancias patrimoniales de propiedad española** | España | Dinamarca (si relevante) |
 
-### Reglas Especiales para Pensiones de Funcionarios
+### Reglas especiales para pensiones de funcionarios
 
 Las pensiones de funcionarios constituyen una categoría especial ya que se consideran remuneración por servicio público anterior:
 
@@ -181,11 +181,11 @@ Las pensiones de funcionarios constituyen una categoría especial ya que se cons
 
 ---
 
-## Obligaciones de Declaración en Ambos Países
+## Obligaciones de declaración en ambos países
 
 Una de las mayores sorpresas para muchos daneses en España es descubrir que deben presentar declaraciones de impuestos en ambos países.
 
-### Declaración de Impuestos en Dinamarca
+### Declaración de impuestos en Dinamarca
 
 **Quién debe declarar:**
 - Todos con ingresos daneses (pensión, alquiler, dividendos, etc.)
@@ -193,7 +193,7 @@ Una de las mayores sorpresas para muchos daneses en España es descubrir que deb
 
 **Plazo:** 1 de mayo (para el año fiscal anterior)
 
-### Declaración de Impuestos en España
+### Declaración de impuestos en España
 
 **Quién debe declarar:**
 - Todos los residentes fiscales en España
@@ -208,7 +208,7 @@ Una de las mayores sorpresas para muchos daneses en España es descubrir que deb
 - Rentas del capital de fuentes mundiales
 - Activos extranjeros (si superan €50.000)
 
-### Consecuencias de No Declarar
+### Consecuencias de no declarar
 
 | País | Consecuencias |
 |------|---------------|
@@ -217,9 +217,9 @@ Una de las mayores sorpresas para muchos daneses en España es descubrir que deb
 
 ---
 
-## Ejemplos Prácticos
+## Ejemplos prácticos
 
-### Ejemplo 1: Pensionista Bajo Régimen Antiguo
+### Ejemplo 1: Pensionista bajo Régimen Antiguo
 
 **Persona:** Jens, 72 años, residente en Marbella desde 2005
 
@@ -241,7 +241,7 @@ Una de las mayores sorpresas para muchos daneses en España es descubrir que deb
 
 **Beneficio de Jens:** Si hubiera vivido en Dinamarca, su tipo impositivo habría sido alrededor del 30-35%, así que ahorra significativamente bajo el régimen antiguo.
 
-### Ejemplo 2: Trasladado Bajo Régimen Nuevo
+### Ejemplo 2: Trasladado bajo Régimen Nuevo
 
 **Persona:** Anne, 68 años, se mudó a España en 2015
 
@@ -266,7 +266,7 @@ Una de las mayores sorpresas para muchos daneses en España es descubrir que deb
 
 ---
 
-## ¿Cuándo Deberías Buscar Ayuda Profesional?
+## ¿Cuándo deberías buscar ayuda profesional?
 
 La doble imposición entre Dinamarca y España es compleja. Deberías buscar ayuda si:
 
@@ -295,7 +295,7 @@ La doble imposición entre Dinamarca y España es compleja. Deberías buscar ayu
 
 ---
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ### ¿Puedo cambiar del régimen nuevo al antiguo?
 

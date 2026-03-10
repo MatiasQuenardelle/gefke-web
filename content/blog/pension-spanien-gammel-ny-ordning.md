@@ -22,11 +22,11 @@ I denne guide får du det komplette overblik over, hvordan danske pensioner besk
 
 Lad os starte med den afgørende skillelinje: Var du bosiddende i Spanien og modtog pension senest i januar 2008? Svaret på dette spørgsmål afgør alt.
 
-## Baggrunden: Opsigelsen af Dobbeltbeskatningsaftalen
+## Baggrunden: opsigelsen af dobbeltbeskatningsaftalen
 
 For at forstå "gammel ordning" og "ny ordning" skal vi kort tilbage i historien.
 
-### Hvad Skete Der i 2008-2009?
+### Hvad skete der i 2008-2009?
 
 Indtil 2008 havde Danmark og Spanien en dobbeltbeskatningsoverenskomst, der regulerede, hvilket land der måtte beskatte forskellige indkomsttyper. For pensioner betød aftalen, at **danske pensioner skulle beskattes i Spanien**, hvis pensionisten boede der.
 
@@ -39,7 +39,7 @@ Den officielle begrundelse var, at Spanien brugte aftalen til at give danske pen
 - Danmark mistede skatteindtægter uden at pensionisterne nødvendigvis betalte i Spanien
 - Systemet blev opfattet som "dobbelt ikke-beskatning" i stedet for "undgåelse af dobbeltbeskatning"
 
-### Overgangsordningen - "Gammel Ordning"
+### Overgangsordningen - "gammel ordning"
 
 For at beskytte pensionister, der allerede havde indrettet deres liv efter de gamle regler, indførtes en **overgangsordning** (gammel ordning):
 
@@ -47,15 +47,15 @@ Pensionister der opfyldte specifikke kriterier, kunne fortsætte under de gamle 
 
 Denne todeling skaber i dag to parallelle systemer med fundamentalt forskellige skattemæssige konsekvenser.
 
-### Link til Uddybende Artikel
+### Link til uddybende artikel
 
 For en mere detaljeret gennemgang af dobbeltbeskatningsproblematikken mellem Danmark og Spanien, læs vores guide: [Dobbeltbeskatning Danmark-Spanien: Komplet Guide](/blog/dobbeltbeskatning-danmark-spanien-guide).
 
-## Gammel Ordning - Hvem er Omfattet?
+## Gammel ordning - hvem er omfattet?
 
 "Gammel ordning" er den mest fordelagtige ordning for de fleste pensionister. Men kriterierne er meget specifikke, og du skal kunne dokumentere, at du opfylder dem alle.
 
-### Kriterier for Gammel Ordning
+### Kriterier for gammel ordning
 
 For at være omfattet af gammel ordning skal ALLE følgende betingelser være opfyldt:
 
@@ -94,7 +94,7 @@ Hvis du flyttede tilbage til Danmark i en periode og senere vendte tilbage til S
 
 **Vigtig pointe**: Nogle pensionister fejlagtigt troede, de kunne flytte hjem til Danmark i nogle år og senere vende tilbage under gammel ordning. Det kan de ikke. Gammel ordning kræver uafbrudt residens i Spanien fra 2007/2008 og frem.
 
-### Sådan Beskattes Du Under Gammel Ordning
+### Sådan beskattes du under gammel ordning
 
 Under gammel ordning gælder de oprindelige regler fra dobbeltbeskatningsoverenskomsten:
 
@@ -139,7 +139,7 @@ Under gammel ordning trækkes der **ingen dansk skat** af din pension. Danmark h
 
 Dette er en stor praktisk fordel: Du modtager hele beløbet og betaler kun skat i Spanien.
 
-### Fordele ved Gammel Ordning
+### Fordele ved gammel ordning
 
 For de fleste pensionister er gammel ordning klar fordelagtig:
 
@@ -179,11 +179,11 @@ Du skal kun forholde dig til ét skattesystem (det spanske), i stedet for at sku
 
 **Bemærk**: Fordelen afhænger meget af pensionens størrelse. For meget høje pensioner (over 60.000 euro/år) kan dansk beskatning faktisk være mere fordelagtig i visse tilfælde.
 
-## Ny Ordning - Hvem er Omfattet?
+## Ny ordning - hvem er omfattet?
 
 Hvis du ikke opfylder kriterierne for gammel ordning, er du automatisk omfattet af "ny ordning".
 
-### Kriterier for Ny Ordning
+### Kriterier for ny ordning
 
 Ny ordning omfatter alle pensionister, der:
 
@@ -209,7 +209,7 @@ Hvis du var under gammel ordning, men flyttede tilbage til Danmark i nogle år o
 
 **Konklusion**: Ny ordning er det **normale** i dag. Gammel ordning er en undtagelse for en afgrænset gruppe ældre pensionister.
 
-### Sådan Beskattes Du Under Ny Ordning
+### Sådan beskattes du under ny ordning
 
 Under ny ordning følges de almindelige danske skatteregler, da der ikke længere er en gældende dobbeltbeskatningsoverenskomst.
 
@@ -240,7 +240,7 @@ Selv om Danmark beskatter pensionen, har Spanien som dit bopælsland også ret t
 
 Dette skaber **dobbeltbeskatning**.
 
-### Den Dobbelte Indberetningspligt
+### Den dobbelte indberetningspligt
 
 Under ny ordning skal du indberette din pension i **BEGGE** lande. Dette er en af ordningens største byrder.
 
@@ -287,7 +287,7 @@ For at få lempelse i Spanien skal du kunne dokumentere den betalte danske skat.
 
 Mange gestorer og spanske skattemyndigheder kender ikke det danske system, så du skal selv være forberedt på at forklare og dokumentere.
 
-### Eksempel på Dobbeltbeskatning og Lempelse
+### Eksempel på dobbeltbeskatning og lempelse
 
 **Situation:**
 - Dansk pensionist under ny ordning, bosiddende i Andalusien
@@ -329,11 +329,11 @@ Hvis pensionen havde været 400.000 kr./år (ca. 53.600 euro):
 
 Men ved endnu højere indkomst kan spansk skat blive højere end dansk, og da skal differencen betales i Spanien.
 
-## Sammenligning: Gammel vs. Ny Ordning
+## Sammenligning: gammel vs. ny ordning
 
 Lad os sammenligne de to ordninger direkte med en detaljeret tabel og konkrete eksempler.
 
-### Stor Sammenligningstabel
+### Stor sammenligningstabel
 
 | Aspekt | Gammel Ordning | Ny Ordning |
 |--------|----------------|------------|
@@ -351,7 +351,7 @@ Lad os sammenligne de to ordninger direkte med en detaljeret tabel og konkrete e
 | **Behov for gestor/revisor** | Ja (Spanien) | Ja (begge lande) |
 | **Formueskat påvirkning** | Mindre (pensionsformue tæller ikke) | Større (al formue tæller) |
 
-### Eksempel: Pension på 300.000 kr./år
+### Eksempel: pension på 300.000 kr./år
 
 Lad os sammenligne konkret for en pensionist med en mellemstor pension.
 
@@ -410,7 +410,7 @@ Lad os sammenligne konkret for en pensionist med en mellemstor pension.
 
 Over 10 år er forskellen 42.000 euro - en formue for de fleste pensionister.
 
-### Samlet Skattetryk i Begge Scenarier
+### Samlet skattetryk i begge scenarier
 
 Lad os se på tre forskellige pensionsniveauer:
 
@@ -440,7 +440,7 @@ Lad os se på tre forskellige pensionsniveauer:
 
 **Observation**: Gammel ordning er fordelagtig på alle pensionsniveauer, men især ved lave og mellemstore pensioner. Ved meget høje pensioner (over 70.000 euro/år) kan forskellen blive mindre.
 
-## Hvilke Pensionstyper Beskattes Hvor?
+## Hvilke pensionstyper beskattes hvor?
 
 Ikke alle pensionstyper behandles ens. Lad os gennemgå de forskellige typer.
 
@@ -458,7 +458,7 @@ Ikke alle pensionstyper behandles ens. Lad os gennemgå de forskellige typer.
 
 **Praktisk note**: ATP og folkepension udbetales månedsligt. Under ny ordning trækkes kildeskat automatisk.
 
-### Ratepension og Livrente
+### Ratepension og livrente
 
 **Ratepension**
 - Privat pensionsopsparing udbetalt over tid
@@ -539,11 +539,11 @@ Dette kan skabe komplekse lempelsesberegninger.
 
 Dette er en af de få pensionstyper, hvor der ikke er forskel mellem ordningerne.
 
-## Formueskat i Spanien - Husk Dette!
+## Formueskat i Spanien - husk dette!
 
 Udover indkomstskat skal du som resident i Spanien også være opmærksom på **formueskat** (Impuesto sobre el Patrimonio).
 
-### Hvad er Formueskat?
+### Hvad er formueskat?
 
 Formueskat er en årlig skat på din nettoformue (aktiver minus passiver). Ikke alle lande har formueskat - Danmark har ikke - men Spanien har.
 
@@ -573,7 +573,7 @@ Formueskatten er progressiv, typisk:
 - 0,2% for de første 167.000 euro over bundgrænse
 - Op til 2,5-3,5% for formuer over 10 mio. euro
 
-### Formue Over 700.000 EUR (Andalusien)
+### Formue over 700.000 EUR (Andalusien)
 
 Lad os tage Andalusien som eksempel (mange danske pensionister):
 
@@ -636,7 +636,7 @@ Denne pensionist betaler ingen formueskat.
 - **Skattepligtig formue: 700.000 EUR**
 - Formueskat (0,2-1,0%): ca. 3.000-4.000 EUR årligt
 
-### Regionale Forskelle
+### Regionale forskelle
 
 **Madrid:**
 - Officielt findes formueskat, men 100% fradrag
@@ -672,11 +672,11 @@ For pensionister med betydelig formue kan valg af region have stor betydning:
 
 Dette kan påvirke valget af, hvor i Spanien man slår sig ned.
 
-## Praktisk Tjekliste: Før Du Flytter
+## Praktisk tjekliste: før du flytter
 
 Hvis du overvejer at flytte til Spanien som pensionist, er her en omfattende tjekliste af ting, du skal overveje og handle på.
 
-### 10-Punkts Tjekliste
+### 10-punkts tjekliste
 
 **1. Afklær din skattemæssige status**
 - [ ] Fastslå om du kan være under gammel ordning (sandsynligvis nej, hvis du flytter nu)
@@ -738,7 +738,7 @@ Hvis du overvejer at flytte til Spanien som pensionist, er her en omfattende tje
 - [ ] Tjek gebyrer for udenlandske overførsler
 - [ ] Informér bank om ændret bopæl
 
-### Timing af Flytning
+### Timing af flytning
 
 Timingen af din fraflytning kan have stor skattemæssig betydning:
 
@@ -764,7 +764,7 @@ Timingen af din fraflytning kan have stor skattemæssig betydning:
 - Residencia (grønt certifikat)
 - Tilmelding til spansk sundhedsvæsen med S1
 
-### Efterbeskatningsrisiko (5-Års Regel)
+### Efterbeskatningsrisiko (5-års regel)
 
 **Hvad er efterbeskatning?**
 
@@ -787,7 +787,7 @@ Når du flytter fra Danmark, kan du blive omfattet af efterbeskatning af pension
 
 **Note**: Der er specifikke regler og undtagelser. Dette er et komplekst område, hvor du bør søge hjælp fra en dansk skatterådgiver.
 
-## Ofte Stillede Spørgsmål
+## Ofte stillede spørgsmål
 
 ### Kan jeg skifte fra ny til gammel ordning?
 
@@ -976,7 +976,7 @@ Pensionsformue der arves skal behandles i både Danmark og Spanien:
 
 Beskatning af danske pensioner i Spanien er komplekst, men med den rette viden kan du navigere systemet og optimere din skattemæssige situation.
 
-### De Vigtigste Takeaways
+### De vigtigste takeaways
 
 **1. Forstå din ordning**
 - Gammel ordning: Kun hvis bosiddende før 28.11.2007 + modtog pension jan 2008
@@ -1004,7 +1004,7 @@ Beskatning af danske pensioner i Spanien er komplekst, men med den rette viden k
 - Spansk gestor/advokat efter fraflytning
 - Omkostning på 500-1.500 EUR/år er en god investering
 
-### Er det Værd at Flytte til Spanien Skattemæssigt?
+### Er det værd at flytte til Spanien skattemæssigt?
 
 **Under gammel ordning:** Klar ja for de fleste. Betydelig skattebesparelse kombineret med lavere leveomkostninger.
 
@@ -1027,7 +1027,7 @@ Samme person i Spanien (ny ordning):
 
 **70% mere til rådighed**, på trods af lignende skat.
 
-### Næste Skridt
+### Næste skridt
 
 Hvis du overvejer at flytte til Spanien:
 
@@ -1044,11 +1044,11 @@ Hvis du allerede bor i Spanien:
 3. **Lav spansk testamente**, hvis du ikke har
 4. **Gennemgå formueskat** - bor du i den bedste region for din situation?
 
-## Eksempel fra Praksis
+## Eksempel fra praksis
 
 En dansk pensionist kontaktede mig i 2022, fordi han var i tvivl om, hvorvidt han var under gammel eller ny ordning. Han havde boet i Spanien siden 2005, men var først gået på pension i 2010. Desværre opfyldte han ikke kriterierne for gammel ordning, da han ikke modtog pension i januar 2008. Han havde i flere år fejlagtigt troet, at han var under gammel ordning og kun indberettet i Spanien. Vi fik rettet situationen med det danske skattevæsen og undgik større bøder, men det krævede efterbetaling af 3 års dansk kildeskat. Moralen er: Få afklaret din status fra starten.
 
-## Eksterne Ressourcer
+## Eksterne ressourcer
 
 For officielle oplysninger om pensionsbeskatning, se:
 

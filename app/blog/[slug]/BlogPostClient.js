@@ -14,6 +14,15 @@ import { BlogCTAInline, BlogCTABottom } from "@/components/BlogCTA"
 
 const merri = Merriweather({ weight: ["700"], subsets: ["latin"] })
 
+// Preprocess markdown to clean up AI-style emoji bullets
+function preprocessContent(content) {
+  return content
+    // Convert emoji-prefixed lines into proper markdown list items
+    .replace(/^[✅❌👉💡⚠️📌🔥📋🔑⚖️🏠📊]\s*/gm, '- ')
+    // Remove standalone bullet-only lines
+    .replace(/^[•]\s*$/gm, '')
+}
+
 // Split content into sections for CTA injection
 function splitContentForCTAs(content) {
   // Split by H2 headers (## in markdown)
@@ -198,7 +207,8 @@ export default function BlogPostClient({ post, postImage, readingTime, relatedPo
           {/* Article content with inline CTAs */}
           <article className="bg-white rounded-xl shadow-sm p-6 md:p-12 lg:p-16 mb-8">
             {(() => {
-              const { beforeCTA, afterCTA } = splitContentForCTAs(post.content)
+              const cleanedContent = preprocessContent(post.content)
+              const { beforeCTA, afterCTA } = splitContentForCTAs(cleanedContent)
               const proseClasses = `prose prose-lg lg:prose-xl max-w-none
                 prose-headings:text-[#3A5A4E] prose-headings:font-bold prose-headings:tracking-tight
                 prose-h1:text-4xl prose-h1:md:text-5xl prose-h1:mt-12 prose-h1:mb-8

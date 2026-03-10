@@ -28,13 +28,13 @@ En esta guía, repasaremos ambos modelos en detalle, explicaremos quién debe de
 
 ---
 
-## Modelo 720 - Declaración de Activos en el Extranjero
+## Modelo 720 - declaración de activos en el extranjero
 
 El Modelo 720 se introdujo en 2013 como una herramienta para que las autoridades fiscales españolas combatieran la evasión fiscal. El propósito es asegurar que los residentes en España declaren todos sus activos mundiales, no solo los españoles.
 
 Para muchos residentes daneses en España, esto significa que deben declarar sus activos en Dinamarca: cuentas bancarias, valores, propiedades y más.
 
-### ¿Quién Debe Declarar el Modelo 720?
+### ¿Quién debe declarar el Modelo 720?
 
 El Modelo 720 debe ser declarado por:
 
@@ -55,7 +55,7 @@ NO necesita declarar si:
 - Todos sus activos están en España
 - Sus activos en el extranjero están por debajo de 50.000 € en las tres categorías
 
-### ¿Qué Debe Declararse?
+### ¿Qué debe declararse?
 
 El Modelo 720 divide los activos en el extranjero en tres categorías:
 
@@ -138,7 +138,7 @@ Seguros de vida contratados con compañías extranjeras, si el valor de rescate 
 
 ---
 
-### Plazos y Declaración
+### Plazos y declaración
 
 **Plazo: 31 de marzo**
 
@@ -190,7 +190,7 @@ Esto significa que muchos solo necesitan declarar cada 2-3 años si sus activos 
 
 ---
 
-### Sentencia de la UE 2022 y Nuevas Normas
+### Sentencia de la UE 2022 y nuevas normas
 
 El Modelo 720 ha sido controvertido desde su introducción y ha sido objeto de varios casos ante la UE.
 
@@ -231,11 +231,11 @@ Si ha dejado de declarar en años anteriores:
 
 ---
 
-## Modelo 210 - Impuesto de No Residentes sobre Propiedad
+## Modelo 210 - impuesto de no residentes sobre propiedad
 
 Mientras el Modelo 720 aplica a residentes, el Modelo 210 es relevante para **no residentes** con propiedad española.
 
-### ¿Quién Debe Pagar el Modelo 210?
+### ¿Quién debe pagar el Modelo 210?
 
 **No Residentes con Propiedad Española**
 
@@ -254,7 +254,7 @@ El Modelo 210 debe ser pagado por:
 
 ---
 
-### La Diferencia con el IBI
+### La diferencia con el IBI
 
 Muchos confunden el Modelo 210 con el IBI. NO son lo mismo:
 
@@ -275,7 +275,7 @@ Muchos confunden el Modelo 210 con el IBI. NO son lo mismo:
 
 ---
 
-### Cálculo del Impuesto
+### Cálculo del impuesto
 
 El Modelo 210 se calcula basándose en una **renta imputada** (renta ficticia de alquiler), aunque no alquile la propiedad.
 
@@ -307,7 +307,7 @@ El Modelo 210 se calcula basándose en una **renta imputada** (renta ficticia de
 
 ---
 
-### Ejemplo de Cálculo
+### Ejemplo de cálculo
 
 **Situación:**
 - Propietario danés de casa de vacaciones (no residente)
@@ -342,7 +342,7 @@ Misma propiedad (catastral 120.000 €):
 
 ---
 
-### Plazos y Pago
+### Plazos y pago
 
 **Declaración Anual**
 
@@ -369,7 +369,7 @@ El Modelo 210 debe declararse y pagarse **una vez al año** por el año anterior
 
 ---
 
-### ¿Alquila Su Propiedad?
+### ¿Alquila su propiedad?
 
 Si alquila su propiedad española, la tributación cambia significativamente.
 
@@ -428,11 +428,11 @@ Si alquila, debe declarar **trimestralmente**:
 
 ---
 
-## ¿Qué Pasa Si No Declara?
+## ¿Qué pasa si no declara?
 
 La falta de declaración o declaración incorrecta del Modelo 720 o 210 puede tener consecuencias graves.
 
-### Modelo 720 - Multas y Consecuencias
+### Modelo 720 - multas y consecuencias
 
 **Nuevas Multas (tras sentencia UE 2022):**
 
@@ -459,7 +459,7 @@ Aunque las multas se han reducido, siguen siendo significativas.
 
 ---
 
-### Modelo 210 - Multas y Consecuencias
+### Modelo 210 - multas y consecuencias
 
 **Falta de Declaración:**
 
@@ -491,7 +491,7 @@ Si no paga:
 
 ---
 
-### Plazos de Prescripción
+### Plazos de prescripción
 
 | Formulario | Plazo de Prescripción |
 |------------|----------------------|
@@ -502,11 +502,11 @@ Si no paga:
 
 ---
 
-## Paso a Paso: Cómo Declarar
+## Paso a paso: cómo declarar
 
 Repasemos el proceso práctico para declarar ambos modelos.
 
-### Modelo 720 - Guía Práctica
+### Modelo 720 - guía práctica
 
 **Paso 1: Reúna Documentación**
 
@@ -557,7 +557,7 @@ Acceda a la Agencia Tributaria:
 
 ---
 
-### Modelo 210 - Guía Práctica
+### Modelo 210 - guía práctica
 
 **Paso 1: Encuentre Su Valor Catastral**
 
@@ -602,11 +602,11 @@ Acceda a la Agencia Tributaria:
 
 ---
 
-## ¿Cuándo Debe Usar un Asesor?
+## ¿Cuándo debe usar un asesor?
 
 Aunque los formularios teóricamente pueden cumplimentarse uno mismo, hay muchas situaciones donde la ayuda profesional es una buena inversión.
 
-### Modelo 720 - Considere un Asesor Si:
+### Modelo 720 - considere un asesor si:
 
 | Situación | ¿Por Qué Ayuda Profesional? |
 |-----------|----------------------------|
@@ -622,7 +622,7 @@ Aunque los formularios teóricamente pueden cumplimentarse uno mismo, hay muchas
 
 ---
 
-### Modelo 210 - Considere un Asesor Si:
+### Modelo 210 - considere un asesor si:
 
 | Situación | ¿Por Qué Ayuda Profesional? |
 |-----------|----------------------------|
@@ -638,7 +638,7 @@ Aunque los formularios teóricamente pueden cumplimentarse uno mismo, hay muchas
 
 ---
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ### ¿Necesito declarar el Modelo 720 si tengo menos de 50.000 €?
 
@@ -721,7 +721,7 @@ El Modelo 720 y 210 son dos impuestos diferentes con propósitos distintos, pero
 | **Modelo 720** | Residentes en España | Declara activos en extranjero superiores a 50.000 € | 31 de marzo | Use profesional (150-400 €) |
 | **Modelo 210** | No residentes con propiedad española | Impuesto anual sobre renta imputada | 31 de diciembre (año siguiente) | 200-500 €/año + considere gestor (80-150 €) |
 
-### Consejos Más Importantes
+### Consejos más importantes
 
 1. **Entienda su situación:** ¿Es residente o no residente? Esto determina qué impuestos aplican.
 
@@ -745,7 +745,7 @@ El Modelo 720 y 210 son dos impuestos diferentes con propósitos distintos, pero
    - Hágalo usted mismo (reduce multas)
    - No espere a que las autoridades lo descubran
 
-### Nota Final
+### Nota final
 
 El sistema fiscal español puede parecer complejo y burocrático comparado con el sistema danés. Pero con el conocimiento adecuado y ayuda profesional, es manejable.
 

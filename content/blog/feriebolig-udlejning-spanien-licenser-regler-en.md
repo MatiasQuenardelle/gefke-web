@@ -30,9 +30,9 @@ This comprehensive guide gives you the complete overview of:
 
 ---
 
-## The New Reality: Strict Rules from 2023-2025
+## The new reality: strict rules from 2023-2025
 
-### Why Have the Rules Become Stricter?
+### Why have the rules become stricter?
 
 Spain has experienced an explosion in tourism and short-term rental through platforms like Airbnb. In popular destinations like Barcelona, Malaga, Valencia, and the Balearic Islands, this has led to:
 
@@ -51,7 +51,7 @@ Spain has experienced an explosion in tourism and short-term rental through plat
 
 **Result:** It has become significantly harder (but not impossible) to rent legally. At the same time, the risk of illegal rental has increased markedly.
 
-### What Counts as "Tourist Rental"?
+### What counts as "tourist rental"?
 
 Tourist rental (*vivienda turística* or *vivienda de uso turístico*) is generally defined as:
 
@@ -68,11 +68,11 @@ Tourist rental (*vivienda turística* or *vivienda de uso turístico*) is genera
 
 ---
 
-## Step 1: Check If Your Property Can Be Rented
+## Step 1: Check if your property can be rented
 
 Before you even begin the process of applying for licenses, you must ensure that your property actually MAY be rented.
 
-### Homeowner Association Approval - NEW CRITICAL REQUIREMENT
+### Homeowner association approval - NEW CRITICAL REQUIREMENT
 
 **Law Change 2023:** A new law (*Ley de Vivienda*) gave homeowner associations the right to ban or restrict tourist rental.
 
@@ -97,7 +97,7 @@ Your *Comunidad de Propietarios* (homeowner association) can now:
 
 Many buyers discover too late that the homeowner association has banned rental. You cannot demand this be reversed, and your investment may be lost.
 
-### Zone Restrictions and Local Plans
+### Zone restrictions and local plans
 
 In addition to homeowner association rules, there may be **municipal or regional zoning regulations** that restrict or prohibit tourist rental.
 
@@ -118,11 +118,11 @@ In addition to homeowner association rules, there may be **municipal or regional
 
 ---
 
-## Step 2: Apply for Tourist License
+## Step 2: Apply for tourist license
 
 If your property MAY be rented (approved by homeowner association and not in a prohibited zone), the next step is to apply for the required tourist license.
 
-### What is the Tourist License?
+### What is the tourist license?
 
 The tourist license is an **official permit** from your regional government to operate tourist rental.
 
@@ -143,7 +143,7 @@ The tourist license is an **official permit** from your regional government to o
 - Be displayed at the property entrance
 - Be stated on rental contracts
 
-### Requirements for the Property
+### Requirements for the property
 
 To get a tourist license, your property must meet a number of **minimum requirements**. These vary slightly between regions, but general requirements include:
 
@@ -176,7 +176,7 @@ To get a tourist license, your property must meet a number of **minimum requirem
 - ✅ **Professional cleaning** between guests
 - ✅ **Clean linens** for each guest
 
-### Application Process - General Overview
+### Application process - general overview
 
 Although the process varies between regions, most follow this pattern:
 
@@ -188,7 +188,7 @@ Although the process varies between regions, most follow this pattern:
 | **4. Approval** | - | Receive license with unique number; register with tourism registry; can now advertise legally |
 | **5. Ongoing Compliance** | Continuous | Renew license (if required); comply with all rules; update upon changes |
 
-### Required Documents (Typical List)
+### Required documents (typical list)
 
 **Personal Documents:**
 - □ Copy of your **NIE** or DNI
@@ -219,7 +219,7 @@ Although the process varies between regions, most follow this pattern:
 
 ---
 
-## Regional Differences - Overview
+## Regional differences - overview
 
 Rules vary significantly between Spain's autonomous regions. Here's an overview for the most popular areas:
 
@@ -237,7 +237,7 @@ Rules vary significantly between Spain's autonomous regions. Here's an overview 
 | **Restrictions** | Málaga center: limited new licenses; Seville center: special zones; Marbella: reasonably accessible |
 | **Fines** | €150-450,000 depending on severity |
 
-### Valencia Region (Costa Blanca)
+### Valencia region (Costa Blanca)
 
 | Aspect | Details |
 |--------|---------|
@@ -288,11 +288,11 @@ Rules vary significantly between Spain's autonomous regions. Here's an overview 
 
 ---
 
-## Step 3: Tax Obligations
+## Step 3: Tax obligations
 
 When you rent out your Spanish holiday home, you get a number of new tax obligations—both in Spain and your home country.
 
-### Spanish Tax on Rental Income
+### Spanish tax on rental income
 
 As a non-resident who rents out property, you must pay Spanish tax via **Modelo 210** - quarterly!
 
@@ -336,7 +336,7 @@ Net income: €8,800
 Tax (19%): €1,672 annually
 ```
 
-### Modelo 210 - Quarterly Filing
+### Modelo 210 - quarterly filing
 
 **Deadlines:**
 | Quarter | Filing Deadline |
@@ -348,13 +348,13 @@ Tax (19%): €1,672 annually
 
 > **💡 Strong Recommendation:** Use a *gestor* or *asesor fiscal* for this. It costs €50-100 per quarter but ensures correct filing and maximizes your deductions.
 
-### VAT (IVA) on Rental?
+### VAT (IVA) on rental?
 
 **General Rule:** Holiday home rental is **VAT exempt**.
 
 **Exception:** If you provide **hotel-like services** (daily cleaning, breakfast, concierge), it may become VAT-liable. This is rare for private landlords.
 
-### Home Country Tax on Spanish Rental Income
+### Home country tax on Spanish rental income
 
 If you're fully tax liable in your home country, you must **also** report your Spanish rental income there.
 
@@ -365,7 +365,7 @@ No! Most countries provide **relief** for Spanish tax paid (credit method). You 
 
 ## Platforms: Airbnb, Booking.com, etc.
 
-### License Number Requirement in Listings
+### License number requirement in listings
 
 **Legal Requirement in All Regions:**
 You MUST show your license number (e.g., VFT/MA/12345) in your listing.
@@ -380,7 +380,7 @@ You MUST show your license number (e.g., VFT/MA/12345) in your listing.
 - Fines from authorities
 - Platforms report to authorities (in some regions)
 
-### Reporting Obligation to Authorities
+### Reporting obligation to authorities
 
 In several regions, you must report **guest information** to the police.
 
@@ -394,11 +394,11 @@ In several regions, you must report **guest information** to the police.
 
 ---
 
-## What Does It Cost to Become Legal?
+## What does it cost to become legal?
 
 Let's be honest: Operating legal tourist rental costs money. Here's a realistic overview:
 
-### One-Time Expenses (First Time)
+### One-time expenses (first time)
 
 | Expense | Estimate |
 |---------|----------|
@@ -412,7 +412,7 @@ Let's be honest: Operating legal tourist rental costs money. Here's a realistic 
 | **Energy certificate** (if needed) | €150-300 |
 | **Total one-time cost** | **€1,320-3,500** |
 
-### Annual Operating Expenses
+### Annual operating expenses
 
 | Expense | Estimate |
 |---------|----------|
@@ -426,13 +426,13 @@ Let's be honest: Operating legal tourist rental costs money. Here's a realistic 
 
 ---
 
-## Consequences of Illegal Rental
+## Consequences of illegal rental
 
 Many think: "What's the real risk? Can they even discover it?"
 
 The truth is: **Yes, they can—and they do.**
 
-### How Is Illegal Rental Discovered?
+### How is illegal rental discovered?
 
 | Method | Description |
 |--------|-------------|
@@ -441,7 +441,7 @@ The truth is: **Yes, they can—and they do.**
 | **Active Inspections** | Tourism inspectors patrol popular areas; check online listings against license registries |
 | **Data Checks** | Cross-references between Catastro, homeowner association registries, and tourism registries |
 
-### Fines and Sanctions
+### Fines and sanctions
 
 | Violation | Classification | Typical Fine |
 |-----------|----------------|--------------|
@@ -464,17 +464,17 @@ The truth is: **Yes, they can—and they do.**
 
 ---
 
-## Alternative: Long-Term Rental
+## Alternative: long-term rental
 
 If the strict rules for tourist rental deter you, long-term rental may be an alternative.
 
-### What Is Long-Term Rental?
+### What is long-term rental?
 
 - Lease contract for **minimum 12 months** (in practice often 11 months + renewal)
 - For permanent residence (not vacation)
 - With standard lease contract (*contrato de arrendamiento*)
 
-### Advantages of Long-Term Rental
+### Advantages of long-term rental
 
 | Category | Advantages |
 |----------|------------|
@@ -482,7 +482,7 @@ If the strict rules for tourist rental deter you, long-term rental may be an alt
 | **Stable Income** | Guaranteed monthly payment; less work with bookings; less wear (same tenant) |
 | **Tax** | Annual filing (not quarterly); often larger deductions (60% standard deduction for non-residents) |
 
-### Disadvantages of Long-Term Rental
+### Disadvantages of long-term rental
 
 | Category | Disadvantages |
 |----------|---------------|
@@ -492,7 +492,7 @@ If the strict rules for tourist rental deter you, long-term rental may be an alt
 
 ---
 
-## Checklist: Before You Rent
+## Checklist: before you rent
 
 Use this checklist to ensure you do things correctly:
 
@@ -575,7 +575,7 @@ Long-term rental provides lower income but much less administrative hassle and n
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### May I rent out my holiday home without a tourist license just a few weeks per year?
 No, repeated rental—even just a few weeks—requires a tourist license in almost all regions. A single rental may possibly not be sanctioned, but repeated rentals (e.g., multiple times on Airbnb) are almost always discovered and can result in fines of €10,000-40,000.

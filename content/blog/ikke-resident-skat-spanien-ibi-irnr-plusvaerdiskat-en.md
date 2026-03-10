@@ -24,7 +24,7 @@ This guide provides a complete overview of all three tax types, how they're calc
 
 ---
 
-## Overview: The Three Taxes You Must Pay as a Non-Resident
+## Overview: the three taxes you must pay as a non-resident
 
 As a non-resident property owner in Spain, you have three primary tax obligations:
 
@@ -38,7 +38,7 @@ Let's examine each tax type and what it means for you as a foreign property owne
 
 ---
 
-## IBI - Municipal Property Tax
+## IBI - municipal property tax
 
 ### What is IBI?
 
@@ -46,7 +46,7 @@ IBI stands for *Impuesto sobre Bienes Inmuebles* (Tax on Real Estate) and is Spa
 
 > **Important:** All property owners pay IBI - both residents and non-residents. It's a municipal tax, so rates vary between municipalities.
 
-### How IBI is Calculated
+### How IBI is calculated
 
 IBI is calculated based on the property's **cadastral value** (*valor catastral*), which is an official government valuation. The cadastral value is typically 40-60% of market value.
 
@@ -65,7 +65,7 @@ IBI = Cadastral Value × Municipal Rate (0.4% - 1.1%)
 
 Most holiday home owners pay between €300-800 annually in IBI, depending on property size and location. Larger cities like Barcelona and Madrid generally have higher rates than smaller towns.
 
-### Payment and Deadlines
+### Payment and deadlines
 
 IBI is collected once yearly by your municipality. The deadline varies but is typically between September and November.
 
@@ -76,7 +76,7 @@ IBI is collected once yearly by your municipality. The deadline varies but is ty
 
 > **💰 Tip:** Even with direct debit set up, check that payments go through. Technical errors can occur, and you remain responsible for timely payment.
 
-### What If You Don't Receive the Bill?
+### What if you don't receive the bill?
 
 Many non-residents don't receive their IBI bill because the municipality sends it to an old address.
 
@@ -87,7 +87,7 @@ Many non-residents don't receive their IBI bill because the municipality sends i
 - Request electronic billing
 - Consider using a fiscal representative
 
-### Consequences of Non-Payment
+### Consequences of non-payment
 
 If you don't pay IBI on time:
 
@@ -100,7 +100,7 @@ If you don't pay IBI on time:
 
 ---
 
-## IRNR - Non-Resident Income Tax (Modelo 210)
+## IRNR - non-resident income tax (Modelo 210)
 
 ### What is IRNR?
 
@@ -108,7 +108,7 @@ IRNR stands for *Impuesto sobre la Renta de No Residentes* - Non-Resident Income
 
 **The concept:** Spanish tax authorities assume you derive an economic benefit from owning property in Spain (even if you don't rent it out), and therefore tax this "fictional" income.
 
-### Who Must Pay IRNR?
+### Who must pay IRNR?
 
 ✅ Non-residents with property in Spain
 ✅ Regardless of whether the property is for personal use or empty
@@ -118,7 +118,7 @@ IRNR stands for *Impuesto sobre la Renta de No Residentes* - Non-Resident Income
 - You're registered as a Spanish tax resident (more than 183 days/year)
 - You pay regular Spanish income tax (*IRPF*)
 
-### How to Calculate IRNR - Step by Step
+### How to calculate IRNR - step by step
 
 IRNR is calculated in two steps:
 
@@ -138,7 +138,7 @@ This depends on when the property's cadastral value was last revised:
 | EU/EEA Citizens | 19% |
 | Non-EU Citizens | 24% |
 
-### Practical Example
+### Practical example
 
 **Property Details:**
 - Cadastral Value: €120,000
@@ -169,7 +169,7 @@ IRNR is reported and paid via "Modelo 210" form. This must be done digitally thr
 
 > **💡 Tip:** Many non-residents use a *gestor* (tax administrator) or lawyer to handle this filing. It typically costs €50-100 annually but ensures everything is correct.
 
-### Special Rules for Rental Income
+### Special rules for rental income
 
 If you rent out your property, taxation changes significantly:
 
@@ -191,11 +191,11 @@ If you rent out your property, taxation changes significantly:
 
 ---
 
-## Capital Gains Tax When Selling
+## Capital gains tax when selling
 
 When you sell your Spanish property as a non-resident, two types of capital gains tax apply:
 
-### 1. State Capital Gains Tax
+### 1. State capital gains tax
 
 The state capital gains tax is calculated on the profit from the sale.
 
@@ -234,7 +234,7 @@ Gain = Sale Price - Purchase Price - Documented Costs
 - Last €5,000 × 23% = €1,150
 - **Total: €11,530**
 
-### 2. Municipal Plusvalía (Land Value Increase Tax)
+### 2. Municipal Plusvalía (land value increase tax)
 
 The municipal plusvalía taxes the assumed increase in **land value** (not the building) during your ownership period.
 
@@ -247,7 +247,7 @@ The calculation is complex and based on:
 
 > **📋 Note:** Following a 2021 Supreme Court ruling, you may avoid municipal plusvalía if you can prove there was no actual increase in land value.
 
-### The 3% Retention for Non-Residents
+### The 3% retention for non-residents
 
 Here's an important detail many non-residents miss:
 
@@ -269,7 +269,7 @@ Within 4 months, you must file the actual sale via Modelo 210. Then you will eit
 
 ---
 
-## Annual Tax Calendar for Non-Residents
+## Annual tax calendar for non-residents
 
 | Period | Obligation |
 |--------|------------|
@@ -277,7 +277,7 @@ Within 4 months, you must file the actual sale via Modelo 210. Then you will eit
 | **September-November** | Most municipalities collect IBI |
 | **December 31** | Deadline for Modelo 210 (IRNR for previous year) |
 
-### If Renting (Quarterly):
+### If renting (quarterly):
 - **January 1-20:** Modelo 210 for Q4
 - **April 1-20:** Modelo 210 for Q1
 - **July 1-20:** Modelo 210 for Q2
@@ -285,7 +285,7 @@ Within 4 months, you must file the actual sale via Modelo 210. Then you will eit
 
 ---
 
-## What Happens If You Don't Pay?
+## What happens if you don't pay?
 
 Spanish authorities have effective systems for tracking non-payment.
 
@@ -297,7 +297,7 @@ Spanish authorities have effective systems for tracking non-payment.
 | **IRNR (Modelo 210)** | Fines from €100 to 50% of tax owed, interest, sale problems |
 | **At Sale** | Buyer must obtain tax compliance certificate; sale cannot proceed without it |
 
-### Statute of Limitations
+### Statute of limitations
 
 - **General limit:** 4 years from deadline
 - Example: IRNR for 2020 (deadline 31/12/2021) expires 31/12/2025
@@ -306,7 +306,7 @@ Spanish authorities have effective systems for tracking non-payment.
 
 ---
 
-## Should You Use a Fiscal Representative?
+## Should you use a fiscal representative?
 
 A *fiscal representative* handles your Spanish tax obligations on your behalf.
 
@@ -317,7 +317,7 @@ A *fiscal representative* handles your Spanish tax obligations on your behalf.
 ✅ Alerts you to law changes
 ✅ Can sign documents on your behalf (with power of attorney)
 
-### When Is It Recommended?
+### When is it recommended?
 
 Strongly recommended if:
 - You don't speak Spanish
@@ -338,31 +338,31 @@ For most foreign property owners, €200-300 annually is a sensible investment f
 
 ---
 
-## Practical Tips for Foreign Property Owners
+## Practical tips for foreign property owners
 
-### 1. Open a Spanish Bank Account
+### 1. Open a Spanish bank account
 Makes life much easier:
 - Automatic IBI payments
 - Easier Modelo 210 payments
 - Avoid currency conversion costs
 
-### 2. Keep All Receipts
+### 2. Keep all receipts
 Especially important if you plan to sell:
 - Purchase costs
 - Renovation expenses
 - Maintenance
 - These can significantly reduce your capital gains tax
 
-### 3. Check Your Cadastral Value
+### 3. Check your cadastral value
 Visit [Sede Electrónica del Catastro](https://www1.sedecatastro.gob.es/) and verify:
 - Valuation is correct
 - When it was last revised (important for IRNR calculation)
 - No unregistered changes
 
-### 4. Consider Your Status
+### 4. Consider your status
 If you spend more than 183 days per year in Spain, you may be a tax resident without knowing it! This changes all your tax obligations.
 
-### 5. Plan Sales Carefully
+### 5. Plan sales carefully
 If considering selling:
 - Start planning 6-12 months ahead
 - Get the property valued
@@ -372,7 +372,7 @@ If considering selling:
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Do I have to pay both IBI and Modelo 210?
 Yes, these are two different taxes. IBI is municipal property tax (paid by everyone), while Modelo 210 (IRNR) is state non-resident income tax (only for non-residents). Both must be paid annually.

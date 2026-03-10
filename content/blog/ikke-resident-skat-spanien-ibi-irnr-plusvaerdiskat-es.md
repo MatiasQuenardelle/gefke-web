@@ -24,7 +24,7 @@ Esta guía proporciona una visión completa de los tres tipos de impuestos, cóm
 
 ---
 
-## Resumen: Los Tres Impuestos que Debes Pagar como No Residente
+## Resumen: los tres impuestos que debes pagar como no residente
 
 Como propietario no residente en España, tienes tres obligaciones fiscales principales:
 
@@ -38,7 +38,7 @@ Examinemos cada tipo de impuesto y qué significa para ti como propietario extra
 
 ---
 
-## IBI - Impuesto sobre Bienes Inmuebles
+## IBI - impuesto sobre bienes inmuebles
 
 ### ¿Qué es el IBI?
 
@@ -46,7 +46,7 @@ IBI significa *Impuesto sobre Bienes Inmuebles* y es el impuesto municipal sobre
 
 > **Importante:** Todos los propietarios pagan IBI - tanto residentes como no residentes. Es un impuesto municipal, por lo que las tarifas varían entre municipios.
 
-### Cómo se Calcula el IBI
+### Cómo se calcula el IBI
 
 El IBI se calcula basándose en el **valor catastral** de la propiedad, que es una valoración oficial del gobierno. El valor catastral es típicamente el 40-60% del valor de mercado.
 
@@ -65,7 +65,7 @@ IBI = Valor Catastral × Tipo Municipal (0,4% - 1,1%)
 
 La mayoría de propietarios de viviendas vacacionales pagan entre €300-800 anuales de IBI, dependiendo del tamaño y ubicación de la propiedad.
 
-### Pago y Plazos
+### Pago y plazos
 
 El IBI se cobra una vez al año por tu ayuntamiento. El plazo varía pero típicamente es entre septiembre y noviembre.
 
@@ -76,7 +76,7 @@ El IBI se cobra una vez al año por tu ayuntamiento. El plazo varía pero típic
 
 > **💰 Consejo:** Incluso con domiciliación configurada, verifica que los pagos se realicen. Pueden ocurrir errores técnicos, y tú sigues siendo responsable del pago puntual.
 
-### ¿Qué Pasa si No Recibes la Factura?
+### ¿Qué pasa si no recibes la factura?
 
 Muchos no residentes no reciben su factura de IBI porque el ayuntamiento la envía a una dirección antigua.
 
@@ -87,7 +87,7 @@ Muchos no residentes no reciben su factura de IBI porque el ayuntamiento la env�
 - Solicita facturación electrónica
 - Considera usar un representante fiscal
 
-### Consecuencias del Impago
+### Consecuencias del impago
 
 Si no pagas el IBI a tiempo:
 
@@ -100,7 +100,7 @@ Si no pagas el IBI a tiempo:
 
 ---
 
-## IRNR - Impuesto sobre la Renta de No Residentes (Modelo 210)
+## IRNR - impuesto sobre la renta de no residentes (Modelo 210)
 
 ### ¿Qué es el IRNR?
 
@@ -108,7 +108,7 @@ IRNR significa *Impuesto sobre la Renta de No Residentes*. Este impuesto aplica 
 
 **El concepto:** Las autoridades fiscales españolas asumen que obtienes un beneficio económico por poseer una propiedad en España (aunque no la alquiles), y por tanto gravan esta renta "ficticia".
 
-### ¿Quién Debe Pagar el IRNR?
+### ¿Quién debe pagar el IRNR?
 
 ✅ No residentes con propiedades en España
 ✅ Independientemente de si la propiedad es de uso personal o está vacía
@@ -118,7 +118,7 @@ IRNR significa *Impuesto sobre la Renta de No Residentes*. Este impuesto aplica 
 - Estás registrado como residente fiscal en España (más de 183 días/año)
 - Pagas IRPF ordinario
 
-### Cómo Calcular el IRNR - Paso a Paso
+### Cómo calcular el IRNR - paso a paso
 
 El IRNR se calcula en dos pasos:
 
@@ -138,7 +138,7 @@ Esto depende de cuándo se revisó por última vez el valor catastral de la prop
 | Ciudadanos UE/EEE | 19% |
 | Ciudadanos No UE | 24% |
 
-### Ejemplo Práctico
+### Ejemplo práctico
 
 **Detalles de la Propiedad:**
 - Valor Catastral: €120.000
@@ -169,7 +169,7 @@ El IRNR se declara y paga mediante el formulario "Modelo 210". Esto debe hacerse
 
 > **💡 Consejo:** Muchos no residentes usan un *gestor* o abogado para manejar esta presentación. Típicamente cuesta €50-100 anuales pero asegura que todo sea correcto.
 
-### Normas Especiales para Ingresos por Alquiler
+### Normas especiales para ingresos por alquiler
 
 Si alquilas tu propiedad, la tributación cambia significativamente:
 
@@ -191,11 +191,11 @@ Si alquilas tu propiedad, la tributación cambia significativamente:
 
 ---
 
-## Impuesto sobre Plusvalía al Vender
+## Impuesto sobre Plusvalía al vender
 
 Al vender tu propiedad española como no residente, aplican dos tipos de impuestos sobre plusvalía:
 
-### 1. Impuesto Estatal sobre Ganancias Patrimoniales
+### 1. Impuesto estatal sobre ganancias patrimoniales
 
 El impuesto estatal sobre ganancias patrimoniales se calcula sobre el beneficio de la venta.
 
@@ -234,7 +234,7 @@ Ganancia = Precio de Venta - Precio de Compra - Gastos Documentados
 - Últimos €5.000 × 23% = €1.150
 - **Total: €11.530**
 
-### 2. Plusvalía Municipal (Impuesto sobre el Incremento del Valor de los Terrenos)
+### 2. Plusvalía municipal (impuesto sobre el incremento del valor de los terrenos)
 
 La plusvalía municipal grava el supuesto incremento del **valor del suelo** (no la construcción) durante tu período de propiedad.
 
@@ -247,7 +247,7 @@ El cálculo es complejo y se basa en:
 
 > **📋 Nota:** Tras una sentencia del Tribunal Supremo de 2021, puedes evitar la plusvalía municipal si demuestras que no hubo incremento real del valor del suelo.
 
-### La Retención del 3% para No Residentes
+### La retención del 3% para no residentes
 
 Aquí hay un detalle importante que muchos no residentes desconocen:
 
@@ -269,7 +269,7 @@ Dentro de 4 meses, debes presentar la venta real vía Modelo 210. Entonces:
 
 ---
 
-## Calendario Fiscal Anual para No Residentes
+## Calendario fiscal anual para no residentes
 
 | Período | Obligación |
 |---------|------------|
@@ -277,7 +277,7 @@ Dentro de 4 meses, debes presentar la venta real vía Modelo 210. Entonces:
 | **Septiembre-Noviembre** | La mayoría de ayuntamientos cobran IBI |
 | **31 Diciembre** | Plazo para Modelo 210 (IRNR del año anterior) |
 
-### Si Alquilas (Trimestral):
+### Si alquilas (trimestral):
 - **1-20 Enero:** Modelo 210 para T4
 - **1-20 Abril:** Modelo 210 para T1
 - **1-20 Julio:** Modelo 210 para T2
@@ -285,7 +285,7 @@ Dentro de 4 meses, debes presentar la venta real vía Modelo 210. Entonces:
 
 ---
 
-## ¿Qué Pasa si No Pagas?
+## ¿Qué pasa si no pagas?
 
 Las autoridades españolas tienen sistemas efectivos para rastrear impagos.
 
@@ -306,7 +306,7 @@ Las autoridades españolas tienen sistemas efectivos para rastrear impagos.
 
 ---
 
-## ¿Deberías Usar un Representante Fiscal?
+## ¿Deberías usar un representante fiscal?
 
 Un *representante fiscal* gestiona tus obligaciones fiscales españolas en tu nombre.
 
@@ -317,7 +317,7 @@ Un *representante fiscal* gestiona tus obligaciones fiscales españolas en tu no
 ✅ Te alerta de cambios legislativos
 ✅ Puede firmar documentos en tu nombre (con poder)
 
-### ¿Cuándo se Recomienda?
+### ¿Cuándo se recomienda?
 
 Muy recomendable si:
 - No hablas español
@@ -338,31 +338,31 @@ Para la mayoría de propietarios extranjeros, €200-300 anuales es una inversi�
 
 ---
 
-## Consejos Prácticos para Propietarios Extranjeros
+## Consejos prácticos para propietarios extranjeros
 
-### 1. Abre una Cuenta Bancaria Española
+### 1. Abre una cuenta bancaria española
 Facilita mucho la vida:
 - Pagos automáticos de IBI
 - Pagos más fáciles del Modelo 210
 - Evita costes de conversión de divisas
 
-### 2. Guarda Todos los Recibos
+### 2. Guarda todos los recibos
 Especialmente importante si planeas vender:
 - Gastos de compra
 - Gastos de reforma
 - Mantenimiento
 - Pueden reducir significativamente tu impuesto sobre ganancias
 
-### 3. Verifica tu Valor Catastral
+### 3. Verifica tu valor catastral
 Visita [Sede Electrónica del Catastro](https://www1.sedecatastro.gob.es/) y verifica:
 - La valoración es correcta
 - Cuándo se revisó por última vez (importante para el cálculo del IRNR)
 - No hay cambios sin registrar
 
-### 4. Considera tu Situación
+### 4. Considera tu situación
 Si pasas más de 183 días al año en España, ¡podrías ser residente fiscal sin saberlo! Esto cambia todas tus obligaciones fiscales.
 
-### 5. Planifica las Ventas Cuidadosamente
+### 5. Planifica las ventas cuidadosamente
 Si consideras vender:
 - Empieza a planificar 6-12 meses antes
 - Obtén una valoración de la propiedad
@@ -372,7 +372,7 @@ Si consideras vender:
 
 ---
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ### ¿Tengo que pagar tanto IBI como Modelo 210?
 Sí, son dos impuestos diferentes. El IBI es impuesto municipal sobre bienes inmuebles (lo paga todo el mundo), mientras que el Modelo 210 (IRNR) es impuesto estatal sobre la renta de no residentes (solo para no residentes). Ambos deben pagarse anualmente.

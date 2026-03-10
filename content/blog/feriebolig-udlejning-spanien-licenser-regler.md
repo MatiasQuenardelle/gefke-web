@@ -212,7 +212,7 @@ Selvom processen varierer mellem regioner, følger de fleste dette mønster:
 - Overhol alle regler
 - Opdater ved ændringer
 
-### Nødvendige Dokumenter (Typisk Liste)
+### Nødvendige dokumenter (typisk liste)
 
 **Personlige dokumenter:**
 - □ Kopi af dit **NIE** eller DNI
@@ -241,7 +241,7 @@ Selvom processen varierer mellem regioner, følger de fleste dette mønster:
 - □ Foto af aircondition
 - □ Foto af brandslukker og førstehjælpskasse
 
-## Regionale Forskelle - Oversigt
+## Regionale forskelle - oversigt
 
 Reglerne varierer betydeligt mellem Spaniens autonome regioner. Her er oversigten for de mest populære områder blandt danske boligejere:
 
@@ -383,7 +383,7 @@ Reglerne varierer betydeligt mellem Spaniens autonome regioner. Her er oversigte
 
 **Bøder:** 6.000-600.000 EUR
 
-### Kanariske Øer (Tenerife, Gran Canaria, Lanzarote)
+### Kanariske øer (Tenerife, Gran Canaria, Lanzarote)
 
 **Licenstype:** VV (*Vivienda Vacacional*)
 
@@ -408,11 +408,11 @@ Reglerne varierer betydeligt mellem Spaniens autonome regioner. Her er oversigte
 
 **Bøder:** 2.000-400.000 EUR
 
-## Trin 3: Skattemæssige Forpligtelser
+## Trin 3: Skattemæssige forpligtelser
 
 Når du udlejer din spanske feriebolig, får du en række nye skatteforpligtelser - både i Spanien og Danmark.
 
-### Spansk Skat af Lejeindtægter
+### Spansk skat af lejeindtægter
 
 Som ikke-resident der udlejer skal du betale spansk skat via **Modelo 210** - kvartalsvis!
 
@@ -460,7 +460,7 @@ Skat (19%): 1.672 EUR årligt
 
 **VIGTIGT:** Du kan maksimalt trække 50% af bruttoindtægterne fra. I eksemplet ovenfor er udgifter på 6.200 EUR = 41% af indtægter, så det er OK.
 
-### Modelo 210 - Kvartalsvis Indberetning
+### Modelo 210 - kvartalsvis indberetning
 
 **Frister:**
 - **1. kvartal (jan-mar):** Indberet og betal senest 20. april
@@ -470,13 +470,13 @@ Skat (19%): 1.672 EUR årligt
 
 **Vigtig anbefaling:** Brug en *gestor* eller *asesor fiscal* til dette. Det koster 50-100 EUR per kvartal, men sikrer korrekt indberetning og maksimerer dine fradrag.
 
-### Moms (IVA) på Udlejning?
+### Moms (IVA) på udlejning?
 
 **Generel regel:** Udlejning af feriebolig er **momsfri** (undtagelse fra moms).
 
 **Undtagelse:** Hvis du leverer **hotel-lignende services** (daglig rengøring, morgenmad, concierge), kan det blive momspligtigt. Dette er sjældent for private udlejere.
 
-### Dansk Skat af Spansk Lejeindkomst
+### Dansk skat af spansk lejeindkomst
 
 Hvis du er fuldt skattepligtig i Danmark, skal du **også** selvangive din spanske lejeindtægt i Danmark.
 
@@ -497,7 +497,7 @@ Nej! Danmark giver **lempelse** for den spanske skat du har betalt (ligningslove
 
 ## Platforme: Airbnb, Booking.com osv.
 
-### Krav om Licensnummer i Annoncer
+### Krav om licensnummer i annoncer
 
 **Lovkrav i alle regioner:**
 Du SKAL vise dit licensnummer (f.eks. VFT/MA/12345) i din annonce.
@@ -516,7 +516,7 @@ Du SKAL vise dit licensnummer (f.eks. VFT/MA/12345) i din annonce.
 - Bøder fra myndighederne
 - Platformene rapporterer til myndigheder (i nogle regioner)
 
-### Indberetningspligt til Myndigheder
+### Indberetningspligt til myndigheder
 
 I flere regioner skal du indberette **gæsteoplysninger** til politiet.
 
@@ -536,7 +536,7 @@ I flere regioner skal du indberette **gæsteoplysninger** til politiet.
 - Bøder fra 300 EUR og opefter
 - Gentagne overtrædelser kan føre til tab af licens
 
-## Hvad Koster Det at Blive Lovlig?
+## Hvad koster det at blive lovlig?
 
 Lad os være ærlige: At drive lovlig turistudlejning koster penge. Her er en realistisk oversigt:
 
@@ -554,7 +554,7 @@ Lad os være ærlige: At drive lovlig turistudlejning koster penge. Her er en re
 | **Energimærke** (hvis ikke har) | 150-300 EUR |
 | **Total engangsomkostning** | **1.320-3.500 EUR** |
 
-### Årlige Driftsudgifter
+### Årlige driftsudgifter
 
 | Udgift | Estimat |
 |--------|---------|
@@ -580,13 +580,13 @@ Total: 6.450 EUR årligt
 **Ved indtægter på 15.000 EUR bliver nettoresultatet:**
 15.000 - 6.450 - 1.672 (skat) = **6.878 EUR årligt** (før danske skatter)
 
-## Konsekvenser Ved Ulovlig Udlejning
+## Konsekvenser ved ulovlig udlejning
 
 Mange tænker: "Hvad er risikoen egentlig? Kan de overhovedet opdage det?"
 
 Sandheden er: **Ja, de kan - og de gør.**
 
-### Hvordan Opdages Ulovlig Udlejning?
+### Hvordan opdages ulovlig udlejning?
 
 **1. Platformskontrol:**
 - Airbnb og Booking.com er forpligtet til at tjekke licensnumre
@@ -608,7 +608,7 @@ Sandheden er: **Ja, de kan - og de gør.**
 - Strøm- og vandforbrug der indikerer turistudlejning
 - Platform-data (i nogle regioner har myndigheder adgang)
 
-### Bøder og Sanktioner
+### Bøder og sanktioner
 
 Bøderne varierer mellem regioner, men her er typiske satser:
 
@@ -633,7 +633,7 @@ Bøderne varierer mellem regioner, men her er typiske satser:
 - Bøder op til **600.000 EUR** er mulige (men sjældne)
 - Dette ved gentagne, grove overtrædelser med stor kommerciel aktivitet
 
-### Andre Konsekvenser
+### Andre konsekvenser
 
 **Økonomiske:**
 - **Skattemæssige:** Skattevæsenet kan kræve efterbetaling af alle skatter de estimerer du burde have betalt
@@ -645,7 +645,7 @@ Bøderne varierer mellem regioner, men her er typiske satser:
 - **Naboer:** Kan kræve erstatning for værdiforringelse
 - **Køber:** Hvis du sælger ejendommen med ulovlig udlejning, kan køber kræve kompensation
 
-### Virkelige Eksempler
+### Virkelige eksempler
 
 **Barcelona 2023:**
 - 478 bøder uddelt for ulovlig turistudlejning
@@ -662,18 +662,18 @@ Bøderne varierer mellem regioner, men her er typiske satser:
 - 600+ annoncer fjernet fra Airbnb
 - Bøder på samlet 8 millioner EUR
 
-## Alternativ: Langtidsudlejning
+## Alternativ: langtidsudlejning
 
 Hvis de strenge regler for turistudlejning afskrækker dig, kan langtidsudlejning være et alternativ.
 
-### Hvad er Langtidsudlejning?
+### Hvad er langtidsudlejning?
 
 **Definition:**
 - Lejekontrakt på **minimum 12 måneder** (i praksis ofte 11 måneder + fornyelse)
 - Til permanent beboelse (ikke ferie)
 - Med almindelig lejekontrakt (*contrato de arrendamiento*)
 
-### Fordele ved Langtidsudlejning
+### Fordele ved langtidsudlejning
 
 **1. Færre Regler:**
 - ✅ Ingen turistlicens påkrævet
@@ -690,7 +690,7 @@ Hvis de strenge regler for turistudlejning afskrækker dig, kan langtidsudlejnin
 - ✅ **Årlig** indberetning (ikke kvartalsvis)
 - ✅ Ofte større fradrag (60% standard-fradrag for ikke-residenter)
 
-### Ulemper ved Langtidsudlejning
+### Ulemper ved langtidsudlejning
 
 **1. Lavere Indtægt:**
 - Langtidsleje: 600-1.000 EUR/måned
@@ -704,7 +704,7 @@ Hvis de strenge regler for turistudlejning afskrækker dig, kan langtidsudlejnin
 - ❌ Du kan ikke selv bruge boligen når du vil
 - ❌ Typisk kun mellem lejeperioder
 
-### Skattemæssig Behandling
+### Skattemæssig behandling
 
 **For ikke-residenter:**
 - Lejeindtægt beskattes med **19%** (EU-borgere)
@@ -723,7 +723,7 @@ Nettoindtægt: 8.870 EUR/år (før danske skatter)
 
 **Fordel:** Meget simpel administration og forudsigelig økonomi.
 
-## Tjekliste: Før Du Udlejer
+## Tjekliste: før du udlejer
 
 Brug denne tjekliste til at sikre du gør tingene rigtigt:
 
@@ -821,7 +821,7 @@ Har du spørgsmål om ferieudlejning? [Kontakt mig](/kontakt) for en uforpligten
 - [Agencia Tributaria - Modelo 210](https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G322.shtml) - Ikke-resident skat
 - [Policía Nacional - Registrering af gæster](https://webpol.policia.es/e-hotel/) - Gæsteindberetning
 
-## Ofte Stillede Spørgsmål (FAQ)
+## Ofte stillede spørgsmål (FAQ)
 
 ### Må jeg udleje min feriebolig uden turistlicens bare et par uger om året?
 Nej, gentagen udlejning - selv kun et par uger - kræver turistlicens i næsten alle regioner. En enkelt udlejning kan måske ikke sanktioneres, men gentagne udlejninger (f.eks. flere gange på Airbnb) opdages næsten altid og kan give bøder på 10.000-40.000 EUR.

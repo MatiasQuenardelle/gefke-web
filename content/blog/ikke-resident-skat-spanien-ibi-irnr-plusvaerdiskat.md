@@ -365,7 +365,7 @@ Et vigtigt spørgsmål mange danske boligejere stiller: Skal jeg også betale sk
 
 **Svaret er:** Det kommer an på situationen.
 
-### Hvis du er fuldt skattepligtig til Danmark
+### Hvis du er fuldt skattepligtig til Danmark:
 - **Ja**, du skal indberette ejendommen i din danske selvangivelse
 - Danmark beskatter imputeret lejeværdi (ligesom for dansk ejendom)
 - Du kan få **lempelse** for den spanske skat du har betalt (credit-metoden)
@@ -392,11 +392,11 @@ Disse skatter er ikke høje sammenlignet med danske ejendomsskatter, men konsekv
 - Gem alle kvitteringer fra køb og forbedringer
 - Planlæg salg nøje for at minimere plusværdiskat
 
-## Eksempel fra Praksis
+## Eksempel fra praksis
 
 En dansk familie kontaktede mig i 2023, fordi de havde købt en lejlighed i Torrevieja i 2018, men aldrig indsendt Modelo 210 - de vidste simpelthen ikke, at det var nødvendigt. Ved gennemgang viste det sig, at de skyldte 5 års IRNR plus renter og tillæg. Vi fik ordnet hele situationen med det spanske skattevæsen, men den samlede regning løb op i over 2.500 EUR - mod de ca. 1.250 EUR det ville have kostet, hvis de havde betalt korrekt fra starten. Lektionen er klar: Få styr på skatterne fra dag ét.
 
-## Eksterne Ressourcer
+## Eksterne ressourcer
 
 For officielle oplysninger om spansk skat for ikke-residenter, se:
 
@@ -412,7 +412,7 @@ Jeg hjælper danske boligejere med at navigere i det spanske skattesystem. Jeg k
 - WhatsApp: [+45 93 84 18 22](https://wa.me/4593841822)
 - Email: cbgefke@gmail.com
 
-## Ofte Stillede Spørgsmål (FAQ)
+## Ofte stillede spørgsmål (FAQ)
 
 ### Skal jeg betale både IBI og Modelo 210?
 Ja, det er to forskellige skatter. IBI er kommunal ejendomsskat (som alle betaler), mens Modelo 210 (IRNR) er statslig ikke-resident indkomstskat (kun for ikke-residenter). Begge skal betales årligt.

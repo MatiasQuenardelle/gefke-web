@@ -30,9 +30,9 @@ Esta guía completa te da una visión general de:
 
 ---
 
-## La Nueva Realidad: Normas Estrictas desde 2023-2025
+## La nueva realidad: normas estrictas desde 2023-2025
 
-### ¿Por Qué Se Han Endurecido las Normas?
+### ¿Por qué se han endurecido las normas?
 
 España ha experimentado una explosión en turismo y alquiler a corto plazo a través de plataformas como Airbnb. En destinos populares como Barcelona, Málaga, Valencia y las Islas Baleares, esto ha llevado a:
 
@@ -51,7 +51,7 @@ España ha experimentado una explosión en turismo y alquiler a corto plazo a tr
 
 **Resultado:** Se ha vuelto significativamente más difícil (pero no imposible) alquilar legalmente. Al mismo tiempo, el riesgo del alquiler ilegal ha aumentado notablemente.
 
-### ¿Qué Cuenta como "Alquiler Turístico"?
+### ¿Qué cuenta como "alquiler turístico"?
 
 El alquiler turístico (*vivienda turística* o *vivienda de uso turístico*) se define generalmente como:
 
@@ -68,11 +68,11 @@ El alquiler turístico (*vivienda turística* o *vivienda de uso turístico*) se
 
 ---
 
-## Paso 1: Comprueba Si Tu Propiedad Puede Alquilarse
+## Paso 1: Comprueba si tu propiedad puede alquilarse
 
 Antes de empezar el proceso de solicitar licencias, debes asegurarte de que tu propiedad PUEDE alquilarse.
 
-### Aprobación de la Comunidad de Propietarios - NUEVO REQUISITO CRÍTICO
+### Aprobación de la comunidad de propietarios - NUEVO REQUISITO CRÍTICO
 
 **Cambio de Ley 2023:** Una nueva ley (*Ley de Vivienda*) dio a las comunidades de propietarios el derecho a prohibir o restringir el alquiler turístico.
 
@@ -97,7 +97,7 @@ Tu *Comunidad de Propietarios* ahora puede:
 
 Muchos compradores descubren demasiado tarde que la comunidad de propietarios ha prohibido el alquiler. No puedes exigir que esto se revierta, y tu inversión puede perderse.
 
-### Restricciones de Zona y Planes Locales
+### Restricciones de zona y planes locales
 
 Además de las normas de la comunidad de propietarios, puede haber **regulaciones de zonificación municipales o regionales** que restrinjan o prohíban el alquiler turístico.
 
@@ -118,11 +118,11 @@ Además de las normas de la comunidad de propietarios, puede haber **regulacione
 
 ---
 
-## Paso 2: Solicita la Licencia Turística
+## Paso 2: Solicita la licencia turística
 
 Si tu propiedad PUEDE alquilarse (aprobada por la comunidad de propietarios y no en zona prohibida), el siguiente paso es solicitar la licencia turística requerida.
 
-### ¿Qué es la Licencia Turística?
+### ¿Qué es la licencia turística?
 
 La licencia turística es un **permiso oficial** de tu gobierno regional para operar alquiler turístico.
 
@@ -143,7 +143,7 @@ La licencia turística es un **permiso oficial** de tu gobierno regional para op
 - Mostrarse en la entrada de la propiedad
 - Indicarse en los contratos de alquiler
 
-### Requisitos para la Propiedad
+### Requisitos para la propiedad
 
 Para obtener una licencia turística, tu propiedad debe cumplir varios **requisitos mínimos**. Estos varían ligeramente entre regiones, pero los requisitos generales incluyen:
 

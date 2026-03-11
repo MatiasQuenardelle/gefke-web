@@ -14,7 +14,8 @@ const Footer = () => {
                 alt="Buxton-Gefke Law"
                 width={32}
                 height={32}
-                className="brightness-0 invert"
+                className="rounded"
+                style={{ background: "white", padding: "2px" }}
               />
               <h3 className="font-semibold text-white text-sm uppercase tracking-wider">
                 Buxton-Gefke Law

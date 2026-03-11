@@ -176,7 +176,7 @@ Para obtener una licencia turística, tu propiedad debe cumplir varios **requisi
 - ✅ **Limpieza profesional** entre huéspedes
 - ✅ **Ropa de cama limpia** para cada huésped
 
-### Proceso de Solicitud - Visión General
+### Proceso de solicitud - visión general
 
 Aunque el proceso varía entre regiones, la mayoría sigue este patrón:
 
@@ -188,7 +188,7 @@ Aunque el proceso varía entre regiones, la mayoría sigue este patrón:
 | **4. Aprobación** | - | Recibir licencia con número único; registrarse en registro de turismo; ya se puede anunciar legalmente |
 | **5. Cumplimiento Continuo** | Continuo | Renovar licencia (si es necesario); cumplir todas las normas; actualizar ante cambios |
 
-### Documentos Requeridos (Lista Típica)
+### Documentos requeridos (lista típica)
 
 **Documentos Personales:**
 - □ Copia de tu **NIE** o DNI
@@ -219,7 +219,7 @@ Aunque el proceso varía entre regiones, la mayoría sigue este patrón:
 
 ---
 
-## Diferencias Regionales - Resumen
+## Diferencias regionales - resumen
 
 Las normas varían significativamente entre las comunidades autónomas de España:
 
@@ -288,7 +288,7 @@ Las normas varían significativamente entre las comunidades autónomas de Españ
 
 ---
 
-## Paso 3: Obligaciones Fiscales
+## Paso 3: Obligaciones fiscales
 
 Cuando alquilas tu vivienda vacacional española, tienes nuevas obligaciones fiscales—tanto en España como en tu país de origen.
 

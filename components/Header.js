@@ -266,17 +266,19 @@ export default function Header() {
 
   return (
     <header className="bg-[#3A5A4E] text-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href={homePath} className="md:ml-10 cursor-pointer flex items-center gap-3">
+      {/* Top bar: logo + language switcher + mobile hamburger */}
+      <div className="max-w-7xl mx-auto px-4 pt-4 pb-2 flex justify-between items-center">
+        <Link href={homePath} className="cursor-pointer flex items-center gap-3">
           <Image
             src="/images/logo.png"
             alt="Buxton-Gefke Law"
-            width={50}
-            height={50}
-            className="brightness-0 invert"
+            width={52}
+            height={52}
+            className="rounded-md"
+            style={{ background: "white", padding: "4px" }}
             priority
           />
-          <span className={`text-2xl font-bold ${merri.className}`}>
+          <span className={`text-xl font-bold ${merri.className} whitespace-nowrap`}>
             Buxton-Gefke Law
           </span>
         </Link>
@@ -291,8 +293,23 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-4 lg:gap-6 md:mr-10 items-center">
+        {/* Language links – desktop only */}
+        <div className="hidden md:flex items-center gap-1">
+          <Link href="/" className="px-1.5 py-0.5 rounded text-sm hover:bg-white/10 transition-colors" title="Dansk">
+            DA
+          </Link>
+          <Link href="/en" className="px-1.5 py-0.5 rounded text-sm hover:bg-white/10 transition-colors" title="English">
+            EN
+          </Link>
+          <Link href="/es" className="px-1.5 py-0.5 rounded text-sm hover:bg-white/10 transition-colors" title="Español">
+            ES
+          </Link>
+        </div>
+      </div>
+
+      {/* Bottom bar: navigation – desktop only */}
+      <nav className="hidden md:block border-t border-white/15">
+        <div className="max-w-7xl mx-auto px-4 flex items-center justify-center gap-1 lg:gap-2">
           {menuItems.map((item, index) => {
             if (!dropdownRefs.current[index]) {
               dropdownRefs.current[index] = []
@@ -326,16 +343,16 @@ export default function Header() {
                   }}
                   aria-expanded={openMenu === index}
                   aria-haspopup="true"
-                  className="flex items-center gap-1 hover:underline px-2 lg:px-4 text-sm lg:text-base whitespace-nowrap"
+                  className="flex items-center gap-1 hover:bg-white/10 transition-colors px-3 lg:px-4 py-3 text-sm whitespace-nowrap"
                 >
                   {item.label}
-                  <span aria-hidden="true">{openMenu === index ? "\u25b4" : "\u25be"}</span>
+                  <span aria-hidden="true" className="text-xs opacity-70">{openMenu === index ? "\u25b4" : "\u25be"}</span>
                 </button>
 
                 {openMenu === index && (
                   <div
                     role="menu"
-                    className="absolute top-full left-0 bg-white text-black rounded shadow-md z-50 min-w-[220px]"
+                    className="absolute top-full left-0 bg-white text-black rounded shadow-lg z-50 min-w-[240px]"
                     onKeyDown={(e) => handleDropdownKeyDown(e, index, item.sub.length)}
                   >
                     {item.sub.map((subItem, subIndex) => (
@@ -345,7 +362,7 @@ export default function Header() {
                         href={subItem.href}
                         role="menuitem"
                         tabIndex={focusedItemIndex === subIndex ? 0 : -1}
-                        className="block px-4 py-2 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm"
+                        className="block px-4 py-2.5 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm"
                       >
                         {subItem.label}
                       </Link>
@@ -355,21 +372,8 @@ export default function Header() {
               </div>
             )
           })}
-
-          {/* Language links */}
-          <div className="flex items-center gap-1 pl-2 border-l border-white/30 ml-2">
-            <Link href="/" className="px-1.5 py-0.5 rounded text-sm hover:bg-white/10 transition-colors" title="Dansk">
-              DA
-            </Link>
-            <Link href="/en" className="px-1.5 py-0.5 rounded text-sm hover:bg-white/10 transition-colors" title="English">
-              EN
-            </Link>
-            <Link href="/es" className="px-1.5 py-0.5 rounded text-sm hover:bg-white/10 transition-colors" title="Espa\u00f1ol">
-              ES
-            </Link>
-          </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (

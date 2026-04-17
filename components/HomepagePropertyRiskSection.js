@@ -2,6 +2,10 @@ import Link from "next/link"
 
 const riskCards = [
   {
+    title: "Finansiering og dokumenter",
+    description: "NIE, bank, fuldmagter og registrering.",
+  },
+  {
     title: "Forældrekøb",
     description: "Ejerskab og struktur på tværs af lande.",
   },
@@ -12,10 +16,6 @@ const riskCards = [
   {
     title: "Kontrakt og due diligence",
     description: "Få styr på hæftelser, tilladelser og vilkår.",
-  },
-  {
-    title: "Finansiering og dokumenter",
-    description: "NIE, bank, fuldmagter og registrering.",
   },
 ]
 

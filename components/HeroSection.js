@@ -39,23 +39,23 @@ export default function HeroSection() {
           <div className="space-y-3 animate-fade-in-up">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium border border-white/20 hover:bg-white/15 transition-all duration-300">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              Set i Berlingske Boligen denne weekend
+              Juridisk rådgivning til danskere i Spanien
             </div>
             <h1
               className={`${merri.className} text-3xl md:text-4xl xl:text-5xl leading-tight animate-slide-in-right text-shadow-lg`}
             >
-              Køb af bolig i Spanien
+              Juridisk og skattemæssig rådgivning
               <br />
               <span className="bg-gradient-to-r from-white via-emerald-200 to-teal-200 bg-clip-text text-transparent animate-glow">
-                er ikke kun et boligkøb
+                ved boligkøb i Spanien
               </span>
             </h1>
           </div>
 
           <p className="max-w-lg text-sm md:text-base text-gray-200 leading-relaxed animate-fade-in-up delay-300 text-shadow">
-            De fleste fejl opstår i samspillet mellem Danmark og Spanien.
+            Små fejl ved boligkøb i Spanien kan blive dyre senere.
             <span className="text-emerald-200 font-medium">
-              {" "}Få afklaret struktur, skat, ejerskab og dokumenter, før du skriver under.
+              {" "}Få styr på struktur, skat, ejerskab og dokumenter i tide.
             </span>
           </p>
 

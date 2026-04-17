@@ -1,4 +1,9 @@
+import path from "path"
+import { fileURLToPath } from "url"
 import bundleAnalyzer from '@next/bundle-analyzer';
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
@@ -8,11 +13,16 @@ const withBundleAnalyzer = bundleAnalyzer({
 const nextConfig = {
   // SEO - Disable trailing slashes to prevent redirect loops
   trailingSlash: false,
+  outputFileTracingRoot: __dirname,
 
   // Performance optimizations
   compress: true, // Enable gzip compression
   poweredByHeader: false, // Remove X-Powered-By header for security
   reactStrictMode: true, // Enable React strict mode for better performance
+
+  turbopack: {
+    root: __dirname,
+  },
 
   // Image optimization
   images: {

@@ -1,4 +1,8 @@
 import HeroSection from "@/components/HeroSection"
+import HomepageMagazineBanner from "@/components/HomepageMagazineBanner"
+import HomepagePropertyRiskSection from "@/components/HomepagePropertyRiskSection"
+import HomepagePropertyProcessSection from "@/components/HomepagePropertyProcessSection"
+import HomepagePropertyAuthoritySection from "@/components/HomepagePropertyAuthoritySection"
 import TrustedBySection from "@/components/TrustedBySection"
 import dynamic from "next/dynamic"
 import { getFAQPageSchema } from "@/lib/structuredData"
@@ -56,13 +60,18 @@ export default function Home() {
       </div>
 
       <div className="relative z-10">
+        <HomepageMagazineBanner />
         <HeroSection />
+        <HomepagePropertyRiskSection />
+        <HomepagePropertyProcessSection />
         <TrustedBySection />
 
         {/* Enhanced visual separation with animated gradient */}
         <div className="h-20 bg-gradient-to-b from-black via-gray-800 to-white relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent animate-shimmer"></div>
         </div>
+
+        <HomepagePropertyAuthoritySection />
 
         {/* Publications Section */}
         <div className="content-visibility-auto">

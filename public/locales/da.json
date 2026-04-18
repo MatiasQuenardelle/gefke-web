@@ -182,9 +182,9 @@
     "section5Item2Strong": "IBI",
     "section5Item3": "Ved salg: gevinstskat +",
     "section5Item3Strong": "3 % tilbageholdelse",
-    "section5Text": "Spanien og Danmark har en",
-    "section5Strong": "dobbeltbeskatningsoverenskomst",
-    "section5Text2": ", som forhindrer dobbeltskat.",
+    "section5Text": "Skatteforhold mellem Spanien og Danmark skal vurderes",
+    "section5Strong": "konkret i begge lande",
+    "section5Text2": ", så du undgår fejl og unødige skattemæssige overraskelser.",
     "section6Title": "6. Centrale skatteformularer",
     "section6Item1Strong": "Modelo 030",
     "section6Item1Text": "– registrering hos spansk SKAT",
@@ -215,8 +215,8 @@
         "answer": "Modelo 720 er en informativ selvangivelse, som alle skattemæssigt hjemmehørende i Spanien skal indsende, hvis de har udenlandske aktiver (bankkonti, værdipapirer eller fast ejendom) til en samlet værdi over 50.000 €. Manglende eller forsinket indsendelse kan medføre alvorlige bøder, så det er vigtigt at overholde fristerne."
       },
       {
-        "question": "Hvordan undgår jeg dobbeltbeskatning mellem Danmark og Spanien?",
-        "answer": "Danmark og Spanien har en dobbeltbeskatningsoverenskomst, som forhindrer, at du beskattes to gange af samme indkomst. Overenskomsten fastlægger, hvilket land der har beskatningsretten til forskellige indtægtstyper. Du skal typisk indsende et skattebopælsbevis (certificado de residencia fiscal) for at dokumentere din skattemæssige status."
+        "question": "Hvordan reducerer jeg risikoen for dobbeltbeskatning mellem Danmark og Spanien?",
+        "answer": "Risikoen for dobbeltbeskatning skal vurderes konkret ud fra din bopæl, indkomsttype og dokumentation i begge lande. Det er ofte nødvendigt at afklare skattemæssigt hjemsted og indsamle relevant dokumentation, herunder eventuelt skattebopælsbevis (certificado de residencia fiscal), før situationen kan vurderes korrekt."
       },
       {
         "question": "Hvad koster det at eje en bolig i Spanien skattemæssigt?",
@@ -900,7 +900,7 @@
       },
       {
         "question": "Skal jeg angive min danske pension til spanske skat?",
-        "answer": "Ja, du skal angive alle indkomsttyper, herunder dansk pension, i din spanske selvangivelse (Modelo 100). Dog er der en dobbeltbeskatningsoverenskomst mellem Danmark og Spanien, som betyder at du normalt kun betaler skat én gang – i Spanien som residenter. Kontakt en skatterådgiver for nøjagtig vejledning baseret på din situation."
+        "answer": "Ja, du skal angive alle indkomsttyper, herunder dansk pension, i din spanske selvangivelse (Modelo 100). Hvordan pensionen beskattes, afhænger af din konkrete situation, herunder skattemæssigt hjemsted og typen af pension. Kontakt en skatterådgiver for præcis vejledning baseret på dine forhold."
       },
       {
         "question": "Kan jeg få adgang til offentlig hjemmepleje i Spanien?",
@@ -1189,11 +1189,11 @@
     "section3Item2": "Dansk holding kan være revisionspligtigt pga. ejerforhold",
     "section3Item3": "Danske revisorer accepterer ofte engelske årsrapporter fra Spanien",
     "section4Title": "4. Løn og skat i Danmark",
-    "section4Text1": "Som dansk skatteborger beskattes du af løn eller udbytte fra dit spanske selskab. Danmark og Spanien har en",
-    "section4Text1Strong": "dobbeltbeskatningsaftale",
-    "section4Text1Text": ", som:",
-    "section4Item1": "Forhindrer dobbeltskatter",
-    "section4Item2": "Muliggør lempelse i den danske skat",
+    "section4Text1": "Som dansk skatteborger beskattes du af løn eller udbytte fra dit spanske selskab. Derfor skal",
+    "section4Text1Strong": "skat og struktur vurderes samlet",
+    "section4Text1Text": ", så du blandt andet får afklaret:",
+    "section4Item1": "Hvor og hvordan indkomsten skal beskattes",
+    "section4Item2": "Om der er grundlag for lempelse eller anden planlægning",
     "section4Text2": "Planlæg udbetalinger i dialog med revisor eller skatterådgiver.",
     "section5Title": "5. Alternativ: Holding i Spanien?",
     "section5Text1": "Du kan alternativt etablere",

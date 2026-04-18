@@ -64,10 +64,7 @@ function getMenuItems(lang) {
       {
         label: "About",
         sub: [
-          { label: "Profile", href: "/en/about" },
           { label: "Bar admission", href: "/en/about" },
-          { label: "Cooperation", href: "/en/about" },
-          { label: "Contact", href: "/en/contact" },
         ],
       },
     ]
@@ -127,10 +124,7 @@ function getMenuItems(lang) {
       {
         label: "Sobre",
         sub: [
-          { label: "Perfil", href: "/es/sobre-mi" },
           { label: "Colegiaci\u00f3n", href: "/es/sobre-mi" },
-          { label: "Colaboraci\u00f3n", href: "/es/sobre-mi" },
-          { label: "Contacto", href: "/es/contacto" },
         ],
       },
     ]
@@ -190,10 +184,7 @@ function getMenuItems(lang) {
     {
       label: "Om Christian Gefke",
       sub: [
-        { label: "Profil", href: "/about" },
         { label: "Advokatbeskikkelse", href: "/about" },
-        { label: "Samarbejde", href: "/about" },
-        { label: "Kontakt", href: "/contact" },
       ],
     },
   ]

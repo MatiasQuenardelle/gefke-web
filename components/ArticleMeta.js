@@ -1,13 +1,20 @@
 import danish from "@/public/locales/da.json"
-
-const t = danish
+import english from "@/public/locales/en.json"
+import spanish from "@/public/locales/es.json"
 
 /**
  * ArticleMeta component - Displays author byline and publication/update dates
  * @param {string} translationKey - Translation key for the page (e.g., "realEstateBuySell")
  * @param {string} author - Author name (default: "Christian Gefke")
+ * @param {string} lang - Language code (defaults to "da")
  */
-export default function ArticleMeta({ translationKey, author = "Christian Gefke" }) {
+export default function ArticleMeta({
+  translationKey,
+  author = "Christian Gefke",
+  lang = "da",
+}) {
+  const t = lang === "en" ? english : lang === "es" ? spanish : danish
+
   // Get dates from translation file
   const datePublished = t[translationKey]?.datePublished || null
   const dateModified = t[translationKey]?.dateModified || null
@@ -17,7 +24,7 @@ export default function ArticleMeta({ translationKey, author = "Christian Gefke"
     if (!dateString) return null
     
     const date = new Date(dateString)
-    const locale = "da" === 'da' ? 'da-DK' : "da" === 'es' ? 'es-ES' : 'en-US'
+    const locale = lang === "da" ? "da-DK" : lang === "es" ? "es-ES" : "en-US"
     
     return date.toLocaleDateString(locale, {
       year: 'numeric',
@@ -59,4 +66,3 @@ export default function ArticleMeta({ translationKey, author = "Christian Gefke"
     </div>
   )
 }
-

@@ -17,25 +17,41 @@ export default function LawChoiceInheritance() {
         currentPage={t.lawChoice.title}
       />
 
-      {/* Hero Image Section */}
-      <section className="relative w-full h-[40vh] min-h-[300px] max-h-[450px] bg-[#3A5A4E]">
+      <section className="relative overflow-hidden bg-[#3A5A4E]">
         <Image
           src="/images/services/family.webp"
           alt={t.lawChoice.title}
           fill
-          className="object-cover opacity-30"
+          className="object-cover opacity-20"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#3A5A4E] to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
-          <div className="mx-auto max-w-4xl">
-            <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-              {t.lawChoice.title}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#20342d]/95 via-[#3A5A4E]/88 to-[#4AA07D]/75" />
+        <div className="relative mx-auto max-w-6xl px-6 py-16 md:px-12 md:py-20">
+          <div className="max-w-4xl">
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-emerald-100 backdrop-blur-sm">
+              <span className="h-2 w-2 rounded-full bg-emerald-300" />
+              International inheritance law
+            </div>
+            <h1 className="mt-6 max-w-3xl text-3xl font-bold leading-tight text-white md:text-5xl">
+              Choice of law in international inheritance cases
             </h1>
-            <p className="mt-4 text-lg text-white/90">
-              {t.lawChoice.subtitle}
+            <p className="mt-5 max-w-2xl text-base leading-7 text-white/85 md:text-lg">
+              When can Danish inheritance law be applied to a foreign estate, and
+              when will the case still be handled abroad?
             </p>
+
+            <div className="mt-8 flex flex-wrap gap-3 text-sm text-white/85">
+              <div className="rounded-full border border-white/10 bg-black/15 px-4 py-2 backdrop-blur-sm">
+                Choice of law
+              </div>
+              <div className="rounded-full border border-white/10 bg-black/15 px-4 py-2 backdrop-blur-sm">
+                Danish inheritance law
+              </div>
+              <div className="rounded-full border border-white/10 bg-black/15 px-4 py-2 backdrop-blur-sm">
+                Cross-border estates
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -43,7 +59,7 @@ export default function LawChoiceInheritance() {
       <main className="bg-gray-50 text-gray-900 px-6 py-12 md:px-16 lg:px-32 font-sans">
         <article className="max-w-4xl mx-auto space-y-10">
 
-          <ArticleMeta translationKey="lawChoice" />
+          <ArticleMeta translationKey="lawChoice" lang="en" />
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-[#4AA07D]">{t.lawChoice.section1Title}</h2>

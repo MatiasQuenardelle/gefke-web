@@ -72,7 +72,7 @@ export default function SpanishHomePage() {
               src="/images/CristianGefke.png"
               alt="Christian Gefke - Abogado español autorizado (abogado)"
               width={350}
-              height={400}
+              height={467}
               className="rounded-2xl shadow-2xl"
               priority
             />

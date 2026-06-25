@@ -145,7 +145,7 @@ export default function HeroSection() {
                   src="/images/CristianGefke.png"
                   alt={t.homepage.hero.imageAlt}
                   width={500}
-                  height={600}
+                  height={667}
                   className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                   priority
                 />
